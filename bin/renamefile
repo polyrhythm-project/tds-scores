@@ -58,6 +58,7 @@ sub checkFilenames {
 		} 
 		$exid = $1;
 		$target = $NAMES{$exid};
+		$target =~ s/\s+//g;
 		next if $target eq $base;
 		print "mv \"$name\"		$target$ext\n";
 	}
@@ -92,6 +93,7 @@ sub changeFilenames {
 		} 
 		$exid = $1;
 		$target = $NAMES{$exid};
+		$target =~ s/\s+//g;
 		next if $target eq $base;
 		print "moving \"$name\"	TO	$target$ext\n";
 		if ($git) {
