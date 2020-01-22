@@ -13,10 +13,10 @@
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *M3/16	*M3/16	*M3/16	*M3/16	*M3/16	*M3/16	*M3/16	*M3/16	*M3/16	*M3/16	*	*M3/16	*	*M3/16	*	*M3/16	*	*M3/16	*	*M3/16	*	*M3/16	*	*M3/16	*	*M3/16	*	*M3/16	*	*M3/16	*M3/16	*M3/16	*M3/16	*M3/16
 *MM150	*MM150	*MM150	*MM150	*MM150	*MM150	*MM150	*MM150	*MM150	*MM150	*	*MM150	*	*MM150	*	*MM150	*	*MM150	*	*MM150	*	*MM150	*	*MM150	*	*MM150	*	*MM150	*	*MM150	*MM150	*MM150	*MM150	*MM150
-=303	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
+=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303	=303
 16FFnLL	16FFnLL	16FnLL	16A#XLL	16A#XLL	16c#XLL	16c#XLL	16c#X	8r	8r	.	8.r	.	8.r	.	16xLL	pp	8.r	.	8r	.	8.r	.	8.r	.	8.r	.	8.r	.	16FFnLL	16A#X 16c#X	8.r	16A#X 16c#X	16d-X
 16EEJJ	16EE	16E	16F#X	16F#X	16A#X	16A#X	16r	.	.	.	.	.	.	.	16x	.	.	.	.	.	.	.	.	.	.	.	.	.	16CCn	16r	.	16r	16r
-16r	16AAnJJ	16AnJJ	16F#JJ	16F#JJ	16A#JJ	16A#JJ	16r	16AAAn^	16AAn^ 16An	p	.	.	.	.	16xJJ	.	.	.	16An^	p	.	.	.	.	.	.	.	.	16AAn^JJ	16r	.	16r	16r
+16r	16AAnJJ	16AnJJ	16F#JJ	16F#JJ	16A#JJ	16A#JJ	16r	16AAAn^	16AAn^ 16An	p p	.	.	.	.	16xJJ	.	.	.	16An^	p	.	.	.	.	.	.	.	.	16AAn^JJ	16r	.	16r	16r
 =304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304	=304
 16r	16DD#XLL	16D#XLL	16FnLL	16FnLL	16A#XLL	16A#XLL	16r	16EEE-X^ 16EE-X	16E-X^	.	8.r	.	8.r	.	16xLL	.	8.r	.	16E-X^	.	8.r	.	16r	.	16r	.	16r	.	16EE-X^	8.r	16r	8.r	8.r
 16CC#XLL	16CC#X	16C#X	16F	16F	16A#	16A#	16A#XLL	16r	16r	.	.	.	.	.	16x	.	.	.	16r	.	.	.	16B-XLL	p	16FLL 16B-X	p	16FLL 16B-X	p	16r	.	16CC#XLL	.	.
@@ -66,8 +66,9 @@
 16r	16r	16r	16ALL	16ALL	16c#XLL	16c#XLL	16ALL 16c#X	16BBB-X^) 16BB-X	8.r	.	16x	.	8.x	.	8.x]	.	16BB-X^	.	16BB-X^	.	8.r	.	8.r	.	8.r	.	8.r	.	16r	16ALL 16c#X	8.r	16ALL 16c#X	16c#XLL
 16GG-XLL	16G-XLL	16G-XLL	16B-X	16B-X	16d#X	16d#X	16B-X 16d#X	16r	.	.	16r	.	.	.	.	.	16r	.	16r	.	.	.	.	.	.	.	.	.	16GG-XLL	16B-X 16d#X	.	16B-X 16d#X	16d#X
 16FFJJ	16FJJ	16FJJ	16c#XJJ	16c#XJJ	16eJJ	16eJJ	16c#XJJ 16e	16r	.	.	16r	.	.	.	.	.	16r	.	16r	.	.	.	.	.	.	.	.	.	16FFJJ	16c#XJJ 16e	.	16c#XJJ 16e	16eJJ
-==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
+!!!system-decoration: [(s1,s2,s3,s4,s5)][(s6,s7,s8,s9,s10,s11)][(s12,s13,s14)]{(s15,s16)}[(s17,s18,s19,s20,s21,s22,s23,s24)]
 !!!CDT: 1908/12/10-1992/04/27
 !!!CBL: Avignon, France
 !!!CDL: Paris, France
@@ -85,6 +86,5 @@
 !!!excerpt-end-measure: 313
 !!!excerpt-start-time: 2:30
 !!!excerpt-end-time: 2:36
-!!!EEV: 2020/01/17
-!!!system-decoration: [(s1,s2,s3,s4,s5)][(s6,s7,s8,s9,s10,s11)][(s12,s13,s14)]{(s15,s16)}[(s17,s18,s19,s20,s21,s22,s23,s24)]
-!!!ONB: Converted from MusicXML on 2020/01/17
+!!!EEV: 2020/01/22
+!!!ONB: Converted from MusicXML on 2020/01/22

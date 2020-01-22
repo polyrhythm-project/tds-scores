@@ -4,16 +4,12 @@
 !!!example: 358
 !!!work: Bar-46
 **kern	**kern	**dynam
-*part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
 *M2/4	*M2/4	*
 *MM121	*MM121	*
-=1	=	=
+=1	=1	=1
 !	!LO:TX:a:B:t=Allegretto,	!
 *^	*	*
 4.G	8G	2r	mf
@@ -220,8 +216,9 @@
 .	.	.	20eJJ)	.
 *v	*v	*	*	*
 *	*v	*v	*
-==	==	==
+=	=	=
 *-	*-	*-
+!!!system-decoration: {(s1,s2)}
 !!!CDT: 1881/03/25-1945/09/26
 !!!CBL: Sînnicolau Mare (Nagyszentmiklós), Romania (Hungary)
 !!!CDL: New York, United States
@@ -239,6 +236,5 @@
 !!!excerpt-end-measure: 20
 !!!excerpt-start-time: 0:00
 !!!excerpt-end-time: 0:25
-!!!EEV: 2020/01/17
-!!!system-decoration: {(s1,s2)}
-!!!ONB: Converted from MusicXML on 2020/01/17
+!!!EEV: 2020/01/22
+!!!ONB: Converted from MusicXML on 2020/01/22

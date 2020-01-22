@@ -15,12 +15,12 @@
 *C:	*	*C:	*	*C:	*	*C:	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 *MM121	*	*MM121	*	*MM121	*	*MM121	*
-=22	=	=	=	=	=	=	=
+=22	=22	=22	=22	=22	=22	=22	=22
 !	!	!	!	!	!	!LO:TX:t=accel.	!
 4%3r	.	4%3r	.	8.r	.	(<12e-XL	>
 .	.	.	.	.	.	12ddnJ	.
 .	.	.	.	.	.	12r	]
-.	.	.	.	32d-XLLL	p	.	.
+.	.	.	.	32d-XLLL	p <	.	.
 .	.	.	.	32cJJJ	.	.	.
 .	.	.	.	32ALLL	.	4r	.
 .	.	.	.	32AA-X	.	.	.
@@ -31,7 +31,7 @@
 .	.	.	.	32BXJJJ	f	.	.
 .	.	.	.	32r	[	.	.
 !	!	!	!	!LO:TX:t=[quarter]=120	!	!LO:TX:t=[quarter]=120	!
-.	.	.	.	4r	.	12ccn^L	f
+.	.	.	.	4r	.	12ccn^L	f >
 .	.	.	.	.	.	12cc^	.
 .	.	.	.	.	.	12cc#X^J	.
 =23	=23	=23	=23	=23	=23	=23	=23
@@ -54,36 +54,36 @@
 !!linebreak:original
 *	*	*	*	*clefG2	*	*	*
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
-4.GG#X^	pp	4.Bn^ 4.f#X	pp	(>12b-L	pp	6een	.
+4.GG#X^	pp >	4.Bn^ 4.f#X	pp >	(>12b-L	pp	6een	.
 .	.	.	.	12G	.	.	.
 .	.	.	.	12e-J	.	6ggn)	.
 *	*	*	*	*clefF4	*	*	*
 .	.	.	.	20dLL	<	.	.
 .	.	.	.	20a-X	.	.	.
-.	.	.	.	.	.	(>6gg#X	<
+.	.	.	.	.	.	(>6gg#X	< [
 .	.	.	.	20A	.	.	.
-8r	[	8r	[	.	.	.	.
+8r	]	8r	]	.	.	.	.
 .	.	.	.	20C	.	.	.
 .	.	.	.	20d-XJJ	[	.	.
 =25	=25	=25	=25	=25	=25	=25	=25
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 !	!	!	!	!	!	!LO:TX:t=rit.	!
-4F#X 4en	p	(>8ee-XL 8gg	f	4FF)	p	8bbnL	.
+4F#X 4en	p >	(>8ee-XL 8gg	f >	4FF)	p >	8bbnL	.
 .	.	8anJ 8ddn	.	.	.	8gg#X	>
-.	.	8qB-X/	p	.	.	.	.
-4r	[	12c#XL)	.	12r	[	8ccn	.
-.	.	(>12bbn	.	12aL	p	.	.
+.	.	8qB-X/	p ]	.	.	.	.
+4r	]	12c#XL)	.	12r	]	8ccn	.
+.	.	(>12bbn	.	12aL	p >	.	.
 .	.	.	.	.	.	8gnJ)	]
 .	.	12fff#XJ	>	12G#XJ	.	.	.
 *	*	*8va	*	*	*	*	*
 !	!	!LO:TX:i:t=verklingend	!	!	!	!	!
-16r	.	16bb-XLL 16aaan	.	16r	[	12r	pp
-16EE-X'LL 16AA-X	p	16bbn 16eeen	.	16d'^LL	pp	.	.
+16r	.	16bb-XLL 16aaan	.	16r	]	12r	pp <
+16EE-X'LL 16AA-X	p >	16bbn 16eeen	.	16d'^LL	pp >	.	.
 .	.	.	.	.	.	12c#XL	.
 16EE-' 16AA-	.	16bbb-X	.	16d'	.	.	.
-.	.	.	.	.	.	12f#XJ	]
+.	.	.	.	.	.	12f#XJ	[
 *	*	*X8va	*	*	*	*	*
-16EE-'JJ 16AA-	[	16ffffnJJ)	]	16d'JJ	[	.	.
+16EE-'JJ 16AA-	]	16ffffnJJ)	]	16d'JJ	]	.	.
 =26	=26	=26	=26	=26	=26	=26	=26
 !!pagebreak:original
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
@@ -113,7 +113,7 @@
 !	!	!	!	!	!	!LO:TX:t=rit.	!
 2r	.	2r	.	16r	.	(<28eenLL	ppp
 .	.	.	.	.	.	28b-X	.
-.	.	.	.	8EE-^T	ppp	.	.
+.	.	.	.	8EE-^T	ppp >	.	.
 .	.	.	.	.	.	28fn	.
 .	.	.	.	.	.	28Bn	.
 .	.	.	.	.	.	28dn	.
@@ -121,8 +121,11 @@
 .	.	.	.	16r	]	.	.
 .	.	.	.	.	.	28g#XJJ)	.
 .	.	.	.	4r	.	4r	.
-==	==	==	==	==	==	==	==
+=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
+!!!system-decoration: s1,s2[(s3,s4)]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
 !!!CDT: 1883/12/03-1945/09/15
 !!!CBL: Vienna, Austria
 !!!CDL: Mittersill, Austria
@@ -140,8 +143,5 @@
 !!!excerpt-end-measure: 27
 !!!excerpt-start-time: 1:00
 !!!excerpt-end-time: 1:19
-!!!EEV: 2020/01/17
-!!!system-decoration: s1,s2[(s3,s4)]
-!!!RDF**kern: > = above
-!!!RDF**kern: < = below
-!!!ONB: Converted from MusicXML on 2020/01/17
+!!!EEV: 2020/01/22
+!!!ONB: Converted from MusicXML on 2020/01/22

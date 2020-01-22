@@ -13,17 +13,17 @@
 *C:	*	*C:	*	*C:	*	*C:	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 *MM121	*	*MM121	*	*MM121	*	*MM121	*
-=61	=	=	=	=	=	=	=
+=61	=61	=61	=61	=61	=61	=61	=61
 2GG	.	2G	.	(8cc~L	>	(4aa	.
 .	.	.	.	8b~J)	.	.	.
 .	.	.	.	4a	.	2gg)	.
-4r	.	4r	.	(4g^	]	.	.
+4r	.	4r	.	(4g^	] > mf	.	.
 *	*	*clefG2	*	*	*	*	*
 =62	=62	=62	=62	=62	=62	=62	=62
 *M5/4	*	*M5/4	*	*M5/4	*	*M5/4	*
 4r	.	4r	.	2cc^) 2ee	.	2.ggg	.
 4G~	f	4g~	f	.	.	.	.
-4G~	.	4g~	.	4g~^ 4dd	]	.	.
+4G~	.	4g~	.	4g~^ 4dd	] p >	.	.
 (8F^L 8A	.	(8f^L 8a	.	4cc~^ 4ee	.	[2ggg	.
 8GJ)	.	8gJ)	.	.	.	.	.
 4G	.	4g	.	4a~^ 4gg	.	.	.
@@ -39,7 +39,7 @@
 .	.	.	.	4g^ 4dd	]]	.	.
 =64	=64	=64	=64	=64	=64	=64	=64
 *M5/4	*	*M5/4	*	*M5/4	*	*M5/4	*
-4D 4d	.	4d 4dd	.	8cc 8ee	]	2ggg]	.
+4D 4d	.	4d 4dd	.	8cc 8ee	.	2ggg]	.
 .	.	.	.	4g 4dd	.	.	.
 4E 4d	<	4e 4dd	<	.	.	.	.
 .	.	.	.	8a 8gg	.	.	.
@@ -50,14 +50,14 @@
 =65	=65	=65	=65	=65	=65	=65	=65
 !!linebreak:original
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
-8GG^L 8A 8e	.	8G^L 8a 8ee	.	8g 8dd	<	2.ggg]	[[
+8GG^L 8A 8e	.	8G^L 8a 8ee	.	8g 8dd	<	2.ggg]	<[
 8cJ	.	8ccJ	.	4cc 4ee	.	.	.
 2G^ 2d	.	2g^ 2dd	.	.	.	.	.
 .	.	.	.	8a 8gg	.	.	.
 .	.	.	.	8bL 8ff	.	.	.
 .	.	.	.	8aJ 8gg	[[	.	.
 =66	=66	=66	=66	=66	=66	=66	=66
-4AA^ 4E 4c	sfz	4A^ 4e 4cc	sfz	8ccL 8ee	[	4ggg~	[
+4AA^ 4E 4c	sfz	4A^ 4e 4cc	sfz	8ccL 8ee	< mf	4ggg~	f
 .	.	.	.	8aJ 8ee	.	.	.
 2GG^ [2D [2B	sfz	2G^ [2d [2b	sfz	8cc 8ee	.	4aaa~	.
 .	.	.	.	4g 4dd	.	.	.
@@ -69,7 +69,7 @@
 .	.	.	.	8aJ 8gg	.	8eee~J)	.
 .	.	.	.	4cc 4ee	[[	4ddd	.
 =68	=68	=68	=68	=68	=68	=68	=68
-2D] 2B]	ff	2d] 2b]	ff	8g^L 8dd	[	(8eeeL	.
+2D] 2B]	ff	2d] 2b]	ff	8g^L 8dd	f	(8eeeL	.
 .	.	.	.	8aJ 8gg	.	8cccJ)	.
 .	.	.	.	8ccL 8ee	.	4ddd	<
 .	.	.	.	8g^J 8dd	.	.	.
@@ -83,14 +83,15 @@
 .	.	.	.	8aL 8gg	.	8fff~L	.
 .	.	.	.	(8ccJ 8ee	.	8eee~J)	.
 =70	=70	=70	=70	=70	=70	=70	=70
-2.D] 2.B]	[[	2.d] 2.b]	[[	8gL) 8dd	.	4ddd	.
+2.D] 2.B]	<[	2.d] 2.b]	<[	8gL) 8dd	.	4ddd	.
 .	.	.	.	8dJ 8cc	.	.	.
 .	.	.	.	8gL 8dd	<	(8eeeL	<
 .	.	.	.	8aJ 8gg	.	8cccJ)	.
 .	.	.	.	(8ccL 8ee	.	(8ccc~L	.
 .	.	.	.	8gJ) 8dd	[	[8ddd~J)	[[
-==	==	==	==	==	==	==	==
+=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
+!!!system-decoration: [(s1,s2,s3,s4)]
 !!!CDT: 1890/12/08-1959/08/28
 !!!CBL: Polička, Bohemia
 !!!CDL: Liestal, Switzerland
@@ -108,6 +109,5 @@
 !!!excerpt-end-measure: 69
 !!!excerpt-start-time: 3:37
 !!!excerpt-end-time: 3:56
-!!!EEV: 2020/01/17
-!!!system-decoration: [(s1,s2,s3,s4)]
-!!!ONB: Converted from MusicXML on 2020/01/17
+!!!EEV: 2020/01/22
+!!!ONB: Converted from MusicXML on 2020/01/22

@@ -15,7 +15,7 @@
 *C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*C:	*
 *M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*M12/8	*
 *MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*MM121	*
-=65	=	=	=	=	=	=	=	=	=	=	=	=
+=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65
 !	!	!LO:TX:t=[quarter]=120	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=120	!
 !	!	!LO:TX:B:t=  Allegro moderato (poco meno mosso)	!	!	!	!	!	!	!	!	!LO:TX:t=128	!
 !	!	!LO:TX:t=arco	!	!	!	!	!	!	!	!	!LO:TX:B:t=  Allegro moderato (poco meno mosso)	!
@@ -112,16 +112,16 @@
 *	*	*	*	*	*	*	*	*	*	*	*v	*v	*
 =71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71
 *M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*M6/8	*
-*	*	*	*	*	*	*	*	*	*	*8va	*	*
+*	*	*	*	*	*	*	*	*	*	*	*8va	*
 !LO:TX:t=div.	!	!	!	!	!	!LO:TX:t=div.	!	!	!	!	!LO:TX:t=68	!
 !LO:TX:t=24	!	!LO:TX:t=24	!	!LO:TX:t=24	!	!LO:TX:t=24	!	!LO:TX:t=24	!	!	!LO:TX:t=68	!
 *	*	*	*	*	*	*	*	*	*	*^	*	*
-2EE-X^v 2E-X	f	2B-X^v	f	2dd^v	f	2g-X^v 2gg-X	f	2bb-X^v	f	8gg-X^L	2.b-X	8dddn^L 8ggg-X 8bbb-X	f
+2EE-X^v 2E-X	f >	2B-X^v	f >	2dd^v	f >	2g-X^v 2gg-X	f	2bb-X^v	f >	8gg-X^L	2.b-X	8dddn^L 8ggg-X 8bbb-X	f
 .	.	.	.	.	.	.	.	.	.	8ff	.	8bb-X	.
 .	.	.	.	.	.	.	.	.	.	8ff-XJ	.	8cccJ 8fff-X 8aaa-X	.
 .	.	.	.	.	.	.	.	.	.	8ee-XL	.	8aa-XL	.
 8ryy	.	8ryy	.	8ryy	.	8ryy	.	8ryy	.	8dd	.	8bb-X 8ddd 8ggg-X	.
-8ryy	[	8ryy	[	8ryy	[	8ryy	.	8ryy	[	8ccJ	.	8gg-XJ	.
+8ryy	]	8ryy	]	8ryy	]	8ryy	.	8ryy	]	8ccJ	.	8gg-XJ	.
 *	*	*	*	*	*	*	*	*	*	*v	*v	*	*
 =72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72
 *M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*M12/8	*
@@ -132,7 +132,7 @@
 .	.	.	.	.	.	.	.	.	.	.	.	8g-X	8bb-X	.
 8ryy	8ryy	.	8ryy	.	8ryy	.	8ryy	8ryy	.	8ryy	.	8gnJ	(>8bbnJ 8eee-X	.
 4d-X~	4D-X~	.	4A-~	.	4cc~	.	4ff-X~	4f-X~	.	4aa-~	.	8a-XL	8cccL 8fff-X)	.
-*	*	*	*	*	*	*	*	*	*	*	*	*X8va	*	*
+*	*	*	*	*	*	*	*	*	*	*	*	*	*X8va	*
 .	.	.	.	.	.	.	.	.	.	.	.	8an	8r	.
 8ryy	8ryy	.	8ryy	.	8ryy	.	8ryy	8ryy	.	8ryy	.	8b-XJ	(>8ffnJ 8bb-X 8dddn	.
 4g-X~	4G-X~	.	4G-X~	.	4cc-X~	.	4ee-X~	4e-X~	.	4gg-X~	.	8cc-XL	8gg-XL 8ccc-X 8eee-X)	.
@@ -142,8 +142,10 @@
 .	.	.	.	.	.	.	.	.	.	.	.	8ee-X	8r	.
 8ryy	8ryy	.	8ryy	.	8ryy	.	8ryy	8ryy	.	8ryy	.	8eenJ	8ggnJ 8cccn	.
 *v	*v	*	*	*	*	*	*v	*v	*	*	*	*	*	*
-==	==	==	==	==	==	==	==	==	==	==	==	==
+=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
+!!!system-decoration: [({(s1,s2)})][(s3,s4,s5,s6,s7)]
+!!!RDF**kern: > = above
 !!!CDT: 1891/04/23-1953/03/05
 !!!CBL: Sontsovka, Ukraine
 !!!CDL: Moscow, Russia
@@ -161,7 +163,5 @@
 !!!excerpt-end-measure: 72
 !!!excerpt-start-time: 2:52
 !!!excerpt-end-time: 3:09
-!!!EEV: 2020/01/17
-!!!system-decoration: [({(s1,s2)})][(s3,s4,s5,s6,s7)]
-!!!RDF**kern: > = above
-!!!ONB: Converted from MusicXML on 2020/01/17
+!!!EEV: 2020/01/22
+!!!ONB: Converted from MusicXML on 2020/01/22

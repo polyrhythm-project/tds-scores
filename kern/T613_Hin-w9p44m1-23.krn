@@ -13,9 +13,9 @@
 *C:	*	*C:	*	*C:	*	*C:	*
 *M2/8	*	*M2/8	*	*M2/8	*	*M2/8	*
 *MM121	*	*MM121	*	*MM121	*	*MM121	*
-=1	=	=	=	=	=	=	=
+=1	=1	=1	=1	=1	=1	=1	=1
 12r	.	12r	.	4r	.	4r	.
-(12CL	<	(12GL	<	.	.	.	.
+(12CL	< f	(12GL	< f	.	.	.	.
 12DJ)	.	12AJ)	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2
 12FL	.	12cL	.	16ccLL	mf	16cccLL	mf
@@ -25,7 +25,7 @@
 12GJ)	[[	12dJ)	[[	.	.	.	.
 .	.	.	.	16aJJ	.	16aaJJ	.
 =3	=3	=3	=3	=3	=3	=3	=3
-12B-XL	[	12fL	[	[4cc	.	[4ccc	.
+12B-XL	.	12fL	.	[4cc	.	[4ccc	.
 (12B-	.	(12f	.	.	.	.	.
 12GJ)	.	12dJ)	.	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4
@@ -58,30 +58,30 @@
 12CCJ) 12GG	[[	12GJ) 12d	[[	.	.	.	.
 .	.	.	.	16aJJ	[[	16aaJJ	[[
 =9	=9	=9	=9	=9	=9	=9	=9
-[4DD [4AA	[	[4F [4c	[	12ccL	[	12cccL	[
+[4DD [4AA	mf	[4F [4c	mf	12ccL	< f	12cccL	< f
 .	.	.	.	(12ff	.	(12ccc	.
 .	.	.	.	12ggJ)	[[	12dddJ)	[[
 =10	=10	=10	=10	=10	=10	=10	=10
-8DDL] 8AA]	.	16FLL] 16c]	.	12aL 12ccc	[	12gggL	[
+8DDL] 8AA]	.	16FLL] 16c]	.	12aL 12ccc	>	12gggL	>
 .	.	16c	.	.	.	.	.
 .	.	.	.	[12a 12ccc	.	(12ggg	.
 8GGJ 8D	.	16d	.	.	.	.	.
-.	.	.	.	12aJ 12bb-X	[[	12fffJ)	[[
+.	.	.	.	12aJ 12bb-X	]]	12fffJ)	]]
 .	.	16AJJ	.	.	.	.	.
 =11	=11	=11	=11	=11	=11	=11	=11
-[4DD [4AA	.	[4C	.	12aL 12ff	[	12cccL	[
+[4DD [4AA	.	[4C	.	12aL 12ff	<	12cccL	<
 .	.	.	.	(12ff	.	(12ccc	.
 .	.	.	.	12ggJ)	[[	12cccJ)	[[
 =12	=12	=12	=12	=12	=12	=12	=12
-8DDL] 8AA]	.	16FLL 16c	.	12aL 12ccc	[	12gggL	[
+8DDL] 8AA]	.	16FLL 16c	.	12aL 12ccc	>	12gggL	>
 .	.	16c	.	.	.	.	.
 .	.	.	.	[12a 12ccc	.	(12ggg	.
 8GGJ 8D	.	16d	.	.	.	.	.
-.	.	.	.	12aJ 12bb-X	[[	12fffJ)	[[
+.	.	.	.	12aJ 12bb-X	]]	12fffJ)	]]
 .	.	16AJJ	.	.	.	.	.
 =13	=13	=13	=13	=13	=13	=13	=13
 !!linebreak:original
-[4DD [4AA	p	[4c	p	12a 12ee	[	12bbL	[
+[4DD [4AA	p	[4c	p	12a 12ee	.	12bbL	.
 .	.	.	.	12r	.	(12dd	mf
 .	.	.	.	12r	.	12eeJ)	.
 =14	=14	=14	=14	=14	=14	=14	=14
@@ -93,14 +93,14 @@
 .	.	16c#XJJ	.	.	.	.	.
 =15	=15	=15	=15	=15	=15	=15	=15
 !LO:TX:t=cresc.	!	!LO:TX:t=cresc.	!	!LO:TX:t=cresc.	!	!LO:TX:t=cresc.	!
-4DD] 4AA]	.	[4d	.	(16ffLL	.	(12bb-XL	[
+4DD] 4AA]	.	[4d	.	(16ffLL	.	(12bb-XL	>
 .	.	.	.	16ee	.	.	.
 .	.	.	.	.	.	12ddd)	.
 .	.	.	.	16dd	.	.	.
-.	.	.	.	.	.	(12aaJ	[[
+.	.	.	.	.	.	(12aaJ	]]
 .	.	.	.	16ccJJ	.	.	.
 =16	=16	=16	=16	=16	=16	=16	=16
-[4GG [4D	.	16dLL]	.	12a)	.	12cccL)	[
+[4GG [4D	.	16dLL]	.	12a)	.	12cccL)	.
 .	.	16c#X	.	.	.	.	.
 .	.	.	.	12r	.	(12gg	.
 .	.	16d	.	.	.	.	.
@@ -111,14 +111,14 @@
 .	.	.	.	(12ggL	.	(12ccc	.
 .	.	.	.	12aaJ)	.	12dddJ)	[[
 =18	=18	=18	=18	=18	=18	=18	=18
-4FF 4C	.	16fLL]	.	(16bb-XLL	.	(12eee-XL	[
+4FF 4C	.	16fLL]	.	(16bb-XLL	.	(12eee-XL	>
 .	.	16e	.	16aa	.	.	.
 .	.	.	.	.	.	12ggg)	.
 .	.	16f	.	16gg	.	.	.
-.	.	.	.	.	.	(12cccJ	[[
+.	.	.	.	.	.	(12cccJ	]]
 .	.	16gJJ	.	16ffJJ	.	.	.
 =19	=19	=19	=19	=19	=19	=19	=19
-[4BB-X [4F	.	[4a-X	.	12dd)	.	12eee-XL)	[
+[4BB-X [4F	.	[4a-X	.	12dd)	.	12eee-XL)	.
 .	.	.	.	12r	.	(12bb-X	.
 .	.	.	.	12r	.	12cccJ)	.
 =20	=20	=20	=20	=20	=20	=20	=20
@@ -149,8 +149,9 @@
 .	.	.	.	16ff	.	.	.
 .	.	.	.	.	.	[12fff#XJ	[[
 .	.	.	.	16ggJJ	[[	.	.
-==	==	==	==	==	==	==	==
+=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
+!!!system-decoration: [(s1,s2,s3,s4)]
 !!!CDT: 1895/11/16-1963/12/28
 !!!CBL: Hanau, Germany
 !!!CDL: Frankfurt, Germany
@@ -168,6 +169,5 @@
 !!!excerpt-end-measure: 23
 !!!excerpt-start-time: 0:00
 !!!excerpt-end-time: 0:11
-!!!EEV: 2020/01/17
-!!!system-decoration: [(s1,s2,s3,s4)]
-!!!ONB: Converted from MusicXML on 2020/01/17
+!!!EEV: 2020/01/22
+!!!ONB: Converted from MusicXML on 2020/01/22

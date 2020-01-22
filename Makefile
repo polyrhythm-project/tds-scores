@@ -1,5 +1,6 @@
 
 
+RDSBIN = ../rds-scores/bin
 
 check: check-sibelius check-musicxml check-pdf check-kern
 
@@ -24,15 +25,18 @@ rename-pdf:
 rename-kern:
 	-(cd kern; ../bin/renamefile -wg *.krn)
 
-
-krn:	humdrum
 kern:	humdrum
+krn:	humdrum
 hum:	humdrum
 humdrum:
 	for i in musicxml/*.xml; \
 	do \
-		musicxml2hum $$i > kern/$$(basename $$i .xml).krn; \
-		echo "!!!ONB: Converted from MusicXML on $$(date +'%Y/%m/%d')" >> kern/$$(basename $$i .xml).krn; \
+		musicxml2hum $$i | extractx --no-rest | $(RDSBIN)/adddummymetadata | $(RDSBIN)/removedoublebarline > kern/$$(basename $$i .xml).krn; \
 	done
-	
+	echo "ADDING *MM LINES (BEFORE RUNNING POLYMETA)"
+	(cd kern; ../$(RDSBIN)/addmmline *.krn)
+	echo "ADDING METADATA INFORMATION TO SCORES"
+	(cd kern; ../$(RDSBIN)/polymeta *.krn >& /dev/null)
+
+
 
