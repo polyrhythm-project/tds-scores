@@ -31,7 +31,11 @@ hum:	humdrum
 humdrum:
 	for i in musicxml/*.xml; \
 	do \
-		musicxml2hum $$i | extractx --no-rest | $(RDSBIN)/adddummymetadata | $(RDSBIN)/removedoublebarline > kern/$$(basename $$i .xml).krn; \
+		musicxml2hum $$i | extractx --no-rest | \
+		   $(RDSBIN)/adddummymetadata | \
+		   $(RDSBIN)/removedoublebarline | \
+		   grep -v "break:original" > \
+		   kern/$$(basename $$i .xml).krn; \
 	done
 	echo "ADDING *MM LINES (BEFORE RUNNING POLYMETA)"
 	(cd kern; ../$(RDSBIN)/addmmline *.krn)
