@@ -43,4 +43,9 @@ humdrum:
 	(cd kern; ../$(RDSBIN)/polymeta *.krn >& /dev/null)
 
 
+xml: utf8
+utf16: utf8
+utf8:
+	(cd musicxml && ../$(RDSBIN)/utf16toutf8 *.xml)
+
 
