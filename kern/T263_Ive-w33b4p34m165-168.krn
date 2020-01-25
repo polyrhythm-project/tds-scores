@@ -15,9 +15,9 @@
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 *MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*
 =165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165
-!LO:TX:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:t=arco	!	!LO:TX:t=arco	!	!LO:TX:t=a3	!	!LO:TX:i:t=  marcato	!	!LO:TX:i:t=  marcato	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:i:t=[shadow]	!	!LO:TX:i:t=[shadow]	!	!	!	!LO:TX:t=[quarter]=120	!
 *^	*	*^	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*^	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+!LO:TX:b:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=arco	!	!	!LO:TX:a:t=arco	!	!	!LO:TX:a:t=a3	!	!LO:TX:b:i:t=  marcato	!	!LO:TX:b:i:t=  marcato	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=[shadow]	!	!LO:TX:b:i:t=[shadow]	!	!	!	!LO:TX:t=[quarter]=120	!
 (>16GG^LL	8GG^^	f ff	(>16GG^LL	8GG^^	f ff	8GL 8B 8d	ff	8g^L 8b 8dd	ff	8d^L 8b 8dd	ff	(<[4GG^	f >	(<8GG^L	f	4r	.	4r	.	8d'L	mp	8aL	8aL	f	8GG^^	f	16GG^LL)	f	8cc#XL)	ff	8eeL	ff	(<8.gL	p	8%3g)	pp	[2bb)	ff	[2ddd	ff
 16BB	.	p	16BB	.	p	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16BBJ	p	.	.	.	.	.	.	.	.	.	.	.	.
 16C#X	8r	.	16C#X	8r	.	8GJ 8B 8d	.	8g^J 8b 8dd	.	8d^J 8b 8dd	.	.	.	8C#XJ	p	.	.	.	.	8d'	.	8aJ	8aJ	.	8r	.	8BB-XJ	.	8cc#J	.	8eeJ	.	.	.	.	.	.	.	.	.
@@ -45,7 +45,7 @@
 16C#LL)	16r	.	16C#LL)	16r	.	.	.	.	.	.	.	32FF#LLL)	p ]	16E-KL])	.	.	.	.	.	8d'	.	.	.	16r	.	16FF#XLL)	.	.	.	.	.	(<8.gL	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	32rJJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 (>16GG^	8GG^^	f	(>16GG^	8GG^^	f	.	.	.	.	.	.	(<[8.GG^J	f >	(>8GG^	f	.	.	.	.	.	.	.	.	8GG^^	.	(<16GG^	f	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!LO:TX:i:t=simile	!	!LO:TX:i:t=simile	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:i:t=simile	!	!LO:TX:a:i:t=simile	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 16BB	.	p	16BB	.	p	8E 8A 8d	.	8c 8d 8a	.	8c 8d 8a	.	.	.	.	.	8r	.	8r	.	8d'J	.	8g 8a	.	.	.	16BBn	p	8ee	.	8bb	.	.	.	.	.	8cc	.	8aa	.
 16C#JJ	16r	.	16C#JJ	16r	.	.	.	.	.	.	.	.	.	[16C#Jk	p	.	.	.	.	.	.	.	.	16r	.	[16BB-XJJ	.	.	.	.	.	16aJk)	.	.	.	.	.	.	.
 =167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167	=167
@@ -104,5 +104,5 @@
 !!!excerpt-end-measure: 168
 !!!excerpt-start-time: 8:26
 !!!excerpt-end-time: 8:32
-!!!EEV: 2020/01/22
-!!!ONB: Converted from MusicXML on 2020/01/22
+!!!EEV: 2020/01/25
+!!!ONB: Converted from MusicXML on 2020/01/25

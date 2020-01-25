@@ -15,12 +15,12 @@
 *M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*M12/8	*
 *MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*MM121	*
 =65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65
-!	!	!LO:TX:t=[quarter]=120	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=120	!
-!	!	!LO:TX:B:t=  Allegro moderato (poco meno mosso)	!	!	!	!	!	!	!	!	!LO:TX:t=128	!
-!	!	!LO:TX:t=arco	!	!	!	!	!	!	!	!	!LO:TX:B:t=  Allegro moderato (poco meno mosso)	!
-!	!	!LO:TX:t=44	!	!	!	!	!	!	!	!	!LO:TX:t=Var. III	!
-!	!	!LO:TX:t=Tutti	!	!	!	!	!	!	!	!	!LO:TX:t=128	!
 *	*	*	*	*	*	*	*	*	*	*^	*^	*
+!	!	!LO:TX:t=[quarter]=120	!	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=120	!	!
+!	!	!LO:TX:a:B:t=  Allegro moderato (poco meno mosso)	!	!	!	!	!	!	!	!	!	!LO:TX:b:t=128	!	!
+!	!	!LO:TX:a:t=arco	!	!	!	!	!	!	!	!	!	!LO:TX:a:B:t=  Allegro moderato (poco meno mosso)	!	!
+!	!	!LO:TX:b:t=44	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=Var. III	!	!
+!	!	!LO:TX:a:t=Tutti	!	!	!	!	!	!	!	!	!	!LO:TX:b:t=128	!	!
 2%3r	.	8C^L	f	2%3r	.	2%3r	.	2%3r	.	8ryy	8CL	8ryy	8eL	.
 .	.	8ryy	.	.	.	.	.	.	.	8ryy	8E-XJ	8ryy	8gJ	.
 .	.	8r	.	.	.	.	.	.	.	4B^	8BL	4ee^	8ee-XL	.
@@ -72,13 +72,13 @@
 .	.	8ryy	8r	.	8ryy	.	8ryy	.	.	.	.	.	4B-X	.
 .	.	8ryy	8ryy	.	8dL	f	8ddL	f	.	.	8F	8f	.	.
 .	.	8r^yy	4r	.	8dd^J	.	8ddd^J	.	.	.	4B-X^ 4d	4dd	4b-X	.
-!	!	!LO:TX:t=Cb.	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:b:t=Cb.	!	!	!	!	!	!	!	!	!	!	!	!
 .	.	8ryy	.	.	8r	.	8r	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*	*^	*	*	*
 .	.	8ryy	8ryy	.	8ryy	.	8ryy	.	.	.	8ryy	8G^L	8b-	8b-L	.
 *	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*
 =69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69
-!	!	!LO:TX:t=Vc.	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=Vc.	!	!	!	!	!	!	!	!	!	!	!	!
 2%3r	.	8C^L	f	2%3r	.	2%3r	.	2%3r	.	8ryy	8C	8ryy	8e-X	.
 .	.	8ryy	.	.	.	.	.	.	.	8ryy	8E-XJ	8ryy	8g-XJ	.
 .	.	8r	.	.	.	.	.	.	.	4B^	8BL	4dd^	8ddL	.
@@ -110,9 +110,9 @@
 =71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71
 *M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*M6/8	*
 *	*	*	*	*	*	*	*	*	*	*	*8va	*
-!LO:TX:t=div.	!	!	!	!	!	!LO:TX:t=div.	!	!	!	!	!LO:TX:t=68	!
-!LO:TX:t=24	!	!LO:TX:t=24	!	!LO:TX:t=24	!	!LO:TX:t=24	!	!LO:TX:t=24	!	!	!LO:TX:t=68	!
 *	*	*	*	*	*	*	*	*	*	*^	*	*
+!LO:TX:a:t=div.	!	!	!	!	!	!LO:TX:a:t=div.	!	!	!	!	!	!LO:TX:b:t=68	!
+!LO:TX:b:t=24	!	!LO:TX:b:t=24	!	!LO:TX:b:t=24	!	!LO:TX:b:t=24	!	!LO:TX:b:t=24	!	!	!	!LO:TX:b:t=68	!
 2EE-X^v 2E-X	f >	2B-X^v	f >	2dd^v	f >	2g-X^v 2gg-X	f	2bb-X^v	f >	8gg-X^L	2.b-X	8dddn^L 8ggg-X 8bbb-X	f
 .	.	.	.	.	.	.	.	.	.	8ff	.	8bb-X	.
 .	.	.	.	.	.	.	.	.	.	8ff-XJ	.	8cccJ 8fff-X 8aaa-X	.
@@ -122,9 +122,9 @@
 *	*	*	*	*	*	*	*	*	*	*v	*v	*	*
 =72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72
 *M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*M12/8	*
-!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=128	!
-!LO:TX:t=44	!	!LO:TX:t=44	!	!LO:TX:t=44	!	!LO:TX:t=44	!	!LO:TX:t=44	!	!	!LO:TX:t=128	!
 *^	*	*	*	*	*	*^	*	*	*	*	*	*
+!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:t=128	!
+!LO:TX:b:t=44	!	!	!LO:TX:b:t=44	!	!LO:TX:b:t=44	!	!LO:TX:b:t=44	!	!	!LO:TX:b:t=44	!	!	!LO:TX:b:t=128	!
 4A-X~	4AA-X~	mp	4A-X~	mp	4dd-X~	mp	4ff~	4f~	mp	4aa-X~	mf	8dd-XL	8aa-XL 8ddd 8fff-X	.
 .	.	.	.	.	.	.	.	.	.	.	.	8g-X	8bb-X	.
 8ryy	8ryy	.	8ryy	.	8ryy	.	8ryy	8ryy	.	8ryy	.	8gnJ	(>8bbnJ 8eee-X	.
@@ -160,5 +160,5 @@
 !!!excerpt-end-measure: 72
 !!!excerpt-start-time: 2:52
 !!!excerpt-end-time: 3:09
-!!!EEV: 2020/01/22
-!!!ONB: Converted from MusicXML on 2020/01/22
+!!!EEV: 2020/01/25
+!!!ONB: Converted from MusicXML on 2020/01/25
