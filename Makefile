@@ -31,17 +31,17 @@ hum:	humdrum
 humdrum: utf8
 	for i in musicxml/*.xml; \
 	do \
-		musicxml2hum $$i | extractx --no-rest | \
+		musicxml2hum $$i | extractxx --no-rest | \
 		   $(RDSBIN)/adddummymetadata | \
 		   $(RDSBIN)/removedoublebarline | \
-		   grep -v "break:original" > \
+		   grep -v "break:original" | \
+		   egrep -v "^\!\!\!(YEM|YEC)" > \
 		   kern/$$(basename $$i .xml).krn; \
 	done
 	echo "ADDING *MM LINES (BEFORE RUNNING POLYMETA)"
 	(cd kern; ../$(RDSBIN)/addmmline *.krn)
 	echo "ADDING METADATA INFORMATION TO SCORES"
 	(cd kern; ../$(RDSBIN)/polymeta *.krn >& /dev/null)
-
 
 xml: utf8
 utf16: utf8
