@@ -3,76 +3,79 @@
 **kern	**kern	**dynam	**kern	**kern	**dynam
 *part2	*part2	*part2	*part1	*part1	*part1
 *staff4	*staff3	*	*staff2	*staff1	*
-*I"Piano	*	*	*I"Piano	*	*
-*I'Pno.	*	*	*I'Pno.	*	*
+*I"Piano 2	*	*	*I"Piano 1	*	*
+*I'Pno. 2	*	*	*I'Pno. 1	*	*
 !!pagebreak:original
 *clefF4	*clefG2	*	*clefG2	*clefG2	*
 *k[f#c#]	*k[f#c#]	*	*k[f#c#]	*k[f#c#]	*
 *D:	*D:	*	*D:	*D:	*
 *M3/4	*M3/4	*	*M3/4	*M3/4	*
-=1	=1	=1	=1	=1	=1
-!	!	!	!	!LO:TX:t=[half-dot]=66	!
-!	!LO:TX:t=[half-dot]=66	!	!	!LO:TX:b:i:t=e cresc. molto	!
-!	!LO:TX:a:B:t=Poco a poco al 1 Tempo	!	!	!LO:TX:a:B:t=Poco a poco al 1 Tempo	!
-4AA	(8aL	p	2.BB 2.B	(4.d 4.f# 4.b	p
-!	!LO:TX:b:i:t=e cresc.	!	!	!	!
+=83	=83	=83	=83	=83	=83
+!	!	!	!	!LO:TX:t=[[half-dot]=66]	!
+!	!LO:TX:t=[[half-dot]=66]	!	!	!	!
+!	!LO:TX:a:B:t=Poco a poco al 1º Tempo	!LO:DY:t=%s  e cresc.	!	!LO:TX:a:B:t=Poco a poco al 1º Tempo	!LO:DY:t=%s  e cresc. molto
+(>4AA	(8aL	p	(2.BB 2.B	(4.d 4.f# 4.b	p
 .	8A	.	.	.	.
-8B	8A	.	.	.	.
+8B)	8A	.	.	.	.
 8r	8a	.	.	8c# 8e 8a	.
 4r	8a	.	.	[4d [4f# [4b	.
 .	8AJ	.	.	.	.
-=2	=2	=2	=2	=2	=2
-4AA	8AL	.	4C# 4c#	8dL] 8f#] 8b]	.
+=84	=84	=84	=84	=84	=84
+(>4AA	8AL	.	4C# 4c#	8dL] 8f#] 8b]	.
 .	8a	.	.	8c#J 8e 8a	.
-8B	8a	.	4D 4d	4.B 4.d 4.g	.
+8B)	8a	.	4D 4d	4.B 4.d 4.g	.
 8r	8A	.	.	.	.
-4r	8A	.	4E 4e	.	.
+4r	8A	.	4E 4e)	.	.
 .	8aJ)	.	.	8A 8c# 8f#)	.
 *	*	*	*clefF4	*	*
-=3	=3	=3	=3	=3	=3
-4AA	(8aL	.	2.AAA 2.AA	(4.G 4.B 4.e	.
+=85	=85	=85	=85	=85	=85
+(>4AA	(8aL	.	(2.AAA 2.AA	(4.G 4.B 4.e	.
 .	8A	.	.	.	.
-8B	8A	.	.	.	.
+8B)	8A	.	.	.	.
 8r	8a	.	.	8F# 8A 8d	.
 4r	8a	.	.	[4G [4B [4e	.
 .	8AJ	.	.	.	.
-=4	=4	=4	=4	=4	=4
-4AA	8AL	.	4GGG 4GG	8GL] 8B] 8e]	.
+=86	=86	=86	=86	=86	=86
+(>4AA	8AL	.	4GGG 4GG	8GL] 8B] 8e]	.
 .	8a	.	.	8AJ 8c# 8f#	.
-8B	8a	.	4FFF# 4FF#	4.B 4.d 4.g	.
+8B)	8a	.	4FFF# 4FF#	4.B 4.d 4.g	.
 8r	8A	.	.	.	.
-4r	8A	.	4EEE 4EE	.	.
+4r	8A	.	4EEE 4EE)	.	.
 .	8aJ)	.	.	8c# 8e 8a)	.
 !!linebreak:original
-=5	=5	=5	=5	=5	=5
+=87	=87	=87	=87	=87	=87
 !	!LO:TX:b:i:t=sempre cresc.	!	!	!LO:TX:b:i:t=sempre più cresc.	!
-4AA	(8aL	.	4DDD' 4DD	(4.d~ 4.f# 4.b	.
+(>4AA	(8aL	.	4DDD' 4DD	(>4.d~ 4.f# 4.b	.
 .	8aa	.	.	.	.
-8B	8aa	.	4EEE' 4EE	.	.
+8B)	8aa	.	4EEE' 4EE	.	.
 8r	8a	.	.	8c# 8e 8a)	.
 4r	8a	.	4FFF#' 4FF#	([4d [4f# [4b	.
 .	8aaJ	.	.	.	.
-=6	=6	=6	=6	=6	=6
-4AA	8aaL	.	4GGG' 4GG	8dL] 8f#] 8b]	.
+=88	=88	=88	=88	=88	=88
+(>4AA	8aaL	.	4GGG' 4GG	8dL] 8f#] 8b]	.
 .	8a	.	.	8c#J 8e 8a)	.
-8B	8a	.	4AAA' 4AA	(4.B~ 4.d 4.g	.
+8B)	8a	.	4AAA' 4AA	(4.B~ 4.d 4.g	.
 8r	8aa	.	.	.	.
 4r	8aa	.	4BBB' 4BB	.	.
 .	8aJ)	.	.	8A 8c# 8f#)	.
-=7	=7	=7	=7	=7	=7
-4AA	(8aL	.	4CC#' 4C#	(4.G~ 4.B 4.e	.
+=89	=89	=89	=89	=89	=89
+(>4AA	(8aL	.	4CC#' 4C#	(4.G~ 4.B 4.e	.
 .	8aa	.	.	.	.
-8B	8aa	.	4BBB' 4BB	.	.
+8B)	8aa	.	4BBB' 4BB	.	.
 8r	8a	.	.	8F# 8A 8d)	.
 4r	8a	.	4AAA' 4AA	([4G~ [4B [4e	.
 .	8aaJ	.	.	.	.
-=8	=8	=8	=8	=8	=8
-4AA	8aaL	.	4GGG' 4GG	8GL] 8B] 8e]	.
+=90	=90	=90	=90	=90	=90
+(>4AA	8aaL	.	4GGG' 4GG	8GL] 8B] 8e]	.
 .	8a	.	.	8AJ 8c# 8f#)	.
-8B	8a	.	4FFF#' 4FF#	(4.B~ 4.d 4.g	.
+8B)	8a	.	4FFF#' 4FF#	(>4.B~ 4.d 4.g	.
 8r	8aa	.	.	.	.
 4r	8aa	.	4EEE' 4EE	.	.
 .	8aJ)	.	.	8c# 8e 8a)	.
 =	=	=	=	=	=
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)})][({(s3,s4)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Daniel Wright
+!!!EEV: 2021/07/02
