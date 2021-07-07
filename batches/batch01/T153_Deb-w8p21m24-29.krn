@@ -1,6 +1,7 @@
 !!!COM: (Achille-) Claude Debussy
 !!!OTL: [T153_Deb-w8p21m24-29]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*	*
@@ -11,6 +12,7 @@
 *A:	*A:	*
 *M4/4	*M4/4	*
 =24	=24	=24
+*	*Xbrackettup	*
 *	*^	*
 !	!LO:TX:t=[[quarter]=170]	!	!
 8AAL	(6cc#~	2gn 2b	mf
@@ -47,10 +49,10 @@
 *	*	*v	*v	*
 !!linebreak:original
 =27	=27	=27	=27
-!	!LO:TX:a:i:t=dim.	!	!
 8FF#L	1f# [1a	(6c#	.
 8C#	.	.	.
-.	.	6d	.
+!	!	!	!LO:HP:a
+.	.	6d	>
 8A	.	.	.
 .	.	6B	.
 8F#J	.	.	.
@@ -61,7 +63,7 @@
 .	.	6e)	.
 8AAJ<	.	.	.
 =28	=28	=28	=28
-8DDL<	4a]	(6f#	>
+8DDL<	4a]	(6f#	.
 8AA	.	.	.
 .	.	6g#X	.
 8D	4ryy	.	.
@@ -84,7 +86,7 @@
 8F#	.	.	.
 .	.	6cc#	.
 8A	.	.	.
-.	.	6dd>)	]
+.	.	6dd>)	.
 8dJ	.	.	.
 *	*v	*v	*
 =	=	=
@@ -92,3 +94,6 @@
 !!!system-decoration: [({(s1,s2)})]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!RDF**dynam: > = dim.
+!!!EED: Daniel Wright
+!!!EEV: 2021/07/06
