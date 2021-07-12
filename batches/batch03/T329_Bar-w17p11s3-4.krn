@@ -1,6 +1,7 @@
 !!!COM: Béla Bartók
 !!!OTL: [T329_Bar-w17p11s3-4]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*	*
@@ -14,11 +15,11 @@
 *^	*^	*
 !	!	!LO:TX:t=[half-dot]=92	!	!
 !	!	!LO:TX:b:t=[p]	!	!
-4B-X'	[2.D-X	2.g	2.g	.
+4B-X'	[2.D-X	]2.g	]2.g	.
 4E'	.	.	.	.
 4B-'	.	.	.	.
 *	*	*v	*v	*
-.	.	16qqee/LL	.
+.	.	(>16qqee/LL	.
 .	.	16qqff/	.
 .	.	16qqgg/JJ	.
 =2	=2	=2	=2
@@ -57,12 +58,12 @@
 =9	=9	=9
 !	!LO:TX:t=[half-dot]=122	!
 !	!LO:TX:a:B:t=Tempo I.	!
-4%3r	4e-X'	.
+4%3r	4e-X'^^	.
 .	4c-X'	.
 .	4G'	.
 =10	=10	=10
 4%3r	4%3r	.
-.	16qqb/LL	.
+.	(>16qqb/LL	.
 .	16qqcc/	.
 .	16qqdd/JJ	.
 *clefG2	*	*
@@ -72,7 +73,7 @@
 4r	4g'	.
 =12	=12	=12
 4%3r	4%3r	.
-.	16qqeee/LL	.
+.	(>16qqeee/LL	.
 .	16qqfff/	.
 .	16qqfff#X/JJ	.
 =13	=13	=13
@@ -98,3 +99,5 @@
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
