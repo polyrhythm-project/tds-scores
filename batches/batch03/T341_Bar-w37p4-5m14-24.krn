@@ -1,6 +1,7 @@
 !!!COM: Béla Bartók
 !!!OTL: [T341_Bar-w37p4-5m14-24]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
@@ -12,12 +13,13 @@
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 =1	=1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!	!	!LO:TX:t=[quarter]=110	!
-2r	.	(8CL	pp	1r	.	1r	.
+2r	.	(<8CL	pp	1r	.	1r	.
 .	.	8dJ	.	.	.	.	.
-.	.	8E 8ee	.	.	.	.	.
+.	.	8E/ 8ee/	.	.	.	.	.
 .	.	4d)	.	.	.	.	.
+!LO:TX:t=P:problem:cross-staff beaming not implemented yet	!	!	!	!	!	!	!
 (8GG#XL	p	.	.	.	.	.	.
-8AA#XJ	.	(8C	.	.	.	.	.
+8AA#XJ	.	(>8C	.	.	.	.	.
 8BB	.	8dL	.	.	.	.	.
 [8AA#L	.	8EJ	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2
@@ -28,7 +30,8 @@
 4AA#X	.	8E	.	4r	.	.	.
 .	.	4d)	.	.	.	.	.
 4BB	.	.	.	8r	.	.	.
-.	.	(8C	.	(8c#XL	p	.	.
+!	!	!	!	!LO:TX:t=P:problem:cross-staff beaming not implemented yet	!	!	!
+.	.	(>8C	.	(8c#XL	p	.	.
 =3	=3	=3	=3	=3	=3	=3	=3
 8AA#X	.	8dL	.	8d#X	.	1r	.
 8GG#XL	.	8EJ	.	8f#XJ)	.	.	.
@@ -37,44 +40,46 @@
 4AA#	.	(8C	.	.	.	.	.
 .	.	8dL	.	8d#)	.	.	.
 4BB	.	8EJ	.	(8c#XL	.	.	.
+!	!	!LO:TX:t=P:problem:cross-staff beaming not implemented yet	!	!	!	!	!
 .	.	[8dL	.	8d#	.	.	.
 !!linebreak:original
 =4	=4	=4	=4	=4	=4	=4	=4
-8AA#X	.	8dJ])	.	8gJ)	.	(8g#XL	p
-8GG#XL	.	(8C	.	8f#X~	.	8a#X	.
+8AA#X	.	8dJ])	.	8gJ)	.	(<8g#XL	p
+8GG#XL	.	(>8C	.	8f#X~	.	8a#X	.
 8DD#XJ)	.	8dL	.	(8c#XL	.	8cc#XJ)	.
 (8GG#L	.	8EJ	.	8d#X	.	(8ddn^	.
 8AA#J	.	4d)	.	8f#J)	.	4cc#	.
 4BB	.	.	.	(8g^	.	.	.
-.	.	(8C	.	4f#	.	8a#)	.
+.	.	(>8C	.	4f#	.	8a#)	.
+!	!	!	!	!	!	!LO:TX:t=P:problem:cross-staff beaming not implemented yet	!
 8DD#)	.	8d	.	.	.	(8g#L	.
 =5	=5	=5	=5	=5	=5	=5	=5
 (8GG#XL	.	8E	.	8d#X)	.	8a#X	.
-8AA#XJ	.	4d	.	(8c#XL	.	8ddJ)	.
+8AA#XJ	.	4d)	.	(8c#XL	.	8ddJ)	.
 4BB	.	.	.	8d#	.	8cc#X~	.
-.	.	(8C	.	8gJ)	.	(8g#XL	.
+.	.	(>8C	.	8gJ)	.	(<8g#XL	.
 4GG#	.	8dL	.	8f#X~	.	8a#	.
 .	.	8EJ	.	(8c#L	.	8cc#J)	.
 8CC#X)	.	8d)	.	8d#	.	(8dd^	.
 *	*	*clefG2	*	*	*	*	*
-(8CCn	.	(8ddL	p	8f#J)	.	[8cc#L	.
+(>8CCn	.	(8ddL	p	8f#J)	.	[8cc#L	.
 =6	=6	=6	=6	=6	=6	=6	=6
 4D	.	8ee	.	(8g	.	8cc#J])	.
 .	.	8ggJ)	.	4f#X	.	(8g#XL	.
 4EE 4e	.	(8aa-X	.	.	.	8a#X	.
 .	.	4gg	.	4d#X	.	8ddJ	.
 8D)	.	.	.	.	.	8cc#X)	.
-(4CC	.	8ee)	.	4c#X	.	(8g#L	.
+(<4CC	.	8ee)	.	4c#X	.	(8g#L	.
 .	.	(8ddL	.	.	.	8a#	.
 8DL	.	8ee	.	8B-X)	.	8cc#J	.
 =7	=7	=7	=7	=7	=7	=7	=7
 8EEJ)	.	8aa-XJ)	.	4.B-X	.	8dd)	.
-(8CC	.	(8ddd-XL	.	.	.	(8g#XL	.
+(>8CC	.	(8ddd-XL	.	.	.	(<8g#XL	.
 8D	.	8aa-J	.	.	.	8a#X	.
 4EE)	.	4gg)	.	(8g	.	8cc#XJ)	.
 .	.	.	.	4f#X	.	(8dd^	.
 *	*	*clefC3	*	*	*	*	*
-(8CC	.	(8dL	.	.	.	4cc#)	.
+(>8CC	.	(8dL	.	.	.	4cc#)	.
 8DL	.	8e	.	4d#X	.	.	.
 8EEJ	.	8gJ)	.	.	.	(8g#L	.
 !!linebreak:original
@@ -82,15 +87,15 @@
 4D	.	(4a-X	.	8c#X	.	8a#X	.
 .	.	.	.	4.B-X)	.	8cc#XJ)	.
 8EE)	.	8dd-X	.	.	.	(4dd	.
-(8CC	.	[4.a-	.	.	.	.	.
+(>8CC	.	[4.a-	.	.	.	.	.
 8DL	.	.	.	(8c#	.	8gg	.
 8EEJ	.	.	.	4.B-)	.	8dd	.
 4D)	.	8a-L]	.	.	.	4cc#)	.
 .	.	8gJ)	.	.	.	.	.
 =9	=9	=9	=9	=9	=9	=9	=9
-(8CC	.	8r	.	1B-X	.	(8dL	.
+(>8CC	.	8r	.	1B-X	.	(8dL	.
 4D	.	(8G#XL	.	.	.	8gJ)	.
-.	.	8c#XJ)	.	.	.	(4a-X	.
+.	.	8c#XJ)	.	.	.	(>4a-X	.
 4EE)	.	4.d	.	.	.	.	.
 .	.	.	.	.	.	8dd-X	.
 (8CC	.	.	.	.	.	8a-	.
@@ -120,3 +125,5 @@
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
