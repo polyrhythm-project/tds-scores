@@ -1,0 +1,30 @@
+#!/usr/bin/perl
+
+use strict;
+
+my @mxlfiles = glob("*.mxl");
+
+#foreach my $file (@mxlfiles) {
+#	my $base = $file;
+#	$base =~ s/\.mxl$//;
+#	`mv "$base.mxl" "$base.zip"`;
+#}
+
+my @zipfiles = glob("*.zip");
+
+#foreach my $file (@zipfiles) {
+#	print STDERR "Processing $file\n";
+#	`unzip "$file"`;
+#}
+
+my @xmlfiles = glob("*.xml");
+
+foreach my $file (@xmlfiles) {
+	print STDERR "Processing $file\n";
+	my $base = $file;
+	$base =~ s/\.xml$//;
+	`mv "$file" "$base.musicxml"`;
+}
+
+`rm -rf META-INF`;
+
