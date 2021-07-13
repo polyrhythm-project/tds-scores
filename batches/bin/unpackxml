@@ -4,18 +4,18 @@ use strict;
 
 my @mxlfiles = glob("*.mxl");
 
-#foreach my $file (@mxlfiles) {
-#	my $base = $file;
-#	$base =~ s/\.mxl$//;
-#	`mv "$base.mxl" "$base.zip"`;
-#}
+foreach my $file (@mxlfiles) {
+	my $base = $file;
+	$base =~ s/\.mxl$//;
+	`mv "$base.mxl" "$base.zip"`;
+}
 
 my @zipfiles = glob("*.zip");
 
-#foreach my $file (@zipfiles) {
-#	print STDERR "Processing $file\n";
-#	`unzip "$file"`;
-#}
+foreach my $file (@zipfiles) {
+	print STDERR "Processing $file\n";
+	`unzip "$file"`;
+}
 
 my @xmlfiles = glob("*.xml");
 
