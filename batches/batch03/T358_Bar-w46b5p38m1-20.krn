@@ -1,6 +1,7 @@
 !!!COM: Béla Bartók
 !!!OTL: [T358_Bar-w46b5p38m1-20]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*	*
@@ -12,7 +13,8 @@
 *M2/4	*M2/4	*
 =1	=1	=1
 *^	*	*
-!	!	!LO:TX:t=[quarter]=100	!
+!	!	!LO:TX:t=Allegretto, [quarter]=132	!
+*ped	*	*	*
 4.G	8G	2r	mf
 .	4d	.	.
 [8G	8G	.	.
@@ -55,7 +57,7 @@
 =8	=8	=8	=8	=8
 4G]	4d	8b'L)	8b	.
 .	.	8g'J	8ryy	.
-[4G	8GL	(20aLL	4ryy	.
+[4G	8GL	(>20aLL	4ryy	.
 .	.	20b-X	.	.
 .	.	20a	.	.
 .	[8dJ	.	.	.
@@ -68,7 +70,7 @@
 .	4d	.	.
 =10	=10	=10	=10
 *	*	*^	*
-4.G	8G	(8dL	4ryy	.
+4.G	8G	(>8dL	4ryy	.
 .	4d	8gJ)	.	.
 .	.	(16aLL	[4a	.
 .	.	16bJ	.	.
@@ -158,3 +160,5 @@
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
