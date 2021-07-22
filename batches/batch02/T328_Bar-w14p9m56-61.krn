@@ -1,6 +1,7 @@
 !!!COM: Béla Bartók
 !!!OTL: [T328_Bar-w14p9m56-61]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*	*
@@ -11,9 +12,8 @@
 *G:	*G:	*
 *M2/4	*M2/4	*
 =1	=1	=1
-!	!LO:TX:t=[quarter]=144	!
-!	!LO:TX:b:t=]	!
-!	!LO:TX:b:B:t=[piu	!
+!LO:TX:t=P:problem: pedal brackets missing from under the grand staff	!LO:TX:t=[quarter]=144	!LO:DY:ed=brack
+!	!	!LO:DY:t=piu %s
 8a'L	(16aaLL	f
 .	16ggJ	.
 8cc#X'J	8aa'J)	.
@@ -41,23 +41,28 @@
 .	.	16gJJ	.
 *	*v	*v	*
 =4	=4	=4
-8AA'L	8a'L 8ee)	.
-8E'	(16aL 16ee	.
+!LO:TX:t=P:problem:cross-bar beams not showing in LH	!LO:TX:t=P:problem: slur across voices (across spine split) not showing	!
+8AA'L	8a'<L 8ee)<	.
+8E'	(<16aL 16ee	.
 .	16gJJ	.
-8c#X'J	8a'L 8ee)	.
-8E'L	(16aL 16ee	.
+8c#X'J	8a'<L 8ee)<	.
+8E'L	(<16aL 16ee	.
 .	16gJJ	.
 =5	=5	=5
-8A'	8a'L 8ee)	.
-8e'J	(16aL 16ee	.
+8A'	8a'<L 8ee)<	.
+8e'J	(<16aL 16ee	.
 .	16gJJ	.
-8AA'L	16aLL 16ee	.
+8AA'L	16aLL< 16ee	.
 .	16g	.
 8E'J	16a 16ee	.
-.	16gJJ)	.
+.	16gJJ)<	.
 =6	=6	=6
 4c#X~	2a; 2ee	.
 4AAA~;	.	.
 ==	==	==
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Kelsey Lussier
+!!!EEV: 2021/07/22
