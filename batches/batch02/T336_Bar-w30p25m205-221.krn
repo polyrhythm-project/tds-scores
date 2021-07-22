@@ -1,128 +1,144 @@
 !!!COM: Béla Bartók
 !!!OTL: [T336_Bar-w30p25m205-221]
-**kern	**kern	**dynam
-*part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
+**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B
+*part1	*	*part1	*part1
+*staff2	*	*staff1	*
+*I"Piano	*	*	*
+*I'Pno.	*	*	*
 !!pagebreak:original
-*clefF4	*clefG2	*
-*k[]	*k[]	*
-*C:	*C:	*
-*M2/4	*M2/4	*
-=1	=1	=1
-!	!LO:TX:t=[quarter]=194	!
-8FL 8G 8f 8g	8r	mf p
-8F 8G 8g-X 8a-X	(16aaLL	.
-.	16ggJJ)	.
-8F 8G 8f 8gn	(16aaLL	.
-.	16ggJJ)	.
-8FJ 8G 8g-X 8a-	(16aaLL	.
-.	16ggJJ)	.
-=2	=2	=2
-8FL 8G 8f 8gn	(16ggLL	.
-.	16ff#XJJ)	.
-8F 8G 8g-X 8a-X	(16ggLL	.
-.	16eeJJ)	.
-8F 8G 8f 8gn	4dd~	.
-8FJ 8G 8g-X 8a-	.	.
-=3	=3	=3
-8FL 8G 8f 8gn	(16aaLL	.
-.	16bbJJ)	.
-8F 8G 8g-X 8a-X	(16bbLL	.
-.	16aaJJ)	.
-8F 8G 8f 8gn	(16aaLL	.
-.	16ggJJ)	.
-8FJ 8G 8g-X 8a-	(16ggLL	.
-.	16ff#XJJ)	.
-=4	=4	=4
-*^	*	*
-8FL 8G 8f 8g	4ryy	(16ggLL	.
+*clefF4	*	*clefG2	*
+*k[]	*	*k[]	*
+*C:	*	*C:	*
+*M2/4	*	*M2/4	*
+!!LO:REH:t=205
+=205	=205	=205	=205
+!	!	!LO:TX:t=[[quarter]=194]	!
+!	!	!LO:TX:t=P:problem: All dynamics pertaining only to RH Piano should be placed above the staff. 	!
+8FL 8G 8f 8g	p	8r	mf
+8F 8G 8g-X 8a-X	.	(16aaLL	.
+.	.	16ggJJ)	.
+8F 8G 8f 8gn	.	(16aaLL	.
+.	.	16ggJJ)	.
+8FJ 8G 8g-X 8a-	.	(16aaLL	.
+.	.	16ggJJ)	.
+=206	=206	=206	=206
+8FL 8G 8f 8gn	.	(16ggLL	.
+.	.	16ff#XJJ)	.
+8F 8G 8g-X 8a-X	.	(16ggLL	.
 .	.	16eeJJ)	.
-8FJ 8G 8g-X 8a-X	.	4dd~	.
-8FL 8G	8r	.	.
-8FJ 8G	8G-X 8A-X	(16aLL	f
-.	.	16gJJ)	.
-=5	=5	=5	=5
-8FL 8G	8r	(16gLL	.
-.	.	16f#XJJ)	.
-8FJ 8G	8G-X 8A-X	(16gLL	.
-.	.	16eJJ)	.
-8FL 8G	8r	4d~	.
-8FJ 8G	8G-X 8A-	.	.
+8F 8G 8f 8gn	.	4dd~	.
+8FJ 8G 8g-X 8a-	.	.	.
+=207	=207	=207	=207
+8FL 8G 8f 8gn	.	(16aaLL	.
+.	.	16bbJJ)	.
+8F 8G 8g-X 8a-X	.	(16bbLL	.
+.	.	16aaJJ)	.
+8F 8G 8f 8gn	.	(16aaLL	.
+.	.	16ggJJ)	.
+8FJ 8G 8g-X 8a-	.	(16ggLL	.
+.	.	16ff#XJJ)	.
+=208	=208	=208	=208
+*^	*	*	*
+8FL 8G 8f 8g	4ryy	.	(16ggLL	.
+.	.	.	16eeJJ)	.
+8FJ 8G 8g-X 8a-X	.	.	4dd~	.
+8r	8FL 8G	.	.	.
+!LO:TX:t=P:problem: There should be a brace between this and the preceding dyad, to indicate they are played simultaneously.	!	!	!	!
+!	!	!	!LO:TX:t=P:problem: All dynamics pertaining only to RH Piano should be placed above the staff.	!
+8G-X 8A-X	8FJ 8G	.	(16aLL	f
+.	.	.	16gJJ)	.
+=209	=209	=209	=209	=209
+8r	8FL 8G	.	(16gLL	.
+.	.	.	16f#XJJ)	.
+!LO:TX:t=P:problem: There should be a brace between this and the preceding dyad, to indicate they are played simultaneously.	!	!	!	!
+8G-X 8A-X	8FJ 8G	.	(16gLL	.
+.	.	.	16eJJ)	.
+8r	8FL 8G	.	4d~	.
+!LO:TX:t=P:problem: There should be a brace between this and the preceding dyad, to indicate they are played simultaneously.	!	!	!	!
+8G-X 8A-X	8FJ 8G	.	.	.
 !!linebreak:original
-=6	=6	=6	=6
-8FL 8G	8r	(16bLL	.
-.	.	16aJJ)	.
-8FJ 8G	8G-X 8A-X	(16aLL	.
-.	.	16gJJ)	.
-8FL 8Gn	8r	(16gLL	.
-.	.	16f#XJJ)	.
-8FJ 8G	8G-X 8A-	(16gLL	.
-.	.	16eJJ)	.
-=7	=7	=7	=7
-8FL 8G	8r	4d~	.
-8FJ 8G	8G-X 8A-X	.	.
-8FL 8Gn 8f 8g	4ryy	(16ggLL	f mf
+!!LO:REH:t=210
+=210	=210	=210	=210	=210
+8r	8FL 8G	.	(16bLL	.
+.	.	.	16aJJ)	.
+!LO:TX:t=P:problem: There should be a brace between this and the preceding dyad, to indicate they are played simultaneously.	!	!	!	!
+8G-X 8A-X	8FJ 8G	.	(16aLL	.
+.	.	.	16gJJ)	.
+8r	8FL 8G	.	(16gLL	.
+.	.	.	16f#XJJ)	.
+!LO:TX:t=P:problem: There should be a brace between this and the preceding dyad, to indicate they are played simultaneously.	!	!	!	!
+8G-X 8A-X	8FJ 8G	.	(16gLL	.
+.	.	.	16eJJ)	.
+=211	=211	=211	=211	=211
+8r	8FL 8G	.	4d~	.
+!LO:TX:t=P:problem: There should be a brace between this and the preceding dyad, to indicate they are played simultaneously.	!	!	!	!
+8G-X 8A-X	8FJ 8G	.	.	.
+!	!	!	!LO:TX:t=P:problem: All dynamics pertaining only to RH Piano should be placed above the staff.	!
+\8FL 8Gn 8f 8g	4ryy	.	(16ggLL	f
+.	.	.	16eeJJ)	.
+8FJ 8G 8g-X 8a-X	.	.	[8ddL	.
+*v	*v	*	*	*
+=212	=212	=212	=212
+8FL 8G 8f 8g	.	8ddJ]	.
+8F 8G 8g-X 8a-X	.	(16ggLL	.
+.	.	16aaaJJ)	.
+8F 8G 8f 8gn	.	(16gggLL	.
 .	.	16eeJJ)	.
-8FJ 8G 8g-X 8a-X	.	[8ddL	.
-*v	*v	*	*
-=8	=8	=8
-8FL 8G 8f 8g	8ddJ]	.
-8F 8G 8g-X 8a-X	(16ggLL	.
-.	16aaaJJ)	.
-8F 8G 8f 8gn	(16gggLL	.
-.	16eeJJ)	.
-8FJ 8G 8g-X 8a-	[8ddL	.
-=9	=9	=9
-8FL 8G 8f 8g	8ddJ]	.
-8F 8G 8g-X 8a-X	(16ccLL	<
-.	16ddJJ)	.
-8F 8G 8f 8gn	(16ddLL	.
-.	16ccJJ)	.
-8FJ 8G 8g-X 8a-	(16ccLL	.
-.	16b-XJJ)	.
-=10	=10	=10
-8FL 8G	4fn 4g	[
-8d#XJ 8f-X	.	.
-8FL 8G	[4f [4g	.
-8d#J 8f-	.	.
+8FJ 8G 8g-X 8a-	.	[8ddL	.
+=213	=213	=213	=213
+8FL 8G 8f 8g	.	8ddJ]	.
+8F 8G 8g-X 8a-X	.	(16ccLL	<
+.	.	16ddJJ)	.
+8F 8G 8f 8gn	.	(16ddLL	.
+.	.	16ccJJ)	.
+8FJ 8G 8g-X 8a-	.	(16ccLL	.
+.	.	16b-XJJ)	.
+=214	=214	=214	=214
+8FL 8G	.	4fn 4g	[
+8d#X 8f-X	.	.	.
+8F 8G	.	[4f [4g	.
+8d#J 8f-	.	.	.
 !!linebreak:original
-=11	=11	=11
-8FL 8G	8f] 8g]	.
-8d#X 8f-X	4.f 4.g	.
-8F 8G	.	.
-8d#J 8f-	.	.
-=12	=12	=12
-8FL 8G	4.f 4.g	.
-8d#X 8f-X	.	.
-8F 8G	.	.
-8d#J 8f-	8f 8g	.
-=13	=13	=13
-8FL 8G 8fn 8g	(4f#X 4a-X 4ff#X 4aa-X	ff
-8F 8G 8f 8g	.	.
-8F 8G 8f 8g	8ggn` 8aa- 8ggg 8aaa)	.
-8FJ 8G 8f 8g	8r	.
-=14	=14	=14
-8FL 8G	8r	mf
-8d#X 8f-X	8fL 8g	.
-8F 8G	8r	.
-8d#J 8f-	8fJ 8g	.
-=15	=15	=15
-8FL 8G 8fn 8g	(4.f#X 4.a-X 4.ff#X 4.aa-X	f
-8FJ 8G 8f 8g	.	.
-8E^^L 8F 8e 8f	.	.
-8E 8F 8e 8f	8ggn` 8aa- 8ggg 8aaa)	.
-=16	=16	=16
-8E 8F 8e 8f	8r	<
-8E 8F 8e 8f	8f#X 8a-X 8ff#X 8aa-X	.
-8EJ 8F 8e 8f	4ggn~ 4aa- 4ggg 4aaa	.
-8D^^L 8E 8d 8e	.	.
-=17	=17	=17
-8D 8E 8d 8e	8r	.
-8DJ 8E 8d 8e	4f#X 4a-X 4ff#X 4aa-X	.
-8C^^L 8D 8c 8d	.	.
-8CJ 8D 8c 8d	8ggn 8aa- 8ggg 8aaa	[
-=	=	=
-*-	*-	*-
+!!LO:REH:t=215
+=215	=215	=215	=215
+8FL 8G	.	8f] 8g]	.
+8d#X 8f-X	.	4.f 4.g	.
+8F 8G	.	.	.
+8d#J 8f-	.	.	.
+=216	=216	=216	=216
+8FL 8G	.	4.f 4.g	.
+8d#X 8f-X	.	.	.
+8F 8G	.	.	.
+8d#J 8f-	.	8f 8g	.
+=217	=217	=217	=217
+8FL 8G 8fn 8g	.	(4f#X 4a-X 4ff#X 4aa-X	ff
+8F 8G 8f 8g	.	.	.
+8F 8G 8f 8g	.	8ggn` 8aa- 8ggg 8aaa)	.
+8FJ 8G 8f 8g	.	8r	.
+=218	=218	=218	=218
+8FL 8G	.	8r	mf
+8d#X 8f-X	.	8fL 8g	.
+8F 8G	.	8r	.
+8d#J 8f-	.	8fJ 8g	.
+=219	=219	=219	=219
+8FL 8G 8fn 8g	.	(4.f#X 4.a-X 4.ff#X 4.aa-X	f
+8FJ 8G 8f 8g	.	.	.
+8E^^L 8F 8e 8f	.	.	.
+8E 8F 8e 8f	.	8ggn` 8aa- 8ggg 8aaa)	.
+!!LO:REH:t=220
+=220	=220	=220	=220
+8E 8F 8e 8f	.	8r	<
+8E 8F 8e 8f	.	8f#X 8a-X 8ff#X 8aa-X	.
+8EJ 8F 8e 8f	.	4ggn~ 4aa- 4ggg 4aaa	.
+8D^^L 8E 8d 8e	.	.	.
+=221	=221	=221	=221
+8D 8E 8d 8e	.	8r	.
+8DJ 8E 8d 8e	.	4f#X 4a-X 4ff#X 4aa-X	.
+8C^^L 8D 8c 8d	.	.	.
+8CJ 8D 8c 8d	.	8ggn 8aa- 8ggg 8aaa	[
+=	=	=	=
+*-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!EED: Daniel Wright
+!!!EEV: 2021/07/22
