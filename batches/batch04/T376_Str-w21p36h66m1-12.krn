@@ -1,104 +1,105 @@
 !!!COM: Igor (Fyodorovich) Stravinsky
 !!!OTL: [T376_Str-21/36/[66]1-12]
-**kern	**kern	**kern	**dynam
-*part3	*part2	*part1	*part1
-*staff3	*staff2	*staff1	*
-*I"Bassoon	*I"Clarinet in A	*I"Flute	*
-*I'Bsn.	*I'Cl. in A	*I'Fl.	*
+**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
+*part3	*	*part2	*	*part1	*part1
+*staff3	*	*staff2	*	*staff1	*
+*I"Bassoon	*	*I"Clarinet in A	*	*I"Flute	*
+*I'Bsn.	*	*I'Cl. in A	*	*I'Fl.	*
 !!pagebreak:original
-*clefF4	*clefG2	*clefG2	*
-*	*ITrd2c3	*	*
-*k[]	*k[f#c#g#]	*k[]	*
-*	*	*	*
-*M2/4	*M2/4	*M2/4	*
-=1	=1	=1	=1
-!LO:TX:a:i:t=leggiero	!	!LO:TX:t=[quarter]=116	!
-!LO:TX:b:t=[mp]	!	!LO:TX:b:t=[mp]	!
-!LO:TX:b:i:t=stacc. e leggiero	!LO:TX:b:t=[mp]	!LO:TX:a:t=Solo espressivo	!
-8e-X'L	(16gX~LL	4.g	.
-.	16e)	.	.
-8d-X'	16fX'	.	.
-.	16g'JJ	.	.
-8A'	[4e	.	.
-8e-'J	.	[8a-X^	.
-=2	=2	=2	=2
-8d-X'L	8eL]	4a-]	.
-8A-X'	(8fX'~	.	.
-8e-X'	16gXk)	(4b-XT	.
-.	16r	.	.
-8d-'J	8e'J	.	.
-=3	=3	=3	=3
-8GL	(16fX~LL	4.cc)	.
-.	16gX)	.	.
-8e-X	16e'	.	.
-.	16f'JJ	.	.
-8d-X	[4g	.	.
-8A-XJ	.	[8cc^	.
-=4	=4	=4	=4
-8e-XL	8gXL]	4cc]	.
-8d-X	(8e'~	.	.
-8An	16fXk)	(4dd-Xt	.
-.	16r	.	.
-8e-J	8g'J	.	.
+*clefF4	*	*clefG2	*	*clefG2	*
+*	*	*ITrd2c3	*	*	*
+*k[]	*	*k[f#c#g#]	*	*k[]	*
+*	*	*	*	*	*
+*M2/4	*	*M2/4	*	*M2/4	*
+!!LO:REH:t=66
+=1	=1	=1	=1	=1	=1
+!LO:TX:a:i:t=leggiero	!	!	!	!LO:TX:t=[[quarter]=116]	!
+!LO:TX:b:i:t=stacc. e leggiero	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:a:t=Solo espressivo	!LO:DY:ed=brack
+8e-X'L	mp	(16gX~LL	mp	4.g	mp
+.	.	16e)	.	.	.
+8d-X'	.	16fX'	.	.	.
+.	.	16g'JJ	.	.	.
+8A'	.	[4e	.	.	.
+8e-'J	.	.	.	[8a-X^	.
+=2	=2	=2	=2	=2	=2
+8d-X'L	.	8eL]	.	4a-]	.
+8A-X'	.	(8fX'~	.	.	.
+8e-X'	.	16gXk)	.	(4b-XTT	.
+.	.	16r	.	.	.
+8d-'J	.	8e'J	.	.	.
+=3	=3	=3	=3	=3	=3
+8GL	.	(16fX~LL	.	4.cc)	.
+.	.	16gX)	.	.	.
+8e-X	.	16e'	.	.	.
+.	.	16f'JJ	.	.	.
+8d-X	.	[4g	.	.	.
+8A-XJ	.	.	.	[8cc^	.
+=4	=4	=4	=4	=4	=4
+8e-XL	.	8gXL]	.	4cc]	.
+8d-X	.	(8e'~	.	.	.
+8An	.	16fXk)	.	(4dd-Xtt	.
+.	.	16r	.	.	.
+8e-J	.	8g'J	.	.	.
 !!linebreak:original
-=5	=5	=5	=5
-8d-XL	(16e~LL	4.ee-X)	.
-.	16fX)	.	.
-8B-X	16gX'	.	.
-.	16e'JJ	.	.
-8e-X	[4f	.	.
-8d-J	.	([8eee-X^	.
-=6	=6	=6	=6
-8AL	8fXL]	4eee-X]	.
-8e-X	(8gX'~	.	.
-8d-X	16ek)	4ccc)	.
-.	16r	.	.
-8A-XJ	8f'J	.	.
-=7	=7	=7	=7
-8e-XL	(16gX~LL	4.dd-X	.
-.	16e)	.	.
-8d-X	16fX'	.	.
-.	16g'JJ	.	.
-8G	[4e	.	.
-8e-J	.	([8ddd-X^	.
-=8	=8	=8	=8
-8d-XL	8eL]	4ddd-X]	.
-8A-X	(8fX'~	.	.
-8e-X	16gXk)	4bb-X)	.
-.	16r	.	.
-8d-J	8e'J	.	.
+=5	=5	=5	=5	=5	=5
+8d-XL	.	(16e~LL	.	4.ee-X)	.
+.	.	16fX)	.	.	.
+8B-X	.	16gX'	.	.	.
+.	.	16e'JJ	.	.	.
+8e-X	.	[4f	.	.	.
+8d-J	.	.	.	([8eee-X^	.
+=6	=6	=6	=6	=6	=6
+8AL	.	8fXL]	.	4eee-X]	.
+8e-X	.	(8gX'~	.	.	.
+8d-X	.	16ek)	.	4ccc)	.
+.	.	16r	.	.	.
+8A-XJ	.	8f'J	.	.	.
+=7	=7	=7	=7	=7	=7
+8e-XL	.	(16gX~LL	.	4.dd-X	.
+.	.	16e)	.	.	.
+8d-X	.	16fX'	.	.	.
+.	.	16g'JJ	.	.	.
+8G	.	[4e	.	.	.
+8e-J	.	.	.	([8ddd-X^	.
+=8	=8	=8	=8	=8	=8
+8d-XL	.	8eL]	.	4ddd-X]	.
+8A-X	.	(8fX'~	.	.	.
+8e-X	.	16gXk)	.	4bb-X)	.
+.	.	16r	.	.	.
+8d-J	.	8e'J	.	.	.
 !!linebreak:original
-=9	=9	=9	=9
-8AniL	(16fX~LL	8.ccL	.
-.	16gX)	.	.
-8e-X	16e'	.	.
-.	16f'JJ	16dd-X'Jk	.
-8d-X	[4g	16ee-X'LL	.
-.	.	16ff'	.
-8B-XJ	.	16gg'	.
-.	.	16aa-X'JJ	.
-=10	=10	=10	=10
-8e-XL	8gXL]	8bb-X'L	.
-8d-X	(8e'~	(8ccJ	<
-8A	16fXk)	8dd-X'L)	[
-.	16r	.	.
-8e-J	8g'J	(16cccL	.
-.	.	16bb-JJ)	.
-=11	=11	=11	=11
-8d-XL	(16e~LL	8aa-XL	.
-.	16fX)	.	.
-8A-X	16gX'	(8b-XJ	<
-.	16e'JJ	.	.
-8e-X	[4f	8cc'L)	[
-8d-J	.	(16bb-XL	.
-.	.	16aa-JJ)	.
-=12	=12	=12	=12
-8GL	8fXL]	8ggL	.
-8e-X	(8gX'~	(8a-XJ	<
-8d-X	16ek)	8aa-X'L)	[
-.	16r	.	.
-8A-XJ	8f'J	8ff'J	.
-=	=	=	=
-*-	*-	*-	*-
+=9	=9	=9	=9	=9	=9
+8AniL	.	(16fX~LL	.	8.ccL	.
+.	.	16gX)	.	.	.
+8e-X	.	16e'	.	.	.
+.	.	16f'JJ	.	16dd-X'Jk	.
+8d-X	.	[4g	.	16ee-X'LL	.
+.	.	.	.	16ff'	.
+8B-XJ	.	.	.	16gg'	.
+.	.	.	.	16aa-X'JJ	.
+=10	=10	=10	=10	=10	=10
+8e-XL	.	8gXL]	.	8bb-X'L	.
+8d-X	.	(8e'~	.	(8ccJ	<
+8A	.	16fXk)	.	8dd-X'L)	[
+.	.	16r	.	.	.
+8e-J	.	8g'J	.	(16cccL	.
+.	.	.	.	16bb-JJ)	.
+=11	=11	=11	=11	=11	=11
+8d-XL	.	(16e~LL	.	8aa-XL	.
+.	.	16fX)	.	.	.
+8A-X	.	16gX'	.	(8b-XJ	<
+.	.	16e'JJ	.	.	.
+8e-X	.	[4f	.	8cc'L)	[
+8d-J	.	.	.	(16bb-XL	.
+.	.	.	.	16aa-JJ)	.
+=12	=12	=12	=12	=12	=12
+8GL	.	8fXL]	.	8ggL	.
+8e-X	.	(8gX'~	.	(8a-XJ	<
+8d-X	.	16ek)	.	8aa-X'L)	[
+.	.	16r	.	.	.
+8A-XJ	.	8f'J	.	8ff'J	.
+=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
 !!!RDF**kern: i = editorial accidental
