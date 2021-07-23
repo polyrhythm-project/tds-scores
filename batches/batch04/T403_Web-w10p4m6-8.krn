@@ -1,6 +1,7 @@
 !!!COM: Anton (Friedrich Wilhelm von) Webern
 !!!OTL: [T403_Web-w10p4m6-8]
 **kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*	*part2	*part2	*part1	*part1
 *staff3	*	*staff2	*	*staff1	*
 *I"Piano	*	*	*	*I"Violin	*
@@ -10,9 +11,9 @@
 *k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*
 *M4/4	*	*M4/4	*	*M4/4	*
-=1	=1	=1	=1	=1	=1
+=6	=6	=6	=6	=6	=6
 !	!	!	!	!LO:TX:t=Tempo 1 ([quarter]=112)	!
-!LO:TUP:num=3	!	!LO:TX:a:i:t=leicht	!	!LO:TX:a:t=rit.	!
+!LO:TUP:num=3	!	!LO:TX:a:i:t=leicht	!	!	!
 12B-X'L 12d-X 12an	pp	(10eenL	p <	4f#X)	p
 12r'	.	.	.	.	.
 .	.	10ee-X	.	.	.
@@ -27,7 +28,8 @@
 .	.	10ggnJ	.	.	.
 12r	.	.	.	.	.
 .	.	.	.	16fn'JJ	<
-!LO:TUP:num=3	!	!	!	!	!
+!	!	!	!	!LO:TX:t=P:problem: this rit. sign should have a dashed line until beat 3 of measure 7	!
+!LO:TUP:num=3	!	!	!	!LO:TX:t=rit. 	!
 12A'L 12cn 12a-X	.	8ccc#XL	[	16a'LL	.
 .	.	.	.	16f'	.
 12r'	.	.	.	.	.
@@ -41,7 +43,7 @@
 12r	.	.	.	.	.
 .	.	.	.	16fn'JJ	[
 *clefF4	*	*	*	*	*
-=2	=2	=2	=2	=2	=2
+=7	=7	=7	=7	=7	=7
 12r	.	4dddn	>	16b-X'LL	.
 .	.	.	.	16g-X'	.
 12A#X' 12c 12a-X	.	.	.	.	.
@@ -54,21 +56,22 @@
 .	.	.	.	16a'	.
 [12EEE-X~	.	.	.	.	.
 .	.	.	.	16f'JJ	.
-!	!	!	!	!LO:TX:a:t=arco	!
+!	!	!	!	!LO:TX:t=Langsamer ([quarter]=72)	!
 8EEE-~] 8F#X 8Bn	.	8dn~ 8b-X 8ccc#])	pp ]	12r	.
+!	!	!	!	!LO:TX:a:t=arco	!
 .	.	.	.	(12dddnL	p >
 8r	.	8r	.	.	.
 !	!	!	!	!LO:TX:a:i:t=sehr zart	!
 .	.	.	.	12bbnJ	.
 12r	.	12r	pp	8cc#XL	.
-[6E-X~	.	(6cn~ 6en 6an	> ]	.	.
+([6E-X~	.	(6cn~ 6en 6an	> ]	.	.
 .	.	.	.	[8ffnJ	]
-=3	=3	=3	=3	=3	=3
+=8	=8	=8	=8	=8	=8
 *M3/4	*	*M3/4	*	*M3/4	*
 8E-XL]	.	2F#X 2dn 2b-X)	.	28%3ffnL])	.
 !	!	!	!	!LO:TX:a:i:t=sehr gleichmäßig	!
 .	.	.	.	(28%3ddn	pp <
-8CCnJ 8Cn	.	.	.	.	.
+8CCnJ 8Cn)	.	.	.	.	.
 .	.	.	.	28%3ffn	.
 8CC 8C	.	.	.	.	.
 .	.	.	.	28%3een	.
@@ -76,8 +79,12 @@
 .	.	.	.	28%3ff#X	[ >
 .	.	(8cnL 8en 8an	>	.	.
 .	.	.	.	28%3cc#X	.
-.	.	[8BnJ [8dn [8b-X)	.	.	.
+.	.	[8BnJ [8dn [8b-X	.	.	.
 .	.	.	]	28%3ffnJ)	]
 =||	=||	=||	=||	=||	=||
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Daniel Wright
+!!!EEV: 2021/07/23
