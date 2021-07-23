@@ -1,6 +1,7 @@
 !!!COM: Igor (Fyodorovich) Stravinsky
 !!!OTL: [T379_Str-15/11/[1]1-8]
 **kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part3	*part3	*part2	*part2	*part1	*part1
 *staff3	*	*staff2	*	*staff1	*
 *I"Violin	*	*I"Bassoon	*	*I"Clarinet in Bb	*
@@ -11,16 +12,16 @@
 *k[]	*	*k[]	*	*k[b-e-]	*
 *	*	*	*	*	*
 *M3/4	*	*M3/4	*	*M3/4	*
+!!LO:REH:t=1
 =1	=1	=1	=1	=1	=1
-!	!	!	!	!LO:TX:t=[quarter]=48	!
-!	!	!LO:TX:b:t=[pp]	!	!LO:TX:a:B:t=1	!
-8r)	.	8f#XL)	.	4r	.
-!LO:TX:b:i:t=poco	!	!	!	!	!
+!	!	!	!LO:DY:ed=brack	!LO:TX:t=[[quarter]=48]	!
+!	!	!	!LO:DY:a	!	!
+8r)	.	8f#XL)	pp	4r	.
 !LO:TX:a:t=(non arpeg.)	!	!	!	!	!
-!LO:TX:a:t=pizz.	!	!	!	!	!
+!LO:TX:a:t=pizz.	!LO:DY:t=poco %s	!	!LO:HP:a	!	!
 [8G [8b	sf	(8cc#X^J	mf >	.	.
-!	!	!	!	!LO:TX:b:t=[p]	!
-4r	.	4.g#X	pp ]	[2gg-X~	.
+!	!	!	!	!	!LO:DY:ed=brack
+4r	.	4.g#X	pp ]	[2gg-X~	p
 4r	.	.	.	.	.
 .	.	[8f#X)	.	.	.
 =2||	=2||	=2||	=2||	=2||	=2||
