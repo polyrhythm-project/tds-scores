@@ -1,68 +1,69 @@
 !!!COM: Igor (Fyodorovich) Stravinsky
 !!!OTL: [T384_Str-25/11/[3]1-7]
-**kern	**kern	**kern
-*part3	*part2	*part1
-*staff3	*staff2	*staff1
-*I"Clarinet in A II	*I"Clarinet in A I	*I"Flute
-*I'Cl.	*I'Cl.	*I'Fl.
+**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
+*part3	*	*part2	*	*part1	*
+*staff3	*	*staff2	*	*staff1	*
+*I"Clarinet in A II	*	*I"Clarinet in A I	*	*I"Flute	*
+*I'Cl.	*	*I'Cl.	*	*I'Fl.	*
 !!pagebreak:original
-*clefG2	*clefG2	*clefG2
-*ITrd2c3	*ITrd2c3	*
-*k[f#c#]	*k[f#c#]	*k[f#c#]
-*D:	*D:	*D:
-*M3/4	*M3/4	*M3/4
-=1	=1	=1
-!	!	!LO:TX:t=[half-dot]=66
-!	!	!LO:TX:a:B:t=3
-!	!LO:TX:b:t=[p]	!LO:TX:b:t=[mp]
-4r	4D	4r
-.	.	(16qqddd/LL
-!LO:TX:b:t=[p]	!	!
-.	.	16qqddd/JJ
-(4f#'	(4d'	2fff#)
-4f#')	4d')	.
-=2	=2	=2
-.	.	(16qqeee/LL
-.	.	16qqeee/JJ
-4r	4C#	2ggg#X)
-(4g'	(4e'	.
-.	.	(16qqggg#/LL
-.	.	16qqggg#/JJ
-4g')	4e')	[4bbb)
-=3	=3	=3
-4r	4C#	4bbb]
-.	.	(16qqggg#X/LL
-.	.	16qqggg#/JJ
-(4g'	(4e'	2gg#X)
-4g')	4e')	.
-=4	=4	=4
-.	.	(16qqgggn/LL
-.	.	16qqggg/JJ
-4r	4D	2bbb)
-(4f#'	(4d'	.
-.	.	(16qqggg#X/LL
-.	.	16qqggg#/JJ
-4f#')	4d')	[4aa)
-=5	=5	=5
-4r	4D	4aa]
-.	.	(16qqddd/LL
-.	.	16qqddd/JJ
-(4f#'	(4d'	2fff#)
-4f#')	4d')	.
-=6	=6	=6
-.	.	(16qqeee/LL
-.	.	16qqeee/JJ
-4r	4C#	2ggg#X)
-(4g'	(4e'	.
-.	.	(16qqggg#/LL
-.	.	16qqggg#/JJ
-4g')	4e')	[4bbb)
-=7	=7	=7
-4r	4C#	4bbb]
-.	.	(16qqggg#X/LL
-.	.	16qqggg#/JJ
-(4g'	(4e'	2aa)
-4g')	4e')	.
-=	=	=
-*-	*-	*-
-!!!system-decoration: [(s1[(s2,s3)])]
+*clefG2	*	*clefG2	*	*clefG2	*
+*ITrd2c3	*	*ITrd2c3	*	*	*
+*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*
+*D:	*	*D:	*	*D:	*
+*M3/4	*	*M3/4	*	*M3/4	*
+!!LO:REH:t=3
+=1	=1	=1	=1	=1	=1
+!	!	!	!LO:DY:ed=brack	!LO:TX:t=[[half-dot]=66]	!
+4r	.	4D	p	4r	.
+!	!	!	!	!	!LO:DY:ed=brack
+.	.	.	.	(16qqddd/LL	mp
+.	.	.	.	16qqddd/JJ	.
+!	!LO:DY:ed=brack	!	!	!	!
+(4f#'	p	(4d'	.	2fff#)	.
+4f#')	.	4d')	.	.	.
+=2	=2	=2	=2	=2	=2
+.	.	.	.	(16qqeee/LL	.
+.	.	.	.	16qqeee/JJ	.
+4r	.	4C#	.	2ggg#X)	.
+(4g'	.	(4e'	.	.	.
+.	.	.	.	(16qqggg#/LL	.
+.	.	.	.	16qqggg#/JJ	.
+4g')	.	4e')	.	[4bbb)	.
+=3	=3	=3	=3	=3	=3
+4r	.	4C#	.	4bbb]	.
+.	.	.	.	(16qqggg#X/LL	.
+.	.	.	.	16qqggg#/JJ	.
+(4g'	.	(4e'	.	2gg#X)	.
+4g')	.	4e')	.	.	.
+=4	=4	=4	=4	=4	=4
+.	.	.	.	(16qqgggn/LL	.
+.	.	.	.	16qqggg/JJ	.
+4r	.	4D	.	2bbb)	.
+(4f#'	.	(4d'	.	.	.
+.	.	.	.	(16qqggg#X/LL	.
+.	.	.	.	16qqggg#/JJ	.
+4f#')	.	4d')	.	[4aa)	.
+=5	=5	=5	=5	=5	=5
+4r	.	4D	.	4aa]	.
+.	.	.	.	(16qqddd/LL	.
+.	.	.	.	16qqddd/JJ	.
+(4f#'	.	(4d'	.	2fff#)	.
+4f#')	.	4d')	.	.	.
+=6	=6	=6	=6	=6	=6
+.	.	.	.	(16qqeee/LL	.
+.	.	.	.	16qqeee/JJ	.
+4r	.	4C#	.	2ggg#X)	.
+(4g'	.	(4e'	.	.	.
+.	.	.	.	(16qqggg#/LL	.
+.	.	.	.	16qqggg#/JJ	.
+4g')	.	4e')	.	[4bbb)	.
+=7	=7	=7	=7	=7	=7
+4r	.	4C#	.	4bbb]	.
+.	.	.	.	(16qqggg#X/LL	.
+.	.	.	.	16qqggg#/JJ	.
+(4g'	.	(4e'	.	2aa)	.
+4g')	.	4e')	.	.	.
+=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-
+!!!system-decoration: [(s1[{s2,s3}])]
