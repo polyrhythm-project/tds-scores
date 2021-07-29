@@ -1,6 +1,7 @@
 !!!COM: Anton (Friedrich Wilhelm von) Webern
 !!!OTL: [T414A_Web-w24p4m19-20]
 **kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part3	*part3	*part2	*part2	*part1	*part1
 *staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin I	*
@@ -10,38 +11,42 @@
 *k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*
 *M3/4	*	*M3/4	*	*M3/4	*
-=1	=1	=1	=1	=1	=1
-!LO:TX:b:t=[p]	!	!	!	!	!
-!LO:TX:b:i:t=  dim.	!	!LO:TX:b:t=[p dim.]	!	!LO:TX:t=[quarter]=42	!
-(8qFn/	.	.	.	.	.
-16f#X'LL)	.	16B-XLL	.	16r	.
-!	!	!	!	!LO:TX:b:i:t=  dim.	!
+=19	=19	=19	=19	=19	=19
+!	!	!	!	!LO:TX:t=[[quarter]=42]	!
+(>8qFn/	.	.	.	.	.
+!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!
+16f#X'LL)	p	\16B-XLL	p	16r	.
 !LO:TX:a:t=pizz.	!	!LO:TX:a:t=pizz.	!	!LO:TX:a:t=arco	!
-16f#'JJ	.	16bn'	.	8cccn~L	p
+16f#'JJ	>	16bn'	.	8cccn~L	p
 !LO:TX:a:t=arco	!	!	!	!	!
-8r	.	16b'JJ	.	.	.
-.	.	.	.	(8qeen/	.
+8r	.	16b'JJ	>	.	>
+.	.	.	.	(>8qeen/	.
 .	.	16r	.	16e-X'L)	.
 !	!	!	!	!LO:TX:a:t=pizz.	!
 8qqDn/	.	.	.	.	.
-[16BBn'^LL	.	8.r	.	16e-'JJ	.
-16BB'J]	.	.	.	16r	.
+!LO:TX:b:t=○	!	!	!	!	!
+!LO:TX:t=P:problem:This grace note should appear in the treble clef with a bracket around it, as it is the sounding note for the harmonic.	!	!	!	!	!
+!LO:N:head=dia	!	!	!	!	!
+(16BBn'^LL	.	8.r	.	16e-'JJ	.
+!LO:TX:b:t=○	!	!	!	!	!
+!LO:N:head=dia	!	!	!	!	!
+16BB'J)	.	.	.	16r	.
 !LO:TX:a:t=pizz.	!	!	!	!LO:TX:a:t=arco	!
 8Cn~J	.	.	.	16ffn~LL	.
-.	.	.	.	(8qff/	.
-.	.	16B-X~LL	.	16g-X'JJ)	.
+.	.	.	.	(>8qff/	.
+.	.	\16B-X~LL	.	16g-X'JJ)	.
 *clefG2	*	*	*	*	*
 16r	.	16an~JJ	.	16r	.
 !LO:TX:a:t=arco	!	!	!	!	!
-.	.	.	.	(8qqdn/	p
-(16g#XLL	pp	16r	.	16ccn~LL)	.
+.	.	.	.	(>8qqdn/	p
+(16g#XLL	p	16r	.	16ccn~LL)	.
 !	!	!LO:TX:a:t=arco	!	!	!
 16ggn'JJ)	.	16r	.	16r	.
-!	!	!LO:TX:b:i:t=  dim.	!	!LO:TX:b:i:t=dim.	!
+!	!	!	!	!LO:TX:b:i:t=dim.	!
 .	.	(8qB-X/	p	.	.
-16r	.	16bn'LL)	.	(16eenJJ	.
+16r	.	/16bn'LL)	>	(>16eenJJ	.
 *clefF4	*	*	*	*	*
-=2	=2	=2	=2	=2	=2
+=20	=20	=20	=20	=20	=20
 *M2/4	*	*M2/4	*	*M2/4	*
 !LO:TX:b:i:t=dim.	!	!	!	!	!
 .	.	(8qFn/	.	.	.
@@ -50,16 +55,27 @@
 16g#X'JJ)	.	16r	.	16cc#~	.
 !	!	!	!	!LO:TX:a:t=arco	!
 16r	.	16r	.	(16e-X	.
+!	!	!	!	!LO:TX:b:t=○	!
+!LO:TX:t=P:problem:This grace note should appear in the treble clef with a bracket around it, as it is the sounding note for the harmonic.	!	!LO:TX:t=P:problem:This grace note should appear in the treble clef with a bracket around it, as it is the sounding note for the harmonic.	!	!LO:TX:t=P:problem:This grace note should be the sounding note for the harmonic.	!
+!LO:N:head=dia	!	!LO:N:head=dia	!	!LO:N:head=dia	!
+16C#X (16F#XLL	.	(16D-X 16G-X	.	16gn'JJ)	.
 !	!	!	!	!LO:TX:a:t=(   )	!
-(16F#X	.	(16D-X 16G-X	.	16gn'JJ)	.
 8qqA#X/	.	8qqe-X/	.	8qdddn/	.
 16GGn'JJ)	.	16Cn'JJ)	.	16r	.
 .	.	.	.	(8qg#X/	.
 16r	.	16r	.	16An'LL)	.
+!	!	!	!	!LO:TX:b:t=○	!
 .	.	.	.	(8qgn/	.
+!	!	!	!	!LO:TX:t=P:problem: This open harmonic symbol should be placed under the grace note G natural, not the Eb	!
 16r	.	8r	.	16e-X'JJ)	.
 (8qGGn/	.	.	.	.	.
+!LO:TX:t=○	!	!	!	!	!
 16F#X')	.	.	.	16r	.
 =	=	=	=	=	=
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!RDF**dynam: > = dim.
+!!!EED: Daniel Wright
+!!!EEV: 2021/07/29
