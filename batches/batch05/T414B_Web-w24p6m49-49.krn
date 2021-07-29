@@ -1,6 +1,7 @@
 !!!COM: Anton (Friedrich Wilhelm von) Webern
 !!!OTL: [T414B_Web-w24p6m49-49]
 **kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part3	*part3	*part2	*part2	*part1	*part1
 *staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin I	*
@@ -10,36 +11,39 @@
 *k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*
 *M3/4	*	*M3/4	*	*M3/4	*
-=1	=1	=1	=1	=1	=1
-!	!	!	!	!LO:TX:t=[eighth]=84	!
-!	!	!	!	!LO:TX:b:t=[p]	!
-!	!	!	!	!LO:TX:a:t=pizz.	!
-8.r	.	8fn~L	p	16b-X'LL	.
+=48	=48	=48	=48	=48	=48
+!	!	!	!	!LO:TX:t=[[eighth]=84]	!
+!	!	!	!	!LO:TX:a:t=pizz.	!LO:DY:ed=brack
+8.r	.	8fn~L	p	16b-X'	p
 .	.	.	.	16b-'JJ	.
 *	*	*clefG2	*	*	*
 .	.	(8qff#X/	.	.	.
-.	.	16bbn'L)	.	8r	.
-!LO:TX:b:i:t=  dim.	!	!LO:TX:a:t=pizz.	!	!	!
-8.cnL	p	16bb'JJ	.	.	.
+.	p	16bbn'L)	.	8r	.
+!	!	!LO:TX:a:t=pizz.	!	!	!
+8.cnL	>	16bb'JJ	.	.	.
 .	.	4r	.	8r	.
 (8qCCn/	.	.	.	.	.
-16E-X'L)	.	.	.	16r	.
+16E-X'L)	.	.	.	16r	p
 !LO:TX:a:t=pizz.	!	!	!	!LO:TX:a:t=arco	!
-16E-'JJ	.	.	.	(16BnKL	p
-!	!	!LO:TX:b:i:t=dim.	!	!	!
+!	!	!	!	!LO:N:head=dia	!
+!	!	!	!	!LO:TX:b:t=○	!
+!	!	!	!	!LO:TX:t=P:problem:This grace note should be the sounding note for the harmonic.		!
+16E-'JJ	.	.	.	(16BnKL	.
 !	!	!LO:TX:a:t=arco	!	!	!
 .	.	.	.	8qqbbn/	>
-8r	.	(8fnL	.	8cn~J)	.
+8r	pp <	(8fnL	>	8cn~J)	.
 !LO:TX:a:t=arco	!	!	!	!	!
-(8BB-XL	pp < [ >	16ff#X'L)	.	8r	]
+(8BB-XL	[	16ff#X'L)	.	8r	]
 !	!	!LO:TX:a:t=pizz.	!	!	!
-.	.	16ff#'JJ	.	.	.
+.	> ]	16ff#'JJ	.	.	.
 *	*	*clefC3	*	*	*
-=2	=2	=2	=2	=2	=2
+=49	=49	=49	=49	=49	=49
 *M2/4	*	*M2/4	*	*M2/4	*
 16An'L)	]	8.r	.	16r	.
-!LO:TX:a:t=pizz.	!	!	!	!	!
-16A'JJ	.	.	.	(16gnKL	pp
+!LO:TX:a:t=pizz.	!	!	!	!LO:N:head=dia	!
+!	!	!	!	!LO:TX:t=○	!
+!	!	!	!	!LO:TX:t=P:problem:This grace note should be the sounding note for the harmonic.		!
+16A'JJ	.	.	.	\(16gnKL	pp
 !LO:TX:a:t=arco	!	!	!	!	!
 .	.	.	.	8qqdddn/	.
 8r	.	.	.	8cc#X~J)	.
@@ -55,7 +59,10 @@
 .	.	.	.	(8qfn/	.
 8r	.	16r	.	16cn')	.
 !	!	!	!	!LO:TX:a:t=pizz.	!
-.	.	16cc#X~	p	16c'JJ	.
+.	.	16cc#X~LL	p	16c'JJ	.
 =	=	=	=	=	=
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
+!!!RDF**dynam: > = dim.
+!!!EED: Daniel Wright
+!!!EEV: 2021/07/29
