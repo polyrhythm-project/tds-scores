@@ -1,6 +1,7 @@
 !!!COM: Bohuslav (Jan) Martinů
 !!!OTL: [T482_Mau-54/16/1-7]
 **kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B
 *part3	*part3	*part2	*part2	*part1	*part1
 *staff3	*	*staff2	*	*staff1	*
 *I"Bassoon	*	*I"Clarinet in C	*	*I"Oboe	*
@@ -11,70 +12,72 @@
 *C:	*	*C:	*	*C:	*
 *M3/8	*	*M3/8	*	*M3/8	*
 =1	=1	=1	=1	=1	=1
-!	!	!	!	!LO:TX:t=[eighth]=190	!
-!	!	!	!	!LO:TX:t=[quarter]=100	!
-!	!	!	!	!LO:TX:a:B:t=Poco allegretto	!
-8%3r	.	8%3r	.	4ccT	p
-.	.	.	.	8a'	.
+!	!	!	!	!LO:TX:a:B:t=Poco allegretto [[eighth]=190]	!
+8%3r	.	8%3r	.	4ccTT	p
+.	.	.	.	8a'>	.
 =2	=2	=2	=2	=2	=2
 *M4/8	*	*M4/8	*	*M4/8	*
-2r	.	2r	.	(4ccT	.
-.	.	.	.	8a')	.
-.	.	.	.	8cc'	.
+2r	.	2r	.	(4ccTT	.
+.	.	.	.	8a'>)	.
+.	.	.	.	8cc'>	.
 =3	=3	=3	=3	=3	=3
 *M3/8	*	*M3/8	*	*M3/8	*
-8%3r	.	8r	.	4ccT	.
+8%3r	.	8r	.	4ccTT	.
 .	.	(8qg/	p <	.	.
-.	.	8f'L)	.	.	.
-.	.	8g'J	[	8a'	.
+.	.	8f'>L)	.	.	.
+.	.	8g'>J	[	8a'>	.
 =4	=4	=4	=4	=4	=4
 *M4/8	*	*M4/8	*	*M4/8	*
-2r	.	(4gT	>	(4ccT	.
-.	.	8f')	.	8a')	.
+2r	.	(4gTT	>	(4ccTT	.
+.	.	8f'>)	.	8a'>)	.
 .	.	(8qa/	]	.	.
-.	.	8g')	.	8cc'	.
+.	.	8g'>)	.	8cc'>	.
 =5	=5	=5	=5	=5	=5
 *M7/8	*	*M7/8	*	*M7/8	*
-8r	.	8r	.	4ccT	.
+8r	.	8r	.	4ccTT	.
 .	.	(8qg/	<	.	.
-8C'L	p	8f'L)	.	.	.
-8B'J	<	8g'J	.	8a	.
-8D'L	.	(4gT	[ >	(4ccT	<
+\8C'L	p	8f'>L)	.	.	.
+8B'J	<	8g'>J	.	8a	.
+8D'L	.	(4gTT	[ >	(4ccTT	<
 !LO:TX:b:i:t=(poco)	!	!	!	!	!
 (8qd/	[	.	.	.	.
 8c'J)	.	.	.	.	.
 8r'	.	8fL)	.	8a'L)	.
 .	.	(8qa/	]	.	.
-8C'L	.	8g'J)	.	8ff'J	[
+\8C'L	.	8g'>J)	.	8ff'J	[
 !!linebreak:original
 =6	=6	=6	=6	=6	=6
-!	!	!	!	!LO:TX:b:i:t=poco	!
-8B'J	<	8r	.	4ffT	mf
+!	!	!	!	!	!LO:DY:t=poco %s
+8B'J	<	8r	.	4ffTT	mf
 .	.	(8qg/	<	.	.
-8D'L	.	8f'L)	.	.	.
+8D'L	.	8f'>L)	.	.	.
 (8qd/	[	.	.	.	.
-8c'J)	.	8g'J	.	8cc'	.
-8r'	.	(4gT	[ >	(4ffT	.
-8C'L	<	.	.	.	.
+8c'J)	.	8g'>J	.	8cc'	.
+8r'	.	(4gTT	[ >	(4ffTT	.
+\8C'L	<	.	.	.	.
 8B'J	.	8fL	.	8ee'L)	.
 .	.	(8qa/	]	.	.
-8D'L	.	8g'J))	.	8cc'J	.
+8D'L	.	8g'>J))	.	8cc'J	.
 =7	=7	=7	=7	=7	=7
 (8qd/	[	.	.	.	.
 8c'J)	.	8r	.	4dd~	<
 .	.	(8qg/	<	.	.
-8r'	.	8f'L)	.	.	.
-8C'L	<	8g'J	.	4ee~	[
-8B'J	.	(4gT	[ >	.	.
+8r'	.	8f'>L)	.	.	.
+\8C'L	<	8g'>J	.	4ee~	[
+8B'J	.	(4gTT	[ >	.	.
 8D'L	.	.	.	8r	.
 (8qd/	[	.	.	.	.
 *	*	*	*	*^	*
-8c'J)	.	8fL)	.	8ryy@	(8ffL	.
+8c'J)	.	8fL)	.	8ryy@	(8ffTT>L	.
 .	.	.	.	16qff/LL	.	.
 .	.	.	.	16qgg/	.	.
 .	.	(8qa/	]	16qff/JJ	.	.
-8r'	.	8g'J)	.	8ryy@	8dd'J)	.
+8r'	.	8g'>J)	.	8ryy@	8dd'J)	.
 *	*	*	*	*v	*v	*
 =||	=||	=||	=||	=||	=||
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Daniel Wright
+!!!EEV: 2021/08/04
