@@ -1,6 +1,7 @@
 !!!COM: Bohuslav (Jan) Martinů
 !!!OTL: [T497_Mau-39/11/1-6]
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
 *part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff6	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Piano	*	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
@@ -11,10 +12,10 @@
 *C:	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*
 *M2/4	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!LO:TX:t=[quarter]=80	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=80	!
+!	!LO:TX:t=Andante (Poco moderato) [quarter]=72	!	!	!	!	!	!	!	!LO:TX:t=Andante (Poco moderato) [quarter]=72	!
 2r	2r	.	8r	.	8r	.	8r	.	8r	.
-!	!	!	!LO:TX:b:t=p dolce	!	!LO:TX:b:t=p dolce	!	!LO:TX:b:t=p dolce	!	!LO:TX:b:t=p dolce	!
-.	.	.	(8BB-X	.	(8B-X	.	(8d	.	(8f	.
+!	!	!	!	!LO:DY:t=%s dolce	!	!LO:DY:t=%s dolce	!	!LO:DY:t=%s dolce	!	!LO:DY:t=%s dolce
+.	.	.	(8BB-X	p	(8B-X	p	(8d	p	(8f	p
 .	.	.	8CL	.	8e-XL	.	8cL	.	8b-XL	.
 .	.	.	8DJ)	.	8dJ)	.	8fJ)	.	8aJ)	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
@@ -39,7 +40,7 @@
 *v	*v	*	*	*	*	*	*	*	*	*	*
 8r'	.	.	8BB-J)	[	8B-J)	[	8dJ)	[	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-8r'	8r'	.	(8CL	.	(8enL	.	(8cL	.	(8b-XL	<
+8r'	8r'	.	(8CL	.	(8enL	.	(8cL	.	(>8b-XL	<
 8D'	8d	.	8BB-XJ	<	8B-XJ	<	8dJ	.	8aJ	.
 8E-X'	8e-X	.	8CL	.	8eL	.	8cL	.	8ddL	[
 8r'	8r'	.	8DJ	.	8dJ	.	8fJ	>	8b-J	>
@@ -47,7 +48,7 @@
 8F'	8f	.	8DJ)	[	8dJ	[	8fJ)	]	8gJ)	]
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
 *M2/4	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
-8G'	8g	<	(8EnL	.	(8gL	.	(8enL	.	(8ccL	.
+8G'	8g	<	(8EnL	.	(8gL	.	(8enL	.	(>8ccL	.
 8r	8r	.	8DJ	<	8fJ	.	8fJ	.	8aJ	.
 8r	8r	.	8EL	.	8gL	<	8eL	<	8gL	.
 8A'	8a	[	8FJ	.	8fJ	.	8aJ	.	8fJ	.
@@ -56,10 +57,12 @@
 8B-X'	8b-X	.	4.G)	[	4.b-X)	[	4.g)	[	8dL	<
 8r	8r	.	.	.	.	.	.	.	8enJ)	.
 4r	4r	.	.	.	.	.	.	.	8eL	.
-!	!	!	!LO:TX:b:i:t=poco	!	!LO:TX:b:i:t=poco	!	!LO:TX:b:t=poco	!	!LO:TX:b:i:t=poco	!
-.	.	.	(8F	mf	(8a	mf	(8f	mf	(8fJ	mf [
+!	!	!	!	!LO:DY:t=poco %s	!	!LO:DY:t=poco %s	!	!LO:DY:t=poco %s	!	!LO:DY:t=poco %s
+.	.	.	(8F	mf	(8a	mf	(8f	mf	(>8fJ	mf [
 8r	8r	.	8GL	.	8gL	.	8b-XL	.	8ffL	.
 8AA' 8A	8c 8a 8cc	p	8AJ)	.	8ccJ)	.	8aJ)	.	8ee-XJ)	.
 =||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)][({(s5,s6)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
