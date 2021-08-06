@@ -1,7 +1,7 @@
 !!!COM: Manuel de Falla (y Matheu)
 !!!OTL: [T314_Fal-w7p12m159-167]
 **kern	**kern	**dynam
-!!pagebreak:original
+*staff2	*staff1	*staff1/2
 *grp:A	*grp:B	*grp:B
 *clefF4	*clefG2	*
 *k[]	*k[]	*
@@ -10,9 +10,9 @@
 =1	=1	=1
 !	!LO:TX:t=[[quarter]=88]	!
 4AAA'^^< 4AA	(16ff^LL 16gg#X 16eee	sfz
+.	16dddJ)	.
 !	!	!LO:DY:ed=brack
-.	16dddJ)	.ff
-.	8ff 8gg# 8ddd	.
+.	8ff 8gg# 8ddd	ff
 8AAA^^< 8AA	8ffJ 8gg# 8ddd	.
 8BBB^^<L 8BB	16gg#i^LL 16gggni	.
 .	16fff	.
@@ -78,34 +78,31 @@
 !!linebreak:original
 =7	=7	=7
 *M2/4	*M2/4	*
-*	*ITrd-7c-12	*
-!	!LO:TX:t=8 - - - - - - 		!
+*	*8va	*
 !	!LO:TX:a:t=([eighth] = [eighth])	!
-!	!LO:TX:t=P:problem:8va line not rendering (currently encoded as text)	!
 .	(>(16qqbb/LL	fff
 .	16qqeee/JJ	.
 !LO:TX:b:t=Ped.	!	!
-8EEE^^< 8EE	40ggg#X^^LLL 40bbb)	.
+8EEE^^< 8EE	40ggg#X^^LLL\ 40bbb)	.
 .	40fff#X	.
 .	40eee	.
 .	40bb	.
-.	40ggg#X 40bbb	.
+*	*X8va	*
+.	40gg#X 40bb	.
 *	*	*
 *clefG2	*	*
-!LO:TX:t=P:problem: eighth rest locations within the staff are incorrect	!	!
-8r	40fff#X	.
-.	40eee	.
-.	40bb	.
+8rb	40ff#X	.
+.	40ee	.
+.	40b	.
 *	*	*
-!	!LO:TX:t=P:problem: mid-staff beaming not rendering	!
-.	40gg#X<	.
-.	40ee<JJJ	.
-4ryy	8b<^<)	.
-.	8r<	.
+.	40g#X<	.
+.	40e<JJJ/	.
+4ryy	8B<^<)	.
+.	8rb<	.
 .	.	.
 *	*clefF4	*
 =8	=8	=8
-2r	(32ALLL	p <
+2ryy	(32ALLL	p <
 .	32B	.
 .	32c	.
 .	32d	.
@@ -114,28 +111,29 @@
 !	!LO:TX:a:Bi:t=gliss.	!
 .	32f	.
 .	32gJJ	.
+.	8.ryy	.
+.	32ryy	.
 *	*clefG2	*
 .	32eeeLL	.
 .	32fffJJJ	[
 =9	=9	=9
-.	32ggg<LLL<	ff
-.	32fff<	.
-.	32eee<	.
-.	32ddd<	.
-.	32ccc<	.
-.	32bb<	.
+32gggLLL<	8ryy	ff
+32fff	.	.
+32eee	.	.
+32ddd	.	.
+32ccc	16ryy	.
+32bb	.	.
 !	!LO:TX:b:Bi:t=gliss.	!
-.	32aa<)JJJ	.
+!	!LO:TX:t=P:problem: missing gliss line	!
+32aa)JJ	32ryy	.
+4ryy	4ryy	.
 *clefF4	*	*
-!LO:TX:t=P:problem: issue with gliss notation (can't do all 3: (1) beam together, (2) have low B at end of bar, and (3) have the low B on the bottom staff	!	!
-32BB	32ryy	.
-!LO:TX:t=P:problem: missing hanging tie over the final bar of the example from the final low B	!	!
+[32BBJk	32ryy	.
 .	.	.
 =	=	=
 *-	*-	*-
-!!!system-decoration: [({(s1,s2)})]
-!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: i = editorial accidental, paren
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
 !!!EED: Kelsey Lussier
-!!!EEV: 20210/07/30
+!!!EEV: 2021/08/06
