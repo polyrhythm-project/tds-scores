@@ -1,6 +1,7 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T502_Mau-w88p27m177-182]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
@@ -11,21 +12,22 @@
 *C:	*	*C:	*	*C:	*	*C:	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 *	*	*	*	*	*	*8va	*
-=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!LO:TX:b:i:t=meno	!	!LO:TX:b:i:t=meno	!	!LO:TX:t=[quarter]=108	!
+=177	=177	=177	=177	=177	=177	=177	=177
+!	!	!	!LO:DY:t=meno %s	!	!LO:DY:t=meno %s	!LO:TX:t=[[quarter]=108]	!
 8r	.	8eL	f	8eeL	f	8r	.
-*	*	*	*	*	*	*X8va	*
+*	*	*	*	*	*	*8va	*
 4CC~^	f	16eeL	.	16ggL	.	4cccc~	f
 .	.	16ddJJ	.	16ffJJ	.	.	.
 .	.	16ccLL	.	16eeLL	.	.	.
 .	.	16b	.	16dd	.	.	.
+*	*	*	*	*	*	*X8va	*
 4C~	.	16a	.	16cc	.	4ccc~	.
 .	.	16gJJ	.	16bJJ	.	.	.
 .	.	16fLL	.	16aLL	.	.	.
 .	.	16e	.	16g	.	.	.
 (8c	.	16g	.	16b-X	.	(8cc	.
 .	.	16fJJ	.	16aJJ	.	.	.
-=2	=2	=2	=2	=2	=2	=2	=2
+=178	=178	=178	=178	=178	=178	=178	=178
 4d-X)	.	16fLL	.	16a-XLL	.	4dd-X)	.
 .	.	16e	.	16g	.	.	.
 .	.	16g	.	16b-X	.	.	.
@@ -34,11 +36,11 @@
 .	.	16d	.	16f	.	.	.
 4c)	.	16f	.	16a-	.	4cc)	.
 .	.	16dJJ	.	16fJJ	.	.	.
-.	.	16eLL	.	16gLL	.	.	.
+.	.	\16eLL	.	16gLL	.	.	.
 .	.	16g	.	16cc	.	.	.
 [8C	.	16cc	.	16ee	.	[8ccc	.
 .	.	16eeJJ	.	16ggJJ	.	.	.
-=3	=3	=3	=3	=3	=3	=3	=3
+=179	=179	=179	=179	=179	=179	=179	=179
 8C]	.	16ggLL	.	16bb-XLL	.	8ccc]	.
 .	.	16aa-X	.	16ccc	.	.	.
 4CC~	.	16gg	.	16bb-	.	4cccc~	.
@@ -52,7 +54,8 @@
 (8c	.	16d	.	16f	.	(8cc	.
 .	.	16eJJ	.	16gJJ	.	.	.
 !!linebreak:original
-=4	=4	=4	=4	=4	=4	=4	=4
+!!LO:REH:t=180
+=180	=180	=180	=180	=180	=180	=180	=180
 4d-X)	.	16fLL	.	16a-XLL	.	4dd-X)	.
 .	.	16e	.	16g	.	.	.
 .	.	16g	.	16b-X	.	.	.
@@ -63,9 +66,9 @@
 .	.	16e-JJ	.	16g-JJ	.	.	.
 .	.	16dLL	.	16fLL	.	.	.
 .	.	16c	.	16e	.	.	.
-(8En	.	16en	.	16g-	.	(8een	.
+(>8En	.	16en	.	16g-	.	(8een	.
 .	.	16gJJ	.	16b-XJJ	.	.	.
-=5	=5	=5	=5	=5	=5	=5	=5
+=181	=181	=181	=181	=181	=181	=181	=181
 4EEn)	.	16b-XLL	.	16dd-XLL	.	4eeen)	.
 .	.	16a	.	16cc	.	.	.
 .	.	16cc-X	.	16ee-X	.	.	.
@@ -79,7 +82,7 @@
 .	.	16A	.	16cn	.	.	.
 [8dnJ	.	16B-	.	16d	.	[8fJ	.
 .	.	16AJJ	.	16cJJ	.	.	.
-=6	=6	=6	=6	=6	=6	=6	=6
+=182	=182	=182	=182	=182	=182	=182	=182
 8dL])	.	16GLL	.	16B-XLL	.	8fL])	.
 .	.	16A	.	16c	.	.	.
 (8B-XJ	.	16B-X	.	16d	.	(8dJ	.
@@ -89,9 +92,13 @@
 .	.	16B-	.	16g	.	.	.
 .	.	16enJJ	.	16b-XJJ	.	.	.
 8f'L	>	8fL	>	8a-XL	>	8f'L	>
-[8FJ	]	16d-XL	.	16fL	.	[8ffJ	]
-.	.	16enJJ	]	16gJJ	]	.	.
+[8FJ	.	16d-XL	.	16fL	.	[8ffJ	.
+.	]	16enJJ	]	16gJJ	]	.	]
 *	*	*clefG2	*	*	*	*	*
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Daniel Wright
+!!!EEV: 2021/08/06
