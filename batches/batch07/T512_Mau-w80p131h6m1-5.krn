@@ -1,6 +1,7 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T512_Mau-w80p131h6m1-5]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B
 *part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Horn in F	*	*I"Bassoon	*	*I"Oboe	*
@@ -11,11 +12,11 @@
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[b-]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*F:	*	*C:	*	*C:	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
+!!LO:REH:t=6
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=126	!
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:B:t=6	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[[quarter]=126]	!
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=a 2	!	!LO:TX:a:t=a 2	!
-(8C#X	p	(8C#X	p	4a	.	(8ff)	p	4.aa	p	(8f)	p	[1A	p	[1a	p
+(8C#X	p	(8C#X	p	4a]	.	(8ff)	p	4.aa]	p	(8f)	p	[1A	p	[1a	p
 4D)	.	4D)	.	.	.	4ff#X)	.	.	.	4f#X)	.	.	.	.	.
 .	.	.	.	[4A	.	.	.	.	.	.	.	.	.	.	.
 (8C#	.	(8C#	.	.	.	(8ffn	.	8ryy	.	(8f	.	.	.	.	.
@@ -39,11 +40,11 @@
 [4E-X)	.	[4E-X)	.	.	.	[4gg)	.	.	.	[4g	.	.	.	.	.
 .	.	.	.	(8b-X	<	.	.	.	.	.	.	.	.	.	.
 8E-L]	<	8E-L]	<	8bn)	.	8ggL]	<	(8bbn	<	8gL])	<	(8Bn	<	(8bn	<
-(8EnJ	.	(8EnJ	.	4cc	.	(8ggJ	.	[4.ccc)	[	(8gJ	.	[4.c)	[	[4.cc)	[
-4F)	[	4F)	[	.	.	4aa-X)	[	.	.	4a-X)	[	.	.	.	.
-.	.	.	.	[8c	[	.	.	.	.	.	.	.	.	.	.
+(8EnJ	.	(8EnJ	.	4cc	.	(8ggJ	.	[4.ccc)	.	(8gJ	.	[4.c)	.	[4.cc)	.
+4F)	.	4F)	.	.	.	4aa-X)	.	.	.	4a-X)	.	.	.	.	.
+.	.	.	.	[8c	.	.	.	.	.	.	.	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-4F#X~	mf	4F#X~	mf	8c]	mf	4aan~	mf	4ccc']	mf	4a~	mf	2c_	mf	2cc_	mf
+4F#X~	[ mf	4F#X~	[ mf	8c]	[ mf	4aan~	[ mf	4ccc']	[ mf	4a~	[ mf	2c_	[ mf	2cc_	[ mf
 .	.	.	.	4cc	.	.	.	.	.	.	.	.	.	.	.
 (8E#XL	.	(8E#XL	.	.	.	(8gg#XL	.	[4ccc	.	(8g#XL	.	.	.	.	.
 [8F#J	.	[8F#J	.	[8c	.	[8aaJ)	.	.	.	[8aJ	.	.	.	.	.
@@ -55,9 +56,9 @@
 .	.	.	.	4c#X	.	.	.	.	.	.	.	.	.	.	.
 (8E#XL	.	(8E#XL	.	.	.	(8gg#XL	.	.	.	(8g#XL	.	.	.	.	.
 [8F#J	<	[8F#J	<	[8cc#X	<	[8aaJ	<	.	.	[8aJ	<	.	.	.	.
-8F#L])	.	8F#L])	.	4cc#]	.	8aaL])	.	(4ccc#Xv	<	8aL])	.	(4c#X	<	(4cc#X	<
+8F#L])	.	8F#L])	.	4cc#]	.	8aaL])	.	((4ccc#Xv	<	8aL])	.	((4c#X	<	(4cc#X	<
 (8GJ	.	(8GJ	.	.	.	(8aa#XJ	.	.	.	(8b-J	.	.	.	.	.
-4G#X)	[	4G#X)	[	[4dd	[	4bb)	[	(4ddd)	[	4bX)	[	(4d)	[	4dd)	[
+4G#X)	[	4G#X)	[	[4dd	[	4bb)	[	)4ddd(	[	4bX)	[	)4d(	[	4dd)	[
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2)]s3[(s4,s5,s6,s7,s8)]
