@@ -1,6 +1,7 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T509_Mau-w57p5m1h3m1-2]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A
 *part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*staff7	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Piano	*	*	*I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
@@ -12,9 +13,9 @@
 *C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=120	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=120	!
-!LO:TX:b:t=[più f]	!	!LO:TX:b:t=[p]	!	!LO:TX:b:t=[p]	!	!LO:TX:b:t=[p]	!	!LO:TX:b:t=[p]	!	!	!LO:TX:b:t=[poco f]	!	!LO:TX:b:t=[poco f]	!	!LO:TX:b:t=[poco f]	!	!LO:TX:b:t=[poco f]	!	!LO:TX:b:t=[poco f]	!	!LO:TX:b:t=[poco f]	!
-8D	.	8f#XL 8b-X	.	8a-XL 8ff	.	8ccL 8ff#X	.	8ddL 8ddd	.	8DD 8D	8d 8f	.	8D	.	8AA 8F	.	8c	.	8a	.	8cc	.
+!	!LO:DY:t=più %s	!	!	!	!	!	!	!LO:TX:t=[[quarter]=120]	!	!	!	!LO:DY:t=poco %s	!	!LO:DY:t=poco %s	!	!LO:DY:t=poco %s	!	!LO:DY:t=poco %s	!	!LO:DY:t=poco %s	!LO:TX:t=[[quarter]=120]	!LO:DY:t=poco %s
+!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
+8D]	f	8f#XL 8b-X	p	8a-XL 8ff	p	8ccL 8ff#X	p	8ddL 8ddd	p	8DD] 8D]	8d] 8f]	f	8D]	f	8AA] 8F]	f	8c]	f	8a]	f	8cc]	f
 4E^	.	8f#J 8b-	.	8a-J 8ff	.	8ccJ 8ff#	.	8ddJ 8ddd	.	4EE^ 4E	4e^ 4g#X	.	4E^	.	4BBn^ 4G#X	.	4d^	.	4b-X^	.	4dd^	.
 .	.	16f#LL 16b-	.	16a-LL 16ff	.	16ccLL 16ff#	.	16ddLL 16ddd	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	16f#J 16b-	.	16a-J 16ff	.	16ccJ 16ff#	.	16ddJ 16ddd	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -25,16 +26,17 @@
 4D^	<	16f#LL 16b-	<	16a-LL 16ff	<	16ccLL 16ff#	<	16ddLL 16ddd	<	4DD^ 4D	4d^ 4f#	<	4D^	.	4AA^ 4F	.	4c^	.	4a^	.	4cc^	.
 .	.	16f#J 16b-	.	16a-J 16ff	.	16ccJ 16ff#	.	16ddJ 16ddd	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	8f#J 8b-	.	8a-J 8ff	.	8ccJ 8ff#	.	8ddJ 8ddd	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!!LO:REH:t=3
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
 4E^	.	16f#XLL 16b-X	.	16a-XLL 16ff	.	16ccLL 16ff#X	.	16ddLL 16ddd	.	4EE^ 4E	4e^ 4g#X	.	4E^	<	4BB^ 4G#X	<	4d^	<	4b-X^	<	4dd^	<
 .	.	16f# 16b-	.	16a- 16ff	.	16cc 16ff#	.	16dd 16ddd	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	16f# 16b-	.	16a- 16ff	.	16cc 16ff#	.	16dd 16ddd	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	16f#JJ 16b-	.	16a-JJ 16ff	.	16ccJJ 16ff#	.	16ddJJ 16ddd	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-8D'	mf	8f# 8b-	mf [	8a- 8ff	mf [	8cc 8ff#	mf [	8dd 8ddd	mf [	8DD' 8D	8d' 8f#X	[	8D'	.	8AA' 8F#X	.	8c'	.	8a-X'	.	8cc'	.
-4E~^	[	8r	.	8r	.	8r	.	8r	.	4EE~^ 4E	4e~^ 4g#	.	4E~^	[	4BB~^ 4G#	[	4d~^	[	4b-~^	[	4dd~^	[
+8D'	mf [	8f# 8b-	mf [	8a- 8ff	mf [	8cc 8ff#	mf [	8dd 8ddd	mf [	8DD' 8D	8d' 8f#X	[	8D'	.	8AA' 8F#X	.	8c'	.	8a-X'	.	8cc'	.
+4E~^	.	8r	.	8r	.	8r	.	8r	.	4EE~^ 4E	4e~^ 4g#	.	4E~^	[	4BB~^ 4G#	[	4d~^	[	4b-~^	[	4dd~^	[
 .	.	16f#LL 16b-	.	16a-LL 16ff	.	16ccLL 16ff#	.	16ddLL 16ddd	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	16f# 16b-	.	16a- 16ff	.	16cc 16ff#	.	16dd 16ddd	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=  sempre	!	!LO:TX:b:i:t=  sempre	!	!LO:TX:b:i:t=  sempre	!	!LO:TX:b:i:t=  sempre	!	!LO:TX:b:i:t=  sempre	!	!LO:TX:b:i:t=  sempre	!
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:t=sempre %s	!	!LO:DY:t=sempre %s	!	!LO:DY:t=sempre %s	!	!LO:DY:t=sempre %s	!	!LO:DY:t=sempre %s	!	!LO:DY:t=sempre %s
 8D	f	16f# 16b-	.	16a- 16ff	.	16cc 16ff#	.	16dd 16ddd	.	8DD 8D	8d 8f#X 8dd	f	8D	f	8F#X	f	8f#X	f	8d	f	8dd	f
 .	.	16f#JJ 16b-	.	16a-JJ 16ff	.	16ccJJ 16ff#	.	16ddJJ 16ddd	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*clefG2	*	*	*	*	*
