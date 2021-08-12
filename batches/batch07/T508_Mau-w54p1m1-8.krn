@@ -1,6 +1,7 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T508_Mau-w54p1m1-8]
 **kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part3	*part3	*part2	*part2	*part1	*part1
 *staff3	*	*staff2	*	*staff1	*
 *I"Bassoon	*	*I"Clarinet in C	*	*I"Oboe	*
@@ -11,15 +12,16 @@
 *C:	*	*C:	*	*C:	*
 *M3/8	*	*M3/8	*	*M3/8	*
 =1	=1	=1	=1	=1	=1
-!	!	!	!	!LO:TX:t=[eighth]=160	!
-!	!	!	!	!LO:TX:t=[quarter]=120	!
+!	!	!	!	!LO:TX:t=[[eighth]=160]	!
 !	!	!	!	!LO:TX:a:B:t=Allegro moderato	!
+!	!	!	!	!LO:TX:t=P:problem:cross-bar beaming is not implemented yet	!
 8r	.	8%3r	.	(16b-XLL	p
 .	.	.	.	16fJ	.
 8BB-X'L	p	.	.	8b-'J)	.
 8F'J	.	.	.	(16b-LL	<
 .	.	.	.	16fJ	[
 =2	=2	=2	=2	=2	=2
+!LO:TX:t=P:problem:cross-bar beaming is not implemented yet	!	!	!	!	!
 (16F#XLL	<	8%3r	.	16b-XL	>
 16GJ)	.	.	.	16eJ	.
 8A-XJ	[	.	.	8b-J)	]
@@ -28,6 +30,7 @@
 16G#XJ	.	.	.	.	.
 .	.	.	.	24gJ	.
 =3	=3	=3	=3	=3	=3
+!	!	!LO:TX:t=P:problem:cross-bar beaming is not implemented yet	!	!	!
 16GL	<	(16d-XLL	p	8b-X'J)	.
 16AnJ	.	16fJ	.	.	.
 16B-XL	.	16a-XL	.	(16b-LL	.
@@ -35,10 +38,10 @@
 8c#X'J)	[	16cc#XL	<	16b-	.
 .	.	16eeJ	.	16eJ	[ >
 =4	=4	=4	=4	=4	=4
-!LO:TX:b:i:t=poco	!	!	!	!	!
+!	!LO:DY:t=poco %s	!	!	!	!
 (16dLL	mf	8ff'J)	[	8b-XJ)	]
 16BnJ	.	.	.	.	.
-!	!	!LO:TX:b:i:t=poco	!	!	!
+!	!	!	!LO:DY:t=poco %s	!	!
 16c#XL	.	(16ffLL	mf	(16b-LL	.
 16G#XJJ	<	16ddJ	.	16e-XJ	<
 16dLL	.	8ff'J)	.	16b-L	.
