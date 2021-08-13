@@ -1,6 +1,7 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T523_Mau-w83b2p7m9-12]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*	*
@@ -11,43 +12,42 @@
 *C:	*C:	*
 *M2/4	*M2/4	*
 =1	=1	=1
-!	!LO:TX:t=[quarter]=112	!
-!	!LO:TX:b:t=[mf]	!
-16CLL	(16gLL 16cc	.
+!	!LO:TX:t=[[quarter]=112]	!LO:DY:ed=brack
+(16CLL	(16gLL 16cc	mf
 16G	16e	.
 16c	16g 16cc	.
 16CJJ	16eJJ	.
 16GLL	16gLL 16dd	.
 16B	16f	.
 16C	16g 16cc	.
-16GJJ	16eJJ)	.
+16GJJ)	16eJJ)	.
 =2	=2	=2
-16dLL	(16fLL 16b	.
+(16dLL	(16fLL 16b	.
 16C	16e	.
 16G	16a 16dd	.
 16BJJ	16fJJ	.
 16CLL	16gLL 16cc	.
 16G	16e	.
 16c	16g 16cc	.
-16CJJ	16eJJ)	.
+16CJJ)	16eJJ)	.
 !!linebreak:original
 =3	=3	=3
-16GLL	(16gLL 16cc	.
+(16GLL	(16gLL 16cc	.
 16c	16e	.
 16C	16g 16cc	.
 16GJJ	16eJJ	.
 16BLL	16gLL 16dd	.
 16C	16f	.
 16G	16g 16cc	.
-16cJJ	16eJJ)	.
+16cJJ)	16eJJ)	.
 =4	=4	=4
-16CLL	(16fLL 16b	.
+(16CLL	(16fLL 16b	.
 16G	16e	.
 16B	16g 16dd	.
 16CJJ	16fJJ	.
 16GLL	16gLL 16cc	.
-16cJ	16eJ)	.
-!	!LO:TX:b:i:t=poco	!
+16cJ)	16eJ)	.
+!	!	!LO:DY:t=poco %s
 8C'J 8G 8c	8g'J 8ee 8gg	f
 =	=	=
 *-	*-	*-
