@@ -1,80 +1,82 @@
 !!!COM: Frank Martin
 !!!OTL: [T557_Mai-w23b2p146h11m1-10]
-**kern	**kern	**kern	**dynam	**kern	**kern	**dynam	**kern	**kern	**dynam	**kern	**kern	**kern	**text	**text	**dynam
-*part6	*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part1	*part1	*part1	*part1
-*staff10	*staff9	*staff8	*	*staff7	*staff6	*	*staff5	*staff4	*	*staff3	*staff2	*staff1	*staff1	*staff1	*
-*I"Cb.	*I"Vc.	*	*	*I"Vle.	*	*	*I"Vln.	*	*	*I"Pf.	*	*I"Tristan	*	*	*
-*I'Db.	*I'Vc.	*	*	*I'Vla.	*	*	*I'Vln. I	*	*	*I'Pno.	*	*I'T.	*	*	*
+!!!Xfilter: extract -s 1,2,3,0,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+!!!Xfilter: transpose -t -P8 -s1
+**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**dynam	**kern	**kern	**dynam	**kern	**kern	**kern	**text	**text	**dynam
+*part6	*	*part5	*	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part1	*part1	*part1	*part1
+*staff10	*	*staff9	*	*staff8	*	*staff7	*staff6	*	*staff5	*staff4	*	*staff3	*staff2	*staff1	*staff1	*staff1	*
+*I"Contrabass	*	*I"Violoncello	*	*	*	*I"Viola	*	*	*I"Violin	*	*	*I"Pf.	*	*I"Tristan	*	*	*
+*I'Cb.	*	*I'Vc.	*	*	*	*I'Vla.	*	*	*I'Vln.	*	*	*I'Pno.	*	*I'Tristan	*	*	*
 !!pagebreak:original
-*clefF4	*clefF4	*clefF4	*	*clefC3	*clefC3	*	*clefG2	*clefG2	*	*clefF4	*clefG2	*clefGv2	*	*	*
-*Trd0c0	*	*	*	*	*	*	*	*	*	*	*	*Trd0c0	*	*	*
-*k[]	*k[]	*k[]	*	*k[]	*k[]	*	*k[]	*k[]	*	*k[]	*k[]	*k[]	*	*	*
-*C:	*C:	*C:	*	*C:	*C:	*	*C:	*C:	*	*C:	*C:	*C:	*	*	*
-*M4/4	*M4/4	*M4/4	*	*M4/4	*M4/4	*	*M4/4	*M4/4	*	*M4/4	*M4/4	*M4/4	*	*	*
+*clefF4	*	*clefF4	*	*clefF4	*	*clefC3	*clefC3	*	*clefG2	*clefG2	*	*clefF4	*clefG2	*clefGv2	*	*	*
+*ITrd7c12	*	*	*	*	*	*	*	*	*	*	*	*	*	*Trd0c0	*	*	*
+*k[]	*	*k[]	*	*k[]	*	*k[]	*k[]	*	*k[]	*k[]	*	*k[]	*k[]	*k[]	*	*	*
+*C:	*	*C:	*	*C:	*	*C:	*C:	*	*C:	*C:	*	*C:	*C:	*C:	*	*	*
+*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*M4/4	*	*M4/4	*M4/4	*	*M4/4	*M4/4	*M4/4	*	*	*
 !!LO:REH:t=11
-=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!LO:TX:b:i:t=dolce	!	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:b:i:t=dolce	!	!LO:TX:a:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:a:t=pizz.	!	!LO:TX:b:t=[f]	!	!	!LO:TX:b:i:t=  subito	!	!	!LO:TX:b:i:t=  subito	!	!	!	!	!	!	!
-!LO:TX:b:t=[f]	!	!LO:TX:b:i:t=  marcato	!	!	!LO:TX:b:i:t=  subito	!	!	!LO:TX:b:i:t=  subito	!	!	!LO:TX:b:t=p dolce	!LO:TX:t=[quarter]=120	!	!	!
-2D	2D	[1GG	mf	2.b-X	2.cc#X	p p	2.gg	2.eee-X	p p	2r	[1G [1B-X [1c#X [1e-X	1r	.	.	.
-*	*	*	*	*	*	*	*	*	*	*8ba	*	*	*	*	*
-2r	2r	.	.	.	.	.	.	.	.	[4DDD' 4DD	.	.	.	.	.
-.	.	.	.	[4B-X	[4c#X	.	[4g	[4ee-X	.	4r	.	.	.	.	.
-=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:t= sempre %s
-2D	2D	1GG]	.	2B-]	2c#]	.	2g]	2ee-]	.	2r	1G_ 1B-_ 1c#_ 1e-_	4r	.	.	f
-!	!	!	!	!	!	!	!	!	!	!	!	!LO:T:dash	!	!	!
-.	.	.	.	.	.	.	.	.	.	.	.	[4G	et	Und	.
-2r	2r	.	.	[2b-X	[2cc#X	.	[2gg	[2eee-X	.	[4DDD' 4DD	.	4G]	la	.	.
-.	.	.	.	.	.	.	.	.	.	4r	.	4A	no-	der	.
-=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
-2D	2D	1GG-X	.	4b-]	4cc#]	.	4gg]	4eee-]	.	2r	4G] 4B-] 4c#] 4e-]	4B-X	-bles-	A-	.
-.	.	.	.	2.dd-X	2.een	.	2.bb-X	2.ggg-X	.	.	2.B-X 2.d-X 2.en 2.g-X	4G	-se	-del	.
-2r	2r	.	.	.	.	.	.	.	.	[4DDD' 4DD	.	4A	de	sei-	.
-.	.	.	.	.	.	.	.	.	.	4r	.	4B-	son	-nes	.
-=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-*	*	*	*	*	*	*	*	*	*	*	*	*^	*	*	*
-2D	2D	[1EE-X	.	2.ee-X	2.ff#X	.	2.ccc	2.aaa-X	.	2r	[1c [1e-X [1g-X [1a-X	(1c	2c	coeur	Her-	.
-2r	2r	.	.	.	.	.	.	.	.	[4DDD' 4DD	.	.	4c	.	-zens	.
-.	.	.	.	[4E-X	[4F#X	.	[4c	[4a-X	.	4r	.	.	4c	.	hat	.
-=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
-2D	2D	1EE-]	.	2E-]	2F#]	.	2c]	2a-]	.	2r	1c] 1e-] 1g-] 1a-_	4c)	4c	.	ihn	.
-.	.	.	.	.	.	.	.	.	.	.	.	4c	4c	l'a	da-	.
-2r	2r	.	.	2e-X	(2f#X	.	2cc	[2aa-X	.	[4DDD' 4DD	.	4c	4c	in-	-zu	.
-*	*	*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*
-*	*	*	*	*	*	*	*	*	*	*X8ba	*	*	*	*	*
-*	*	*	*	*	*	*	*	*	*	*	*	*^	*	*	*
-.	.	.	.	.	.	.	.	.	.	4r	.	4c	4c	-cli-	ge-	.
-*	*	*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*
-!!pagebreak:original
-=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
-2A-X	2AA-X	([1EE-X	.	2.f-X	2.a-X)	.	2.b--	2.aa-]	.	2r	[1B-- [1f-X 1a-_	2.e-X	-né	-führt,	.
-2r	2r	.	.	.	.	.	.	.	.	[4AAA-X' 4AA-X	.	.	.	.	.
-.	.	.	.	[4F-X	[4A-X	.	[4B--	[4a-X	.	4r	.	4c	à	die	.
-=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7
-2A-X	2AA-X	2EE-]	.	2F-]	2A-]	.	2B--]	2a-]	.	2r	1B--_ 1f-_ 1a-_	4c	com-	Din-	.
-.	.	.	.	.	.	.	.	.	.	.	.	[4c~	-pre-	-ge	.
-2r	2r	[2DD-X	.	[2f-X	[2a-X	.	[2b--	[2aa-X	.	[4AAA-X' 4AA-X	.	6c]	.	.	.
-.	.	.	.	.	.	.	.	.	.	.	.	6c	-dre	zu	.
-.	.	.	.	.	.	.	.	.	.	4r	.	.	.	.	.
-.	.	.	.	.	.	.	.	.	.	.	.	6c	les	ver-	.
-=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
-2A-X	2AA-X	2DD-])	.	4f-]	4a-]	.	4b--]	4aa-]	.	2r	1B--] 1f-] 1a-]	2c	cho-	-ste-	.
-.	.	.	.	2.F-X	2.A-X	.	2.B--	2.a-X	.	.	.	.	.	.	.
-2r	2r	4r	.	.	.	.	.	.	.	[4AAA-X' 4AA-X	.	4c	-ses	-hen,	.
-.	.	(4D-X	.	.	.	.	.	.	.	4r	.	4r	.	.	.
-=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
-2G#X	2GG#X	[1Dn	.	2.Dn	2.An	.	2.fn	2.g#X	.	2r	[1An [1fn [1g#X	4r	.	.	.
-.	.	.	.	.	.	.	.	.	.	.	.	4B	qu'au-	wel-	.
-2r	2r	.	.	.	.	.	.	.	.	[4GGG#X' 4GG#X	.	4B	-tour	-che	.
-.	.	.	.	[4d	[4an	.	[4ff	[4gg#X	.	4r	.	4B	de	die	.
-=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
-*	*	*	*	*	*	*	*	*	*	*	*	*^	*	*	*
-2G#X	2GG#X	1D_)	.	2d]	2a]	.	2ff]	2gg#]	.	2r	1A_ 1f_ 1g#_	2B	2.B	lui	Män-	.
-2r	2r	.	.	[2D	[2A	.	[2f	[2g#X	.	[4GGG#X' 4GG#X	.	4B	.	.	-ner,	.
-.	.	.	.	.	.	.	.	.	.	4r	.	4B	4B	ses	die	.
-*	*	*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*
-=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
-*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
+=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
+!LO:TX:b:i:t=dolce	!	!LO:TX:b:i:t=dolce	!	!	!	!	!LO:TX:b:i:t=  subito	!	!	!LO:TX:b:i:t=  subito	!	!	!	!	!	!	!
+!LO:TX:a:t=pizz.	!LO:DY:ed=brack	!LO:TX:a:t=pizz.	!LO:DY:ed=brack	!	!LO:DY:t= %s marcato	!	!LO:TX:b:i:t=  subito	!	!	!LO:TX:b:i:t=  subito	!	!	!LO:TX:b:t=p dolce	!LO:TX:t=[quarter]=120	!	!	!
+2DD	f	2D	f	[1GG	mf	2.b-X	2.cc#X	p p	2.gg	2.eee-X	p p	2r	[1G [1B-X [1c#X [1e-X	1r	.	.	.
+*	*	*	*	*	*	*	*	*	*	*	*	*8ba	*	*	*	*	*
+2r	.	2r	.	.	.	.	.	.	.	.	.	[4DDD' 4DD	.	.	.	.	.
+.	.	.	.	.	.	[4B-X	[4c#X	.	[4g	[4ee-X	.	4r	.	.	.	.	.
+=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:t= sempre %s
+2DD	.	2D	.	1GG]	.	2B-]	2c#]	.	2g]	2ee-]	.	2r	1G_ 1B-_ 1c#_ 1e-_	4r	.	.	f
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:T:dash	!	!	!
+.	.	.	.	.	.	.	.	.	.	.	.	.	.	[4G	et	Und	.
+2r	.	2r	.	.	.	[2b-X	[2cc#X	.	[2gg	[2eee-X	.	[4DDD' 4DD	.	4G]	la	.	.
+.	.	.	.	.	.	.	.	.	.	.	.	4r	.	4A	no-	der	.
+=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+2DD	.	2D	.	1GG-X	.	4b-]	4cc#]	.	4gg]	4eee-]	.	2r	4G] 4B-] 4c#] 4e-]	4B-X	-bles-	A-	.
+.	.	.	.	.	.	2.dd-X	2.een	.	2.bb-X	2.ggg-X	.	.	2.B-X 2.d-X 2.en 2.g-X	4GZ	-se	-del	.
+2r	.	2r	.	.	.	.	.	.	.	.	.	[4DDD' 4DD	.	4A	de	sei-	.
+.	.	.	.	.	.	.	.	.	.	.	.	4r	.	4B-	son	-nes	.
+=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
+*	*	*	*	*	*	*	*	*	*	*	*	*	*	*^	*	*	*
+2DD	.	2D	.	[1EE-X	.	2.ee-X	2.ff#X	.	2.ccc	2.aaa-X	.	2r	[1c [1e-X [1g-X [1a-X	(1c	2c	coeur	Her-	.
+2r	.	2r	.	.	.	.	.	.	.	.	.	[4DDD' 4DD	.	.	4c	.	-zens	.
+.	.	.	.	.	.	[4E-X	[4F#X	.	[4c	[4a-X	.	4r	.	.	4c	.	hat	.
+=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
+2DD	.	2D	.	1EE-]	.	2E-]	2F#]	.	2c]	2a-]	.	2r	1c] 1e-] 1g-] 1a-_	4c)	4c	.	ihn	.
+.	.	.	.	.	.	.	.	.	.	.	.	.	.	4c	4c	l'a	da-	.
+2r	.	2r	.	.	.	2e-X	(2f#X	.	2cc	[2aa-X	.	[4DDD' 4DD	.	4c	4c	in-	-zu	.
+*	*	*	*	*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*
+*	*	*	*	*	*	*	*	*	*	*	*	*X8ba	*	*	*	*	*
+*	*	*	*	*	*	*	*	*	*	*	*	*	*	*^	*	*	*
+.	.	.	.	.	.	.	.	.	.	.	.	4r	.	4c	4c	-cli-	ge-	.
+*	*	*	*	*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*
+=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
+2AA-X	.	2AA-X	.	([1EE-X	.	2.f-X	2.a-X)	.	2.b--	2.aa-]	.	2r	[1B-- [1f-X 1a-_	2.e-X	-né	-führt,	.
+2r	.	2r	.	.	.	.	.	.	.	.	.	[4AAA-X' 4AA-X	.	.	.	.	.
+.	.	.	.	.	.	[4F-X	[4A-X	.	[4B--	[4a-X	.	4r	.	4c	à	die	.
+=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7
+2AA-X	.	2AA-X	.	2EE-]	.	2F-]	2A-]	.	2B--]	2a-]	.	2r	1B--_ 1f-_ 1a-_	4c	com-	Din-	.
+.	.	.	.	.	.	.	.	.	.	.	.	.	.	[4c~	-pre-	-ge	.
+2r	.	2r	.	[2DD-X	.	[2f-X	[2a-X	.	[2b--	[2aa-X	.	[4AAA-X' 4AA-X	.	6c]	.	.	.
+.	.	.	.	.	.	.	.	.	.	.	.	.	.	6c	-dre	zu	.
+.	.	.	.	.	.	.	.	.	.	.	.	4r	.	.	.	.	.
+.	.	.	.	.	.	.	.	.	.	.	.	.	.	6c	les	ver-	.
+=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
+2AA-X	.	2AA-X	.	2DD-])	.	4f-]	4a-]	.	4b--]	4aa-]	.	2r	1B--] 1f-] 1a-]	2c	cho-	-ste-	.
+.	.	.	.	.	.	2.F-X	2.A-X	.	2.B--	2.a-X	.	.	.	.	.	.	.
+2r	.	2r	.	4r	.	.	.	.	.	.	.	[4AAA-X' 4AA-X	.	4c	-ses	-hen,	.
+.	.	.	.	(4D-Xi	.	.	.	.	.	.	.	4r	.	4r	.	.	.
+=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
+2GG#X	.	2GG#X	.	[1Dn	.	2.Dn	2.An	.	2.fn	2.g#X	.	2r	[1An [1fn [1g#X	4r	.	.	.
+.	.	.	.	.	.	.	.	.	.	.	.	.	.	4B	qu'au-	wel-	.
+2r	.	2r	.	.	.	.	.	.	.	.	.	[4GGG#X' 4GG#X	.	4B	-tour	-che	.
+.	.	.	.	.	.	[4d	[4an	.	[4ff	[4gg#X	.	4r	.	4B	de	die	.
+=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
+*	*	*	*	*	*	*	*	*	*	*	*	*	*	*^	*	*	*
+2GG#X	.	2GG#X	.	1D_	.	2d]	2a]	.	2ff]	2gg#]	.	2r	1A_ 1f_ 1g#_	2B	2.B	lui	Män-	.
+2r	.	2r	.	.	.	[2D	[2A	.	[2f	[2g#X	.	[4GGG#X' 4GG#X	.	4B	.	.	-ner,	.
+.	.	.	.	.	.	.	.	.	.	.	.	4r	.	4B	4B	ses	die	.
+*	*	*	*	*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})][([({(s4,s5)})][({(s6,s7)})][({(s8,s9)})]s10)]
+!!!Xfilter: slurcheck
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: Z = editorial accidental, parentheses
