@@ -11,27 +11,29 @@
 *C:	*C:	*	*C:	*
 *M4/4	*M4/4	*	*M4/4	*
 =1	=1	=1	=1	=1
-!	!	!LO:DY:ed=brack	!LO:TX:t=[quarter]=160	!
-4r	8c#X 8e 8g#X 8cc#X 8gg#X	f	4ccc#X	f
-.	8r	[	.	.
-!	!	!	!	!
-4d'Z 4f#X 4a	8dd#XL [8gg#X	p <	(2ccc#	p
-.	16gg#L]	.	.	.
-.	16ff#XJJ	.	.	.
-4c#X' 4e 4g#X	8eeL [8gg#	[	.	.
-.	16gg#L]	>	.	.
-.	16aaJJ	.	.	.
-4d' 4f# 4a	8dd#L [8bb	.	[4cccn	.
-.	16bbL]	.	.	.
-.	16aaJJ	]	.	.
+*	*^	*	*	*
+!	!	!	!LO:DY:ed=brack	!LO:TX:t=[quarter]=160	!
+!	!LO:T:a	!	!	!	!
+4r	8cc#X) ]8gg#Xj	8c#X) 8e) 8g#X)j	f	4ccc#X	f
+.	8r	8r	[	.	.
+4d'Z 4f#X 4a	[8gg#XL	8dd#X	p <	(2ccc#	p
+.	16gg#L]	8r	.	.	.
+.	16ff#XJJ	.	.	.	.
+4c#X' 4e 4g#X	[8gg#L	8ee	[	.	.
+.	16gg#L]	8r	>	.	.
+.	16aaJJ	.	.	.	.
+4d' 4f# 4a	[8bbL	8dd#X	.	[4cccn	.
+.	16bbL]	8r	]	.	.
+.	16aaJJ	.	.	.	.
+*	*v	*v	*	*	*
 =2	=2	=2	=2	=2
 4c#X' 4e 4g#X	4ee' 4gg#X	.	4ccc])	.
 4cn' 4e 4gn	4cc#X' 4ee	.	(2bb	<
-4d' 4f#X 4a	4dd#X' 4ff#X	.	.	.
+4dn' 4f#X 4a	4dd#X' 4ff#X	.	.	.
 4c#X' 4e 4g#X	4ee' 4gg#	.	4aa#X	[
 =3	=3	=3	=3	=3
 *	*^	*	*	*
-4d' 4f#X 4a	8.gg#X'L	8ee	<	4gg#X)	.
+4d'Z 4f#X 4a	8.gg#X'L	8ee	<	4gg#X)	.
 .	.	8r	.	.	.
 .	16ff#X'Jk	.	.	.	.
 4c#X' 4e 4g#X	8.gg#'L	8dd#X	.	(2ccc#X	.
@@ -45,12 +47,15 @@
 *	*v	*v	*	*	*
 =4	=4	=4	=4	=4
 4cn' 4e 4gn	4cc#X' 4ee	<	4ccc])	<
-4B' 4d 4f#X	4ccn' 4dd#X 4ff#X	.	(2bb	.
+4B' 4d# 4f#X	4ccn' 4dd#X 4ff#X	.	(2bbi	.
 4r	4b' 4ee 4gg#X	.	.	.
 *clefF4	*	*	*	*
-4Cn' 4B-X 4c#X	8.ff#X'L 8.aan	mf [	4aa	[
+4E' 4B-X 4c#X	8.ff#X'L 8.aan	mf [	4aa	[
 .	16dd#X'Jk 16gg#X	.	.	.
 =|	=|	=|	=|	=|
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
-!!!RDF**kern: Z = editorial accidental, parentheses
+!!!Xfilter: slurcheck
+!!!RDF**kern: Z = editorial accidental, paren
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
