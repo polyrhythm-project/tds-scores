@@ -12,7 +12,7 @@
 *M3/4	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!	!LO:TX:t=[quarter]=120	!
-4r	4r)	.	4%3r)	.	4%3r	.
+4r	4r)j	.	4%3r)j	.	4%3r	.
 4r	4r	.	.	.	.	.
 *lig	*lig	*	*	*	*	*
 [4GGG^^	[4b-^^ [4ff	ppp	.	.	.	.
@@ -23,14 +23,17 @@
 =3	=3	=3	=3	=3	=3	=3
 4GGG	4b- 4ff	.	4%3r	.	4%3r	.
 *Xlig	*Xlig	*	*	*	*	*
+*lig	*lig	*	*	*	*	*
 2GGG^^	2b-^^ 2ff	.	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4
 2GGG	2b- 2ff	.	4r	.	4r	.
 .	.	.	4r	.	4r	.
 4GGG	4b- 4ff	.	(12DL	pp	(12ddL	pp
+*Xlig	*Xlig	*	*	*	*	*
 .	.	.	12E	.	12ee	.
 .	.	.	12FJ	.	12ffJ	.
 =5	=5	=5	=5	=5	=5	=5
+*lig	*lig	*	*	*	*	*
 2GGG^^	2b-^^ 2ff	.	8GL	.	8ggL	.
 .	.	.	8B-	.	8bb-	.
 .	.	.	8A	.	8aa	.
@@ -41,7 +44,9 @@
 4GGG]	4b-] 4ff]	.	(8AL	.	(8aaL	.
 .	.	.	8e	.	8eee	.
 4GGG	4b- 4ff	.	8f	.	8fff	.
+*Xlig	*Xlig	*	*	*	*	*
 .	.	.	8g	.	8ggg	.
+*lig	*lig	*	*	*	*	*
 [4GGG^^	[4b-^^ [4ff	.	8f	.	8fff	.
 .	.	.	8dJ)	.	8dddJ)	.
 !!linebreak:original
@@ -54,6 +59,8 @@
 .	.	.	8EJ))	.	8eeJ))	.
 =8	=8	=8	=8	=8	=8	=8
 4GGG	4b- 4ff	.	(4F~	.	(4ff~	.
+*Xlig	*Xlig	*	*	*	*	*
+*lig	*lig	*	*	*	*	*
 2GGG^^	2b-^^ 2ff	.	4F~)	.	4ff~)	.
 .	.	.	(12DL	.	(12ddL	.
 .	.	.	12E	.	12ee	.
@@ -64,8 +71,10 @@
 .	.	.	8A	.	8aa	.
 .	.	.	8G	.	8gg	.
 4GGG	4b- 4ff	.	8F	.	8ff	.
+*Xlig	*Xlig	*	*	*	*	*
 .	.	.	8GJ)	.	8ggJ)	.
 =10	=10	=10	=10	=10	=10	=10
+*lig	*lig	*	*	*	*	*
 2GGG^^	2b-^^ 2ff	.	(8AL	.	(8aaL	.
 .	.	.	8e	.	8eee	.
 .	.	.	8f	.	8fff	.
@@ -76,16 +85,21 @@
 4GGG]	4b-] 4ff]	.	((8dL	.	((8dddL	.
 .	.	.	8c	.	8ccc	.
 4GGG	4b- 4ff	.	8B-)	.	8bb-)	.
+*Xlig	*Xlig	*	*	*	*	*
 .	.	.	(8G~	.	(8gg~	.
+*lig	*lig	*	*	*	*	*
 [4GGG^^	[4b-^^ [4ff	.	8G~	.	8gg~	.
 .	.	.	8G~J))	.	8gg~J))	.
 =12	=12	=12	=12	=12	=12	=12
 4GGG]	4b-] 4ff]	.	2G	.	2gg	.
 2GGG	2b- 2ff	.	.	.	.	.
 *	*	*	*clefC4	*	*	*
-.	.	.	(12dL	.	(12dddL	.
+.	.	.	(12dLi	.	(12dddLi	.
 .	.	.	12e	.	12eee	.
 .	.	.	12fJ	.	12fffJ	.
 =	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1,s2[({(s3,s4)})]
+!!!Xfilter: slurcheck
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
