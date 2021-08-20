@@ -1,6 +1,7 @@
 !!!COM: Sergey (Sergeyevich) Prokofiev
 !!!OTL: [T580_Pro-w40p126h108m5-8]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A
 *part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Contrabass	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Timpani	*	*I"Tuba	*	*I"Contrabassoon	*	*I"Bassoon	*	*I"Bass Clarinet in Bb	*	*I"Clarinet in Bb	*
@@ -12,10 +13,10 @@
 *B-:	*	*B-:	*	*B-:	*	*B-:	*	*B-:	*	*B-:	*	*B-:	*	*B-:	*	*B-:	*	*B-:	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!LO:TX:b:i:t=  espr.	!	!	!	!LO:TX:t=[quarter]=120	!	!	!	!	!	!	!	!	!	!	!	!	!
-!	!	!LO:TX:a:t=arco	!	!LO:TX:b:i:t=  espr.	!	!LO:TX:b:i:t=  espr.	!	!	!	!LO:TX:b:i:t=  espr.	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!LO:TX:t=Allegro espressivo [half-dot]=60	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=arco	!LO:DY:t=%s espr.	!	!LO:DY:t=%s espr.	!	!LO:DY:t=%s espr.	!	!	!	!LO:DY:t=%s espr.	!	!	!	!	!	!	!	!
 4GG	mf	2d	mf	2d	mf	2d	mf	4GG	mp	2.D	mf	2GG	mf	4r	.	4r	.	4r	.
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=120	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=Allegro espressivo [half-dot]=60	!
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=a2	!
 4r	.	.	.	.	.	.	.	4r	.	.	.	.	.	4G 4B-	mf	4g	mf	4B-	mf
 4r	.	[4c#X	.	[4c#X	.	[4c#X	.	4r	.	.	.	4r	.	4G 4B-	.	4g	.	4B-	.
@@ -28,7 +29,7 @@
 4GG	.	(4.e-	.	(4.e-	.	(4.e-	.	4GG	.	2.E-	.	2GG	.	4r	.	4r	.	4r	.
 4r	.	.	.	.	.	.	.	4r	.	.	.	.	.	4G 4B-	.	4g	.	4B-	.
 .	.	8c#X)	.	8c#X)	.	8c#X)	.	.	.	.	.	.	.	.	.	.	.	.	.
-4r	.	([4d	.	([4d	.	([4d	.	4r	.	.	.	4r	.	4G 4B-	.	4g	.	4B-	.
+4r	.	(<[4d	.	([4d	.	([4d	.	4r	.	.	.	4r	.	4G 4B-	.	4g	.	4B-	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
 4D	.	8dL]	.	8dL]	.	8dL]	.	4D	.	2.D	.	2D	.	4r	.	4r	.	4r	.
 .	.	8G~J)	.	8G~J)	.	8G~J)	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -37,3 +38,5 @@
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)][(s5)][(s6)][(s7,s8,s9,s10)]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
