@@ -1,6 +1,7 @@
 !!!COM: Sergey (Sergeyevich) Prokofiev
 !!!OTL: [T578_Pro-w24p42h30m1-9]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
@@ -11,9 +12,8 @@
 *A:	*	*A:	*	*A:	*	*A:	*
 *M9/8	*	*M9/8	*	*M9/8	*	*M9/8	*
 =1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!LO:TX:t=[quarter-dot]=40	!
-!	!	!	!	!	!	!LO:TX:b:i:t=  dolce	!
-(4Av	pp	4.r	.	8aL	pp	(4cc#v	pp
+!	!	!	!	!	!	!LO:TX:t=[[quarter-dot]=40]	!LO:DY:t=%s dolce
+(4Av	pp	4.r	.	8aL]	pp	(4cc#v	pp
 .	.	.	.	(8e	.	.	.
 8C#)	.	.	.	8aJ)	.	[8ff#	.
 2.FF#	.	4.r	.	(8eL	.	8ff#L]	.
@@ -55,8 +55,8 @@
 8c#)	.	.	.	.	.	.	.
 =5	=5	=5	=5	=5	=5	=5	=5
 (8BL	p	8dL]	.	8bL]	.	8%9r	.
-!	!	!	!	!LO:TX:b:t=p espress.	!	!	!
-8E)	.	(8A#X	p	(8cc#	.	.	.
+!	!	!	!	! 	!LO:DY:t=%s espress.	!	!
+8E)	.	(8A#X	p	(8cc#	p	.	.
 [8GGnJ	.	8BJ)	.	[8ddJ	.	.	.
 8GGL]	.	(4c#	.	8dd])	.	.	.
 (8E	.	.	.	4ff#~	.	.	.
@@ -106,9 +106,10 @@
 8EL)	>	(8a	>	(8cc#	>	8ff#L])	>
 (8G#X	.	4g#)	.	4b)	.	(8gg#	.
 8BJ)	.	.	.	.	.	[8eeJ	.
+!LO:TX:t=P:problem:hanging slur not implemented yet	!	!	!	!	!	!	!
 (4c#	.	(8g#	.	(8b	.	8eeL]	.
 .	.	4gn)	]	4b-X)	]	8dd	.
-8e)	]	.	.	.	.	8eeJ)	]
+8e	]	.	.	.	.	8eeJ)	]
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
