@@ -1,11 +1,13 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T617_Hin-w7p11hOm1-10]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
 *I"Piano	*	*	*I"Violoncello	*
 *I'Pno.	*	*	*I'Vc.	*
-!!pagebreak:original
+*ICklav	*ICklav	*	*ICstr	*
+*Ipiano	*Ipiano	*	*Icello	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
@@ -25,11 +27,11 @@
 =2	=2	=2	=2	=2
 8fL	8aaL	.	(2d	.
 8b	8gg#X	.	.	.
-!	!	!LO:HP:t= sempre %s	!	!
-8cc	8dd#X	>	.	.
+!	!	!LO:HP:t= sempre %s	!	!LO:HP:t= sempre %s
+8cc	8dd#X	>	.	>
 8fJ	8aaJ	.	.	.
-!	!	!	!	!LO:HP:t= sempre %s
-8bL	8gg#L	.	2c#X)	>
+!	!	!	!	!
+8bL	8gg#L	.	2c#X)	.
 8cc	8dd#	.	.	.
 8f	8aa	.	.	.
 8bJ	8gg#J	.	.	.
@@ -82,10 +84,11 @@
 (8e-XL	(8ggnL	.	4f#])	.
 8a	8ff#X	.	.	.
 *	*	*	*clefF4	*
+!	!	!LO:DY:t= %s dim.	!	!LO:DY:t= %s dim.
 8b-X	8cc#X	mf	(4c#X	mf
 8e-J	8ggJ	.	.	.
 !	!	!	!	!
-8aL	8ff#L	>	4d#X	.
+8aL	8ff#L	.	4d#X	.
 8b-)	8cc#)	.	.	.
 (8d-X	(8ffn	.	4e)	.
 8gJ	8eeJ	.	.	.
