@@ -12,14 +12,15 @@
 *M3/4	*M3/4	*	*M3/4	*
 *	*8va	*	*	*
 *	*Xtuplet	*	*	*
+!!LO:REH:t=C				
 =1	=1	=1	=1	=1
-!	!	!	!LO:TX:t=[quarter]=128	!
-!	!LO:TX:b:t=[ff]	!	!LO:TX:a:B:t=Wieder sehr fließend	!
-8DDD#X 8DD#X	12dddd#XL	>	(4d#X	pp
+!	!	!	!LO:TX:t=[[quarter]=128]	!
+!	!	!LO:DY:ed=brack	!LO:TX:a:B:t=Wieder sehr fließend	!
+8DDD#Xz] 8DD#Xz]	12dddd#XLz]	ff >	4d#Xz]	pp
 .	12eee	.	.	.
 4DDD#X 4DD#X	.	.	.	.
 .	12ddd#XJ	.	.	.
-!	!LO:TX:b:i:t=  sempre ben legato	!	!	!
+!	!	!LO:DY:t= %s sempre ben legato	!	!
 .	12eeL	ppp ]	8.eL	.
 .	12dd#X	.	.	.
 4DDD# 4DD#	.	.	.	.
@@ -57,7 +58,7 @@
 [8DDD# [8DD#	.	.	.	.
 .	12ddd#J	.	.	.
 =4	=4	=4	=4	=4
-8DDD#] 8DD#]	12eeL	.	8ccL])	.
+8DDD#] 8DD#]	12eeL	.	8cc##L])	.
 .	12dd#X	.	.	.
 4DDD#X 4DD#X	.	.	(8gg#X	[
 .	12eeeJ	.	.	.
@@ -86,3 +87,4 @@
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: z = editorial accidental, brack
