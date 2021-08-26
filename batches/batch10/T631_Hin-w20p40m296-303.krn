@@ -1,6 +1,7 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T631_Hin-w20p40m296-303]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A
 *part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Clarinet in Eb	*
@@ -12,11 +13,10 @@
 *	*	*	*	*	*	*	*	*	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!	!	!LO:TX:t=[half-dot]=80	!
-!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=160	!
-!	!	!	!	!	!	!	!	!LO:TX:a:B:t=Presto	!
-!	!	!	!	!LO:TX:b:t=[mf cresc.]	!	!LO:TX:b:t=[mf cresc.]	!	!LO:TX:b:t=[p]	!
-8FF#XL	f	8F#XL	f	4f#X	.	4ff#X	.	(4ff#X)	.
+!	!	!	!	!	!	!	!	!LO:TX:t=[[half-dot]=80]	!
+!	!	!	!	!	!LO:DY:t=%s cresc.	!	!LO:DY:t=%s cresc.	!LO:TX:a:B:t=Presto	!
+!	!	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:t=P:problem:Hanging slur not implemwnted yet	!LO:DY:ed=brack
+8FF#XL	f	8F#XL	f	4f#X	mf	4ff#X	mf	4ff#X)	p
 8CC#X 8GG#X	.	8Gn 8B-X	.	.	.	.	.	.	.
 8CC# 8GG#	.	8G 8B-	.	4r	.	4f#X 4cc#X 4aa	f	4r	.
 8CC# 8GG#	.	8G 8B-	.	.	.	.	.	.	.
@@ -25,7 +25,7 @@
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2
 (8BBB#XL 8FF##X	.	(8DL 8A	.	4r	.	4f#X 4dd#X 4bb	.	2ddd)	.
 8CC#XJ 8GG#X)	.	8GJ 8B-X)	.	.	.	.	.	.	.
-8CC#L 8GG#	.	8GL 8B-	.	8d-XL 8b-X 8gg-X	.	4r	.	.	.
+8CC#L 8GG#	.	8GL 8B-	.	8d-X/L 8b-X/ 8gg-X/	.	4r	.	.	.
 8CC# 8GG#	.	8G 8B-	.	8d-J 8b- 8gg-	.	.	.	.	.
 8CC# 8GG#	.	8G 8B-	.	4r	.	4fn 4ccn 4aa-X	.	(8eeeXL	.
 8CC#J 8GG#	.	8GJ 8B-	.	.	.	.	.	8cccJ	.
@@ -40,7 +40,7 @@
 8BBB#XJ 8FF##X)	.	8DJ 8A)	.	.	.	.	.	8ddd	.
 8CC#L 8GG#	.	8GL 8B-	.	4f#X 4dd#X 4bb	.	4r	.	8bbX	.
 8CC# 8GG#	.	8G 8B-	.	.	.	.	.	8ddd	.
-8CC# 8GG#	.	8G 8B-	.	4r	.	8d-XL 8b-X 8gg-X	.	8ccc	.
+8CC# 8GG#	.	8G 8B-	.	4r	.	8d-X/L 8b-X/ 8gg-X/	.	8ccc	.
 8CC#J 8GG#	.	8GJ 8B-	.	.	.	8d-J 8b- 8gg-	.	8aaXJ	.
 !!linebreak:original
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5
