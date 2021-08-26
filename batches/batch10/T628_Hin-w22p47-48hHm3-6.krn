@@ -1,6 +1,7 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T628_Hin-w22p47-48hHm3-6]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
 *part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Violin	*	*I"Piano	*	*	*I"Trombone	*	*I"Trumpet in C	*	*I"Horn in F	*	*I"Bassoon	*	*I"Clarinet in Bb	*	*I"Oboe	*	*I"Flute	*
@@ -12,15 +13,15 @@
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!LO:TX:t=[quarter]=55	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:a:t=[pizz.]	!	!LO:TX:a:t=[pizz.]	!	!LO:TX:a:t=[pizz.]	!	!LO:TX:a:t=[pizz.]	!	!	!	!	!LO:TX:a:t=[mit dämpfer]	!	!LO:TX:a:t=[mit dämpfer]	!	!LO:TX:a:t=[mit dämpfer]	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=55	!
-!LO:TX:b:t=[p dim.]	!	!LO:TX:b:t=[p dim.]	!	!LO:TX:b:t=[p dim.]	!	!LO:TX:b:t=[p dim.]	!	!	!LO:TX:a:t=[ppp]	!	!LO:TX:b:t=[pp]	!	!LO:TX:b:t=[pp]	!	!LO:TX:b:t=[pp]	!	!LO:TX:b:t=[p]	!	!LO:TX:b:t=[p]	!	!LO:TX:b:t=[p]	!	!LO:TX:b:t=[p]	!
-8BB-XL	.	8BB-XL	.	8B-XL	.	8B-XL	.	32ALLL	(32f#XLLL	.	4r	.	4r	.	4r	.	(32aLLL	>	8r	>	8ccL	.	8bbL	>
+!	!	!	!	!	!	!LO:TX:t=[[quarter]=55]	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=[pizz.]	!LO:DY:t=%s dim.	!LO:TX:a:t=[pizz.]	!LO:DY:t=%s dim.	!LO:TX:a:t=[pizz.]	!LO:DY:t=%s dim.	!LO:TX:a:t=[pizz.]	!LO:DY:t=%s dim.	!	!	!	!LO:TX:a:t=[mit dämpfer]	!	!LO:TX:a:t=[mit dämpfer]	!	!LO:TX:a:t=[mit dämpfer]	!	!	!	!	!	!	!	!LO:TX:t=[[quarter]=55]	!
+!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:t=P:problem:Hanging slur not implemwnted yet	!LO:TX:t=P:problem:Hanging slur not implemwnted yet	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
+8BB-XL	p	8BB-XL	p	8B-XL	p	8B-XL	p	32ALLL	32f#XLLL	ppp	4r	pp	4r	pp	4r	pp	(32aLLL	p >	8r	p >	]8ccL	p	]8bbL	p >
 .	.	.	.	.	.	.	.	32G#XJ	32e#XJ	.	.	.	.	.	.	.	32gJ)	.	.	.	.	.	.	.
-.	.	.	.	.	.	.	.	16F#XJJ	16d#XJJ)	.	.	.	.	.	.	.	16f'	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	16F#XJJ)	16d#XJJ)	.	.	.	.	.	.	.	16f'	.	.	.	.	.	.	.
 16r	.	16r	.	16r	.	16r	.	16r	16r	.	.	.	.	.	.	.	16e'	.	16r	.	(32aa-XLL	.	(32fffLL	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	32ggJ)	.	32eee-XJ)	.
-16AAJk	.	16AAJk	.	16AJk	.	16AJk	.	32DLLL	(32BLLL	.	.	.	.	.	.	.	16d'JJ	.	32g#X'LLL	.	16ff'JJ	.	16ddd-X'JJ	.
+16AAJk	.	16AAJk	.	16AJk	.	16AJk	.	(32DLLL	(32BLLL	.	.	.	.	.	.	.	16d'JJ	.	32g#X'LLL	.	16ff'JJ	.	16ddd-X'JJ	.
 .	.	.	.	.	.	.	.	32EJJJ	32c#XJJJ	.	.	.	.	.	.	.	.	.	32a'JJJ	.	.	.	.	.
 8F	.	8F	.	8f	.	8f	.	32F#LLL	32d#LLL	.	16r	.	16r	.	16r	.	16c#X'KL	.	16b-'LL	.	16ee'LL	.	16ccc'LL	.
 .	.	.	.	.	.	.	.	32Gn	32en	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -34,11 +35,11 @@
 .	.	.	.	.	.	.	.	32c#	32a#	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	32A	32f#	.	.	.	.	.	.	.	(32aL	pp	16r'	.	.	.	.	.
 .	.	.	.	.	.	.	.	32G#XJJJ	32e#XJJJ	.	.	.	.	.	.	.	32gJ)	.	.	.	.	.	.	.
-16r	.	16r	.	16r	.	16r	.	16F#	16d#)	.	.	.	.	.	.	.	16f'	.	8r	.	.	.	.	.
+16r	.	16r	.	16r	.	16r	.	16F#)	16d#)	.	.	.	.	.	.	.	16f'	.	8r	.	.	.	.	.
 16BBnJk	.	16BBnJk	.	16BnJk	.	16BnJk	.	16r	16r	.	.	.	.	.	.	.	16e'JJ	.	.	.	(32aa-XLL	pp	(32fffLL	pp
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	32ggJJJ)	.	32eee-XJJJ)	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-8C	.	8C	.	8c	.	8c	.	32DLLL	(32BLLL	.	16r	.	16r	.	16r	.	16d'LL	.	32g#X'LLL	pp	16ff'LL	.	16ddd-X'LL	.
+8C	.	8C	.	8c	.	8c	.	(32DLLL	(32BLLL	.	16r	.	16r	.	16r	.	16d'LL	.	32g#X'LLL	pp	16ff'LL	.	16ddd-X'LL	.
 .	.	.	.	.	.	.	.	32E	32c#X	.	.	.	.	.	.	.	.	.	32a'J	.	.	.	.	.
 .	.	.	.	.	.	.	.	32F#X	32d#X	.	16FF'LL	.	16g-X'LL	.	16B-'LL	.	16c#X'J	.	16b-'JJ	.	16ee'	.	16ccc'	.
 .	.	.	.	.	.	.	.	32GJJJ	32eJJJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -50,15 +51,15 @@
 .	.	.	.	.	.	.	.	32c#X	32a#X	.	.	.	.	.	.	.	.	.	32e-'J	.	.	.	.	.
 .	.	.	.	.	.	.	.	32B	32g#X	.	.	.	.	.	.	.	.	.	16fJJ	.	.	.	.	.
 .	.	.	.	.	.	.	.	32c#JJJ	32a#JJJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=sempre	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:t=sempre %s	!	!	!	!	!	!
 16r	.	16r	.	16r	.	16r	.	32ALLL	32f#LLL	.	.	.	.	.	.	.	(32aLL	pp	8r	.	.	.	.	.
 .	.	.	.	.	.	.	.	32G#XJ	32e#XJ	.	.	.	.	.	.	.	32gJ)	.	.	.	.	.	.	.
-16BBJk	.	16BBJk	.	16BJk	.	16BJk	.	16F#JJ	16d#JJ)	.	.	.	.	.	.	.	16f'JJ	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=sempre	!	!LO:TX:b:i:t=sempre	!
+16BBJk	.	16BBJk	.	16BJk	.	16BJk	.	16F#JJ)	16d#JJ)	.	.	.	.	.	.	.	16f'JJ	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:t=sempre %s	!	!LO:DY:t=sempre %s
 8C	.	8C	.	8c	.	8c	.	16r	16r	.	16r	.	16r	.	16r	.	16e'LL	.	16r	.	(32aa-XLLL	pp	(32fffLLL	pp
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	32ggJ)	.	32eee-XJ)	.
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=sempre	!	!	!	!	!
-.	.	.	.	.	.	.	.	32DLLL	(32BLLL	>	16FF'LL	.	16g-'LL	.	16B-'LL	.	16d'	.	32g#X'LLL	pp	16ff'	.	16ddd-'	.
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:t=sempre %s	!	!	!	!
+.	.	.	.	.	.	.	.	(32DLLL	(32BLLL	>	16FF'LL	.	16g-'LL	.	16B-'LL	.	16d'	.	32g#X'LLL	pp	16ff'	.	16ddd-'	.
 .	.	.	.	.	.	.	.	32EJJJ	32c#JJJ	.	.	.	.	.	.	.	.	.	32a'JJJ	.	.	.	.	.
 8r	.	8r	.	8r	.	8r	.	32F#LLL	32d#LLL	.	16BB-'	.	16f'	.	16A-'	.	16c#'	.	16b-'LL	.	16ee'	.	16ccc'	.
 .	.	.	.	.	.	.	.	32Gn	32en	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -74,13 +75,13 @@
 .	.	.	.	.	.	.	.	32c#	32a#	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 16BBJk	.	16BBJk	.	16BJk	.	16BJk	.	32A	32f#X	.	.	.	.	.	.	.	(32aLL	.	8r	.	.	.	.	.
 .	.	.	.	.	.	.	.	32G#XJJJ	32e#XJJJ	.	.	.	.	.	.	.	32gJJJ)	.	.	.	.	.	.	.
-8C	.	8C	.	8c	.	8c	.	16F#X	16d#X)	.	16r	.	16r	.	16r	.	16f'LL	.	.	.	16ccLL]	.	16bb-LL]	.
-!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=sempre	!	!LO:TX:b:i:t=sempre	!	!LO:TX:b:i:t=sempre	!	!	!	!	!	!	!	!	!
+8C	.	8C	.	8c	.	8c	.	16F#X)	16d#X)	.	16r	.	16r	.	16r	.	16f'LL	.	.	.	16ccLL]	.	16bb-LL]	.
+!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!LO:DY:t=sempre %s	!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!LO:DY:t=sempre %s	!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!LO:DY:t=sempre %s	!	!	!	!	!	!	!	!
 .	.	.	.	.	.	.	.	16r	16r	]	16FF'LL	pp	16g-X'LL	pp	16B-'LL	pp	16e'	.	16r	.	(32aa-XL	.	(32fffL	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	32ggJ)	.	32eee-XJ)	.
 8r	.	8r	.	8r	.	8r	.	8r	8r	.	16BB-X'	.	16f'	.	16A-X'	.	16d'	.	32g#X'LLL	.	16ff'	.	16ddd-X'	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	32a'J	.	.	.	.	.
-.	.	.	.	.	.	.	.	.	.	.	16E'JJ	.	16e-X'JJ	.	16G'JJ	.	16c#X'JJ	.	16b-'JJ	.	16ee'JJ	.	16ccc'JJ	.
+.	.	.	.	.	.	.	.	.	.	.	16E'JJ	.	16e-X'JJ	.	16G'JJ	.	16c#X'JJ	.	16b-'/JJ	.	16ee'JJ	.	16ccc'JJ	.
 4r	.	4r	.	4r	.	4r	.	4r	4r	.	8r	.	8r	.	8r	.	4d	.	32f'LLL	.	16cc'LL	.	16bb-'LL	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	32g'	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	32a-X'	.	16dd-X'J	.	16aa'J	.
