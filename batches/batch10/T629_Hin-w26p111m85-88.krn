@@ -1,6 +1,7 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T629_Hin-w26p111m85-88]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A
 *part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Solo Violin	*	*I"Cornet in Bb	*	*I"Piccolo	*	*I"Piccolo	*
@@ -12,9 +13,9 @@
 *	*	*	*	*	*	*	*	*	*	*	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!LO:TX:a:t=[con sord.]	!	!	!	!LO:TX:t=[half]=160	!
-!	!	!	!	!	!	!LO:TX:b:t=[mf dim.]	!	!LO:TX:b:t=[mp dim.]	!	!LO:TX:b:t=[mp dim.]	!
-1r	.	1r	.	(8eeeL	>	[1ee-	>	4b-X'	>	4aa'	>
+!	!	!	!	!	!	!LO:TX:a:t=[con sord.]	!LO:DY:t=%s dim	!	!LO:DY:t=%s dim	!LO:TX:t=[[half]=160]	!LO:DY:t=%s dim
+!	!	!	!	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
+1r	.	1r	.	(8eeeL	>	[1ee-	mp >	4b-X'	mp >	4aa'	mp >
 .	.	.	.	8ccc	.	.	.	.	.	.	.
 .	.	.	.	8bb	.	.	.	4r	.	4r	.
 .	.	.	.	8dddJ	.	.	.	.	.	.	.
