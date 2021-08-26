@@ -1,53 +1,55 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T619_Hin-w13p23m103-106]
-**kern	**kern
-*part1	*part1
-*staff2	*staff1
-*I"Piano	*
-*I'Pno.	*
-!!pagebreak:original
-*clefF4	*clefG2
-*k[]	*k[]
-*C:	*C:
-*M2/4	*M2/4
-=1	=1
-!	!LO:TX:t=[quarter]=100
-!	!LO:TX:b:t=[ffff]
-8r	16ffLL
-.	16eee
-16EELL 16E	16ee 16aa 16ddd
-16EE#XJJ 16E#X	16eeeJJ
-8FF#XL 8F#X	16dd#XLL 16gg#X 16ccc#X
-.	16eee
-8CC^J 8GG 8C	16dd# 16gg# 16ccc#
-.	[16ffn^JJ
-=2	=2
-16GGLL 16G	16ffLL]
-16GG#XJJ 16G#X	16eee
-8AAL 8A	16ee 16aa 16ddd
-.	16eeeJJ
-8EE-X^J 8BB-X 8E-X	16dd#XLL 16gg#X 16ccc#X
-.	16eee
-16BB-XLL 16B-X	16dd# 16gg# 16ccc#
-16BBnJJ 16Bn	[16ffn^JJ
-=3	=3
-8CL 8c	16ffLL]
-.	16eee
-8GG-X^J 8D-X 8G-X	16ee 16aa 16ddd
-.	16eeeJJ
-16ELL 16e	16dd#XLL 16gg#X 16ccc#X
-16E#XJ 16e#X	16eee
-8F#XJ 8f#X	16ee 16aa 16ddd
-.	16eeeJJ
-=4	=4
-8C^L 8G 8c	16dd#XLL 16gg#X 16ccc#X
-.	16eee
-16GL 16g	16ee 16aa 16ddd
-16G#XJJ 16g#X	16eeeJJ
-8AL 8a	16dd#LL 16gg# 16ccc#
-.	16eee
-16GnL 16gn	16ee 16aa 16ddd
-16G#XJJ 16g#X	16eeeJJ
-=	=
-*-	*-
+!!!Xfilter: extract -s 1,0,2,0
+**kern	**blank	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B
+*part1	*	*part1	*
+*staff2	*	*staff1	*
+*I"Piano	*	*	*
+*I'Pno.	*	*	*
+*ICklav	*	*ICklav	*
+*Ipiano	*	*Ipiano	*
+*clefF4	*	*clefG2	*
+*k[]	*	*k[]	*
+*C:	*	*C:	*
+*M2/4	*	*M2/4	*
+=1	=1	=1	=1
+!	!	!LO:TX:t=[quarter]=100	!LO:DY:ed=brack
+8r	.	16ffLL]	ffff
+.	.	16eee	.
+16EELL 16E	.	16ee 16aa 16ddd	.
+16EE#XJJ 16E#X	.	16eeeJJ	.
+8FF#XL 8F#X	.	16dd#XLL 16gg#X 16ccc#X	.
+.	.	16eee	.
+8CC^J 8GG 8C	.	16dd# 16gg# 16ccc#	.
+.	.	[16ffn^JJ	.
+=2	=2	=2	=2
+16GGLL 16G	.	16ffLL]	.
+16GG#XJJ 16G#X	.	16eee	.
+8AAL 8A	.	16ee 16aa 16ddd	.
+.	.	16eeeJJ	.
+8EE-X^J 8BB-X 8E-X	.	16dd#XLL 16gg#X 16ccc#X	.
+.	.	16eee	.
+16BB-XLL 16B-X	.	16dd# 16gg# 16ccc#	.
+16BBnJJ 16Bn	.	[16ffn^JJ	.
+=3	=3	=3	=3
+8CL 8c	.	16ffLL]	.
+.	.	16eee	.
+8GG-X^J 8D-X 8G-X	.	16ee 16aa 16ddd	.
+.	.	16eeeJJ	.
+16ELL 16e	.	16dd#XLL 16gg#X 16ccc#X	.
+16E#XJ 16e#X	.	16eee	.
+8F#XJ 8f#X	.	16ee 16aa 16ddd	.
+.	.	16eeeJJ	.
+=4	=4	=4	=4
+8C^L 8G 8c	.	16dd#XLL 16gg#X 16ccc#X	.
+.	.	16eee	.
+16GL 16g	.	16ee 16aa 16ddd	.
+16G#XJJ 16g#X	.	16eeeJJ	.
+8AL 8a	.	16dd#LL 16gg# 16ccc#	.
+.	.	16eee	.
+16GnL 16gn	.	16ee 16aa 16ddd	.
+16G#XJJ 16g#X	.	16eeeJJ	.
+=	=	=	=
+*-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
