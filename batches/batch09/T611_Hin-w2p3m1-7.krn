@@ -1,36 +1,36 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T611_Hin-w2p3m1-7]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
 *I"Piano	*	*	*I"Violoncello	*
 *I'Pno.	*	*	*I'Vc.	*
-!!pagebreak:original
 *clefF4	*clefF4	*	*clefF4	*
 *k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*
 *B:	*B:	*	*B:	*
 *M9/8	*M9/8	*	*M9/8	*
 =1	=1	=1	=1	=1
-!	!LO:TX:b:t=	!	!	!
-!	!LO:TX:b:t=	!	!LO:TX:b:t=	!
+!	!	!	!	!
+!	!	!	!	!
 *	*	*	*Xtuplet	*
 !	!	!	!LO:TX:t=[quarter-dot]=50	!
-!	!	!	!LO:TX:t=[quarter]=60	!
+!	!	!	!LO:TX:t=[quarter]=50	!
 !	!	!	!LO:TX:a:B:t=Mäßig langsam	!
 8r	8%9r	.	(8%3.D#	mf
-8BBL	.	p	.	.
+((8BBL	.	p	.	.
 8FF#J	.	.	.	.
-8BBBL	.	.	.	.
-8BB	.	.	.	.
+8BBBL)	.	.	.	.
+(8BB	.	.	.	.
 .	.	.	16%3E	.
 8FF#J	.	.	.	.
-8AAA#L	.	.	[8%3F#	.
-8BB	.	.	.	.
+8AAA#L)	.	.	[8%3F#	.
+(8BB	.	.	.	.
 8FF#J	.	.	.	.
 =2	=2	=2	=2	=2
+*Xtuplet	*Xtuplet	*	*	*
 !	!LO:TX:b:i:t=sempre legato	!	!	!
-*	*Xtuplet	*	*	*
-8%3GGG#	8r	.	8F#L])	.
+8%3GGG#))	8r	.	8F#L])	.
 .	8BL	.	8D#	.
 .	8G#J	.	8EJ	.
 8%3GG#	8BBL	.	(8%3F#	.
@@ -50,7 +50,6 @@
 .	8B	.	.	.
 .	.	.	16%3G#)	.
 .	8EJ	.	.	.
-!!linebreak:original
 =4	=4	=4	=4	=4
 4%3CC#	8BBL	.	(8%3e	.
 .	8D#	.	.	.
@@ -84,7 +83,7 @@
 8EJ	.	.	.	.
 8G#L	8g#L] 8ee] 8gg#]	.	.	.
 8F#	8an 8aan	.	.	.
-.	.	.	16%3A#)	.
+.	.	.	16%3A#i)	.
 8EJ	8g#J 8gg#	.	.	.
 4D#	8f#L 8ff#	.	[8%3B#X	.
 .	8e 8ee	.	.	.
@@ -106,3 +105,4 @@
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: i = editorial accidental, paren
