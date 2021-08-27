@@ -1,6 +1,7 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T633_Hin-w25p58m40-42]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A
 *part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Double Bass	*	*I"Violoncello	*	*I"Violin	*	*I"Solo Violoncello	*	*I"Trombone	*	*I"Horn in F	*
@@ -12,9 +13,8 @@
 *	*	*	*	*	*	*	*	*	*	*	*
 *M3/2	*	*M3/2	*	*M3/2	*	*M3/2	*	*M3/2	*	*M3/2	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[half]=23	!
-!	!	!	!	!	!	!	!	!	!	!LO:TX:a:B:t=40	!
-2r	.	2r	.	2r)	.	(8.ccL	.	2r	.	2r	.
+!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[[half]=23]	!
+2r	.	2r	.	2r)	.	](8.ccL	.	2r	.	2r	.
 .	.	.	.	.	.	16b-XJk)	.	.	.	.	.
 .	.	.	.	.	.	[4a-X	>	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:TX:a:t=senza sord.	!	!	!
@@ -24,7 +24,8 @@
 .	.	.	.	.	.	(8.b-L	.	.	.	.	.
 .	.	.	.	.	.	16fJk)	.	.	.	.	.
 4r	.	4r	.	4r	.	[4gt	.	4r	.	4r	.
-!	!	!	!	!	!	!	!	!LO:TX:a:t=Solo	!	!LO:TX:a:B:t=Sehr ruhigMolto tranquillo	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=Solo	!	!LO:TX:a:B:t=Sehr ruhig	!
+!	!	!	!	!	!	!	!	!	!	!LO:TX:a:B:i:t=Molto tranquillo	!
 8r	.	8r	.	8.r	.	12gL]	.	4B~	pp	[4bX	pp
 .	.	.	.	.	.	(12f	.	.	.	.	.
 !LO:TX:a:t=pizz.	!	!LO:TX:a:t=pizz.	!	!	!	!	!	!	!	!	!
@@ -33,7 +34,8 @@
 !	!	!	!	!LO:TX:a:t=pizz.	!	!	!	!	!	!	!
 .	.	.	.	16g	pp	.	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-!	!	!	!	!	!	!	!	!LO:TX:b:i:t=sehr gut gehalten, aber ohne Pathos(ben tenuto, non patetico)	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:i:t=sehr gut gehalten, aber ohne Pathos	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:i:t=(ben tenuto, non patetico)	!	!	!
 8CL	.	8CL	.	16eLL	.	4e	.	4G~	.	1b_	.
 .	.	.	.	16A	.	.	.	.	.	.	.
 16FFL	.	16FFL	.	16B	.	.	.	.	.	.	.
@@ -90,7 +92,7 @@
 .	.	.	.	.	.	(32ccn	.	.	.	.	.
 .	.	.	.	16r	.	32dd-X)	.	.	.	.	.
 .	.	.	.	.	.	(32b-JJJ	.	.	.	.	.
-8E-X	.	8E-X	.	16r	.	(8ee-XT)	[	.	.	.	.
+8E-X	.	8E-X	.	16r	.	(8ee-XT)[	[	.	.	.	.
 .	.	.	.	16b-X	.	.	.	.	.	.	.
 =	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
