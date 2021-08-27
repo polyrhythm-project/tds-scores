@@ -1,6 +1,7 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T636_Hin-w44b5p1m11-13]
 **kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B
 *part3	*part3	*part2	*part2	*part1	*part1
 *staff3	*	*staff2	*	*staff1	*
 *I"Alto Recorder [C]	*	*I"Alto Recorder [C]	*	*I"Soprano Recorder	*
@@ -12,7 +13,7 @@
 *	*	*	*	*	*
 *M4/4	*	*M4/4	*	*M4/4	*
 =1	=1	=1	=1	=1	=1
-!	!	!	!	!LO:TX:t=[quarter]=100	!
+!	!	!	!	!LO:TX:t=[[quarter]=100]	!
 [1g	p	(4dd	p	(8g	p
 .	.	.	.	4b)	.
 .	.	8ee)	.	.	.
@@ -37,8 +38,8 @@
 .	.	8r	.	[8ddJ	.
 .	.	(4cc	.	8ddL])	.
 .	.	.	.	8g'J	.
-.	.	8dd)	.	4a	[
-.	.	8r	[	.	.
+.	.	8dd)	.	4a	.
+.	.	8r	[	.	[
 =	=	=	=	=	=
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
