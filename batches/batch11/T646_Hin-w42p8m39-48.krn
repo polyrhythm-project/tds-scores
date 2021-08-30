@@ -1,19 +1,20 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T646_Hin-w42p8m39-48]
-**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"P5	*	*I"Strings	*	*I"P3	*	*I"Trumpet in C	*	*I"Flute	*
-*I'Vc.	*	*I'Vln. 1	*	*I'Vln.	*	*I'C Tpt.	*	*I'Fl.	*
+**kern		**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A		*	*grp:A	*	*grp:B	*	*grp:B	*	*grp:B	*
+*part5		*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff5		*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*I"		*	*I"Strings	*	*I"	*	*I"Trumpet in C	*	*I"Flute	*
+*I'		*	*I'Vln. 1	*	*I'	*	*I'C Tpt.	*	*I'Fl.	*
 !!pagebreak:original
-*clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*
-*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
-*	*	*	*	*	*	*	*	*	*
-*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
-=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-*^	*	*	*	*	*	*	*	*	*
-!LO:TX:a:t=pizz.	!	!	!LO:TX:a:t=pizz.	!	!	!	!	!	!LO:TX:t=[quarter]=96	!
-16CLL)	16FFLL	p	16cLL)	p	(4.a-X)	p	2r	.	2r	.
+*clefF4		*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*
+*k[]		*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
+*		*	*	*	*	*	*	*	*	*
+*M2/4		*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
+=1		=1	=1	=1	=1	=1	=1	=1	=1	=1
+*^		*	*	*	*	*	*	*	*	*
+!LO:TX:a:t=pizz.	!	!	!LO:TX:a:t=pizz.	!	!	!	!	!	!LO:TX:t=[[quarter]=96]	!
+16CLL	16FFLL	p	16cLL	p	4.a-X)j	p	2r	.	2r	.
 16CJ	16FFJ	.	16cJ	.	.	.	.	.	.	.
 8CJ	8FFJ	.	8cJ	.	.	.	.	.	.	.
 8CL	8FFL	.	8cL	.	.	.	.	.	.	.
@@ -30,7 +31,7 @@
 8DJ	8FFJ	.	8GJ	.	(8ccJ	<	.	.	.	.
 16EnLL	16FFLL	.	16e-XLL	.	8ee-XL	.	.	.	.	.
 16EJ	16FFJ	.	16e-J	.	.	.	.	.	.	.
-8EJ	8FFJ	[	8e-J	[	8ccJ)	[	.	.	.	.
+8EJ	8FFJ	[[	8e-J	[[	8ccJ)	[	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
 8FL	8FFL	>	8dL	>	4.b-X	>	2r	.	2r	.
 16FL	16FFL	.	16dL	.	.	.	.	.	.	.
@@ -43,10 +44,11 @@
 8AJ	8FFJ	.	8d-J	.	8g-X	.	.	.	.	.
 8A	8FF	]	8c	]	8fJ)	]	8r	.	8r	.
 *v	*v	*	*	*	*	*	*	*	*	*
-8r	.	8r	.	8r	.	(8gn	p	(8ggn	p
-=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
-*^	*	*	*	*	*	*	*	*	*
+8r		.	8r	.	8r	.	(8gn	p	(8ggn	p
+=6		=6	=6	=6	=6	=6	=6	=6	=6	=6
+*^		*	*	*	*	*	*	*	*	*
 !LO:TX:a:t=arco	!	!	!LO:TX:a:t=arco	!	!	!	!	!	!	!
+*	*	*	*	*	*grp:A	*	*	*	*	*
 16CLL	16FFLL	p	16cLL	p	16fLL	p	4.a-X)	.	4.aa-X)	.
 16CJ	16FFJ	.	16cJ	.	16fJ	.	.	.	.	.
 8CJ	8FFJ	.	8cJ	.	8fJ	.	.	.	.	.
@@ -64,20 +66,23 @@
 8DJ	8FFJ	<	8GJ	<	8cJ	<	(8ccJ	<	(8ccc	<
 16EnLL	16FFLL	.	16e-XLL	.	16gLL	.	8ee-XL	.	8eee-X	.
 16EJ	16FFJ	.	16e-J	.	16gJ	.	.	.	.	.
-8EJ	8FFJ	[	8e-J	[	8gJ	[	8ccJ	[	8cccJ	[
+8EJ	8FFJ	[[	8e-J	[[	8gJ	[[	8ccJ	[[	8cccJ	[[
 =9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
 8FL	8FFL	.	8dnL	.	8fL	.	4.b-X)	>	4.bb-X)	>
 16FL	16FFL	>	16dL	>	16fL	>	.	.	.	.
 16FJJ	16FFJJ	.	16dJJ	.	16fJJ	.	.	.	.	.
 8GL	8FFL	.	8B-XL	.	8e-XL	.	.	.	.	.
-8GJ	8FFJ	]	8B-J	]	8e-J	]	(8cc-X	]	(8ccc-X	]
+8GJ	8FFJ	]]	8B-J	]]	8e-J	]]	(8cc-X	]]	(8ccc-X	]]
 =10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
 16FLL	16FFLL	.	16AnLL	.	16d-XLL	.	8a-XL	.	8aa-XL	.
 16FJ	16FFJ	.	16AJ	.	16d-J	.	.	.	.	.
 8FJ	8FFJ	.	8AJ	.	8cJ	.	8g-X	.	8gg-X	.
 *v	*v	*	*	*	*	*	*	*	*	*
-4r	.	8r	.	8r	.	8fJ)	.	8ffJ)	.
-.	.	(8f	p	(8ff	p	8r	.	8r	.
-=	=	=	=	=	=	=	=	=	=
-*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
+4r		.	8r	.	8r	.	8fJ)	.	8ffJ)	.
+.		.	(8fi	p	(8ffi	p	8r	.	8r	.
+=		=	=	=	=	=	=	=	=	=
+*-		*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1,s2[(s3,s4,s5)]
+!!!Xfilter: slurcheck
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
