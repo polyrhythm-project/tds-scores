@@ -1,6 +1,7 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T661_Hin-w63p4h5m1-6]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
 *I"Piano	*	*	*I"Oboe	*
@@ -12,8 +13,8 @@
 *M2/4	*M2/4	*	*M2/4	*
 *	*8va	*	*	*
 =1	=1	=1	=1	=1
-!	!	!	!LO:TX:t=[quarter]=120	!
-8e'L	(16eeeLL	mf	(4ff#X~)	f
+!	!	!	!LO:TX:t=[[quarter]=120]	!
+8e'L	(16eeeLL	mf	4ff#X~)j	f
 .	16aaa	.	.	.
 8b'	16ddd	.	.	.
 .	16eeeJJ	.	.	.
@@ -49,7 +50,7 @@
 .	16dddJJ)	.	.	.
 =5	=5	=5	=5	=5
 *M2/4	*M2/4	*	*M2/4	*
-8eL	(16eeeLL	.	4ff#X~	.
+8eL	(16eeeLLi	.	4ff#X~	.
 .	16aaa	.	.	.
 8b	16ddd	.	.	.
 .	16eeeJJ	.	.	.
@@ -65,8 +66,11 @@
 8cn	16fff#LL	.	8b'L	.
 .	16bbb	.	.	.
 8gJ	16eee	.	8ee'J	.
+.	16fff#JJ	.	.	.
 *	*X8va	*	*	*
-.	16fff#JJ)	.	.	.
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!Xfilter: slurcheck
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
