@@ -1,59 +1,60 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T648_Hin-w69p10m67-72]
-**kern	**kern
-*part1	*part1
-*staff2	*staff1
-*I"Harp	*
-*I'Hp.	*
-!!pagebreak:original
-*clefG2	*clefG2
-*k[]	*k[]
-*C:	*C:
-*M3/4	*M3/4
-=1	=1
-!	!LO:TX:t=[half-dot]=80
-!	!LO:TX:b:t=[mf]
-4e-X	8b-XL
-.	8ee-X
-4B-X	8ff
-.	8bb-XJ
-4e-	8ccnL
-.	8ff
-=2	=2
-4f	8ggn
-.	8cccJ
-8G-XL	8dd-XL
-8B-XJ	8gg-X
-4f	8aa-X
-.	8ddd-XJ
-=3	=3
-4e-X	8ee-XL
-.	8aa-X
-4A-X	8bb-X
-.	8eee-XJ
-4e-	8ffL
-.	8bb-
-=4	=4
-2f 2b-X	8ccc
-.	8fffJ
-.	8gg-XL
-.	8ccc-X
-4d-X 4g-X	8ddd-X
-.	8ggg-XJ
-=5	=5
-4e-X 4a-X	8eee-XL
-.	8aaa-X
-8dd-XL	8bbb-X
-8a-J	8ddd-X
-4dd-	8ggg-X
-.	8aaa-XJ
-=6	=6
-2e-X 2a-X	8ccc-XL
-.	8fff
-.	8ggg-X
-.	8bb-X
-4B-X 4f	8eee-X
-.	8fffJ
-=	=
-*-	*-
+!!!Xfilter: extract -s 1,2,0
+**kern	**kern	**dynam
+*color:crimson	*color:dodgerblue	*
+*part1	*part1	*
+*staff2	*staff1	*
+*I"Harp	*	*
+*I'Hp.	*	*
+*clefG2	*clefG2	*
+*k[]	*k[]	*
+*C:	*C:	*
+*M3/4	*M3/4	*
+=1	=1	=1
+!	!LO:TX:t=[half-dot]=80	!
+!	!LO:TX:t=P:problem:cross-measure beaming to be implemented	!LO:DY:ed=brack
+4e-X	8b-XL	mf
+.	8ee-X	.
+4B-X	8ff	.
+.	8bb-XJ	.
+4e-	8ccnL	.
+.	8ff	.
+=2	=2	=2
+4f	8ggn	.
+.	8cccJ	.
+8G-XL	8dd-XL	.
+8B-XJ	8gg-X	.
+4f	8aa-X	.
+.	8ddd-XJ	.
+=3	=3	=3
+4e-X	8ee-XL	.
+.	8aa-X	.
+4A-X	8bb-X	.
+.	8eee-XJ	.
+4e-	8ffL	.
+.	8bb-	.
+=4	=4	=4
+2f 2b-X	8ccc	.
+.	8fffJ	.
+.	8gg-XL	.
+.	8ccc-X	.
+4d-X 4g-X	8ddd-X	.
+.	8ggg-XJ	.
+=5	=5	=5
+4e-X 4a-X	8eee-XL	.
+.	8aaa-X	.
+8dd-XL	8bbb-X	.
+8a-J	8ddd-X	.
+4dd-	8ggg-X	.
+.	8aaa-XJ	.
+=6	=6	=6
+2e-X 2a-X	8ccc-XL	.
+.	8fff	.
+.	8ggg-X	.
+.	8bb-X	.
+4B-X 4f	8eee-X	.
+.	8fffJ	.
+=	=	=
+*-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
