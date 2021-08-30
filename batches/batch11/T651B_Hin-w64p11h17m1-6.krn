@@ -1,18 +1,18 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T651B_Hin-w64p11h17m1-6]
 **kern	**kern	**dynam	**kern	**dynam
-*part2	*part2	*part2	*part1	*part1
+*grp:A	*grp:A	*	*grp:B	*
+*part2	*part2	*part2	*	*part1
 *staff3	*staff2	*	*staff1	*
 *I"Piano	*	*	*I"Violin	*
 *I'Pno.	*	*	*I'Vln.	*
-!!pagebreak:original
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
 *M5/8	*M5/8	*	*M5/8	*
 =1	=1	=1	=1	=1
+!	!	!	!LO:TX:t=[[eighth]=200]	!
 8FFFnL	8r	p	8ffL	mp
-!	!	!	!LO:TX:t=[eighth]=200	!
 8r	8fL 8cc 8ff	.	8ffJ	.
 8AAA-X	8r	.	(8ffL	.
 8r	8e-XJ 8b-X 8ee-X	.	8aa-X)	.
@@ -34,7 +34,7 @@
 8FF#X	8r	.	.	.
 4.r	8F#XJ 8c#X 8f#X	.	.	.
 .	4r	[	(8aaL	.
-.	.	.	8ff#XJ)	[
+.	.	.	8ff#XJ)	[[
 =5	=5	=5	=5	=5
 8AAA-XL	8FnL 8fn	.	8ffnL	.
 8r	8r	.	(8f	.
@@ -46,7 +46,7 @@
 8DD-XL	8A-XL 8d-X 8a-X	.	8bb-X)	.
 8r	8r	.	(8aa-X	.
 8EE-XJ	8FJ 8c 8f	.	8gg	.
-8r	8r	]	8ffJ)	]
+8r	8r	]	8ffJ)	]]
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
