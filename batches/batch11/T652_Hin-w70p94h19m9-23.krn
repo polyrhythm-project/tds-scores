@@ -1,10 +1,13 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T652_Hin-w70p94h19m9-23]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*	*grp:C	*	*grp:C	*	*	*	*grp:B	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*
 *part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Violin 2.	*	*I"Solo Violin	*	*I"Bassoon 1. 2.	*	*I"Bass Clarinet [C]	*	*I"Clarinet in Bb 1.2.	*	*I"Flute 1.2.	*
 *I'Cb.	*	*I'Vc.	*	*I'Vla.	*	*I'Vln. 2	*	*I'Vln.	*	*I'Bsn.	*	*I'B. Cl.	*	*I'Cl.	*	*I'Fl.	*
+*ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICww	*	*ICww	*	*ICww	*	*ICww	*
+*Icbass	*	*Icello	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*Ifagot	*	*Iclarb	*	*Iclars	*	*Iflt	*
 *clefF4	*	*clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*clefF4	*	*clefF4	*	*clefG2	*	*clefG2	*
 *ITrd7c12	*	*	*	*	*	*	*	*	*	*	*	*ITrd0c12	*	*ITrd1c2	*	*	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[0]	*	*k[b-e-]	*	*k[]	*
@@ -12,7 +15,7 @@
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 !LO:TX:a:t=(pizz.)	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=152	!
-4EE-X	p	8EE-X)	pp	8G-X)	pp	8B-X)	pp	8ee-XL)	.	16EE-XLL 16BB-X	p	16D-XLL	p	16G-XLL 16B-	p	2r	.
+4EE-X	p	8EE-X)j	pp	8G-X)j	pp	8B-X)j	pp	8ee-XL)j	.	16EE-XLL 16BB-X	p	16D-XLL	p	16G-XLL 16B-	p	2r	.
 .	.	.	.	.	.	.	.	.	.	16EE-J 16BB-	.	16D-J	.	16G-J 16B-	.	.	.
 .	.	8r	.	8r	]	8r	.	(8f	p	8EE- 8BB-	.	8D-	.	8G- 8B-	.	.	.
 8EE-L	.	(4e-X	mf	4r	.	4r	.	8g-X	.	8EE- 8BB-	.	8D-	.	8G- 8B-	.	.	.
@@ -76,7 +79,6 @@
 .	.	.	.	.	.	.	.	12gg-X	.	.	.	.	.	.	.	.	.
 8r	.	.	.	.	.	.	.	.	.	8r	.	8r	.	8r	.	8r	.
 .	.	.	.	.	.	.	.	12aa-XJ	.	.	.	.	.	.	.	.	.
-!!pagebreak:original
 =11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11
 4EE-X	.	[2G-X	.	2r	.	2r	.	12ddd-XL	.	16EE-XLL 16BB-X	.	16D-XLL	.	16B-LL 16d-X	.	16b-XLL 16ee-X	.
 .	.	.	.	.	.	.	.	.	.	16EE-J 16BB-	.	16D-J	.	16B-J 16d-	.	16b-J 16ee-	.
@@ -129,4 +131,5 @@
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]s5[(s6,s7,s8,s9)]
-!!!filter: slurcheck
+!!!Xfilter: slurcheck
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
