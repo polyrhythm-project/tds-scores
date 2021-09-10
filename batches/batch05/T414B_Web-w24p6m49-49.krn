@@ -6,7 +6,6 @@
 *staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin I	*
 *I'Vc.	*	*I'Vla.	*	*I'Vln. I	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*
@@ -27,9 +26,9 @@
 16E-X'L)	.	.	.	16r	p
 !LO:TX:a:t=pizz.	!	!	!	!LO:TX:a:t=arco	!
 !	!	!	!	!LO:N:head=dia	!
-!	!	!	!	!LO:TX:b:t=○	!
+!	!	!	!	!	!
 !	!	!	!	!LO:TX:t=P:problem:This grace note should be the sounding note for the harmonic.		!
-16E-'JJ	.	.	.	(16BnKL	.
+16E-'JJ	.	.	.	(16Bno<KL	.
 !	!	!LO:TX:a:t=arco	!	!	!
 .	.	.	.	8qqbbn/	>
 8r	pp <	(8fnL	>	8cn~J)	.
@@ -42,9 +41,8 @@
 *M2/4	*	*M2/4	*	*M2/4	*
 16An'L)	]	8.r	.	16r	.
 !LO:TX:a:t=pizz.	!	!	!	!LO:N:head=dia	!
-!	!	!	!	!LO:TX:t=○	!
 !	!	!	!	!LO:TX:t=P:problem:This grace note should be the sounding note for the harmonic.		!
-16A'JJ	.	.	.	\(16gnKL	pp
+16A'JJ	.	.	.	\(16gnoKL	pp
 !LO:TX:a:t=arco	!	!	!	!	!
 .	.	.	.	8qqdddn/	.
 8r	.	.	.	8cc#X~J)	.
@@ -66,5 +64,7 @@
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
 !!!RDF**dynam: > = dim.
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
 !!!EED: Daniel Wright
 !!!EEV: 2021/07/29
