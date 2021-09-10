@@ -6,7 +6,6 @@
 *staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin I	*
 *I'Vc.	*	*I'Vla.	*	*I'Vln. I	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*
@@ -15,7 +14,8 @@
 !	!	!	!	!LO:TX:t=[[quarter]=42]	!
 (>8qFn/	.	.	.	.	.
 !	!LO:DY:ed=brack	!LO:TX:t=P:problem: Cross-Measure beaming still needs to be applied.	!LO:DY:ed=brack	!	!
-16f#X'LL)	p	\16B-XLL	p	16r	.
+!	!	!LO:TX:t=P:problem: Hanging Slurs still need to be implemented.	!	!	!
+16f#X'LL)	p	\16B-XLL)	p	16r	.
 !LO:TX:a:t=pizz.	!	!LO:TX:a:t=pizz.	!	!LO:TX:a:t=arco	!
 16f#'JJ	>	16bn'	.	8cccn~L	p
 !LO:TX:a:t=arco	!	!	!	!	!
@@ -24,13 +24,11 @@
 .	.	16r	.	16e-X'L)	.
 !	!	!	!	!LO:TX:a:t=pizz.	!
 8qqDn/	.	.	.	.	.
-!LO:TX:b:t=○	!	!	!	!	!
 !LO:TX:t=P:problem:This grace note should appear in the treble clef with a bracket around it, as it is the sounding note for the harmonic.	!	!	!	!	!
 !LO:N:head=dia	!	!	!	!	!
-(16BBn'^LL	.	8.r	.	16e-'JJ	.
-!LO:TX:b:t=○	!	!	!	!	!
+(16BBno<'^LL	.	8.r	.	16e-'JJ	.
 !LO:N:head=dia	!	!	!	!	!
-16BB'J)	.	.	.	16r	.
+16BBo<'J)	.	.	.	16r	.
 !LO:TX:a:t=pizz.	!	!	!	!LO:TX:a:t=arco	!
 8Cn~J	.	.	.	16ffn~LL	.
 .	.	.	.	(>8qff/	.
@@ -55,22 +53,21 @@
 16g#X'JJ)	.	16r	.	16cc#~	.
 !	!	!	!	!LO:TX:a:t=arco	!
 16r	.	16r	.	(16e-X	.
-!	!	!	!	!LO:TX:b:t=○	!
+!	!	!	!	!	!
 !LO:TX:t=P:problem:This grace note should appear in the treble clef with a bracket around it, as it is the sounding note for the harmonic.	!	!LO:TX:t=P:problem:This grace note should appear in the treble clef with a bracket around it, as it is the sounding note for the harmonic.	!	!LO:TX:t=P:problem:This grace note should be the sounding note for the harmonic.	!
 !LO:N:head=dia	!	!LO:N:head=dia	!	!LO:N:head=dia	!
-16C#X (16F#XLL	.	(16D-X 16G-X	.	16gn'JJ)	.
+16C#o<X (16F#XLL	.	(16D-o<X 16G-X	.	16gno<'JJ)	.
 !	!	!	!	!LO:TX:a:t=(   )	!
 8qqA#X/	.	8qqe-X/	.	8qdddn/	.
 16GGn'JJ)	.	16Cn'JJ)	.	16r	.
 .	.	.	.	(8qg#X/	.
 16r	.	16r	.	16An'LL)	.
-!	!	!	!	!LO:TX:b:t=○	!
 .	.	.	.	(8qgn/	.
 !	!	!	!	!LO:TX:t=P:problem: This open harmonic symbol should be placed under the grace note G natural, not the Eb	!
-16r	.	8r	.	16e-X'JJ)	.
+16r	.	8r	.	16e-o<X'JJ)	.
 (8qGGn/	.	.	.	.	.
-!LO:TX:t=○	!	!	!	!	!
-16F#X')	.	.	.	16r	.
+!LO:N:head=dia	!	!	!	!	!
+16F#oX')	.	.	.	16r	.
 =	=	=	=	=	=
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
