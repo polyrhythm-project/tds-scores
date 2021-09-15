@@ -1,18 +1,21 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T670_Hin-w99p33m265-268]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:B	*
 *part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola II	*	*I"Viola I	*	*I"Violin	*	*I"Clarinet in Bb	*
 *I'Vc.	*	*I'Vla.	*	*I'Vla.	*	*I'Vln.	*	*I'Cl.	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefC3	*	*clefG2	*	*clefG2	*
+*ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICww	*
+*Icello	*	*Iviola	*	*Iviola	*	*Ivioln	*	*Iclars	*
 *	*	*	*	*	*	*	*	*ITrd1c2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[b-e-]	*
 *	*	*	*	*	*	*	*	*	*
 *M2/2	*	*M2/2	*	*M2/2	*	*M2/2	*	*M2/2	*
+!!LO:REH:t=V
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!	!	!LO:TX:t=[half]=100	!
+!	!	!	!	!	!	!	!	!LO:TX:t=[[half]=100]	!
 2r)	.	4r	.	4r	.	8r	.	2dd	mf
 .	.	.	.	.	.	(8ddd	p	.	.
 .	.	8r	.	(8ddL	p	8aaL	.	.	.
@@ -24,15 +27,12 @@
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2
 8G#XL	.	8a)	.	8r	.	(8dddL	.	4f	.
 8A)	.	8r	.	(8dd	.	8aa	.	.	.
-!	!	!LO:TX:b:i:t=cresc.	!	!LO:TX:b:i:t=cresc.	!	!LO:TX:b:i:t=cresc.	!	!	!
-8r	.	(8ddL	.	8aL	.	8gg#X	.	(8eXL	.
-!LO:TX:b:i:t=cresc.	!	!	!	!	!	!	!	!LO:TX:b:i:t=cresc.	!
-(8dJ	.	8aJ	.	8g#XJ	.	8dd#XJ	.	8bXJ)	.
+8r	.	(8ddL	<	8aL	<	8gg#X	<	(8eXL	.
+(8dJ	<	8aJ	.	8g#XJ	.	8dd#XJ	.	8bXJ)	<
 8AL	.	8g#XL	.	8d#XL	.	8gg#L	.	2c	.
 8G#	.	8d#X	.	8g#	.	8aa)	.	.	.
 8D#X	.	8g#	.	8aJ)	.	8r	.	.	.
 8G#J	.	8aJ)	.	8r	.	(8dddJ	.	.	.
-!!linebreak:original
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3
 8AL)	.	8r	.	(8ddL	.	8aaL	.	(8eXL	.
 8r	.	(8dd	.	8a	.	8gg#X	.	8bXJ)	.
