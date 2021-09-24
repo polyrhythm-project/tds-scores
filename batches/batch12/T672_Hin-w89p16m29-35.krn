@@ -1,19 +1,21 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T672_Hin-w89p16m29-35]
 **kern			**kern		**dynam	**kern	**dynam
+*grp:A			*grp:A		*	*grp:B	*
 *part2			*part2		*part2	*part1	*part1
 *staff3			*staff2		*	*staff1	*
 *I"Piano			*		*	*I"Violoncello	*
 *I'Pno.			*		*	*I'Vc.	*
-!!pagebreak:original
 *clefG2			*clefG2		*	*clefC4	*
+*			*		*	*	*
+*			*		*	*	*
 *k[]			*k[]		*	*k[]	*
 *C:			*C:		*	*C:	*
 *M4/2			*M4/2		*	*M4/2	*
 =1			=1		=1	=1	=1
-!			!		!	!LO:TX:t=[half]=92	!
-!			!		!	!LO:TX:b:t=[p]	!
-2r			4r		.	(4c#X)	.
+!			!		!	!LO:TX:t=[[half]=92]	!
+!			!		!	!	!LO:DY:ed=brack
+2r			4r		.	4c#X)	p
 .			(4ccc#X		p	4r	.
 4cc#X			4eee		.	4r	.
 *			*		*	*clefF4	*
@@ -34,11 +36,11 @@
 .	.	.	.	.	.	4r	.
 4ee	.	.	.	.	.	4BB	<
 4dd	.	.	4ccc#X	.	<	4EE	.
-1cc#X	2b]	.	(4ddd	1aa	.	4r	[
-.	.	.	8fffnL	.	[	4BB	>
+1cc#X	2b]	.	(4ddd	1aa	[[	4r	[
+.	.	.	8fffnL	.	.	4BB	>
 .	.	.	8eeeJ)	.	.	.	.
 .	2g#X	.	4eee	.	>	4EE	]
-.	.	.	4cccn	.	]	4r	.
+.	.	.	4cccn	.	]]	4r	.
 *v	*v	*v	*	*	*	*	*
 *			*v	*v	*	*	*
 =3			=3		=3	=3	=3
@@ -55,10 +57,9 @@
 .	.		.		.	4r	.
 4a	.		.		.	4GG#X	.
 4g#X	.		4aa#X 4ccc#X		.	4CC#X	.
-!!linebreak:original
 =4	=4		=4		=4	=4	=4
 *	*		*^		*	*	*
-2a	2c#] 2f#]		(8dddL	2.bb	< [	4r	.
+2a	2c#] 2f#]		(8dddL	2.bb	<	4r	.
 .	.		8gggn)	.	.	.	.
 !	!		!	!	!	!LO:TX:a:t=arco	!
 .	.		8fffn	.	.	(12DDL	<
@@ -66,7 +67,7 @@
 .	.		8eeeJ	.	.	.	.
 .	.		.	.	.	12FFJ	.
 *v	*v		*	*	*	*	*
-4r			4eee	.	.	4D)	.
+4r			4eee	.	[[	4D)	.
 *^			*v	*v	*	*	*
 !	!		!		!	!LO:TX:a:t=pizz.	!
 [4gg	4cc#X		4cccn		.	4F	.
@@ -80,9 +81,9 @@
 .	.		.		.	12AJ	.
 =5	=5		=5		=5	=5	=5
 *	*		*^		*	*	*
-0ryy	1b-X 1dd 1aa-X		2.ccccn	1ccc#X 1eeen	f f	4F#X)	.
+0ryy	1b-X 1dd 1aa-X		2.ccccn	1ccc#X 1eeen	f	4F#X)	[[
 !	!		!	!	!	!LO:TX:a:t=pizz.	!
-.	.		.	.	.	4Fn	f [
+.	.		.	.	.	4Fn	f
 !	!		!	!	!	!LO:TX:a:t=arco	!
 .	.		.	.	.	(12EL	.
 .	.		.	.	.	12E-X	.
@@ -104,11 +105,8 @@
 =6	=6		=6		=6	=6	=6
 !	!		!		!	!LO:TX:a:t=pizz.	!
 0ryy	4r		4ggg)		.	4C	.
-!	!		!		!	!LO:TX:b:i:t=dim.	!
-.	4g 4bn 4ee-X		8r		.	4C#X	.
-!	!		!LO:TX:b:i:t=dim.		!	!	!
-!	!		!LO:TX:b:i:t=dim.		!	!	!
-.	.		(8ggg		.	.	.
+.	4g 4bn 4ee-X		8r		.	4C#X	>
+.	.		(8ggg		>	.	.
 .	2r		8eeenL)		.	4D	.
 .	.		8ccc		.	.	.
 .	.		8aa		.	4E-X	.
@@ -146,3 +144,4 @@
 =			=		=	=	=
 *-			*-		*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**dynam: > = dim.
