@@ -1,11 +1,13 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T668_Hin-w100p98m54-59]
-!!!Xfilter: transpose -t -P8 -s 13
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:B	*	*grp:B	*	*grp:B	*	*grp:B	*
 *part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Viola II	*	*I"Viola I	*	*I"Violin II	*	*I"Violin I	*	*I"Glockenspiel	*	*I"Timpani	*	*I"Contrabassoon	*	*I"Bassoon II	*	*I"Bass Clarinet [C]	*
 *I'2.Vla.	*	*I'1.Vla.	*	*I'2.Vln.	*	*I'1.Vln.	*	*I'Glock.	*	*I'Timp.	*	*I'Cbsn.	*	*I'2.Bsn.	*	*I'B. Cl.	*
+*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *clefC3	*	*clefC3	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefF4	*	*clefF4	*	*clefF4	*	*clefF4	*
 *	*	*	*	*	*	*	*	*ITrd-14c-24	*	*	*	*ITrd7c12	*	*	*	*	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[0]	*
@@ -14,7 +16,7 @@
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*	*	*	*	*	*	*	*	*	*
 !	!LO:DY:t=%s espr.	!	!LO:DY:t=%s espr.	!	!LO:DY:t=%s espr.	!	!LO:DY:t=%s espr.	!	!	!	!	!	!	!	!	!LO:TX:t=[[half]=92]	!
-!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
+!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:N:head=dia	!LO:DY:ed=brack	!LO:TX:t=P:problem:artificial harmonics to be implemented	!LO:DY:ed=brack	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
 (6An 6dn	pp	(6An 6dn	pp	(6ddn	pp	(6bn 6een	pp	1r	.	4r	.	4FFF#X)j	pp	4FF#X)j	pp	4DD]	pp
 3En 3An)	.	3En 3An)	.	3en 3an)	.	6cc#X 6ff#X	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!	!LO:DY:ed=brack	!	!	!	!	!	!
@@ -37,6 +39,7 @@
 6A- 6d-	.	6A- 6d-	.	6a- 6dd-	.	.	.	6ffff	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8EE-J	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+!	!	!	!	!LO:N:head=dia	!	!	!	!	!	!	!	!	!	!	!	!	!
 (3c-X 3f-X	.	(3c-X 3f-X	.	(3.ddn	.	[3.ee-X [3.aa-X	.	3.gggg-X	.	2r	.	(2FFF	.	(2FF	.	2.DD)	.
 6B-X 6e-X)	.	6B-X 6e-X)	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 3.An 3.dn	]	3.An 3.dn	]	3.gn 3.ccn)	]	6ee-] 6aa-]	.	3.r	.	4r	.	4FFF#X)	.	4FF#X)	.	.	.
@@ -59,7 +62,9 @@
 .	.	.	.	.	.	6dd-X 6gg-X	>	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	4AA	.	.	.	.	.	.	.
 6G 6c	.	.	.	6e-X 6a-X	.	6cc-X 6ff-X	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!LO:N:head=dia	!	!	!	!	!	!	!	!	!	!	!	!	!
 3E 3A	.	6A-X 6d-X	.	3g	.	(6b-X 6ee-X	.	3.eeee-X	.	4EE	.	.	.	.	.	.	.
+!	!	!LO:N:head=dia	!	!	!	!LO:N:head=dia	!	!	!	!	!	!	!	!	!	!	!
 .	.	3c)	.	.	.	3ddn)	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	4D	.	.	.	.	.	.	.
 6D 6G)	.	.	.	6en 6an)	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -73,7 +78,9 @@
 .	.	.	.	.	.	6dd-X 6gg-X	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	4r	.	.	.	.	.	.	.
 6c 6f	.	.	.	6e-X 6a-X	.	6cc-X 6ff-X	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!LO:N:head=dia	!	!	!	!	!	!	!	!	!	!	!	!	!
 3.B 3.e)	.	3.Fn 3.B-X)	.	3.gn)	.	(6b-X 6ee-	.	3.r	.	4EE	.	.	.	.	.	.	.
+!	!	!	!	!	!	!LO:N:head=dia	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	.	.	.	3ddn)	.	.	.	.	.	.	.	.	.	.	.
 .	]]	.	]]	.	]]	.	]]	.	]]	4r	]]	.	]]	.	]]	.	]]
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
