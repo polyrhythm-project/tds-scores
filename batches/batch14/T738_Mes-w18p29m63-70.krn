@@ -1,94 +1,95 @@
 !!!COM: Messiaen, Olivier (Eugène Prosper Charles)
 !!!OTL: [T738_Mes-w18p29m63-70]
-**kern	**kern	**dynam	**kern	**kern	**dynam
-*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff3	*	*staff2	*staff1	*
-*I"Piano 2	*	*	*I"Piano 1	*	*
-*I'Pno. 2	*	*	*I'Pno. 1	*	*
-!!pagebreak:original
-*clefF4	*clefG2	*	*clefG2	*clefG2	*
-*k[]	*k[]	*	*k[]	*k[]	*
-*C:	*C:	*	*C:	*C:	*
-*M2/4	*M2/4	*	*M2/4	*M2/4	*
-*	*	*	*	*8va	*
-=1	=1	=1	=1	=1	=1
-!	!	!	!	!LO:TX:t=[quarter]=60	!
-!	!	!	!	!LO:TX:b:t=(percuté, enlaissant résonner)	!
-!	!	!	!	!LO:TX:b:t=(sans sourd.)	!
-!	!LO:TX:t=[quarter]=60	!	!	!LO:TX:b:i:t=  clair	!
-8r	8r	.	2r	16ddd#XLL 16aaa 16eeee	p
-.	.	.	.	16dddn 16ggg#X 16dddd#X	.
-!	!LO:TX:b:i:t=  expressif	!	!	!	!
-4B-X 4cn 4en	(8anL	f	.	16aa 16ddd#X 16ggg#X	.
-.	.	.	.	16gg#XJJ 16dddn 16gggn	.
-.	8dd-X	.	.	16ccc#XLL 16eee 16aaa	.
-.	.	.	.	16fffnJ 16bbb-X 16ddddn	.
-[8B-X [8d-X [8f#X	8ccnJ	.	.	(8ddd#X^J 8aaa 8eeee	.
-=2	=2	=2	=2	=2	=2
-16B-XKL] 16d-X] 16f#X]	16ee-X^KL	.	8.r	8dddnL 8ggg#X 8dddd#X)	.
-[8.B-XJ [8.e-X [8.g	[8.aJ	.	.	.	.
-.	.	.	.	16ccc#XL 16gggn 16ddddn	.
-*	*	*	*clefF4	*	*
-*	*	*	*8ba	*	*
-.	.	.	[16CCC#X [16GGG#X [16DDn	16dddJJ 16ggg#X 16dddd#X	p
-4B-_ 4e-_ 4g_	4a_)	.	8.CCC#L] 8.GGG#] 8.DD]	(8aa^L 8ddd#X 8ggg#X	.
-.	.	.	.	16gg#XL 16dddn 16gggn)	.
-.	.	.	[16EEEnJk [16BBBn [16FFn	[16ccc#X~JJ [16eee [16aaa	.
-=3	=3	=3	=3	=3	=3
-16B-XKL] 16e-X] 16g]	16aKL]	.	8.EEEL] 8.BBB] 8.FF]	16ccc#XLL] 16eee] 16aaa]	.
-[8.GJ [8.An [8.d-X	(8f#X	.	.	16fffn 16bbb-X 16dddd	.
-.	.	.	.	16ddd#X 16aaa 16eeee	.
-!	!	!	!	!LO:TX:a:i:t=poco	!
-.	[16b-X~Jk	.	[16AAAA^Jk	16ccc#XJJ 16gggn 16ddddn	sf
-16GKL] 16A] 16d-]	16b-KL]	.	8.AAAAL]	8ddd#XL 8aaa 8eeee	.
-8.GJ 8.B-X 8.e-X	8a	.	.	.	.
-.	.	.	.	[8dddnJ [8ggg#X [8dddd#X	.
-.	16ccJk	.	[16CCC#XJk [16GGG#X [16DDn	.	.
-=4	=4	=4	=4	=4	=4
-2G 2c 2en	8f#XL)	.	16CCC#XKL] 16GGG#X] 16DDn]	8dddnL] 8ggg#X] 8dddd#X]	.
-.	.	.	8.EEEJ 8.BBB 8.FFn	.	.
-.	(8cc~J	p	.	8ddd~J 8ggg 8dddd	.
-!	!	!	!	!LO:TX:a:i:t=poco	!
-.	4f#~)	.	8AAAA^L	4gg#X~ 4ddd#X 4aaa	sf
-.	.	.	8CCC#XJ 8GGG#X 8DD	.	.
+**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:C	*grp:C
+*part2	*part2	*part2	*part1	*part1	*part1	*part1
+*staff4	*staff3	*	*staff2	*staff2	*staff1	*staff1
+*I"Piano 2	*	*	*I"Piano 1	*	*	*
+*I'Pno. 2	*	*	*I'Pno. 1	*	*	*
+*clefF4	*clefG2	*	*clefG2	*	*clefG2	*
+*k[]	*k[]	*	*k[]	*	*k[]	*
+*C:	*C:	*	*C:	*	*C:	*
+*M2/4	*M2/4	*	*M2/4	*	*M2/4	*
+*	*	*	*	*	*8va	*
+=1	=1	=1	=1	=1	=1	=1
+!	!LO:TX:t= Un peu plus lent ([eighth]=63)	!	!	!	!LO:TX:t= Un peu plus lent ([eighth]=63)	!
+!	!	!	!	!	!LO:TX:b:t=(sans sourd.)	!LO:DY:b:t=%s clair
+8r	8r	.	2r	.	16ddd#XLL 16aaa 16eeee	p
+.	.	.	.	.	16dddn 16ggg#X 16dddd#X	.
+!	!	!LO:DY:t=%s expressif	!	!	!	!
+4B-X 4cn 4en	(8anL	f	.	.	16aa 16ddd#X 16ggg#X	.
+.	.	.	.	.	16gg#XJJ 16dddn 16gggn	.
+.	8dd-X	.	.	.	16ccc#XLL 16eee 16aaa	.
+.	.	.	.	.	16fffnJ 16bbb-X 16ddddn	.
+[8B-X [8d-X [8f#X	8ccnJ	.	.	.	(8ddd#X^J 8aaa 8eeee	.
+=2	=2	=2	=2	=2	=2	=2
+16B-XKL] 16d-X] 16f#X]	16ee-X^KL	.	8.r	.	8dddnL 8ggg#X 8dddd#X)	.
+[8.B-XJ [8.e-X [8.g	[8.aJ	.	.	.	.	.
+.	.	.	.	.	16ccc#XL 16gggn 16ddddn	.
+*	*	*	*clefF4	*	*	*
+*	*	*	*8ba	*above	*	*
+!	!	!	!LO:TX:b:t=(percuté, en laissant résonner)	!	!	!
+.	.	.	[16CCC#X [16GGG#X [16DDn	p	16dddJJ 16ggg#X 16dddd#X	.
+4B-_ 4e-_ 4g_	4a_)	.	8.CCC#L] 8.GGG#] 8.DD]	.	(8aa^L 8ddd#X 8ggg#X	.
+.	.	.	.	.	16gg#XL 16dddn 16gggn)	.
+.	.	.	[16EEEnJk [16BBBn [16FFn	.	[16ccc#X~JJ [16eee [16aaa	.
+=3	=3	=3	=3	=3	=3	=3
+16B-XKL] 16e-X] 16g]	16aKL]	.	8.EEEL] 8.BBB] 8.FF]	.	16ccc#XLL] 16eee] 16aaa]	.
+[8.GJ [8.An [8.d-X	(8f#X	.	.	.	16fffn 16bbb-X 16dddd	.
+.	.	.	.	.	16ddd#X 16aaa 16eeee	.
+!	!	!	!	!LO:DY:t=poco %s 	!	!
+.	[16b-X~>Jk	.	[16AAAA^>Jk	sf	16ccc#XJJ 16gggn 16ddddn	.
+16GKL] 16A] 16d-]	16b-KL]/	.	8.AAAAL]	.	8ddd#XL 8aaa 8eeee	.
+8.GJ 8.B-X 8.e-X	8a	.	.	.	.	.
+.	.	.	.	.	[8dddnJ [8ggg#X [8dddd#X	.
+.	16ccJk	.	[16CCC#XJk [16GGG#X [16DDn	.	.	.
+=4	=4	=4	=4	=4	=4	=4
+2G 2c 2en	8f#XL)	.	16CCC#XKL] 16GGG#X] 16DDn]	.	8dddnL] 8ggg#X] 8dddd#X]	.
+.	.	.	8.EEEJ 8.BBB 8.FFn	.	.	.
+.	(8cc~>J	p	.	.	8ddd~J 8ggg# 8dddd#	.
+!	!	!	!	!LO:DY:t= poco %s	!	!
+.	4f#~>)	.	8AAAA^>L	sf	4gg#X~ 4ddd#X 4aaa	.
+.	.	.	8CCC#XJ 8GGG#X 8DD	.	.	.
 !!linebreak:original
-=5	=5	=5	=5	=5	=5
-!	!	!	!	!LO:TX:a:i:t=poco	!
-4En 4F#X 4B-X	(8e-XL	f	8EEEL 8BBB 8FF	16ddd#XLL 16aaa 16eeee	f
-.	.	.	.	16dddn 16ggg#X 16dddd#X	.
-.	8gJ	.	8AAAA^J	16aa 16ddd#X 16ggg#X	.
-.	.	.	.	16gg#XJJ 16dddn 16gggn	.
-[4En [4G [4c	8f#XL	.	8.CCC#XL 8.GGG#X 8.DD	16ccc#XLL 16eee 16aaa	.
-.	.	.	.	16fffnJ 16bbb-X 16ddddn	.
-.	[8a^J	.	.	(8ddd#X^J 8aaa 8eeee	.
-.	.	.	[16EEEJk [16BBB [16FF	.	.
-=6	=6	=6	=6	=6	=6
-!	!	!	!	!LO:TX:a:i:t=poco	!
-16EKL] 16G] 16c]	16aKL]	.	8EEEL] 8BBB] 8FF]	8dddnL 8ggg#X 8dddd#X)	f
-[8.EnJ [8.An [8.d-X	8e-X)	.	.	.	.
-.	.	.	[8AAAA^J	16ccc#XL 16gggn 16ddddn	.
-.	(([16a^Jk	.	.	16dddJJ 16ggg#X 16dddd#X	.
-4E] 4A] 4d-]	16aKL]	.	16AAAALL]	(8aa^L 8ddd#X 8ggg#X	.
-.	8e-X)	.	16CCC#XJ 16GGG#X 16DD	.	.
-.	.	.	8EEEJ 8BBB 8FF	16gg#XL 16dddn 16gggn)	.
-.	16f#XJk	.	.	[16ccc#X~JJ [16eee [16aaa	.
-=7	=7	=7	=7	=7	=7
-!	!	!	!	!LO:TX:a:i:t=poco	!
-[2D-X [2F#X [2B-X	8cL	.	8.AAAA^L	16ccc#XLL] 16eee] 16aaa]	f
-.	.	.	.	16fffn 16bbb-X 16dddd	.
-.	(8f#X~J	.	.	16ddd#X 16aaa 16eeee	.
-.	.	.	[16CCC#XJk [16GGG#X [16DD	16ccc#XJJ 16gggn 16ddddn	.
-.	8cL)	.	8.CCC#L] 8.GGG#] 8.DD]	8ddd#XL 8aaa 8eeee	.
-.	(16e-X^L	.	.	[8dddnJ [8ggg#X [8dddd#X	.
-.	[16cJJ	.	[16EEEJk [16BBB [16FF	.	.
-=8	=8	=8	=8	=8	=8
-16D-XKL] 16F#X] 16B-X]	16cKL]))	.	4EEE_ 4BBB_ 4FF_	8dddnL] 8ggg#X] 8dddd#X]	.
-8.D-X^J 8.En 8.An	(8.e-X^J	.	.	.	.
-.	.	.	.	8ddd~J 8ggg 8dddd	.
-*	*	*	*	*X8va	*
-[4BB-X~ [4E-X [4Gn	[4c~)	.	8.EEEL] 8.BBB] 8.FF]	4gg#X~ 4ddd#X 4aaa	.
-*	*	*	*X8ba	*	*
-.	.	.	[16CCC#XJk [16GGG#X [16DD	.	.
-=	=	=	=	=	=
-*-	*-	*-	*-	*-	*-
-!!!system-decoration: [({(s1,s2)})][({(s3,s4)})]
+=5	=5	=5	=5	=5	=5	=5
+4En 4F#X 4B-X	(8e-XL	f	8EEEL 8BBB 8FF	.	16ddd#XLL 16aaa 16eeee	.
+.	.	.	.	.	16dddn 16ggg#X 16dddd#X	.
+!	!	!	!	!LO:DY:t=poco %s	!	!
+.	8gJ	.	8AAAA^>J	sf	16aa 16ddd#X 16ggg#X	.
+.	.	.	.	.	16gg#XJJ 16dddn 16gggn	.
+[4En [4G [4c	8f#XL	.	8.CCC#XL 8.GGG#X 8.DD	.	16ccc#XLL 16eee 16aaa	.
+.	.	.	.	.	16fffnJ 16bbb-X 16ddddn	.
+.	[8a^>J	.	.	.	(8ddd#X^J 8aaa 8eeee	.
+.	.	.	[16EEEJk [16BBB [16FF	.	.	.
+=6	=6	=6	=6	=6	=6	=6
+16EKL] 16G] 16c]	16aKL]	.	8EEEL] 8BBB] 8FF]	.	8dddnL 8ggg#X 8dddd#X)	.
+[8.EnJ [8.An [8.d-X	8e-X)	.	.	.	.	.
+!	!	!	!	!LO:DY:t=poco %s	!	!
+.	.	.	[8AAAA^>J	sf	16ccc#XL 16gggn 16ddddn	.
+.	((>[16a^>Jk	.	.	.	16dddnJJ 16ggg#X 16dddd#X	.
+4E] 4A] 4d-]	16aKL]	.	16AAAALL]	.	(8aa^L 8ddd#X 8ggg#X	.
+.	8e-X)	.	16CCC#XJ 16GGG#X 16DD	.	.	.
+.	.	.	8EEEJ 8BBB 8FF	.	16gg#XL 16dddn 16gggn)	.
+.	16f#XJk	.	.	.	[16ccc#X~JJ [16eee [16aaa	.
+=7	=7	=7	=7	=7	=7	=7
+!	!	!	!	!LO:DY:t=poco %s	!	!
+[2D-X [2F#X [2B-X	8cL	.	8.AAAA^>L	.sf	16ccc#XLL] 16eee] 16aaa]	.
+.	.	.	.	.	16fffn 16bbb-X 16dddd	.
+.	(>8f#X~>J	.	.	.	16ddd#X 16aaa 16eeee	.
+.	.	.	[16CCC#XJk [16GGG#X [16DD	.	16ccc#XJJ 16gggn 16ddddn	.
+.	8cL)	.	8.CCC#L] 8.GGG#] 8.DD]	.	8ddd#XL 8aaa 8eeee	.
+.	(>16e-X^L	.	.	.	[8dddnJ [8ggg#X [8dddd#X^	.
+.	[16cJJ	.	[16EEEJk [16BBB [16FF	.	.	.
+=8	=8	=8	=8	=8	=8	=8
+16D-XKL] 16F#X] 16B-X]	16cKL]))	.	4EEE_ 4BBB_ 4FF_	.	8dddnXL] 8ggg#X] 8dddd#X]	.
+8.D-X^J 8.En 8.An	(8.e-X^J	.	.	.	.	.
+.	.	.	.	.	8ddd~J 8ggg 8dddd	.
+[4BB-X~ [4E-X [4Gn	[4c~)	.	8.EEEL] 8.BBB] 8.FF]	.	4gg#X~ 4ddd#X 4aaa	.
+.	.	.	[16CCC#XJk [16GGG#X [16DD	.	.	.
+*	*	*	*X8ba	*	*X8va	*
+=	=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-	*-
+!!!system-decoration: {(s1,s2)}{(s3,s4)}
+!!!RDF**kern: > = above
+!!!EED: Jason Lee
+!!!: EEV: 2021/09/24
