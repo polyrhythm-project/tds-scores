@@ -1,54 +1,54 @@
 !!!COM: Olivier (Eugène Prosper Charles) Messiaen
 !!!OTL: [T755_Mes-21/40/51-54]
-**kern	**kern
-*part1	*part1
-*staff2	*staff1
-*I"Piano	*
-*I'Pno.	*
+**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B
+*part1	*part1	*part1	*part1
+*staff2	*	*staff1	*
+*I"Piano	*	*	*
+*I'Pno.	*	*	*
 !!pagebreak:original
-*clefF4	*clefF4
-*k[]	*k[]
-*C:	*C:
-*M3/8	*M3/8
-*8ba	*8ba
-=1	=1
-!	!LO:TX:t=[eighth]=107
-!	!LO:TX:b:t=[p legato]
-!	!LO:TX:a:t=[pp stacc.]
-8BBBBnL	16BBB-X'LL
-.	16AAA'
-!	!LO:TX:a:i:t=[mystérieux]
-8EEE	16FFFn'
-.	16GGG#X'
-8DDD#XJ	16BBBn'
-.	16FF#X'JJ
-=2	=2
-*M3/16	*M3/16
-16FFFn^KL	16DDn'LL
-8BBBBnJ	16FFF#X'
-.	16GGG#X'JJ
-=3	=3
-*M4/16	*M4/16
-16BBBB-XLL	8CCn'~
-16DDDn	.
-16EEE-X	16GGG#X'LL
-16AAAAnJJ	16FFn'JJ
-=4	=4
-*M6/8	*M6/8
-8AAAAL	16GGn'LL
-.	16FFF#X'
-8DDD	16r
-.	16BBB-X'JJ
-8CCC#X	16FF#X'LL
-.	16r
-8EEE-XJ	16GGGn'
-.	16FFn'JJ
-*X8ba	*
-4AAAA	16DD'LL
-.	16r
-.	16GGG#X'
-*	*X8ba
-.	16BBBn'JJ
-=||	=||
-*-	*-
+*clefF4	*	*clefF4	*
+*k[]	*	*k[]	*
+*C:	*	*C:	*
+*M3/8	*	*M3/8	*
+*8ba	*	*8ba	*
+=1	=1	=1	=1
+!	!	!LO:TX:t=[eighth]=107	!
+!	!LO:DY:LO:DY:t=[ %s legato ]	!	!LO:DY:LO:DY:t=[ %s stacc. ]
+(8BBBBnL	p	16BBB-X'LL	pp
+.	.	16AAA'	.
+!	!	!LO:TX:a:i:t=[mystérieux]	!
+8EEE	.	16FFFn'	.
+.	.	16GGG#X'	.
+8DDD#XJ	.	16BBBn'	.
+.	.	16FF#X'JJ	.
+=2	=2	=2	=2
+*M3/16	*	*M3/16	*
+16FFFn^KL	.	16DDn'LL	.
+8BBBBnJ)	.	16FFF#X'	.
+.	.	16GGG#X'JJ	.
+=3	=3	=3	=3
+*M4/16	*	*M4/16	*
+(16BBBB-XLL	.	8CCn'~	.
+16DDDn	.	.	.
+16EEE-X	.	16GGG#X'LL	.
+16AAAAnJJ)	.	16FFn'JJ	.
+=4	=4	=4	=4
+*M6/8	*	*M6/8	*
+(8AAAAL	.	16GGn'LL	.
+.	.	16FFF#X'	.
+8DDD	.	16r	.
+.	.	16BBB-X'JJ	.
+8CCC#X	.	16FF#X'LL	.
+.	.	16r	.
+8EEE-XJ	.	16GGGn'	.
+.	.	16FFn'JJ	.
+*	*	*	*
+4AAAA)	.	16DD'LL	.
+.	.	16r	.
+.	.	16GGG#X'	.
+*X8ba	*	*X8ba	*
+.	.	16BBBn'JJ	.
+=||	=||	=||	=||
+*-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
