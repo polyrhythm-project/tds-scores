@@ -1,6 +1,7 @@
 !!!COM: Britten, (Edward) Benjamin
 !!!OTL: [T811_Bri-w29p12hIm6-14]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
@@ -10,78 +11,78 @@
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
+!!LO:REH:t=I
 =1	=1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!	!	!LO:TX:t=[half]=80	!
-!	!	!	!	!	!	!LO:TX:a:B:t=I	!
-!LO:TX:b:t=[sempre ppp]	!	!LO:TX:b:t=[pp]	!	!LO:TX:b:t=[pp]	!	!LO:TX:b:t=[ppp sempre e legato]	!
-2CC#X	.	4r	.	4r	.	(4gg#X	.
-.	.	4C#X	.	4c#X	.	4ff	.
-(6BBB#X	.	8BB#XL	.	8B#XL	.	4eee)	.
-.	.	8C#	.	8c#	.	.	.
+!	!LO:DY:t=sempre %s	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:t=[ %s sempre e legato ]
+2CC#X	ppp	4r	pp	4r	pp	(4gg#X	ppp
+.	.	4C#`X	.	4c#`X	.	4ff	.
+(6BBB#X	.	8BB#`XL	.	8B#`XL	.	4eeeo)	.
+.	.	8C#`	.	8c#`	.	.	.
 6CC#X	.	.	.	.	.	.	.
-.	.	8D#X	.	8d#X	.	(4ccc	.
+.	.	8D#`X	.	8d#`X	.	(4ccc	.
 6DD#X	.	.	.	.	.	.	.
-.	.	8C#J	.	8c#J	.	.	.
+.	.	8C#`J	.	8c#`J	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2
 [1CC#X	.	2r	.	2r	.	4a)	.
 .	.	.	.	.	.	(4gg#X	.
 .	.	4r	.	4r	.	4ff	.
-.	.	4C#X	.	4c#X	.	4eee)	.
+.	.	4C#`X	.	4c#`X	.	4eeeo)	.
 =3	=3	=3	=3	=3	=3	=3	=3
-4CC#])	.	4C#X	<	4c#X	<	(4ccc	.
-(4DD#X	<	8D#XL	.	8d#XL	.	4a)	.
-.	.	8EJ	.	8eJ	.	.	.
-6EE	.	8EL	.	8eL	.	(4bb-X	<
-.	.	8F#X	.	8f#X	.	.	.
+4CC#])	.	4C#`X	<	4c#`X	<	(4ccc	.
+(4DD#X	<	8D#`XL	.	8d#`XL	.	4a)	.
+.	.	8E`J	.	8e`J	.	.	.
+6EE	.	8E`L	.	8e`L	.	(4bb-X	<
+.	.	8F#`X	.	8f#`X	.	.	.
 6FF#X	.	.	.	.	.	.	.
-.	.	8G	.	8g	.	4b-X	[
+.	.	8G`	.	8g`	.	4b-X	[
 6GG	[	.	.	.	.	.	.
-.	.	8F#J	[	8f#J	[	.	.
+.	.	8F#`J	[	8f#`J	[	.	.
 =4	=4	=4	=4	=4	=4	=4	=4
-!LO:TX:b:i:t=poco a poco piu sonoro	!	!LO:TX:b:i:t=poco a poco piu	!	!LO:TX:b:i:t=poco a poco piu	!	!LO:TX:b:i:t=poco a poco piu	!
-2.FF#X)	.	4F#X	f	4f#X	f	4aa)	f
+!LO:TX:b:i:t=poco a poco piu sonoro	!	!	!LO:DY:t=poco a poco piu %s	!	!LO:DY:t=poco a poco piu %s	!	!LO:DY:t=poco a poco piu %s
+2.FF#X)	.	4F#`X	f	4f#`X	f	4aa)	f
 .	.	4r	.	4r	.	(4ff	.
 .	.	4r	.	4r	.	4d)	.
-(4EE#X	.	8E#XL	.	8e#XL	.	(4cc#X	.
-.	.	8F#J	.	8f#J	.	.	.
+(4EE#X	.	8E#X`L	.	8e#X`L	.	(4cc#X	.
+.	.	8F#`J	.	8f#`J	.	.	.
 =5	=5	=5	=5	=5	=5	=5	=5
-6FF#X	.	8G#XL	.	8g#XL	.	4b-X	.
-.	.	8F#XJ	.	8f#XJ	.	.	.
+6FF#X	.	8G#`XL	.	8g#`XL	.	4b-X	.
+.	.	8F#`XJ	.	8f#`XJ	.	.	.
 6GG#X	.	.	.	.	.	.	.
-.	.	4r`	.	4r`	.	4aa)	.
+.	.	4r	.	4r	.	4aao)	.
 6FF#)	.	.	.	.	.	.	.
-(6EE#X	.	8E#XL	.	8e#XL	.	(4ff	.
-.	.	8F#J	.	8f#J	.	.	.
+(6EE#X	.	8E#`^XL	.	8e#`^XL	.	(4ff	.
+.	.	8F#`J	.	8f#`J	.	.	.
 6FF#	.	.	.	.	.	.	.
 .	.	4r	.	4r	.	4d)	.
 6GG#	.	.	.	.	.	.	.
 !!linebreak:original
 =6	=6	=6	=6	=6	=6	=6	=6
-2.FF#X)	.	8G#XL	.	8g#XL	.	(4cc#X	.
-.	.	8F#XJ	.	8f#XJ	.	.	.
+2.FF#X)	.	8G#`^XL	.	8g#`^XL	.	(4cc#X	.
+.	.	8F#`XJ	.	8f#`XJ	.	.	.
 .	.	4r	.	4r	.	4b-X	.
-.	.	4r	.	4r	.	4aa)	.
-([4FF#	.	4F#	.	4f#	.	(4ff	.
+.	.	4r	.	4r	.	4aao)	.
+([4FF#	.	4F#`	.	4f#`	.	(4ff	.
 =7	=7	=7	=7	=7	=7	=7	=7
-4FF#]	.	4F#X	.	4f#X	.	4d)	.
-8EE#XL	.	8E#XL	.	8e#XL	.	(4cc#X	.
-8FF#XJ	.	8F#J	.	8f#J	.	.	.
-8GG#XL	.	8G#XL	.	8g#XL	.	4b-X	.
-[8FF#J	.	8F#J	.	8f#J	.	.	.
-4FF#])	.	4F#	.	4f#	.	4aa)	.
+4FF#]	.	4F#`X	.	4f#`X	.	4d)	.
+8EE#XL	.	8E#`XL	.	8e#`XL	.	(4cc#X	.
+8FF#XJ	.	8F#`J	.	8f#`J	.	.	.
+8GG#XL	.	8G#`XL	.	8g#`XL	.	4b-X	.
+[8FF#J	.	8F#`J	.	8f#`J	.	.	.
+4FF#])	.	4F#`	.	4f#`	.	4aa)	.
 =8	=8	=8	=8	=8	=8	=8	=8
-(4EE#X	.	4E#X	.	4e#X	.	(4ff	.
-8FF#XL	<	8F#XL	<	8f#XL	<	4d	.
-8GG#XJ	.	8G#XJ	.	8g#XJ	.	.	.
-8AAL	.	8AL	.	8aL	.	4ee-X)	<
-8BB	.	8BJ	.	8bJ	.	.	.
-8C	.	8cL	.	8ccL	.	([4e-X	[
-8BBJ)	[	8BJ	[	8bJ	[	.	.
+(4EE#X	.	4E#`X	.	4e#`X	.	(4ff	.
+8FF#XL	<	8F#`XL	<	8f#`XL	<	4d	.
+8GG#XJ	.	8G#`XJ	.	8g#`XJ	.	.	.
+8AAL	.	8A`L	.	8aL`	.	4ee-X)	<
+8BB	.	8B`J	.	8bJ`	.	.	.
+8C	.	8c`L	.	8ccL`	.	([4e-X	[
+8BBJ)	[	8B`J	[	8bJ`	[	.	.
 =9	=9	=9	=9	=9	=9	=9	=9
 2.BB	mf	4B^	mf	4b^	mf	4e-] 4dd)	mf
 .	.	4r	.	4r	.	(4e-X 4b-X	.
 .	.	4r	.	4r	.	4G)	.
-[4BB	.	4B	.	4b`	.	[4G [4f#X	.
+[4BB	.	4B`	.	4b`	.	[4G [4f#X	.
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
