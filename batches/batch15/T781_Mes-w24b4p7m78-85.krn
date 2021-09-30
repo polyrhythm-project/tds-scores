@@ -1,74 +1,76 @@
 !!!COM: Olivier (Eugène Prosper Charles) Messiaen
 !!!OTL: [T781_Mes-w24b4p7m78-85]
-**kern	**dynam	**kern	**kern	**dynam
-*part2	*part2	*part1	*part1	*part1
-*staff3	*	*staff2	*staff1	*
-*I"P3	*	*I"Piano	*	*
-*	*	*I'Pno.	*	*
+**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A
+*part2	*part2	*part1	*	*part1	*part1
+*staff3	*	*staff2	*	*staff1	*
+*I"P3	*	*I"Piano	*	*	*
+*	*	*I'Pno.	*	*	*
 !!pagebreak:original
-*clefF4	*	*clefF4	*clefG2	*
-*k[]	*	*k[]	*k[]	*
-*C:	*	*C:	*C:	*
-*M2/4	*	*M2/4	*M2/4	*
-=1	=1	=1	=1	=1
-!LO:TX:b:i:t=)	!	!	!LO:TX:t=[eighth]=144	!
-!LO:TX:b:i:t=(sempre	!	!	!LO:TX:b:t=[ff]	!
-16CCLL 16C	fff	[4D-X [4d-X	[2e-X [2ee-X	mf
-16GG`^J 16G	.	.	.	.
-[8DDn~J [8Dn	.	.	.	.
-8DDL] 8D]	.	8.D-L] 8.d-]	.	.
-[8AAAJ [8AA	.	.	.	.
-.	.	[16DnJk [16dn	.	f
-=2	=2	=2	=2	=2
-8AAAL] 8AA]	.	2Dn_ 2dn_	16e-XKL] 16ee-X]	.
-.	.	.	[8.d-X~J [8.dd-X	ff
-[8EEnJ [8En	.	.	.	.
-8EEL] 8E]	.	.	4d-_ 4dd-_	.
-16GG^L 16G	.	.	.	.
-[16EE^JJ [16E	.	.	.	.
-=3	=3	=3	=3	=3
-4EE_ 4E_	.	16DKL] 16d]	4d-X] 4dd-X]	.
-.	.	[8.E-XJ [8.e-X	.	mf
-!	!	!	!LO:TX:a:t=sfff	!
-8.EEL] 8.E]	.	4E-_ 4e-_	[4c^ [4cc	.
-16CCJk 16C	.	.	.	.
-=4	=4	=4	=4	=4
-16r	.	8E-X] 8e-X]	2c] 2cc]	.
-[8.EEn [8.En	.	.	.	.
-.	.	[4.En [4.en	.	mf
-16EELL] 16E]	.	.	.	.
-16GG`^J 16G	.	.	.	.
-[8EE~J [8E	.	.	.	.
+*clefF4	*	*clefF4	*	*clefG2	*
+*k[]	*	*k[]	*	*k[]	*
+*C:	*	*C:	*	*C:	*
+*M2/4	*	*M2/4	*	*M2/4	*
+=1	=1	=1	=1	=1	=1
+!	!	!	!	!LO:TX:t=[eighth]=144	!
+!	!LO:DY:t=(sempre %s )	!	!LO:DY:ed=brack	!	!
+16CCLL 16C	fff	[4D-X [4d-X	ff	[2e-X [2ee-X	mf
+16GG`^J 16G	.	.	.	.	.
+[8DDn~J [8Dn	.	.	.	.	.
+8DDL] 8D]	.	8.D-L] 8.d-]	.	.	.
+[8AAAJ [8AA	.	.	.	.	.
+.	.	[16DnJk [16dn	f	.	.
+=2	=2	=2	=2	=2	=2
+8AAAL] 8AA]	.	2Dn_ 2dn_	.	16e-XKL] 16ee-X]	.
+!	!	!	!	!	!LO:DY:a
+.	.	.	.	[8.d-X~J [8.dd-X	ff
+[8EEnJ [8En	.	.	.	.	.
+8EEL] 8E]	.	.	.	4d-_ 4dd-_	.
+16GG^L 16G	.	.	.	.	.
+[16EE^JJ [16E	.	.	.	.	.
+=3	=3	=3	=3	=3	=3
+4EE_ 4E_	.	16DKL] 16d]	.	4d-X] 4dd-X]	.
+.	.	[8.E-XJ [8.e-X	mf	.	.
+!	!	!	!	!	!LO:DY:a
+8.EEL] 8.E]	.	4E-_ 4e-_	.	[4c^ [4cc	sfff
+16CCJk 16C	.	.	.	.	.
+=4	=4	=4	=4	=4	=4
+16r	.	8E-X] 8e-X]	.	2c] 2cc]	.
+[8.EEn [8.En	.	.	.	.	.
+.	.	[4.En [4.en	mf	.	.
+16EELL] 16E]	.	.	.	.	.
+16GG`^J 16G	.	.	.	.	.
+[8EE~J [8E	.	.	.	.	.
 !!linebreak:original
-=5	=5	=5	=5	=5
-8EE] 8E]	.	8E] 8e]	[2dn [2ddn	f
-!LO:TX:b:t=sfff	!	!	!	!
-[4.AAA#X [4.AA#X	.	[4.Fn [4.fn	.	ff
-=6	=6	=6	=6	=6
-8AAA#X] 8AA#X]	.	16FKL] 16f]	8d] 8dd]	.
-.	.	8F#X'^J 8f#X	.	ff
-!LO:TX:b:i:t=)	!	!	!	!
-!LO:TX:b:i:t=(sempre	!	!	!	!
-(8qCn/	fff	.	.	.
-4EEn 4En)	.	.	[4.en [4.een	mf
-.	.	16r	.	.
-.	.	8.r	.	.
-8GG`^ 8G	.	.	.	.
-*	*	*clefG2	*	*
-.	.	[16G [16g	.	p
-=7	=7	=7	=7	=7
-4DD~ 4D	.	4G] 4g]	8eL] 8ee]	.
-.	.	.	8f#X'^J 8ff#X	ff
-4AAAn 4AAn	.	4A-X 4a-X	4r	p
-=8	=8	=8	=8	=8
-*M3/8	*	*M3/8	*M3/8	*
-!LO:TX:b:i:t=)	!	!	!	!
-!LO:TX:b:i:t=(sempre	!	!	!LO:TX:a:t=rit.	!
-4CCn 4Cn	fff	8An~L 8an	4a-X 4aa-X	p f
-.	.	16r~	.	.
-.	.	[16B-X~Jk [16b-X	.	f
-16DD^LL 16D	ff	16B-LL] 16b-]	8b-X~ 8bb-X	f
-16CC^JJ 16C	.	16Bn'^JJ 16bn	.	.
-=	=	=	=	=
-*-	*-	*-	*-	*-
+=5	=5	=5	=5	=5	=5
+!	!	!	!	!	!LO:DY:a
+8EE] 8E]	.	8E] 8e]	.	[2dn [2ddn	f
+[4.AAA#X [4.AA#X	sfff	[4.Fn [4.fn	ff	.	.
+=6	=6	=6	=6	=6	=6
+8AAA#X] 8AA#X]	.	16FKL] 16f]	.	8d] 8dd]	.
+.	.	8F#X'^J 8f#X	ff	.	.
+!	!LO:DY:t=(sempre %s )	!	!	!	!
+(8qCn/	fff	.	.	.	.
+!	!	!	!	!	!LO:DY:a
+4EEn 4En)	.	.	.	[4.en [4.een	mf
+.	.	16r	.	.	.
+.	.	8.r	.	.	.
+8GG`^ 8G	.	.	.	.	.
+*	*	*clefG2	*	*	*
+.	.	([16G [16g	p	.	.
+=7	=7	=7	=7	=7	=7
+4DD~ 4D	.	4G] 4g]	.	8eL] 8ee]	.
+.	.	.	.	8f#X'^/J 8ff#X/	ff
+4AAAn 4AAn	.	4A-X 4a-X)	p	4r	.
+=8	=8	=8	=8	=8	=8
+*M3/8	*	*M3/8	*	*M3/8	*
+!	!LO:DY:t=(sempre %s )	!	!	!LO:TX:a:t=rit.	!
+4CCn/ 4Cn/	fff	8An~L 8an	f	4a-X 4aa-X	p
+.	.	16r~	.	.	.
+.	.	[16B-X~Jk [16b-X	f	.	.
+!	!LO:DY:a	!	!	!	!
+16DD^LL 16D	ff	16B-LL] 16b-]	.	8b-X~ 8bb-X	f
+16CC^JJ 16C	.	16Bn'^JJ 16bn	.	.	.
+=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)}s3)]
