@@ -1,94 +1,105 @@
 !!!COM: Manuel de Falla (y Matheu)
 !!!OTL: [T305_Fal-w7p15m204-222]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*	*
 *I'Pno.	*	*
-!!pagebreak:original
+*ICklav	*ICklav	*
+*Ipiano	*Ipiano	*
 *clefF4	*clefG2	*
 *k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*
 *B:	*B:	*
 *M3/8	*M3/8	*
 =1	=1	=1
-!	!LO:TX:t=[quarter-dot]=52	!
-!	!LO:TX:b:i:t=Dolcemente marc.il canto	!
-8GG#L	(8g#L	ppp
+!	!LO:TX:t=[[quarter-dot]=52]	!
+!	!LO:TX:b:i:t=Dolcemente marc. il canto	!
+(8GG#L	8g#L	ppp
 8F#	8a#	.
-8BJ	8f#J	.
+8BJ)	8f#J	.
 =2	=2	=2
-8C#L	8g#	.
+(8C#L	8g#	.
 8G#	4e	.
-8c#J	.	.
+8c#J)	.	.
 =3	=3	=3
-8GG#L	4f#	.
+(8GG#L	4f#	.
 8F#	.	.
-8BJ	[8d#L	.
+!	!LO:TX:t=P:problem: cross-bar beaming to be implemented	!
+8BJ)	[8d#L	.
 =4	=4	=4
-8C#L	8d#J]	.
+(8C#L	8d#J]	.
 8G#	4e	.
-8c#J	.	.
+8c#J)	.	.
 =5	=5	=5
-8GG#L	8g#L	.
+(8GG#L	8g#L	.
 8F#	8a#	.
-8BJ	8f#J	.
+8BJ)	8f#J	.
 =6	=6	=6
-8C#L	8g#	.
+(8C#L	8g#	.
 8G#	4e	.
-8c#J	.	.
+8c#J)	.	.
 =7	=7	=7
-8GG#L	4f#	.
+(8GG#L	4f#	.
 8F#	.	.
+!	!LO:TX:t=P:problem: cross-bar beaming to be implemented	!
 8BJ	[8d#L	.
 =8	=8	=8
-8EL	8d#J])	.
+8EL	8d#J])jj	.
 8An	(4c#	.
-8G#J	.	.
+8G#J)	.	.
 =9	=9	=9
-8GG#L	8f#L	.
+(8GG#L	8f#L	.
 8F#	8e	.
 8G#J	8d#J	.
-!!linebreak:original
 =10	=10	=10
 8AnL	8c#	.
 8B	4d#	.
-8G#J	.	.
+8G#J)	.	.
 =11	=11	=11
-8GG#L	4B	.
+(8GG#L	4B	.
 8F#	.	.
+!	!LO:TX:t=P:problem: cross-bar beaming to be implemented	!
 8G#J	[8c#L	.
 =12	=12	=12
 8AnL	8c#J]	.
 8B	4d#	.
-8G#J	.	.
+8G#J)	.	.
 =13	=13	=13
-8GG#L	8f#L	.
+(8GG#L	8f#L	.
 8F#	8e	.
 8G#J	8d#J	.
 =14	=14	=14
 8AnL	8c#	.
 8B	4d#	.
-8G#J	.	.
+8G#J)	.	.
 =15	=15	=15
-8GG#L	4B	.
+(8GG#L	4B	.
 8G#	.	.
+!	!LO:TX:t=P:problem: cross-bar beaming to be implemented	!
 8F#J	[8AnL	.
 =16	=16	=16
 8C#L	8AJ])	.
-8D#	(4c#	.
-8EJ	.	.
+8D#	(4c#ii	.
+8EJ)	.	.
 =17	=17	=17
-8GG#L	8BL	.
+(8GG#L	8BL	.
 8C#	8An	.
 8D#J	8G#J	.
 =18	=18	=18
 8EL	8An	.
 8F#	4c#	.
-8D#J	.	.
+8D#J)	.	.
 =19	=19	=19
-8GG#L	4B	.
+(8GG#Li	4B	.
 8G#	.	.
-8F#J	[8An)	.
+8F#J	[8An	.
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!Xfilter: slurcheck
+!!!Xfilter: colorgroups
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
