@@ -3,7 +3,7 @@
 **kern	**kern	**dynam
 *grp:A	*grp:B	*
 *part1	*part1	*part1
-*staff2	*staff1	*
+*staff2	*staff1	*staff1/2
 *I"Piano	*	*
 *I'Pno.	*	*
 *ICklav	*ICklav	*
@@ -15,7 +15,8 @@
 =1	=1	=1
 !	!LO:TX:t=[[quarter-dot]=52]	!
 !	!LO:TX:b:i:t=Dolcemente marc. il canto	!
-(8GG#L	8g#L	ppp
+!	!	!LO:DY:rj:a=2
+(8GG#L	(>8g#L	ppp
 8F#	8a#	.
 8BJ)	8f#J	.
 =2	=2	=2
@@ -45,8 +46,8 @@
 !	!LO:TX:t=P:problem: cross-bar beaming to be implemented	!
 8BJ	[8d#L	.
 =8	=8	=8
-8EL	8d#J])jj	.
-8An	(4c#	.
+8EL	8d#J])	.
+8An	(>4c#	.
 8G#J)	.	.
 =9	=9	=9
 (8GG#L	8f#L	.
@@ -66,7 +67,7 @@
 8B	4d#	.
 8G#J)	.	.
 =13	=13	=13
-(8GG#L	8f#L	.
+(8GG#L>	8f#L	.
 8F#	8e	.
 8G#J	8d#J	.
 =14	=14	=14
@@ -74,13 +75,13 @@
 8B	4d#	.
 8G#J)	.	.
 =15	=15	=15
-(8GG#L	4B	.
+(8GG#L>	4B	.
 8G#	.	.
 !	!LO:TX:t=P:problem: cross-bar beaming to be implemented	!
 8F#J	[8AnL	.
 =16	=16	=16
-8C#L	8AJ])	.
-8D#	(4c#ii	.
+8C#L>	8AJ])	.
+8D#	(>4c#	.
 8EJ)	.	.
 =17	=17	=17
 (8GG#L	8BL	.
@@ -91,15 +92,10 @@
 8F#	4c#	.
 8D#J)	.	.
 =19	=19	=19
-(8GG#Li	4B	.
+(8GG#L	4B	.
 8G#	.	.
-8F#J	[8An	.
+8F#J	[8An)	.
 =	=	=
 *-	*-	*-
-!!!system-decoration: [({(s1,s2)})]
-!!!Xfilter: slurcheck
-!!!Xfilter: colorgroups
-!!!RDF**kern: i = marked note, color="hotpink", text="extra("
-!!!RDF**kern: j = marked note, color="magenta", text="extra)"
-!!!RDF**kern: i = marked note, color="hotpink", text="extra("
-!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
