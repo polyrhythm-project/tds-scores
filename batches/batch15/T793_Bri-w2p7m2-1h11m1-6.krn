@@ -3,9 +3,9 @@
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Oboe	*
-*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Ob.	*
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Oboe	*I"Oboe
+*	*I'Vc.	*I'Vla.	*I'Vla.	*I'Vln. II	*I'Vln. II	*I'Ob.	*I'Ob.
 !!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
@@ -25,9 +25,8 @@
 8r	.	.	.	8r	.	.	.
 .	.	.	.	.	.	10ee	.
 !LO:TX:a:t=pizz.	!	!	!	!LO:TX:a:t=pizz.	!	!	!
-!	!	!	!	!LO:TX:t=P:problem:LH pizz.	!	!	!
-!LO:TX:t=P:problem:LH pizz.	!	!	!	!	!	!	!
-4GG 4D 4A	.	4r	.	4a 4ee	.	.	.
+!LO:TX:t=P:problem:LH pizz.	!	!	!	!LO:TX:t=P:problem:LH pizz.	!	!	!
+4GG+ 4D+ 4A+	.	4r	.	4a+ 4ee+	.	.	.
 .	.	.	.	.	.	10ff#X	.
 .	.	.	.	.	.	10gg#XJ	[
 =2	=2	=2	=2	=2	=2	=2	=2
@@ -58,7 +57,7 @@
 .	.	.	.	10dd	.	.	.
 !LO:TX:a:t=pizz.	!	!	!	!	!	!	!
 !LO:TX:t=P:problem:LH pizz.	!	!	!	!	!	!	!
-4GG 4D 4A	.	4r	.	.	.	[4b~	.
+4GG+ 4D+ 4A+	.	4r	.	.	.	[4b~	.
 .	.	.	.	10ee	.	.	.
 .	.	.	.	10ff#XJ	[	.	.
 =4	=4	=4	=4	=4	=4	=4	=4
@@ -89,7 +88,7 @@
 .	.	10a	<	.	.	.	.
 !LO:TX:a:t=pizz.	!	!	!	!	!	!	!
 !LO:TX:t=P:problem:LH pizz.	!	!	!	!	!	!	!
-4GG 4D 4A	sf	.	.	4r	.	4aa'	.
+4GG+ 4D+ 4A+	sf	.	.	4r	.	4aa'	.
 .	.	10b	.	.	.	.	.
 .	.	10cc#XJ	[	.	.	.	.
 =6	=6	=6	=6	=6	=6	=6	=6
@@ -137,6 +136,7 @@
 8EJ	.	8r	.	.	.	.	.
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
+!!!RDF**kern: + = l.h. pizz.
 !!!system-decoration: s1[(s2,s3,s4)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
