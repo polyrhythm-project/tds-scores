@@ -1,21 +1,21 @@
 !!!COM: Leoš [Leo Eugen] Janáček
 !!!OTL: [T139A_Jan-w21p4m1-2]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*	*
 *I'Pno.	*	*
-!!pagebreak:original
 *clefF4	*clefG2	*
 *k[b-e-a-d-g-c-]	*k[b-e-a-d-g-c-]	*
-*G-:	*G-:	*
+*e-:	*e-:	*
 *M6/8	*M6/8	*
 =1	=1	=1
 *^	*	*
-!	!	!LO:TX:t=[quarter]=120	!
-!	!	!LO:TX:a:i:t=m.d.	!
-2.BB-: 2.E-: 2.G-: 2.B-:	2.EE-	8r	pp p
-!	!	!LO:TX:a:B:t=3	!
+*ped	*	*	*
+!LO:TX:a:i:rj:t=m.d.	!	!LO:TX:t=Con moto. [quarter-dot]=72	!
+2.BB-: 2.E-: 2.G-: 2.B-:	2.EE-:	8r	pp
+!	!	!LO:TX:a:t=3	!
 .	.	(8gg-L	.
 .	.	8ff	.
 .	.	8aa-	.
@@ -25,7 +25,7 @@
 =2	=2	=2
 2.E-: 2.G-: 2.B-: 2.e-:	8ffL)	.
 .	8r	.
-!	!LO:TX:a:B:t=5	!
+!	!LO:TX:a:t=5	!
 .	([8ee-	.
 .	8ee-]	.
 .	8.dd-	.
@@ -33,3 +33,5 @@
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!EED:Jason Lee
+!!!EEV:2021/10/05
