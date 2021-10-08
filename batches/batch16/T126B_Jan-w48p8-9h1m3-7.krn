@@ -1,56 +1,70 @@
 !!!COM: Leoš [Leo Eugen] Janáček
 !!!OTL: [T126B_Jan-w48p8-9h1m3-7]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
 *I"Piano	*	*	*I"Clarinet in Eb	*
 *I'Pno.	*	*	*I'Eb Cl.	*
-!!pagebreak:original
 *clefF4	*clefG2	*	*clefG2	*
 *	*	*	*ITrd-2c-3	*
 *k[]	*k[]	*	*k[b-e-a-]	*
 *	*	*	*	*
 *M6/8	*M6/8	*	*M6/8	*
-=1	=1	=1	=1	=1
-!	!	!	!LO:TX:t=[quarter-dot]=126	!
-!	!	!	!LO:TX:a:B:t=A tempo	!
+=25	=25	=25	=25	=25
+!	!	!	!LO:TX:t=[[quarter-dot]=126]	!
+!	!LO:TX:a:i:t=a tempo	!	!LO:TX:a:i:t=a tempo	!
+!	!	!	!LO:TX:t=P:problem:Duplet bracket is obstructing slur.	!
+!	!	!	!LO:TUP:a:br	!
 8AA-X'^L 8C	8a-X'^L 8cc	f	(16%3ccL	f
 8AA-'J 8C	8a-'J 8cc	.	.	.
 .	.	.	16%3aa-'J)	.
 8r	8r	.	.	.
+!	!	!	!LO:TUP:a:br	!
 4.r	4.r	.	16%3aa-'L	.
 .	.	.	16%3aa-'J	.
-=2	=2	=2	=2	=2
+=26	=26	=26	=26	=26
+!	!	!	!LO:TUP:a:br	!
 4r	4r	.	16%3aa-'L	.
 .	.	.	16%3gg'J	.
 8r	8r	.	.	.
+!	!	!	!LO:TUP:a:br	!
 8AA-XL 8C	8a-XL 8cc	mf	16%3ff'L	.
-8AA- 8C	(8a- 8cc	.	.	.
+(8AA- 8C	(8a- 8cc	.	.	.
 .	.	.	16%3gg'J	.
-8DD-XJ 8GG 8BBn	8gJ 8bn)	.	.	.
-=3	=3	=3	=3	=3
+8DD-XJ 8GG 8BBn)	8gJ 8bn)	.	.	.
+=27	=27	=27	=27	=27
+!	!	!	!LO:TUP:a:br	!
 4r	4r	.	16%3aa-'L	.
 .	.	.	16%3gg'J	.
 8r	8r	.	.	.
+!	!	!	!LO:TUP:a:br	!
 8AA-XL 8C	8a-XL 8cc	.	16%3ff'L	.
-8AA- 8C	(8a- 8cc	.	.	.
+(8AA- 8C	(8a- 8cc	.	.	.
 .	.	.	16%3gg'J	.
-8DD-XJ 8GG 8BB	8gJ 8b)	.	.	.
-=4	=4	=4	=4	=4
+8DD-XJ 8GG 8BB)	8gJ 8b)	.	.	.
+=28	=28	=28	=28	=28
+!	!	!	!LO:TUP:a:br	!
 4r	4r	.	16%3aa-'L	.
 .	.	.	16%3gg'J	.
 8r	8r	.	.	.
 8AA-XL 8C	8a-XL 8cc	.	(4.ff	.
-8AA- 8C	(8a- 8cc	.	.	.
-8DD-XJ 8GG 8BB	8gJ 8b)	.	.	.
-.	.	.	8qeeX/	.
-=5	=5	=5	=5	=5
-8AA-X'^L 8C	8a-X'^L 8cc	.	16%3cc'L)	<
-8AA-'J 8C	8a-'J 8cc	.	.	.
+(8AA- 8C	(8a- 8cc	.	.	.
+8DD-XJ 8GG 8BB)	8gJ 8b)	.	.	.
+.	.	.	8qeeX/)	.
+=29	=29	=29	=29	=29
+!	!	!	!LO:TUP:a:br	!
+8AA-X'^L 8C	/8a-X'>^>L 8cc	.	16%3cc'L	<
+8AA-'J 8C	8a-'>J 8cc	.	.	.
 .	.	.	16%3aa-'J	.
 8r	8r	.	.	.
+!	!	!	!LO:TUP:a:br	!
 4.r	4.r	.	16%3aa-'L	[
 .	.	.	16%3aa-'J	.
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Daniel Wright
+!!!EEV: 2021/10/8
