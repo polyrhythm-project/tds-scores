@@ -1,52 +1,60 @@
 !!!COM: (Achille-) Claude Debussy
 !!!OTL: [T181_Deb-w48p5h3m28-31]
 **kern	**kern	**dynam	**kern	**dynam
-!!pagebreak:original
+*grp:A	*grp:B	*	*grp:A	*
+*staff3	*staff2	*	*staff1	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
 *M3/4	*M3/4	*	*M3/4	*
+*	*Xtuplet	*	*	*
 =1	=1	=1	=1	=1
-*^	*	*	*	*
-!	!	!LO:TX:b:t=[pp]	!	!LO:TX:t=[half-dot]=55	!
-[2.E-X	2.B-X	.	.	4%3r	.
-.	.	10.e-X	.	.	.
-.	.	10.b-X	.	.	.
-.	.	10.e-	.	.	.
-.	.	.	.	.	.
-=2	=2	=2	=2	=2	=2
-2.E-_	2.B-X	.	.	(4g-X~	p
-.	.	10.e-X	.	.	.
-.	.	.	.	4g-~	.
-.	.	10.b-X	.	.	.
-.	.	10.e-	.	.	.
-.	.	.	.	4g-~	.
-.	.	.	.	.	.
-=3	=3	=3	=3	=3	=3
-2.E-_	2.B-X	.	.	4g-X~	.
-.	.	10.e-X	.	.	.
-.	.	.	.	4g-~	.
-.	.	10.b-X	.	.	.
-.	.	10.e-	.	.	.
-.	.	.	.	4g-~	.
-.	.	.	.	.	.
-=4	=4	=4	=4	=4	=4
-2.E-_	2.B-X	.	.	4g-X~	.
-.	.	10.e-X	.	.	.
-.	.	.	.	4g-~	.
-.	.	10.b-X	.	.	.
-.	.	10.e-	.	.	.
-.	.	.	.	4g-~)	.
-.	.	.	.	.	.
-=5	=5	=5	=5	=5	=5
-2.E-_	2.B-X~	.	< [	(4.g-X	<
-.	.	10.e-X	.	.	.
-.	.	10.b-X	.	.	.
-.	.	.	.	(8qqgn/	] > ]
-.	.	.	.	4.a-X~))	.
-.	.	10.e-	.	.	.
-.	.	.	.	.	.
-*v	*v	*	*	*	*
+!!LO:TX:B:t=[Poco meno]
+!	!LO:N:vis=5%3.	!LO:DY:rj:t=[ %s ]	!	!
+2.E-_< 2.B-yy	(20%3B-<'L	pp	(4g-X~	p
+.	20%3e-X	.	.	.
+.	.	.	4g-~	.
+.	20%3b-X	.	.	.
+.	20%3e-	.	.	.
+.	.	.	4g-~	.
+.	20%3B-<J)	.	.	.
+=2	=2	=2	=2	=2
+!	!LO:N:vis=5%3.	!	!	!
+2.E-_ 2.B-yy	(20%3B-<'L	.	4g-X~	.
+.	20%3e-X	.	.	.
+.	.	.	4g-~	.
+.	20%3b-X	.	.	.
+.	20%3e-	.	.	.
+.	.	.	4g-~	.
+.	20%3B-<J)	.	.	.
+=3	=3	=3	=3	=3
+!	!LO:N:vis=5%3.	!	!	!
+2.E-] 2.B-yy	(20%3B-<L	.	4g-X~	.
+.	20%3e-X	.	.	.
+.	.	.	4g-~	.
+.	20%3b-X	.	.	.
+.	20%3e-	.	.	.
+.	.	.	4g-~)	.
+.	20%3B-<J)	.	.	.
+=4	=4	=4	=4	=4
+!	!	!	!LO:TX:t=P:problem: glissando from g- to a-	!
+!	!LO:N:vis=5%3.	!	!LO:TX:t=[gliss.----]	!
+[2.E- 2.B-yy	(20%3B-<~L	.	(>4.g-XHi	<
+.	20%3e-X	<	.	.
+.	20%3b-X	.	.	.
+.	.	.	(8qqgn/	.
+!	!	!	!LO:TX:t=P:problem: glissando from a- to g-	!
+!	!	!	!LO:TX:t=[gliss.--------]	!
+.	.	.	4.a-hX~)	[
+.	20%3e-	.	.	.
+!	!	!	!LO:TX:t=P:problem: partial hairpin	!
+.	.	.	.	>
+.	20%3B-<J)	[	.	]]
 =	=	=	=	=
 *-	*-	*-	*-	*-
-!!!system-decoration: s1[({(s2,s3)})]
+!!!system-decoration: s1,{(s2,s3)}
+!!!RDF**kern: < = below
+!!!RDF**kern: > = above
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED:Jason Lee
+!!!EEV:2021/10/15
