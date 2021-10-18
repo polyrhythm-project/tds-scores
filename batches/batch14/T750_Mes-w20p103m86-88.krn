@@ -1,6 +1,7 @@
 !!!COM: Olivier (Eugène Prosper Charles) Messiaen
 !!!OTL: [T750_Mes-20/103/86-88]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:A/B
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*	*
@@ -12,11 +13,11 @@
 *M2/4	*M2/4	*
 =1	=1	=1
 *^	*	*
-!	!	!LO:TX:t=[eighth]=138	!
-!	!	!LO:TX:b:t=[f]	!
-8e#XL 8f-X 8g#X	4Gn 4B-X 4c	((8fL 8b))	f
-.	.	(8qdd/	f
-[8e#J [8f- [8g#	.	16een'L)	.
+!	!	!LO:TX:t=[[eighth]=138]	!
+!	!	!LO:TX:t=P:problem:Hanging slur not implemented yet	!
+8e#XL 8f-X 8g#X	4Gn 4B-X 4c	8fL 8b)	f
+.	.	(8qdd/	.
+[8e#J [8f- [8g#	.	16een'L)	f
 .	.	(8qdd/	.
 .	.	16ee'JJ)	.
 16e#KL] 16f-] 16g#]	8GL 8B- 8c	8ccc#X^L	.
