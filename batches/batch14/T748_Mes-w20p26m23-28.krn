@@ -1,6 +1,7 @@
 !!!COM: Olivier (Eugène Prosper Charles) Messiaen
 !!!OTL: [T748_Mes-20/26/23-28]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:B	*grp:B	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
 *I"Piano	*	*	*I"P1	*
@@ -13,9 +14,10 @@
 *8ba	*	*	*	*
 =1	=1	=1	=1	=1
 *	*	*	*^	*
-!	!	!	!LO:TX:t=[eighth]=160	!	!
-!	!LO:TX:t=[eighth]=160	!	!LO:TX:b:i:t=marcato	!	!
+!	!	!	!LO:TX:t=[[eighth]=160]	!	!
+!	!LO:TX:t=[[eighth]=160]	!	!LO:TX:b:i:t=marcato	!	!
 !	!LO:TX:a:i:t=stacc.	!	!LO:TX:a:t=(Sujet, canon à 3 voix)	!	!
+!	!	!	!	!	!LO:DY:a
 16FFFn'LL 16BBB 16EE	2r	mf	4dd#X	4r	f
 16GGG' 16CC 16EE-X	.	.	.	.	.
 16CCC#X' 16EEEn 16GGG#X	.	.	.	.	.
@@ -26,8 +28,9 @@
 16GGG'JJ 16CC 16EE-X	.	.	.	.	.
 =2	=2	=2	=2	=2	=2
 !	!LO:TX:b:i:t=m.dr.	!	!	!	!
-!	!LO:TX:a:t=f marcato	!	!	!	!
-16CCC#X'LL 16EEEn 16GGG#X	4dn	.	4dd#X	4g#X	.
+!	!LO:TX:a:t=marcato	!	!	!	!
+!	!	!LO:DY:a	!	!	!
+16CCC#X'LL 16EEEn 16GGG#X	4dn	f	4dd#X	4g#X	.
 16DDD' 16EEE-X 16GGGn	.	.	.	.	.
 16BBBB' 16EEEn 16AAAn	.	.	.	.	.
 16AAA-X'JJ 16CCn 16DD	.	.	.	.	.
@@ -72,8 +75,8 @@
 16FFFn'LL 16AAA-X 16CCn	16fKL]	.	[4bb	4an	.
 16FFF#X' 16GGGn 16BBB	8.eJ	.	.	.	.
 16DDD#X' 16GGG#X 16CC#X	.	.	.	.	.
-*X8ba	*	*	*	*	*
 16CCn'JJ 16EE 16FF#X	.	.	.	.	.
+*X8ba	*	*	*	*	*
 *	*	*	*v	*v	*
 =||	=||	=||	=||	=||
 *-	*-	*-	*-	*-
