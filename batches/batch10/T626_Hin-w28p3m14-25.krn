@@ -13,8 +13,8 @@
 *C:	*C:	*
 *	*	*
 !	!LO:TX:t=[[eighth]=170]	!
-16DLL	16f	p
-16C#X	(8cL	.
+16DLL)j	16f	p
+16C#X	(8cniL	.
 16D	.	.
 !	!LO:TX:b:i:t=cresc.	!
 16AAJJ	16c-X^Jk 16d-X)	.
@@ -51,7 +51,7 @@
 .	16r	.
 =1	=1	=1
 *M5/16	*M5/16	*
-!	!LO:TX:t=P:problem:all time signatures are inside parentheses	!
+!LO:TX:t=P:problem:all time signatures are inside parentheses	!LO:TX:t=P:problem:all time signatures are inside parentheses	!
 16ALL	(16ccKL	.
 16G#X	8dd	.
 16A	.	.
@@ -60,9 +60,9 @@
 =2	=2	=2
 8r	(16ff^LL	f
 .	16ee	.
-16E-XLL	16ff	.
+(16E-XLL	16ff	.
 16D-XJJ	16ccJJ	.
-8E-	16ffLL	.
+8E-)	16ffLL	.
 .	16bb-X	.
 16AA'^LL	16aa-X	.
 16GG'^	16bb-JJ	.
@@ -70,21 +70,23 @@
 16EE'^J	16ff	.
 8DD'^J	16gg	.
 .	16ee-XJJ	.
+=-	=-	=-
 *M3/16	*M3/16	*
 16r	16cccLL	.
-16AA-XLL	16gg	.
+(16AA-XLL	16gg	.
 16GG-XJJ	16aanJJ)	.
 =3	=3	=3
-8FF^	(16ff^LL	<
+8FF^)	(16ff^LL	<
 .	16ee	.
-16E-XLL	16ff	.
+(16E-XLL	16ff	.
 16D-XJ	16ccJJ	.
-8E-J	16ffLL	.
+8E-J)	16ffLL	.
 .	16bb-X	.
 16AAn'^LL	16aa-X	.
-16GG'^	16bb-JJ	.
+16GG'^JJ	16bb-JJ	.
+=-	=-	=-
 *M3/8	*M3/8	*
-16FF'^	16ggLL	.
+16FF'^LL	16ggLL	.
 16EE'^JJ	16ff	.
 8DD'^L	16gg	.
 .	16ee-X	.
@@ -117,19 +119,21 @@
 *	*clefF4	*
 =6	=6	=6
 *M11/16	*	*
+!LO:TX:t=P:problem:cross-bar beaming to be implemented	!	!
 16r	(16c#X^LL	p
 !LO:TX:a:B:t=(quasi 3/16)	!	!
-8CCnL	16B#X	.
+(8CCnL	16B#X	.
 .	16c#	.
 16DDJk	16G#XJJ	.
 8EE-XL	16c#LL	.
 .	16f#X	.
 16FFJk	16e	.
 8GGL	16f#JJ	.
+=-	=-	=-
 *	*M3/16	*
 .	16d#XLL	.
-16EE-XJk	16g#X	.
-[16CCLL	16BnJJ)	.
+16EE-XJk)	16g#X	.
+([16CCLL	16BnJJ)	.
 =7	=7	=7
 *M13/16	*	*
 16CC]	(16c#X^LL	.
@@ -139,22 +143,26 @@
 16FFJk	16c#LL	.
 8GGL	16f#X	.
 .	16e	.
-16EE-XJk	16f#JJ	.
+16EE-XJk)	16f#JJ	.
+=-	=-	=-
 *	*M5/16	*
-8CC-XL 8AA-X	16d#XLL	.
+(8CC-XL 8AA-X	16d#XLL	.
 .	16g#X	.
 16BBB-XJk 16GG	16Bn	.
 8AAA-XL 8FF	16c#X	.
 .	16AJJ	.
 =8	=8	=8
 *M7/16	*M7/16	*
-16BB-XJk	16BLL	<
+16BB-XJk	16BniLL	<
 8DD-XL 8GG	16A	.
 .	16B	.
 16AA-XJk	16G	[ >
 16FFLL	16d	.
 16GG-X	16A	.
-16DD-XJJ	16BJJ)	]
+16DD-XJJ)	16BJJ)	]
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!Xfilter: slurcheck
+!!!RDF**kern: i = editorial accidental, parentheses
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
