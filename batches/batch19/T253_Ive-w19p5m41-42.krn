@@ -1,55 +1,61 @@
 !!!COM: Charles Ives
 !!!OTL: [T253_Ive-w19p5m41-42]
-**kern	**kern	**kern
-*part2	*part2	*part1
-*staff3	*staff2	*staff1
-*I"Piano	*	*I"Violin
-*I'Pno.	*	*I'Vln.
-!!pagebreak:original
-*clefF4	*clefG2	*clefG2
-*k[]	*k[]	*k[]
-*C:	*C:	*C:
-*M4/4	*M4/4	*M4/4
-=1	=1	=1
-*	*	*tremolo
-!	!	!LO:TX:t=[quarter]=150
-!	!LO:TX:b:t=[ff]	!LO:TX:b:t=[ff]
-8GG 8G	8g	(16B^LL
-.	.	16B^
-4FF#X 4F#X	4f#X	16A
-.	.	16A
-.	.	16B
-.	.	16B)
-4FFn 4Fn	4fn	(16c#X^
-.	.	16c#X^JJ
-.	.	16BLL
-.	.	16B
-8EE 8E	8e	16c#
-.	.	16c#)
-4CCn 4Cn	4cn	(16d#X^
-.	.	16d#X^
-.	.	16c#
-.	.	16c#)JJ
-=2	=2	=2
-*	*^	*
-4BBB^ 4BB	4B	4ryy	(16e^LL
-.	.	.	16e^
-.	.	.	16dn
-.	.	.	16dn
-4FF#X 4F#X	4g^	4f#X	16e
-.	.	.	16e)
-.	.	.	(16f#X^
-.	.	.	16f#X^JJ
-4FFn 4Fn	2dd^	4fn	16gLL
-.	.	.	16g
-.	.	.	16f#
-.	.	.	16f#)
-4Cn 4cn	.	4ccn	(16g^^
-.	.	.	16g^^
-.	.	.	16a#X
-.	.	.	16a#X)JJ
-*	*	*	*Xtremolo
-*	*v	*v	*
-=	=	=
-*-	*-	*-
+**kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*	*grp:B	*
+*part2	*part2	*part2	*part1	*part1
+*staff3	*staff2	*	*staff1	*
+*I"Piano	*	*	*I"Violin	*
+*I'Pno.	*	*	*I'Vln.	*
+*clefF4	*clefG2	*	*clefG2	*
+*k[]	*k[]	*	*k[]	*
+*C:	*C:	*	*C:	*
+*M4/4	*M4/4	*	*M4/4	*
+*met(c)	*met(c)	*	*met(c)	*
+=1	=1	=1	=1	=1
+*	*	*	*tremolo	*
+!	!LO:TX:B:t=[Allegro Vivace]	!LO:DY:t=[ %s ]	!LO:TX:B:t=[Allegro Vivace]	!LO:DY:t=[ %s ]
+!	!	!	!LO:TX:t=P:problem:slurs over tremolos not rendering 	!
+!LO:T:n=2:a	!LO:T:a	!	!	!
+8GG] 8G]	8g]	ff	(16B^>LL	ff
+.	.	.	16B^	.
+4FF#X 4F#X	4f#X	.	16A	.
+.	.	.	16A	.
+.	.	.	16B	.
+.	.	.	16B)	.
+4FFn 4Fn	4fn	.	(16c#X^>	.
+.	.	.	16c#X^JJ	.
+.	.	.	16BLL	.
+.	.	.	16B	.
+8EE 8E	8e	.	16c#	.
+.	.	.	16c#)	.
+4CCn 4Cn	4cn	.	(16d#X^>	.
+.	.	.	16d#X^	.
+.	.	.	16c#	.
+.	.	.	16c#)JJ	.
+=2	=2	=2	=2	=2
+*	*^	*	*	*
+4BBB^> 4BB	4B	4ryy	.	(16e^>LL	.
+.	.	.	.	16e^	.
+.	.	.	.	16dn	.
+.	.	.	.	16dn	.
+4FF#X 4F#X	4g^	4f#X	.	16e	.
+.	.	.	.	16e)	.
+.	.	.	.	(16f#X^>	.
+.	.	.	.	16f#X^JJ	.
+4FFn 4Fn	2dd^	4fn	.	16g#LL	.
+.	.	.	.	16g#	.
+.	.	.	.	16f#X	.
+.	.	.	.	16f#)	.
+4Cn 4cn	.	4ccn	.	(16g#^^	.
+.	.	.	.	16g#^^	.
+.	.	.	.	16a#X	.
+.	.	.	.	16a#X)JJ	.
+*	*	*	*	*Xtremolo	*
+*	*v	*v	*	*	*
+=	=	=	=	=
+*-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: < = below
+!!!RDF**kern: > = above
+!!!EED:Jason Lee
+!!!EEV:2021/10/26
