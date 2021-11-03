@@ -1,20 +1,19 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T477_Mau-w83b3p12m44-48i]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*	*
 *I'Pno.	*	*
-!!pagebreak:original
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
 *M2/4	*M2/4	*
 =1	=1	=1
-!	!LO:TX:t=[quarter]=140	!
-!	!LO:TX:b:i:t=]	!
-!	!LO:TX:b:i:t=[poco	!
-4A~ 4c 4f	(4ff 4aa)	f
+!!LO:TX:B:t=[Poco vivo]
+!	!	!LO:DY:t=[poco %s ]
+4A~ 4c 4f)j	4ff 4aa)j	f
 4A~ 4d 4f	4dd~ 4ff	.
 =2	=2	=2
 4G~ 4c#X 4e	(8ee 8gg	.
@@ -33,7 +32,11 @@
 4G~ 4B-X 4e	8dd] 8ff])	>
 .	4cc#X 4ee	.
 [4A [4c#X [4e	.	.
-.	(8a	]
+.	(8ai	]
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!EED:Jason Lee
+!!!EEV:2021/11/02
