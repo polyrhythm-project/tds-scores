@@ -1,33 +1,33 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T466_Mau-w61p2m5-1h5m1]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
-*staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Violoncello	*
-*I'Pno.	*	*	*I'Vc.	*
-!!pagebreak:original
+*staff3	*staff2	*staff2/3	*staff1	*
+*I"Piano	*I"Piano	*	*I"Violoncello	*
+*I'Pno.	*I'Pno.	*	*I'Vc.	*
 *clefF4	*clefG2	*	*clefF4	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
 *M3/8	*M3/8	*	*M3/8	*
-=1	=1	=1	=1	=1
-!	!	!	!LO:TX:t=[quarter-dot]=51	!
-!	!	!	!LO:TX:a:i:t=46	!
-!	!LO:TX:b:t=[poco f]	!	!LO:TX:b:t=[mp]	!
-16r	16r	.	4d#X	.
+=46	=46	=46	=46	=46
+!!LO:TX:t=[[quarter-dot]=51]
+!	!	!LO:DY:ed=brack	!	!
+!	!	!LO:DY:t= poco %s	!	!LO:DY:ed=brack
+16r	16r	f	4d#X)	mp
 16EE'KL	16g'KL	.	.	.
 16BB'K 16G	16dd#X'K 16bb	.	.	.
 16r	16r	.	.	.
 16EE'L	16g'L	.	((8c 8e	.
 16BB'JJ 16G	16ee'JJ 16bb	.	.	.
-=2	=2	=2	=2	=2
+=47	=47	=47	=47	=47
 16r	16r	.	4B 4d#X))	<
 16EE'KL	16g'KL	.	.	.
 16BB'K 16G	16dd#X'K 16bb	.	.	.
 16r	16r	.	.	.
 16EE'L	16g'L	.	8B-Xv 8g	mf [
 16C'JJ 16G	16ddn'JJ 16bb-X	.	.	.
-=3	=3	=3	=3	=3
+=48	=48	=48	=48	=48
 16r	16r	.	4Gu 4e	.
 16EE'KL	16g'KL	.	.	.
 16BB'K 16G	16ee'K 16bbn	.	.	.
@@ -35,29 +35,31 @@
 *	*	*	*clefG2	*
 16EE'L	16g'L	.	8bn	< [
 16BB'JJ 16G	16ee'JJ 16bb	.	.	.
-=4	=4	=4	=4	=4
+=49	=49	=49	=49	=49
 16r	16r	.	(8b-XuL	.
 16EE'KL	16g'KL	.	.	.
 16BB-X'K 16G	16ee-X'K 16bb-X	.	8e-X)	.
 16r	16r	.	.	.
 16EE'L	16b-X'L	.	8B-XvJ 8g	.
 16C'JJ 16G	16dd'JJ 16bb-	.	.	.
-=5	=5	=5	=5	=5
+=50	=50	=50	=50	=50
 16r	16r	.	4Gu 4en	.
 16EE'KL	16bn'KL	.	.	.
 16BB'K 16G	16ee'K 16bbn	.	.	.
 16r	16r	.	.	.
 16EE'L	16b'L	.	8bn	.
 16BB'JJ 16G	16ee'JJ 16bb	.	.	.
-=6	=6	=6	=6	=6
-!	!	!	!LO:TX:a:B:t=5	!
+!!LO:REH:t=5
+=51	=51	=51	=51	=51
 16r	16r	.	(8b-XL	<
 16EE'KL	16b-X'KL	<	.	.
 *	*	*	*clefF4	*
-16BB-X'K 16G	16dd'K 16bb-X	.	8d#X)	.
+16BB-X'K 16G	16dd'K 16bb-X	.	8dnX)	.
 16r	16r	.	.	.
 16EE'L	16g'L	.	8A#XJ 8f#X	[
 16BB-X'JJ 16G-X	16dd-X'JJ 16bb-	[	.	.
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!EED: Daniel Wright
+!!!EEV: 2021/11/04
