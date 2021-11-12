@@ -1,86 +1,91 @@
 !!!COM: Alban (Maria Johannes) Berg
 !!!OTL: [T449_Ber-w13p24m130-142]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*	*grp:A	*	*grp:B	*	*grp:B	*
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
 *I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*
 *M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*
+!!LO:REH:t=130
 =1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:b:t=[f]	!	!LO:TX:b:t=[p]	!	!LO:TX:b:t=[f]	!	!LO:TX:t=[quarter-dot]=69	!
-8Bn'L	.	8cL 8cc	.	(16bb-XLL	.	8%3r	.
+!	!LO:DY:t=[ %s ]	!LO:T:n=1:b	!LO:DY:t=[ %s ]	!	!LO:DY:t=[ %s ]	!LO:TX:t=[accel.]	!
+8Bn'L	f	8cZL] 8ccZ]	p	(16bb-XLL	f	8%3r	.
 .	.	.	.	16gg-XJJ)	.	.	.
-.	.	(8qCn/	f	.	.	.	.
-(16AnL	.	8cn'^ 8ccn)	.	16r	.	.	.
-!	!	!	!	!LO:TX:b:i:t=meno	!	!	!
-16gnJ	.	.	.	(16dd-XLL 16ddd-X	f	.	.
-8e-XJ)	.	[8c~J [8cc	fp	16ffn 16bb-X	.	.	.
+!	!	!LO:S:a	!	!	!	!	!
+.	.	(8qCn/	.	.	.	.	.
+(16AnL	.	8cn'^ 8ccn)	f	16r	.	.	.
+!	!	!	!	!LO:TX:t=P:problem:optional pitches should be in parentheses	!LO:DY:t=meno %s	!LO:TX:a:t=mit Dpf.	!
+16gnJ	.	.	.	(16dd-NXLL 16ddd-X	f	.	.
+8e-XJ)	.	[8c~J [8cc	fp	16ffnN 16bb-X	.	.	.
 .	.	.	.	16aa-X	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2
-!	!	!	!	!	!	!LO:TX:t=[quarter-dot]=69	!
-!	!	!	!	!	!	!LO:TX:b:i:t=, aber hörbar und immer mehr durchdringen	!
-!	!	!	!	!	!	!LO:TX:b:i:t=quasi	!
-!LO:TX:b:i:t=meno	!	!	!	!	!	!LO:TX:a:t=mit Dpf.	!
+*neben	*	*	*	*	*	*haupt	*
+!	!	!	!	!	!	!LO:TX:t=Dreitaktig	!
+!	!LO:DY:t=meno %s	!	!	!	!	!LO:TX:t=Tempo [quarter-dot]=ca 69]	!LO:DY:t= quasi %s , aber hörbar und immer mehr durchdringen
 8Bn'L	f	8c] 8cc]	.	16bb-X	.	(4.fffn	p <
 .	.	.	.	16gg-XJJ)	.	.	.
 (16AnL	.	8r	.	16r	.	.	.
 16gnJ	.	.	.	(16ddd-XLL	.	.	.
-.	.	(8qCn/	f	.	.	.	.
-8e-XJ)	.	8cn'^ 8ccn)	.	16bb-X	.	.	.
+!	!	!LO:S:a	!	!	!	!	!
+.	.	(8qCn/	.	.	.	.	.
+8e-XJ)	.	8cn'^ 8ccn)	f	16bb-X	.	.	.
 .	.	.	.	16aa-X	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3
-8Bn'L	.	4cn~ 4ccn	fp	16bb-X	.	[4.eeen	[ >
+8Bn'L	.	4cn~ 4ccn	fp	16bb-X	.	[4.eeen	.
 .	.	.	.	16gg-XJJ)	.	.	.
-(16AnL	.	.	.	16r	.	.	.
+(16AnL	.	.	.	16r	.	.	[ >
 16gnJ	.	.	.	(16ddd-XLL	.	.	.
 8e-XJ)	.	8r	.	16bb-X	.	.	.
 .	.	.	.	16aa-X	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4
-.	.	(8qCn/	f	.	.	.	.
-(16AnLL	.	8cn'^ 8ccn)	.	16bb-X	.	8.eeeL])	]
+!	!	!LO:S:a	!	!	!	!	!
+.	.	(8qCn/	.	.	.	.	.
+(16AnLL	.	8cn'^ 8ccn)	f	16bb-X	.	8.eeeL])	]
 16gnJ	.	.	.	16gg-XJJ)	.	.	.
 8e-XJ)	.	4cn~ 4ccn	fp	16r	.	.	.
 .	.	.	.	(16ddd-XLL	.	(8.gggnJ	<
-!LO:TX:b:i:t=poco	!	!	!	!	!	!	!
+!	!LO:DY:t=poco %s	!	!	!	!	!	!
 (16BnLL	f	.	.	16bb-X	.	.	.
 16anJ	.	.	.	16aa-X	.	.	.
 =5	=5	=5	=5	=5	=5	=5	=5
-8fnJ)	.	8r	.	16bb-X	.	4.eeen	[
+8fnJ)	.	8r	.	16bb-X	.	4.eeen	.
 .	.	.	.	16gg-XJJ)	.	.	.
-!LO:TX:b:i:t=meno	!	!	!	!	!	!	!
-.	.	(8qCn/	f	.	.	.	.
-(16BnLL	f	8cn'^L 8ccn)	.	16r	.	.	.
+!	!	!LO:S:a	!	!	!	!	!
+.	.	(8qCn/	.	.	.	.	.
+!	!LO:DY:t=meno %s	!	!	!	!	!	!
+(16BnLL	f	8cn'^L 8ccn)	f	16r	.	.	.
 16anJ	.	.	.	(16ddd-XLL	.	.	.
 8fnJ)	.	[8c~J [8cc	fp	16bb-X	.	.	.
-.	.	.	.	16aa-X	.	.	.
+.	.	.	.	16aa-X	.	.	[
 =6	=6	=6	=6	=6	=6	=6	=6
-8r	.	8c] 8cc]	.	16bb-X	.	[4.ccc#X	>
-.	.	.	.	16gg-XJJ)	.	.	.
+8r	.	8c] 8cc]	.	16bb-X	.	[4.ccc#X	.
+.	.	.	.	16gg-XJJ)	.	.	>
 (16BnLL	.	8r	.	16r	.	.	.
-!	!	!	!	!LO:TX:b:i:t=poco	!	!	!
+!	!	!	!	!	!LO:DY:t=poco %s	!	!
 16anJ	.	.	.	(16ggnLL	f	.	.
-!	!	!LO:TX:b:i:t=(aber 1.Gg. durchiassen)	!	!	!	!	!
+!	!	!	!LO:DY:t=%s (aber 1.Gg. durchlassen)	!	!	!	!
 8fnJ)	.	8cn'^L 8ccn	f	16ee-X	.	.	.
 .	.	.	.	16ddn	.	.	.
 !!linebreak:original
 =7	=7	=7	=7	=7	=7	=7	=7
-8r	.	(16cnL	.	16ee-X	.	4.ccc#])	]
+8r	.	(16cnL	.	16ee-X	.	4.ccc#])	.
 .	.	16c#XJ	.	16cc-XJJ)	.	.	.
-!LO:TX:b:i:t=poco	!	!	!	!	!	!	!
+!	!LO:DY:t=poco %s	!	!	!	!	!	!
 (16B-XLL	f	8e#XJ)	.	16r	.	.	.
-!	!	!	!	!LO:TX:b:i:t=meno	!	!	!
+!	!	!	!	!	!LO:DY:t=meno %s	!	!
 16a-XJ	.	.	.	(16ggnLL	f	.	.
-8f-XJ)	.	16r	.	16ee-X	.	.	.
-.	.	[16f#X'^LL	.	16ddn	.	.	.
+8f-XJ)	.	16r	.	16ee-X	.	.	]
+!	!	!LO:N:vis=8	!	!	!	!	!
+.	.	16f#X'^LL	.	16ddn	.	.	.
 =8	=8	=8	=8	=8	=8	=8	=8
-8r	.	16f#]	.	16ee-X	.	(4.eeen	f <
+8r	.	16f#yy	.	16ee-X	.	(4.eeen	f <
 .	.	(16f#X	.	16cc-XJJ)	.	.	.
 (16AnLL	.	16gnJ	.	16r	.	.	.
-!	!	!	!	!LO:TX:b:i:t=poco	!	!	!
+!	!	!	!	!	!LO:DY:t=poco %s	!	!
 16gnJ	.	8bnJ)	.	(16ff#XLL	f	.	.
 8e-XJ)	.	.	.	16ddn	.	.	.
 .	.	16r	.	16cc#X	.	.	.
@@ -89,24 +94,24 @@
 !LO:TX:a:i:t=sempre più legato	!	!	!	!	!	!	!
 8r	.	8ccn'^L	.	16ddn	.	8.fffnL	.
 .	.	.	.	16b-XJJ)	.	.	.
-!LO:TX:b:i:t=meno	!	!	!	!	!	!	!
+!	!LO:DY:t=meno %s	!	!	!	!	!	!
 (16AnLL	f	(16ccnL	.	16r	.	.	.
-!	!	!	!	!LO:TX:b:i:t=meno	!	!	!
+!	!	!	!	!	!LO:DY:t=meno %s	!	!
 16gnJ	.	16cc#XJ	.	(16ff#XLL	f	8.eeen	.
 [8e-X	.	8ff#XJ)	.	16ddn	.	.	.
 .	.	.	.	16cc#X	.	.	.
 =10	=10	=10	=10	=10	=10	=10	=10
 16e-Jk])	.	8cccn'^	.	16ddn	.	8.ccc#X	.
 16r	.	.	.	16b-XJJ)	.	.	.
-!LO:TX:b:i:t=dimin.	!	!	!	!	!	!	!
-(16EnLL	.	4cccn~	fp > ]	8r	.	.	.
+!	!LO:HP:t=dimin.	!	!	!	!	!	!
+(16EnLL	>	4cccn~	fp > ]	8r	.	.	.
 16dnJ	.	.	.	.	.	8.gggnJ)	[
 !	!	!	!	!LO:TX:a:i:t=più a più legato	!	!	!
-!	!	!	!	!LO:TX:b:i:t=diminuemdo	!	!	!
-[8B-X	.	.	.	(16aanLL	.	.	.
+!	!	!	!	!	!LO:HP:t=diminuendo	!	!
+[8B-X	.	.	.	(16aanLL	>	.	.
 .	.	.	.	16ffn	.	.	.
 =11	=11	=11	=11	=11	=11	=11	=11
-16B-Jk])	.	8r	.	16een	.	([4.aa-X	>
+16B-Jk])	.	8r	.	16een	.	([4.aa-Xi	>
 16r	.	.	.	16ffnJ	.	.	.
 (16C#XLL	.	8ccn'^L	f	8ddnJ)	.	.	.
 16BnJ	.	.	.	.	.	.	.
@@ -120,11 +125,16 @@
 (16C#XLL	.	8cn'^	f	.	.	.	.
 16BnJJ	.	.	.	16r	.	.	.
 =13	=13	=13	=13	=13	=13	=13	=13
-4Gn)	.	[4cn~	fp >	8r	.	4.aa-_)	]
+4Gn)	.	[4cn~	fp >	8r	.	4.aa-_	.
 .	.	.	.	(16g-XLL	.	.	.
 .	.	.	.	16anJ	.	.	.
-16r	.	8r	]	[8fnJ)	.	.	.
-[16D-X	.	.	.	.	.	.	.
+16r	.	8r	.	[8fnJ)	.	.	.
+(16D-Xi	.	.	]]	.	.	.	]]
 =||	=||	=||	=||	=||	=||	=||	=||
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+!!!RDF**kern: N = cue size, color="grey" optional pitch
+!!!RDF**kern: Z = editorial accidental, parentheses
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED:Jason Lee
+!!!EEV:2021/11/12
