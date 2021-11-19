@@ -1,6 +1,7 @@
 !!!COM: Alban (Maria Johannes) Berg
 !!!OTL: [T450_Ber-w13p33-34m45-61]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
@@ -11,8 +12,9 @@
 *C:	*	*C:	*	*C:	*	*C:	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:b:t=[pp]	!	!LO:TX:b:t=[pp]	!	!LO:TX:b:t=[pp]	!	!LO:TX:t=[quarter]=150	!
-(16AAnLL	<	(16d-XLL	<	16a-XLL	< [	4%3r	.
+!LO:TX:t=P:problem:Hanging slur not implemented yet	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:t=P:problem:Hanging slur not implemented yet	!LO:DY:ed=brack	!LO:TX:t=[quarter]=150	!
+!	!	!LO:TX:t=P:problem:Hanging slur not implemented yet	!	!	!	!	!
+16AAnLL	pp <	16d-XLL	pp <	16a-XLL)	pp < [	4%3r	.
 16FFn	[ >	16e-XJJ)	.	(16f#X	>	.	.
 16BBn)	.	(16enLL	[	16gn	.	.	.
 (16AAnJJ	.	16cnJ	>	16a-XJJ)	.	.	.
@@ -29,28 +31,29 @@
 16G#XL	.	16r	.	8.r	.	16%9r	.
 16Dn	.	16r	.	.	.	.	.
 !	!	!LO:TX:a:t=col legno(gestrich.)	!	!	!	!	!
+!	!	!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!	!	!	!	!
 16C#XJ	.	(16B-XKL	pp	.	.	.	.
 16F#XL	.	16AnL	.	16r	.	.	.
 16Cn	.	16Fn	.	16r	.	.	.
 !	!	!	!	!LO:TX:a:t=col legno(gestrich.)	!	!	!
+!	!	!	!	!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!	!	!
 16GnJ	.	16BnJ	.	(16a-XKL	pp	.	.
 16FnL	.	16cnL	.	16gnL	.	.	.
 16BBn	.	16Gn	.	16e-X	.	.	.
 16BB-XJ	.	16d-XJ	.	16anJ	.	.	.
 !!linebreak:original
 =3	=3	=3	=3	=3	=3	=3	=3
-!	!	!	!	!	!	!LO:TX:a:t=col legno(gestrich.)	!
+!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!	!	!	!	!	!LO:TX:a:t=col legno(gestrich.)	!
 16AAnJk)	.	16G-XL	.	16b-XL	.	(16ffnLL	pp
 !!)
-!LO:TX:b:i:t=(	!	!	!	!	!	!	!
-!LO:TX:a:t=(geschlagen)	!	!	!	!	!	!	!
+!	!LO:DY:t=%s !!!	!	!	!	!	!	!
+!LO:TX:a:t=(geschlagen)	!LO:DY:ed=paren	!	!	!	!	!	!
 16DD#X`LL	ppp	16A-X	.	16fn	.	16een	.
 16EEn`J	.	16dnJ	.	16bnJ	.	16ccnJ	.
 16GG#X`L	.	16e-XL	.	16enL	.	16ff#XL	.
 16DDn`	.	16enJJ)	.	16f#X	.	16ggn	.
 !	!	!LO:TX:a:t=(geschlagen)	!	!	!	!	!
-!	!	!LO:TX:b:t=)	!	!	!	!	!
-!	!	!LO:TX:b:t=(	!	!	!	!	!
+!	!	!	!LO:DY:ed=paren	!	!	!	!
 16CC#X`J	.	16B-X`KL	pp	16ccnJ	.	16ddnJ	.
 16FF#X`L	.	16An`L	.	16dd-XL	.	16aa-XL	.
 16CCn`	.	16Fn`	.	16ddnJJ)	.	16dd-X	.
@@ -59,13 +62,11 @@
 !	!	!	!	!LO:TX:a:t=(geschlag.)	!	!	!
 16GGn`JJ	.	16Bn`J	.	16a-X`KL	pp	16ee-XJJ	.
 =4	=4	=4	=4	=4	=4	=4	=4
-!LO:TX:a:t=(gestrich.)	!	!	!	!	!	!	!
+!LO:TX:a:t=(gestrich.)	!	!	!	!	!	!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!
 (16FnLL	.	16cn`L	.	16gn`L	.	16aanLL	.
 16An	.	16Gn`	.	16e-X`	.	16bb-X	.
 16E-XJ	.	16d-X`JJ	.	16an`JJ	.	16bbnJJ)	.
-!	!	!	!	!	!	!LO:TX:b:i:t=)	!
-!	!	!	!	!	!	!LO:TX:b:i:t=(	!
-!	!	!LO:TX:a:t=(gestrich.)	!	!	!	!LO:TX:a:t=(geschlag.)	!
+!	!	!LO:TX:a:t=(gestrich.)	!	!	!	!LO:TX:a:t=(geschlag.)	!LO:DY:ed=paren
 16DnL	.	(16B-XLL	.	16r	.	16fn`LL	pp
 16Gn	.	16G-X	.	16r	.	16en`JJ	.
 !	!	!	!	!LO:TX:a:t=(gestrich.)	!	!	!
@@ -119,12 +120,12 @@
 !!pagebreak:original
 =9	=9	=9	=9	=9	=9	=9	=9
 *	*	*	*	*^	*	*	*
-!LO:TX:b:i:t=sempre	!	!LO:TX:b:i:t=sempre	!	!LO:TX:b:i:t=sempre	!	!	!LO:TX:b:i:t=sempre	!
+!	!LO:DY:t=sempre %s	!	!LO:DY:t=sempre %s	!	!	!LO:DY:t=sempre %s	!	!LO:DY:t=sempre %s
 16EE-X`L	pp	16B-X`Jk	pp	16ffnL	8.ryy	pp	16aa-XLL	pp
 16BB-X`	.	(16enLL	.	16bn	.	.	16ggn	.
 16AA-X`J	.	16BnJ	.	16a#XJ	.	.	16ee-XJJ)	.
 16DDn`L	.	16fnL	.	16f#XJk)	16ryy	.	8.r	.
-16CC#X`JJ	.	16B-X	.	16ryy	(16ddnLL	.	.	.
+16CC#X`JJ	.	16B-X	.	16ryy	(<16ddnLL	.	.	.
 (16FnKL	.	16cnJ	.	16ryy	16anJ	.	.	.
 16B-XL	.	16f#XL	.	16ryy	16dd#XL	.	(16bbnLL	.
 16En	.	16gn	.	16ryy	16g#X	.	16ff#X	.
@@ -215,3 +216,6 @@
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
