@@ -1,9 +1,10 @@
 !!!COM: Frank Martin
 !!!OTL: [T553_Mai-w19p1m1-9]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:B	*grp:B	*grp:A	*grp:A
 *part3	*part2	*part2	*part1	*part1
-*staff3	*staff2	*	*staff1	*
-*I"Pedals	*I"Man. Organ	*	*I"Flute	*
+*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Pedals	*I"Man. Organ	*I"Man. Organ	*I"Flute	*I"Flute
 *I'Ped.	*I'Org.	*	*I'Fl.	*
 !!pagebreak:original
 *clefF4	*clefG2	*	*clefG2	*
@@ -11,8 +12,7 @@
 *C:	*C:	*	*C:	*
 *M4/4	*M4/4	*	*M4/4	*
 *	*^	*	*	*
-!	!LO:TX:t=[quarter]=80	!	!	!	!
-!	!LO:TX:a:t=8' or 16' très fins	!	!	!LO:TX:t=[quarter]=80	!
+!	!LO:TX:a:t=8' or 16' très fins	!	!	!	!
 4r	(4cc	[4a	p	4r	.
 =1	=1	=1	=1	=1	=1
 !LO:TX:a:t=8'.16'.	!	!	!	!LO:TX:a:i:t=dolce teneramente	!
@@ -30,8 +30,8 @@
 2.G	4ee-X)	4dd-]	.	(8b-X	.
 .	.	.	.	4a)	.
 .	[4ee-	(4dd-X	.	.	.
-.	.	.	.	([8b-	< [ >
-.	4ee-]	4cc)	.	4b-]	]
+.	.	.	.	([8b-N	.
+.	4ee-]	4cc)	.	4b-]	.
 4r	(4ee-	(4cc	.	4a)	.
 =4	=4	=4	=4	=4	=4
 2.F	4aa)	4ddn)	.	(8bn	.
@@ -47,9 +47,9 @@
 .	(4gg	(4ee	.	.	.
 !!linebreak:original
 =6	=6	=6	=6	=6	=6
-2.D]	4ccc#X)	4ee-X)	.	4.bb-]	[
+2.D]	4ccc#X)	4ee-X)	.	4.bb-]	.
 .	(4ccc#	(4ee-	.	.	.
-.	.	.	.	8aa)	.
+.	.	.	.	8aa)	[
 .	4cccn)	4aa)	.	(8ff#X	.
 .	.	.	.	4gg#X	.
 4r	(4ccc	[4aa	.	.	.
@@ -84,3 +84,4 @@
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[(s2,s3)]
+!!!RDF**kern: N = hairpin accent
