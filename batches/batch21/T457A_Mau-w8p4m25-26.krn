@@ -1,6 +1,7 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T457A_Mau-w8p4m25-26]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*	*
@@ -11,23 +12,22 @@
 *E:	*E:	*
 *M3/8	*M3/8	*
 =1	=1	=1
-!	!LO:TX:t=[eighth]=148	!
-!	!LO:TX:b:t=P	!
-!	!LO:TX:b:t=[fff]	!
-8CC#^L 8C#	8cc#L 8ccc#	.
-!	!LO:TX:b:t=[x]	!
+!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!LO:TX:t=[eighth]=148	!
+!LO:TX:b:t=P	!	!LO:DY:ed=brack
+8CC#^L 8C#	8cc#L 8ccc#	fff
+!LO:TX:b:t=[x]	!	!
 8E#XJ 8G# 8c#	16r	.
 .	16aL 16aa	<
-!	!LO:TX:b:t=P	!
+!LO:TX:b:t=P	!	!
 8BBB^L 8BB	16a#X 16aa#X	.
 .	16bJJ 16bb	[
 =2	=2	=2
-!	!LO:TX:b:t=[x]	!
+!LO:TX:b:t=[x]	!	!
 8EJ 8A 8cni	8ccnL 8cccn	.
-!	!LO:TX:b:t=P	!
+!LO:TX:b:t=P	!	!
 8AAA^L 8AA	16r	.
 .	16a#XL 16aa#X	<
-!	!LO:TX:b:t=[x]	!
+!LO:TX:b:t=[x]	!	!
 8F#J 8B 8d#	16b 16bb	.
 .	16b#XJJ 16bb#X	[
 =	=	=
