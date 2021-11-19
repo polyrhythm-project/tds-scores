@@ -1,6 +1,7 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T457B_Mau-w8p4m29-30]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*	*
@@ -11,25 +12,25 @@
 *E:	*E:	*
 *M3/8	*M3/8	*
 =1	=1	=1
-!	!LO:TX:t=[eighth]=160	!
-!	!LO:TX:b:t=[P]	!
-!	!LO:TX:b:t=[ff risoluto]	!
-8AAA-X^L 8AA-X	8ffnL 8fffn	.
-!	!LO:TX:b:t=[x]	!
+!	!LO:TX:t=[eighth]=160	!LO:DY:t=%s risoluto
+!LO:TX:b:t=[P]	!	!LO:DY:ed=brack
+!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!	!
+8AAA-X^L 8AA-X	8ffnL 8fffn	ff
+!LO:TX:b:t=[x]	!	!
 8FnJ 8cn 8fn	16r	.
 .	16ee-XL 16eee-X	.
-!	!LO:TX:b:t=[P]	!
+!LO:TX:b:t=[P]	!	!
 8BBB-X^L 8BB-X	16een 16eeen	.
 .	16ffJJ 16fff	.
 =2	=2	=2
-!	!LO:TX:b:t=[x]	!
+!LO:TX:b:t=[x]	!	!
 8FnJ 8B-X 8d-X	8gg-XL 8ggg-X	.
-!	!LO:TX:b:t=[P]	!
+!LO:TX:b:t=[P]	!	!
 8GGG-X^L 8GG-X	16r	.
 .	16ffnL 16fffn	.
-!	!LO:TX:b:t=[x]	!
+!LO:TX:b:t=[x]	!	!
 8E-XJ 8B- 8e-X	16gg- 16ggg-	<
-.	16ggnJJ 16gggn	.
+.	16ggnJJ 16gggn	.[
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
