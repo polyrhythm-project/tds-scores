@@ -1,47 +1,51 @@
 !!!COM: Arnold (Franz Walter) Schoenberg [Schönberg]
 !!!OTL: [T220_Sch-w34p157m3i-5]
-**kern	**kern	**dynam	**kern	**text	**dynam
-*part2	*part2	*part2	*part1	*part1	*part1
-*staff3	*staff2	*	*staff1	*staff1	*
-*I"Piano	*	*	*I"Soprano Solo	*	*
-*I'Pno.	*	*	*I'S. Solo	*	*
+**kern	**kern		**dynam	**kern	**text	**dynam
+*grp:A	*grp:B		*grp:A	*grp:A	*grp:A	*grp:A
+*part2	*part2		*part2	*part1	*part1	*part1
+*staff3	*staff2		*staff2	*staff1	*staff1	*staff1
+*I"Piano	*I"Piano		*I"Piano	*I"Soprano Solo	*I"Soprano Solo	*I"Soprano Solo
+*I'Pno.	*		*	*I'S. Solo	*	*
 !!pagebreak:original
-*clefF4	*clefG2	*	*clefG2	*	*
-*k[]	*k[]	*	*k[]	*	*
-*C:	*C:	*	*C:	*	*
-*M4/4	*M4/4	*	*M4/4	*	*
-=1	=1	=1	=1	=1	=1
-!	!LO:TX:b:t=[p]	!	!LO:TX:t=[quarter]=60	!	!
-4FF#X 4BBn	(8GL 8d-X	<	2r	.	.
-.	[8A-XJ [8gn	.	.	.	.
-2Cn~ 2Fn	2A-] 2g])	[ >	.	.	.
-.	.	.	4r	.	.
-4r	4r	]	8r	.	.
-.	.	.	8dn	Ist	p
-=2	=2	=2	=2	=2	=2
-*M3/4	*M3/4	*	*M3/4	*	*
-*	*^	*	*	*	*
+*clefF4	*clefG2		*	*clefG2	*	*
+*k[]	*k[]		*	*k[]	*	*
+*C:	*C:		*	*C:	*	*
+*M4/4	*M4/4		*	*M4/4	*	*
+=1	=1		=1	=1	=1	=1
+!	!		!LO:DY:ed=brack	!	!	!
+4FF#X 4BBn	(8GL 8d-X		p <	2r	.	.
+.	[8A-XJ [8gn		.	.	.	.
+2Cn~ 2Fn	2A-] 2g])		[ >	.	.	.
+.	.		.	4r	.	.
+4r	4r		]	8r	.	.
+.	.		.	8dn	Ist	p
+=2	=2		=2	=2	=2	=2
+*M3/4	*M3/4		*	*M3/4	*	*
+*	*^		*	*	*	*
 8EEnL 8BB-X	(2fn	(4.cn	.	8e-XL	al-	.
 8A-X	.	.	.	8anJ	-les	.
-8.Gn	.	.	< >	2cc#X	eins,	.
+8.GnN	.	.	.	2cc#X	eins,	.
 .	.	4.Bn)	.	.	.	.
-16EEnk 16BB-X	.	.	] ]	.	.	.
-8A-X	[4g-X	.	< [ >	.	.	.
-8GnJ	.	.	]	.	.	.
+16EEnk 16BB-X	.	.	.	.	.	.
+!LO:TX:b:t=>	!	!	!LO:HP:a	!	!	!
+8A-X	[4g-X	.	< [	.	.	.
+8GnJ	.	.	.	.	.	.
 *	*v	*v	*	*	*	*
-=3	=3	=3	=3	=3	=3
-*M4/4	*M4/4	*	*M4/4	*	*
-*	*^	*	*	*	*
-8CC#XL	2g-]	(4Bn	> <	8r	.	.
-8AAn	.	.	.	8b-XL	was	.
-8E-X	.	4.cn)	] > ]	8.en	liegt	.
-8dnJ	.	.	<	.	.	.
+=3	=3		=3	=3	=3	=3
+*M4/4	*M4/4		*	*M4/4	*	*
+*	*^		*	*	*	*
+!	!	!	!LO:HP:a	!	!	!
+(8CC#XL	2g-]	(4Bn	> ]	8r	.	.
+8AAn	.	.	< [	8b-XL	was	.
+8E-X)	.	4.cn)	> ]	8.en	liegt	.
+(8dnJN	.	.	.	.	.	.
 .	.	.	.	16g#XJk	da-	.
-8C#XL	2fn)	.	] ] > ]	2gn	-ran!	.
-8An	.	(8Bn	<	.	.	.
-8EE-X	.	4cn)	] > ]	.	.	.
-8DnJ	.	.	.	.	.	.
+8C#XL	2fn)	.	.	2gn	-ran!	.
+8An)	.	(8Bn	< [	.	.	.
+(8EE-X	.	4cn)	> ]	.	.	.
+8DnJ)	.	.	.	.	.	.
 *	*v	*v	*	*	*	*
-=	=	=	=	=	=
-*-	*-	*-	*-	*-	*-
+=	=		=	=	=	=
+*-	*-		*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: N = hairpin accent
