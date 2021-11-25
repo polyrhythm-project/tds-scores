@@ -1,9 +1,10 @@
 !!!COM: Arnold (Franz Walter) Schoenberg [Schönberg]
 !!!OTL: [T221_Sch-w34p160m10-11]
 **kern	**kern	**dynam	**kern	**text	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1	*part1
-*staff3	*staff2	*	*staff1	*staff1	*
-*I"Piano	*	*	*I"Voice	*	*
+*staff3	*staff2	*staff2	*staff1	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano	*I"Voice	*I"Voice	*I"Voice
 *I'Pno.	*	*	*I'S. Solo	*	*
 !!pagebreak:original
 *clefF4	*clefF4	*	*clefG2	*	*
@@ -11,9 +12,8 @@
 *C:	*C:	*	*C:	*	*
 *M7/8	*M7/8	*	*M7/8	*	*
 =1	=1	=1	=1	=1	=1
-!	!	!	!LO:TX:t=[eighth]=198	!	!
-!	!LO:TX:b:t=[p]	!	!LO:TX:a:B:t=a tempo	!	!
-16f	16E 16d	.	16r	.	.
+!	!	!LO:DY:ed=brack	!LO:TX:a:B:t=a tempo	!	!
+16f	16E 16d	p	16r	.	.
 16r	16r	.	16g-XKL	Ich	p
 16r	16r	.	8b-X	weiß	.
 [16CnLL	16EnLL 16dn	p	.	.	.
