@@ -1,41 +1,46 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T478_Mau-w99p6m25-27]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*	*grp:B	*	*grp:A	*	*grp:A	*	*grp:B	*	*grp:B	*	*grp:B	*	*grp:B	*	*grp:B	*
 *part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Clarinet in C	*	*I"Violin II	*	*I"Violin I	*	*I"Bass Recorder	*	*I"Alto Recorder	*	*I"Alto Recorder	*	*I"Soprano Recorder	*	*I"Soprano Recorder	*
 *I'Vc.	*	*I'Cl.	*	*I'Vln. II	*	*I'Vln. I	*	*I'B. Rec.	*	*I'A. Rec.	*	*I'A. Rec.	*	*I'S. Rec.	*	*I'S. Rec.	*
-!!pagebreak:original
-*clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG^2	*
+*clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefF4	*	*clefG2	*	*clefG2	*	*clefG^2	*	*clefG^2	*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*Trd0c0	*	*Trd0c0	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:b:t=[f]	!	!	!	!LO:TX:b:t=[f]	!	!LO:TX:b:t=[f]	!	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=108	!
-8CC 8C	.	4r	.	8g 8ee	.	8cc 8ccc	.	8r	.	8r	.	8r	.	8r	.	8r	.
-8r	.	.	.	8r	.	8r	.	4f~	f	4ff~	f	4ff~	f	4ff~	f	4fff~	f
+!!LO:TX:B:t=[Poco Allegro]
+!LO:T:n=2:a	!LO:DY:t=[ %s ]	!	!	!LO:T:n=1:b	!LO:DY:t=[ %s ]	!LO:T:n=1:b	!LO:DY:t=[ %s ]	!	!	!	!	!	!	!	!	!	!
+8CC] 8C]	f	4r	.	8g] 8ee]	f	8cc] 8ccc]	f	8r	.	8r	.	8r	.	8r	.	8r	.
+8r	.	.	.	8r	.	8r	.	4f~	f	4ff~	f	4ff~	f	4fff~	f	4fff~	f
 4r	.	4r	.	8r	.	8r	.	.	.	.	.	.	.	.	.	.	.
-.	.	.	.	(8cc	f	(8ccc	f	4f~	.	4ff~	.	4ff~	.	4ff~	.	4fff~	.
+.	.	.	.	(8cc	f	(8ccc	f	4f~	.	4ff~	.	4ff~	.	4fff~	.	4fff~	.
 8r	.	8r	.	8ff')	.	8fff')	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-8f^	f	(8dd	f	8r	.	8r	.	8d'	.	8dd'	.	8dd'	.	8dd'	.	8ddd'	.
+*grp:B	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+!LO:TX:a:rj:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+8f^'	f	(8dd	f	8r	.	8r	.	8d'	.	8dd'	.	8dd'	.	8ddd'	.	8ddd'	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-4r^	.	8ff')	.	(8ddL	.	(8dddL	.	4f~	.	4ff~	.	4ff~	.	4ff~	.	4fff~	.
+4r^'	.	8ff')	.	(8ddL	.	(8dddL	.	4f~	.	4ff~	.	4ff~	.	4fff~	.	4fff~	.
 .	.	8r	.	8ff'J)	.	8fff'J)	.	.	.	.	.	.	.	.	.	.	.
-8f^	.	4r	.	8r	.	8r	.	4r	.	4ff~	.	4ff~	.	4ff~	.	4fff~	.
+8f^'	.	4r	.	8r	.	8r	.	4r	.	4ff~	.	4ff~	.	4fff~	.	4fff~	.
 8r	.	.	.	(8cc	.	(8ccc	.	.	.	.	.	.	.	.	.	.	.
-8r	.	(8ccL	.	8ff')	.	8fff')	.	8r	.	8cc'L	.	8cc'L	.	8cc'L	.	8ccc'L	.
-8f^	.	8ff'J)	.	8r	.	8r	.	[8f~	.	[8ff~J	.	[8ff~J	.	[8ff~J	.	[8fff~J	.
+8r	.	(8ccL	.	8ff')	.	8fff')	.	8r	.	8cc'L	.	8cc'L	.	8ccc'L	.	8ccc'L	.
+8f^'	.	8ff'J)	.	8r	.	8r	.	[8f~	.	[8ff~J	.	[8ff~J	.	[8fff~J	.	[8fff~J	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
-4r^	.	4r	.	(8ddL	.	(8dddL	.	8f]	.	8ff]	.	8ff]	.	8ff]	.	8fff]	.
-.	.	.	.	8ff'J)	.	8fff'J)	.	4f~	.	4ff~	.	4ff~	.	4ff~	.	4fff~	.
+4r^'	.	4r	.	(8ddL	.	(8dddL	.	8f]	.	8ff]	.	8ff]	.	8fff]	.	8fff]	.
+.	.	.	.	8ff'J)	.	8fff'J)	.	4f~	.	4ff~	.	4ff~	.	4fff~	.	4fff~	.
 8f^	.	8r	.	4r	.	4r	.	.	.	.	.	.	.	.	.	.	.
-8r	.	(8dd	.	.	.	.	.	8d'	.	8dd'	.	8dd'	.	8dd'	.	8ddd'	.
-8r	.	8ff')	.	8r	.	8r	.	4f~	.	4ff~	.	4ff~	.	4ff~	.	4fff~	.
-!LO:TX:a:t=arco	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+8r	.	(8dd	.	.	.	.	.	8d'	.	8dd'	.	8dd'	.	8ddd'	.	8ddd'	.
+8r	.	8ff')	.	8r	.	8r	.	4f~	.	4ff~	.	4ff~	.	4fff~	.	4fff~	.
+*grp:A	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+!LO:TX:a:rj:t=arco	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 16D-XLL	.	8r	.	16d-XLL	.	16dd-XLL	.	.	.	.	.	.	.	.	.	.	.
 16CJJ	.	.	.	16cJJ	.	16ccJJ	.	.	.	.	.	.	.	.	.	.	.
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [([(s1,s2)][(s3,s4)]s5)][([(s6,s7)]s8,s9)]
+!!!system-decoration: {(s1,s2)}{(s3,s4)}<s5>{(s6,s7)},s8,s9
+!!!EED:Jason Lee
+!!!EEV:2021/12/10
