@@ -1,40 +1,49 @@
 !!!COM: Leoš [Leo Eugen] Janáček
 !!!OTL: [T122_Jan-w16p19m21-23]
-**kern	**kern	**dynam
-!!pagebreak:original
-*clefF4	*clefG2	*
-*k[]	*k[]	*
-*C:	*C:	*
-*M2/4	*M2/4	*
-=1	=1	=1
-!	!LO:TX:t=[quarter]=72	!
-!	!LO:TX:b:t=]	!
-!	!LO:TX:b:t=[	!
-!	!LO:TX:b:t=[pp cresc.]	!
-2F	(8eenL	p
-.	8ee-X	.
-.	8a	.
-.	8gJ)	.
-=2	=2	=2
-.	32GLLL	p
-.	32BJJ	.
-16r	.	.
-32GLL	.	.
-32BJJJ	.	.
-.	6en	.
-16r	.	.
-4Fn	.	.
-.	6e-X	.
-=3	=3	=3
-.	32GLLL	.
-.	32BJJ	.
-16r	.	.
-32GLL	.	.
-32BJJJ	.	.
-.	6A	.
-16r	.	.
-4Fn	.	.
-.	6G	.
-=	=	=
-*-	*-	*-
-!!!system-decoration: [({(s1,s2)})]
+**kern	**kern		**dynam	**fing
+*grp:A	*grp:B		*	*
+*part1	*part1		*part1	*
+*staff2	*staff1		*	*
+*I"Piano	*I"Piano		*	*
+*clefF4	*clefG2		*	*
+*k[f#]	*k[f#]		*	*
+*M2/4	*M2/4		*	*
+=1	=1		=1	=1
+*	*^		*	*
+!!LO:TX:t=[Andante [quarter]=72]
+!	!	!	!LO:HP:t=[ %s ]	!
+2FnZ]	8eenL	2re	<	.
+.	8ee-X	.	.	.
+.	8a	.	.	1
+.	8gJ)j	.	.	2
+*Xped	*	*	*	*
+*	*v	*v	*	*
+=2	=2		=2	=2
+32G>LLL/	6ra		.	.
+32B>JJ	.		.	.
+16rc>	.		.	.
+32GLL	.		.	.
+32BJJJ	.		.	.
+.	6en^>		.	5
+16rc	.		.	.
+*ped	*		*	*
+4Fn	.		.	.
+.	6e-X^>		.	4
+=3	=3		=3	=3
+32G>LLL/	6ra		.	1
+32B>JJ	.		.	3
+16rc>	.		.	.
+32GLL	.		.	.
+32BJJJ	.		.	.
+.	6A^>		.	2
+16rc	.		.	.
+4Fn	.		.	.
+.	6G^>		.	.
+=	=		=	=
+*-	*-		*-	*-
+!!!system-decoration: {(s1,s2)}
+!!!RDF**kern: > = above
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!RDF**kern: Z = editorial accidental, bracket
+!!!EED:Jason Lee
+!!!EEV:2021/12/29
