@@ -1,6 +1,7 @@
 !!!COM: Frank Martin
 !!!OTL: [T543_Mai-w11p29h17m4-h18m2]
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part3	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*staff3	*	*staff2	*	*staff1	*
 *I"Piano	*	*	*I"Violoncello	*	*I"Violin	*
@@ -10,13 +11,10 @@
 *k[f#c#]	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*
 *D:	*D:	*	*D:	*	*D:	*
 *M4/4	*M4/4	*	*M4/4	*	*M4/4	*
-!	!LO:TX:b:t=	!	!	!	!	!
-!	!LO:TX:b:t=[ppp]	!	!LO:TX:b:t=[ppp]	!	!LO:TX:a:t=[sotto voce]	!
-!	!LO:TX:b:t=	!	!LO:TX:b:t=	!	!LO:TX:b:t=	!
-*	*	*	*	*	*Xtriplet	*
+*	*	*	*	*	*Xtuplet	*
 !	!	!	!	!	!LO:TX:t=[half]=108	!
-!	!LO:TX:t=[half]=108	!	!	!	!LO:TX:b:t=[pp]	!
-8BB'L 8F#	8B'L 8d 8f#	.	(8F##X'L	.	12eeL	.
+!	!LO:TX:t=[half]=108	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:a:i:t=[sotto voce]	!LO:DY:ed=brack
+8BB'L 8F#	8B'L 8d 8f#	ppp	(8F##X'L	ppp	12eeL	pp
 .	.	.	.	.	12ff#	.
 8BB'J 8F#	8B'J 8d 8f#	.	8F'J)	.	.	.
 .	.	.	.	.	12eeJ	.
@@ -81,7 +79,7 @@
 .	.	.	.	.	12eeJ	.
 !!linebreak:original
 =5	=5	=5	=5	=5	=5	=5
-4EE'^^	2B^^ 2d 2f#	.	8d'	.	12ff#L	.
+(4EE'^^	2B^^ 2d 2f#	.	8d'	.	12ff#L	.
 .	.	.	.	.	12gg	.
 .	.	.	8r	.	.	.
 .	.	.	.	.	12ff#J	.
@@ -93,11 +91,11 @@
 .	.	.	8r	.	.	.
 .	.	.	.	.	12ee	.
 =6	=6	=6	=6	=6	=6	=6
-4BB'	4d^^ 4g 4b	.	(8c#'L	.	12ff#L	.
+4BB')	4d^^ 4g 4b	.	(8c#'L	.	12ff#L	.
 .	.	.	.	.	12gg	.
 .	.	.	8c#'J)	.	.	.
 .	.	.	.	.	12ff#J	.
-4EE'^^	4d^^ 4f# 4a	.	8d'	.	12ff#L	.
+(4EE'^^	4d^^ 4f# 4a	.	8d'	.	12ff#L	.
 .	.	.	.	.	12dd	.
 .	.	.	8r	.	.	.
 .	.	.	.	.	12bJ	.
@@ -110,13 +108,13 @@
 .	.	.	.	.	12gg	.
 .	.	.	8r	.	.	.
 .	.	.	.	.	12ff#J	.
-4BB'	2B^^ 2d 2g#X	.	(16A#XLL	.	12bbL	.
+4BB')	2B^^ 2d 2g#X	.	(16A#XLL	.	12bbL	.
 .	.	.	16B	.	.	.
 .	.	.	.	.	12ff#	.
 .	.	.	16B#X	.	.	.
 .	.	.	.	.	12eeJ	.
 .	.	.	16c#JJ	.	.	.
-4EE'^^	.	.	8d')	.	6dd	.
+(4EE'^^	.	.	8d')	.	6dd	.
 .	.	.	8r	.	.	.
 .	.	.	.	.	12ff#	.
 =8	=8	=8	=8	=8	=8	=8
@@ -128,14 +126,14 @@
 .	.	.	.	.	12cc#	.
 .	.	.	8r	.	.	.
 .	.	.	.	.	12aJ	.
-4BB'	4B^^ 4d 4f#	.	8d'	.	12cc#L	.
+4BB')	4B^^ 4d 4f#	.	8d'	.	12cc#L	.
 .	.	.	.	.	12dd	.
 .	.	.	8r	.	.	.
 .	.	.	.	.	12eeJ	.
 *	*	*	*clefC4	*	*	*
+!!LO:REH:t=18
 =9	=9	=9	=9	=9	=9	=9
-!	!LO:TX:a:B:t=18	!	!	!	!LO:TX:a:B:t=18	!
-!	!LO:TX:b:i:t=meno	!	!LO:TX:b:i:t=meno	!	!LO:TX:b:i:t=meno	!
+!	!	!LO:DY:t=meno %s	!	!LO:DY:t=meno %s	!	!LO:DY:t=meno %s
 4CC#'^^	4B' 4g#X	p	(4.e	p	12bbL	p
 .	.	.	.	.	12bb	.
 .	.	.	.	.	12bbJ	.
@@ -145,8 +143,8 @@
 4CC#'^^	4B' 4g#	.	([4e	.	6ddd	.
 .	.	.	.	.	12fff#	.
 =10	=10	=10	=10	=10	=10	=10
-!	!LO:TX:b:i:t=poco a poco cresc.	!	!LO:TX:b:i:t=poco a poco cresc.	!	!LO:TX:b:i:t=poco a poco cresc.	!
-4GGG#X'	8c#'L 8a	.	8eL]	.	12bbL	.
+!	!	!LO:HP:t=poco a poco %s	!	!LO:HP:t=poco a poco %s	!	!LO:HP:t=poco a poco %s
+4GGG#X'	8c#'L 8a	<	8eL]	<	12bbL	<
 .	.	.	.	.	12bb	.
 .	8c#'J 8a	.	8f#J)	.	.	.
 .	.	.	.	.	12bbJ	.
