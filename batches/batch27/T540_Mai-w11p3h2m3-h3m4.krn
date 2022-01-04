@@ -1,6 +1,7 @@
 !!!COM: Frank Martin
 !!!OTL: [T540_Mai-w11p3h2m3-h3m4]
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A
 *part3	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*staff3	*	*staff2	*	*staff1	*
 *I"Piano	*	*	*I"Violoncello	*	*I"Violin	*
@@ -11,9 +12,9 @@
 *F:	*F:	*	*F:	*	*F:	*
 *M4/4	*M4/4	*	*M4/4	*	*M4/4	*
 =1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!LO:TX:t=[quarter]=126	!
-!	!LO:TX:b:t=[ppp]	!	!LO:TX:b:t=[poco menop]	!	!LO:TX:b:t=[ppp un poco marcato]	!
-4CC 4GG	4c 4g	.	(4g~	.	4G 4d	.
+!	!	!	!	!LO:DY:ed=brack	!LO:TX:t=[quarter]=126	!LO:DY:ed=brack
+!	!	!LO:DY:ed=brack	!	!LO:DY:t=poco menop %s	!	!LO:DY:t=%s un poco marcato
+]4CC ]4GG	]4c ]4g	ppp	(4g~	p	]4G ]4d	ppp
 4CC 4GG	4c 4g	.	(8.gL	.	4G 4d	.
 .	.	.	16aJk))	.	.	.
 4CC 4GG	4c 4g	.	(8gL	.	4G 4d	.
@@ -69,10 +70,11 @@
 2CC 2GG	2c 2g	.	.	.	2G 2e	.
 .	.	.	(8cL	.	.	.
 .	.	.	8dJ)	.	.	.
+!!LO:REH:t=3
 =7	=7	=7	=7	=7	=7	=7
 .	.	.	(8qqe/L	.	.	.
-!	!LO:TX:b:i:t=poco meno	!	!	!	!LO:TX:b:i:t=poco meno	!
 .	.	.	8qqf/J	.	.	.
+!	!	!LO:DY:t=poco menop %s	!	!	!	!LO:DY:t=poco menop %s
 4CC 4GG	4c 4g	pp	8eL	.	4G 4d	pp
 .	.	.	8d)	.	.	.
 [4CC [4GG	[4c [4g	.	(8e'	.	[4G [4d	.
