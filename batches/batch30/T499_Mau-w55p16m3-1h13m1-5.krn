@@ -1,21 +1,22 @@
 !!!COM: Bohuslav (Jan) Martinů
 !!!OTL: [T499_Mau-55/16/3-1[13]1-5]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I
 *I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
-!!pagebreak:original
 *clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 =1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!LO:TX:t=[quarter]=112	!
-!LO:TX:b:t=[mf]	!	!LO:TX:b:t=[f]	!	!LO:TX:b:t=[mf]	!	!LO:TX:b:t=[f cresc.]	!
-16BB'LL 16Fn	.	([4ee	.	8r	.	(4ggn	.
+!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!	!	!LO:DY:t=[ %s cresc. ]
+!	!	!	!	!	!	!	!LO:HP:t= 
+16BB'LL 16Fn	mf	([4ee	f	8r	.	(4ggn	f <
 16BB' 16F	.	.	.	.	.	.	.
-16BB' 16F	.	.	.	16cn'LL 16a	.	.	.
+!	!	!	!	!	!LO:DY:ed=brack	!	!
+16BB' 16F	.	.	.	16cn'LL 16a	mf	.	.
 16BB'JJ 16F	.	.	.	16c'JJ 16a	.	.	.
 4r	.	8eeL])	.	16c'LL 16a	.	4.ffn)	.
 .	.	.	.	16c'JJ 16a	.	.	.
@@ -56,19 +57,19 @@
 16AA#'JJ 16F#	.	.	.	16c#'JJ 16a	.	.	.
 4r	[	(8ggL	.	16c#'LL 16a	.	(8aaL	.
 .	.	.	.	16c#'JJ 16a	.	.	.
-.	.	8eeJ	[	8r	[	[8ff#XJ	[
-!!linebreak:original
+.	.	8eeJ	[[	8r	[	[8ff#XJ	[
+!!LO:REH:t=13
 =4	=4	=4	=4	=4	=4	=4	=4
-!LO:TX:b:i:t=poco	!	!	!	!	!	!LO:TX:a:B:t=13	!
+!	!LO:DY:rj:t=poco %s	!	!	!	!	!	!
 16GG'LL 16G	f	8b-XL)	.	8r	.	8ff#L])	f
 16GG' 16G	.	.	.	.	.	.	.
-!	!	!	!	!LO:TX:b:i:t=poco	!	!	!
+!	!	!	!	!	!LO:DY:rj:t=poco %s	!	!
 16GG' 16G	.	(8cc#XJ	f	16c#X'LL 16a#X	f	(8bb-XJ	.
 16GG'JJ 16G	.	.	.	16c#'JJ 16a#	.	.	.
 8r	.	8aL	.	16c#'LL 16a#	.	[4gg)	.
 .	.	.	.	16c#' 16a#	.	.	.
-!LO:TX:b:t=f espress.	!	!	!	!	!	!	!
-(8GG	.	8gJ)	.	16c#' 16a#	.	.	.
+!	!LO:DY:t=%s espress.	!	!	!	!	!	!
+(8GG	f	8gJ)	.	16c#' 16a#	.	.	.
 .	.	.	.	16c#'JJ 16a#	.	.	.
 8E-XL	.	[2b-	.	8r	.	8ggL]	.
 8B-XJ	.	.	.	16c#'LL 16a#	.	(8ggJ	.
@@ -84,7 +85,7 @@
 .	.	.	.	16c#'JJ 16a#	.	.	.
 4b-X)	[	8ddL	.	16c#'LL 16a#	.	8GL)	.
 .	.	.	.	16c#' 16a#	.	.	.
-.	.	8gJ)	[	16c#' 16a#	.	(8b-XJ	.
+.	.	8gJ)	[[	16c#' 16a#	.	(8b-XJ	.
 .	.	.	.	16c#'JJ 16a#	.	.	.
 *clefF4	*	*	*	*	*	*	*
 (8GL	.	(8ccnL	.	8r	.	8f#L	.
@@ -119,7 +120,7 @@
 .	.	.	.	16c#' 16a#	.	[8een'^J	f
 .	.	.	.	16c#'JJ 16a#	.	.	.
 *clefG2	*	*	*	*	*	*	*
-!	!	!LO:TX:b:i:t=molto	!	!	!	!	!
+!	!	!	!LO:DY:rj:t=molto %s	!	!	!	!
 8fnL)	f [	8ggL]	f	8r	.	12eeL]	.
 .	.	.	.	.	.	(12dd#X	.
 (8e-XJ	.	(8ff#XJ	.	16B-X'LL 16gn	f	.	.
