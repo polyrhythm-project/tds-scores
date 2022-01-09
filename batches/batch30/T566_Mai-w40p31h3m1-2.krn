@@ -1,9 +1,10 @@
 !!!COM: Frank Martin
 !!!OTL: [T566_Mai-w40p31h3m1-2]
 **kern	**dynam	**kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
 *part4	*part4	*part3	*part2	*part2	*part1	*part1
-*staff4	*	*staff3	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*I"Violin II	*	*I"Violin I	*
+*staff4	*staff4	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I
 *I'Vc.	*	*I'Vla.	*I'Vln. II	*	*I'Vln. I	*
 !!pagebreak:original
 *clefF4	*	*clefC3	*clefG2	*	*clefG2	*
@@ -11,10 +12,9 @@
 *C:	*	*C:	*C:	*	*C:	*
 *M6/8	*	*M6/8	*M6/8	*	*M6/8	*
 =1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!LO:TX:t=[quarter-dot]=52	!
-!LO:TX:a:t=arco	!	!	!LO:TX:b:t=[f]	!	!LO:TX:b:t=[f]	!
-8r	.	4%3r	(4aa	>	(4ccc#X	>
-!LO:TX:b:i:t=  un poco marc.	!	!	!	!	!	!
+!LO:TX:a:t=arco	!	!	!	!LO:DY:rj:ed=brack	!	!LO:DY:rj:ed=brack
+8r	.	4%3r	(4aa	f >	(4ccc#X	f >
+!	!LO:DY:t=%s un poco marc.	!	!	!	!	!
 [4DD^	mp	.	.	.	.	.
 .	.	.	8ff)	p ]	8cc#X)	p ]
 4DD]	.	.	8aa'L	.	8ccc#'L	.
