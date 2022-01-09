@@ -1,11 +1,11 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T463_Mau-w81p16h10m5-11]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
-*staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Flute	*
+*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano	*I"Flute	*I"Flute
 *I'Pno.	*	*	*I'Fl.	*
-!!pagebreak:original
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
@@ -37,44 +37,41 @@
 .	16gJ	.	.	.
 8A'J	8a'J 8cc)	.	(16aaaL	.
 .	.	.	16gggJJ	.
-8DL	8eL [8a	mf ]	8aaaL)	.
-8d'J	8f'J 8a]	.	8fffJ	.
+(8DL	8eL [8a	mf ]	8aaaL)	.
+8d'J)	8f'J 8a]	.	8fffJ	.
 8r	8r	.	8aaL	.
-8DD	8e [8a	.	(8dddJ	.
-!!linebreak:original
+(8DD	8e [8a	.	(8dddJ	.
 =4	=4	=4	=4	=4
-8D'	8f' 8a]	.	8aaa'L)	.
+8D')	8f' 8a]	.	8aaa'L)	.
 8r	8r	.	8fff'J	.
-8GGL	(8fL 8a	.	8aa'L	.
-8Bn'J	8g'J 8dd)	.	(8dddJ	.
+(8GGL	(8fL 8a	.	8aa'L	.
+8Bn'J)	8g'J 8dd)	.	(8dddJ	.
 8r	8r	.	8aaa'L)	.
-8GG	(8b 8ee	<	8eee'J	.
+(8GG	(8b 8ee	<	8eee'J	.
 =5	=5	=5	=5	=5
-8En'	8g' 8cc 8gg)	.	8aa'L	.
+8En')	8g' 8cc 8gg)	.	8aa'L	.
 8r	8r	.	(8eeeJ	.
-8FFL 8F	(8aL 8ff 8aa	.	8aaa'L)	.
-8EE-X'J 8E-X	8cc'J 8gg 8ccc)	.	8ccc'J	.
+(8FFL 8F	(8aL 8ff 8aa	.	8aaa'L)	.
+8EE-X'J 8E-X)	8cc'J 8gg 8ccc)	.	8ccc'J	.
 8r	8r	[	8gg'L	.
-8EE- 8E-	[8g [8b-X [8dd-X [8ee-X	f	(8eee-XJ	.
+(8EE- 8E-	[8g [8b-X [8dd-X (8ee-X	f	(8eee-XJ	.
 =6	=6	=6	=6	=6
-8DD-X' 8D-X	8g] 8b-] 8cc#X] 8een	.	8aaa'L)	.
+8DD-X' 8D-X)	8g] 8b-] 8cc#X] 8een)	.	8aaa'L)	.
 8r	8r	.	8bb-X'J	.
-*^	*	*	*	*
-8ryy@	8r	8r	.	8een'L	.
-8CCn 8Cn	4G 4B-X	8c#X' 8en	.	(8ccc#XJ	.
-8r	.	8r	.	8aaa'L)	.
-*v	*v	*	*	*	*
-8EE-X 8E-X	[8g [8b-X [8cc#X 8ee-X_	.	8bb-X'J	.
+8ryy@	8r8r	.	8een'L	.
+8CCn\ 8Cn\	8G</ 8B-<X/ 8c#X' 8en	.	(8ccc#XJ	.
+8r	8r8r	.	8aaa'L)	.
+(8EE-X/ 8E-X/	[8g [8b-X [8cc#X (8ee-X	.	8bb-X'J	.
 =7	=7	=7	=7	=7
-8DD-X' 8D-X	8g] 8b-] 8cc#X] 8een	.	8ee'L	.
+8DD-X' 8D-X)	8g] 8b-] 8cc#X] 8een)	.	8ee'L	.
 8r	8r	.	(8ccc#XJ	.
-*^	*	*	*	*
-8ryy@	8r	8r	.	8aaa'L)	.
-8CCn 8Cn	4G 4B-X	8c#X' 8e	.	8bb-X'J	.
-4r	.	4r	.	8ee'L	.
-*v	*v	*	*	*	*
+8ryy@	8r8r	.	8aaa'L)	.
+8CCn 8Cn	8G< 8B-<X 8c#X' 8e	.	8bb-X'J	.
+4r	4r4r	.	8ee'L	.
 .	.	.	(8ffJ	.
 *clefG2	*	*	*	*
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
