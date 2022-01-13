@@ -1,83 +1,88 @@
 !!!COM: Olivier (Eugène Prosper Charles) Messiaen
 !!!OTL: [T786_Mes-w26p33m1-6]
-**kern	**kern	**kern	**dynam
-*part2	*part1	*part1	*part1
-*staff3	*staff2	*staff1	*
-*I"PED.	*I"[Organ] MAN.	*	*
-*I'Ped.	*I'Org.	*	*
-!!pagebreak:original
-*clefF4	*clefF4	*clefG2	*
-*k[]	*k[]	*k[]	*
-*C:	*C:	*C:	*
-*M4/4	*M4/4	*M4/4	*
-!	!	!LO:TX:t=[eighth]=46	!
-!	!	!LO:TX:a:B:t=Pos.	!
-!	!	!LO:TX:b:i:t=m.g.	!
-!	!	!LO:TX:a:B:t=Modéré	!
-!	!	!LO:TX:a:i:t=m.dr.	!
-!	!	!LO:TX:a:t=61	!
-!LO:TX:b:t=29	!	!LO:TX:a:B:t=R	!
-!LO:TX:b:t=p legato	!	!LO:TX:b:t=pp legato	!
-[2FFn [2F#X	8r	[2b-X [2ggn	.
-.	8EE-X~	.	f
-.	16r	.	.
-.	8An'	.	.
-.	32GG#XLLL	.	.
-.	32C#XJJJ	.	.
-=	=	=	=
-4FFn_ 4F#X_	8DDn'	2b-X_ 2ggn_	.
-.	[8Bn^	.	.
-8FF_ 8F#_	24BLL]	.	.
-.	24En	.	.
-.	24CnJJ	.	.
-32FFLLL] 32F#]	8r	.	.
-!LO:TX:b:t=30	!	!	!
-[32EEnJ [32G#X	.	.	.
-16EEJJ_ 16G#_	.	.	.
-*	*clefG2	*	*
-=	=	=	=
-!	!	!LO:TX:a:B:t=G	!
-2EEn_ 2G#X_	40AnLLL	2b-X_ 2ggn_	mf
-.	40bn	.	.
-.	40fn	.	.
-.	40ff#X	.	.
-.	40cc#XJJJ	.	.
-.	8r	.	.
-.	4r	.	.
-*	*clefF4	*	*
-=	=	=	=
-!	!	!LO:TX:a:B:t=Pos.	!
-.	8qcn/	.	f
-4EEn_ 4G#X_	12E-X'L	4b-X_ 4ggn_	.
-.	24DDn'Jk	.	.
-.	8r	.	.
-16EELL_ 16G#_	4r	8b-_ 8gg_	.
-32EEL] 32G#]	.	.	.
-!LO:TX:b:t=31	!	!	!
-[32DD-XJJJ [32Fn	.	.	.
-8DD-_ 8F_	.	32b-LLL] 32gg]	.
-!	!	!LO:TX:a:t=62	!
-.	.	[32ee-XJ [32cccn	.
-.	.	16ee-JJ_ 16ccc_	.
-=	=	=	=
-!	!	!LO:TX:a:B:t=G	!
-2DD-X_ 2Fn_	8.r	2ee-X_ 2cccn_	.
-.	16DDn	.	.
-.	40r	.	.
-.	40AAnLLL	.	.
-.	40B-X	.	.
-.	40en	.	.
-.	40F#XJJJ	.	.
-.	16r	.	.
-*	*clefG2	*	*
-.	[16gn~	.	.
-=	=	=	=
-4DD-X_ 4Fn_	8gn]	2ee-X_ 2cccn_	.
-.	24bn^,KL	.	.
-.	12gg#XJ	.	.
-16DD-KL] 16F]	4r	.	.
-!LO:TX:b:t=32	!	!	!
-[8.DDnJ [8.En	.	.	.
-=	=	=	=
-*-	*-	*-	*-
+**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*	*grp:B	*	*grp:A	*
+*part2	*part2	*part1	*part1	*part1	*part1
+*staff3	*staff3	*staff2	*staff2	*staff1	*
+*I"PÉD.	*	*I"[Organ] MAN.	*	*	*
+*I'Ped.	*	*I'Man.	*	*	*
+*clefF4	*	*clefF4	*	*clefG2	*
+*k[]	*	*k[]	*	*k[]	*
+*C:	*	*C:	*	*C:	*
+*M4/4	*	*M4/4	*	*M4/4	*
+!	!	!	!	!LO:TX:a:t=61	!
+!	!	!	!	!LO:TX:a:i:rj:t=m.dr.	!
+!	!	!	!	!LO:TX:a:B:t=R	!
+!LO:TX:b:t=29	!LO:DY:t=%s legato	!	!	!LO:TX:a:B:t=Modéré	!LO:DY:t=%s legato
+[2FFn [2F#X	p	8r	.	[2b-X [2ggn	pp
+!	!	!LO:TX:a:rj:t=Pos.	!	!	!
+!	!	!LO:TX:b:i:rj:t=m.g.	!LO:DY:rj	!	!
+.	.	8EE-X~	f	.	.
+.	.	16r	.	.	.
+.	.	8An'	.	.	.
+.	.	(32GG#XLLL	.	.	.
+.	.	32C#XJJJ	.	.	.
+=	=	=	=	=	=
+4FFnX_ 4F#X_	.	8DDn')	.	2b-X_ 2ggnX_	.
+.	.	(<[8Bn^	.	.	.
+!	!	!LO:TUP:a	!	!	!
+8FF_ 8F#_	.	24BLL]	.	.	.
+.	.	24En	.	.	.
+.	.	24CnJJ)	.	.	.
+32FFLLL] 32F#]	.	8r	.	.	.
+!LO:TX:b:t=30	!	!	!	!	!
+[32EEnJ [32G#X	.	.	.	.	.
+16EEJJ_ 16G#_	.	.	.	.	.
+*	*	*clefG2	*	*	*
+=	=	=	=	=	=
+!	!	!LO:TX:a:rj:t=G	!LO:DY:rj	!	!
+2EEnX_ 2G#X_	.	(40AnLLL	mf	2b-X_ 2ggnX_	.
+.	.	40bn	.	.	.
+.	.	40fn	.	.	.
+.	.	40ff#X	.	.	.
+.	.	40cc#XJJJ)	.	.	.
+.	.	8r	.	.	.
+.	.	4r	.	.	.
+*	*	*clefF4	*	*	*
+=	=	=	=	=	=
+!	!	!LO:TX:a:rj:t=Pos.	!	!	!
+.	.	(8qcn/	f	.	f
+4EEnX_ 4G#X_	.	12E-X'L)	.	4b-X_ 4ggnX_	.
+.	.	24DDn'Jk	.	.	.
+.	.	8r	.	.	.
+16EELL_ 16G#_	.	4r	.	8b-_ 8gg_	.
+32EEL] 32G#]	.	.	.	.	.
+!LO:TX:b:t=31	!	!	!	!	!
+[32DD-XJJJ [32Fn	.	.	.	.	.
+8DD-_ 8F_	.	.	.	32b-LLL] 32gg]	.
+!	!	!	!	!LO:TX:a:t=62	!
+.	.	.	.	[32ee-XJ [32cccn	.
+.	.	.	.	16ee-JJ_ 16ccc_	.
+=	=	=	=	=	=
+2DD-X_ 2FnX_	.	8.r	.	2ee-X_ 2cccnX_	.
+!	!	!LO:TX:a:rj:t=G	!LO:DY:rj	!	!
+.	.	16DDn~	mf	.	.
+!	!	!LO:TUP:a	!	!	!
+.	.	40r	.	.	.
+.	.	(40AAnLLL	.	.	.
+.	.	40B-X	.	.	.
+.	.	40en	.	.	.
+.	.	40F#XJJJ)	.	.	.
+.	.	16r	.	.	.
+*	*	*clefG2	*	*	*
+.	.	[16gn~	.	.	.
+=	=	=	=	=	=
+4DD-X_ 4Fn_	.	8gn],	.	2ee-X_ 2cccnX_	.
+!	!	!LO:TUP:a	!	!	!
+.	.	(24bn^KL	.	.	.
+.	.	12gg#XJ)	.	.	.
+16DD-KL] 16F]	.	4r	.	.	.
+!LO:TX:b:t=32	!	!	!	!	!
+[8.DDnJ [8.En	.	.	.	.	.
+*	*	*clefF4	*	*	*
+=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)})]s3
+!!!RDF**kern: < = below
+!!!EED:Jason Lee
+!!!EEV:2021/01/12
