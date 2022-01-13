@@ -1,6 +1,7 @@
 !!!COM: Charles Ives
 !!!OTL: [T232B_Ive-w4p24m53-57]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
@@ -12,8 +13,8 @@
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!	!	!LO:TX:t=[quarter]=120	!
-!LO:TX:b:t=[pp]	!	!LO:TX:b:t=[pp]	!	!LO:TX:b:t=[pp]	!	!LO:TX:b:t=[pp]	!
-4BB	.	4d#	.	2d#	.	(2b)	.
+!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:t=P:problem:Hanging slur not implemented yet	!LO:DY:ed=brack
+4BB	pp	4d#	pp	2d#	pp	2b)	pp
 2AA#^ 2A#	f	2A#^ 2a#	f	.	.	.	.
 .	.	.	.	[4g#^ [4b	f	4gg#^	f
 =2	=2	=2	=2	=2	=2	=2	=2
@@ -36,10 +37,10 @@
 *	*	*	*	*^	*	*^	*
 8DDL] 8D]	<	8DL] 8d]	<	(8bL	2.f#	<	([2ff#	4ff#	<
 8CC#J 8C#	.	8C#J 8c#	.	8cc#J	.	.	.	.	.
-(4.BBB#X^ 4.BB#X	[ >	(4.BB#X^ 4.B#X	[ < >	[4dd#^	.	[ >	.	[4an^	] > ]
+(4.BBB#X^ 4.BB#X	[ >	(4.BB#X^ 4.B#X	[ >	[4dd#^	.	[ >	.	[4an^	[ > ]
 *	*	*	*	*	*	*	*v	*v	*
 .	.	.	.	8dd#L]	.	]	8aL] 8ff#]	.
-8CC#' 8C#)	]	8C#' 8c#)	] ]	8ee'J)	.	.	8a#X'J 8ee)	.
+8CC#' 8C#)	]	8C#' 8c#)	]	8ee'J)	.	.	8a#X'J 8ee)	.
 *	*	*	*	*v	*v	*	*	*
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
