@@ -1,54 +1,57 @@
 !!!COM: Olivier (Eugène Prosper Charles) Messiaen
 !!!OTL: [T784_Mes-w26p11s1]
-**kern	**kern	**kern
-*part2	*part1	*part1
-*staff3	*staff2	*staff1
-*I"PED.	*I"[Organ] MAN.	*
-*I'Ped.	*I'Org.	*
-!!pagebreak:original
-*clefF4	*clefG2	*clefG2
-*k[]	*k[]	*k[]
-*C:	*C:	*C:
-*M3/4	*M3/4	*M3/4
-=1	=1	=1
-!	!	!LO:TX:t=[eighth]=40
-!LO:TX:b:t=[f]	!	!LO:TX:b:t=[p]
-(4GGn	16ccnLL	36ff#XLLL
-.	.	36bn
-.	.	36e-X
-.	16ddn	.
-.	.	36een
-.	.	36dd-X
-.	16ee-X	.
-.	.	36ggn
-.	.	36aan
-.	16aa-XJJ	.
-.	.	36a-X
-.	.	36ccnJJJ
-4GG,	16bbnLL	36ddnLLL
-.	.	36bb-X
-.	.	36ffn
-.	16aa-X	.
-.	.	36a-X
-.	.	36ff#X
-.	16ee-X	.
-.	.	36bn
-.	.	36e-X
-.	16ddnJJ	.
-.	.	36een
-.	.	36dd-XJJJ
-4FFn~)	16ccnLL	36ggnLLL
-.	.	36aan
-.	.	36a-X
-.	16b-XJJ	.
-.	.	36ccn
-.	.	36ddn
-.	8qaa-X/	.
-.	[8an	.
-.	.	36bb-X
-.	.	36ffn
-.	.	36a-X
-.	.	36ff#XJJJ
-=	=	=
-*-	*-	*-
+**kern	**kern	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*
+*part2	*part1	*part1	*part1
+*staff3	*staff2	*staff1	*staff1
+*I"PED.	*I"[Organ] MAN.	*	*
+*I'Ped.	*I'Org.	*	*
+*clefF4	*clefG2	*clefG2	*
+*k[]	*k[]	*k[]	*
+*C:	*C:	*C:	*
+=1	=1	=1	=1
+!!LO:TX:a:B:t=Lent
+!LO:TX:b:t=[f]	!	!	!LO:DY:t=[ %s ]
+(4GG^^n,	(16ccnLL	36ff#XLLL/	p
+.	.	36bn	.
+.	.	36e-X	.
+.	16ddn	.	.
+.	.	36een	.
+.	.	36dd-X	.
+.	16ee-X	.	.
+.	.	36ggn	.
+.	.	36aan	.
+.	16aa-XJJ	.	.
+.	.	36a-X	.
+.	.	36ccnJJJ	.
+!LO:TX:b:t=∪	!	!	!
+4GG	16bbnLL	36ddnLLL/	.
+.	.	36bb-X	.
+.	.	36ffn	.
+.	16aa-X	.	.
+.	.	36a-X	.
+.	.	36ff#X	.
+.	16ee-X	.	.
+.	.	36bn	.
+.	.	36e-X	.
+.	16ddnJJ	.	.
+.	.	36een	.
+.	.	36dd-XJJJ	.
+4FFn~<^^<)	16ccnLL	36ggnLLL/	.
+.	.	36aan	.
+.	.	36a-X	.
+.	16b-XJJ	.	.
+.	.	36ccn	.
+.	.	36ddn	.
+.	(<8qaa-X/	.	.
+.	[8an))	.	.
+.	.	36bb-X	.
+.	.	36ffn	.
+.	.	36a-X	.
+.	.	36ff#XJJJ	.
+=	=	=	=
+*-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)})]s3
+!!!RDF**kern: < = below
+!!!EED:Jason Lee
+!!!EEV:2022/01/12
