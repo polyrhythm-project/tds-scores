@@ -1,10 +1,9 @@
 !!!COM: Frank Martin
 !!!OTL: [T562_Mai-w34p17h9m4-7]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**kern	**dynam	**kern	**dynam
-*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A
 *part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff8	*staff8	*staff7	*staff7	*staff6	*staff6	*staff5	*staff5	*staff4	*staff3	*staff2	*staff2	*staff1	*staff1
-*I"Violoncello	*I"Violoncello	*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Viola	*I"Viola	*I"Harpsichord	*I"Harpsichord	*I"Clarinet in A	*I"Clarinet in A	*I"Oboe	*I"Oboe
+*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*staff3	*staff2	*	*staff1	*
+*I"Violoncello	*	*I"Violoncello	*	*I"Viola	*	*I"Viola	*	*I"Harpsichord	*	*I"Clarinet in A	*	*I"Oboe	*
 *I'Vc.	*	*I'Vc.	*	*I'Vla.	*	*I'Vla.	*	*I'Hpsd.	*	*I'Cl.	*	*I'Ob.	*
 *clefF4	*	*clefF4	*	*clefC3	*	*clefC3	*	*clefF4	*clefG2	*clefG2	*	*clefG2	*
 *	*	*	*	*	*	*	*	*	*	*ITrd2c3	*	*	*
@@ -33,7 +32,7 @@
 4E-X~	< [	4G-X~	< [	4B-X~	< [	4B-X~	< [	8r	8r	4e-X~	< [	4b-X~	< [
 .	.	.	.	.	.	.	.	8CC'~J 8C	8ff'~J 8fff	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-(4E-XN	.	(4G-XN	.	(4B-XN	.	(4B-XN	.	8r	8r	(4e-XN	.	(4b-XN	.
+(4E-XN>	.	(4G-XN>	.	(4B-XN>	.	(4B-XN>	.	8r	8r	(4e-XN>	.	(4b-XN>	.
 .	>	.	>	.	>	.	>	8CC'~ 8C	8ff'~ 8fff	.	>	.	>
 [8D	.	[8F	.	[8A	.	[8A	.	8r	8r	[8d	.	[8a	.
 4D])	]]	4F])	]]	4A])	]]	4A])	]]	(8CC#XL 8C#X	(8eeL 8eee	4d])	]]	4a])	]]
@@ -43,3 +42,4 @@
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1,s2[({(s3,s4)})][(s5,s6)][(s7,s8)]
 !!!RDF**kern: N = hairpin accent
+!!!RDF**kern: > = above
