@@ -1,13 +1,16 @@
 !!!COM: Manuel de Falla (y Matheu)
 !!!OTL: [T314_Fal-w7p12m159-167]
 **kern	**kern	**dynam
-*staff2	*staff1	*staff1/2
 *grp:A	*grp:B	*grp:B
+*part1	*part1	*part1
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
 *M6/8	*M6/8	*
-=1	=1	=1
+=160	=160	=160
 !	!LO:TX:t=[[quarter]=88]	!
 4AAA'^^< 4AA	(16ff^LL 16gg#X 16eee	sfz
 .	16dddJ)	.
@@ -20,7 +23,7 @@
 .	16ddd	.
 8DD^^<J 8D	16gg# 16ggg	.
 .	16fffJJ	.
-=2	=2	=2
+=161	=161	=161
 8BBB^^<L 8BB	16gg#X^LL 16gggni	.
 .	16fff	.
 8CC^^< 8C	16eee	.
@@ -33,7 +36,7 @@
 .	16ddd	.
 8DD^^<J 8D	16gg# 16ggg	.
 .	16fffJJ	.
-=3	=3	=3
+=162	=162	=162
 4AAA'^^< 4AA	(16ff^LL 16gg#X 16eee	.
 .	16dddJ)	.
 .	8ff 8gg# 8ddd	.
@@ -42,7 +45,7 @@
 8CC^^< 8C	8ff 8gg# 8ddd	.
 8DD^^<J 8D	8ffJ 8gg# 8ddd	.
 !!linebreak:original
-=4	=4	=4
+=163	=163	=163
 4AAA'^^< 4AA	(16ff^LL 16gg#X 16eee	.
 .	16dddJ)	.
 .	8ff 8gg# 8ddd	.
@@ -50,8 +53,8 @@
 8BBB^^<L 8BB	8ffL 8gg# 8ddd	.
 8CC^^< 8C	8ff 8gg# 8ddd	.
 8DD^^<J 8D	8ffJ 8gg# 8ddd	.
-=5	=5	=5
-!	!LO:TX:t=P:problem:cross-bar beaming not rendering, so all beaming in mm. 5-6 not rendering	!
+=164	=164	=164
+!	!LO:TX:t=P:problem:Cross-bar beaming still needs to be implemented.	!
 4AAA'^^< 4AA	(16ff^LL 16gg#X 16eee	.
 .	16dddJ)	.
 .	8ff 8gg# 8ddd	.
@@ -62,7 +65,7 @@
 .	16dddJJ	.
 8DD^^<J 8D	16gg#^LL 16ggg	.
 .	16fff	.
-=6	=6	=6
+=165	=165	=165
 8BBB^^<L 8BB	16eee	.
 .	16dddJJ	.
 8CC^^< 8C	16gg#X^LL 16gggni	.
@@ -76,18 +79,19 @@
 8DD^^<J 8D	16ggg	.
 .	16fffJJ	.
 !!linebreak:original
-=7	=7	=7
+=166	=166	=166
 *M2/4	*M2/4	*
 *	*8va	*
 !	!LO:TX:a:t=([eighth] = [eighth])	!
-.	(>(16qqbb/LL	fff
+.	(>(<16qqbb/LL	fff
 .	16qqeee/JJ	.
-!LO:TX:b:t=Ped.	!	!
+!LO:TX:b:t=Ped.	!LO:TUP:b	!
 8EEE^^< 8EE	40ggg#X^^LLL\ 40bbb)	.
 .	40fff#X	.
 .	40eee	.
 .	40bb	.
 *	*X8va	*
+!	!LO:TX:t=P:problem: Tuplet number should be below beams, not below bottom staff.	!
 .	40gg#X 40bb	.
 *	*	*
 *clefG2	*	*
@@ -101,31 +105,31 @@
 .	8rb<	.
 .	.	.
 *	*clefF4	*
-=8	=8	=8
-2ryy	(32ALLL	p <
-.	32B	.
-.	32c	.
-.	32d	.
-.	32e	.
-!	!LO:TX:t=P:problem: missing gliss lines	!
+=167	=167	=167
+2ryy	(32AALLL	p <
+.	32BB	.
+.	32C	.
+.	32D	.
+.	32E	.
 !	!LO:TX:a:Bi:t=gliss.	!
-.	32f	.
-.	32gJJ	.
+!	!LO:TX:t=P:problem: Missing gliss line	!
+.	32F	.
+.	32GJJ	.
 .	8.ryy	.
 .	32ryy	.
 *	*clefG2	*
-.	32eeeLL	.
-.	32fffJJJ	[
-=9	=9	=9
-32gggLLL<	8ryy	ff
-32fff	.	.
-32eee	.	.
-32ddd	.	.
-32ccc	16ryy	.
-32bb	.	.
-!	!LO:TX:b:Bi:t=gliss.	!
-!	!LO:TX:t=P:problem: missing gliss line	!
-32aa)JJ	32ryy	.
+.	32eeLL	.
+.	32ffJJJ	[
+=168	=168	=168
+32ggLLL<	8ryy	ff
+32ff	.	.
+32ee	.	.
+32dd	.	.
+32cc	16ryy	.
+32b	.	.
+!LO:TX:a:B:i:t=gliss.	!	!
+!LO:TX:t=P:problem: Missing gliss line	!	!
+32a)JJ	32ryy	.
 4ryy	4ryy	.
 *clefF4	*	*
 [32BBJk	32ryy	.
@@ -135,5 +139,5 @@
 !!!RDF**kern: i = editorial accidental, paren
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
-!!!EED: Kelsey Lussier
-!!!EEV: 2021/08/06
+!!!EED: Kelsey Lussier | Daniel Wright
+!!!EEV: 2021/08/06 | 2022/1/28
