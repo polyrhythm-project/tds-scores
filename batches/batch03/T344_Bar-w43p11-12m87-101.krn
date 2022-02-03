@@ -2,11 +2,10 @@
 !!!OTL: [T344_Bar-w43p11-12m87-101]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B
-*part4	*	*part3	*	*part2	*part2	*part1	*part1
-*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
+*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I
 *I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*
@@ -23,9 +22,9 @@
 .	.	.	.	20ff	.	20fff	.
 .	.	.	.	20ggnJJ)	.	20gggnJJ)	.
 =2	=2	=2	=2	=2	=2	=2	=2
-!	!	!LO:TX:t=P:problem:dotted barlines in only viola part between first and second beats in mm. 2-9 (88-95) missing	!	!	!	!	!
-8GG^^< 8G	.	8G^^	.	[2aa-X	.	[2aaa-X	.
+8GG^^< 8G	.	8G	.	[2aa-X	.	[2aaa-X	.
 4E 4B-X	.	8r	.	.	.	.	.
+=-	=-	=:	=:	=-	=-	=-	=-
 .	.	8G 8g^^	.	.	.	.	.
 8GG 8G	.	4e 4b-X	.	.	.	.	.
 4E~ 4B-	.	.	.	8aa-L]	.	8aaa-L]	.
@@ -36,9 +35,11 @@
 8GG^^< 8G	.	4G~^^ 4e 4b-	.	2r	.	2r	.
 .	.	.	.	.	.	.	.
 4E 4B-X	.	.	.	.	.	.	.
+=-	=-	=:	=:	=-	=-	=-	=-
 .	.	8G^^ 8g	.	.	.	.	.
 8GG 8G	.	4e 4b-X	.	.	.	.	.
-!	!	!	!	!LO:TX:a:t=IV   -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -	!	!	!
+*	*	*	*	*lig	*	*	*
+!	!	!	!	!LO:TX:a:rj:t=IV	!	!	!
 4E~ 4B-	.	.	.	(20fLL	.	(20ffLL	.
 .	.	.	.	20e	.	20ee	.
 .	.	.	.	20g-X	.	20gg-X	.
@@ -50,16 +51,18 @@
 =4	=4	=4	=4	=4	=4	=4	=4
 8GG^^< 8G	.	4G~^^ 4e 4b-X	.	8a-L]	.	8aa-L]	.
 4E 4B-X	.	.	.	(8g-X	.	(8gg-X	.
+=-	=-	=:	=:	=-	=-	=-	=-
 .	.	8G^^ 8g	.	8e-X)	.	8ee-X)	.
 8GG 8G	.	4e 4b-	.	8d-XJ	.	8dd-XJ	.
 4E~ 4B-	.	.	.	8r	.	8r	.
 .	.	8G 8g	.	8e-L	.	8ee-L	.
 4GG~^^ 4E 4B-	.	4e~ 4b-	.	8g-	.	8gg-	.
 .	.	.	.	(8a-XJ	.	(8aa-XJ	.
-!!linebreak:original
+*	*	*	*	*Xlig	*	*	*
 =5	=5	=5	=5	=5	=5	=5	=5
 8GG^^< 8G	.	4G~^^ 4e 4b-X	.	8cc-XL)	.	8ccc-XL)	.
 4E 4B-X	.	.	.	(8a-X	.	(8aa-X	.
+=-	=-	=:	=:	=-	=-	=-	=-
 .	.	8G^^ 8g	.	8g-X)	.	8gg-X)	.
 8GG 8G	.	4e 4b-	.	8cnJ	.	8ccnJ	.
 4E~ 4B-	.	.	.	8d-X	.	8dd-X	.
@@ -68,6 +71,8 @@
 =6	=6	=6	=6	=6	=6	=6	=6
 8GG^^< 8G	.	4G~^^ 4e 4b-X	.	8e-L]	.	8ee-L]	.
 4E 4B-X	.	.	.	8g-X)	.	8gg-X)	.
+=-	=-	=:	=:	=-	=-	=-	=-
+
 .	.	8G^^ 8g	.	8c	.	8cc	.
 8GG 8G	.	4e 4b-	.	8d-XJ	.	8dd-XJ	.
 4E~ 4B-	.	.	.	4e-X	.	4ee-X	.
@@ -80,6 +85,7 @@
 =7	=7	=7	=7	=7	=7	=7	=7
 8GG^^< 8G	.	4G~^^ 4e 4b-X	.	([2cc-X	.	[2ccc-X	.
 4E 4B-X	.	.	.	.	.	.	.
+=-	=-	=:	=:	=-	=-	=-	=-
 .	.	8G^^ 8g	.	.	.	.	.
 8GG 8G	.	4e 4b-	.	.	.	.	.
 4E~ 4B-	.	.	.	8cc-L]	.	8ccc-L]	.
@@ -88,25 +94,26 @@
 .	.	.	.	8d-XJ	.	8dd-XJ	.
 =8	=8	=8	=8	=8	=8	=8	=8
 8GG^^< 8G	.	4G~^^ 4e 4b-X	.	8e-X	.	8ee-X	.
-!	!	!	!	!LO:TX:t=P:problem:as far as I can tell, beams are correctly encoded but are not joining together as they should	!	!LO:TX:t=P:problem:as far as I can tell, beams are correctly encoded but are not joining together as they should	!
 4E 4B-X	.	.	.	(24enLL	.	(24eenLL	.
 .	.	.	.	24f	.	24ff	.
 .	.	.	.	24gJJ	.	24ggJJ	.
+=-	=-	=:	=:	=-	=-	=-	=-
 .	.	8G^^ 8g	.	[2a-X	.	[2aa-X	.
 8GG 8G	.	4e 4b-	.	.	.	.	.
 4E~ 4B-	.	.	.	.	.	.	.
 .	.	8G 8g	.	.	.	.	.
 4GG~^^ 4E 4B-	.	4e~ 4b-	.	8a-L])	.	8aa-L])	.
+!	!	!	!	!LO:TX:t=P:problem:cross-bar beaming	!	!LO:TX:t=P:problem:cross-bar beaming	!
 .	.	.	.	(8g-X	.	(8gg-X	.
-!!linebreak:original
 !!LO:REH:t=95
 =9	=9	=9	=9	=9	=9	=9	=9
 8GG^^< 8G	.	4G~^^ 4e 4b-X	.	8e-X)	.	8ee-X)	.
 4E 4B-X	.	.	.	8d-XJ	.	8dd-XJ	.
+=-	=-	=:	=:	=-	=-	=-	=-
 .	.	8G^^ 8g	.	4r	.	4r	.
 8GG 8G	.	4e 4b-	.	.	.	.	.
-!	!	!	!	!LO:TX:t=P:problem:as far as I can tell, beams are correctly encoded but are not joining together as they should	!	!LO:TX:t=P:problem:as far as I can tell, beams are correctly encoded but are not joining together as they should	!
-!	!	!	!	!	!	!LO:TX:a:t=IV   -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -	!
+*	*	*	*	*	*	*lig	*
+!	!	!	!	!	!	!LO:TX:a:rj:t=IV	!
 4E~ 4B-	.	.	.	(20fLL	.	(20fLL	.
 .	.	.	.	20en	.	20e	.
 .	.	.	.	20g-X	.	20g-X	.
@@ -124,6 +131,7 @@
 .	.	4e~ 4b-	.	4r	.	.	.
 .	.	.	.	.	.	20f	.
 .	.	.	.	.	.	20gnJJ)	.
+*	*	*	*	*	*	*Xlig	*
 8GG 8G	.	.	.	.	.	8r	.
 4GG~^^ 4E 4B-	.	8GL	.	(20BLL	.	(20fLL	.
 .	.	.	.	20c	.	20e	.
@@ -160,13 +168,13 @@
 8g)	.	8gg)	.	8G#	.	.	.
 8c#X	.	8cc#X	.	4f~> 4b	.	4g#~^^ 4ff 4bb	.
 8d#XJ	.	8dd#XJ	.	.	.	.	.
-!!linebreak:original
 !!LO:REH:t=100
 =14	=14	=14	=14	=14	=14	=14	=14
 (24B#XLL	.	(24b#XLL	.	4G#X~>^^ 4f 4b	.	8g#X^^	.
 24c#X	.	24cc#X	.	.	.	.	.
 24d#XJJ	.	24dd#XJJ	.	.	.	.	.
 [4.e	.	[4.ee	.	.	.	4ff 4bb	.
+=-	=-	=-	=-	=:	=:	=-	=-
 .	.	.	.	8G#^^	.	.	.
 .	.	.	.	4f 4b	.	8g#	.
 8e])	.	8ee])	.	.	.	4ff~ 4bb	.
@@ -176,6 +184,7 @@
 =15	=15	=15	=15	=15	=15	=15	=15
 8cn	.	8ccn	.	4G#X~>^^ 4f 4b	.	8g#X^^	.
 8r	.	8r	.	.	.	4ff 4bb	.
+=-	=-	=-	=-	=:	=:	=-	=-
 (20cLL	.	(20ccLL	.	8G#^^	.	.	.
 20B	.	20b	.	.	.	.	.
 20c#X	.	20cc#X	.	.	.	.	.
