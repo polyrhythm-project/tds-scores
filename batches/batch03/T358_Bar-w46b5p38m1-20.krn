@@ -3,10 +3,9 @@
 **kern	**kern	**dynam
 *grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
+*staff2	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano
 *I'Pno.	*	*
-!!pagebreak:original
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
@@ -17,33 +16,32 @@
 *ped	*	*	*
 4.G	8G	2r	mf
 .	4d	.	.
-[8G	8G	.	.
+[<8G	8G	.	.
 =2	=2	=2	=2
 4G]	4d	2r	.
-[4G	8GL	.	.
-.	[8dJ	.	.
+[<4G	8GL	.	.
+.	[>8dJ	.	.
 =3	=3	=3	=3
 *	*	*^	*
 8G]	8d]	4r	4ryy	.
 4.G	8G	.	.	.
 .	4d	8r	8ryy	.
-.	.	8ryy	[8a	.
+.	.	8ryy	[8a\	.
 =4	=4	=4	=4	=4
 4.G	8G	(8ggL	2a_	.
 .	4d	16ff#XL	.	.
 .	.	16eeJJ	.	.
 .	.	8dd'L)	.	.
-[8G	8G	(8ccJ	.	.
+[<8G	8G	(8ccJ	.	.
 =5	=5	=5	=5	=5
 4G]	4d	8dd'L)	2a_	.
 .	.	8dd'J	.	.
-[4G	8GL	(20eeLL	.	.
+[<4G	8GL	(20eeLL	.	.
 .	.	20ffn	.	.
 .	.	20ee	.	.
-.	[8dJ	.	.	.
+.	[>8dJ	.	.	.
 .	.	20ff	.	.
 .	.	20eeJJ	.	.
-!!linebreak:original
 =6	=6	=6	=6	=6
 8G]	8d]	2dd)	2a]	.
 4.G	8G	.	.	.
@@ -53,14 +51,14 @@
 .	4d	16ff#XL	.	.
 .	.	16eeJJ	.	.
 .	.	8dd'L)	.	.
-[8G	8G	(8ccJ	.	.
+[<8G	8G	(8ccJ	.	.
 =8	=8	=8	=8	=8
 4G]	4d	8b'L)	8b	.
 .	.	8g'J	8ryy	.
-[4G	8GL	(>20aLL	4ryy	.
+[<4G	8GL	(>20aLL	4ryy	.
 .	.	20b-X	.	.
 .	.	20a	.	.
-.	[8dJ	.	.	.
+.	[>8dJ	.	.	.
 .	.	20b-	.	.
 .	.	20aJJ	.	.
 *	*	*v	*v	*
@@ -74,15 +72,14 @@
 .	4d	8gJ)	.	.
 .	.	(16aLL	[4a	.
 .	.	16bJ	.	.
-[8G	8G	8ccJ	.	.
-!!linebreak:original
+[<8G	8G	8ccJ	.	.
 =11	=11	=11	=11	=11
 4G]	4d	8dd'L)	2a_	f
 .	.	8dd'J	.	.
-[4G	8GL	(20eeLL	.	.
+[<4G	8GL	(20eeLL	.	.
 .	.	20ff	.	.
 .	.	20ee	.	.
-.	[8dJ	.	.	.
+.	[>8dJ	.	.	.
 .	.	20ff	.	.
 .	.	20eeJJ	.	.
 =12	=12	=12	=12	=12
@@ -92,22 +89,23 @@
 *	*	*v	*v	*
 =13	=13	=13	=13
 4.G	8G	8d	.
-.	4d	(8gL	.
+.	4d	(>8gL	.
 .	.	16dL	.
 .	.	16gJ	.
 [8G	8G	8aJ	.
 =14	=14	=14	=14
-4G]	4d	8b'L)	.
+4G]	4d	8b'/L)	.
 .	.	8b'J	.
-[4G	8GL	(20aLL	.
+[<4G	8GL	(20aLL	.
 .	.	20b-X	.
 .	.	20a	.
-.	[8dJ	.	.
+.	[>8dJ	.	.
 .	.	20b-	.
 .	.	20aJJ)	.
 =15	=15	=15	=15
 8G]	8d]	([4g	<
 4.G	8G	.	.
+!	!	!LO:TUP:br	!
 .	4D	28gLL]	.
 .	.	28a	.
 .	.	28b	.
@@ -115,7 +113,6 @@
 .	.	28dd	.
 .	.	28ee	.
 .	.	28ffJJ)	[
-!!linebreak:original
 =16	=16	=16	=16
 *	*	*^	*
 8GG	4.GG	(8ggL	[2a	.
@@ -129,6 +126,7 @@
 8GG	[4GG	(20eeLL	.	.
 .	.	20ffn	.	.
 .	.	20ee	.	.
+!LO:TX:t=P:problem:cross-bar beaming	!	!	!	!
 [8DL	.	.	.	.
 .	.	20ff	.	.
 .	.	20eeJJ	.	.
@@ -154,7 +152,7 @@
 .	.	20a	.	.
 [8D	.	.	.	.
 .	.	20b-	.	.
-.	.	20aJJ	.	.
+.	.	20aJJ)	.	.
 *v	*v	*	*	*
 *	*v	*v	*
 =	=	=
