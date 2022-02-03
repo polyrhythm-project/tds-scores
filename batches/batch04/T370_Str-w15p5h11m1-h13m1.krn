@@ -1,108 +1,114 @@
 !!!COM: Igor (Fyodorovich) Stravinsky
 !!!OTL: [T370_Str-15/5/[11]1-[13]1]
-!!!Xfilter: extract -s 1,2,3,4,5,6,7,8,9,10,11,0,12,13
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A	*grp:B	*grp:B
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A	*grp:B	*grp:B
 *part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*	*part1	*part1
 *staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Contrabass	*	*I"Violin	*	*I"Tambourine Side Drum (snares off) Bass Drum	*	*I"Trombone	*	*I"Trumpet in A	*	*I"Bassoon	*	*I"Clarinet in A	*
-*I'Cb.	*	*I'Vln.	*	*I'Perc.	*	*I'Tbn.	*	*I'A Tpt.	*	*I'Bsn.	*	*I'A Cl.	*
-!!pagebreak:original
+*I"Contrabass	*	*I"Violin	*	*I"Tambourine, Side Drum (snares off), Bass Drum	*	*I"Trombone	*	*I"Trumpet in A	*	*I"Bassoon	*	*I"Clarinet in A	*
+*I'Cb.	*	*I'Vln.	*	*I'Tamb, SD, BD	*	*I'Tbn.	*	*I'A Tpt.	*	*I'Bsn.	*	*I'A Cl.	*
 *clefF4	*	*clefG2	*	*clefX	*	*clefF4	*	*clefG2	*	*clefF4	*	*clefG2	*
-*ITrd0c0	*	*	*	*	*	*	*	*ITrd2c3	*	*	*	*ITrd2c3	*
+*ITrd7c12	*	*	*	*	*	*	*	*ITrd2c3	*	*	*	*ITrd2c3	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[f#c#g#]	*	*k[]	*	*k[f#c#g#]	*
 *	*	*	*	*C:	*	*	*	*	*	*	*	*	*
 *M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*
-=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!LO:TX:b:i:t=[sempre stacc.]	!	!	!	!	!	!	!	!	!LO:DY:ed=brack	!LO:TX:t=[quarter]=112	!
-8G'^L	ff	8r	.	8Re\L	f	8r	.	8r	.	8GGL	ff	8r	.
-!	!	!LO:TX:t=P:problem:cross-staff beaming not implemented yet	!	!LO:TX:t=P:problem:cross-staff beaming not implemented yet	!	!	!	!LO:TX:a:t=Solo	!	!	!	!	!
+!!LO:REH:t=11
+=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71
+!	!	!LO:TX:b:i:t=[sempre stacc.]	!	!	!	!	!	!	!	!	!LO:DY:ed=brack	!LO:TX:t=[[quarter]=112]	!
+!	!	!	!	!LO:TX:t=P:problem:Cross-Measure beaming still needs to be implemented.	!	!	!	!	!	!	!	!	!
+8GG'^L	ff	8r	.	8Re\L	f	8r	.	8r	.	8GGL	ff	8r	.
+!	!	!LO:TX:t=P:problem:cross-Measure beaming still needs to be implemented.	!	!	!	!	!	!LO:TX:a:t=Solo	!	!	!	!	!
 8r	.	8GL 8d	ff	8Rb\	.	4d#X^	f	4ff#^	f	8r	.	4fff#^	fff
-8D'J 8e	.	8G 8d	.	8Re\	.	.	.	.	.	8DDJ	.	.	.
-=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
+8DD'J 8E	.	8G 8d	.	8Re\	.	.	.	.	.	8DDJ	.	.	.
+=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 8r	.	8GJ 8d	.	8Rff\	.	4d#X^	.	4ff#^	.	8r	.	4fff#^	.
-8G'L	.	8r	.	8Re\	.	.	.	.	.	8GGL	.	.	.
+8GG'L	.	8r	.	8Re\	.	.	.	.	.	8GGL	.	.	.
 8r	.	8GL 8d	.	8r	.	4d#^	.	4ff#^	.	8r	.	4fff#^	.
-8D'J 8e	.	8G 8d	.	8Rb\J	.	.	.	.	.	8DD	.	.	.
+8DD'J 8E	.	8G 8d	.	8Rb\J	.	.	.	.	.	8DD	.	.	.
 8r	.	8GJ 8d	.	8r	.	8d#L	.	8ff#L	.	8r	.	8fff#L	.
-!LO:TX:t=P:problem:cross-staff beaming not implemented yet	!	!	!	!	!	!	!	!	!	!	!	!	!
-8G'L	.	8r	.	8Re\L	.	8dnJ	.	8ee#XJ	.	8GGJ	.	8eee#XJ	.
-=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+!LO:TX:t=P:problem:Cross-Measure beaming still needs to be implemented.	!	!	!	!	!	!	!	!	!	!	!	!	!
+8GG'L	.	8r	.	8Re\L	.	8dnJ	.	8ee#XJ	.	8GGJ	.	8eee#XJ	.
+=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73
 *M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*
-8r	.	8GL 8d	.	8Rb\	.	8d#XL	.	8eeL	.	8r	.	8eeeL	.
+8r	.	8GL 8d	.	8Rb\	.	8d#XL	.	8eenL	.	8r	.	8eeenL	.
 !LO:TX:b:i:t=sempre stacc.	!	!	!	!	!	!	!	!	!	!	!	!	!
-8DJ 8e	.	8G 8d	.	8Re\	.	8dn	.	8dd#X	.	8DD	.	8ddd#X	.
+8DDJ 8E	.	8G 8d	.	8Re\	.	8dn	.	8dd#X	.	8DD	.	8ddd#X	.
 8r	.	8GJ 8d	.	8Rff\	.	8d#XJ	.	8eeJ	.	8r	.	8eeeJ	.
-=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
+=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
-8GL	.	8r	.	8Re\	.	4B#X	.	4ee#X	.	8GGL	.	4eee#X	.
+8GGL	.	8r	.	8Re\	.	4B#X	.	4ee#X	.	8GGL	.	4eee#X	.
 8r	.	8GL 8d	.	8Rb\J	.	.	.	.	.	8r	.	.	.
-8DJ 8e	.	8G 8d	.	8r	.	4B#	.	4ee#	.	8DD	.	4eee#	.
+8DDJ 8E	.	8G 8d	.	8r	.	4B#	.	4ee#	.	8DD	.	4eee#	.
 8r	.	8GJ 8d	.	8Re\L	.	.	.	.	.	8r	.	.	.
-8GL	.	8r	.	8Rb\	.	8d#XL	.	8ff#L	.	8GGJ	.	8fff#L	.
+8GGL	.	8r	.	8Rb\	.	8d#XL	.	8ff#L	.	8GGJ	.	8fff#L	.
 8r	.	8GL 8d	.	8Re\	.	8dnJ	.	8ee#J	.	8r	.	8eee#J	.
 !!pagebreak:original
-=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
+=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75
 *M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*
-8DJ 8e	.	8G 8d	.	8Rff\	.	8d#XL	.	8eeiL	.	8DDL	.	8eeeiL	.
+8DDJ 8E	.	8G 8d	.	8Rff\	.	8d#XL	.	8eeZL	.	8DDL	.	8eeeZL	.
 8r	.	8GJ 8d	.	8Re\	.	8dn	.	8dd#X	.	8r	.	8ddd#X	.
-8GL	.	8r	.	8Rb\J	.	8d#XJ	.	8eeJ	.	8GGJ	.	8eeeJ	.
-=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
+8GGL	.	8r	.	8Rb\J	.	8d#XJ	.	8eeJ	.	8GGJ	.	8eeeJ	.
+=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 8r	.	8GL 8d	.	8r	.	4dn	.	4ee#X	.	8r	.	4eee#X	.
-8DJ 8e	.	8G 8d	.	8Re\L	.	.	.	.	.	8DDL	.	.	.
+8DDJ 8E	.	8G 8d	.	8Re\L	.	.	.	.	.	8DDL	.	.	.
 8r	.	8GJ 8d	.	8Rb\	.	8d#XL	.	8ee#L	.	8r	.	8eee#L	.
-8GL	.	8r	.	8Re\	.	8c#XJ	.	8ff#J	.	8GG	.	8fff#J	.
+8GGL	.	8r	.	8Re\	.	8c#XJ	.	8ff#J	.	8GG	.	8fff#J	.
 8r	.	8GL 8d	.	8Rff\	.	8dnL	.	8ee#L	.	8r	.	8eee#L	.
-8DJ 8e	.	8G 8d	.	8Re\	.	8cnJ	.	8eeJ	.	8DDJ	.	8eeeJ	.
-=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7
+8DDJ 8E	.	8G 8d	.	8Re\	.	8cnJ	.	8eeJ	.	8DDJ	.	8eeeJ	.
+=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77
 *M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*
 8r	.	8GJ 8d	.	8r	.	8dL	.	8dd#XL	.	8r	.	8ddd#XL	.
-8GL	.	8r	.	8Rb\J	.	8cn	.	8dd	.	8GG	.	8ddd	.
+8GGL	.	8r	.	8Rb\J	.	8cn	.	8dd	.	8GG	.	8ddd	.
 8r	.	8GL 8d	.	8r	.	8e-XJ	.	8dd#XJ	.	8r	.	8ddd#XJ	.
-=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
+!!LO:REH:t=12
+=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
-8DJ 8e	.	8G 8d	.	8Re\L	.	4c#X	.	4ee	.	8DDL	.	4eee	.
+8DDJ 8E	.	8G 8d	.	8Re\L	.	4c#X	.	4ee	.	8DDL	.	4eee	.
 8r	.	8GJ 8d	.	8Rb\	.	.	.	.	.	8r	.	.	.
-8GL	.	8r	.	8Re\	.	8dL	.	8eeL	.	8GGJ	.	8eeeL	.
+8GGL	.	8r	.	8Re\	.	8dL	.	8eeL	.	8GGJ	.	8eeeL	.
 8r	.	8GL 8d	.	8Rff\	.	8BJ	.	8dd#XJ	.	8r	.	8ddd#XJ	.
-=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
+=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79
 *M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*
-8DJ 8e	.	8G 8d	.	8Re\	.	8c#XL	.	8ddL	.	8DDL	.	8dddL	.
+8DDJ 8E	.	8G 8d	.	8Re\	.	8c#XL	.	8ddnL	.	8DDL	.	8dddnL	.
 8r	.	8GJ 8d	.	8r	.	8cn	.	8cc#	.	8r	.	8ccc#	.
-8GL	.	8r	.	8Rb\J	.	8dJ	.	8ddJ	.	8GGJ	.	8dddJ	.
+8GGL	.	8r	.	8Rb\J	.	8dJ	.	8ddJ	.	8GGJ	.	8dddJ	.
 !!pagebreak:original
-=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
+=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
 8r	.	8GL 8d	.	8r	.	4c#X	.	4dd#X	.	8r	.	4ddd#X	.
-8DJ 8e	.	8G 8d	.	8Re\L	.	.	.	.	.	8DDL	.	.	.
+8DDJ 8E	.	8G 8d	.	8Re\L	.	.	.	.	.	8DDL	.	.	.
 8r	.	8GJ 8d	.	8Rb\	.	4c#	.	4dd#	.	8r	.	4ddd#	.
-8GL	.	8r	.	8Re\	.	.	.	.	.	8GGJ	.	.	.
-=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11
+8GGL	.	8r	.	8Re\	.	.	.	.	.	8GGJ	.	.	.
+=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81
 *M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*
-8r	.	8GL 8d	.	8Rff\	.	8c#XL	.	8ddL	.	8r	.	8dddL	.
-8DJ 8e	.	8G 8d	.	8Re\	.	8cn	.	8cc#	.	8DD	.	8ccc#	.
+8r	.	8GL 8d	.	8Rff\	.	8c#XL	.	8ddnL	.	8r	.	8dddnL	.
+8DDJ 8E	.	8G 8d	.	8Re\	.	8cn	.	8cc#	.	8DD	.	8ccc#	.
 8r	.	8GJ 8d	.	8Rb\J	.	8dJ	.	8ddJ	.	8r	.	8dddJ	.
-=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
+=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
-8GL	.	8r	.	8r	.	4c^	.	4dd#X^	<	8GGL	.	4ddd#X^	<
+8GGL	.	8r	.	8r	.	4cZ^	.	4dd#X^	<	8GGL	.	4ddd#X^	<
 8r	.	8GL 8d	.	8Re\L	.	.	.	.	.	8r	.	.	.
-8DJ 8e	.	8G 8d	.	8Rb\	.	4c^	.	4dd#^	.	8DDJ	.	4ddd#^	.
+8DDJ 8E	.	8G 8d	.	8Rb\	.	4c^	.	4dd#^	.	8DDJ	.	4ddd#^	.
 8r	.	8GJ 8d	.	8Re\	.	.	.	.	.	8r	.	.	.
-=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13
-8GL	.	8r	.	8Rff\	.	4c^	.	4dd#X^	.	8GGL	.	4ddd#X^	.
+=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83
+8GGL	.	8r	.	8Rff\	.	4c^	.	4dd#X^	.	8GGL	.	4ddd#X^	.
 8r	.	8GL 8d	.	8Re\	.	.	.	.	.	8r	.	.	.
-8DJ 8e	.	8G 8d	.	8Rb\J	.	4c^	.	4dd#^	[	8DDJ	.	4ddd#^	[
+8DDJ 8E	.	8G 8d	.	8Rb\J	.	4c^	.	4dd#^	[	8DDJ	.	4ddd#^	[
 8r	.	8GJ 8d	.	8r	.	.	.	.	.	8r	.	.	.
-=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14
+!!LO:REH:t=13
+=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84
 !	!	!	!LO:DY:t=%s sub.	!	!	!	!	!	!	!LO:TX:a:t=Solo	!LO:DY:t=%s sub.	!	!
-8DL 8e-X	p	8G'L 8f	p	2r	.	2r	.	2r	.	8.cL	pp	2r	.
+8DDL 8E-X	p	8G'L 8f	p	2r	.	2r	.	2r	.	8.cL	pp	2r	.
 8r	.	8r	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	16B-XJk	.	.	.
-8DJ 8f	.	8G'J 8f	.	.	.	.	.	.	.	4c	.	.	.
+8DDJ 8F	.	8G'J 8f	.	.	.	.	.	.	.	4c	.	.	.
 8r	.	8r	.	.	.	.	.	.	.	.	.	.	.
 =	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2)][(s3,s4)]s5[(s6,s7)]
+!!!system-decoration: [(s1,s2)][(s3,s4)](s5)[(s6,s7)]
 !!!RDF**kern: i = editorial accidental
+!!!RDF**kern: j = editorial accidental, bracket
+!!!RDF**kern: Z = editorial accidental, parentheses
+!!!EED: Rafael Laurindo | Daniel Wright
+!!!EEV: 2021/7/21 | 2022/2/3
