@@ -3,10 +3,9 @@
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I
 *I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *	*	*	*	*	*	*	*
@@ -15,18 +14,21 @@
 !	!	!	!	!	!	!LO:TX:t=[quarter]=110	!
 2r	.	(<8CL	pp	1r	.	1r	.
 .	.	8dJ	.	.	.	.	.
-.	.	8E/ 8ee/	.	.	.	.	.
+!	!	!LO:N:n=1:head=dia	!	!	!	!	!
+.	.	8E/	.	.	.	.	.
 .	.	4d)	.	.	.	.	.
 !LO:TX:t=P:problem:cross-staff beaming not implemented yet	!	!	!	!	!	!	!
 (8GG#XL	p	.	.	.	.	.	.
 8AA#XJ	.	(>8C	.	.	.	.	.
 8BB	.	8dL	.	.	.	.	.
+!	!	!LO:N:head=dia	!	!	!	!	!
 [8AA#L	.	8EJ	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2
 8AA#J]	.	4d)	.	2r	.	1r	.
 8GG#XL	.	.	.	.	.	.	.
 8DD#XJ)	.	(8CL	.	.	.	.	.
 (8GG#	.	8dJ	.	.	.	.	.
+!	!	!LO:N:head=dia	!	!	!	!	!
 4AA#X	.	8E	.	4r	.	.	.
 .	.	4d)	.	.	.	.	.
 4BB	.	.	.	8r	.	.	.
@@ -34,19 +36,21 @@
 .	.	(>8C	.	(8c#XL	p	.	.
 =3	=3	=3	=3	=3	=3	=3	=3
 8AA#X	.	8dL	.	8d#X	.	1r	.
+!	!	!LO:N:head=dia	!	!	!	!	!
 8GG#XL	.	8EJ	.	8f#XJ)	.	.	.
 8DD#XJ)	.	4d)	.	(8gn^	.	.	.
 (8GG#	.	.	.	4f#	.	.	.
 4AA#	.	(8C	.	.	.	.	.
 .	.	8dL	.	8d#)	.	.	.
+!	!	!LO:N:head=dia	!	!	!	!	!
 4BB	.	8EJ	.	(8c#XL	.	.	.
 !	!	!LO:TX:t=P:problem:cross-staff beaming not implemented yet	!	!	!	!	!
 .	.	[8dL	.	8d#	.	.	.
-!!linebreak:original
 =4	=4	=4	=4	=4	=4	=4	=4
 8AA#X	.	8dJ])	.	8gJ)	.	(<8g#XL	p
 8GG#XL	.	(>8C	.	8f#X~	.	8a#X	.
 8DD#XJ)	.	8dL	.	(8c#XL	.	8cc#XJ)	.
+!	!	!LO:N:head=dia	!	!	!	!	!
 (8GG#L	.	8EJ	.	8d#X	.	(8ddn^	.
 8AA#J	.	4d)	.	8f#J)	.	4cc#	.
 4BB	.	.	.	(8g^	.	.	.
@@ -54,11 +58,13 @@
 !	!	!	!	!	!	!LO:TX:t=P:problem:cross-staff beaming not implemented yet	!
 8DD#)	.	8d	.	.	.	(8g#L	.
 =5	=5	=5	=5	=5	=5	=5	=5
+!	!	!LO:N:head=dia	!	!	!	!	!
 (8GG#XL	.	8E	.	8d#X)	.	8a#X	.
 8AA#XJ	.	4d)	.	(8c#XL	.	8ddJ)	.
 4BB	.	.	.	8d#	.	8cc#X~	.
 .	.	(>8C	.	8gJ)	.	(<8g#XL	.
 4GG#	.	8dL	.	8f#X~	.	8a#	.
+!	!	!LO:N:head=dia	!	!	!	!	!
 .	.	8EJ	.	(8c#L	.	8cc#J)	.
 8CC#X)	.	8d)	.	8d#	.	(8dd^	.
 *	*	*clefG2	*	*	*	*	*
@@ -66,29 +72,34 @@
 =6	=6	=6	=6	=6	=6	=6	=6
 4D	.	8ee	.	(8g	.	8cc#J])	.
 .	.	8ggJ)	.	4f#X	.	(8g#XL	.
-4EE 4e	.	(8aa-X	.	.	.	8a#X	.
+!LO:N:n=1:head=dia	!	!	!	!	!	!	!
+4EE/ 	.	(8aa-X^	.	.	.	8a#X	.
 .	.	4gg	.	4d#X	.	8ddJ	.
 8D)	.	.	.	.	.	8cc#X)	.
 (<4CC	.	8ee)	.	4c#X	.	(8g#L	.
 .	.	(8ddL	.	.	.	8a#	.
 8DL	.	8ee	.	8B-X)	.	8cc#J	.
 =7	=7	=7	=7	=7	=7	=7	=7
-8EEJ)	.	8aa-XJ)	.	4.B-X	.	8dd)	.
+!LO:N:head=dia	!	!	!	!	!	!	!
+8EELJ)	.	8aa-XJ)	.	4.B-X	.	8dd)	.
 (>8CC	.	(8ddd-XL	.	.	.	(<8g#XL	.
 8D	.	8aa-J	.	.	.	8a#X	.
+!LO:N:head=dia	!	!	!	!	!	!	!
 4EE)	.	4gg)	.	(8g	.	8cc#XJ)	.
 .	.	.	.	4f#X	.	(8dd^	.
 *	*	*clefC3	*	*	*	*	*
 (>8CC	.	(8dL	.	.	.	4cc#)	.
 8DL	.	8e	.	4d#X	.	.	.
+!LO:N:head=dia	!	!	!	!	!	!	!
 8EEJ	.	8gJ)	.	.	.	(8g#L	.
-!!linebreak:original
 =8	=8	=8	=8	=8	=8	=8	=8
 4D	.	(4a-X	.	8c#X	.	8a#X	.
 .	.	.	.	4.B-X)	.	8cc#XJ)	.
+!LO:N:head=dia	!	!	!	!	!	!	!
 8EE)	.	8dd-X	.	.	.	(4dd	.
 (>8CC	.	[4.a-	.	.	.	.	.
 8DL	.	.	.	(8c#	.	8gg	.
+!LO:N:head=dia	!	!	!	!	!	!	!
 8EEJ	.	.	.	4.B-)	.	8dd	.
 4D)	.	8a-L]	.	.	.	4cc#)	.
 .	.	8gJ)	.	.	.	.	.
@@ -96,34 +107,40 @@
 (>8CC	.	8r	.	1B-X	.	(8dL	.
 4D	.	(8G#XL	.	.	.	8gJ)	.
 .	.	8c#XJ)	.	.	.	(>4a-X	.
+!LO:N:head=dia	!	!	!	!	!	!	!
 4EE)	.	4.d	.	.	.	.	.
 .	.	.	.	.	.	8dd-X	.
 (8CC	.	.	.	.	.	8a-	.
 8DL	.	(8G#L	.	.	.	[4g	.
+!LO:N:head=dia	!	!	!	!	!	!	!
 8EEJ)	.	8c#J)	.	.	.	.	.
 =10	=10	=10	=10	=10	=10	=10	=10
 (4CC	.	4d	.	[1B-X	.	8gL]	.
 .	.	.	.	.	.	8a-XJ)	.
-!	!	!LO:TX:b:i:t=cresc.	!	!	!	!LO:TX:b:i:t=cresc.	!
-8DL	.	4G#X	.	.	.	(8g	.
+8DL	.	4G#X	<	.	.	(8g	<
+!LO:N:head=dia	!	!	!	!	!	!	!
 8EEJ)	.	.	.	.	.	4d)	.
 (8CC	.	4c#X	.	.	.	.	.
 8DL	.	.	.	.	.	4g	.
+!LO:N:head=dia	!	!	!	!	!	!	!
 8EEJ)	.	4G#	.	.	.	.	.
 (8CC	.	.	.	.	.	(8dL	.
 =11	=11	=11	=11	=11	=11	=11	=11
 *	*	*	*	*	*	*^	*
 8DL	.	4c#X	.	4.B-]	.	8fJ)	2ryy	.
+!LO:N:head=dia	!	!	!	!	!	!	!	!
 8EEJ)	.	.	.	.	.	4d	.	.
 (8CC	.	4B-X	.	.	.	.	.	.
 8DL	.	.	.	8r	.	4e	.	.
+!LO:N:head=dia	!	!	!	!	!	!	!	!
 8EEJ)	.	4Cn 4c#X	.	4r	.	.	8ryy	.
-8r	.	.	.	.	.	([8dL	8dL	.
+8r	.	.	.	.	.	([<8dL	8dL	.
 8r	.	8B- 8cn	.	8r	.	8eJ)	8dJ]	.
 [8c#X	pp	8r	.	[8Bn [8d#X	pp	8r	8ryy	.
 *	*	*	*	*	*	*v	*v	*
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+!!!RDF**kern: N = cue size
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below

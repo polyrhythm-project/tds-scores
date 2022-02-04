@@ -6,20 +6,18 @@
 *staff2	*	*staff1	*
 *I"Violin 2	*	*I"Violin 1	*
 *I'Vln. 2	*	*I'Vln. 1	*
-!!pagebreak:original
 *clefG2	*	*clefG2	*
 *k[]	*	*k[]	*
-*C:	*	*C:	*
 *M2/4	*	*M2/4	*
 =9	=9	=9	=9
-!	!LO:DY:ed=brack	!LO:TX:t=[[quarter]=140]	!LO:DY:ed=brack
-!LO:TX:t=P:problem: Cross-Measure beaming still needs to be applied.	!LO:DY:t=%s pesante	!	!LO:DY:t=%s pesante
+!	!	!LO:TX:t=[Allegro, [quarter]=136–144]	!
+!	!LO:DY:t=[ %s pesante]	!	!LO:DY:t=[ %s pesante]
 8B-XL	f	(16f#X^LL	f
 .	.	16g	.
 8c#X	.	16f#	.
 .	.	16gJ	.
 8B-J	.	8f#J)	.
-8dL	.	8f#`	.
+8dL	.	8f#v	.
 =10	=10	=10	=10
 8c#X	.	8f#XL	.
 8B-X'J	.	8aJ	.
@@ -34,15 +32,15 @@
 .	.	16aJ	.
 8B-J	.	8gJ)	.
 =12	=12	=12	=12
-!	!	!LO:TX:t=P:problem: Cross-Measure beaming still needs to be applied.	!
+!	!	!	!
 8dL	.	8f#L	.
 8c#X	.	8e-	.
-8B-XJ	.	8e-^^J	.
-8dL	.	[8f#L	.
+8B-XJ	.	8e-J	.
+8dL	.	[8f#^^<L	.
 =13	=13	=13	=13
 8c#X	.	8f#J]	.
 8B-XJ	.	(8gL	.
-8dL	.	8f)	.
+8dL	.	8f#y)	.
 8c#	.	8e-XJ	.
 =14	=14	=14	=14
 8B-XJ	.	8gL	.
@@ -52,5 +50,6 @@
 =	=	=	=
 *-	*-	*-	*-
 !!!system-decoration: {s1,s2}
+!!!RDF**kern: < = below
 !!!EED: Daniel Wright
 !!!EEV: 2021/07/14

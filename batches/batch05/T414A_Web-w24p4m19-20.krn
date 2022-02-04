@@ -3,8 +3,8 @@
 **kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part3	*part3	*part2	*part2	*part1	*part1
-*staff3	*	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*	*I"Violin I	*
+*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin I	*I"Violin I
 *I'Vc.	*	*I'Vla.	*	*I'Vln. I	*
 *clefF4	*	*clefC3	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*
@@ -13,17 +13,19 @@
 =19	=19	=19	=19	=19	=19
 !	!	!	!	!LO:TX:t=[[quarter]=42]	!
 (>8qFn/	.	.	.	.	.
-!	!LO:DY:ed=brack	!LO:TX:t=P:problem: Cross-Measure beaming still needs to be applied.	!LO:DY:ed=brack	!	!
-16f#X'LL)	p	\16B-XLL)	p	16r	.
-!LO:TX:a:t=pizz.	!	!LO:TX:a:t=pizz.	!	!LO:TX:a:t=arco	!
-16f#'JJ	>	16bn'	.	8cccn~L	p
+!	!LO:HP:t= 	!	!	!	!
+!	!LO:DY:t=[ %s ] dim.	!LO:TX:t=P:problem: Cross-Measure beaming still needs to be applied.	!LO:DY:ed=brack	!	!
+16f#X'LL)	p >	\16B-XLL)	p	16r	.
+!	!	!	!	!	!LO:HP:t= 
+!LO:TX:a:t=pizz.	!	!LO:TX:a:t=pizz.	!	!LO:TX:a:t=arco	!LO:DY:t=%s dim.
+16f#'JJ	.	16bn'	.	8cccn~L	p >
 !LO:TX:a:t=arco	!	!	!	!	!
-8r	.	16b'JJ	>	.	>
+8r	.	16b'JJ	.	.	.
 .	.	.	.	(>8qeen/	.
 .	.	16r	.	16e-X'L)	.
 !	!	!	!	!LO:TX:a:t=pizz.	!
-8qqDn/	.	.	.	.	.
-!LO:TX:t=P:problem:This grace note should appear in the treble clef with a bracket around it, as it is the sounding note for the harmonic.	!	!	!	!	!
+.	.	.	.	.	.
+!	!	!	!	!	!
 !LO:N:head=dia	!	!	!	!	!
 (16BBno<'^LL	.	8.r	.	16e-'JJ	.
 !LO:N:head=dia	!	!	!	!	!
@@ -34,14 +36,13 @@
 .	.	\16B-X~LL	.	16g-X'JJ)	.
 *clefG2	*	*	*	*	*
 16r	.	16an~JJ	.	16r	.
-!LO:TX:a:t=arco	!	!	!	!	!
+!LO:TX:a:rj:t=arco	!	!	!	!	!
 .	.	.	.	(>8qqdn/	p
 (16g#XLL	p	16r	.	16ccn~LL)	.
 !	!	!LO:TX:a:t=arco	!	!	!
 16ggn'JJ)	.	16r	.	16r	.
-!	!	!	!	!LO:TX:b:i:t=dim.	!
 .	.	(8qB-X/	p	.	.
-16r	.	/16bn'LL)	>	(>16eenJJ	.
+16r	.	/16bn'LL)	>	(>16eenJJ	>
 *clefF4	*	*	*	*	*
 =20	=20	=20	=20	=20	=20
 *M2/4	*	*M2/4	*	*M2/4	*
@@ -52,17 +53,15 @@
 16g#X'JJ)	.	16r	.	16cc#~	.
 !	!	!	!	!LO:TX:a:t=arco	!
 16r	.	16r	.	(16e-X	.
-!LO:TX:t=P:problem:This grace note should appear in the treble clef with a bracket around it, as it is the sounding note for the harmonic.	!	!LO:TX:t=P:problem:This grace note should appear in the treble clef with a bracket around it, as it is the sounding note for the harmonic.	!	!LO:TX:t=P:problem:This grace note should be the sounding note for the harmonic.	!
+!	!	!	!	!LO:TX:t=P:problem:This grace note should be the sounding note for the harmonic.	!
 !LO:N:head=dia	!	!LO:N:head=dia	!	!LO:N:head=dia	!
-16C#o<X (16F#XLL	.	(16D-o<X 16G-X	.	16gno<'JJ)	.
-!	!	!	!	!LO:TX:a:t=(   )	!
-8qqA#X/	.	8qqe-X/	.	8qdddn/	.
+16C#o<X (16F#XLL	.	(<16D-o<X 16G-X	.	16gno<'JJ)	.
+.	.	.	.	.	.
 16GGn'JJ)	.	16Cn'JJ)	.	16r	.
 .	.	.	.	(8qg#X/	.
 16r	.	16r	.	16An'LL)	.
-.	.	.	.	(8qgn/	.
-!	!	!	!	!LO:TX:t=P:problem: This open harmonic symbol should be placed under the grace note G natural, not the Eb	!
-16r	.	8r	.	16e-o<X'JJ)	.
+.	.	.	.	(8qgno</	.
+16r	.	8r	.	16e-X'JJ)	.
 (8qGGn/	.	.	.	.	.
 !LO:N:head=dia	!	!	!	!	!
 16F#oX')	.	.	.	16r	.
@@ -72,5 +71,6 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**dynam: > = dim.
+!!!RDF**kern: N = no stem
 !!!EED: Daniel Wright
 !!!EEV: 2021/07/29

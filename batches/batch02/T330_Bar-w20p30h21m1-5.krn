@@ -6,12 +6,12 @@
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
 *I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
-=1	=1	=1	=1	=1	=1	=1	=1
+!!LO:REH:t=21
+=247	=247	=247	=247	=247	=247	=247	=247
 !	!	!	!	!	!	!LO:TX:t=[[quarter]=160]	!
 4r	.	(8d#XL	mf	8r	.	8r	.
 !	!	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
@@ -21,14 +21,14 @@
 !	!LO:DY:ed=brack	!	!	!	!	!	!
 (>8D#X^	mf	.	.	16g#X	.	.	.
 .	.	.	.	16aJJ)	.	.	.
-=2	=2	=2	=2	=2	=2	=2	=2
+=248	=248	=248	=248	=248	=248	=248	=248
 8AA#X'L)	.	4E]	.	8r	.	8r	.
 8EE'	.	.	.	8dd'	.	8ff#X'	.
 (8D#X^	.	(8d#X^L	.	4cc#X~	.	(16ee#X^LL	.
 .	.	.	.	.	.	16ff#	.
 8AA#X'J)	.	8A#X'J)	.	.	.	16gg#X	.
 .	.	.	.	.	.	16aaJJ)	.
-=3	=3	=3	=3	=3	=3	=3	=3
+=249	=249	=249	=249	=249	=249	=249	=249
 8EE'L	.	8E'L	.	4.c#X	.	(16e#X^LL	.
 .	.	.	.	.	.	16f#X	.
 (8D#X^	<	(8d#X^	.	.	<	16g#X	.
@@ -37,25 +37,30 @@
 .	.	.	.	.	.	16ff#X	.
 8EE'J	.	8E'J	.	8c##X	.	16gg#X	.
 .	.	.	.	.	.	16aaJJ)	.
-=4	=4	=4	=4	=4	=4	=4	=4
-!LO:TX:t=P:problem: cross-bar and triple-grouped beams not showing	!	!LO:TX:t=P:problem: cross-bar and triple-grouped beams not showing	!	!LO:TX:t=P:problem: cross-bar and triple-grouped beams not showing	!	!	!
+=250	=250	=250	=250	=250	=250	=250	=250
+!LO:TX:t=P:problem: Cross-measure beaming still needs to be implemented.	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem: Cross-measure beaming still needs to be implemented.	!	!	!	!	!
+!	!	!	!	!LO:TX:t=P:problem: Cross-measure beaming still needs to be implemented.	!	!	!
+*	*	*	*	*grp:A	*grp:A	*	*
 (8D#X^<L/	.	(8d#X^<L/	.	(8d#X^L	.	(16e#X^LL	.
 .	.	.	.	.	.	16f#X	.
 8AA#X')	.	8A#X')	.	8A#X')	.	16g#X	.
 .	.	.	.	.	.	16aJJ)	.
 8EE'J	.	8E'J	.	8e'J	.	4r	.
 (8D#^<L/	.	(8d#^<L/	.	(8dd#X^<L/	.	.	.
-=5	=5	=5	=5	=5	=5	=5	=5
+=251	=251	=251	=251	=251	=251	=251	=251
 8AA#X')	.	8A#X')	.	8a#X')	.	(16ee#X^LL	.
 .	.	.	.	.	.	16ff#X	.
 8EE'J	.	8E'J	.	8e'J	.	16gg#X	.
 .	.	.	.	.	.	16aaJJ)	.
-(8D#X^>L/	f	(8d#X^>L/	f	(8dd#X^>L/	f	(8ddd#X^L	f
-8AA#X'J)	.	8A#X'/J)	.	8a#X'J)	.	8aa#X'J)	.
+!	!	!	!	!	!	!LO:TX:t=P:problem: Cross-measure beaming still needs to be implemented.	!
+*	*	*	*	*	*	*grp:A	*grp:A
+(8D#X^>L/	f	(8d#X^>L/	f	(8dd#X^>L/	f	(8ddd#X^	f
+8AA#X')	.	8A#X'/)	.	8a#X')	.	8aa#X')	.
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!EED: Kelsey Lussier
-!!!EEV: 2021/07/22
+!!!EED: Kelsey Lussier | Daniel Wright
+!!!EEV: 2021/07/22 | 2022/2/3

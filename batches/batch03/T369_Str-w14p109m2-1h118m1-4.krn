@@ -1,20 +1,17 @@
 !!!COM: Igor (Fyodorovich) Stravinsky
 !!!OTL: [T369_Str-w14p109m2-1h118m1-4]
-!!!Xfilter: extract -s 1,2,0,3,4,0,5,0,6,0,7,8,9,0,10,11
 **kern	**kern	**dynam	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**text	**text	**kern	**dynam	**text	**text
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
-*part5	*part5	*	*part4	*part4	*	*part3	*	*part2	*	*part2	*part2	*part1	*	*part1	*part1
-*staff7	*staff6	*	*staff5	*staff4	*	*staff3	*	*staff2	*	*staff2	*staff2	*staff1	*	*staff1	*staff1
-*I"Piano	*	*	*I"Piano	*	*	*I"P3	*	*I"Basses div.	*	*	*	*I"Bass Solo	*	*	*
-*I'Pno.	*	*	*I'Pno.	*	*	*I'Basses div.	*	*	*	*	*	*I'B. Solo	*	*	*
-!!pagebreak:original
+*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1
+*staff7	*staff6	*staff6	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano	*I"Piano	*I"Piano	*I"Piano	*I"Basses div.	*I"Basses div.	*I"Basses div.	*I"Basses div.	*I"Basses div.	*I"Basses div.	*I"Bass Solo	*I"Bass Solo	*I"Bass Solo	*I"Bass Solo
+*I'Pno.	*	*	*I'Pno.	*	*	*I'Basses	*	*	*	*	*	*I'B. Solo	*	*	*
 *clefF4	*clefF4	*	*clefF4	*clefF4	*	*clefF4	*	*clefF4	*	*	*	*clefF4	*	*	*
 *k[]	*k[]	*	*k[]	*k[]	*	*k[]	*	*k[]	*	*	*	*k[]	*	*	*
 *C:	*C:	*	*C:	*C:	*	*C:	*	*C:	*	*	*	*C:	*	*	*
-*M6/8	*M6/8	*	*M6/8	*M6/8	*	*M6/8	*	*M6/8	*	*	*	*M6/8	*	*	*
+*M6/8	*M6/8	*	*M6/8	*M6/8	*	*M6/8	*	*M6/8	*	*	*italic	*M6/8	*	*	*italic
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!LO:TX:t=[quarter]=120	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[[quarter]=120]	!	!	!
-!	!	!LO:DY:ed=brack	!	!	!LO:DY:ed=brack	!	!	!	!	!	!	!	!LO:DY:ed=brack	!	!
+!	!	!LO:DY:ed=brack	!	!	!LO:DY:ed=brack	!	!	!	!	!	!	!LO:TX:t=[[quarter]=120]	!LO:DY:ed=brack	!	!
 4.CC	8CL	mp	4.GG	8dL	mp	4%3r	.	4%3r	.	.	.	(2A	mf	Не	Eh!
 .	8A	.	.	8c	.	.	.	.	.	.	.	.	.	.	.
 .	16GL	.	.	8B	.	.	.	.	.	.	.	.	.	.	.
@@ -39,11 +36,10 @@
 4.GG	8D	.	4.D	8c	.	.	.	.	.	.	.	.	.	.	.
 .	8E	.	.	8d	.	.	.	.	.	.	.	.	.	.	.
 .	8DJ	.	.	8cJ	.	.	.	.	.	.	.	.	.	.	.
-!!pagebreak:original
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
 4.CC	8CL	.	4.GG	8BL	.	4%3r	.	4%3r	.	.	.	(8A	.	Во	viens,
 .	8A	.	.	8A	.	.	.	.	.	.	.	8B)	.	бе-	.
-.	16GL	.	.	8E	.	.	.	.	.	.	.	16ALL	.	-се-	re-
+.	16GL	.	.	8E	.	.	.	.	.	.	.	16ALL	.	-сe-	re-
 .	16FniJ	.	.	.	.	.	.	.	.	.	.	16BJJ	.	.	.
 4.GG	8G	.	4.D	8A	.	.	.	.	.	.	.	8G	.	.	-mu-
 .	8F#X	.	.	8B	.	.	.	.	.	.	.	16FLL	.	-ду-	-e
@@ -63,7 +59,7 @@
 4.CC	8GL	.	4.GG	8BL	.	8r	f	8r	f	.	.	8E]	.	.	.
 .	8F#X	.	.	8c	.	(16F#XLL	.	8B	.	Сря-	y	8B	.	Сря-	y
 .	.	.	.	.	.	16GJJ)	.	.	.	.	.	.	.	.	.
-.	8E	.	.	8d	.	([4A	.	(4c#X	.	-жай	a	(4c#X	.	-жай	a
+.	8E	.	.	8d	.	([4A	.	(<4c#X	.	-жай	a	(<4c#X	.	-жай	a
 4.GG	8D	.	4.D	8c	.	.	.	.	.	.	.	.	.	.	.
 .	8E	.	.	8B	.	16A]	.	16A	.	свадеб --	.	16A	.	свадеб --	.
 .	.	.	.	.	.	(16G)	.	(16B)	.	.	.	(16B)	.	.	.
@@ -72,3 +68,5 @@
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1[(s2,s3)][({(s4,s5)})][({(s6,s7)})]
 !!!RDF**kern: i = editorial accidental
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below

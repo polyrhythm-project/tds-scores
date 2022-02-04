@@ -3,18 +3,16 @@
 **kern	**kern	**dynam
 *grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
+*staff2	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano
 *I'Pno.	*	*
-!!pagebreak:original
 *clefF4	*clefG2	*
 *k[b-e-a-]	*k[b-e-a-]	*
 *E-:	*E-:	*
 *M2/4	*M2/4	*
 =1	=1	=1
-!	!LO:TX:t=Allegro vivace, [quarter]=120	!
+!	!LO:TX:t=Allegro vivace, [quarter]=152	!LO:DY:t=%s non legato
 4r	16e-LL	f
-!	!LO:TX:b:i:t=non legato	!
 .	16f	.
 .	16g	.
 .	16fJJ	.
@@ -23,7 +21,7 @@
 16F	.	.
 16GJJ	.	.
 =2	=2	=2
-4An	16fLL	.
+4An	16fLL^^<	.
 .	16e-JJ	.
 .	4f	.
 16FLL	.	.
@@ -32,13 +30,13 @@
 .	16dJJ	.
 =3	=3	=3
 *M3/8	*M3/8	*
-8A-L]	4e-	.
+8A-L]	4e-^^<	.
 16G-XL	.	.
 16FJ	.	.
 [8F-XJ	8B-	.
 =4	=4	=4
 *M2/4	*M2/4	*
-8F-L]	16cLL	.
+8F-L]	16cLL^^<	.
 .	16dJJ	.
 16G-XL	4e-	.
 16A-JJ	.	.
@@ -47,17 +45,16 @@
 .	16cJJ	.
 =5	=5	=5
 *M3/8	*M3/8	*
-8AL]	4d	.
+8AL]	4d^^<	.
 16A-XL	.	.
 16F#XJ	.	.
 [8GJ	8B-	.
 =6	=6	=6
-8G]	16cLL	.
+8G]	16cLL^^<	.
 .	16dJ	.
 8.G-XL	8e-	.
 .	16dL	.
 16F-XJk	16cJJ	.
-!!linebreak:original
 =7	=7	=7
 *M1/4	*M1/4	*
 8G-XL	4B-	.
@@ -75,6 +72,7 @@
 .	16b-JJ	.
 .	4cc	.
 8G	.	.
+!LO:TX:t=P:problem:cross-bar beaming	!	!
 [8cL	16b-LL	.
 .	16a-JJ	.
 =10	=10	=10
@@ -85,3 +83,5 @@
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below

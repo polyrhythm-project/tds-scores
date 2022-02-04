@@ -3,10 +3,9 @@
 **kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A
 *part3	*part3	*part2	*part2	*part1	*part1
-*staff3	*	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*	*I"Violin I	*
+*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin I	*I"Violin I
 *I'Vc.	*	*I'Vla.	*	*I'Vln. I	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*
@@ -83,7 +82,6 @@
 !	!	!LO:TX:a:t=arco	!	!	!
 .	>	([48bn	pp < [	.	.
 .	]	.	.	64g#X'JJJJ	.
-!!linebreak:original
 !!LO:REH:t=19
 =19	=19	=19	=19	=19	=19
 32r	.	48bLLL]	>	32.r	.
@@ -132,9 +130,10 @@
 .	.	.	.	48r	.
 .	.	16cc#X	[ >	.	.
 *	*	*	*	*8va	*
+!	!	!	!	!LO:TX:t=P:problem:8va not rendering	!
 .	.	.	.	(48eeee-X	p
 *	*	*	*	*X8va	*
-64FFn~LLLL	p >	.	.	48ddddnLLL	>
+64FFn~LLLL	p >	.	.	48dddnLLL	>
 64En~	.	.	.	.	.
 .	.	.	.	48ff#X	.
 64r	.	32cnJJk)	]	.	.
@@ -161,7 +160,6 @@
 .	.	40cn	.	.	.
 24Gn~JJ	]	.	.	.	.
 .	.	40bnJJJ)	]	.	.
-!!linebreak:original
 !!LO:REH:t=22
 =22	=22	=22	=22	=22	=22
 48r	.	16r	.	32.r	pp
