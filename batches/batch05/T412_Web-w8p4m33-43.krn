@@ -3,8 +3,8 @@
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I
 *I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
@@ -12,14 +12,13 @@
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
 =33	=33	=33	=33	=33	=33	=33	=33
 !	!	!	!	!	!	!LO:TX:t=P:problem: Tempo alterations should all be level on the same Horizontal Plane.		!
-!	!	!	!	!	!	!LO:TX:a:B:t=poco rit. - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	!
+!	!	!	!	!	!	!LO:TX:a:B:t=poco rit. 	!
 !	!	!	!	!	!	!LO:TX:t=[[quarter]=88]	!
 !	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:a:t=[mit Dämpfer]	!LO:DY:ed=brack
-!	!	!	!	!	!	!	!
 2FF#X_	ppp	4.G 4.e))	pp>	4.g 4.cc))	pp >	8ffL])	pp
 .	.	.	.	.	.	(8ggn	.
-.	.	.	.	.	.	8ffn	>
-.	.	((8Gn 8d#X	] >	((8f#X 8ccn	] >	[8eenJ	]
+.	.	.	]	.	]	8ffn	>
+.	.	((8Gn 8d#X	>	((8f#X 8ccn	>	[8eenJ	]
 =34	=34	=34	=34	=34	=34	=34	=34
 4FF#]	.	2G#X 2en))	]	2gn 2cc#X))	]	8ee])	.
 .	.	.	.	.	.	[4.ffn	pp > ]
@@ -69,7 +68,6 @@
 16DnJ	.	16F#XJ	.	.	.	.	.
 [8AnJ)	[	[>8fnJ)	[	.	.	.	.
 .	.	.	.	.	.	16ggnJk)	.
-!!linebreak:original
 =39	=39	=39	=39	=39	=39	=39	=39
 4A]	.	4f]	.	4%3r	.	(8ggg#XL	.
 .	.	.	.	.	.	8eeenJ	.
@@ -102,10 +100,10 @@
 =42	=42	=42	=42	=42	=42	=42	=42
 8BL]	>	8e-L]	>	4gg-X	.	4ggg-X	>
 8CnJ)	.	8EnJ)	.	.	.	.	.
-!	!	!	!	!	!	!LO:TX:a:B:t=accel. - - - - - - - - - - - - - - - - - - - - - - - - - - 	!
 8r	]	4r	]	8ffn)	.	8fffn)	]
 (/8G-XL	mf <	.	.	8r	]	8r	.
 !	!	!	!	!	!	!LO:TX:a:t=Dämpfer ab	!
+!	!	!	!	!	!	!LO:TX:a:B:t=accel. 	!
 8E-X	.	8r	.	8r	.	4r	.
 8GGnJ)	[	([8cn 8a-X	f	([8fff#X	f >	.	.
 =43	=43	=43	=43	=43	=43	=43	=43
