@@ -1,12 +1,11 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T510_Mau-w67p32m1-9]
 **kern	**kern	**dynam
-*grp:A	*grp:B	*grp:B
+*grp:A	*grp:B	*
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*	*
 *I'Pno.	*	*
-!!pagebreak:original
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
@@ -19,40 +18,43 @@
 .	4d 4f)	.
 [8B-X	.	.
 =2	=2	=2
-8B-])	(4c 4e-X 4b-X	.
-(4BBB-X	.	.
-.	8e- 8g [8b-	.
-4BB-X	4d 4f 4b-])	.
-[8B-X	([8c [8e- [8b-	.
+*	*^	*
+8B-])	(>4c 4e-X 4b-X	4ryy	.
+(4BBB-X	.	.	.
+.	[8b-	8e- 8g	.
+4BB-X	4b-])	4d 4f	.
+*	*v	*v	*
+[8B-y	(>[8c [8e- [8b-	.
 =3	=3	=3
 8B-])	8cL] 8e-] 8b-]	.
-(4BBB-X	8B-X 8d	.
-.	[8AJ [8f	<
-4BB-X	8A] 8f]	.
-.	4G~ 4e-X)	.
+(<4BBB-X\	8B-X 8d	.
+.	[>8A<J [8f	<
+4BB-X	8A<] 8f]	.
+.	4G<~> 4e-X)	.
 [8B-X	.	.
 =4	=4	=4
-8B-])	(8F 8d	.
-8r	4A 4c)	[
+8B-])	(>8F< 8d	.
+8rBB	4A< 4c<)	[
 ([8BBB-X	.	.
-8BBB-]	4G~ 4B-X	.
+8BBB-]	4G<~ 4B-X<	.
 4BB-X	.	.
-.	[8F [8d	.
+.	[8F< [8d	.
 =5	=5	=5
-4.B-X)	4.F_ 4.d_	.
-(4BBB-X	4F] 4d]	.
-[8BB-X	(8B-X 8d [8b-X	mp
+4.B-X)	4.F<_ 4.d_	.
+(<4BBB-X	8F<] 8d]	.
+.	(4B-X 4d [4b-X	mp
+[<8BB-X\	.	.
 !!linebreak:original
 =6	=6	=6
-8BB-]	4c 4e-X 4b-])	.
-[4B-X)	.	.
+8BB-X]	4c 4e-X 4b-X])	.
+[4B-X	.	.
 .	(8d 8f	.
-8B-]	4g 4b-Xi 4dd	<
+8B-])	4g 4b-y 4dd	<
 (4EE-X	.	.
 .	[8f [8a [8dd	.
 =7	=7	=7
 4.E-X)	8fL] 8a] 8dd]	.
-.	8e-X 8g)	.
+.	8e-X 8g'>)	.
 .	([8gJ [8b-X [8dd	[
 (4CC	8g] 8b-] 8dd]	.
 .	4f 4a 4dd)	.
@@ -73,4 +75,8 @@
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
-!!!RDF**kern: i = editorial accidental
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Rafael Laurindo
+!!!EED2: Jason Lee
+!!!EEV2: 2022/02/08
