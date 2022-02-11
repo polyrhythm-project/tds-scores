@@ -2,46 +2,48 @@
 !!!OTL: [T383_Str-24/20/81-86]
 **kern	**kern	**dynam
 *grp:A	*grp:B	*grp:B
-*part1	*part1	*
-*staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
-!!pagebreak:original
+*part1	*part1	*part1
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
 *M2/4	*M2/4	*
-=1	=1	=1
+=81	=81	=81
 !	!LO:TX:t=[[quarter]=84]	!LO:DY:ed=brack
-8GL	8aL 8cc#X 8ee	p
+!	!LO:T:n=1:b	!
+!	!LO:T:n=2:b	!
+!	!LO:T:n=3:a	!
+8GL	8aL] 8cc#X] 8ee]	p
 8E	8b 8dd	.
-8C#X	8a 8cc#	.
+8C#X	8a 8cc#X	.
 8GGJ	8cc#J 8ee	.
-=2	=2	=2
+=82	=82	=82
 !	!LO:TX:a:t=2/8	!
-8EEL	8gL 8b 8dd	.
+8EEL	/8gL 8b 8dd	.
 8GG	8aJ 8cc#X	.
 !	!LO:TX:a:t=3/8	!
-8C#X	[4g [4b [4dd	.
+8C#X	/[4g [4b [4dd	.
 8EJ	.	.
-=3	=3	=3
+=83	=83	=83
 8GL	8gL] 8b] 8dd]	.
 !	!LO:TX:a:t=4/8	!
 8E	[8c#XJ [8a [8cc#X [8ee	.
 8C#X	4c#] 4a] 4cc#] 4ee]	.
 8GGJ	.	.
-=4	=4	=4
+=84	=84	=84
 8EEL	8gL 8b 8dd	.
 !	!LO:TX:a:t=5/8	!
 8GG	[8c#XJ [8a [8cc#X [8ee	.
 8C#X	4c#_ 4a_ 4cc#_ 4ee_	.
 8EJ	.	.
-=5	=5	=5
+=85	=85	=85
 8GL	8c#L] 8a] 8cc#] 8ee]	.
 8E	8gJ 8b 8dd	.
 8C#X	[4c#X [4a [4cc#X [4ee	.
 8GGJ	.	.
-=6	=6	=6
+=86	=86	=86
 8EEL	8c#L] 8a] 8cc#] 8ee]	.
 8GG	8BJ 8d	.
 8C#X	[4c#X [4e	.
@@ -49,3 +51,9 @@
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/07/28
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/02/10
