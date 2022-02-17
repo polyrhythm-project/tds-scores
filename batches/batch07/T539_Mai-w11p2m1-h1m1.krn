@@ -13,7 +13,7 @@
 *F:	*F:	*	*F:	*	*F:	*
 *M3/4	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!LO:TX:t=[[quarter]=120]	!
+!	!LO:TX:t=Allegro moderato [quarter]=116	!	!	!	!LO:TX:t=Allegro moderato [quarter]=116	!
 4r	4r	.	4%3r	.	4%3r	.
 4r	4r	.	.	.	.	.
 *lig	*lig	*	*	*	*	*
@@ -30,6 +30,7 @@
 =4	=4	=4	=4	=4	=4	=4
 2GGG	2b- 2ff	.	4r	.	4r	.
 .	.	.	4r	.	4r	.
+!	!	!	!LO:TUP:a	!	!LO:TUP:a	!
 4GGG	4b- 4ff	.	(12DL	pp	(12ddL	pp
 *Xlig	*Xlig	*	*	*	*	*
 .	.	.	12E	.	12ee	.
@@ -63,6 +64,7 @@
 *Xlig	*Xlig	*	*	*	*	*
 *lig	*lig	*	*	*	*	*
 2GGG^^	2b-^^ 2ff	.	4F~)	.	4ff~)	.
+!	!	!	!LO:TUP:a	!	!LO:TUP:a	!
 .	.	.	(12DL	.	(12ddL	.
 .	.	.	12E	.	12ee	.
 .	.	.	12FJ	.	12ffJ	.
@@ -95,11 +97,22 @@
 4GGG]	4b-] 4ff]	.	2G	.	2gg	.
 2GGG	2b- 2ff	.	.	.	.	.
 *	*	*	*clefC4	*	*	*
-.	.	.	(12dLi	.	(12dddLi	.
+!	!	!	!LO:TUP:a	!	!LO:TUP:a	!
+.	.	.	(12dL	.	(12dddL	.
 .	.	.	12e	.	12eee	.
 .	.	.	12fJ	.	12fffJ	.
+!!LO:REH:t=1
+=13	=13	=13	=13	=13	=13	=13
+4GGG	4b- 4ff	.	4g)	.	4ggg)	.
+*Xlig	*Xlig	*	*	*	*	*
+*lig	*lig	*	*	*	*	*
+2CC^^	2a 2ee^^	.	(8gL	.	(8gggL	.
+.	.	.	8f	.	8fff	.
+.	.	.	8d	.	8ddd	.
+.	.	.	8eJ)	.	8eeeJ)	.
 =	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1,s2[({(s3,s4)})]
-!!!RDF**kern: i = marked note, color="hotpink", text="extra("
-!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!EED: Claudio de Freitas
+!!!EED2: Jason Lee
+!!!EEV2: 2022/02/17
