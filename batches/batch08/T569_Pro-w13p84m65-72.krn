@@ -3,8 +3,8 @@
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B
 *part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1	*part1
-*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*staff1	*
-*I"Contrabass	*	*I"Violincello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Piano	*I"Piano	*
+*staff7	*staff7	*staff6	*staff6	*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff1	*staff1/2
+*I"Contrabass	*I"Contrabass	*I"Violincello	*I"Violincello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I	*I"Piano	*I"Piano	*I"Piano
 *I'Cb.	*	*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*	*I'Pno.	*I'Pno.	*
 *clefF4	*	*clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*clefF4	*clefG2	*
 *ITrd7c12	*	*	*	*	*	*	*	*	*	*	*	*
@@ -13,21 +13,11 @@
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M12/8	*M12/8	*
 !!LO:REH:t=63
 =65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65
+*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*	*	*
 *	*	*	*	*	*	*	*	*	*	*^	*^	*
-!LO:TX:a:t=tutti arco	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*
-*	*	*	*	*	*	*	*	*	*	*	*v	*v	*
-*Xtuplet	*	*	*	*	*	*	*	*	*	*	*	*
-*	*	*	*	*	*	*	*	*	*	*^	*^	*
-!	!	!LO:TX:a:t=tutti arco	!	!	!	!	!	!	!	!	!	!	!	!
-*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*
-*	*	*	*	*	*	*	*	*	*	*	*v	*v	*
-*	*	*Xtuplet	*	*	*	*	*	*	*	*	*	*
-*	*	*	*	*	*	*	*	*	*	*^	*^	*
-!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:B:t= Allegro moderato (poco meno mosso)	!	!
-!	!	!	!	!	!	!	!	!LO:TX:t=[[quarter]=120]	!	!	!	!LO:TX:B:t=Var. III	!	!
-!	!	!LO:TX:t=arco	!	!	!	!	!	!	!	!	!	!LO:TX:t=[[quarter-dot]=120]	!	!
-!LO:TX:t=arco	!	!LO:TX:t=Tutti	!	!LO:TX:t=P:problem:Unwanted text below staff due to polymetric time signature.	!	!LO:TX:t=P:problem:Unwanted text below staff due to polymetric time signature.	!	!LO:TX:t=P:problem:Unwanted text below staff due to polymetric time signature.	!	!	!	!	!LO:TX:t=P:problem:Cross-Measure Beaming still needs to be applied.	!LO:DY:ed=brack
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[[quarter-dot]=120]	!	!
+!LO:TX:a:rj:t=Tutti	!	!LO:TX:rj:t=Tutti	!	!	!	!	!	!LO:TX:t=[[quarter]=120]	!	!	!	!LO:TX:B:t=Var. III	!	!
+!LO:TX:t=arco	!	!LO:TX:t=arco	!	!	!	!	!	!	!	!	!	!LO:TX:B:t=Allegro moderato (poco meno mosso)	!LO:TX:t=P:problem:Cross-Measure Beaming still needs to be applied.	!LO:DY:ed=brack
 16%3CC^L	f	16%3C^L	f	2%3r	.	2%3r	.	2%3r)	.	8ryy	\8CL	8ryy	\8eL	f
 .	.	.	.	.	.	.	.	.	.	8ryy	8E-XJ	8ryy	\8gJ	.
 16%3r	.	16%3r	.	.	.	.	.	.	.	.	.	.	.	.
@@ -43,7 +33,7 @@
 16%3EEE^J	.	16%3EE^J	.	.	.	.	.	.	.	.	8A-X	.	8cc	.
 .	.	.	.	.	.	.	.	.	.	8ryy	8cJ	8ryy	8eenJ	.
 16%3r	.	16%3r	.	.	.	.	.	.	.	.	.	.	.	.
-.	.	.	.	.	.	.	.	.	.	[8G^L	8GL	[8bn^L	8bL	.
+.	.	.	.	.	.	.	.	.	.	[8G^L	8GL	[8bn^L	8bnL	.
 =66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66
 16%3CC^L	.	16%3C^L	.	2%3r	.	2%3r	.	2%3r	.	8GJ]	8C	8bJ]	8e	.
 .	.	.	.	.	.	.	.	.	.	16ryy@	8E-XJ	16ryy@	\8gJ	.
@@ -63,36 +53,35 @@
 *	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*
 *	*	*	*	*	*	*	*	*	*	*	*v	*v	*
 .	.	.	.	.	.	.	.	.	.	8G^	8bn^	.
-!!pagebreak:original
 =67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67
 *	*	*	*	*Xtuplet	*	*Xtuplet	*	*	*	*	*	*
 *	*	*	*	*	*	*	*	*	*	*	*^	*
-16%3CC^	.	/16%3C^L	.	8%3r^	.	8%3r^	.	2%3r	.	4c^ 4e	4ff#X^	8b-XL	.
+16%3CC^	.	16%3C^L	.	8%3r^	.	8%3r^	.	2%3r	.	4c^ 4e	4ff#X^	8b-XL	.
 .	.	.	.	.	.	.	.	.	.	.	.	8a	.
-16%3r	.	16%3r	.	.	.	.	.	.	.	.	.	.	.
+16%3r	.	16%3rGG	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	8r	8ffn	8a-XJ	.
-8%3r^	.	\16%3f#X^	.	16%3f#X^	f	16%3ff#X^	f	.	.	8cL 8e	8eeL	8gL	.
+8%3r^	.	16%3f#X^	.	16%3f#X^	f	16%3ff#X^	f	.	.	8cL 8e	8eeL	8gL	.
 .	.	.	.	.	.	.	.	.	.	8c-X 8e-X	8ee-X	8g-X	.
-.	.	16%3r	.	16%3r	.	16%3r	.	.	.	.	.	.	.
+.	.	16%3rGG	.	16%3r	.	16%3r	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	8B-XJ 8d	8ddJ	8fJ	.
-16%3CC^	.	/16%3C^	.	8%3r^	.	8%3r^	.	.	.	4A^ 4cn	4cc^	8eL	.
+16%3CC^	.	16%3C^	.	8%3r^	.	8%3r^	.	.	.	4A^ 4cn	4cc^	8eL	.
 .	.	.	.	.	.	.	.	.	.	.	.	8f	.
-16%3r	.	16%3r	.	.	.	.	.	.	.	.	.	.	.
+16%3r	.	16%3rGG	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	8r	8dd-X	8eJ	.
 8%3r^	.	16%3f#^J	.	16%3f#^	.	16%3ff#^	.	.	.	8A-XL 8c	8ccL	8e-XL	.
 .	.	.	.	.	.	.	.	.	.	8G 8Bn	8bn	8d	.
 .	.	16%3r	.	16%3r	.	16%3r	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	8FJ 8An	8anJ	8cJ	.
 =68	=68	=68	=68	=68	=68	=68	=68	=68	=68	=68	=68	=68	=68
-16%3AAA^	.	/16%3AA^L	.	8%3r^	.	8%3r^	.	2%3r	.	4E^ 4G	4g^	8BL	.
+16%3AAA^	.	16%3AA^L	.	8%3r^	.	8%3r^	.	2%3r	.	4E^ 4G	4g^	8BL	.
 .	.	.	.	.	.	.	.	.	.	.	.	8d	.
 16%3r	.	16%3r	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	8r	8a	8cJ	.
-8%3r^	.	\16%3g^	.	16%3g^	.	16%3gg^	.	.	.	8EL 8G	8gL	8BL	.
+8%3r^	.	16%3g^>	.	16%3g^	.	16%3gg^	.	.	.	8EL 8G	8gL	8BL	.
 .	.	.	.	.	.	.	.	.	.	8D 8F	8f	8A	.
 .	.	16%3r	.	16%3r	.	16%3r	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	8CJ 8E	8eJ	8GJ	.
-16%3BBB-X^	.	/16%3BB-X^J	.	16%3r^	.	16%3r^	.	.	.	4BB-X 4D	4d	8F	.
+16%3BBB-X^	.	16%3BB-X^J	.	16%3r^	.	16%3r^	.	.	.	4BB-X 4D	4d	8F	.
 .	.	.	.	.	.	.	.	.	.	.	.	4B-X	.
 16%3r	.	16%3r	.	16%3dL	f	16%3ddL	f	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	8F	8f	.	.
@@ -118,7 +107,6 @@
 .	.	.	.	.	.	.	.	.	.	8ryy	8cnJ	8ryy	8ee-XJ	.
 16%3r	.	16%3r	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	[8G^L	8GL	[8b-X^L	8b-L	.
-!!pagebreak:original
 =70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70
 16%3CC^L	.	16%3C^L	.	2%3r	.	2%3r	.	2%3r	.	8GJ]	8C	8b-J]	8e-X	.
 .	.	.	.	.	.	.	.	.	.	16ryy@	8E-XJ	16ryy@	\8g-XJ	.
@@ -143,10 +131,10 @@
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M6/8	*M6/8	*
 *	*	*	*	*	*	*	*	*	*	*	*8va	*
 *^	*	*	*	*	*	*^	*	*	*	*^	*	*
-!LO:TX:a:t=div.	!	!	!	!	!	!	!LO:TX:a:t=div.	!	!	!	!	!	!	!	!
 *v	*v	*	*	*	*	*	*v	*v	*	*	*	*v	*v	*	*
 *	*	*	*	*	*	*	*	*Xtuplet	*	*	*	*
 *^	*	*	*	*	*	*^	*	*	*	*^	*	*
+!LO:TX:a:t=div.	!	!	!	!	!	!	!LO:TX:a:rj:t=div.	!	!	!	!	!	!	!	!
 4%3EE-X^v	4%3EEE-X^	f > ]	4%3B-X^v	f > ]	4%3dd^v	f > ]	4%3gg-X^v	4%3g-X^	f > ]	4%3bb-X^v	f > ]	8gg-X^L	2.b-X	8dddn^L 8ggg-X 8bbb-X	f
 .	.	.	.	.	.	.	.	.	.	.	.	8ff	.	8bb-X	.
 .	.	.	.	.	.	.	.	.	.	.	.	8ff-XJ	.	8cccJ 8fff-X 8aaa-X	.
@@ -174,5 +162,9 @@
 =	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)})][([(s3,s4)]s5[(s6,s7)])]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
 !!!EED: Daniel Wright
 !!!EEV: 2021/08/19
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/02/16
