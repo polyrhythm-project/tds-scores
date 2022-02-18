@@ -1,7 +1,7 @@
 !!!COM: Martinů, Bohuslav (Jan)
 !!!OTL: [T507_Mau-w40p38m1-3]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*	*grp:A	*	*grp:A	*	*grp:B	*	*grp:B	*
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B
 *part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
@@ -14,13 +14,13 @@
 *C:	*	*C:	*	*C:	*	*C:	*	*C:	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!	!	!LO:TX:t=[[quarter]=92]	!
+!	!	!	!	!	!	!	!	!LO:TX:t=Moderato, poco Allegro ([quarter]=92)	!
 4r	.	4r	.	8r	.	8r	.	8r	.
 .	.	.	.	8e'^	f	8e'^	f	8e'^	f
-8r	.	8r	.	8a'^L	.	8a'^L	.	8a'^L	.
-8EEE'^	f	8EE'^	f	8E'^J	.	16e'L	.	16e'L	.
+8r	.	8r	.	\8a'^L	.	8a'^L	.	8a'^L	.
+8EEE'^	f	8EE'^	f	/8E'^J	.	16e'L	.	16e'L	.
 .	.	.	.	.	.	16d'JJ	.	16d'JJ	.
-8AAA'^L	.	8AA'^L	.	8A'^L	.	8e'L	.	8e'L	.
+8AAA'^L	.	8AA'^L	.	\8A'^L	.	8e'L	.	8e'L	.
 16CC#XL	.	16C#XL	.	16c#X'L	.	8f#X'J	.	8f#X'J	.
 16BBBJJ	.	16BBJJ	.	16B'JJ	.	.	.	.	.
 8AAAL	.	8AAL	.	8A'L	.	16c#X'^LL	<	16c#X'^LL	<
@@ -28,18 +28,18 @@
 16FFF#XL	.	16FF#XL	.	16F#X^L	.	8e'J	.	8e'J	.
 16GGG#XJJ	<	16GG#XJJ	<	16G#XJJ	.	.	[	.	[
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-16AAALL	.	16AALL	.	16ALL	<	8e'^L	.	8e'^L	.
+\16AAALL	.	\16AALL	.	16ALL	<	8e'^L	.	8e'^L	.
 16BBB	.	16BB	.	16B	.	.	.	.	.
 16CC#X	.	16C#X	.	16c#X	.	8f#X'J	.	8f#X'J	.
 16DDJ	.	16DJ	.	16dJ	.	.	.	.	.
 8EEJ	[	8EJ	[	8eJ	[	16BLL	.	16BLL	.
 .	.	.	.	.	.	16c#XJ	<	16c#XJ	<
-16DD'^LL	.	16D'^LL	.	16d^LL	.	8d	.	8d	.
+\16DD'^LL	.	\16D'^LL	.	16d^LL	.	8d	.	8d	.
 16CC#J	.	16C#J	.	16c#J	.	.	.	.	.
 16BBBL	.	16BBL	.	16BL	.	8eJ	[	8eJ	[
 16CC#J	.	16C#J	.	16c#J	.	.	.	.	.
 8DDJ	.	8DJ	.	8dJ	.	8f#X'^L	.	8f#X'^L	.
-8CC#'^L	.	8C#'^L	.	8c#'^L	.	16eL	.	16eL	.
+8CC#'^L	.	8C#'^L	.	\8c#'^L	.	16eL	.	16eL	.
 .	.	.	.	.	.	16dJ	.	16dJ	.
 8BBB'J	.	8BB'J	.	8B'J	.	8eJ	.	8eJ	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3
@@ -60,3 +60,7 @@
 =	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4,s5)]
+!!!EED: Claudio de Freitas
+!!!EEV: 2021/09/22
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/02/16

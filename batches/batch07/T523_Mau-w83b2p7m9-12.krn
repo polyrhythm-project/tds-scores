@@ -6,21 +6,20 @@
 *staff2	*staff1	*
 *I"Piano	*	*
 *I'Pno.	*	*
-!!pagebreak:original
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
 *M2/4	*M2/4	*
 =1	=1	=1
-!	!LO:TX:t=[[quarter]=112]	!LO:DY:ed=brack
-(16CLL	(16gLL 16cc	mf
+!	!LO:TX:t=[Poco Allegro [quarter]=112]	!LO:DY:ed=brack
+(16CLL	16gLL 16cc	mf
 16G	16e	.
 16c	16g 16cc	.
 16CJJ	16eJJ	.
 16GLL	16gLL 16dd	.
 16B	16f	.
 16C	16g 16cc	.
-16GJJ)	16eJJ)	.
+16GJJ)	16eJJ)j	.
 =2	=2	=2
 (16dLL	(16fLL 16b	.
 16C	16e	.
@@ -52,3 +51,7 @@
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!EED: Rafael Laurindo
+!!!EED2: Jason Lee
+!!!EEV2: 2022/02/16

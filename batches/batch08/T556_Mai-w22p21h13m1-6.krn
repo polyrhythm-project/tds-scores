@@ -1,10 +1,10 @@
 !!!COM: Frank Martin
 !!!OTL: [T556_Mai-w22p21h13m1-6]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:B	*	*grp:C	*	*grp:C	*
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:C	*grp:C	*grp:C	*grp:C
 *part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Trombone Solo	*	*I"Clarinet in Bb	*	*I"Clarinet in Bb	*
+*staff8	*staff8	*staff7	*staff7	*staff6	*staff6	*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Contrabass	*I"Contrabass	*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I	*I"Trombone Solo	*I"Trombone Solo	*I"Clarinet in Bb	*I"Clarinet in Bb	*I"Clarinet in Bb	*
 *I'Cb.	*	*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*	*I'Tbn.	*	*I'Cl.	*	*I'Cl.	*
 *ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICbras	*	*ICww	*	*ICww	*
 *Icbass	*	*Icello	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*Itromt	*	*clars	*	*clars	*
@@ -13,11 +13,10 @@
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[b-e-]	*	*k[b-e-]	*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
-!!LO:REH:t= 16
+!!LO:REH:t=13
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=< >	!	!	!	!	!
 !	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=dolce cantabile	!LO:DY:ed= brack	!	!	!LO:TX:t=[half]=116	!
-2r	.	2r	.	2r)	.	4r)	.	4r)	.	([1b	mf	2r)	.	2r	.
+2r	.	2r	.	2r)	.	4r)	.	4r)	.	([1bN>	mf	2r)	.	2r	.
 .	.	.	.	.	.	(4G'	pp	(4c'	pp	.	.	.	.	.	.
 4CC'	pp	4CC' 4GG	pp	4E'	pp	4G'	.	4c'	.	.	.	(12GL	p	(12cL	p
 .	.	.	.	.	.	.	.	.	.	.	.	12F#X	.	12F#X	.
@@ -72,3 +71,10 @@
 !!!system-decoration: [(s1,s2)][(s3)][(s4,s5)]s6,s7,s8
 !!!RDF**kern: i = marked note, color="hotpink", text="extra("
 !!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!RDF**kern: N = hairpin accent
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Claudio de Freitas
+!!!EEV: 2021/08/28
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/02/10

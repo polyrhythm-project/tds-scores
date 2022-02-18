@@ -3,10 +3,9 @@
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I
 *I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*
 *A:	*	*A:	*	*A:	*	*A:	*
@@ -34,8 +33,9 @@
 8C#	.	8G#	.	.	.	.	.
 8GG#J)	.	8c#J)	.	.	.	8ee)	.
 =3	=3	=3	=3	=3	=3	=3	=3
-[2.CC#	.	[2.E	.	8aa~vL	pp	(8ccc#L	.
-.	.	.	.	(8ee	.	8eee)	.
+[2.CC#	.	[2.E	.	8aao~vL	pp	(8ccc#L	.
+!	!	!	!	!	!	!LO:N:	!
+.	.	.	.	(8ee	.	8eeeo)	.
 .	.	.	.	8gg#J)	.	[8bbJ	.
 .	.	.	.	(8eeL	.	8bbL]	.
 .	.	.	.	8cc#)	.	8ccc#~	.
@@ -43,7 +43,6 @@
 4.CC#]	.	4.E]	.	(8cc#L	.	8bb]	.
 .	.	.	.	8g#	.	4ee)	.
 .	.	.	.	8eJ)	.	.	.
-!!linebreak:original
 =4	=4	=4	=4	=4	=4	=4	=4
 (4DD	.	2.c#	.	(4.a	.	(8ee#X	.
 .	.	.	.	.	.	4ccc#)	.
@@ -75,7 +74,6 @@
 8BB	.	8Gn	.	.	.	8.ddn	.
 8BBnJ)	]	8dJ))	]	.	.	.	.
 .	.	.	.	.	.	16eenJk)	]
-!!linebreak:original
 =7	=7	=7	=7	=7	=7	=7	=7
 (8BBB#X	p	(4b	p	8bbL]	.	4dd~	p
 4CC#)	.	.	.	(8aa	p	.	.
@@ -89,7 +87,7 @@
 =8	=8	=8	=8	=8	=8	=8	=8
 (8DD^L	.	4.f#	.	2.ff#	.	4a)	.
 8FF#	.	.	.	.	.	.	.
-!	!	!	!	!	!	!LO:TX:b:i:t=  espress.	!
+!	!	!	!	!	!	!	!LO:DY:t=%s espress.
 8AAJ)	.	.	.	.	.	([8ff#v	p
 (8DL	<	(8DL	.	.	.	8ff#L]	.
 8C#)	.	8E)	.	.	.	8gg#	.
@@ -98,7 +96,6 @@
 (8AA#X	.	(8c#	.	.	.	(8aa#X	.
 8GG#J)	[	8g#J)	[	.	.	[8bbJ	[
 =9	=9	=9	=9	=9	=9	=9	=9
-!	!	!	!	!	!	!LO:TX:a:t=rit.	!
 (8GGn^L	mf	(8b	mf	(8dd	mf	8bbL])	mf
 8BB	.	4a)	.	4cc#)	.	(8aan	.
 8DJ	.	.	.	.	.	[8ff#J	.
@@ -106,10 +103,13 @@
 8EL)	>	(8a	>	(8cc#	>	8ff#L])	>
 (8G#X	.	4g#)	.	4b)	.	(8gg#	.
 8BJ)	.	.	.	.	.	[8eeJ	.
-!LO:TX:t=P:problem:hanging slur not implemented yet	!	!	!	!	!	!	!
 (4c#	.	(8g#	.	(8b	.	8eeL]	.
-.	.	4gn)	]	4b-X)	]	8dd	.
-8e	]	.	.	.	.	8eeJ)	]
+.	.	4gn)	.	4b-X)	.	8dd	.
+8e	]]	.	]]	.	]]	8eeJ)	]]
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/08/20
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/02/17

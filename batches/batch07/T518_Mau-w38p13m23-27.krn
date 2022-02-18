@@ -8,10 +8,8 @@
 *I'Pno.	*	*	*
 *clefF4	*	*clefG2	*
 *k[]	*	*k[]	*
-*C:	*	*C:	*
-*M4/4	*	*M4/4	*
 =23	=23	=23	=23
-!	!	!LO:TX:t=[[quarter]=115]	!
+!!LO:TX:B:t=[Allegro vivo]
 8EE-X'L	.	16r	p
 .	.	(16g^LL	.
 8C-X'J	.	16e-X	.
@@ -26,8 +24,8 @@
 .	.	16dJJ	.
 8EE-'L	.	16GLL	.
 .	.	16g^	.
-8Dn'J	.	16e-	.
-.	.	16GJJ)	[
+8Dn'J	.	16e-X	.
+.	.	16GJJ)	[[
 =24	=24	=24	=24
 8Cn'L	.	(16cc^LL	mf
 .	.	16a-X	.
@@ -42,7 +40,7 @@
 8G'J	.	16g	.
 .	.	16cJJ	.
 8F'L	.	16cc^LL	.
-.	.	16a-	.
+.	.	16a-X	.
 8C'J	.	16c)	.
 .	.	(16ee-X^JJ	[
 !!linebreak:original
@@ -63,7 +61,7 @@
 8e-X'L	.	16b-LL	.
 .	.	16f)	.
 8c'J	.	(16ccc^	.
-.	.	16aanJJ	[
+.	.	16aanJJ	[[
 *clefG2	*	*	*
 =26	=26	=26	=26
 8f#X'L	.	16eenLL	f
@@ -84,10 +82,8 @@
 16f#JJ	.	.	.
 !!linebreak:original
 =27	=27	=27	=27
-*M9/4	*	*M9/4	*
 16dLL)	.	8dd':L 8bb-X: 8ddd:	f
-!LO:TX:t=P:problem:Hanging Slurs still need to be implemented.	!	!	!
-(16dd^	.	.	.
+(16dd^i	.	.	.
 16b-X	.	8dd'J	.
 16dJJ	.	.	.
 16cc#X^LL	.	8a#X'L 8ff#X	.
@@ -106,7 +102,7 @@
 16B-XLL	.	8a#X'L 8ff#X	.
 16D	.	.	.
 16c#X^	.	8bn'J 8ggn	.
-16AnJJ	.	.	.
+16AJJ	.	.	.
 16DLL	.	8cc#X'L 8aa	.
 16cn^	.	.	.
 16A-X	.	8dd'J 8bb-X	.
@@ -128,3 +124,6 @@
 !!!system-decoration: [({(s1,s2)})]
 !!!EED: Daniel Wright
 !!!EEV: 2021/08/13
+!!!EED2: Jason Lee
+!!!EEV2: 2022/02/09
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
