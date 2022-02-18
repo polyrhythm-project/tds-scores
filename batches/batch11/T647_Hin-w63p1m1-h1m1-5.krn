@@ -1,60 +1,65 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T647_Hin-w63p1m1-h1m1-5]
 **kern	**kern	**dynam	**kern	**dynam
-!!pagebreak:original
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
+*part2	*part2	*part2	*part1	*part1
+*staff3	*staff2	*	*staff1	*
+*I"Piano	*I"Piano	*	*I"Oboe	*
+*I'Pno.	*I'Pno.	*	*I'Ob.	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
 *M2/4	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1
-!	!	!	!LO:TX:a:B:t=Munter (q etwa 120)	!
-2r	.	mf	4g	f
-.	8d 8g	.	.	.
-.	8dJ 8g	.	8gL	.
-.	.	.	8aJ	.
+!	!	!	!LO:TX:a:B:t=Munter ([quarter]  etwa 120)	!
+!	!LO:TX:t=P:problem: Cross-Measure Beaming still needs to be implemented.	!	!	!
+2ryy	/8G<L	mf	4g	f
+.	\8d 8g	.	.	.
+.	\8d 8gJ	.	8gL	.
+.	/8F<L	.	8aJ	.
 =2	=2	=2	=2	=2
-2ryy	8c 8g	.	4b-X	.
-.	8cJ 8g	.	.	.
-.	.	.	8r	.
-.	8B-X 8g	.	(16b-LL	.
+2ryy	\8c 8g	.	4b-X	.
+.	\8c 8gJ	.	.	.
+.	/8E-<L	.	8r	.
+.	\8B-X 8g	.	(16b-LL	.
 .	.	.	16ccJJ	.
 =3	=3	=3	=3	=3
-2r	8B-XJ 8g	.	8cc#XL)	.
-.	.	.	8a	.
-.	8A 8g	.	8e	.
-.	8AJ 8g	.	8fnJ	.
+2ryy	\8B-X 8gJ	.	8cc#XL)	.
+.	/8D<L	.	8a	.
+.	\8A 8g	.	8e	.
+.	\8A 8gJ	.	8fnJ	.
 =4	=4	=4	=4	=4
-2r	.	< [	(4ff#X~	<
-.	8fn 8a	.	.	.
-.	8f#XJ 8a#X	.	4ee~	[
-.	.	.	.	.
+2ryy	/8C#<L	.	(4ff#X~	.
+.	\8fn 8a	<	.	<
+.	\8f#X 8a#XJ	[[	4ee~	.
+.	/8F#<L	.	.	.
 =5	=5	=5	=5	=5
-2r	8f#X 8a#X	.	8ee-X)	.
-.	8gJ 8b	.	8r	.
-.	.	.	4aa-X	.
-.	8a-X 8ccn	.	.	.
+2ryy	\8f#X 8a#X	.	8ee-X)	[
+.	\8g 8bJ	.	8r	.
+.	/8Fn<L	.	4aa-X	.
+.	\8a-X 8ccn	.	.	.
 =6	=6	=6	=6	=6
-2r	8anJ 8cc#X	.	(16ggLL	.
+2ryy	\8an 8cc#XJ	.	(16ggLL	.
 .	.	.	16ff#X)	.
-.	.	.	(16gg	.
+.	/8E<L	.	(16gg	.
 .	.	.	16ff#JJ)	.
-.	8B#X 8d#X	.	[4b	.
-.	8c#XJ 8e	.	.	.
+.	\8B#X 8d#X	.	[4b	.
+.	\8c#X 8eJ	.	.	.
 =7	=7	=7	=7	=7
-2r	.	.	8b]	.
-.	8c#X 8e	.	8r	.
-.	8dJ 8fn	.	4ee	.
-.	.	.	.	.
+2ryy	/8A<L	.	8b]	.
+.	\8c#X 8e	.	8r	.
+.	\8d 8fnJ	.	4ee	.
+.	/8A-<L	.	.	.
 =8	=8	=8	=8	=8
-2r	8d 8f	.	(16ee-XLL	.
+2ryy	\8d 8f	.	(16ee-XLL	.
 .	.	.	16dd)	.
-.	8e-XJ 8g-X	.	(16ee-	.
+.	\8e-X 8g-XJ	.	(16ee-	.
 .	.	.	16ddJJ)	.
-.	.	.	[4g	.
-.	8d 8gn	.	.	.
+.	/8Gn<L	.	[4g	.
+.	\8d 8gn	.	.	.
 !!linebreak:original
 =9	=9	=9	=9	=9
-4r	8dJ 8g	.	8gL]	.
+4r	\8d 8gJ	.	8gL]	.
 .	8r	.	(8d#X^	.
 8r	8r	.	8e)	.
 8D	8A 8a	>	8fnJ	.
@@ -67,66 +72,62 @@
 8r	8r	.	8ccL)	.
 8En	8Bn 8g	.	8bn	.
 4r	4r	]	8ee	.
-.	.	.	8gg#XJ	]
+.	.	.	8gg#XJ	]]
 *clefG2	*	*	*	*
 =12	=12	=12	=12	=12
 *^	*	*	*	*
-2r	8fL	.	p	4aa	mf
-*v	*v	*^	*	*	*
-.	(16ccLL	8a	.	.	.
-.	16ddJ)	.	.	.	.
-.	8ccJ	8aJ	.	8ffnL	.
-*^	*v	*v	*	*	*
-.	8eL	.	.	8eeJ	.
+2ryy	/8fL	8ryy	p	4aa	mf
+.	\8a>	/(16ccLL	.	.	.
+.	.	16ddJ)	.	.	.
+.	\8a>J	8ccJ	.	8ffnL	.
+.	/8eL	8ryy	.	8eeJ	.
 *v	*v	*	*	*	*
+!!LO:REH:t=1
 =13	=13	=13	=13	=13
 *	*^	*	*	*
-!	!	!	!	!LO:TX:a:B:t=1	!
-2r	(16bLL	8a	.	4bb	.
-.	16ccJ)	.	.	.	.
-.	8bJ	8aJ	<	.	.
-*^	*v	*v	*	*	*
-.	8dL	8ryy	[	8r	.
-*v	*v	*^	*	*	*
-.	(16eeLL	8g	.	(16aaLL	<
-.	16ffJ)	.	.	16bbJJ	[
+2ryy	\8a	/(>16bLL	.	4bb	.
+.	.	/16ccJ)	.	.	.
+.	\8aJ	/8bJ	<	.	.
+.	/8d<L	8ryy	.	8r	.
+.	\8g	/(>16eeLL	.	(16aaLL	<
+.	.	/(16ffJ)	[[	16bbJJ	[[
 *	*v	*v	*	*	*
 =14	=14	=14	=14	=14
 *M3/8	*M3/8	*	*M3/8	*
 *	*^	*	*	*
-.	8eeJ	8gJ	>	8cccL)	>
+8ryy	\8gJ	/8eeJ	>	8cccL)	>
 *	*v	*v	*	*	*
-8c	8r	]	8gg	]
+8c	8r	]]	8gg	]]
 8r	8r	.	8ff#XJ	.
 =15	=15	=15	=15	=15
 *M2/4	*M2/4	*	*M2/4	*
 *^	*	*	*	*
-2r	8fL	.	.	4aa	.
-*v	*v	*^	*	*	*
-.	(16ccLL	8a	.	.	.
-.	16ddJ)	.	.	.	.
-.	8ccJ	8aJ	.	8ffnL	.
-*^	*v	*v	*	*	*
-.	8eL	.	.	8eeJ	.
+2ryy	/8fL	8ryy	.	4aa	.
+.	\8a>	/(16ccLL	.	.	.
+.	.	/16ddJ)	.	.	.
+.	\8a>J	/8ccJ	.	8ffnL	.
+.	/8eL	8ryy	.	8eeJ	.
 *v	*v	*	*	*	*
 =16	=16	=16	=16	=16
 *	*^	*	*	*
-2r	(16bLL	8a	<	4bb	<
-.	16ccJ)	.	.	.	.
-.	8bJ	8aJ	.	.	.
-*^	*v	*v	*	*	*
-.	8dL	8ryy	[	8r	.
-*v	*v	*^	*	*	*
-.	(16eeLL	8g	.	(16aaLL	.
-.	16ffJ)	.	.	16bbJJ	[
+2ryy	\8a	/(>16bLL	<	4bb	<
+.	.	/16ccJ)	.	.	.
+.	\8aJ	/8bJJ	.	.	.
+.	/8d<L	8ryy	[	8r	.
+.	\8g	/(>16eeLL	.	(16aaLL	.
+.	.	/16ffJ)	.	16bbJJ	[
 *	*v	*v	*	*	*
 =17	=17	=17	=17	=17
 *M3/8	*M3/8	*	*M3/8	*
 *	*^	*	*	*
-.	8eeJ	8gJ	> ]	8cccL)	>
+8ryy	\8gJ	/8eeJ	>	8cccL)	>
 *	*v	*v	*	*	*
-8c	8r	.	8gg	]
+8c	8r	]]	8gg	]
 8r	8r	.	8ff#XJ	.
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Daniel Wright
+!!!EEV: 2022/02/18
