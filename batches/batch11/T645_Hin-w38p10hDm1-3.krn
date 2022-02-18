@@ -1,7 +1,7 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T645_Hin-w38p10hDm1-3]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:B	*
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello IV	*	*I"Violoncello III	*	*I"Violoncello II	*	*I"Violoncello I	*	*I"Solo Viola	*
@@ -13,9 +13,9 @@
 *C:	*	*C:	*	*C:	*	*C:	*	*C:	*
 *M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*
 !!LO:REH:t=D
-=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
+=41	=41	=41	=41	=41	=41	=41	=41	=41	=41
 !	!	!	!	!	!	!	!	!LO:TX:t=[[half]=120]	!LO:DY:ed=brack
-4r	.	4r	.	4r	.	4r	.	4a^	ff
+4r	.	4r	.	4r	.	4r	.	4a^>	ff
 *	*	*	*	*	*	*	*	*clefC3	*
 4AA'u	p	4AA'u	p	4C'u	p	4D'u	p	8AL	mf
 .	.	.	.	.	.	.	.	8BnJ	.
@@ -27,7 +27,7 @@
 .	.	.	.	.	.	.	.	8g)	.
 (4GGu	.	(4GGu	.	(4BBu	.	(4Eu	.	(8f#X	.
 .	.	.	.	.	.	.	.	8eJ	.
-=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
+=42	=42	=42	=42	=42	=42	=42	=42	=42	=42
 8FF#X)	.	8FF#X)	.	8AA)	.	8F#X)	.	8dL)	.
 8r	.	8r	.	8r	.	8r	.	(8c#X	.
 4BB'u	.	4BB'u	.	4D'u	.	(8F#uL	.	8G#X	.
@@ -40,7 +40,7 @@
 (8CC#Xu	.	(8FF#Xu	.	(8Du	.	(8Au	.	.	.
 4CC#')	.	4EE#X')	.	4C#X')	.	4G#X')	.	8FnL	.
 .	.	.	.	.	.	.	.	8GnJ	.
-=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+=43	=43	=43	=43	=43	=43	=43	=43	=43	=43
 4r	.	4r	.	4r	.	4r	.	(8A-XL	.
 .	.	.	.	.	.	.	.	8B-X	.
 4DDn'u	.	4DDn'u	.	4Cn'u	.	4F#X'u	.	8c)	.
@@ -56,3 +56,9 @@
 =	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1[([(s2,s3,s4,s5)])]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Claudio de Freitas
+!!!EEV: 2021/09/02
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/02/18
