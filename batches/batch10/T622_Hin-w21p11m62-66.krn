@@ -11,13 +11,11 @@
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
-*M4/4	*M4/4	*	*M4/4	*
-*	*	*	*	*
 *Xtuplet	*Xtuplet	*	*	*
 =1	=1	=1	=1	=1
 !	!	!	!LO:TX:t=[[quarter]=120]	!
-!	!	!	!LO:TX:a:t=([half] = [half-dot] vorher)	!
-(12AnL	(12cc-XL	pp	(4cc#X~ 4ee	mf
+!	!	!LO:DY:t=%s ([half] = [half-dot] vorher)	!LO:TX:a:t=([half] = [half-dot] vorher)	!
+(12AnL	(>12cc-XL	pp	(4cc#X~ 4ee	mf
 12cn	12b-X	.	.	.
 12d	12f	.	.	.
 12e-XJ	12g-XJ	.	4cc#~ 4ee)	.
@@ -46,7 +44,7 @@
 12cJ)	12e-J)	.	.	.
 !!linebreak:original
 =3	=3	=3	=3	=3
-(12AnL	(12cc-XL	.	(4aa	.
+(12AnL	(>12cc-XL	.	(4aa	.
 12cn	12b-X	.	.	.
 12d	12f	.	.	.
 12e-XJ	12g-XJ	.	8gg#XL	.
@@ -58,8 +56,8 @@
 12G#XL	12anL	.	.	.
 12B	12gn	.	.	.
 12c#X	12e	.	.	.
-.	.	.	8ccc)	[
-12dJ	12fJ	[	.	.
+.	.	.	8ccc)	.
+12dJ	12fJ	[[	.	[[
 =4	=4	=4	=4	=4
 12G#XL	12aL	mf <	(4gg	f <
 12B	12g	.	.	.
@@ -70,11 +68,11 @@
 12B-X	12d	.	4cc#X	.
 12cnJ	12e-XJ	.	.	.
 12DL	12a-L	.	.	.
-12A-	12g-	.	4dd)	[
+12A-	12g-	.	4dd)	.
 12B-	12d	.	.	.
-12cJ)	12e-J)	[	.	.
+12cJ)	12e-J)	[	.	[[
 =5	=5	=5	=5	=5
-(12AnL	(12cc-XL	>	(8ffL	>
+(12AnL	(>12cc-XL	>	(8ffL	>
 12cn	12b-X	.	.	.
 .	.	.	8ee	.
 12d	12f	.	.	.
@@ -92,3 +90,8 @@
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: > = above
+!!!EED: Claudio de Freitas
+!!!EEV: 2021/08/26
+!!!EED2: Jason Lee
+!!!EEV2: 2022/02/22
