@@ -11,11 +11,10 @@
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2		*	*clefG2	*
 *	*	*	*	*	*	*		*	*ITrd-2c-3	*
 *k[]	*	*k[]	*	*k[]	*	*k[]		*	*k[b-e-a-]	*
-*	*	*	*	*	*	*		*	*	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4		*	*M3/4	*
 !!LO:REH:t=C
 =1	=1	=1	=1	=1	=1	=1		=1	=1	=1
-!	!	!	!	!	!	!		!	!LO:TX:t=[half-dot]=66	!
+!	!	!	!	!	!	!		!	!LO:TX:t=[Schneller Ländler [half-dot]=66]	!
 !	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!		!LO:DY:ed=brack	!	!
 4CC^ 4C	ff	4C^ 4c	ff	4c^	ff	4c^		ff	8r	.
 .	.	.	.	.	.	.		.	(8eeXL	pp
@@ -68,7 +67,6 @@
 .	.	.	.	.	.	12eeJ)	.	.	.	.
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
 !	!	!	!	!LO:TX:a:t=0	!	!	!	!	!	!
-!	!	!	!	!	!	!LO:TX:t=P:problem: cross-measure beaming to be implemented	!	!	!	!
 4B-X	.	4C^	.	(8eeL	.	(8ff#XL	4a	.	(12aaXL	.
 .	.	.	.	.	.	.	.	.	12gg	.
 .	.	.	.	8ggJ	.	8aaJ)	.	.	.	.
@@ -77,7 +75,7 @@
 .	.	.	.	.	.	.	.	.	12ff	.
 .	.	.	.	8gg-XJ)	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	12ee-J)	.
-4F	.	4d	.	(8ffL	.	(8aaL	[4a	.	(8ggL	.
+4F	.	4d	.	(8ffL	.	(8aaL/	[4a	.	(8ggL	.
 !	!	!	!	!LO:TX:a:t=0	!	!	!	!	!	!
 .	.	.	.	8eeJ	.	8ff#	.	.	8bb-J	.
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
@@ -87,6 +85,7 @@
 .	.	.	.	12ffJ	.	.	.	.	.	.
 4G	.	4r	.	8aa-XL	.	((8ff#XL	4a	.	8bb-	.
 .	.	.	.	8bb-XJ	.	8eeJ)	.	.	8ddd	.
+*	*	*	*	*Xtuplet	*	*Xtuplet	*	*	*	*
 4F	.	4d	.	4ff)	.	(12aaL	4a	.	8gg	.
 .	.	.	.	.	.	12gg#	.	.	.	.
 .	.	.	.	.	.	.	.	.	8bb-J	.
@@ -96,6 +95,7 @@
 .	.	.	.	12aa-X	.	.	.	.	.	.
 .	.	.	.	.	.	8aaJ)	.	.	8ggJ)	.
 .	.	.	.	12ffJ	.	.	.	.	.	.
+*	*	*	*	*	*	*tuplet	*	*	*	*
 4G	.	4r	.	8eeL	.	(12gg#XL	2a	.	(8ccc^L	.
 .	.	.	.	.	.	12ff#	.	.	.	.
 .	.	.	.	8aa-J)	.	.	.	.	8bb-)	.
@@ -103,6 +103,7 @@
 4F	.	4d	.	(8aa-L	.	4ff#)	.	.	(8bb-^	.
 .	.	.	.	8eeJ)	.	.	.	.	8aaXJ)	.
 =8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
+*	*	*	*	*tuplet	*	*Xtuplet	*	*	*	*
 4B-X	.	4C^	.	(8eeL	.	(12ccc#XL	4a	.	(8aaX^L	.
 .	.	.	.	.	.	12bb	.	.	.	.
 .	.	.	.	8ffJ)	.	.	.	.	8ggJ)	.
@@ -119,5 +120,4 @@
 =	=	=	=	=	=	=		=	=	=
 *-	*-	*-	*-	*-	*-	*-		*-	*-	*-
 !!!system-decoration: s1[(s2,s3,s4,s5)]
-!!!Xfilter: slurcheck
 !!!RDF**kern: i = marked note, color="hotpink", text="extra("
