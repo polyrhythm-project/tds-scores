@@ -6,7 +6,6 @@
 *staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Clarinet in Eb	*
 *I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*	*I'Eb Cl.	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*clefG2	*
 *	*	*	*	*	*	*	*	*ITrd-2c-3	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[b-e-a-]	*
@@ -14,9 +13,9 @@
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!	!	!	!	!LO:TX:t=[[half-dot]=80]	!
-!	!	!	!	!	!LO:DY:t=%s cresc.	!	!LO:DY:t=%s cresc.	!LO:TX:a:B:t=Presto	!
-!	!	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:t=P:problem:Hanging slur not implemwnted yet	!LO:DY:ed=brack
-8FF#XL	f	8F#XL	f	4f#X	mf	4ff#X	mf	4ff#X)	p
+!	!	!	!	!	!LO:DY:t=%s cresc.	!	!	!LO:TX:a:B:t=Presto	!
+!	!	!	!	!	!LO:DY:ed=brack	!	!	!	!LO:DY:ed=brack
+8FF#XL	f	8F#XL	f	4f#X	mf	4ff#X	.	4ff#X)j	p
 8CC#X 8GG#X	.	8Gn 8B-X	.	.	.	.	.	.	.
 8CC# 8GG#	.	8G 8B-	.	4r	.	4f#X 4cc#X 4aa	f	4r	.
 8CC# 8GG#	.	8G 8B-	.	.	.	.	.	.	.
@@ -73,3 +72,8 @@
 =	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1[(s2,s3,s4,s5)]
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/08/26
+!!!EED2: Jason Lee
+!!!EEV2: 2022/02/23
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
