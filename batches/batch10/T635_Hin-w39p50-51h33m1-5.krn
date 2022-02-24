@@ -6,7 +6,6 @@
 *staff7	*staff6	*	*staff5	*staff4	*	*staff3	*staff2	*	*staff1	*
 *I"Piano	*	*	*I"Harp II	*	*	*I"Harp I	*	*	*I"Horn I in F	*
 *I'Pno.	*	*	*I'2.Hp.	*	*	*I'1.Hp.	*	*	*I'1.Hn.	*
-!!pagebreak:original
 *clefG2	*clefG2	*	*clefF4	*clefG2	*	*clefG2	*clefG2	*	*clefG2	*
 *	*	*	*	*	*	*	*	*	*ITrd4c7	*
 *k[]	*k[]	*	*k[b-e-a-d-g-c-f-]	*k[b-e-a-d-g-c-f-]	*	*k[b-e-a-d-g-c-f-]	*k[b-e-a-d-g-c-f-]	*	*k[b-]	*
@@ -14,14 +13,14 @@
 *M9/4	*M9/4	*	*M9/4	*M9/4	*	*M9/4	*M9/4	*	*M9/4	*
 !!LO:REH:t=33
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!	!	!	!LO:TX:t=[[half-dot]=78]	!
+!	!	!LO:DY:t=( %s )	!	!	!	!	!	!	!LO:TX:t=[[half-dot]=78]	!
 4r	4.b	ppp	2.r	2.r	.	4r	4r	.	4%9r	.
 !	!	!	!	!	!	!	!	!LO:DY:t=%s solo	!	!
 4.f#X	.	.	.	.	.	2cc-	2ccc-	p	.	.
 .	8dd#X	.	.	.	.	.	.	.	.	.
 .	[4gg#X	.	.	.	.	.	.	.	.	.
 8a#X	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!LO:TX:b:i:t=  nach jedem Ton abdämpfen	!	!	!	!	!	!
+!	!	!	!	!	!LO:DY:t=%s nach jedem Ton abdämpfen	!	!	!	!	!
 4.dd#X	8gg#L]	.	2.CC- 2.C-	2.c-	p	2cc-	2ccc-	.	.	.
 .	8ff#X'J	.	.	.	.	.	.	.	.	.
 .	4.bb	.	.	.	.	.	.	.	.	.
@@ -67,7 +66,7 @@
 8e'L	8gg	.	.	.	.	[4ee-	[4eee-	.	.	.
 8f#X'J	8ffnJ	.	.	.	.	.	.	.	.	.
 4g	4ee)	.	2.GGG- 2.GG-	2.G-	.	4ee-]	4eee-]	.	.	.
-(>8fnL	4r	.	.	.	.	4dd-	4ddd-	.	.	.
+(>8fnL\	4r	.	.	.	.	4dd-	4ddd-	.	.	.
 8e	.	.	.	.	.	.	.	.	.	.
 8ee	8aa'L	.	.	.	.	4cc-	4ccc-	.	.	.
 8ddJ	8gg'J	.	.	.	.	.	.	.	.	.
@@ -80,7 +79,7 @@
 .	8ggJ	.	.	.	.	.	.	.	.	.
 8r	4ff#X)	.	2.BBB- 2.BB-	2.B-	.	4g-]	4gg-]	.	.	.
 8f#X'	.	.	.	.	.	.	.	.	.	.
-(4.b	8r	.	.	.	.	2cc-	2ccc-	.	.	.
+(4.b/	8r	.	.	.	.	2cc-	2ccc-	.	.	.
 .	8ddn'	.	.	.	.	.	.	.	.	.
 .	8ggn'L	.	.	.	.	.	.	.	.	.
 8a#X	8ff#X'J	.	.	.	.	.	.	.	.	.
@@ -114,3 +113,7 @@
 !!!system-decoration: s1[({(s2,s3)})][({(s4,s5)})][({(s6,s7)})]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/08/27
+!!!EED2: Jason Lee
+!!!EEV2: 2022/02/23
