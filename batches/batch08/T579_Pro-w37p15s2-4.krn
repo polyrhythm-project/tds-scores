@@ -3,10 +3,9 @@
 **kern	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
-*staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Violin	*
+*staff3	*staff2	*staff2/3	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano	*I"Violin	*I"Violin
 *I'Pno.	*	*	*I'Vln.	*
-!!pagebreak:original
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
@@ -42,38 +41,37 @@
 .	.	.	8dd'J)	.
 =5	=5	=5	=5	=5
 !	!	!	!LO:TX:a:t=spicc.	!
-4AA	4r	.	8a'L	.
-.	.	.	8b'	.
-4r	4B 4c 4e	.	8cc'	.
-.	.	.	8dd'	.
-4GG	4r	.	8cc'	.
-.	.	.	8dd'J	.
+4AA	4r	.	8a'yL	.
+.	.	.	8b'y	.
+4r	4B 4c 4e	.	8cc'y	.
+.	.	.	8dd'y	.
+4GG	4r	.	8cc'y	.
+.	.	.	8dd'yJ	.
 =6	=6	=6	=6	=6
-4r	4B 4d#X 4f#X	<	8dd#X'L	<
-.	.	.	8ff#X'	.
-4FF#X	4r	.	8bb'	.
-.	.	.	8ddd#X'	.
-4r	4f# 4b 4dd#X	[	8ccc#X'	.
-.	.	.	8ddd#'J	[
-!!linebreak:original
+4r	4B 4d#X 4f#X	<	8dd#X'yL	<
+.	.	.	8ff#X'y	.
+4FF#X	4r	.	8bb'y	.
+.	.	.	8ddd#X'y	.
+4r	4f# 4b 4dd#X	[	8ccc#X'y	.
+.	.	.	8ddd#'yJ	[
 =7	=7	=7	=7	=7
-4r	4g#X^ 4b 4ee	mf	8eee'^L	mf
-.	.	.	8bb'	.
+4r	4g#X^ 4b 4ee	mf	8eee'y^L	mf
+.	.	.	8bb'y	.
 (>8qF##X/	.	.	.	.
-4G#X)	4r	.	8gg#X'	.
-.	.	.	8ee'	.
-4EE	4r	.	8ee'	.
-.	.	.	8ee'J	.
+4G#X)	4r	.	8gg#X'y	.
+.	.	.	8ee'y	.
+4EE	4r	.	8ee'y	.
+.	.	.	8ee'yJ	.
 =8	=8	=8	=8	=8
-4r	4e	.	8ee'L	.
-.	.	.	8eee'	.
-4D	4E	>	8eee'	.
-.	.	.	8eee'J	.
+4r	4e	.	8ee'yL	.
+.	.	.	8eee'y	.
+4D	4E	>	8eee'y	.
+.	.	.	8eee'yJ	.
 !	!	!	!LO:TX:a:t=pizz.	!
-4DD	4r	]	4ee	.
+4DD	4r	]]	4ee'"	.
 =9	=9	=9	=9	=9
 !	!	!	!LO:TX:a:t=arco	!
-4CC	4r	p	(8eeuL	.
+4CC	4r	p	(8eeuL	p
 .	.	.	8ffJ	.
 4r	4c 4e 4g	.	8gg)	.
 .	.	.	8r	.
@@ -100,7 +98,6 @@
 .	.	.	8bb-X)	.
 4GG	4r	.	(8ff'	.
 .	.	.	8gg'J)	.
-!!linebreak:original
 =13	=13	=13	=13	=13
 4AA-X^	4A-X^	.	8aa-X'^	.
 .	.	.	8r	.
@@ -133,9 +130,9 @@
 4C'	4r	.	8aa-X'	.
 .	.	.	8r	.
 !	!	!	!LO:TX:a:t=II	!
-!	!LO:TX:b:i:t=poco cresc.	!	!LO:TX:b:i:t=poco cresc.	!
 .	(8qaa-X/	.	.	.
-4r'	4a-X 4ee-X)	.	8aa-L	.
+!	!	!LO:HP:t=poco cresc.	!	!LO:HP:t=poco cresc.
+4r'	4a-X 4ee-X)	<	8aa-L	<
 .	.	.	8aa-	.
 4C	4r	.	8ee-X	.
 .	.	.	8ccJ	.
@@ -152,3 +149,7 @@
 !!!system-decoration: s1[({(s2,s3)})]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/08/20
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/02/24
