@@ -2,101 +2,102 @@
 !!!OTL: [T702_Cop-w1v2p66h47m1-7]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
-*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*	*part5	*part5	*part4	*	*part3	*	*part2	*	*part1	*
-*staff10	*	*staff9	*	*staff8	*	*staff7	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Piano	*	*	*I"Timpani	*	*I"Tuba	*	*I"Trombone III	*	*I"Contrabassoon	*	*I"Bassoons I.II.	*
+*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff10	*staff10	*staff9	*staff9	*staff8	*staff8	*staff7	*staff6	*staff6/7	*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Contrabass	*I"Contrabass	*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Piano	*I"Piano	*I"Piano	*I"Timpani	*I"Timpani	*I"Tuba	*I"Tuba	*I"Trombone III	*I"Trombone III	*I"Contrabassoon	*I"Contrabassoon	*I"Bassoons I.II.	*I"Bassoons I.II.
 *I'Cb.	*	*I'Vc.	*	*I'Vla.	*	*I'Pno.	*	*	*I'Timp.	*	*I'Tba.	*	*I'Tbn.	*	*I'Cbsn.	*	*I'Bsn.	*
-!!pagebreak:original
 *clefF4	*	*clefF4	*	*clefC3	*	*clefF4	*clefF4	*	*clefF4	*	*clefF4	*	*clefF4	*	*clefF4	*	*clefF4	*
-*Trd0c0	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*Trd0c0	*	*	*
+*ITrd7c12	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*ITrd7c12	*	*	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
 *M3/8	*	*M2/4	*	*M2/4	*	*M2/4	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
 !!LO:REH:t=47
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
-!LO:TX:b:i:t=marcato	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:a:t=pizz.	!	!LO:TX:a:t=arco	!	!LO:TX:t=[[quarter]=112]	!	!	!	!LO:DY:ed=brack	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:t=[[quarter]=112]	!LO:DY:ed=brack
-16BB^LL	mf	(64c#X^KLLL	mf	2r	.	16CC^	16C^	ff	16BB^	sfpp	16CC^	ff	16C^	ff	16C^	ff	16C^	ff
+!!!ONB: note that in the original, the timpani and contrabass parts have a time signature written 2/4 (3/8), with the 3/8 barlines dotted and the 2/4 barlines solid but in parentheses.
+!LO:TX:a:rj:t=pizz.	!LO:DY:t=%s marcato	!LO:TX:a:rj:t=arco	!	!LO:TX:t=[[quarter]=112]	!	!	!	!LO:DY:ed=brack	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:t=[[quarter]=112]	!LO:DY:ed=brack
+16BBB"^LL	mf	(64c#X^KLLL	mf	2r	.	16CC^	16C^	ff	16BB^	sfpp	16CC^	ff	16C^	ff	16CC^	ff	16C^	ff
 .	.	32.cnJJ)	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16DJJ	.	8C^	.	.	.	16r	16r	.	16r	.	16r	.	16r	.	16r	.	16r	.
+16DD"JJ	.	8C^	.	.	.	16r	16r	.	16r	.	16r	.	16r	.	16r	.	16r	.
 16r	.	.	.	.	.	8r	8r	.	8r	.	8r	.	8r	.	8r	.	8r	.
-16BB	.	[16C^Jk	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16F#X	.	16CLL]	.	.	.	4r	4r	.	16F#X	.	4r	.	4r	.	4r	.	4r	.
+16BBB"	.	[16C^Jk	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16FF#^"X	.	16CLL]	.	.	.	4r	4r	.	16F#X	.	4r	.	4r	.	4r	.	4r	.
 16r	.	16C'	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 =	=	=-	=-	=-	=-	=-	=-	=-	=	=	=-	=-	=-	=-	=-	=-	=-	=-
-16BB^LL	.	16D-X'	.	.	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
-16DJJ	.	16E-X'JJ	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
+16BBB"^LL	.	16D-X'	.	.	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
+16DD"JJ	.	16E-X'JJ	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 =-	=-	=	=	=	=	=	=	=	=-	=	=	=	=	=	=	=	=	=
 16r	.	16BB-X'LL	.	2r	.	2r	2r	.	8r	.	2r	.	2r	.	2r	.	2r	.
-16BBLL	.	16C'	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16F#XJJ	.	16C'	.	.	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
+16BBB"LL	.	16C'	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16FF#^/"XJJ	.	16C'	.	.	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
 16r	.	(64c#X^KL	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 .	.	32.cnJJJ)	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =	=	=-	=-	=-	=-	=-	=-	=-	=	=	=-	=-	=-	=-	=-	=-	=-	=-
-16BB^LL	.	(64c#X^KLLL	.	.	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
+16BBB"^LL	.	(64c#X^KLLL	.	.	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
 .	.	32.cnJJ)	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16DJJ	.	8C^	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
+16DD"JJ	.	8C^	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 16r	.	.	.	.	.	.	.	.	8r	.	.	.	.	.	.	.	.	.
-16BB	.	[16C^Jk	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16BBB"	.	[16C^Jk	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =-	=-	=	=	=	=	=	=	=	=-	=	=	=	=	=	=	=	=	=
-16F#^X	.	16CLL]	.	2r	.	2r	2r	.	16F#X	.	2r	.	2r	.	2r	.	2r	.
+16FF#"^X	.	16CLL]	.	2r	.	2r	2r	.	16F#X	.	2r	.	2r	.	2r	.	2r	.
 16r	.	16C'	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 =	=	=-	=-	=-	=-	=-	=-	=-	=	=	=-	=-	=-	=-	=-	=-	=-	=-
-16BB^LL	.	16D-X'	.	.	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
-16DJJ	.	16E-X'JJ	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
+16BBB"^LL	.	16D-X'	.	.	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
+16DD"JJ	.	16E-X'JJ	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 16r	.	16En'LL	.	.	.	.	.	.	8r	.	.	.	.	.	.	.	.	.
-16BBLL	.	16G'J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16F#JJ	.	8G'J	.	.	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
+16BBB/"LL	.	16G'J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16FF#^"JJ	.	8G'J	.	.	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
 16r	.	.	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
-!!pagebreak:original
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
-16BB^LL	.	16F#X'LL	.	2r	.	2r	2r	.	16BB	.	2r	.	2r	.	2r	.	2r	.
-16DJJ	.	16D'	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
+16BBB"^LL	.	16F#X'LL	.	2r	.	2r	2r	.	16BB	.	2r	.	2r	.	2r	.	2r	.
+16DD"JJ	.	16D'	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 16r	.	16C'	.	.	.	.	.	.	8r	.	.	.	.	.	.	.	.	.
-16BB	.	16E-X'JJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16F#^X	.	8FnL	.	.	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
+16BBB"	.	16E-X'JJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16FF#"^X	.	8FnL	.	.	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
 16r	.	.	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 =	=	=-	=-	=-	=-	=-	=-	=-	=	=	=-	=-	=-	=-	=-	=-	=-	=-
-16BB^LL	.	8D-XJ	.	.	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
-16DJJ	.	.	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
+16BBB"^LL	.	8D-XJ	.	.	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
+16DD"JJ	.	.	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *M10/16	*	*M10/16	*	*M10/16	*	*M10/16	*M10/16	*	*M10/16	*	*M10/16	*	*M10/16	*	*M10/16	*	*M10/16	*
-!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!	!	!	!	!	!	!	!	!
 16r	.	16E^LL	.	8%5r	.	8%5r	8%5r	.	8r	.	8%5r	.	8%5r	.	8%5r	.	8%5r	.
-16BBLL	.	16CJJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16F#X^JJ	.	16r	.	.	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
+16BBB"LL	.	16CJJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16FF#"X^JJ	.	16r	.	.	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
 16r	.	16F	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 =	=	=-	=-	=-	=-	=-	=-	=-	=	=	=-	=-	=-	=-	=-	=-	=-	=-
-16BB^LL	.	16D-X^	.	.	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
-16DJJ	.	16r	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
+16BBB"^LL	.	16D-X^	.	.	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
+16DD"JJ	.	16r	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 16r	.	16G^LL	.	.	.	.	.	.	8r	.	.	.	.	.	.	.	.	.
-16BB	.	16E-XJJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16F#^	.	16r	.	.	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
+16BBB"	.	16E-XJJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16FF#"^	.	16r	.	.	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
 16r	.	16F#X	.	.	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
-!	!	!LO:TX:b:i:t=sub	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-16BB^LL	.	16D^	p	(64f#X^KLLL	mf	2r	2r	.	16BB	.	2r	.	2r	.	2r	.	2r	.
+!	!	!	!LO:DY:rj:t=sub. %s	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16BBB"^LL	.	16D^	p	(64f#X^KLLL	mf	2r	2r	.	16BB	.	2r	.	2r	.	2r	.	2r	.
 .	.	.	.	32.fnJJ)	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16DJJ	.	16r	.	8F^	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
+16DD"JJ	.	16r	.	8F^	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 16r	.	16E^LL	.	.	.	.	.	.	8r	.	.	.	.	.	.	.	.	.
-16BB	.	16C#XJJ	.	[16F^Jk	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16F#X^	.	16r	.	16FLL]	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
+16BBB"	.	16C#XJJ	.	[16F^Jk	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16FF#"X^	.	16r	.	16FLL]	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
 16r	.	16E-XLL	.	16F'	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 =	=	=-	=-	=-	=-	=-	=-	=-	=	=	=-	=-	=-	=-	=-	=-	=-	=-
-16BB^LL	.	16Cn^JJ	.	16G-X'	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
-16DJJ	.	16r	.	16A-X'JJ	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
+16BBB"^LL	.	16Cn^JJ	.	16G-X'	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
+16DD"JJ	.	16r	.	16A-X'JJ	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 =-	=	=	=	=	=	=	=	=	=-	=	=	=	=	=	=	=	=	=
 16r	.	16B^LL	.	16E-X'LL	.	2r	2r	.	8r	.	2r	.	2r	.	2r	.	2r	.
-16BB	.	16GJJ	.	16F'	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16F#X^	.	16r	.	16F'	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
+16BBB"	.	16GJJ	.	16F'	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16FF#"X^	.	16r	.	16F'	.	.	.	.	16F#X	.	.	.	.	.	.	.	.	.
 16r	.	16c	.	(64f#X^KL	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 .	.	.	.	32.fnJJJ)	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =	=	=-	=-	=-	=-	=-	=-	=-	=	=	=-	=-	=-	=-	=-	=-	=-	=-
-16BB^LL	.	16A^	.	(64f#X^KLLL	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
+16BBB"^LL	.	16A^	.	(64f#X^KLLL	.	.	.	.	16BB	.	.	.	.	.	.	.	.	.
 .	.	.	.	32.fnJJ)	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16DJJ	.	16r	.	8F^	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
+16DD"JJ	.	16r	.	8F^	.	.	.	.	16r	.	.	.	.	.	.	.	.	.
 16r	.	16c#X^LL	.	.	.	.	.	.	8r	.	.	.	.	.	.	.	.	.
-16BB	.	16A#XJJ	.	[16F^Jk	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16BBB"	.	16A#XJJ	.	[16F^Jk	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2)][(s3,s4)][(s5)][({(s6,s7)})][(s8,s9,s10)]
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/10/08
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/01
