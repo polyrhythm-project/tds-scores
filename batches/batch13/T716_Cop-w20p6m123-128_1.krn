@@ -3,10 +3,9 @@
 **kern	**kern	**dynam
 *grp:A	*grp:B	*grp:A
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*I"Piano
 *I'Pno.	*	*
-!!pagebreak:original
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
@@ -15,68 +14,69 @@
 =1	=1	=1
 *	*^	*
 !	!LO:TX:t=[[quarter]=80]	!	!
-!	!LO:TX:b:i:t=poco rubato	!	!
-!	!LO:TX:a:t=Più Largamente	!	!
-(8DDD#XL 8DD#X	8ryy	(8bb^L 8bbb	ff
-8FFF#X 8FF#X	8ryy	8aa#X 8aaa#X	.
-8BBB 8BB	8ryy	8ff#X 8fff#X	.
-8CC#XJ 8C#X	8ryy	[8gg#XJ [8ggg#X)	.
+!	!LO:TX:a:B:t=Più Largamente	!	!LO:DY:t=%s poco rubato
+*	*	*8va	*
+(8DDD#XL 8DD#X	2ryy	(8bb^L 8bbb	ff
+8FFF#XJ 8FF#X	.	8aa#XJ 8aaa#X	.
+8BBBL 8BB	.	8ff#XL 8fff#X	.
+8CC#XJ 8C#X	.	[8gg#XJ [8ggg#X)	.
 *	*v	*v	*
 *	*	*
 *	*^	*
 8EE 8E	4ryy	2gg#] 2ggg#]	.
-*	*X8va	*	*
+*	*	*X8va	*
 4.AA 4.A)	.	.	.
-.	(8BL	.	.
+.	(<8BL	.	.
 .	8c#XJ	.	.
 =2	=2	=2	=2
 *^	*	*	*
-2ryy	(>8DDD#XL 8DD#X	4rbb	8e	.
-.	8FFF#X 8FF#X	.	[4.an)	.
-.	8BBB 8BB	(8bb\L 8bbb\)	.	.
-.	8CC#XJ 8C#X	8aa#XJ 8aaa#X	.	.
-4r	8EE/ 8E/	8ff#XL 8fff#X	2a]	.
-.	4.AA/ 4.A/)	8gg#X 8ggg#X	.	.
-8B\L	.	8ee 8eee	.	.
-8c#XJ	.	[8ff#J [8fff#)	.	.
+*	*	*^	*	*
+1ryy	(>8DDD#XL 8DD#X	8e/	2r	4rddd	.
+.	8FFF#XJ 8FF#X	[<4.an/)	.	.	.
+.	8BBBL 8BB	.	.	(>8bb\L 8bbb\)L	.
+.	8CC#XJ 8C#X	.	.	8aa#XJ 8aaa#XJ	.
+.	8EE/ 8E/	2a]	4rf<	8ff#X\L 8fff#X\L	.
+.	4.AA/ 4.A/)	.	.	8gg#XJ 8ggg#XJ	.
+.	.	.	8B<L<	8ee\L 8eee\L	.
+.	.	.	8c#<XJ	[8ff#J [>8fff#)J	.
+*	*	*v	*v	*	*
 =3	=3	=3	=3	=3
-8r	2ryy	4rbb	8e	.
-(8DDD#X 8DD#X	.	.	(4.a	.
-*	*	*8va	*	*
-8FFF#XL 8FF#X	.	)(8bb\L 8bbb\	.	.
-8BBBJ 8BB	.	8aa#XJ 8aaa#X	.	.
-8CC#XL 8C#X	4ryy	8ff#X\L 8fff#X\	2r	.
-8EEJ 8E	.	8gg#X 8ggg#X	.	.
-4AA 4A)	8ryy	8ee 8eee	.	.
-.	(>8B	8ff#J 8fff#)	.	.
-*v	*v	*	*	*
-*	*v	*v	*
-!!linebreak:original
-=4	=4	=4
-*M3/4	*M3/4	*
-8c#X	(8bbL 8bbb	.
-*clefG2	*	*
-8e	8aa#XJ 8aaa#X	.
-2a)	8ff#XL 8fff#X	.
-.	8gg#XJ 8ggg#X	.
-.	8eeL 8eee	.
-.	8ff#J 8fff#)	.
-*clefF4	*X8va	*
+8r	2ryy	8e	4rbb	.
+(>8DDD#X 8DD#X	.	(4.a	.	.
+*	*	*	*8va	*
+8FFF#XL 8FF#X	.	.	)(>8bb\L 8bbb\	.
+8BBBJ 8BB	.	.	8aa#XJ 8aaa#X	.
+8CC#XL 8C#X	4ryy	4ryy	8ff#X\L 8fff#X\	.
+8EEJ 8E	.	.	8gg#XJ 8ggg#X	.
+4AA 4A)	8ryy	4ryy	8eeL 8eee	.
+.	(>8BL	.	8ff#J 8fff#)	.
+*	*	*v	*v	*
+=4	=4	=4	=4
+*M3/4	*M3/4	*M3/4	*
+8ryy	8c#XJ	(8bbL 8bbb	.
+*clefG2	*	*	*
+8ryy	8e	8aa#XJ 8aaa#X	.
+2ryy	2a)	8ff#XL 8fff#X	.
+.	.	8gg#XJ 8ggg#X	.
+.	.	8eeL 8eee	.
+.	.	8ff#J 8fff#)	.
+*clefF4	*	*X8va	*
+*v	*v	*	*
 =5	=5	=5
 *M4/4	*M4/4	*
 *	*^	*
-(8DDD#XL 8DD#X	2ryy	(8dd 8ddd	.
-8FFFn 8FFn	.	4.ee 4.eee)	.
-8DDn 8Dn	.	.	.
+(8DDD#XL 8DD#X	2rB	(8dd 8ddd	.
+8FFFnJ 8FFn	.	4.ee 4.eee)	.
+8DDnL 8Dn	.	.	.
 8FFJ 8F	.	.	.
-8GG 8G	4r	(8cc 8ccc	.
+8GG 8G	4rA	(>8cc 8ccc	.
 4.C 4.c)	.	4.dd 4.ddd)	.
 .	(8dL	.	.
 .	8gJ	.	.
 =6	=6	=6	=6
 (8DDD#XL 8DD#X	8cc	4r	.
-8FFFn 8FFn	4.dd)(	.	.
-8DDn 8Dn	.	)(>8ddL 8ddd	.
+8FFFnJ 8FFn	4.dd)	.	.
+8DDnL 8Dn	.	(>8ddL 8ddd	.
 8FFJ 8F	.	8eeJ 8eee	.
 8GG 8G	4ryy	8ccL 8ccc	.
 4.C 4.c)	.	[8ddJ [>8ddd)	.
@@ -88,3 +88,7 @@
 !!!system-decoration: [({(s1,s2)})]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/09/28
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/02
