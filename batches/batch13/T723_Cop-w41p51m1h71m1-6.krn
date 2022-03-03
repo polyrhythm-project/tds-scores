@@ -2,9 +2,9 @@
 !!!OTL: [T723_Cop-w41p51m1h71m1-6]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A
-*part8	*part 8	*part7	*part 8	*part6	*part 8	*part5	*part 8	*part4	*part 8	*part3	*part 8	*part2	*part 8	*part1	*part 8
-*staff8	*staff 8	*staff7	*staff 8	*staff6	*staff 8	*staff5	*staff 8	*staff4	*staff 8	*staff3	*staff 8	*staff2	*staff 8	*staff1	*staff 8
-*I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Percussion	*	*I"Trombone	*	*I"Horn 1 in F	*
+*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff8	*staff8	*staff7	*staff7	*staff6	*staff6	*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Contrabass	*I"Contrabass	*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I	*I"Percussion	*I"Percussion	*I"Trombone	*I"Trombone	*I"Horn 1 in F	*I"Horn 1 in F
 *I'Cb.	*	*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*	*I'Perc.	*	*I'Tbn.	*	*I'Hn.	*
 *	*	*	*	*	*	*	*	*	*	*stria4	*	*	*	*	*
 *clefF4	*	*clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*clefX	*	*clefF4	*	*clefG2	*
@@ -14,16 +14,19 @@
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[[quarter]=144]	!
-!LO:TX:b:t=[secco]	!LO:DY:ed=brack	!LO:TX:b:t=[secco]	!LO:DY:ed=brack	!LO:TX:b:t=[secco]	!LO:DY:ed=brack	!LO:TX:b:t=[secco]	!LO:DY:ed=brack	!LO:TX:b:t=[secco]	!LO:DY:ed=brack	!LO:TX:b:t=[secco]	!LO:DY:ed=brack	!LO:TX:b:t=[secco]	!LO:DY:ed=brack	!LO:TX:b:t=[secco]	!LO:DY:ed=brack
-!LO:TX:a:t=[at the frog]	!	!LO:TX:a:t=[at the frog]	!	!LO:TX:a:t=[at the frog]	!	!LO:TX:a:t=[at the frog]	!	!LO:TX:a:t=[at the frog]	!	!LO:TX:a:t=4 Temple Blocks	!	!LO:TX:a:t=[con sord.]	!	!LO:TX:a:t=[con sord.]	!
-4r	p	4r	p	4r	p	8r	p	8r	p	8Re'/	p	8r	p	2r	p
-.	.	.	.	.	.	8f#'v	.	8f#'v	.	8rdd	.	8f#'	.	.	.
+!LO:TX:a:rj:t=[secco]	!	!LO:TX:a:rj:t=[secco]	!	!LO:TX:a:rj::t=[secco]	!	!LO:TX:a:rj:t=[secco]	!	!LO:TX:a:rj:t=[secco]	!	!LO:TX:a:rj::t=[secco]	!LO:DY:ed=brack	!LO:TX:rj:t=[secco]	!	!LO:TX:rj:t=[secco]	!
+!LO:TX:a:rj:t=[at the frog]	!	!LO:TX:a:rj:t=[at the frog]	!	!LO:TX:a:rj:t=[at the frog]	!	!LO:TX:a:rj:t=[at the frog]	!	!LO:TX:a:rj:t=[at the frog]	!	!LO:TX:a:t=4 Temple Blocks	!	!LO:TX:a:rj:t=[con sord.]	!	!LO:TX:a:rj:t=[con sord.]	!
+4r	.	4r	.	4r	.	8r	.	8r	.	8Re'/	p	8r	.	2r	.
+!	!	!	!	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!	!	!LO:DY:ed=brack	!	!
+.	.	.	.	.	.	8f#'v	p	8f#'v	p	8rdd	.	8f#'	p	.	.
 8r	.	8r	.	8r	.	4r	.	4r	.	8Rdd^/	.	4r	.	.	.
-(16CC#uLL	.	(16CC#uLL 16C#	.	(16C#uLL	.	.	.	.	.	8rdd	.	.	.	.	.
+!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!	!	!	!	!	!	!	!	!
+(16CC#uLL	p	(16CC#uLL 16C#	p	(16C#uLL	p	.	.	.	.	8rdd	.	.	.	.	.
 16DD#JJ	.	16DD#JJ 16D#	.	16D#JJ	.	.	.	.	.	.	.	.	.	.	.
 !!LO:REH:t=71
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-8EE')	.	8EE' 8E)	.	8E')	.	8r	.	8r	.	8Rb'/	.	8r	.	8E'	.
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:ed=brack
+8EE')	.	8EE' 8E)	.	8E')	.	8r	.	8r	.	8Rb'/	.	8r	.	8E'	p
 8r	.	8r	.	8r	.	8c#'u	.	8c#'u	.	8Rdd^/	.	8c#'	.	8r	.
 8r	.	8r	.	8r	.	4r	.	4r	.	8rdd	.	4r	.	8r	.
 8FF#'v	.	8FF#'v 8F#	.	8F#'v	.	.	.	.	.	8Rg'/	.	.	.	8F#X'	.
@@ -60,9 +63,10 @@
 8FF#'	.	8FF#' 8F#	.	8F#'	.	8r	.	8r	.	8rdd	.	4r	.	8F#X'	.
 8r	.	8r	.	8r	.	(16c#LL	.	(16c#LL	.	8Rg'/	.	.	.	8r	.
 .	.	.	.	.	.	16dnJJ	.	16dnJJ	.	.	.	.	.	.	.
-!	!	!	!	!	!	!LO:TX:t=P:problem:Hanging slur not shown yet	!	!LO:TX:t=P:problem:Hanging slur not shown yet	!	!	!	!	!	!	!
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2)][(s3)][(s4,s5,s6,s7,s8)]
 !!!EED: Jason Lee
-!!!EEV: Date 2021/09/10
+!!!EEV: 2021/09/10
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/02
