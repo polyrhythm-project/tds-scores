@@ -2,18 +2,16 @@
 !!!OTL: [T660_Hin-w77p21m175-179]
 **kern	**kern	**dynam	**kern	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B
-*part2	*part2	*	*part1	*part1	*
+*part2	*part2	*part2	*part1	*part1	*part1
 *staff4	*staff3	*	*staff2	*staff1	*
-*I"Piano II	*	*	*I"Piano I	*	*
-*I'Pno.	*	*	*I'Pno.	*	*
-*ICklav	*ICklav	*	*ICklav	*ICklav	*
-*Ipiano	*Ipiano	*	*Ipiano	*Ipiano	*
+*I"Piano II	*I"Piano II	*	*I"Piano I	*I"Piano I	*
+*I'Pno. II	*I'Pno. II	*	*I'Pno. I	*I'Pno. I	*
 *clefG2	*clefG2	*	*clefF4	*clefG2	*
 *k[]	*k[]	*	*k[]	*k[]	*
 *C:	*C:	*	*C:	*C:	*
 *M4/4	*M4/4	*	*M4/4	*M4/4	*
+=175	=175	=175	=175	=175	=175
 *	*8va	*	*	*	*
-=1	=1	=1	=1	=1	=1
 !LO:T:n=1:b	!LO:T:n=1:b	!LO:DY:ed=brack	!	!LO:TX:t=[[half]=120]	!LO:DY:ed=brack
 !LO:T:n=2:b	!	!LO:DY:t=%s cresc.	!	!	!LO:DY:t=%s cresc.
 8bL] 8dd] 8gg#Xh] 8bb]	8dddL] 8fff#Xh] 8bbb]	f	8AAAL	8AL	f
@@ -24,7 +22,7 @@
 .	.	.	8EE	8e	.
 (8ffL	(8fffL	.	8AAA-X	8A-X	.
 8bb-XJ	8bbb-XJ	.	8AA-XJ	8a-XJ	.
-=2	=2	=2	=2	=2	=2
+=176	=176	=176	=176	=176	=176
 8eee-X)	8eeee-X)	.	8FFL	8fL	.
 8r	8r	.	8GG-X	8g-X	.
 [2bn [2dd [2gg#X [2bbn	[2ddd [2fff#X [2bbbn	.	8DD	8d	.
@@ -33,7 +31,7 @@
 .	.	.	8C#X	8cc#X	.
 8bL] 8dd] 8gg#] 8bb]	8dddL] 8fff#] 8bbb]	.	8AA#X	8a#X	.
 8bJ	8bbJ	.	8BBJ	8bJ	.
-=3	=3	=3	=3	=3	=3
+=177	=177	=177	=177	=177	=177
 4cc	4ccc	.	8GG#XL	8g#XL	.
 .	.	.	8AAn	8an	.
 4dd	4ddd	.	8BBB	8B	.
@@ -42,7 +40,7 @@
 8bb-X	8bbb-X	.	8AA	8a	.
 8eee-XJ)	8eeee-XJ)	.	8EE#X	8e#X	.
 8r	8r	.	8FF#XJ	8f#XJ	.
-=4	=4	=4	=4	=4	=4
+=178	=178	=178	=178	=178	=178
 [2bn [2dd [2gg#X [2bbn	[2ddd [2fff#X [2bbbn	.	8AAAL	8AL	.
 .	.	.	8AA	8a	.
 .	.	.	8FF#X	8f#X	.
@@ -51,7 +49,7 @@
 8bJ	8bbJ	.	8EE	8e	.
 4cc	4ccc	.	8GGG	8G	.
 .	.	.	8GGJ	8gJ	.
-=5	=5	=5	=5	=5	=5
+=179	=179	=179	=179	=179	=179
 *M3/2	*M3/2	*	*M3/2	*M3/2	*
 4dd	4ddd	.	8EEL	8eL	.
 .	.	.	8FFn	8fn	.
@@ -70,3 +68,7 @@
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)})][({(s3,s4)})]
 !!!RDF**kern: h = editorial accidental, brack
+!!!EED: Claudio de Freitas
+!!!EEV: 2021/09/03
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/03/04
