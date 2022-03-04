@@ -3,8 +3,8 @@
 **kern	**kern	**dynam
 *grp:A	*grp:B	*
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Organ	*	*
+*staff2	*staff1	*staff1
+*I"Organ	*I"Organ	*I"Organ
 *I'Org.	*	*
 *clefG2	*clefG2	*
 *k[]	*k[]	*
@@ -12,7 +12,7 @@
 =1	=1	=1
 !	!LO:TX:t=[[eighth]=150]	!
 !LO:TX:a:i:t=staccato	!LO:TX:a:i:t=legato	!
-!LO:TX:a:t=R{ 	!LO:TX:a:B:t=Plus vif	!
+!LO:TX:a:B:rj:t=R{ 	!LO:TX:a:B:t=Plus vif	!
 8e-XL 8f#X 8a 8bn	8.ggL	pp
 16fnJk 16g 16b-X 16cc#X	.	.
 16f#XLL 16a 16b 16dd	8.bb-XJ	.
@@ -30,7 +30,6 @@
 8e-J 8f# 8a 8b	.	.
 8fL 8g 8b-X 8cc#	8aaL	.
 8e-J 8f#X 8a 8b	8ccc#XJ	.
-!!linebreak:original
 =3	=3	=3
 !	!LO:TX:b:i:t=cresc.	!
 16fnLL 16g 16b-X 16cc#X	8.ggL	.
@@ -65,3 +64,5 @@
 !!!system-decoration: [({(s1,s2)})]
 !!!EED: Jason Lee
 !!!EEV: 2021/09/21
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/03
