@@ -4,17 +4,15 @@
 *grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Oboe	*
-*I'Pno.	*	*	*I'Ob.	*
-*ICklav	*ICklav	*	*ICww	*
-*Ipiano	*Ipiano	*	*Ioboe	*
+*I"Piano	*I"Piano	*	*I"Oboe	*
+*I'Pno.	*I'Pno.	*	*I'Ob.	*
 *clefG2	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
 *M2/4	*M2/4	*	*M2/4	*
-*	*8va	*	*	*
 !!LO:REH:t=5
-=1	=1	=1	=1	=1
+=66	=66	=66	=66	=66
+*	*8va	*	*	*
 !	!	!	!LO:TX:t=[[quarter]=120]	!
 8e'L	(16eeeLL	mf	4ff#X~)j	f
 .	16aaa	.	.	.
@@ -24,7 +22,7 @@
 .	16ddd	.	.	.
 8d'J	16eee	.	8ee'J	.
 .	16aaaJJ	.	.	.
-=2	=2	=2	=2	=2
+=67	=67	=67	=67	=67
 8a'L	16eeeLL	.	4ff#X~	.
 .	16fff#X	.	.	.
 8b'	16bbb	.	.	.
@@ -33,7 +31,7 @@
 .	16bbb	.	.	.
 8g'J	16eee	.	8ee'J	.
 .	16fff#JJ	.	.	.
-=3	=3	=3	=3	=3
+=68	=68	=68	=68	=68
 8a'L	16bbbLL	.	4ff#X~	.
 .	16ddd	.	.	.
 8B'	16eee	.	.	.
@@ -42,7 +40,7 @@
 .	16eee	.	.	.
 8c'J	16aaa	.	8ee'J	.
 .	16dddJJ	.	.	.
-=4	=4	=4	=4	=4
+=69	=69	=69	=69	=69
 *M3/8	*M3/8	*	*M3/8	*
 8g'L	16eeeLL	.	8ff#X'L	.
 .	16aaa	.	.	.
@@ -50,7 +48,7 @@
 .	16ddd	.	16aaJ)	.
 8a'J	16ggg	.	8ggJ	.
 .	16dddJJ)	.	.	.
-=5	=5	=5	=5	=5
+=70	=70	=70	=70	=70
 *M2/4	*M2/4	*	*M2/4	*
 8eL	(16eeeLLi	.	4ff#X~	.
 .	16aaa	.	.	.
@@ -60,7 +58,7 @@
 .	16ddd	.	.	.
 8dJ	16eee	.	8ee'J	.
 .	16aaaJJ	.	.	.
-=6	=6	=6	=6	=6
+=71	=71	=71	=71	=71
 8aL	16eeeLL	.	4ff#X~	.
 .	16fff#X	.	.	.
 8b	16bbb	.	.	.
@@ -73,6 +71,7 @@
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
-!!!Xfilter: slurcheck
-!!!RDF**kern: i = marked note, color="hotpink", text="extra("
-!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!EED: Claudio de Freitas
+!!!EEV: 2021/09/02
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/03/04
