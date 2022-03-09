@@ -6,13 +6,13 @@
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin I	*	*I"Oboe	*
 *I'Vc.	*	*I'Vla.	*	*I'Vln. I	*	*I'Ob.	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 !!LO:REH:t=29
 =1	=1	=1	=1	=1	=1	=1	=1
+*	*	*	*	*Xtuplet	*	*	*
 !	!	!	!	!	!	!LO:TX:t=[quarter]=61	!
 !	!	!	!LO:DY:t=%s sub.	!	!	!LO:TX:a:B:t=Poco a poco accel. e più agitato	!
 4r	.	[2.coX [2.goX	pp	12bL]	ppp	(2ggn^	f
@@ -60,6 +60,7 @@
 .	.	.	.	12B	.	.	.
 .	.	.	.	.	.	8a	.
 .	.	.	.	12A#J)	.	.	.
+!	!	!	!	!	!	!LO:TUP:b	!
 4DD#X^ 4AA#X	.	.	.	(12G#L	.	20eLL	<
 .	.	.	.	.	.	20g	.
 .	.	.	.	12B	.	.	.
@@ -71,7 +72,7 @@
 4EE~ 4BB	.	2.C_ 2.G_	.	(12G#XL	.	4g)	[
 .	.	.	.	12B	.	.	.
 .	.	.	.	12A#XJ)	.	.	.
-.	.	.	.	.	.	(16qqg/LL	.
+.	.	.	.	.	.	(>16qqg/LL	.
 .	.	.	.	.	.	16qqa/JJ	.
 !	!	!	!	!	!	!	!LO:DY:t=più %s
 8r	.	.	.	(12G#L	.	[2g~	f
@@ -115,14 +116,19 @@
 .	.	.	.	12A#XJ)	.	.	.
 4EE~	.	.	.	(12G#L	.	8r	.
 .	.	.	.	12B	.	.	.
-.	.	.	.	.	.	(4g	p
+.	.	.	.	.	.	(>4gi	p
 .	.	.	.	12A#J)	.	.	.
 4FF#X^ 4C#X	.	.	.	(12G#L	.	.	.
 .	.	.	.	12B	.	.	.
-.	.	.	.	.	.	[8a)	.
+.	.	.	.	.	.	[8a	.
 .	.	.	.	12A#J)	.	.	.
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1[(s2,s3,s4)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED: Gabriella Vici
+!!!EEV: 2021/10/04
+!!!EED2: Jason Lee
+!!!EEV2: 2022/03/08
