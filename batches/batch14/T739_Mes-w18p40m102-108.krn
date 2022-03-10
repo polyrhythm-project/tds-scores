@@ -4,64 +4,78 @@
 *grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
 *part2	*part2	*part2	*part2	*part1	*part1	*part1
 *staff4	*staff4	*staff3	*staff3	*staff2	*staff1	*
-*I"Piano 1	*	*	*	*I"Piano 2	*	*
-*I'Pno. 1	*	*	*	*I'Pno. 2	*	*
+*I"Piano 1	*	*I"Piano 1	*	*I"Piano 2	*I"Piano 2	*
+*I'Pno. 1	*	*I'Pno. 1	*	*I'Pno. 2	*I'Pno. 2	*
 *clefF4	*	*clefF4	*	*clefF4	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*k[]	*
 *C:	*	*C:	*	*C:	*C:	*
 *M2/4	*	*M2/4	*	*M2/4	*M2/4	*
+=102	=102	=102	=102	=102	=102	=102
 *8ba	*above	*8ba	*above	*	*	*
-=1	=1	=1	=1	=1	=1	=1
-!!LO:TX:t=Modéré, presque vif ([quarter]=80)
-!LO:TX:a:i:t=percuté, staccato	!	!LO:TX:a:t=a	!LO:DY:rj	!	!	!
-!LO:TX:b:t=c	!	!	!	!	!	!
+!LO:TX:t=P:problem: 8vb line is not rendering.	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem: 8vb line is not rendering.	!	!	!	!
+!LO:TX:a:i:t=percuté, staccato	!	!LO:TX:a:t=╔ a	!LO:DY:rj	!	!LO:TX:t=Modéré, presque vif ([quarter]=80)	!
+!LO:TX:b:t=╚ c	!	!	!	!	!	!
+!LO:TX:b:t=☆ D'ici au changement d'armure, le 1° piano doit "suivre" les fluctuations de mouvement du 2° piano.	!	!	!	!	!	!
 2CCC#X 2GGGn	pp	4.BBB~ 4.FFn/	mf	2r	2r	.
 .	.	[8GGG#X~ [8DD	.	.	.	.
-=2	=2	=2	=2	=2	=2	=2
+=103	=103	=103	=103	=103	=103	=103
 4AAAA#X 4EEE	.	16GGG#XKL] 16DD]	.	2r	2r	.
 .	.	[8.BBB~J [8.FFn	.	.	.	.
+!	!	!LO:TX:t=┐	!	!	!	!
 [4CCC#X [4GGGn	.	8.BBBL] 8.FF]	.	.	.	.
-!	!	!LO:TX:a:t=b	!LO:DY:rj	!	!	!
+!	!	!LO:TX:a:t=┌ b	!LO:DY:rj	!	!	!
 .	.	[16GGG#X^Jk [16DD	ff	.	.	.
-=3	=3	=3	=3	=3	=3	=3
+=104	=104	=104	=104	=104	=104	=104
 4CCC#X] 4GGG]	.	16GGG#XLL] 16DD]	.	2r	2r	.
+!LO:TX:b:t=┘	!	!	!	!	!	!
 .	.	16BBB'J 16FF	.	.	.	.
+!	!	!LO:TX:t=┐	!	!	!	!
 .	.	8GGGn'J 8DD	.	.	.	.
-!LO:TX:b:t=d	!	!	!	!	!	!
+!LO:TX:b:t=└ d	!	!	!	!	!	!
 [4AAAA#X [4EEE	p	8BBB^L 8FF	p	.	.	.
 .	.	8GGGJ 8DD	.	.	.	.
 !!linebreak:original
-=4	=4	=4	=4	=4	=4	=4
-!	!	!	!	!	!LO:TX:i:t=très libre, très passionneé	!
-4AAAA#] 4EEE]	.	8BBBL 8FF	.	[4F~ [4A-X [4B-X [4d	4bn~ 4een 4aa-X	ff
+=105	=105	=105	=105	=105	=105	=105
+!LO:TX:b:t=☆	!	!	!	!	!LO:TX:i:t=très libre, très passionneé	!
+4AAAA#X] 4EEE]	.	8BBBL 8FF	.	[4F~ [4A-X [4B-X [4d	4bn~ 4een 4aa-X	ff
 .	.	8GGG#XJ 8DD	.	.	.	.
 8CCC#X'L 8GGGn	.	8BBB^L 8FF	.	16FKL] 16A-] 16B-] 16d]	(8a-XL 8cc#X 8ffn\	.
 .	.	.	.	8.A-^J 8.B- 8.d 8.f	.	.
-[8AAAAJ [8EEE	.	8GGG#J 8DD	.	.	8dJ 8g 8bn)	.
-=5	=5	=5	=5	=5	=5	=5
-8AAAAL] 8EEE]	.	8BBB^L 8FF	.	2G 2B-X 2e-X	16.b-X~LL 16.ee-X 16.gg 16.bb-X	.
-!	!	!	!	!	!LO:TX:b:i:t=g	!
+[8AAAA#J [8EEE	.	8GGG#J 8DD	.	.	8dJ 8g 8bn)	.
+=106	=106	=106	=106	=106	=106	=106
+8AAAA#XL] 8EEE]	.	8BBB^L 8FF	.	2G 2B-X 2e-X	16.b-X~LL 16.ee-X 16.gg 16.bb-X	.
+!	!	!	!	!	!LO:TX:b:i:t=└ g	!
+!	!	!	!	!	!LO:TX:b:t=1	!
+!	!	!	!	!	!LO:TX:t=2	!
+!	!	!	!	!	!LO:TX:t=3	!
 .	.	.	.	.	(32an^Jk 32cc#X 32een	.
 !	!	!	!	!	!LO:TX:a:i:t=dr	!
+!	!	!	!	!	!LO:TX:t=1	!
+!	!	!	!	!	!LO:TX:t=2	!
+!	!	!	!	!	!LO:TX:t=4	!
+!	!	!	!	!	!LO:TX:t=5	!
 16CCC#X'L 16GGGn	.	8GGG#X 8DD	.	.	[8b-XJ [8ee-X [8gg [8bb-X	.
-[16AAAA~JJ [16EEE	.	.	.	.	.	.
-4AAAA_ 4EEE_	.	8BBB 8FF	.	.	4b-] 4ee-] 4gg] 4bb-])	.
+[16AAAA#~JJ [16EEE	.	.	.	.	.	.
+4AAAA#X_ 4EEE_	.	8BBB 8FF	.	.	4b-] 4ee-] 4gg] 4bb-])	.
 .	.	8GGG#J 8DD	.	.	.	.
-=6	=6	=6	=6	=6	=6	=6
-!	!	!LO:TX:a:t=a	!LO:DY:rj	!	!	!
-4AAAA_ 4EEE_	.	4.BBB~ 4.FF/	mf	[4F~ [4A-X [4B-X [4d	4bn~ 4een 4aa-X	.
-16AAAAKL] 16EEE]	.	.	.	16FKL] 16A-] 16B-] 16d]	(8a-XL 8cc#X 8ffn\	.
-!LO:TX:b:t=e	!	!	!	!	!	!
+=107	=107	=107	=107	=107	=107	=107
+!	!	!LO:TX:a:t=┌ a	!LO:DY:rj	!	!	!
+4AAAA#X_ 4EEE_	.	4.BBB~ 4.FF/	mf	[4F~ [4A-X [4B-X [4d	4bn~ 4een 4aa-X	.
+!LO:TX:b:t=┘	!	!	!	!	!	!
+16AAAA#KL] 16EEE]	.	.	.	16FKL] 16A-] 16B-] 16d]	(8a-XL 8cc#X 8ffn\	.
+!LO:TX:b:t=└ e	!	!	!	!	!	!
 [8.CCC#XJ [8.GGGn	pp	.	.	8.A-^J 8.B- 8.d 8.f	.	.
 .	.	[8GGG#X~ [8DD	.	.	8dJ 8g 8bn)	.
-=7	=7	=7	=7	=7	=7	=7
-4CCC#_ 4GGGn_	.	16GGG#KL] 16DD]	.	2G 2B-X 2e-X	16.b-X~LL 16.ee-X 16.gg 16.bb-X	.
+=108	=108	=108	=108	=108	=108	=108
+4CCC#X_ 4GGGn_	.	16GGG#KL] 16DD]	.	2G 2B-X 2e-X	16.b-X~LL 16.ee-X 16.gg 16.bb-X	.
 .	.	[8.BBB~J [8.FF	.	.	.	.
 .	.	.	.	.	(32een^Jk 32aan 32ccc#X 32eeen	.
 .	.	.	.	.	[8b-XJ [8ee-X [8gg [8bb-X	.
+!	!	!LO:TX:t=┐	!	!	!	!
 16CCC#KL] 16GGGn]	.	8.BBBL] 8.FF]	.	.	4b-] 4ee-] 4gg] 4bb-])	.
 [8.AAAA#XJ [8.EEE	.	.	.	.	.	.
-!	!	!LO:TX:a:t=b	!LO:DY:a:rj	!	!	!
+!	!	!LO:TX:a:t=┌ b	!LO:DY:a:rj	!	!	!
 .	.	[16GGG#X^Jk [16DD	ff	.	.	.
 *X8ba	*	*X8ba	*	*	*	*
 =	=	=	=	=	=	=
@@ -69,3 +83,5 @@
 !!!system-decoration: [({(s1,s2)})][({(s3,s4)})]
 !!!EED: Jason Lee
 !!!EEV: 2021/09/28
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/03/10
