@@ -2,24 +2,28 @@
 !!!OTL: [T741_Mes-w18p78m1-5i]
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A
-*I"Piano 2	*	*	*I"Piano 1	*	*	*
-*I'Pno. 2	*	*	*I'Pno. 1	*	*	*
+*part2	*part2	*part2	*part2	*part1	*part1	*part1
 *staff4	*staff3	*	*staff2	*staff2	*staff1	*staff1
+*I"Piano 2	*I"Piano 2	*	*I"Piano 1	*	*I"Piano 1	*
+*I'Pno. 2	*I'Pno. 2	*	*I'Pno. 1	*	*I'Pno. 1	*
 *clefG2	*clefG2	*	*clefF4	*	*clefG2	*
 *k[f#c#g#]	*k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*
 *A:	*A:	*	*A:	*	*A:	*
-*M4/4	*M4/4	*	*M4/4	*above	*M4/4	*
+*M4/4	*M4/4	*	*M4/4	*	*M4/4	*
 =1	=1	=1	=1	=1	=1	=1
 *	*^	*	*	*	*	*
 !	!LO:TX:t=Modéré, joyeux ([eighth]=120)	!	!	!	!	!LO:TX:t=Modéré, joyeux ([eighth]=120)	!
-!	!	!LO:TX:b:t=cuivré, sonore	!	!	!	!	!
+!	!	!LO:TX:b:t=☆☆ cuivré, sonore	! 	!	!	!	!
+!LO:TX:b:t=☆ Attaquer staccato et mettre en même temps la pédale  fort. Chaque note bien marquée. Sonorité de cloches; laisser réssoner.	!	!	!	!	!	!	!
+!LO:TX:b:t=☆ ☆  Attaquer martelé, en liant avec la pédale.	!	!	!	!	!	!	!
 (4A^ 4c# 4e	(4a^ 4aa	8aL	ff	2r	.	4r	.
 .	.	8cc#~>J 8ee	.	.	.	.	.
 *	*v	*v	*	*	*	*	*
-*	*	*	*	*	*8va	*
+*	*	*	*	*above	*8va	*
 *	*^	*	*	*	*	*
-!	!	!	!	!	!	!LO:TX:b::t=carillonnant	!
+!	!	!	!	!	!	!LO:TX:b::t=☆ carillonnant	!
 *	*	*	*	*ped	*	*	*
+!	!	!	!	!	!	!LO:TX:t=┌	!
 4c#^ 4e 4a	4cc#^ 4ccc#	8cc#L	.	.	.	4ggg#X 4cccc#X 4ggggn	f
 .	.	8ee~>J 8aa	.	.	.	.	.
 4B-X^ 4d#X 4gn	4b-X^ 4bb-X	8b-L	.	4r	.	4fff#X 4bbbn 4ffffn	.
@@ -27,28 +31,41 @@
 *	*v	*v	*	*	*	*	*
 *	*	*	*8ba	*	*	*
 *	*^	*	*	*	*	*
-!	!	!	!	!	!LO:DY:t= più %s	!	!
+!	!	!	!	!LO:TX:b:t=└	!LO:DY:t= più %s	!	!
+!	!	!	!	!LO:TX:t=P:problem: 8vb line is not rendering.	!	!	!
 4A^ 4c# 4e	4a^ 4aa	8aL	.	4AAAAn 4EEE-X	f	4eeen 4aaan 4eeee-X	.
+!	!	!	!	!LO:TX:b:t=1	!	!	!
+!	!	!	!	!LO:TX:b:t=5	!	!	!
 .	.	8cc#~>J 8ee	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2
 *^	*	*	*	*	*	*	*
 *	*ped	*	*	*	*ped	*	*grp:B	*
 8r	1e^)	1ee^ 1eee)	8r~	.	4CCC#X 4GGGn	.	8ggg#XL 8cccc#X 8ggggn	.
-8a'< 8cc#	.	.	8ee'>L 8aa 8ccc#	p	.	.	[8fff#XJ [8bbb [8ffffn	.
+!	!	!	!	!	!LO:TX:b:t=1	!	!	!
+!	!	!	!	!	!LO:TX:b:t=4	!	!	!
+8a'< 8cc#L	.	.	8ee'>L 8aa 8ccc#	p	.	.	[8fff#XJ [8bbb [8ffffn	.
 *	*	*	*	*	*ped	*	*	*
-8b-X'<L 8dd#X	.	.	8ggn'> 8bb-X 8ddd#X	.	4FFFn 4BBBn	.	16fff#KL] 16bbbn] 16ffff]	.
+!	!	!	!	!	!LO:TX:b:t=1	!	!	!
+!	!	!	!	!	!LO:TX:b:t=4	!	!	!
+8b-X'< 8dd#X	.	.	8ggn'> 8bb-X 8ddd#X	.	4FFFn 4BBBn	.	16fff#KL] 16bbbn] 16ffff]	.
 .	.	.	.	.	.	.	8eeen 8aaa 8eeee-X	.
-8a'<J 8cc#	.	.	8ee'>J 8aa 8ccc#	<	.	.	.	.
+8a'< 8cc#J	.	.	8ee'>J 8aa 8ccc#	<	.	.	.	.
 .	.	.	.	.	.	.	[16ggg#XJk [16cccc#X [16ggggn	.
 *	*	*	*	*	*ped	*	*	*
 *	*	*	*	*	*grp:B	*	*	*
 8b-'<L 8dd#	.	.	8gg'>L 8bb- 8ddd#	.	8AAAAnL 8EEE-X	.	16ggg#KL] 16cccc#] 16gggg]	.
+!	!	!	!	!	!LO:TX:b:t=1	!	!	!
+!	!	!	!	!	!LO:TX:b:t=5	!	!	!
 .	.	.	.	.	.	.	8fff#X 8bbb 8ffffn	.
 *	*	*	*	*	*ped	*	*	*
+!	!	!	!	!	!LO:TX:b:t=1	!	!	!
+!	!	!	!	!	!LO:TX:b:t=4	!	!	!
 8a~< 8cc#	.	.	8ee~> 8aa 8ccc#	.	[8CCC#J [8GGG	.	.	.
 .	.	.	.	.	.	.	[16eeenJk [16aaa [16eeee-X	.
 8b-~< 8dd#	.	.	8gg~> 8bb- 8ddd#	.	16CCC#KL] 16GGG]	.	16eeenKL] 16aaan] 16eeee-]	.
 *	*	*	*	*	*ped	*	*	*
+!	!	!	!	!	!LO:TX:b:t=1	!	!	!
+!	!	!	!	!	!LO:TX:b:t=4	!	!	!
 .	.	.	.	.	8FFF 8BBB	.	8.ggg#XJ 8.cccc#X 8.ggggn	.
 8a'<^<J 8cc#	.	.	8ee'>^>J 8aa 8ccc#	.	.	.	.	.
 *Xped	*	*	*	*	*	*	*	*
@@ -85,20 +102,23 @@
 8fn'<L 8a	.	.	8ffn'>L 8aa	.	.	.	.	.
 *	*	*	*	*	*ped	*	*	*
 *	*	*	*	*	*grp:A	*	*	*
+!	!	!	!	!	!	!	!LO:TX:t=┐	!
 8e'< 8g#X 8b	.	.	8ee'> 8gg#X 8bb	.	4AAAA 4EEE-X	.	.	.
 8f'<J 8a	.	.	8ff'>J 8aa	<	.	.	.	.
 *	*	*	*	*	*ped	*	*	*
+!	!	!	!	!	!	!	!LO:TX:t=┌	!
 8e'<L 8g# 8b	.	.	8ee'>L 8gg# 8bb	.	2CCC# 2GGG	.	4eeen 4aaa 4eeee-X	.
 8f~< 8a	.	.	8ff~> 8aa	.	.	.	.	.
 8e~< 8g# 8b	.	.	8ee~> 8gg# 8bb	.	.	.	4ggg#X 4cccc#X 4ggggn	.
 8f'<^<J 8a	.	.	8ff'>^>J 8aa	.	.	.	.	.
+!	!	!	!	!	!LO:TX:b:t=┘	!	!	!
 .	.	.	.	[	.	.	.	.
 *	*Xped	*	*	*	*Xped	*	*	*
 *v	*v	*	*	*	*	*	*	*
 *	*v	*v	*	*	*	*	*
 =5	=5	=5	=5	=5	=5	=5
 *	*^	*	*	*	*	*
-!	!LO:TX:b:i:t=  (simile)	!	!	!	!	!	!
+!	!	!	!LO:DY:t= %s (simile)	!LO:TX:b:t=└	!	!	!
 (4d 4fn 4ai	(4dd 4dddi	8ddL	ff	4FFFn 4BBB	.	4fff#X 4bbb 4ffffn	.
 .	.	8ffnJ 8aa	.	.	.	.	.
 *	*	*	*X8ba	*	*	*	*
@@ -110,7 +130,7 @@
 !!!system-decoration: {(s1,s2)},{(s3,s4)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!Xfilter: slurcheck
-!!!RDF**kern: i = marked note, color="hotpink", text="extra("
 !!!EED: Jason Lee
 !!!EEV: 2021/09/28
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/03/10
