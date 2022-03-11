@@ -3,17 +3,16 @@
 **kern	**kern	**dynam
 *grp:A	*grp:B	*grp:A/B
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*I"Piano
 *I'Pno.	*	*
-!!pagebreak:original
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
 *M3/8	*M3/8	*
 =1	=1	=1
-!	!LO:TX:t=[[eighth]=58]	!
-!	!LO:TX:b:i:t=accel.	!LO:DY:ed=brack
+!	!LO:TX:t=[[eighth]=58]	!LO:HP:t= accel. e cresc.
+!	!	!LO:DY:ed=brack
 24A-XLL	8d-X:L 8a-X: 8dd-X:	p <
 24G-X	.	.
 24D-XJJ	.	.
@@ -40,7 +39,6 @@
 16A-	.	.
 16G-	8g-:J 8a-: 8dd-: 8gg-X:	.
 16D-JJ	.	[
-!!linebreak:original
 =4	=4	=4
 16A-XLL	8a-X:L 8dd-X: 8aa-X:	.
 16G-X	.	.
@@ -66,3 +64,7 @@
 =||	=||	=||
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/10/18
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/10
