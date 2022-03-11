@@ -1,10 +1,10 @@
 !!!COM: Charles Ives
 !!!OTL: [T251_Ive-w17p6m1-10]
 **kern	**kern	**dynam	**kern	**kern	**dynam
-*grp:A	*grp:A	*	*grp:B	*grp:B	*
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B
 *part3	*part3	*part3	*part2	*part1	*part1
-*staff4	*staff3	*	*staff2	*staff1	*
-*I"Piano	*	*	*I"Violoncello	*I"Violin	*
+*staff4	*staff3	*staff3/4	*staff2	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano	*I"Violoncello	*I"Violin	*I"Violin
 *I'Pno.	*	*	*I'Vc.	*I'Vln.	*
 *clefF4	*clefG2	*	*clefF4	*clefG2	*
 *k[]	*k[]	*	*k[]	*k[]	*
@@ -19,7 +19,7 @@
 .	.	.	8GG^ 8F#X	8a^ 8ff	.
 .	.	.	8GG^J 8G	8a^J 8ee	.
 =2	=2	=2	=2	=2	=2
-4%3r	4%3r	.	8GG^L 8A-X	8aL 8ff	.
+4%3r	4%3r	.	8GG^L> 8A-X	8aL 8ff	.
 .	.	.	8GG^ 8G	8a 8ff#X	.
 .	.	.	8GG 8G-X	8a 8gg	.
 .	.	.	8GG 8F	8a 8gg#X	.
@@ -33,7 +33,7 @@
 .	.	.	8GG 8F#X	8a 8gg	.
 .	.	.	8GGJ 8G	8aJ 8gg-X	.
 =4	=4	=4	=4	=4	=4
-8r	8r	.	8GGL 8A-X	8aL 8ff	.
+8r	8r	.	8GG/L 8A-X/	8aL 8ff	.
 8r	8r	.	8GGJ 8G	8aJ 8ee	.
 8GG#X 8A	8a#X 8dd#X	.	8r	8r	.
 4.r	4.r	.	8GGL 8D#X	8d'L 8dd	.
@@ -47,7 +47,6 @@
 8r	8r	.	8GG 8G	8d 8b-X	.
 8AAL 8A	8d-XL 8bn	.	8r	8r	.
 8AAJ 8G	8cJ 8cc	.	8r	8r	.
-!!linebreak:original
 =6	=6	=6	=6	=6	=6
 4r.	8r	.	8r	8d 8cc#X	.
 .	8e-X 8dd	.	8r	8r	.
@@ -87,5 +86,9 @@
 =	=	=	=	=	=
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: s1,s2[({(s3,s4)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
 !!!EED:Jason Lee
 !!!EEV:2021/10/26
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/10
