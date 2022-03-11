@@ -1,10 +1,10 @@
 !!!COM: Charles Ives
 !!!OTL: [T253_Ive-w19p5m41-42]
 **kern	**kern	**dynam	**kern	**dynam
-*grp:A	*grp:A	*	*grp:B	*
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
-*staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Violin	*
+*staff3	*staff2	*staff2/3	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano	*I"Violin	*I"Violin
 *I'Pno.	*	*	*I'Vln.	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
@@ -14,14 +14,13 @@
 =1	=1	=1	=1	=1
 *	*	*	*tremolo	*
 !	!LO:TX:B:t=[Allegro Vivace]	!LO:DY:t=[ %s ]	!LO:TX:B:t=[Allegro Vivace]	!LO:DY:t=[ %s ]
-!	!	!	!LO:TX:t=P:problem:slurs over tremolos not rendering 	!
-!LO:T:n=2:a	!LO:T:a	!	!	!
-8GG] 8G]	8g]	ff	(16B^>LL	ff
+!LO:T:n=2:a	!LO:T:a	!	!LO:TX:t=P:problem:slurs over tremolos not rendering 	!
+8GG] 8G]	8g]	ff	((16B^>LL	ff
 .	.	.	16B^	.
 4FF#X 4F#X	4f#X	.	16A	.
 .	.	.	16A	.
 .	.	.	16B	.
-.	.	.	16B)	.
+.	.	.	16B))	.
 4FFn 4Fn	4fn	.	(16c#X^>	.
 .	.	.	16c#X^JJ	.
 .	.	.	16BLL	.
@@ -59,3 +58,5 @@
 !!!RDF**kern: > = above
 !!!EED:Jason Lee
 !!!EEV:2021/10/26
+!!!EEED2: Gabriella Vici
+!!!EEV2: 2022/03/10
