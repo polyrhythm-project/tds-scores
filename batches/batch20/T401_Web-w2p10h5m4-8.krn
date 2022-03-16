@@ -13,8 +13,8 @@
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 !!LO:REH:t=5
 =1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!LO:TX:a:i:t=sehr hervoriretend	!	!LO:TX:t=[[quarter]=86]	!
 *grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*
+!	!	!	!	!LO:TX:a:i:t=sehr hervoriretend	!	!LO:TX:t=[[quarter]=86]	!
 [1EE	ff	(8G#L	ff	4b	fff	(4.ff#	ff
 .	.	8c#J)	.	.	.	.	.
 .	.	(4B	.	4.g#X	>	.	.
@@ -65,8 +65,7 @@
 4FFn	.	(12c#L	.	(12aaL	.	4.ccc#	.
 .	.	12cn	.	12gg#	.	.	.
 .	.	12BJ)	.	12ggnJ)	.	.	.
-!	!	!	!	!LO:TX:b:i:t=cresc.	!	!	!
-4Fn	.	(12B-XL	.	(12ff#L	.	.	.
+4Fn	.	(12B-XL	.	(12ff#L	<	.	.
 .	.	12A	.	12ffn	.	.	.
 .	.	.	.	.	.	8aa	.
 .	.	12FnJ)	.	12cc#XJ)	.	.	.
@@ -78,10 +77,9 @@
 4E-X	.	(12BnL	.	(12ggnL	.	(8ggnL	.
 .	.	12B-X	.	12ff#X	.	.	.
 .	.	.	.	.	.	8bb-XJ)	.
-.	.	12AJ)	.	12ffnJ)	[	.	.
+.	.	12AJ)	.	12ffnJ)	[[	.	.
 =5	=5	=5	=5	=5	=5	=5	=5
-!LO:TX:b:i:t=cresc.	!	!LO:TX:b:i:t=cresc.	!	!LO:TX:b:i:t=cresc.	!	!LO:TX:b:i:t=cresc.	!
-2Dn	.	(12a-XL	.	(12cccnL	.	4fffn	.
+2Dn	<	(12a-XL	<	(12cccnL	<	4fffn	<
 .	.	12gn	.	12bb	.	.	.
 .	.	12g-XJ)	.	12bb-XJ)	.	.	.
 *	*	*	*	*	*	*grp:B	*
@@ -100,3 +98,7 @@
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+!!!EED: Claudio de Freitas
+!!!EEV: 2021/10/08
+!!!EED2: Jason Lee
+!!!EEV2: 2022/03/15
