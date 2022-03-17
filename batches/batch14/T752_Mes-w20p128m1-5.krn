@@ -1,60 +1,67 @@
 !!!COM: Olivier (Eugène Prosper Charles) Messiaen
 !!!OTL: [T752_Mes-20/128/1-5]
 **kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1	*part1
-*staff2	*	*staff1	*
-*I"Piano	*	*	*
-*I'Pno.	*	*	*
-!!pagebreak:original
+*staff2	*staff2	*staff1	*staff1
+*I"Piano	*	*I"Piano	*
+*I'Pno.	*	*I'Pno.	*
 *clefG2	*	*clefG2	*
 *k[]	*	*k[]	*
 *C:	*	*C:	*
 *M2/4	*	*M2/4	*
 =1	=1	=1	=1
-!	!	!LO:TX:t=[eighth]=66	!
-!LO:TX:b:t=(mode 4^4)	!	!	!
-!	!	!LO:TX:a:t=(canon rhythmique par ajout du point)	!
-!	!LO:DY:t= %s impalpable	!LO:TX:a:t=(mode 3^4)	!LO:DY:t= %s impalpable
+!	!	!LO:TX:t=Très modéré ([eighth]=66)	!
+!	!	!LO:TX:a:t=(mode 3^4)	!
+!LO:TX:b:t=(mode 4^4)	!LO:DY:t= %s impalpable	!LO:TX:a:t=(canon rhythmique par ajout du point)	!LO:DY:t= %s impalpable
 *ped	*	*	*
+!LO:TX:b:t=(mode 4^4)	!	!	!
+!LO:TX:b:t=☆	!	!	!
 4.en 4.g#X 4.a#X 4.bn	pppa	4cc#X 4ff#X 4bb-X 4ddd	ppp
 .	.	4dd 4gg 4bbn 4eee-X	.
 *ped	*	*	*
 [8A#X [8d#X [8fn [8an	.	.	.
 =2	=2	=2	=2
-4A#] 4d#] 4fn] 4an]	.	4ee-X 4aa 4ccc#X 4fffn	.
+4A#X] 4d#X] 4fn] 4an]	.	4ee-X 4aa 4ccc#X 4fffn	.
 *ped	*	*	*
 [4en [4g#X [4a#X [4bn	.	8ff#XL 8ffn 8bb-X 8ddd	.
-.	.	[8ff#XJ [8ggn [8bb- [8eee-X	.
+.	.	[8ff#XJ [8ggn [8bbn [8eee-X	.
 =3	=3	=3	=3
-8enL] 8g#] 8a#] 8bn]	.	16ff#KL] 16ggn] 16bb-] 16eee-]	.
+8enL] 8g#X] 8a#X] 8bn]	.	16ff#XL] 16ggn] 16bbn] 16eee-X]	.
 .	.	8gg 8aa 8ccc#X 8fffn	.
 *ped	*	*	*
 [8d#XJ [8fn [8an [8a#X	.	.	.
 .	.	[16aaJk [16bb-X [16ddd [16fff#X	.
-16d#KL] 16f] 16an] 16a	.	16aaKL] 16bb-] 16ddd] 16fff#]	.
+16d#KL] 16f] 16an] 16a#]	.	16aaKL] 16bb-] 16ddd] 16fff#]	.
 [8.dn/J [8.en/ [8.g#X/ [8.an/	.	8bbn 8ccc#X 8eee-X 8fffn	.
 .	.	[16dddJk [16eee-X [16ggg [16aaa	.
 !!linebreak:original
 =4	=4	=4	=4
-16dLL_ 16en_ 16g#_ 16an_	.	16dddKL] 16eee-X] 16ggg] 16aaa]	.
+!LO:TX:b:t=☆ Changez la pédale avec les accords de main gauche.	!	!	!
+16dLL_ 16enX_ 16g#X_ 16an_	.	16dddKL] 16eee-X] 16ggg] 16aaa]	.
 32dL] 32en] 32g#] 32an]	.	8.ffJ 8.gg 8.bbn 8.eee-X	.
+*ped	*	*	*
 [32aJJ [32dd#X [32ddn [32ffn	.	.	.
-8aJ_ 8dd#X_ 8ddn_ 8ffn_	.	.	.
-32aLLL] 32dd#X] 32ddn] 32ffn]	.	8.ff#XL 8.bb-X 8.ccc#X 8.ddd	.
-!	!	!LO:TX:b:i:t=etc.	!
-[32eJJ [32g#X 32a#X_ [32bn	.	.	.
+8aJ_ 8dd#_ 8ddn_ 8ffn_	.	.	.
+32aLLL] 32dd#] 32ddn] 32ffn]	.	8.ff#XL 8.bb-X 8.ccc#X 8.ddd	.
+!LO:TX:b:i:t=etc.	!	!	!
+[32eJJ [32g#X [32a#X [32bn	.	.	.
 8e_ 8g#_ 8a#_ 8bn_	.	.	.
-32eLL] 32g#] 32a#] 32bn]	.	[16ggJk [16aan [16bb-X [16ccc#	.
+32eLL] 32g#] 32a#] 32bn]	.	[16ggJk [16aa [16bbn [16ccc#X	.
 [32A#XJJJ [32d#X [32fn [32an	.	.	.
 =5	=5	=5	=5
-8A#L_ 8d#_ 8fn_ 8a_	.	8ggL] 8aan] 8bb-X] 8ccc#]	.
+8A#XL_ 8d#X_ 8fn_ 8a_	.	8ggL] 8aan] 8bbn] 8ccc#X]	.
 32A#LL] 32d#] 32fn] 32a]	.	16dddL 16eee-X 16ggg 16aaa	.
 [32eJ [32g#X [32a#X [32b	.	.	.
 16eJJ_ 16g#_ 16a#_ 16b_	.	[16ffJJ [16gg [16bbn [16eee-X	.
-16eLL_ 16g#_ 16a#_ 16b_	.	16ffKL] 16gg] 16bb] 16eee-X]	.
+16eLL_ 16g#_ 16a#_ 16b_	.	16ffKL] 16gg] 16bb] 16eee-]	.
 32eL] 32g#] 32a#] 32b]	.	8.ff#XJ 8.aa 8.bb-X	.
 [32d#XJJ [32fn [32a#X [32an	.	.	.
 8d#J_ 8fn_ 8a#X_ 8an_	.	.	.
 =||	=||	=||	=||
 *-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!EED: Gabriella Vici
+!!!EEV: 2021/09/27
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/03/17
