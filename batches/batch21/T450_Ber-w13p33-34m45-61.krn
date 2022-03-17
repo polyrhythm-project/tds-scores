@@ -3,20 +3,19 @@
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I
 *I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:t=P:problem:Hanging slur not implemented yet	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:t=P:problem:Hanging slur not implemented yet	!LO:DY:ed=brack	!LO:TX:t=[quarter]=150	!
-!	!	!LO:TX:t=P:problem:Hanging slur not implemented yet	!	!	!	!	!
-16AAnLL	pp <	16d-XLL	pp <	16a-XLL)	pp < [	4%3r	.
-16FFn	[ >	16e-XJJ)	.	(16f#X	>	.	.
-16BBn)	.	(16enLL	[	16gn	.	.	.
+!	!	!	!	!	!	!LO:TX:t=[quarter]=150	!
+!	!LO:DY:rj:ed=brack	!	!LO:DY:rj:ed=brack	!	!LO:DY:rj:ed=brack	!	!
+16AAnLL	pp <	16d-XLL	pp <	16a-XLL)j	pp < [	4%3r	.
+16FFn	[ >	16e-XJJ)j	.	(16f#X	>	.	.
+16BBn)j	.	(16enLL	[	16gn	.	.	.
 (16AAnJJ	.	16cnJ	>	16a-XJJ)	.	.	.
 16BB-XLL	.	16dnL	.	(16f#XLL	.	.	.
 16FFn	.	16d-X	.	16gn	.	.	.
@@ -28,25 +27,22 @@
 16EnJ	.	.	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2
 *M9/16	*	*M9/16	*	*M9/16	*	*M9/16	*
+!	!	!	!	!	!	!LO:TX:t=P:problem:cross-bar beaming (same below)	!
 16G#XL	.	16r	.	8.r	.	16%9r	.
 16Dn	.	16r	.	.	.	.	.
 !	!	!LO:TX:a:t=col legno(gestrich.)	!	!	!	!	!
-!	!	!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!	!	!	!	!
 16C#XJ	.	(16B-XKL	pp	.	.	.	.
 16F#XL	.	16AnL	.	16r	.	.	.
 16Cn	.	16Fn	.	16r	.	.	.
 !	!	!	!	!LO:TX:a:t=col legno(gestrich.)	!	!	!
-!	!	!	!	!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!	!	!
 16GnJ	.	16BnJ	.	(16a-XKL	pp	.	.
 16FnL	.	16cnL	.	16gnL	.	.	.
 16BBn	.	16Gn	.	16e-X	.	.	.
 16BB-XJ	.	16d-XJ	.	16anJ	.	.	.
-!!linebreak:original
 =3	=3	=3	=3	=3	=3	=3	=3
-!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!	!	!	!	!	!LO:TX:a:t=col legno(gestrich.)	!
-16AAnJk)	.	16G-XL	.	16b-XL	.	(16ffnLL	pp
-!!)
-!	!LO:DY:t=%s !!!	!	!	!	!	!	!
+!	!	!	!	!	!	!LO:TX:a:t=col legno(gestrich.)	!
+16AAnJJk)	.	16G-XL	.	16b-XL	.	(16ffnLL	pp
+!	!LO:DY:t=%s !!	!	!	!	!	!	!
 !LO:TX:a:t=(geschlagen)	!LO:DY:ed=paren	!	!	!	!	!	!
 16DD#X`LL	ppp	16A-X	.	16fn	.	16een	.
 16EEn`J	.	16dnJ	.	16bnJ	.	16ccnJ	.
@@ -62,7 +58,7 @@
 !	!	!	!	!LO:TX:a:t=(geschlag.)	!	!	!
 16GGn`JJ	.	16Bn`J	.	16a-X`KL	pp	16ee-XJJ	.
 =4	=4	=4	=4	=4	=4	=4	=4
-!LO:TX:a:t=(gestrich.)	!	!	!	!	!	!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!
+!LO:TX:a:t=(gestrich.)	!	!	!	!	!	!	!
 (16FnLL	.	16cn`L	.	16gn`L	.	16aanLL	.
 16An	.	16Gn`	.	16e-X`	.	16bb-X	.
 16E-XJ	.	16d-X`JJ	.	16an`JJ	.	16bbnJJ)	.
@@ -86,7 +82,6 @@
 (16B-XLL	.	16r	.	16ee-XL	.	16bbnL	.
 16En	.	16B-X`LL	.	16anJJ)	.	16cccn	.
 16D#XJ	.	16G-X`J	.	16g#X`KL	.	16gg-XJJ)	.
-!!linebreak:original
 =6	=6	=6	=6	=6	=6	=6	=6
 16G#XL	.	16cn`Jk	.	16en`L	.	16r	.
 16Dn	.	(16GnLL	.	16b-X`JJ	.	16d-X`LL	.
@@ -117,7 +112,6 @@
 16FFn`LL	.	16A-XJk)	.	16anL	.	16cccnL	.
 16EEn`	.	16dn`LL	.	16ee-X	.	16ddd-X	.
 16AAn`J	.	16e-X`J	.	16eenJ	.	16dddnJJ	.
-!!pagebreak:original
 =9	=9	=9	=9	=9	=9	=9	=9
 *	*	*	*	*^	*	*	*
 !	!LO:DY:t=sempre %s	!	!LO:DY:t=sempre %s	!	!	!LO:DY:t=sempre %s	!	!LO:DY:t=sempre %s
@@ -126,7 +120,7 @@
 16AA-X`J	.	16BnJ	.	16a#XJ	.	.	16ee-XJJ)	.
 16DDn`L	.	16fnL	.	16f#XJk)	16ryy	.	8.r	.
 16CC#X`JJ	.	16B-X	.	16ryy	(<16ddnLL	.	.	.
-(16FnKL	.	16cnJ	.	16ryy	16anJ	.	.	.
+(16FnKLL	.	16cnJ	.	16ryy	16anJ	.	.	.
 16B-XL	.	16f#XL	.	16ryy	16dd#XL	.	(16bbnLL	.
 16En	.	16gn	.	16ryy	16g#X	.	16ff#X	.
 16BnJ	.	16g#XJ	.	16ryy	16a#XJ	.	16cccnJ	.
@@ -136,8 +130,9 @@
 16DnJ	.	16AnJ	.	16ryy	16ff#XJ	.	16ccc#XJ	.
 16D-XL	.	16d#XJk)	.	16ryy	16ccnL	.	16dddnL	.
 16Gn	.	(16cnLL	.	16ryy	16bn	.	16eee-X	.
+!!!ONB: note that the Violin II's G3 appears on the viola staff in the original, marked as an open string.
 16A-XJ	.	16f#XJ	.	(16b-XKL	16GJ	.	16aanJ	.
-16cnL	.	16BnL	.	16eenL	16cc#XJk)	.	16gg#XL	.
+16cnLL	.	16BnL	.	16eenL	16cc#XJk)	.	16gg#XL	.
 16G-XJJ)	.	16c#X	.	16an	16ryy	.	16een	.
 16r	.	16gnJ	.	16bnJ	16ryy	.	16bb-XJJ)	.
 *	*	*	*	*v	*v	*	*	*
@@ -151,7 +146,6 @@
 16B-XL	.	16fnJk)	.	16ddnL	.	16eeenL	.
 16En	.	16cn`LL	.	16ee-XJJ)	.	16bb-X	.
 16E-XJ	.	16g-X`J	.	16b-X`KL	.	16aanJ	.
-!!linebreak:original
 =12	=12	=12	=12	=12	=12	=12	=12
 16DnL	.	16c-X`L	.	16een`L	.	16ffnL	.
 16G#X	.	16d-X`	.	16an`	.	16bbn	.
@@ -182,7 +176,6 @@
 16F#XL	.	16r	.	16ggnL	.	16bb-XL	.
 16Fn	.	16gn`LL	.	16aa-X	.	16eeen	.
 16EnJ	.	16c#X`JJ	.	16aanJJ	.	16fffnJJ	.
-!!linebreak:original
 =15	=15	=15	=15	=15	=15	=15	=15
 16A#XL	.	16dn`LL	.	16ee-XLL	.	16fff#XLL	.
 16Bn	.	16a-X`J	.	16ddn	.	16cccn	.
@@ -216,6 +209,11 @@
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
-
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/11/19
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/17
