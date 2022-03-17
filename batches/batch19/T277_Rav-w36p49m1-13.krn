@@ -3,8 +3,8 @@
 **kern	**kern	**dynam
 *grp:A	*grp:B	*
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*I"Piano
 *I'Pno.	*	*
 *clefF4	*clefG2	*
 *k[f#c#g#d#]	*k[f#c#g#d#]	*
@@ -37,7 +37,7 @@
 =4	=4	=4
 8GG#L	[4b	.
 8BJ 8d#	.	.
-8BL 8d#	8bL]	.
+8BL 8d#	8bL<]	.
 8GG#J	16aL	.
 .	16bJJ	.
 8BL 8d#	16cc#LL	.
@@ -57,7 +57,6 @@
 8G#J	.	.
 8AL 8e	4b	.
 8AJ 8e	.	.
-!!linebreak:original
 =7	=7	=7
 8F#L	[2g#	.
 8AJ 8e	.	.
@@ -118,5 +117,9 @@
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
 !!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
 !!!EED:Jason Lee
 !!!EEV:2021/10/26
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/17
