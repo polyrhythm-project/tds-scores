@@ -1,11 +1,11 @@
 !!!COM: Charles Ives
 !!!OTL: [T256_Ive-w25p29m19-21]
 **kern	**kern	**kern	**dynam
-*grp:A	*grp:A	*grp:B	*
+*grp:A	*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1	*part1
-*staff3	*staff2	*staff1	*
-*	*I"Piano	*	*
-*	*I'Pno	*	*
+*staff3	*staff2	*staff1	*staff1/2/3
+*I"Piano	*I"Piano	*I"Piano	*I"Piano
+*I'Pno	*I'Pno	*I'Pno	*
 *clefG2	*clefG2	*clefG2	*
 *k[]	*k[]	*k[]	*
 *C:	*C:	*C:	*
@@ -14,9 +14,10 @@
 =1	=1	=1	=1
 !	!	!LO:TX:t=[[quarter]=60]	!
 !	!LO:TUP:a	!LO:T:n=2:a	!
+*	*8va	*	*
 4ryy	12cccnL 12bbbn\	20eLL] 20ee]	.
-.	.	20e-X 20b-X 20cc 20dd-X	.
 *	*X8va	*	*
+.	.	20e-X 20b-X 20cc 20dd-X	.
 .	12F#X< 12A< 12c< 12fn<	.	.
 .	.	20e- 20b- 20cc 20dd-	.
 .	.	20en^^ 20ee-X	.
@@ -75,3 +76,5 @@
 !!!RDF**kern: < = below
 !!!EED: Jason Lee
 !!!EEV: 2022/03/09
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/17
