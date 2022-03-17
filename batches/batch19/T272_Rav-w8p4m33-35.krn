@@ -1,9 +1,9 @@
 !!!COM: Ravel, (Joseph) Maurice
 !!!OTL: [T272_Rav-w8p4m33-35]
 **kern	**kern	**dynam
-*grp:A	*grp:B	*
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
-*staff2	*staff1	*
+*staff2	*staff1	*staff1/2
 *clefG2	*clefG2	*
 *k[b-e-a-d-g-]	*k[b-e-a-d-g-]	*
 *D-:	*D-:	*
@@ -36,15 +36,13 @@
 .	16ee-	.	.
 .	16aa-X	8aan	.
 .	16gg-J)	.	.
-!	!LO:TX:t=P:problem:cross-bar beaming	!	!
+!LO:N:vis=4	!	!	!
 8ee-	(>16ee-^>L	8bb-)J	.
 .	16gg-	.	.
-*v	*v	*	*
-=3	=3	=3
-*	*8va	*
-*^	*	*
-16ryy@	16dddn	(8ggg-^L	.
-16ryy@	16ddd-XJ)	.	.
+=3	=3	=3	=3
+*	*	*8va	*
+8ryy	16dddn	(8ggg-^L	.
+.	16ddd-XJ)	.	.
 4gg-	(>16gg-^>L	8dddn	.
 .	16bb-	.	.
 .	16ddd-	8eee-)J	.
@@ -53,8 +51,8 @@
 .	16ddd-	.	.
 .	16eee-	8fff	.
 .	16ddd-	.	.
-16ryy@	16eee-	8ggg-)J	[
-16ryy@	16aaanJ)	.	.
+8ryy	16eee-	8ggg-)J	[
+.	16aaanJ)	.	.
 *	*	*X8va	*
 *v	*v	*	*
 =	=	=
@@ -64,3 +62,5 @@
 !!!RDF**kern: > = above
 !!!EED:Jason Lee
 !!!EEV:2021/10/26
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/17
