@@ -3,10 +3,9 @@
 **kern	**kern	**dynam
 *grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*I"Piano
 *I'Pno.	*	*
-!!pagebreak:original
 *clefF4	*clefG2	*
 *k[f#c#g#d#]	*k[f#c#g#d#]	*
 *E:	*E:	*
@@ -14,7 +13,6 @@
 =1	=1	=1
 !	!LO:TX:t=[eighth]=160	!LO:DY:t=%s risoluto
 !LO:TX:b:t=[P]	!	!LO:DY:ed=brack
-!LO:TX:t=P:problem:Cross-measure beaming not implemwnted yet	!	!
 8AAA-X^L 8AA-X	8ffnL 8fffn	ff
 !LO:TX:b:t=[x]	!	!
 8FnJ 8cn 8fn	16r	.
@@ -34,3 +32,7 @@
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/11/19
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/17
