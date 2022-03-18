@@ -2,11 +2,10 @@
 !!!OTL: [T458_Mau-w14p27h2m6-h3m4]
 **kern	**dynam	**kern	**dynam	**kern	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B
-*part5	*	*part4	*part4	*part3	*part2	*part2	*part1	*part1
-*staff5	*	*staff4	*	*staff3	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Violin	*	*I"Trumpet in Bb	*I"Bassoon	*	*I"Clarinet in Bb	*
+*part5	*part5	*part4	*part4	*part3	*part2	*part2	*part1	*part1
+*staff5	*staff5	*staff4	*staff4	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Violin	*I"Violin	*I"Trumpet in Bb	*I"Bassoon	*I"Bassoon	*I"Clarinet in Bb	*I"Clarinet in Bb
 *I'Vc.	*	*I'Vln.	*	*I'Tpt.	*I'Bsn.	*	*I'Cl.	*
-!!pagebreak:original
 *clefF4	*	*clefG2	*	*clefG2	*clefF4	*	*clefG2	*
 *	*	*	*	*ITrd1c2	*	*	*ITrd1c2	*
 *k[]	*	*k[]	*	*k[]	*k[]	*	*k[]	*
@@ -15,11 +14,10 @@
 *met(c|)	*	*met(c|)	*	*met(c|)	*met(c|)	*	*met(c|)	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!	!	!	!LO:TX:t=[quarter]=136	!
-!	!	!	!	!	!	!	!LO:TX:a:t=accel.	!
-!	!	!	!	!	!	!	!LO:TX:a:B:t=[Poco a poco allegro]	!LO:DY:t=poco %s
-!	!LO:DY:ed=brack	!	!	!	!	!	!LO:TX:t=P:problem:Hanging slur not implemented yet	!LO:DY:ed=brack
+!	!	!	!	!	!	!	!LO:TX:a:t=accel.	!LO:DY:ed=brack
+!	!LO:DY:ed=brack	!	!	!	!	!	!LO:TX:a:B:t=[Poco a poco allegro]	!LO:DY:t=poco %s
 4r	f	1r	.	1r	1r	.	8d#XL	f
-.	.	.	.	.	.	.	8eJ)	.
+.	.	.	.	.	.	.	8eJ)j	.
 (8qqF/	.	.	.	.	.	.	.	.
 4F#X)	.	.	.	.	.	.	(8cL	<
 .	.	.	.	.	.	.	8dJ	.
@@ -50,7 +48,6 @@
 .	.	(8qqc/	.	.	.	.	.	.
 .	.	4c#X)	f	.	4r	.	8bL)	.
 .	.	.	.	.	.	.	(8gJ	.
-!!linebreak:original
 =4	=4	=4	=4	=4	=4	=4	=4	=4
 1r	.	4d	.	1r	1r	.	8aL	<
 .	.	.	.	.	.	.	8a#XJ	.
@@ -70,7 +67,7 @@
 .	.	4f#X	.	.	.	.	8eeL	.
 .	.	.	.	.	.	.	8ccJ	.
 .	.	4r	.	.	.	.	8ddL	.
-.	.	.	.	.	.	.	8dd#XJ	[
+.	.	.	.	.	.	.	8dd#XJ	[[
 !!LO:REH:t=3
 =6	=6	=6	=6	=6	=6	=6	=6	=6
 .	.	(8qqf#X/	.	.	.	.	.	.
@@ -83,7 +80,6 @@
 .	.	(8qqg#/	.	.	.	.	.	.
 .	.	4a')	.	.	.	.	8ffL	.
 .	.	.	.	.	.	.	8ff#XJ	[
-!!pagebreak:original
 *	*	*	*	*	*clefF4	*	*	*
 =7	=7	=7	=7	=7	=7	=7	=7	=7
 1r	.	4a#X'	.	1r	1r	.	8gg')	.
@@ -120,3 +116,9 @@
 =	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4,s5)]
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/11/19
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/17
