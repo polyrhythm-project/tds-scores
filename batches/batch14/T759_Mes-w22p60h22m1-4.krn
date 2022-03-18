@@ -1,11 +1,11 @@
 !!!COM: Olivier (Eugène Prosper Charles) Messiaen
 !!!OTL: [T759_Mes-w22p60h22m1-4]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*	*grp:A	*	*grp:B	*	*grp:B	*	*grp:A	*grp:A	*	*grp:A	*	*grp:A	*	*grp:B	*	*grp:A	*	*grp:A	*	*grp:B	*	*grp:B	*
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grpBB	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B
 *part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"	*	*I"Violoncello Divisi	*	*I"Viola Solo II	*	*I"Viola Solo I	*	*I"Piano	*	*	*I"Glockenspiel	*	*I"Celesta	*	*I"Wood Block	*	*I"Bassoon 2.	*	*I"Bassoon 1.	*	*I"Cor Anglais	*	*I"Oboe 1.	*
-*I'	*	*I'Vc.	*	*I'Vla.	*	*I'Vla.	*	*I'Pno.	*	*	*I'Glock.	*	*I'Cel.	*	*I'W.B.	*	*I'Bsn.	*	*I'Bsn.	*	*I'C. A.	*	*I'Ob.	*
+*I"Violincello Divisi	*	*I"Violoncello Divisi	*	*I"Viola Solo II	*	*I"Viola Solo I	*	*I"Piano	*I"Piano	*	*I"Glockenspiel	*	*I"Celesta	*	*I"Wood Block	*	*I"Bassoon 2.	*	*I"Bassoon 1.	*	*I"Cor Anglais	*	*I"Oboe 1.	*
+*I'Vc.	*	*I'Vc.	*	*I'Vla.	*	*I'Vla.	*	*I'Pno.	*I'Pno.	*	*I'Glock.	*	*I'Cel.	*	*I'W.B.	*	*I'Bsn.	*	*I'Bsn.	*	*I'C. A.	*	*I'Ob.	*
 *ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICklav	*ICklav	*	*ICidio	*	*ICklav	*	*ICidio	*	*ICww	*	*ICww	*	*ICww	*	*ICww	*
 *Icello	*	*Icello	*	*Iviola	*	*Iviola	*	*Ipiano	*Ipiano	*	*Iglock	*	*Iclest	*	*Iwbloc	*	*Ifagot	*	*Ifagot	*	*Icangl	*	*Ioboe	*
 *clefF4	*	*clefF4	*	*clefC3	*	*clefC3	*	*clefG2	*clefG2	*	*clefG2	*	*clefG2	*	*clefX	*	*clefF4	*	*clefF4	*	*clefG2	*	*clefG2	*
@@ -13,52 +13,77 @@
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[b-]	*	*k[]	*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*C:	*	*	*	*	*	*	*	*	*
 *M2/8	*	*M2/8	*	*M2/8	*	*M2/8	*	*M2/8	*M2/8	*	*M2/8	*	*M2/8	*	*M2/8	*	*M2/8	*	*M2/8	*	*M2/8	*	*M2/8	*
-*	*	*	*	*	*	*	*	*	*	*	*	*	*8va	*	*	*	*	*	*	*	*	*	*	*
 !!LO:REH:t=22
-=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[[eighth]=120]	!
-!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=d.	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:a:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:t=g.	!	!	!	!	!	!	!	!	!LO:DY:t=%s expressif	!	!LO:DY:t=%s expressif
+=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122
+*	*	*	*	*	*	*	*	*	*	*	*	*	*8va	*	*	*	*	*	*	*	*	*	*	*
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=Modéré, berceur ([eighth]=120)	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:i:t=dr.	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=g.	!	!	!	!	!	!	!	!	!LO:DY:t=%s expressif	!	!LO:DY:t=%s expressif
 16EE'	mf	16r	.	(8gL	f	(8cc#XL	f	8r	8r	.	16aaaa-XLL	p	16aaa-XLL 16aaaa-X	p	[4Ree\	p	16EE'LL	mf	4r	.	(8f#XL	f	(8ff#XL	f
 !	!	!LO:TX:a:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 16r	.	16BB'	mf	.	.	.	.	.	.	.	16gggg	.	16ggg 16gggg	.	.	.	16BB'	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!LO:TX:a:t=2	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=1[	!LO:TX:a:t=5	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 16GG#X'	.	16r	.	8f#XJ)	.	8ccnJ)	.	16ddnLL 16ee	16gg#XLL 16ddd#X	mf	16aaaa	.	16aaa 16aaaa	.	.	.	16GG#X'	.	.	.	8fJ)	.	8ffnJ)	.
-16r'	.	16D'	.	.	.	.	.	16f#XJJ 16dd#X	16ggnJJ 16cccn	.	16bbbb-XJJ	.	16bbb-XJJ 16bbbb-X	.	.	.	16D'JJ	.	.	.	.	.	.	.
-=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
+!	!	!	!	!	!	!	!	!LO:TX:b:t=2	!LO:TX:a:t=1	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=5	!LO:TX:a:t=4	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16r'	.	/16D'	.	.	.	.	.	16f#XJJ 16dd#X	16ggnJJ 16cccn	.	16bbbb-XJJ	.	16bbb-XJJ 16bbbb-X	.	.	.	16D'JJ	.	.	.	.	.	.	.
+=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123
 *M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=1	!LO:TX:a:t=1	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=2	!LO:TX:a:t=2	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 16BB'	.	16r'	.	(16a-X^KL	.	(16dd^KL	.	16eenLL 16gg#X	16ffnLL 16ddd-X	.	16aaaa-XLL	.	16aaa-XLL 16aaaa-X	.	8.Ree\_	.	16BB'	.	16r	.	(16g^KL	.	(16gg^KL	.
+!	!	!	!	!	!	!	!	!LO:TX:b:t=3	!LO:TX:a:t=3	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=5	!LO:TX:a:t=5	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 16r	.	16F'LL	.	8g	.	8cc#X	.	16an 16ddn	16eee-X 16gggn	.	16r	.	16r	.	.	.	16r	.	16Fn'LL	mf	8f#X	.	8ff#X	.
 16r	.	16F#X'JJ	.	.	.	.	.	16eenJJ 16gg#X	16ffnJJ 16ddd-X	.	16cccccJJ	.	16ccccJJ 16ccccc	.	.	.	16r	.	16F#X'JJ	.	.	.	.	.
-=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.
-!	!	!	!	!	!	!LO:TX:t=P:problem:dotted barline to be implemented/cross-bar beaming to be implemented	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:dotted barline to be implemented/cross-bar beaming to be implemented	!
-8r	.	16G'LL	.	8f#X	.	8ccn	.	16ccnLL 16ff#X	16eeenLL 16gggn	.	16ffff#XLL	.	16fff#XLL 16ffff#X	.	16Ree\KL]	.	4r	.	16G'LL	.	8f	.	8ffn	.
+=..	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.
+8r	.	16G'LL	.	8f#X	.	8ccn	.	16ccnLL 16ff#X	16eeenLL 16gggn	.	16ffff#XLL	.	16fff#XLL 16ffff#X	.	16Ree\KL]	.	4r	.	16G'LL	.	8fn	.	8ffn	.
 .	.	16G#X'	.	.	.	.	.	16gn 16ee-X	16ffn 16ddd-X	.	16aaaa-X	.	16aaa-X 16aaaa-X	.	8Ree\	.	.	.	16G#X'	.	.	.	.	.
-16D#X'	.	16r'	.	8fnJ)	.	8bJ)	.	16ee-X 16ffn	16eeen 16gggn	.	16cccc	.	16ccc 16cccc	.	.	.	.	.	16D#X'	.	8eJ)	.	8eeJ)	.
+/16D#X'	.	16r'	.	8fnJ)	.	8bJ)	.	16ee-X 16ffn	16eeen 16gggn	.	16ccccn	.	16cccn 16ccccn	.	.	.	.	.	16D#X'	.	8eJ)	.	8eeJ)	.
 16r	.	16A'JJ	.	.	.	.	.	16a-XJJ 16dd-X	16aanJJ 16bb-X	.	16ffff#XJJ	.	16fff#XJJ 16ffff#X	.	[16Ree\Jk	.	.	.	16A'JJ	.	.	.	.	.
-=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124
 *M4/8	*	*M4/8	*	*M4/8	*	*M4/8	*	*M4/8	*M4/8	*	*M4/8	*	*M4/8	*	*M4/8	*	*M4/8	*	*M4/8	*	*M4/8	*	*M4/8	*
 16EE'	.	16r'	.	(8gL	.	(8cc#XL	.	8r	8r	.	16aaaa-XLL	.	16aaa-XLL 16aaaa-X	.	16Ree\KL]	.	16EE'LL	.	2r	.	(8f#XL	.	(8ff#XL	.
 16r	.	16BB'	.	.	.	.	.	.	.	.	16gggg	.	16ggg 16gggg	.	8.Ree\J	.	16BB'	.	.	.	.	.	.	.
-16FF#X'	.	16r'	.	8a-XJ	.	8ddJ	.	16ccnLL 16ddn	16ff#XLL 16ccc#X	.	16ffff#X	.	16fff#X 16ffff#X	.	.	.	16FF#X'	.	.	.	8gJ	.	8ggJ	.
+!	!	!	!	!	!	!	!	!	!LO:TX:a:t=2	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=1[	!LO:TX:a:t=5	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16FF#X'	.	16r'	.	8a-XJ	.	8ddJ	.	\16ccnLL 16ddn	16ff#XLL 16ccc#X	.	16ffff#X	.	16fff#X 16ffff#X	.	.	.	16FF#X'	.	.	.	8gJ	.	8ggJ	.
+!	!	!	!	!	!	!	!	!LO:TX:b:t=2	!LO:TX:a:t=1	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=5	!LO:TX:a:t=3	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 16r'	.	16Cn'	.	.	.	.	.	16enJJ 16cc#X	16ffnJJ 16bb-X	.	16eeeeJJ	.	16eeeJJ 16eeee	.	.	.	16Cn'JJ	.	.	.	.	.	.	.
-16GG#X'	.	16r'	.	8gL	.	8cc#XL	.	16bnLL 16een	16aanLL 16dddn	.	16eeee-XLL	.	16eee-XLL 16eeee-X	.	8Ree\L	.	16GG#X'LL	.	.	.	8f#XL	.	8ff#XL	.
+!	!	!	!	!	!	!	!	!LO:TX:b:t=1	!LO:TX:a:t=2	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=3	!LO:TX:a:t=5	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16GG#X'	.	16r'	.	8gL	.	8cc#XL	.	\16bnLL 16een	16aanLL 16dddn	.	16eeee-XLL	.	16eee-XLL 16eeee-X	.	8Ree\L	.	16GG#X'LL	.	.	.	8f#XL	.	8ff#XL	.
+!	!	!	!	!	!	!	!	!LO:TX:b:t=2	!LO:TX:a:t=1	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=5	!LO:TX:a:t=4	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 16r	.	16D'	.	.	.	.	.	16a-X 16dd-X	16gg 16cccn	.	16ffff	.	16fff 16ffff	.	.	.	16D'	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!LO:TX:a:t=2	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=1[	!LO:TX:a:t=5	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 16AA'	.	16r'	.	8f#XJ)	.	8ccnJ)	.	16ccn 16ddn	16ff#X 16ccc#X	.	16ggg-X	.	16gg-X 16ggg-X	.	8Ree\J	.	16AA'	.	.	.	8fJ)	.	8ffnJ)	.
-16r'	.	16E-X'	.	.	.	.	.	16enJJ 16cc#X	16ffnJJ 16bb-X	.	16ccccJJ	.	16cccJJ 16cccc	.	.	.	16E-X'JJ	.	.	.	.	.	.	.
-=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
+!	!	!	!	!	!	!	!	!LO:TX:b:t=2	!LO:TX:a:t=1	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=5	!LO:TX:a:t=3	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16r'	.	16E-X'	.	.	.	.	.	16enJJ 16cc#X	16ffnJJ 16bb-X	.	16ccccnJJ	.	16cccnJJ 16ccccn	.	.	.	16E-X'JJ	.	.	.	.	.	.	.
+=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125
 *M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*	*M7/16	*
+!	!	!	!	!	!	!	!	!LO:TX:b:t=1	!LO:TX:a:t=1	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=2	!LO:TX:a:t=2	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 16BB'	.	16r'	.	(16a-X^KL	.	(16dd^KL	.	16ddnLL 16ff#X	16ee-XLL 16ccc-X	.	16gggg-XLL	.	16ggg-XLL 16gggg-X	.	8Ree\L	.	16BBn'	.	16r	.	(16g^KL	.	(16gg^KL	.
+!	!	!	!	!	!	!	!	!LO:TX:b:t=3	!LO:TX:a:t=3	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:b:t=5	!LO:TX:a:t=5	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 16r'	.	16F'LL	.	8g	.	8cc#X	.	16gn 16ccn	16ddd-X 16fffn	.	16ffff	.	16fff 16ffff	.	.	.	16r	.	16F'LL	mf	8f#X	.	8ff#X	.
 16r	.	16F#X'JJ	.	.	.	.	.	16ddnJJ 16ff#X	16ee-XJJ 16ccc-X	.	16ggggJJ	.	16gggJJ 16gggg	.	16Ree\Jk	.	16r	.	16F#X'JJ	.	.	.	.	.
-=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.
-!	!	!	!	!	!	!LO:TX:t=P:problem:dotted barline to be implemented/cross-bar beaming to be implemented	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem: dotted barline to be implemented/cross-bar beaming to be implemented	!
-8r	.	16G'LL	.	8f#X	.	8ccn	.	16b-XLL 16ff-X	16dddnLL 16fffn	.	16aaaa-XLL	.	16aaa-XLL 16aaaa-X	.	8.Ree\L	.	4r	.	16G'LL	.	8f	.	8ffn	.
+=..	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.	=.
+8r	.	16G'LL	.	8f#X	.	8ccn	.	16b-XLL 16ff-X	16dddnLL 16fffn	.	16aaaa-XLL	.	16aaa-XLL 16aaaa-X	.	8.Ree\L	.	4r	.	16G'LL	.	8fn	.	8ffn	.
 .	.	16G#X'	.	.	.	.	.	16fn 16dd-X	16ee-X 16ccc-X	.	16gggg-X	.	16ggg-X 16gggg-X	.	.	.	.	.	16G#X'	.	.	.	.	.
-16D#X'	.	16r'	.	8fnJ)	.	8bJ)	.	16dd-X 16ee-X	16dddn 16fffn	.	16r	.	16r	.	.	.	.	.	16D#X'	.	8eJ)	.	8eeJ)	.
+/16D#X'	.	16r'	.	8fnJ)	.	8bJ)	.	16dd-X 16ee-X	16dddn 16fffn	.	16r	.	16r	.	.	.	.	.	16D#X'	.	8eJ)	.	8eeJ)	.
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 16r	.	16A'JJ	.	.	.	.	.	16g-XJJ 16cc-X	16ggnJJ 16aa-X	.	16bbbb-XJJ	.	16bbb-XJJ 16bbbb-X	.	[16Ree\Jk	.	.	.	16A'JJ	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*	*X8va	*	*	*	*	*	*	*	*	*	*	*
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)][(s5)][(s6,s7)][({(s8,s9)})][([(s10,s11)][(s12,s13)])]
+!!!EED: Claudio de Freitas
+!!!EEV: 2021/10/26
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/03/18
