@@ -12,10 +12,10 @@
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 =36	=36	=36	=36	=36	=36	=36	=36
 !!LO:TX:t=[[quarter] = 60]
-16ALL	f	(8fL]	f	8ccL)	f	[4fff)	f
+16ALL	f	(8fL]i	f	8ccL)j	f	[4fff)j	f
 16cJ	.	.	.	.	.	.	.
 [8fJ	.	(8aJ	.	(8ccJ	.	.	.
-8fL])	>	8g#XL	>	8bL	>	16fffLL]	>
+8fL])j	>	8g#XL	>	8bL	>	16fffLL]	>
 .	.	.	.	.	.	(16eee	.
 (16FL	.	[8aJ	.	[8ccJ	.	16ddd	.
 16AJJ	.	.	.	.	.	16cccJJ	.
@@ -25,7 +25,7 @@
 .	.	.	.	.	.	16ffJJ)	.
 (16DLL	.	8eL	.	8g#XL	.	(16eeLL	.
 16FJ	.	.	.	.	.	16dd	.
-[8AJ	.	[8fJ	.	[8aJ	.	16cc	.
+[8AJ	.	[8fJ	.	[>8aJ	.	16cc	.
 .	.	.	.	.	.	16b-XJJ)	.
 =37	=37	=37	=37	=37	=37	=37	=37
 16ALL])	.	8fL])	.	8aL])	.	(16aLL	.
@@ -38,14 +38,19 @@
 .	.	.	.	.	.	16ffJJ)	.
 (16DLL	<	8fL])	<	8aaL])	<	(16aLL	<
 16FJ	.	.	.	.	.	16cc	.
-[8AJ	.	(8fJ	.	(8dddJ	.	16ee	.
+[8AJ	.	(8fJi	.	(8dddJi	.	16ee	.
 .	.	.	.	.	.	16ffJJ)	.
 8AL])	.	8eL	.	8ccc#XL	.	(16gLL	.
 .	.	.	.	.	.	16b-	.
-(16GGL	.	[8fJ	[	[8dddJ	[	16dd	.
+(16GGLi	.	[8fJ	[	[8dddJ	[	16dd	.
 16DJJ	[	.	.	.	.	16eeJJ)	[
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
 !!!EED: Daniel Wright
 !!!EEV: 2021/11/04
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!RDF**kern: > = above
+!!!EED2: Jason Lee
+!!!EEV2: 2022/03/21
