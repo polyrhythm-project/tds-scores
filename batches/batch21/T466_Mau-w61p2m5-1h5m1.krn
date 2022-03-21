@@ -12,9 +12,9 @@
 *M3/8	*M3/8	*	*M3/8	*
 =46	=46	=46	=46	=46
 !!LO:TX:t=[[quarter-dot]=51]
-!	!	!LO:DY:ed=brack	!	!
+!LO:TX:t=P:problem= partial beaming in piano part not available in VHV	!	!LO:DY:ed=brack	!	!
 !	!	!LO:DY:t= poco %s	!	!LO:DY:ed=brack
-16r	16r	f	4d#X)	mp
+16r	16r	f	4d#X)j	mp
 16EE'KL	16g'KL	.	.	.
 16BB'K 16G	16dd#X'K 16bb	.	.	.
 16r	16r	.	.	.
@@ -28,7 +28,7 @@
 16EE'L	16g'L	.	8B-Xv 8g	mf [
 16C'JJ 16G	16ddn'JJ 16bb-X	.	.	.
 =48	=48	=48	=48	=48
-16r	16r	.	4Gu 4e	.
+16r	16r	.	4Gu 4en	.
 16EE'KL	16g'KL	.	.	.
 16BB'K 16G	16ee'K 16bbn	.	.	.
 16r	16r	.	.	.
@@ -56,10 +56,13 @@
 *	*	*	*clefF4	*
 16BB-X'K 16G	16dd'K 16bb-X	.	8dnX)	.
 16r	16r	.	.	.
-16EE'L	16g'L	.	8A#XJ 8f#X	[
+16EE'L	16b-'L	.	8A#XJ 8f#X	[
 16BB-X'JJ 16G-X	16dd-X'JJ 16bb-	[	.	.
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
 !!!EED: Daniel Wright
 !!!EEV: 2021/11/04
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!EED2: Jason Lee
+!!!EEV2: 2022/03/21
