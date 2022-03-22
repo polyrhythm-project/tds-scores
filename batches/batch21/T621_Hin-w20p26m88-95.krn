@@ -6,14 +6,13 @@
 *staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
 *I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I
 *I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
-!!pagebreak:original
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 !!LO:REH:t=E
 =1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:a:t=Solo	!LO:DY:t=%s grazioso	!	!	!	!	!LO:TX:t=[half-dot]=66	!
+!LO:TX:a:t=Solo	!LO:DY:t=%s grazioso	!	!	!	!	!LO:TX:t=[[half-dot]=66]	!
 (4F	p	4r	.	4r	.	4r	.
 4AA-X	.	(8d-XL	pp	4fft	pp	4ddd-Xt	pp
 .	.	8c	.	.	.	.	.
@@ -49,6 +48,7 @@
 4G-X)	.	8e-X	.	4r	.	4r	.
 .	.	8dnJ	.	.	.	.	.
 =6	=6	=6	=6	=6	=6	=6	=6
+!	!	!	!	!	!	!LO:TR:acc=n	!
 2An	<	8c#XL	<	4cc#Xt	<	4eent	<
 .	.	8en	.	.	.	.	.
 .	.	8bn	.	4r	.	4r	.
@@ -56,8 +56,9 @@
 (8B-XL	.	8gn	.	4cc#t	.	4aat	.
 8AJ)	.	8f#XJ)	.	.	.	.	.
 =7	=7	=7	=7	=7	=7	=7	=7
-(4.d	.	(8fnL	.	4r	.	4r	.
+(4.d	.	(8fnLi	.	4r	.	4r	.
 .	.	8e	.	.	.	.	.
+!	!	!	!	!	!	!LO:TR:acc=n	!
 .	.	8f	.	4dd#Xt	.	4bbnt	.
 8Bn)	.	8g	.	.	.	.	.
 [4d	.	8a-X	.	4r	.	4r	.
@@ -67,8 +68,15 @@
 8BJ	.	8g	.	.	.	.	.
 (4.B	.	8f	.	4r	.	4r	.
 .	.	8e	.	.	.	.	.
-.	.	8f	mf [	[4ee#t	mf [	[4ddd#Xt	mf [
-8A)	mf [	8gJ)	.	.	.	.	.
+.	.	8f	mf [	(4ee#ti	mf [	(4ddd#Xti	mf [
+8A)	mf [	8gJ	.	.	.	.	.
+.	.	.	.	.	.	16qccc##L	.
+.	.	.	.	.	.	16qddd#J	.
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED: Gabriella Vici
+!!!EEV: 2021/11/02
+!!!EED2: Jason Lee
+!!!EEV2: 2022/03/21
