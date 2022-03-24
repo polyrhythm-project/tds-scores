@@ -1,10 +1,10 @@
 !!!COM: Alban (Maria Johannes) Berg
 !!!OTL: [T446_Ber-w11p7m31-34]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*	*grp:B	*	*grp:B	*	*grp:B	*	*grp:B	*
-*part4	*	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Piano	*	*	*	*I"Horn in F 2. [sounds as written]	*	*I"Horn in F 1. [sounds as written]	*	*I"Contrabassoon [sounds as written]	*
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
+*part4	*part4	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano	*I"Piano	*I"Horn in F 2. [sounds as written]	*I"Horn in F 2. [sounds as written]	*I"Horn in F 1. [sounds as written]	*I"Horn in F 1. [sounds as written]	*I"Contrabassoon [sounds as written]	*I"Contrabassoon [sounds as written]
 *I'Pno.	*	*	*	*I'Hn.	*	*I'Hn.	*	*I'Cbsn.	*
 *clefF4	*	*clefG2	*	*clefF4	*	*clefF4	*	*clefF4	*
 *	*	*	*	*	*	*	*	*ITrd0c0	*
@@ -13,7 +13,7 @@
 *M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*
 !!LO:REH:t=31
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!LO:TX:t=[half]=[half]	!	!	!	!	!	!LO:TX:t=[half]=[half]	!
+!	!	!LO:TX:t=[half] = [half]	!	!	!	!	!	!LO:TX:t=[half] = [half]	!
 !	!	!LO:TX:B:t=I. Var. (ToI)	!	!	!	!	!	!LO:TX:B:t=I. Var. (ToI)	!LO:DY:rj
 !	!	!LO:TX:b:rj:t=Solo:	!	!	!	!	!	!	!
 8r	.	(2ee#X	pp	8Fn)j	>	8fn)j	>	4GGGn	p >
@@ -50,9 +50,9 @@
 8r	.	4r	.	2%3r	.	2%3r	.	2%3r	.
 *clefF4	*	*	*	*	*	*	*	*	*
 (8BBBnL	.	.	.	.	.	.	.	.	.
-8DDn	.	(4e#X 4ee#X	.	.	.	.	.	.	.
+8DDn	.	(4e#X 4ee#X:	.	.	.	.	.	.	.
 8GGn' 8AA#X)	.	.	.	.	.	.	.	.	.
-(8BBn	.	4f#X 4ee#X 4ff#X	.	.	.	.	.	.	.
+(8BBn	.	4f#X 4ee#X 4ff#X:	.	.	.	.	.	.	.
 8DnJ	.	.	.	.	.	.	.	.	.
 *	*	*^	*	*	*	*	*	*	*
 8Gn'L 8A#X)	.	4g#X 4gg#X\	8reee	.	.	.	.	.	.	.
@@ -62,7 +62,6 @@
 8gn' 8a#X)	.	.	8ff#X/)	.	.	.	.	.	.	.
 (8bn	.	4aan~ [4aaan\	4aa/	.	.	.	.	.	.	.
 8ddn':J 8ffn: 8gg#X:)	.	.	.	.	.	.	.	.	.	.
-!!linebreak:original
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
 !	!	!LO:TX:a:B:t=Tempo I	!	!LO:DY:t=quasi %s	!	!	!	!	!LO:TX:a:B:t=Tempo I	!
 4.ggn~ 4.bb-X	.	8aaanZL])\	8ccc#X 8eeen/	f	2%3r	.	2%3r	.	2%3r	.
@@ -71,7 +70,7 @@
 .	.	(8ddddn	.	.	.	.	.	.	.
 .	.	8aaa-X 8ccccn	.	.	.	.	.	.	.
 !	!LO:DY:rj	!	!	!	!	!	!	!	!
-*Haupt	*	*	*	*	*	*	*	*	*
+*haupt	*	*	*	*	*	*	*	*	*
 (8dn'L 8f#X 8ddn	mf	8eee-X	.	.	.	.	.	.	.
 8e-X' 8gn 8ee-X	.	8dddn')	.	.	.	.	.	.	.
 *	*	*X8va	*	*	*	*	*	*	*
@@ -92,3 +91,5 @@
 !!!RDF**kern: j = marked note, color="magenta", text="extra)"
 !!!EED:Jason Lee
 !!!EEV:2021/11/09
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/24
