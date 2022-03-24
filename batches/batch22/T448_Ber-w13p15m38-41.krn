@@ -1,10 +1,10 @@
 !!!COM: Alban (Maria Johannes) Berg
 !!!OTL: [T448_Ber-w13p15m38-41]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*	*grp:B	*	*grp:A	*	*grp:A	*
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I
 *I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
@@ -29,28 +29,28 @@
 !	!	!	!	!LO:TX:a:B:t=viel Bogen	!	!LO:TX:a:t=poco allargando [al Tempo I]	!
 (16E-XLL	.	8F#X 8A#X 8f#X	.	(8aa-XL	.	(8cccnL	<
 16BBnJ	.	.	.	.	[ >	.	[ >
-!	!	!LO:TX:t=P:problem:grey note should be in parentheses	!	!	!	!	!
-8An'J)	.	(16AnNLL 16f#	.	8.ggn'~)	.	8.bbn'~)	.
+!!!ONB: grey note should be in parentheses
+8An'J)	.	(16AnNLL 16f#X	.	8.ggn'~)	.	8.bbn'~)	.
 .	.	16ccnJ	.	.	.	.	.
-(16E-XLL	.	8dnJ)	.	.	]	.	]
-16AAnJ	.	.	.	16ff#XJk	<	16dddnJk	<
+(16E-XL	.	8dnJ)	.	.	]	.	]
+16AAn	.	.	.	16ff#XJk	<	16dddnJk	<
 !!LO:REH:t=40
 =3	=3	=3	=3	=3	=3	=3	=3
 8B-X'J)	.	(16f#XLL	.	(8aa-XL	.	(8cccnL	.
 .	.	16ddnJ	.	.	[ >	.	[ >
-(16E-XLL	.	8cn)	.	8.ggn'~)	.	8.bbn'~)	.
+(16E-XL	.	8cn)	.	8.ggn'~)	.	8.bbn'~)	.
 16AA-X	.	.	.	.	.	.	.
-16B-X'JJ)	.	(16f#XL	.	.	]	.	]
-(16E-XLL	.	16a#XJJ	.	16ff#XJk	< [	16dddnJk	< [
+16B-X')J	.	(16f#XL	.	.	]	.	]
+(16E-XL	.	16a#XJJ	.	16ff#XJk	< [	16dddnJk	< [
 *	*	*clefG2	*	*	*	*	*
 !!LO:REH:t=41
 =4	=4	=4	=4	=4	=4	=4	=4
 *M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*
 16GGn	f	8ffnL	f	(8aa-XL	f <	(8cccnL	f <
-16Bn'JJ)	.	.	.	.	.	.	.
+16Bn'J)	.	.	.	.	.	.	.
 (16E-XLLi	.	16eenL)	.	8ggn	.	8bbn	.
-16FF#XJ	.	(16ee-XJ	.	.	.	.	.
-16DnL	.	16b-XL	.	8ee-XJ)	.	8ff#XJ	[ >
+16FF#X	.	(16ee-XJ	.	.	.	.	.
+16Dn	.	16b-XL	.	8ee-XJ)	.	8ff#XJ	[ >
 [16cnJJ	.	16an'JJ)	.	.	[	.	.
 *	*	*	*	*neben	*	*	*
 !	!	!	!	!LO:TX:a:t=G Saite	!	!	!
@@ -67,3 +67,5 @@
 !!!RDF**kern: i = marked note, color="hotpink", text="extra("
 !!!EED:Jason Lee
 !!!EEV:2021/11/12
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/24
