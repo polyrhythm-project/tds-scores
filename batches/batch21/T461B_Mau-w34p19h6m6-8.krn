@@ -3,18 +3,16 @@
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A
 *part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Violin 4	*	*I"Violin 3	*	*I"Violin 2	*	*I"Violin 1	*	*I"Clarinet in Bb	*	*I"Oboe	*
+*staff7	*staff7	*staff6	*staff6	*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Violin 4	*I"Violin 4	*I"Violin 3	*I"Violin 3	*I"Violin 2	*I"Violin 2	*I"Violin 1	*I"Violin 1	*I"Clarinet in Bb	*I"Clarinet in Bb	*I"Oboe	*I"Oboe
 *I'Vc.	*	*I'Vln. II	*	*I'Vln. I	*	*I'Vln. 2	*	*I'Vln. 1	*	*I'Cl.	*	*I'Ob.	*
-!!pagebreak:original
 *clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*
 *	*	*	*	*	*	*	*	*	*	*ITrd1c2	*	*	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*
 *M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter-dot]=90	!
-!	!	!	!	!	!	!	!	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
+!	!	!	!	!	!	!	!	!	!	!	!LO:DY:ed=brack	!LO:TX:t=[quarter-dot]=90	!LO:DY:ed=brack
 8r)	.	8r)	.	8a'L)	f	8r)	.	8r)	.	8f#X'L)	f	8ff#X'L	f
 8f#X'L	f	(16aLL	f	(16f#XL	.	(16cc#XLL	f	(16ff#XLL	f	8g#X'	.	8gg#X'	.
 .	.	16cc#XJ	.	16gJ	.	16ff#XJ	.	16aaJ	.	.	.	.	.
@@ -42,9 +40,12 @@
 8G'L	>	(16e-XLL	>	(16c#LL	>	(16gLL	>	(16ccLL	>	8e-L	>	8aL	>
 .	.	16cJ	.	16cnJ	.	16e-XJ	.	16gJ	.	.	.	.	.
 8F'	.	8G')	.	8B')	.	8c')	.	8e-X')	.	8d	.	8b	.
-!LO:TX:t=P:problem:Hanging slur not implemented yet	!	!LO:TX:t=P:problem:Hanging slur not implemented yet	!	!LO:TX:t=P:problem:Hanging slur not implemented yet	!	!LO:TX:t=P:problem:Hanging slur not implemented yet	!	!LO:TX:t=P:problem:Hanging slur not implemented yet	!	!LO:TX:t=P:problem:Hanging slur not implemented yet	!	!LO:TX:t=P:problem:Hanging slur not implemented yet	!
 (8EJ	]	(16G#XL	.	(16cL	.	(16BL	.	(16enL	.	(8eXJ	]	(8g#XJ	]
 .	.	16BJJ	]	16dJJ	]	16enJJ	]	16f#XJJ	]	.	.	.	.
 =	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2)][(s3,s4,s5,s6,s7)]
+!!!EED: Rafael Laurindo
+!!!EEV: 021/11/19
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/24
