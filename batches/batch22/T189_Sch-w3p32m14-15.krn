@@ -1,19 +1,19 @@
 !!!COM: Arnold (Franz Walter) Schoenberg [Schönberg]
 !!!OTL: [T189_Sch-w3p32m14-15]
-**kern	**kern		**dynam	**kern	**text	**dynam
-*grp:A	*grp:B		*	*grp:A	*	*
-*part2	*part2		*part2	*part1	*part1	*part1
-*staff3	*staff2		*	*staff1	*staff1	*
-*I"Piano	*		*	*I"Soprano Solo	*	*
-*I'Pno.	*		*	*I'S. Solo	*	*
-*clefF4	*clefG2		*	*clefG2	*	*
-*k[f#c#]	*k[f#c#]		*	*k[f#c#]	*	*
-*D:	*D:		*	*D:	*	*
-*M4/4	*M4/4		*	*M4/4	*	*
-*met(c)	*met(c)		*	*met(c)	*	*
+**kern	**kern	**dynam	**kern	**text	**dynam
+*grp:A	*grp:B	*	*grp:A	*grp:A	*grp:A
+*part2	*part2	*part2	*part1	*part1	*part1
+*staff3	*staff2	*staff2/3	*staff1	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano	*I"Soprano Solo	*I"Soprano Solo	*I"Soprano Solo
+*I'Pno.	*	*	*I'S. Solo	*	*
+*clefF4	*clefG2	*	*clefG2	*	*
+*k[f#c#]	*k[f#c#]	*	*k[f#c#]	*	*
+*D:	*D:	*	*D:	*	*
+*M4/4	*M4/4	*	*M4/4	*	*
+*met(c)	*met(c)	*	*met(c)	*	*
 !!LO:REH:t=14
-=1	=1		=1	=1	=1	=1
-*	*^		*	*	*	*
+=1	=1	=1	=1	=1	=1
+*	*^	*	*	*	*
 !	!LO:S:a	!	!LO:DY:t=[ %s ]	!	!	!
 (8AAL	(12f#L	4c#X	p	8f#	–klun-	.
 .	12g	.	.	.	.	.
@@ -21,8 +21,8 @@
 [8EJ	.	.	.	8g	-ge-	.
 .	12eJ	.	.	.	.	.
 *	*v	*v	*	*	*	*
-*	*Xtuplet		*	*	*	*
-*	*^		*	*	*	*
+*	*Xtuplet	*	*	*	*
+*	*^	*	*	*	*
 !	!	!	!LO:HP:a	!	!	!
 8EL]	12B#XL	4G	<	4e	-nen:	<
 .	12c#	.	.	.	.	.
@@ -41,9 +41,9 @@
 12F#J)	.	.	.	.	.	]]
 *	*v	*v	*	*	*	*
 !!LO:REH:t=15
-=2	=2		=2	=2	=2	=2
-*	*tuplet		*	*	*	*
-*	*^		*	*	*	*
+=2	=2	=2	=2	=2	=2
+*	*tuplet	*	*	*	*
+*	*^	*	*	*	*
 *grp:A	*grp:B	*grp:B	*	*	*	*
 (8AAL	(12f#L	4c#X	.	8f#	-wa-	.
 .	12g	.	.	.	.	.
@@ -51,15 +51,15 @@
 [8EJ	.	.	.	4g	-chen	.
 .	12eJ	.	.	.	.	.
 *	*v	*v	*	*	*	*
-*	*Xtuplet		*	*	*	*
-*	*^		*	*	*	*
+*	*Xtuplet	*	*	*	*
+*	*^	*	*	*	*
 8EL]	12B#XL	4G	<	.	.	.
 .	12e	.	.	.	.	.
 [8F#J	.	.	.	8e	sie	<
 .	12AJ	.	.	.	.	.
 *	*v	*v	*	*	*	*
-*tuplet	*		*	*	*	*
-*	*^		*	*	*	*
+*tuplet	*	*	*	*	*
+*	*^	*	*	*	*
 *grp:B	*grp:A	*grp:A	*	*	*	*
 12F#L]	4.e 4.ee	2a 2cc#	[	4.ee	wie-	[
 12G	.	.	<	.	.	.
@@ -70,8 +70,10 @@
 .	8d#X 8dd#X)	.	.	8dd#X	-der,	.
 12F#J)	.	.	.	.	.	.
 *	*v	*v	*	*	*	*
-=	=		=	=	=	=
-*-	*-		*-	*-	*-	*-
+=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
 !!!EED:Jason Lee
 !!!EEV:2021/11/12
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/24
