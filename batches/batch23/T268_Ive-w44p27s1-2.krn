@@ -1,10 +1,10 @@
 !!!COM: Charles Ives
 !!!OTL: [T268_Ive-w44p27s1-2]
 **kern		**kern		**dynam	**kern	**text	**dynam
-*color:crimson		*color:crimson		*	*color:crimson	*	*
+*grp:A		*grp:A		*grp:A	*grp:A	*grp:A	*grp:A
 *part2		*part2		*part2	*part1	*part1	*part1
-*staff3		*staff2		*	*staff1	*staff1	*
-*I"Piano		*		*	*I"Voice	*	*
+*staff3		*staff2		*staff2/3	*staff1	*staff1	*staff1
+*I"Piano		*I"Piano		*I"Piano	*I"Voice	*I"Voice	*I"Voice
 *I'Pno.		*		*	*I'Voice	*	*
 *clefF4		*clefG2		*	*clefG2	*	*
 *k[]		*k[]		*	*k[]	*	*
@@ -27,12 +27,12 @@
 *		*v	*v	*	*	*	*
 =2		=2		=2	=2	=2	=2
 *^		*		*	*	*	*
-*color:dodgerblue	*	*		*	*	*	*
+*grp:B	*	*		*	*	*	*
 !LO:TX:rj:t=r.h.	!	!		!	!	!	!LO:DY:a:i:t=%s  lento con grazia
 (8CL	(2BBB 2BBi	4ryy		p	4.c	you	p
 8c	.	.		.	.	.	.
 !	!	!LO:TX:t=l.h.		!	!	!	!
-!	!	!LO:TX:rj:t=slowly and calmly		!	!	!	!
+!	!	!LO:TX:rj:i:t=slowly and calmly		!	!	!	!
 8B-X)	.	(>2c#X		.	.	.	.
 (8CJ	.	.		.	8cZ	may	.
 8cL	2BBB-X 2BB-X	.		.	2c	lie	.
@@ -107,6 +107,8 @@
 !!!RDF**kern: Z = editorial accidental, parentheses
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
 !!!EED:Jason Lee
 !!!EEV:2021/11/16
-!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/25
