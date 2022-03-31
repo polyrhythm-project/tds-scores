@@ -14,7 +14,7 @@
 *M3/4	*	*M3/4	*	*M3/4		*	*M3/4	*	*M3/4		*	*M3/4		*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4		*
 =1	=1	=1	=1	=1		=1	=1	=1	=1		=1	=1		=1	=1	=1	=1	=1	=1	=1	=1		=1
 *	*	*	*	*		*	*	*	*^		*	*		*	*	*	*	*	*	*	*^		*
-*	*	*	*	*tremolo		*	*	*	*	*	*	*		*	*	*	*	*	*	*	*	*	*
+*	*	*	*	*tremolo		*	*	*	*	*	*	*		*	*	*	*	*	*	*	*Xtuplet	*	*
 !	!	!LO:TX:a:t=[pizz.]	!	!		!	!	!	!LO:TX:a:t=Div.	!	!	!		!	!	!	!	!	!	!	!LO:TX:t=[quarter]=138	!	!
 !	!	!	!LO:DY:t=più %s	!		!LO:DY:t=più %s	!	!LO:DY:ed=brack	!	!	!LO:DY:t=più %s	!		!	!	!	!	!LO:DY:ed=brack	!	!	!LO:TX:a:B:t=1°	!	!
 4%3r	.	4.EE	p <	32E 32BLLL		p <	8d#'	p	(4dd#	4d#	p <	4%3r		.	4%3r	.	[2.g#	p<	4%3r	.	(12gg#L	2.r	p <
@@ -84,6 +84,7 @@
 =3	=3	=3	=3	=3		=3	=3	=3	=3		=3	=3		=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
 *	*	*	*	*		*	*	*	*		*	*^		*	*	*	*	*	*	*	*	*	*
 !	!	!	!	!		!	!	!	!LO:TX:a:t=Unis.		!	!	!LO:TX:a:B:rj:t=1° et 2°	!	!LO:TX:a:B:rj:t=1°	!	!	!	!LO:TX:a:B:rj:t=1°	!	!LO:TX:b:rj:B:t=2°	!	!
+*	*	*	*	*		*	*	*	*		*	*	*	*	*Xtuplet	*	*	*	*Xtuplet	*	*	*	*
 4%3r	.	4.EE	p <	32E 32BLLL		p <	(4d#	p <	(4dd#		p <	(2.B	(2.B	p <	(12g#L	p <	[2.g#	p <	(12gg#L	p <	8gg#	(>12gg#L	p
 .	.	.	.	32E 32B		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	32E 32B		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -157,3 +158,5 @@
 !!!system-decoration: [(s1[(s2,s3)]s4,s5)][([(s6,s7)]s8[(s9,s10)])]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!EED2: Rafael Laurindo
+!!!EEV2: 2022/03/26
