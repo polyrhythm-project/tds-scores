@@ -1,17 +1,18 @@
 !!!COM: Frank Martin
 !!!OTL: [T553_Mai-w19p1m1-9]
-**kern	**kern	**dynam	**kern	**dynam
-*grp:A	*grp:B	*grp:B	*grp:A	*grp:A
-*part3	*part2	*part2	*part1	*part1
-*staff3	*staff2	*staff2	*staff1	*staff1
-*I"Pedals	*I"Man. Organ	*I"Man. Organ	*I"Flute	*I"Flute
-*I'Ped.	*I'Org.	*	*I'Fl.	*
-!!pagebreak:original
-*clefF4	*clefG2	*	*clefG2	*
-*k[]	*k[]	*	*k[]	*
-*C:	*C:	*	*C:	*
-*M4/4	*M4/4	*	*M4/4	*
-*	*^	*	*	*
+**kern	**kern		**dynam	**kern	**dynam
+*grp:A	*grp:B		*grp:B	*grp:A	*grp:A
+*part3	*part2		*part2	*part1	*part1
+*staff3	*staff2		*staff2	*staff1	*staff1
+*I"Pedals	*I"Man. Organ		*I"Man. Organ	*I"Flute	*I"Flute
+*I'Ped.	*I'Org.		*	*I'Fl.	*
+*clefF4	*clefG2		*	*clefG2	*
+*k[]	*k[]		*	*k[]	*
+*C:	*C:		*	*C:	*
+*M4/4	*M4/4		*	*M4/4	*
+*met(c)	*met(c)		*	*met(c)	*
+*	*^		*	*	*
+!!LO:TX:t=Andante [quarter]=69
 !	!LO:TX:a:t=8' or 16' très fins	!	!	!	!
 4r	(4cc	[4a	p	4r	.
 =1	=1	=1	=1	=1	=1
@@ -23,14 +24,14 @@
 =2	=2	=2	=2	=2	=2
 2.B-X	4ff)	4gn)	.	2d]	.
 .	(4ff	(4g	.	.	.
-.	4ee)	4dd-X)	.	(4.g	.
+.	4ee)	4dd-X)	.	(>4.g	.
 4r	(4ee	[4dd-	.	.	.
 .	.	.	.	8a)	.
 =3	=3	=3	=3	=3	=3
 2.G	4ee-X)	4dd-]	.	(8b-X	.
 .	.	.	.	4a)	.
 .	[4ee-	(4dd-X	.	.	.
-.	.	.	.	([8b-N	.
+.	.	.	.	([8b-N>	.
 .	4ee-]	4cc)	.	4b-]	.
 4r	(4ee-	(4cc	.	4a)	.
 =4	=4	=4	=4	=4	=4
@@ -47,9 +48,9 @@
 .	(4gg	(4ee	.	.	.
 !!linebreak:original
 =6	=6	=6	=6	=6	=6
-2.D]	4ccc#X)	4ee-X)	.	4.bb-]	.
+2.D]	4ccc#X)	4ee-X)	.	4.bb-]	[
 .	(4ccc#	(4ee-	.	.	.
-.	.	.	.	8aa)	[
+.	.	.	.	8aa)	.
 .	4cccn)	4aa)	.	(8ff#X	.
 .	.	.	.	4gg#X	.
 4r	(4ccc	[4aa	.	.	.
@@ -67,8 +68,8 @@
 2.GG	4bb-]	4cc)	.	8ffL])	.
 .	.	.	.	(8een	.
 .	[4aa	(4ff#X	.	8ff	.
-.	.	.	.	[8ddJ)	.
-.	4aa]	4bn)	.	8ddL]	.
+.	.	.	.	[8ddJ	.
+.	4aa]	4bn)	.	8ddL])	.
 .	.	.	.	[8cc#X~J	.
 4r	[4gg#X	(4ffn	.	8.cc#L]	.
 .	.	.	.	[16cc#~Jk	.
@@ -78,10 +79,17 @@
 .	[4ff#X	(4b-	.	8dd~	.
 .	.	.	.	8ee~J)	.
 .	4ff#]	4a)	.	4ffn~	.
-4r	[4ff#	[4a	.	8.ccn~L	.
+4r	(4ff#i	[4a	.	8.ccn~L	.
 .	.	.	.	16cc'Jk	.
 *	*v	*v	*	*	*
-=	=	=	=	=
-*-	*-	*-	*-	*-
+=	=		=	=	=
+*-	*-		*-	*-	*-
 !!!system-decoration: s1[(s2,s3)]
 !!!RDF**kern: N = hairpin accent
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED: Gabriella Vici
+!!!EEV: 2021/11/18
+!!!EED2: Jason Lee
+!!!EEV2: 2022/03/31
