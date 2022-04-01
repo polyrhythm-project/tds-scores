@@ -4,31 +4,30 @@
 *grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*
-*I"Organ	*	*
-*I'Org.	*	*
-!!pagebreak:original
+*I"Organ	*I"Organ	*
+*I'Org.	*I'Org.	*
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
 *M7/8	*M7/8	*
-!	!LO:TX:t=[quarter-dot]=80	!
-!	!	!LO:DY:ed=brack
-8BL)	(8f#XL 8ddn 8ff#X	p
+=88	=88	=88
+!	!LO:TX:t=[[quarter-dot]=80]	!
+!	!LO:TX:t=[RIT.]    	!LO:DY:ed=brack
+8BL]	/(8f#XL 8ddn 8ff#X	p
 8cn	8en 8ccn 8een	.
 8d-X;J)	8e-X;J 8cc-X 8ee-X)	.
-!	!LO:TX:t=[quarter]=100	!
-!	!LO:TX:a:B:t=VAR. VII	!LO:DY:t=%s dolcissimo
+!	!LO:TX:a:B:t=VAR. VII	!
+!	!LO:TX:t=Moderato ([quarter]=104)	!LO:DY:t=%s dolcissimo
 (16DD#XLL	8r	p
 16FF#X	.	.
 16En	(8c#X'~L 8f#X 8cc#X	.
 16DnJJ)	.	.
 8r	8cn'~ 8gn 8ccn	.
 (16AA#XLL	8c#X'~J 8f#X 8cc#X	.
-16C#XJJ	.	.
-=1	=1	=1
+16C#X	.	.
+=89	=89	=89
 *M4/4	*M4/4	*
-!LO:TX:t=P:problem:beaming over the barline	!	!
-16BnLL	8dn'~ 8fn 8ddn)	.
+16Bn	8dn'~ 8fn 8ddn)	.
 16AnJJ)	.	.
 8r	(8e-X'~L 8f 8ee-X	.
 (16AAnLL	8dn'~ 8f#X 8ddn	.
@@ -42,7 +41,7 @@
 16DnJJ)	.	.
 8r	8f#X'~J 8cc#X 8ff#X	.
 !!linebreak:original
-=2	=2	=2
+=90	=90	=90
 (16AA#XLL	8fn'~ 8ddn 8ffn)	.
 16C#X	.	.
 16Bn	(8f'~L 8ee-X 8ff	<
@@ -57,7 +56,7 @@
 16BB-X	.	.
 16A-X	8b-X'~J 8ccn 8bb-X)	[
 16G-XJJ)	.	.
-=3	=3	=3
+=91	=91	=91
 8r	8ee-X^ 8ggn 8eee-X	sf
 (16CnLL	(8a-X'~L 8ffn 8aa-X	.
 16E-X	.	.
@@ -69,8 +68,12 @@
 16cn	(8gn'~L 8een 8ggn	.
 16B-XJJ)	.	.
 8r	8fn'~J 8ee 8ffn)	.
-8Cn'~ 8Gn [8cn	(16f#XLL 16dd#X	.
-.	16ff#XJJ)	.
+(8Cn'~ 8Gn 8cn	(16f#XLL 16dd#X	.
+.	16ff#XJJ	.
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!EED: Gabriella Vici
+!!!EEV: 2021/11/02
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/04/01
