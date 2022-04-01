@@ -1,10 +1,10 @@
 !!!COM: Britten, (Edward) Benjamin
 !!!OTL: [T806_Bri-w33p66m3-9]
 **kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*	*grp:A	*	*grp:B	*	*	*grp:A	*	*grp:A	*
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A
 *part5	*part5	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part1	*part1
-*staff5	*	*staff4	*	*staff3	*staff3	*	*staff2	*	*staff1	*
-*I"Violin II	*	*I"Violin I	*	*I"Soprano	*	*	*I"Oboe	*	*I"Flute	*
+*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I	*I"Soprano	*I"Soprano	*I"Soprano	*I"Oboe	*I"Oboe	*I"Flute	*I"Flute
 *I'Vln. II	*	*I'Vln. I	*	*I'S.	*	*	*I'Ob.	*	*I'Fl.	*
 *clefG2	*	*clefG2	*	*clefG2	*	*	*clefG2	*	*clefG2	*
 *k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*	*	*k[f#c#g#]	*	*k[f#c#g#]	*
@@ -53,11 +53,10 @@
 16e 16cc#	.	16a 16ee	.	.	.	.	8ff#X	<	.	.
 16e 16cc#	.	16a 16ee	.	16ff#	as	<	.	.	.	.
 16e 16cc#	.	16a 16ee	.	16ee	a-	.	8eeJ	.	.	.
-16e 16cc#JJ	.	16a 16eeJJ	.	16dd	-ny	[	.	.	.	.
-!!linebreak:original
+16e 16cc#JJ	[[	16a 16eeJJ	[[	16dd	-ny	[[	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
 !LO:TX:b:i:t=poco	!	!LO:TX:b:i:t=poco	!	!	!	!	!	!	!	!
-16e 16cc#LL	[	16a 16eeLL	[	4cc#	may	.	8bbnL	[	4.r	.
+16e 16cc#LL	.	16a 16eeLL	.	4cc#	may	.	8bbnL	[	4.r	.
 16e 16cc#	.	16a 16ee	.	.	.	.	.	.	.	.
 16e 16cc#	.	16a 16ee	.	.	.	.	8ddd	>	.	.
 16e 16cc#	>	16a 16ee	>	.	.	.	.	.	.	.
@@ -119,3 +118,5 @@
 !!!RDF**kern: j = marked note, color="magenta", text="extra)"
 !!!EED:Jason Lee
 !!!EEV:2021/11/19
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/04/01
