@@ -1,24 +1,24 @@
 !!!COM: (Joseph) Maurice Ravel
 !!!OTL: [T298_Rav-w32p19m30-35]
-**kern		**kern		**kern	**text	**kern	**kern	**dynam
-*grp:A		*grp:A		*grp:B	*	*grp:B	*grp:B	*
-*part4		*part4		*part3	*part3	*part2	*part1	*part1
-*staff5		*staff4		*staff3	*staff3	*staff2	*staff1	*
-*I"Piano		*		*I"Voice	*	*I"Violoncello	*I"Piccolo	*
-*I'Pno.		*		*I'V.	*	*I'Vc.	*I'Picc.	*
-*clefF4		*clefF4		*clefG2	*	*clefF4	*clefG2	*
-*		*		*	*	*	*ITrd-7c-12	*
-*k[]		*k[f#c#g#d#]		*k[f#c#g#d#]	*	*k[]	*k[f#c#g#d#]	*
-*E:		*E:		*E:	*	*	*E:	*
-*M4/4		*M4/4		*M4/4	*	*M4/4	*M4/4	*
+**kern	**kern	**kern	**text	**kern	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
+*part4	*part4	*part3	*part3	*part2	*part1	*part1
+*staff5	*staff4	*staff3	*staff3	*staff2	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Voice	*I"Voice	*I"Violoncello	*I"Piccolo	*I"Piccolo
+*I'Pno.	*	*I'V.	*	*I'Vc.	*I'Picc.	*
+*clefF4	*clefF4	*clefG2	*	*clefF4	*clefG2	*
+*	*	*	*	*	*ITrd-7c-12	*
+*k[]	*k[f#c#g#d#]	*k[f#c#g#d#]	*	*k[]	*k[f#c#g#d#]	*
+*E:	*E:	*E:	*	*	*E:	*
+*M4/4	*M4/4	*M4/4	*	*M4/4	*M4/4	*
 !!LO:REH:t=3
-=1		=1		=1	=1	=1	=1	=1
-*^		*^		*	*	*	*	*
+=1	=1	=1	=1	=1	=1	=1
+*^	*^	*	*	*	*	*
 !	!	!LO:TX:a:B:t=Tempo 1° [[quarter]=50]	!	!LO:TX:a:B:t=Tempo 1°	!	!	!LO:TX:t=OTTAVINO	!
 !	!	!	!	!LO:S:a	!	!	!LO:TX:a:B:t=Tempo 1°	!
 16rA	4rCC	16ryy@	16r	8d#])j	.	2r	2r	.
 *ped	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem: LV ties and stem direction	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem: LV ties should extend to the following rest.	!	!	!	!	!	!	!	!
 [32dLLL\	.	N[8.d#^	16d#KL	.	.	.	.	.
 [32GJJ	.	.	.	.	.	.	.	.
 !LO:TX:b:t=al segno	!	!	!	!	!	!	!	!
@@ -27,11 +27,13 @@
 *Xped	*	*	*	*	*	*	*	*
 .	[8EEJ	.	.	.	.	.	.	.
 !	!	!	!	!	!	!LO:TX:a:rj:t=pizz.	!	!
-!	!	!	!	!	!	!LO:TX:t=P:problem:articial harmonics	!	!
-2rA	2r	.	.	2r	.	16CCLL 16GG	4r	.
-.	.	.	.	.	.	16GGJ 16D	.	.
-.	.	.	.	.	.	8GGJ	.	.
-.	.	.	.	.	.	4D/	(8gggL	pp
+!	!	!	!	!	!	!LO:N:n=2:head=dia	!	!
+2rA	2r	.	.	2r	.	16CCr"LL 16GGr" 16G"	4r	.
+!	!	!	!	!	!	!LO:N:n=2:head=dia	!	!
+.	.	.	.	.	.	16GGr"J 16Dr" 16d"yy	.	.
+*	*	*	*	*	*	*head:dia	*	*
+.	.	.	.	.	.	8GG"J	.	.
+.	.	.	.	.	.	4D"/	(8gggL	pp
 .	.	.	.	.	.	.	8fff#J	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2
 16rA	4rCC	16ryy@	16r	2r	.	2r	8ddd#L	.
@@ -42,18 +44,25 @@
 4rA	[8AAAL/	2.ryy	2.G#] 2.d#N]	.	.	.	16gggLL	.
 .	.	.	.	.	.	.	16fff#J	.
 .	[8EEJ	.	.	.	.	.	[8ddd#J	.
-!	!	!	!	!LO:S:a	!	!	!	!
-2rA	2r	.	.	(8gn	Que	16DLL	4ddd#_	.
-.	.	.	.	.	.	16GG	.	.
-.	.	.	.	8f#	vos	16D	.	.
-.	.	.	.	.	.	16GGJJ	.	.
-.	.	.	.	4g	pas	8DL	8ddd#])	.
-.	.	.	.	.	.	16DL	8r	.
-.	.	.	.	.	.	16GGJJ	.	.
+!	!	!	!	!LO:S:a	!	!LO:N:head=dia	!	!
+2rA	2r	.	.	(8gn	Que	16D"LL	4ddd#_	.
+!	!	!	!	!	!	!LO:N:head=dia	!	!
+.	.	.	.	.	.	16GG"	.	.
+!	!	!	!	!	!	!LO:N:head=dia	!	!
+.	.	.	.	8f#	vos	16D"	.	.
+!	!	!	!	!	!	!LO:N:head=dia	!	!
+.	.	.	.	.	.	16GG"JJ	.	.
+!	!	!	!	!	!	!LO:N:head=dia	!	!
+.	.	.	.	4g	pas	8D"L	8ddd#])	.
+!	!	!	!	!	!	!LO:N:head=dia	!	!
+.	.	.	.	.	.	16D"L	8r	.
+!	!	!	!	!	!	!LO:N:head=dia	!	!
+.	.	.	.	.	.	16GG"JJ	.	.
 *	*	*v	*v	*	*	*	*	*
-=3	=3	=3		=3	=3	=3	=3	=3
-16rA	4rCC	16r		4f#	soient	4D/	4r	.
-*	*	*^		*	*	*	*	*
+=3	=3	=3	=3	=3	=3	=3	=3
+!	!	!	!	!	!LO:N:head=dia	!	!
+16rA	4rCC	16r	4f#	soient	4D"/	4r	.
+*	*	*^	*	*	*	*	*
 [32dLLL\	.	N[8.d#^	16d#KL	.	.	.	.	.
 [32GJJ	.	.	.	.	.	.	.	.
 [8EJ	.	.	[8G#J	.	.	.	.	.
@@ -61,20 +70,20 @@
 .	.	.	.	.	.	.	16fff#	.
 .	[8EEJ	.	.	.	.	.	16ggg	.
 .	.	.	.	.	.	.	16fff#JJ	.
-2rA	2r	.	.	8d#])	—	16GGLL	8ddd#L	.
-.	.	.	.	.	.	16DJ	.	.
-.	.	.	.	8r	.	8DJ	16gggL	.
+2rA	2r	.	.	8d#])	—	16GG"LL	8ddd#L	.
+.	.	.	.	.	.	16D"J	.	.
+.	.	.	.	8r	.	8D"J	16gggL	.
 .	.	.	.	.	.	.	16fff#JJ	.
 !	!	!	!	!LO:S:a	!	!	!	!
-.	.	.	.	(8gn	qu'ils	16DLL	[4ddd#	.
-.	.	.	.	.	.	16GG	.	.
-.	.	.	.	8f#	i-	16D	.	.
-.	.	.	.	.	.	16GGJJ	.	.
+.	.	.	.	(8gn	qu'ils	16D"LL	[4ddd#	.
+.	.	.	.	.	.	16GG"	.	.
+.	.	.	.	8f#	i-	16D"	.	.
+.	.	.	.	.	.	16GG"JJ	.	.
 *	*	*v	*v	*	*	*	*	*
 !!pagebreak:original
-=4	=4	=4		=4	=4	=4	=4	=4
-16r	4r	16r		8gn	-mi-	4D/	4ddd#_	.
-*	*	*^		*	*	*	*	*
+=4	=4	=4	=4	=4	=4	=4	=4
+16r	4r	16r	8gn	-mi-	4D"/	4ddd#_	.
+*	*	*^	*	*	*	*	*
 [32dLLL\	.	N[8.d#^	16d#KL	.	.	.	.	.
 [32GJJ	.	.	.	.	.	.	.	.
 [8EJ	.	.	[8G#J	8f#	-tent	.	.	.
@@ -82,16 +91,16 @@
 .	.	.	.	12f#	at-	.	.	.
 .	[8EE'J	.	.	.	.	.	8r	.
 .	.	.	.	12d#	-ti-	.	.	.
-2rA	2r	.	.	8f#	-tu-	16GGLL	4r	.
-.	.	.	.	.	.	16DJ	.	.
-.	.	.	.	8d#	-des	8GGJ	.	.
-.	.	.	.	8d#	du	16DLL	(8gggL	.
-.	.	.	.	.	.	16GGJ	.	.
-.	.	.	.	8b/	plai-	8DJ	8fff#J	.
+2rA	2r	.	.	8f#	-tu-	16GG"LL	4r	.
+.	.	.	.	.	.	16D"J	.	.
+.	.	.	.	8d#	-des	8GG"J	.	.
+.	.	.	.	8d#	du	16D"LL	(8gggL	.
+.	.	.	.	.	.	16GG"J	.	.
+.	.	.	.	8b/	plai-	8D"J	8fff#J	.
 *	*	*v	*v	*	*	*	*	*
-=5	=5	=5		=5	=5	=5	=5	=5
-16r	4r	16r		8f#)	-sir	4GG	8ddd#L	.
-*	*	*^		*	*	*	*	*
+=5	=5	=5	=5	=5	=5	=5	=5
+16r	4r	16r	8f#)	-sir	4GG"	8ddd#L	.
+*	*	*^	*	*	*	*	*
 [32dLLL\	.	N[8.d#^	16d#KL	.	.	.	.	.
 [32GJJ	.	.	.	.	.	.	.	.
 [8EJ	.	.	[8G#J	(8gn	et	.	16gggL	.
@@ -99,32 +108,32 @@
 4rA	[8AAA'L/	2.ryy	2.G#] 2.d#N]	8f#	l'a-	4r	16gggLL	.
 .	.	.	.	.	.	.	16fff#J	.
 .	[8EE'J	.	.	8g	-ban-	.	[8ddd#J	.
-2rA	2	.	.	12f#	-don	8DL	4ddd#_	.
+2rA	2	.	.	12f#	-don	8D"L	4ddd#_	.
 .	.	.	.	12d#	de	.	.	.
-.	.	.	.	.	.	8GGJ	.	.
+.	.	.	.	.	.	8GG"J	.	.
 .	.	.	.	12ddn	la	.	.	.
-.	.	.	.	8g	vo-	16DLL	8ddd#])	.
-.	.	.	.	.	.	16GG	.	.
-.	.	.	.	8f#	-lup-	16GG	8r	.
-.	.	.	.	.	.	16DJJ	.	.
+.	.	.	.	8g	vo-	16D"LL	8ddd#])	.
+.	.	.	.	.	.	16GG"	.	.
+.	.	.	.	8f#	-lup-	16GG"	8r	.
+.	.	.	.	.	.	16D"JJ	.	.
 *	*	*v	*v	*	*	*	*	*
-=6	=6	=6		=6	=6	=6	=6	=6
-16r	4r	16r		[4d#Z	-té.	4GG	2r	.
-*	*	*^		*	*	*	*	*
+=6	=6	=6	=6	=6	=6	=6	=6
+16r	4r	16r	[4d#Z	-té.	4GG"	2r	.
+*	*	*^	*	*	*	*	*
 [32dLLL\	.	N[8.d#^	16d#KL	.	.	.	.	.
 [32GJJ	.	.	.	.	.	.	.	.
 [8EJ	.	.	[8G#J	.	.	.	.	.
 4rA	[8AAA'L/	2.r]yy	2.G#_ 2.d#N_	8d#])	.	4r	.	.
 .	[8EE'J	.	.	8r	.	.	.	.
-2rA	2r	.	.	2r	.	16GGLL	4r	.
-.	.	.	.	.	.	16DJ	.	.
-.	.	.	.	.	.	8GGJ	.	.
-.	.	.	.	.	.	4D/	(8ggLi	.
+2rA	2r	.	.	2r	.	16GG"LL	4r	.
+.	.	.	.	.	.	16D"J	.	.
+.	.	.	.	.	.	8GG"J	.	.
+.	.	.	.	.	.	4D"/	(8ggLi	.
 .	.	.	.	.	.	.	8ff#J	.
 *v	*v	*	*	*	*	*	*	*
-*		*v	*v	*	*	*	*	*
-=		=		=	=	=	=	=
-*-		*-		*-	*-	*-	*-	*-
+*	*v	*v	*	*	*	*	*
+=	=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1,s2,s3[({(s4,s5)})]
 !!!RDF**kern: Z = editorial accidental, parenthesis
 !!!RDF**kern: N = linked
@@ -133,3 +142,5 @@
 !!!RDF**kern: > = above
 !!!EED:Jason Lee
 !!!EEV:2021/11/26
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/04/06
