@@ -2,11 +2,10 @@
 !!!OTL: [T385_Str-26/37/[49]1-4]
 **kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A
-*part7	*	*part6	*	*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part2	*	*part1	*part1
-*staff7	*	*staff6	*	*staff5	*staff5	*	*staff4	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Contrabass	*	*I"Violoncello	*	*I"Bass	*	*	*I"Tenor	*	*	*I"Trumpet in C	*	*I"Bassoon	*	*I"Clarinet in Bb	*
+*part7	*part7	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff7	*staff7	*staff6	*staff6	*staff5	*staff5	*staff5	*staff4	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Contrabass	*I"Contrabass	*I"Violoncello	*I"Violoncello	*I"Bass	*I"Bass	*I"Bass	*I"Tenor	*I"Tenor	*I"Tenor	*I"Trumpet in C	*I"Trumpet in C	*I"Bassoon	*I"Bassoon	*I"Clarinet in Bb	*I"Clarinet in Bb
 *I'Cb.	*	*I'Vc.	*	*I'B.	*	*	*I'T.	*	*	*I'C Tpt.	*	*I'Bsn.	*	*I'Cl.	*
-!!pagebreak:original
 *clefF4	*	*clefF4	*	*clefF4	*	*	*clefGv2	*	*	*clefG2	*	*clefC4	*	*clefG2	*
 *ITrd7c12	*	*	*	*	*	*	*ITrd0c0	*	*	*	*	*	*	*ITrd1c2	*
 *k[b-e-a-]	*	*k[b-e-a-]	*	*k[b-e-a-]	*	*	*k[b-e-a-]	*	*	*k[]	*	*k[]	*	*k[b-e-]	*
@@ -14,39 +13,38 @@
 *M2/4	*	*M2/4	*	*M2/4	*	*	*M2/4	*	*	*M2/4	*	*M2/4	*	*M2/4	*
 !!LO:REH:t=49
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!LO:TX:t=[quarter]=60	!	!	!	!	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=60	!
-!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!	!	!	!	!	!	!	!	!LO:DY:ed=brack	!LO:TX:a:B:t=49	!
-4FF	p	8r	p	12r	.	.	12r	.	.	4r	.	4d)	mf	(8r	>
+!	!LO:DY:t=[ %s stacc.]	!LO:TX:t=[quarter]=60	!LO:DY:ed=brack	!	!	!	!	!	!	!	!	!	!LO:DY:ed=brack	!	!
+4FF'y	p	8r	p	12r	.	.	12r	.	.	4r	.	4d)j	mf	8r	>
 .	.	.	.	12D	De-	p	12d	De-	p	.	.	.	.	.	.
 !	!	!LO:TX:a:t=[pizz.]	!	!	!	!	!	!	!	!	!	!	!	!	!
-.	.	8En	.	.	.	.	.	.	.	.	.	.	.	8AX')	]
+.	.	8En"	.	.	.	.	.	.	.	.	.	.	.	8AX'j	]
 .	.	.	.	12D	-us	.	12d	-us	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=Sola	!	!	!	!	!
-4EE	.	8r	.	12D	di-	.	12d	di-	.	(4c#X	p	4r	.	4r	.
+4EE'y	.	8r	.	12D	di-	.	12d	di-	.	(4c#X	p	4r	.	4r	.
 .	.	.	.	12D	-xit,	.	12d	-xit,	.	.	.	.	.	.	.
-.	.	8D	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	8D"	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	12r	.	.	12r	.	.	.	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-4DD	.	8r	.	4r	.	.	4r	.	.	4a	.	2r	.	2r	.
-.	.	8C	.	.	.	.	.	.	.	.	.	.	.	.	.
-4CC	.	8r	.	12r	.	.	12r	.	.	8fL	.	.	.	.	.
+4DD'y	.	8r	.	4r	.	.	4r	.	.	4a	.	2r	.	2r	.
+.	.	8C"	.	.	.	.	.	.	.	.	.	.	.	.	.
+4CC'y	.	8r	.	12r	.	.	12r	.	.	8fL	.	.	.	.	.
 .	.	.	.	12D	ti-	.	12d	ti-	.	.	.	.	.	.	.
-.	.	8BBn	.	.	.	.	.	.	.	8AJ)	.	.	.	.	.
+.	.	8BBn"	.	.	.	.	.	.	.	8AJ)	.	.	.	.	.
 .	.	.	.	12D	-bi	.	12d	-bi	.	.	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
-4DD	.	8r	.	12D	di-	.	12d	di-	.	(4d	.	2r	.	2r	.
+4DD'y	.	8r	.	12D	di-	.	12d	di-	.	(4d	.	2r	.	2r	.
 .	.	.	.	12D	-xit,	.	12d	-xit,	.	.	.	.	.	.	.
-.	.	8C	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	8C"	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	12r	.	.	12r	.	.	.	.	.	.	.	.
-4EE	.	8r	.	4r	.	.	4r	.	.	4c#X	.	.	.	.	.
-.	.	8D	.	.	.	.	.	.	.	.	.	.	.	.	.
+4EE'y	.	8r	.	4r	.	.	4r	.	.	4c#X	.	.	.	.	.
+.	.	8D"	.	.	.	.	.	.	.	.	.	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-4FF	.	8r	.	12r	.	.	12r	.	.	4a	.	2r	.	2r	.
+4FF'y	.	8r	.	12r	.	.	12r	.	.	4a	.	2r	.	2r	.
 .	.	.	.	12D	ti-	.	12d	ti-	.	.	.	.	.	.	.
-.	.	8En	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	8En"	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	12D	-bi	.	12d	-bi	.	.	.	.	.	.	.
-4EE	.	8r	.	12D	di-	.	12d	di-	.	8fL	.	.	.	.	.
+4EE'y	.	8r	.	12D	di-	.	12d	di-	.	8fL	.	.	.	.	.
 .	.	.	.	12D	-xit.	.	12d	-xit.	.	.	.	.	.	.	.
 .	.	8D	.	.	.	.	.	.	.	8A,J)	.	.	.	.	.
 .	.	.	.	12r	.	.	12r	.	.	.	.	.	.	.	.
@@ -54,3 +52,9 @@
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1,s2,s3,s4,s5,s6,s7
 !!!YEM: Copyright © Natalie Dietterich
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/12/06
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/04/07
