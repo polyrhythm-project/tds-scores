@@ -5,37 +5,39 @@
 *part2	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*staff2	*staff1	*staff1	*staff1
 *I"Piano	*I"Piano	*I"Piano	*I"Voice	*I"Voice	*I"Voice
-*I'Pno.	*	*	*I'S. Solo	*	*
-!!pagebreak:original
+*I'Pno.	*I'Pno.	*	*I'Voice	*I'Voice	*I'Voice
 *clefF4	*clefF4	*	*clefG2	*	*
 *k[]	*k[]	*	*k[]	*	*
 *C:	*C:	*	*C:	*	*
 *M7/8	*M7/8	*	*M7/8	*	*
-=1	=1	=1	=1	=1	=1
-!	!	!LO:DY:ed=brack	!LO:TX:a:B:t=a tempo	!	!
-16f	16E 16d	p	16r	.	.
+=10	=10	=10	=10	=10	=10
+!	!	!	!LO:TX:t=[[eighth]=198]	!	!
+!	!LO:T:n=1:b	!LO:DY:ed=brack	!LO:TX:a:B:t=a tempo	!	!
+16f)	16E] 16d]	p	16r	.	.
 16r	16r	.	16g-XKL	Ich	p
 16r	16r	.	8b-X	weiß	.
-[16CnLL	16EnLL 16dn	p	.	.	.
+[>16CnLL	16EnLL' 16dn	p	.	.	.
 16AAA-X'JJ 16C]	16r	.	8g-J	nicht,	.
-16r	[16EJJ [16d	.	.	.	.
+16r	[16EJJ [16d^	.	.	.	.
 16AAA-': 16C:	16E] 16d]	.	16r	.	.
 16r	16r	.	16b-LL	ich	.
 8r	8r	.	16g-	kann's	.
 .	.	.	16b-J	nicht	.
 16r	16r	.	8ccn	sa-	.
-16C#XLL	16En 16dn	.	.	.	.
-16AAAn'JJ 16C#	16r	.	8a-XJ	-gen,	.
-16r	[16E [16d	.	.	.	.
-=2	=2	=2	=2	=2	=2
-16AAAn: 16C#X:	16E] 16d]	.	16r	.	.
+[>16C#XLL	16En' 16dnLL	.	.	.	.
+16AAAn'JJ 16C#]	16r	.	8a-XJ	-gen,	.
+16r	[16E [16dJJ^	.	.	.	.
+=11	=11	=11	=11	=11	=11
+16AAAn': 16C#X:	16E] 16d]	.	16r	.	.
 16r	16r	.	16ccnLL	war-	.
 8r	8r	.	16a-X	-um	.
 .	.	.	16ccJJ	mir	.
+!	!	!LO:HP:a	!	!	!
 16r	16r	<	8.ddnL	im-	.
 *^	*	*	*	*	*
-16DD#XLL	16DD#LL	8C#XL 8An	[ >	.	.	.
-16DD#JJ	16BBBnJJ	.	.	.	.	.
+!	!	!	!LO:HP:a	!	!	!
+[16DD#XLL	16DD#LL	8C#XL 8An	[ >	.	.	.
+16DD#JJ]	16BBBnJJ'<	.	.	.	.	.
 *v	*v	*	*	*	*	*
 16r	16r	]	16enk	-mer	.
 16r	16r	.	8eJ	so	.
@@ -50,3 +52,9 @@
 =	=	=	=	=	=
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Gabriella Vici
+!!!EEV: 2021/11/24
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/04/08
