@@ -10,7 +10,7 @@
 *	*	*	*	*	*	*	*	*	*	*	*	*ITrd4c7	*	*	*	*	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*
 *M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*
-!	!	!	!	!	!	!	!	!	!	!LO:TUP:a	!	!	!	!	!	!LO:TX:t=Allegretto vivace ([quarter-dot]=66)	!
+!	!	!LO:TX:b:t=(con sord.)	!	!	!	!	!	!	!	!LO:TUP:a	!	!	!	!	!	!LO:TX:t=Allegretto vivace ([quarter-dot]=66)	!
 8r	.	8r	.	8r	.	8r	.	8r	.	24Rb\LL	ff	8r	.	8r	.	8r	.
 .	.	.	.	.	.	.	.	.	.	24Rb\	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	24Rb\J	.	.	.	.	.	.	.
@@ -37,9 +37,9 @@
 .	.	.	.	.	.	.	.	.	.	24Rb\	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	24Rb\J	.	.	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
-!LO:T:n=2:dot	!	!	!	!LO:T:n=2:dot	!	!LO:T:n=2:dot	!	!	!	!	!	!	!	!	!	!LO:TX:a:rj:t=(Solo)	!
-!LO:N:n=2:head=odia	!	!LO:TX:a:t=(con sord.)	!	!LO:N:n=2:head=odia	!	!LO:N:n=2:head=odia	!	!	!	!	!	!	!	!LO:MOR:acc=-	!	!LO:MOR:acc=-	!LO:DY:t=%s marc.
-[2.FF [2.BB-X	p	[2.B	p	[2.C [2.F	p	[2.A-X [2.d-X	p	8r	.	8Rb^\J	.	[2.F	f	8ccM	ff	8ccML	ff
+!LO:N:n=3:vis=4	!	!	!	!LO:N:n=3:vis=4	!	!LO:N:n=3:vis=4	!	!	!	!	!	!	!	!	!	!LO:TX:a:rj:t=(Solo)	!
+!LO:T:n=2:a:dot	!	!	!	!LO:T:n=2:a:dot	!	!LO:T:n=2:a:dot	!	!	!	!	!	!	!	!LO:MOR:acc=-	!	!LO:MOR:acc=-	!LO:DY:t=%s marc.
+[2.FF [2.BB-X 2.fN/	p	[2.B	p	[2.C [2.F 2.ccN/	p	[2.A-X [2.d-X 2.aa-XN	p	8r	.	8Rb^\J	.	[2.F	f	8ccM	ff	8ccML	ff
 .	.	.	.	.	.	.	.	8FFL	mf ]	8r	]	.	.	8r	.	(16b-L	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16a	.
 .	.	.	.	.	.	.	.	8FF^J	.	8r	.	.	.	8r	.	16b-	.
@@ -51,9 +51,8 @@
 .	.	.	.	.	.	.	.	8r	.	8Rb^\J	.	.	.	.	.	8b-)	.
 .	.	.	.	.	.	.	.	8FFL	.	8r	.	.	.	8r	.	8cc'J	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-!LO:T:n=2:dot	!	!	!	!LO:T:n=2:dot	!	!LO:T:n=2:dot	!	!	!	!	!	!	!	!LO:MOR:acc=-	!	!LO:MOR:acc=-	!
-!LO:N:n=2:head=odia	!	!	!	!LO:N:n=2:head=odia	!	!LO:N:n=2:head=odia	!	!	!	!	!	!	!	!	!	!	!
-2.FF_ 2.BB-_	.	2.B_	.	2.C_ 2.F_	.	2.A-_ 2.d-_	.	8FF^J	.	8r	.	2.F_	.	8ccM	.	8ccML	.
+!LO:T:n=2:dot	!	!	!	!LO:T:n=2:dot	!	!LO:T:n=2:a:dot	!	!	!	!	!	!	!	!LO:MOR:acc=-	!	!LO:MOR:acc=-	!
+2.FF_ 2.BB-_ 2.fyy_	.	2.B_	.	2.C_ 2.F_ 2.ccyy	.	2.A-_ 2.d-_ 2.aa-Xyy	.	8FF^J	.	8r	.	2.F_	.	8ccM	.	8ccML	.
 .	.	.	.	.	.	.	.	8r	.	24Rb\LL	.	.	.	8r	.	(16b-L	.
 .	.	.	.	.	.	.	.	.	.	24Rb\	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16a	.
@@ -69,7 +68,8 @@
 .	.	.	.	.	.	.	.	.	.	24Rb\JJ	.	.	.	.	.	.	.
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [([(s1,s2)]s3,s4,s5,s6[(s7,s8)]s9)]
+!!!system-decoration: [({(s1,s2)}s3,s4,s5,s6{(s7,s8)}s9)]
 !!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: N = cue size
 !!!EED: Jason Lee
-!!!EEV: 2022/03/14
+!!!EEV: 2022/04/10
