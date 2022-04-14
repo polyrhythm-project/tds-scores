@@ -1,110 +1,167 @@
 !!!COM: Charles Ives
 !!!OTL: [T263_Ive-w33b4p34m165-168]
-!!!Xfilter: slurcheck
-**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:dodgerblue	*	*color:crimson	*	*color:crimson	*
-*part19	*part19	*part18	*part18	*part17	*part17	*part16	*part16	*part15	*part15	*part14	*part14	*part13	*part13	*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff19	*	*staff18	*	*staff17	*	*staff16	*	*staff15	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Tuba	*	*I"Trombone I, II	*	*I"Trumpet in Bb II	*	*I"Trumpet in Bb I	*	*I"Horn in F III, IV	*	*I"Horn in F I, II	*	*I"Bassoon II	*	*I"Bassoon I	*	*I"Clarinet in Bb II	*	*I"Clarinet in Bb I	*	*I"Oboe II	*	*I"Oboe I	*	*I"Flute II	*	*I"Flute I	*
-*I'Cb.	*	*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*	*I'Tba.	*	*I'Tbn.	*	*I'Tpt.	*	*I'Tpt.	*	*I'Hn.	*	*I'Hn.	*	*I'Bsn.	*	*I'Bsn.	*	*I'Cl.	*	*I'Cl.	*	*I'Ob.	*	*I'Ob.	*	*I'Fl.	*	*I'Fl.	*
-*clefF4	*	*clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*clefF4	*	*clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefF4	*	*clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*
-*ITrd7c12	*	*	*	*	*	*	*	*	*	*	*	*	*	*ITrd1c2	*	*ITrd1c2	*	*ITrd4c7	*	*ITrd4c7	*	*	*	*	*	*ITrd1c2	*	*ITrd1c2	*	*	*	*	*	*	*	*	*
-*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[b-e-]	*	*k[b-e-]	*	*k[b-]	*	*k[b-]	*	*k[]	*	*k[]	*	*k[b-e-]	*	*k[b-e-]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
-*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
-=1		=1	=1		=1	=1	=1	=1		=1	=1		=1	=1	=1	=1		=1	=1	=1	=1	=1	=1	=1	=1		=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-*^	*	*^	*	*	*	*	*	*	*	*	*	*^	*	*	*	*	*	*	*	*^	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+**kern		**dynam		**kern		**dynam		**kern	**dynam	**kern		**dynam	**kern		**dynam	**kern	**dynam	**kern		**dynam	**kern	**dynam	**kern	**dynam	**kern		**dynam	**kern		**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A		*grp:A		*grp:A		*grp:A		*grp:A	*grp:A	*grp:A		*grp:A	*grp:A		*grp:A	*grp:A	*grp:A	*grp:A		*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A		*grp:A	*grp:A		*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A
+*part19		*part19		*part18		*part18		*part17	*part17	*part16		*part16	*part15		*part15	*part14	*part14	*part13		*part13	*part12	*part12	*part11	*part11	*part10		*part10	*part9		*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff19		*staff19		*staff18		*staff18		*staff17	*staff17	*staff16		*staff16	*staff15		*staff15	*staff14	*staff14	*staff13		*staff13	*staff12	*staff12	*staff11	*staff11	*staff10		*staff10	*staff9		*staff9	*staff8	*staff8	*staff7	*staff7	*staff6	*staff6	*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Contrabass		*I"Contrabass		*I"Violoncello		*I"Violoncello		*I"Viola	*I"Viola	*I"Violin II		*I"Violin II	*I"Violin I		*I"Violin I	*I"Tuba	*I"Tuba	*I"Trombone I, II		*I"Trombone I, II	*I"Trumpet in Bb II	*I"Trumpet in Bb II	*I"Trumpet in Bb I	*I"Trumpet in Bb I	*I"Horn in F III, IV		*I"Horn in F III, IV	*I"Horn in F I, II		*I"Horn in F I, II	*I"Bassoon II	*I"Bassoon II	*I"Bassoon I	*I"Bassoon I	*I"Clarinet in Bb II	*I"Clarinet in Bb II	*I"Clarinet in Bb I	*I"Clarinet in Bb I	*I"Oboe II	*I"Oboe II	*I"Oboe I	*I"Oboe I	*I"Flute II	*I"Flute II	*I"Flute I	*I"Flute I
+*I'Cb.		*I'Cb.		*I'Vc.		*I'Vc.		*I'Vla.	*	*I'Vln. II		*	*I'Vln. I		*	*I'Tba.	*	*I'Tbn.		*	*I'Tpt.	*	*I'Tpt.	*	*I'Hn.		*	*I'Hn.		*	*I'Bsn.	*	*I'Bsn.	*	*I'Cl.	*	*I'Cl.	*	*I'Ob.	*	*I'Ob.	*	*I'Fl.	*	*I'Fl.	*
+*clefF4		*		*clefF4		*		*clefC3	*	*clefG2		*	*clefG2		*	*clefF4	*	*clefF4		*	*clefG2	*	*clefG2	*	*clefG2		*	*clefG2		*	*clefF4	*	*clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*
+*ITrd7c12		*		*		*		*	*	*		*	*		*	*	*	*		*	*ITrd1c2	*	*ITrd1c2	*	*ITrd4c7		*	*ITrd4c7		*	*	*	*	*	*ITrd1c2	*	*ITrd1c2	*	*	*	*	*	*	*	*	*
+*k[]		*		*k[]		*		*k[]	*	*k[]		*	*k[]		*	*k[]	*	*k[]		*	*k[b-e-]	*	*k[b-e-]	*	*k[b-]		*	*k[b-]		*	*k[]	*	*k[]	*	*k[b-e-]	*	*k[b-e-]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
+*		*		*		*		*	*	*		*	*		*	*	*	*		*	*	*	*	*	*		*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*M3/4		*		*M3/4		*		*M3/4	*	*M3/4		*	*M3/4		*	*M3/4	*	*M3/4		*	*M3/4	*	*M3/4	*	*M3/4		*	*M3/4		*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
+=1		=1		=1		=1		=1	=1	=1		=1	=1		=1	=1	=1	=1		=1	=1	=1	=1	=1	=1		=1	=1		=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
+*^		*		*^		*		*	*	*		*	*		*	*	*	*^		*	*	*	*	*	*		*	*^		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+!!!ONB: note that the Suter scan is a manuscript edition, and a wavy line accompanied by 'col cello' is all that appears in the Contrabass part.
 !!LO:TX:t=Allegro con moto [quarter]=108-120
-!	!	!	!	!	!	!	!	!		!	!		!	!	!	!LO:TX:a:t=one only	!	!	!	!	!	!	!LO:TX:a:t=3º	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TUP:a:num=4	!	!	!	!	!
-!LO:TX:B:t=col Cello	!	!	!	!	!	!	!	!		!	!LO:TX:B:t=Allegro con moto		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:t=[ %s ]	!	!	!	!	!LO:N:vis=4%3	!	!	!	!	!
-16GGGLLyy	8GGG^^yy	ffyy	16GGLL	8GG	ff	8GL 8B 8d	ff	8gL 8b 8dd	ff	8dL 8b 8dd	ff	([4GG^^	>	8GG^L	2.ryy	f	4r	.	4r	.	8GL	p	8dL	8ryy	f	8GG^^	fp	(16GGLLj	fp	8bXLj	ff	8ddL	ff	8.gL	p	8%3g	pp	[2bbj	ff	[2ddd	ff
-16BBByy	.	.	16BB	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16BBJ	.	.	.	.	.	.	.	.	.	.	.	.	.
-16CC#Xyy	8ryy	.	16C#X	8ryy	.	8GJ 8B 8d	.	8gJ 8b 8dd	.	8dJ 8b 8dd	.	.	.	(8C#XJ	.	p	.	.	.	.	8G	.	8dJ	8ryy	.	8r	.	8BB-XJ	.	8bJ	.	8ddJ	.	.	.	.	.	.	.	.	.
-16DD#Xyy	.	.	16D#X	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16aJk	.	.	.	.	.	.	.
-*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!	!		!	!		!	!	!	!	!	!	!	!LO:DY:t=[ %s ]	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-16EEyy	8.ryy	.	16E	8.ryy	.	4.G 4.B 4.d	.	4.g 4.b 4.dd	.	4.d 4.g 4.b 4.dd	.	8GGL]	.	8.E-X'L\)	.	.	8bX'L	mf	8dd'L	mf	8G	.	4.d 4.g/	.	8.r	.	8AA-XL	.	4.b	.	4.dd	.	8.bL	.	.	.	.	.	.	.
-16DD#yy	.	.	16D#	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!		!	!		!	!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=8%3	!	!	!	!	!
-16CC#JJyy	.	.	16C#JJ	.	.	.	.	.	.	.	.	16FF#XL)	p ]	.	.	.	8b'	.	8dd'	.	8G	.	.	.	.	.	16FF#XL)	.	.	.	.	.	.	.	16%3e	.	.	.	.	.
-16GGGLLyy	8GGG^^yy	.	16GGLL	8GG	.	.	.	.	.	.	.	32r	.	[16GG^^Jk	.	f	.	.	.	.	.	.	.	.	[16GG^^	fp	(16GGJJ	.	.	.	.	.	16aJk	.	.	.	.	.	.	.
-.	.	.	.	.	.	.	.	.	.	.	.	[32GG^^JJk	f >	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16BBByy	.	.	16BB	.	.	.	.	.	.	.	.	(4GG_	.	16GGKL\]	.	.	(8b	.	(8dd	.	8G	.	.	.	16GG]	.	16BBnKL	.	.	.	.	.	8.gL	.	.	.	8bbL]	.	8dddL]	.
-!	!	!	!	!	!	!	!	!		!	!		!	!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=8%3	!	!	!	!	!
-16CC#yy	16ryy	.	16C#	16ryy	.	.	.	.	.	.	.	.	.	(8C#	.	p	.	.	.	.	.	.	.	.	16r	.	8BB-X	.	.	.	.	.	.	.	16%3g	.	.	.	.	.
-16DD#yy	8ryy	.	16D#	8ryy	.	8D 8G 8B	.	8d 8g	.	8d 8g 8b	.	.	.	.	.	.	8gJ)	.	8bXJ)	.	8GJ	.	8BX 8d	.	8r	.	.	.	8g	.	8bX	.	.	.	.	.	8ggJ	.	8bbJ	.
-16EEyy	.	.	16E	.	.	.	.	.	.	.	.	.	.	[16E-Jk	.	.	.	.	.	.	.	.	.	.	.	.	[16AA-XJk	.	.	.	.	.	16aJk	.	.	.	.	.	.	.
-*	*	*	*	*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-=2	=2	=2	=2	=2	=2	=2	=2	=2		=2	=2		=2	=2	=2	=2		=2	=2	=2	=2	=2	=2	=2	=2		=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*^	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*rep	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TUP:a:num=4	!	!	!	!	!
-!	!	!	!	!	!	!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=4%3	!	!	!	!	!
-16DD#Xiyy	8ryy	.	16D#Xi	8ryy	.	8DL 8G 8c	.	8dL 8a	.	8eL 8a	.	16GGLL]	.	8E-'L\])	.	8dL	.	8aL	.	8GL	.	8dL	8cL	.	8r	.	16AA-LL]	.	8eXL	.	8aL	.	8.gL	.	8%3cc	.	8ccL	.	8aaL	.
-16CC#XiJJyy	.	.	16C#XiJJ	.	.	.	.	.	.	.	.	32FF#XL	p ]	.	.	.	.	.	.	.	.	.	.	.	.	.	16FF#X)	.	.	.	.	.	.	.	.	.	.	.	.	.
-.	.	.	.	.	.	.	.	.	.	.	.	32rJJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16GGG^LLyy	8r^^yy	.	16GGLL	8GG	.	8DJ 8G 8B	.	8BJ 8g	.	8dJ 8g	.	([8GG^^J)	f >	8GG^^J	f	8gJ	.	8gJ	.	8G	.	8dJ	8BXJ	.	8GG^^	fp	(16GG	.	8eJ	.	8gJ	.	.	.	.	.	8bJ	.	8ggJ	.
-16BBByy	.	.	16BB	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16BBnJJ	.	.	.	.	.	16eJk	.	.	.	.	.	.	.
-16CC#Xyy	4ryy	.	16C#X	4ryy	.	4.D 4.G 4.B	.	4.B 4.g	.	4.d 4.g	.	4GG]	.	(8C#XL	p	4.g	.	4.g	.	8G	.	4.d	4.B	.	4r	.	8BB-XL	.	4.e	.	4.g	.	4d	.	.	.	4.b	.	4.gg	.
-16DD#Xyy	.	.	16D#X	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=4%3	!	!	!	!	!
-16EEyy	.	.	16E	.	.	.	.	.	.	.	.	.	.	[8E-X'J	.	.	.	.	.	8G	.	.	.	.	.	.	8AA-XJ	.	.	.	.	.	.	.	8%3dd	.	.	.	.	.
-16DD#yy	.	.	16D#	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16CC#JJyy	16ryy	.	16C#JJ	16ryy	.	.	.	.	.	.	.	32FF#XLLL)	p ]	16E-KL\])	.	.	.	.	.	8G	.	.	.	.	16r	.	16FF#XLL)	.	.	.	.	.	8.gL	.	.	.	.	.	.	.
-.	.	.	.	.	.	.	.	.	.	.	.	32rJJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16GGGLLyy	8GGG^^yy	.	16GGLL	8GG	.	.	.	.	.	.	.	([8.GG^^J	f >	8GG^^	f	.	.	.	.	.	.	.	.	.	8GG^^	fp	(16GG	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!LO:TX:B:t=col Ist		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-16BBByy	.	.	16BB	.	.	8E 8A 8d	.	8cyy 8dyy 8ayy	.	8c 8d 8a	.	.	.	.	.	8r	.	8r	.	8GJ	.	8d	8c	.	.	.	16BBn	.	8dd	.	8aa	.	.	.	.	.	8cc	.	8aa	.
-16CC#yy	16ryy	.	16C#	16ryy	.	.	.	.	.	.	.	.	.	([16C#Jk	p	.	.	.	.	.	.	.	.	.	16r	.	[16BB-XJJ	.	.	.	.	.	16gJk	.	.	.	.	.	.	.
-*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*Xrep	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-=3	=3	=3	=3	=3	=3	=3	=3	=3		=3	=3		=3	=3	=3	=3		=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
-*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*rep	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TUP:a:num=4	!	!	!	!	!
-!	!	!	!	!	!	!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=8%3	!	!	!	!	!
-16DD#Xyy	4ryy	.	16D#X	4ryy	.	8GL 8B 8d	.	8dLyy 8gyy 8byy	.	8dL 8g 8b	.	8.GGL]	.	16C#KL]	.	4%3r	.	4%3r	.	8GL	.	8dL	8dL	.	4r	.	16BB-KL]	.	8ggL	.	8bbXL	.	8.bL	.	16%3ee	.	8ddL	.	8bbL	.
-16EEyy	.	.	16E	.	.	.	.	.	.	.	.	.	.	8.E-XJ)	.	.	.	.	.	.	.	.	.	.	.	.	8AA-X	.	.	.	.	.	.	.	.	.	.	.	.	.
-16DD#yy	.	.	16D#	.	.	8GJ 8B 8d	.	8BJyy 8dyy 8gyy	.	8BJ 8d 8g	.	.	.	.	.	.	.	.	.	8G	.	8dJ	8BXJ	.	.	.	.	.	8ddJ	.	8ggJ	.	.	.	.	.	8bJ	.	8ggJ	.
-!	!	!	!	!	!	!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=8%3	!	!	!	!	!
-16CC#XJJyy	.	.	16C#XJJ	.	.	.	.	.	.	.	.	32FF#XJkk)	p ]	.	.	.	.	.	.	.	.	.	.	.	.	.	16FF#XJk)	.	.	.	.	.	16bJk	.	16%3dd	.	.	.	.	.
-.	.	.	.	.	.	.	.	.	.	.	.	32r	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-*	*	*	*	*	*	*	*	*^	*	*^	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!LO:DY:t=simile	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-16GGG^LLyy	8GGG^^yy	.	16GG^LL	8GG	.	4.G 4.A 4.c 4.e	.	4ayy	4.cyy 4.eyy	.	4a	4.c 4.e	.	([4GG^^	f >	8GGL\	f	.	.	.	.	8G	.	(4.e	(4.c	.	8GG	fp	(16GGLL	.	(4.eeX	.	4aa	.	8.ddL	.	.	.	2cc	.	4aa	.
-16BBByy	.	.	16BB	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16BBnJ	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=4%3	!	!	!	!	!
-16CC#yy	8ryy	.	16C#	8ryy	.	.	.	.	.	.	.	.	.	.	.	(8C#XJ	p	.	.	.	.	8G	.	.	.	.	8r	.	8BB-XJ	.	.	.	.	.	.	.	8%3cc	.	.	.	.	.
-16DD#yy	.	.	16D#	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16bJk	.	.	.	.	.	.	.
-16EEyy	8.ryy	.	16E	8.ryy	.	.	.	8gLyy	.	.	8gL	.	.	8GGL]	.	8.E-L\)	.	.	.	.	.	8G	.	.	.	.	8.r	.	8AA-XL	.	.	.	8ggL	.	8.aL	.	.	.	.	.	8ggL	.
-16DD#yy	.	.	16D#	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-16CC#JJyy	.	.	16C#JJ	.	.	8G 8c 8e	.	8eJyy	8Ayy 8cyy	.	8eJ	8A 8c	.	32FF#XLL)	p ]	.	.	.	.	.	.	8GJ	.	8c)	8A)	.	.	.	16FF#XL)	.	8cc)	.	8eeXJ	.	.	.	.	.	.	.	8ee^J	.
-.	.	.	.	.	.	.	.	.	.	.	.	.	.	32rJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!LO:N:vis=8	!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!LO:DY:t= 	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-16GGG^LLyy	16GGG^^yy	.	16GG^LL	16GG	.	.	.	.	.	.	.	.	.	([16GG^^JJ	f >	[16GG^^Jk	f	.	.	.	.	.	.	.	.	.	[16GG	fp	(16GGJJ	.	.	.	.	.	16gJk	.	.	.	.	.	.	.
-*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*Xrep	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-*v	*v	*	*	*	*	*	*	*v	*v	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-*	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-=4		=4	=4		=4	=4	=4	=4		=4	=4		=4	=4	=4	=4		=4	=4	=4	=4	=4	=4	=4	=4		=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*
-*^	*	*^	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-16BBByy	16GGGyy	.	16BB	16GGyy	.	8GL 8B 8d	.	8GLyy 8Byy 8dyy	.	8GL 8B 8d	.	4GG_	.	16GGKL\]	.	4r	.	4r	.	8GL	.	8BXL	.	16GG]	.	16BBnKL	.	8bXL	.	8ddL	.	4e	.	4.dd	.	(8b'L	.	(8dd'L	.
-16CC#Xyy	16ryy	.	16C#X	16ryy	.	.	.	.	.	.	.	.	.	(8C#X	p	.	.	.	.	.	.	.	.	16r	.	8BB-X	.	.	.	.	.	.	.	.	.	.	.	.	.
-16DD#Xyy	8ryy	.	16D#X	8ryy	.	8GJ 8B 8d	.	8GJyy 8Byy 8dyy	.	8GJ 8B 8d	.	.	.	.	.	.	.	.	.	8G	.	8BJ	.	8r	.	.	.	8bJ	.	8ddJ	.	.	.	.	.	8b'J)	.	8dd'J)	.
-16EEyy	.	.	16E	.	.	.	.	.	.	.	.	.	.	[16E-XJk	.	.	.	.	.	.	.	.	.	.	.	[16AA-XJk	.	.	.	.	.	.	.	.	.	.	.	.	.
-16DD#yy	8ryy	.	16D#	8ryy	.	4G 4B 4d	.	4Gyy 4Byy 4dyy	.	4G 4B 4d	.	16GGLL]	.	8E-'L]\)	.	4r	.	4r	.	8G	.	4B	.	8r	.	16AA-LL]	.	4b	.	4dd	.	4g	.	.	.	4b	.	4dd	.
-16CC#JJyy	.	.	16C#JJ	.	.	.	.	.	.	.	.	32FF#XL)	p ]	.	.	.	.	.	.	.	.	.	.	.	.	16FF#X)	.	.	.	.	.	.	.	.	.	.	.	.	.
-.	.	.	.	.	.	.	.	.	.	.	.	32rJJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!		!	!	!LO:DY:t= 	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-16GGG^LLyy	8GGG^^yy	.	16GG^LL	8GG^^	.	.	.	.	.	.	.	([8GG^^'Ji	f >	((8GG^^Ji	f	.	.	.	.	8G	.	.	.	8GG	fp	(16GGi	.	.	.	.	.	.	.	4ee	.	.	.	.	.
-16BBByy	.	.	16BB	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16BBnJJ	.	.	.	.	.	.	.	.	.	.	.	.	.
-16CC#yy	8ryy	.	16C#	8ryy	.	8G 8B 8d	.	8gyy 8byy 8ddyy	.	8g 8b 8dd	.	8GG_	]	8C#\)	p	8bX	.	8dd	.	8GJ	.	8g	.	8r	.	8BB-X	.	[8bX	.	[8dd	.	[8a	.	.	.	[8gg	.	[8ddd	.
-16DD#JJyy	.	.	16D#JJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-*	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-=		=	=		=	=	=	=		=	=		=	=	=	=		=	=	=	=	=	=	=	=		=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
-*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
+!	!	!		!	!	!		!	!	!		!	!		!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:t=[shadow]	!	!	!	!	!
+!	!	!		!	!	!		!	!	!		!	!		!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=4%3	!	!	!	!	!
+!	!	!		!	!	!		!	!	!		!	!		!	!	!LO:TX:a:t=one only	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!LO:DY:t=[ %s ]	!	!	!LO:TX:b:t=[shadow]	!	!LO:TUP:a:num=4	!	!	!	!	!
+*	*	*^		*	*	*		*	*	*		*	*		*	*	*	*	*	*	*	*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*	*	*	*	*	*	*		*	*	*		*	*		*	*	*	*	*	*	*	*	*	*	*^		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*	*	*	*	*	*	*^		*	*	*		*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*	*	*	*	*	*	*	*	*tremolo	*	*		*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:should be two beamed eighth notes	!	!		!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:rj:t=arco	!LO:TX:b:rj:t=pizz.	!LO:DY:a	!	!LO:TX:rj:t=arco	!	!	!LO:DY:a	!LO:TX:rj:t=a3	!	!		!	!LO:DY:t=%s marcato		!LO:TX:rj:t=1.	!	!	!	!	!	!	!LO:TX:a:rj:t=3.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+(16GGGLL	8GGG^^"	f	ff	(16GGLL^	8GG^^	ff	f	32G 32B 32dLL	ff	8gL^ 8b^ 8dd^		ff	8dL^ 8b^ 8dd^		ff	([4GG^	f >	(<8GG^<L	2.ryy	f	4r	.	4r	.	8GL'	2.rA	mp	8dL	8dL	f	8GG^^	f	(16GGLL^	f	8bXL	ff	8ddL	ff	(8.gL	p	8%3g	pp	[2bb	ff	[2ddd	ff
+.	.	.	.	.	.	.	.	32G 32B 32d	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	p	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:DY:a	!LO:DY:a	!	!	!	!LO:DY:a	!	!	!		!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16BBB	.	p	.	16BB	.	.	p	32G 32B 32d	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16BBJ	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	32G 32B 32dJJ	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16CC#X	8rCC	.	.	16C#X	8rCC	.	.	32G 32B 32dLL	.	8gJ^ 8b^ 8dd^		.	8dJ^ 8b^ 8dd^		.	.	.	8C#XJ	.	p	.	.	.	.	8G'	.	.	8dJ	8dJ	.	8r	.	8BB-XJ	.	8bJ	.	8ddJ	.	.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	32G 32B 32d	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16DD#XJJ	.	.	.	16D#XJJ	.	.	.	32G 32B 32d	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16aJk)	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	32G 32B 32dJJJ	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!		!	!		!	!	!	!	!	!	!	!LO:DY:t=[ %s ]	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16EELL	8.rCC	.	.	16ELL	8.rCC	.	.	32G 32B 32dL	.	4.g^ 4.b^ 4.dd^		.	4.d^ 4.g^ 4.b^ 4.dd^		.	8GGL]	.	8.E-X'<L/)	.	.	8bX'L	mf	8dd'L	mf	8G'	.	.	4.d	4.g	.	8.r	.	8AA-XL	.	4.b	.	4.dd	.	(8.bL	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	32G 32B 32d	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16DD#	.	.	.	16D#	.	.	.	32G 32B 32d	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	32G 32B 32d	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!		!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=8%3	!	!	!	!	!
+16CC#)	.	.	.	16C#)	.	.	.	32G 32B 32d	.	.		.	.		.	16FF#XL)	p ]	.	.	.	8b'	.	8dd'	.	8G'	.	.	.	.	.	.	.	16FF#XL)	.	.	.	.	.	.	.	16%3e	.	.	.	.	.
+.	.	.	.	.	.	.	.	32G 32B 32d	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:DY:a	!LO:DY:a	!	!	!	!LO:DY:a	!	!	!		!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+(16GGGJJ	[16GGG^^"	f	.	(16GGJJ^	[16GG^^	.	f	32G 32B 32d	.	.		.	.		.	32r	.	(<[<16GG^<Jk	.	f	.	.	.	.	.	.	.	.	.	.	[16GG^^	.	(16GGJJ^	f	.	.	.	.	16aJk)	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	32G 32B 32d	.	.		.	.		.	[32GG^JJk	f >	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:DY:a	!LO:DY:a	!	!	!	!LO:DY:a	!	!	!		!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16BBBLL	16GGG"]	p	.	16BBLL	16GG]	.	p	32G 32B 32d	.	.		.	.		.	(4GG_	.	16GGKL\]	.	.	(8b	.	(8dd	.	8G'	.	.	.	.	.	16GG]	.	16BBnKL	p	.	.	.	.	(8.gL	.	.	.	8bbL]	.	8dddL]	.
+.	.	.	.	.	.	.	.	32G 32B 32d	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!		!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=8%3	!	!	!	!	!
+16CC#	16rCC	.	.	16C#	16rCC	.	.	32G 32B 32d	.	.		.	.		.	.	.	8C#/	.	p	.	.	.	.	.	.	.	.	.	.	16r	.	8BB-X	.	.	.	.	.	.	.	16%3g	.	.	.	.	.
+.	.	.	.	.	.	.	.	32G 32B 32dJ	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16DD#	8rCC	.	.	16D#	8rCC	.	.	32D 32G 32BL	.	8d^ 8g^		.	8d^ 8g^ 8b^v		.	.	.	.	.	.	8gJ)	.	8bXJ)	.	8GJ'	.	.	8BX	8d	.	8r	.	.	.	8g	.	8bX	.	.	.	.	.	8ggJ	.	8bbJ	.
+.	.	.	.	.	.	.	.	32D 32G 32B	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16EEJJ	.	.	.	16EJJ	.	.	.	32D 32G 32B	.	.		.	.		.	.	.	[16E-Jk	.	.	.	.	.	.	.	.	.	.	.	.	.	.	[16AA-XJk	.	.	.	.	.	16aJk)	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	32D 32G 32BJ	.	.		.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+*	*	*	*	*	*	*	*	*	*	*		*	*		*	*	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*	*	*v	*v	*	*	*	*	*	*	*		*	*		*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*	*	*		*	*	*v	*v	*	*	*		*	*		*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+=2	=2	=2		=2	=2	=2		=2	=2	=2		=2	=2		=2	=2	=2	=2		=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
+!	!	!		!	!	!		!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TUP:a:num=4	!	!	!	!	!
+!	!	!		!	!	!		!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=4%3	!	!	!	!	!
+16DD#XLL	8rCC	.		16D#XLL	8ryy	.		32D 32G 32cLLL	.	8dL^ 8a^		.	8eL^ 8a^		.	16GGLL]	.	8E-'L>\])		.	(8dL	.	(8aL	.	8GL'	2.rA	.	8dL	8cL	.	8r	.	16AA-LL]	.	8eXL	.	8aL	.	(8.gL	.	8%3cc	.	8ccL	.	8aaL	.
+.	.	.		.	.	.		32D 32G 32c	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16CC#X)	.	.		16C#X)	.	.		32D 32G 32c	.	.		.	.		.	32FF#XL)	p ]	.		.	.	.	.	.	.	.	.	.	.	.	.	.	16FF#X)	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.		.	.	.		32D 32G 32c	.	.		.	.		.	32rJJ	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:DY:a		!	!	!LO:DY:a		!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+(16GGG^	8GGG^^	f		(16GG^	8GG^^	f		32D 32G 32B	.	8BJ^ 8g^		.	8dJ^ 8g^		.	([8GG^J	f >	(8GG^J		f	8gJ)	.	8gJ)	.	8G'	.	.	8dJ	8BXJ	.	8GG^^	.	(16GG^	f	8dJ	.	8gJ	.	.	.	.	.	8bJ	.	8ggJ	.
+.	.	.		.	.	.		32D 32G 32B	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:DY:a		!	!	!LO:DY:a		!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16BBBJJ	.	p		16BBJJ	.	p		32D 32G 32B	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	16BBnJJ	p	.	.	.	.	16eJk)	.	.	.	.	.	.	.
+.	.	.		.	.	.		32D 32G 32BJJJ	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16CC#XLL	4rCC	.		16C#XLL	4ryy	.		32D 32G 32BLLL	.	4.B^ 4.g^		.	4.d^ 4.g^		.	4GG]	.	8C#XL		p	4.g	.	4.g	.	8G'	.	.	4.d	4.B	.	4r	.	8BB-XL	.	4.d	.	4.g	.	4d	.	.	.	4.b	.	4.gg	.
+.	.	.		.	.	.		32D 32G 32B	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16DD#X	.	.		16D#X	.	.		32D 32G 32B	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.		.	.	.		32D 32G 32B	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!		!	!	!		!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=4%3	!	!	!	!	!
+16EE	.	.		16E	.	.		32D 32G 32B	.	.		.	.		.	.	.	[8E-XJ		.	.	.	.	.	8G'	.	.	.	.	.	.	.	8AA-XJ	.	.	.	.	.	.	.	8%3dd	.	.	.	.	.
+.	.	.		.	.	.		32D 32G 32B	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16DD#JJ	.	.		16D#JJ	.	.		32D 32G 32B	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.		.	.	.		32D 32G 32B	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16CC#LL)	16rCC	.		16C#LL)	16ryy	.		32D 32G 32B	.	.		.	.		.	32FF#XLLL)	p ]	16E-KL>\'])		.	.	.	.	.	8G'	.	.	.	.	.	16r	.	16FF#XLL)	.	.	.	.	.	(8.gL	.	.	.	.	.	.	.
+.	.	.		.	.	.		32D 32G 32B	.	.		.	.		.	32rJJ	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:DY:a		!	!	!LO:DY:a		!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+(16GGG	8GGG^^"	f		(16GG^	8GG^^	f		32D 32G 32B	.	.		.	.		.	([8.GG^J	f >	(>8GG^		f	.	.	.	.	.	.	.	.	.	.	8GG^^	.	(16GG^	f	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.		.	.	.		32D 32G 32BJJJ	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:DY:a		!	!	!LO:DY:a		!	!	!LO:TX:i:rj:t=simile		!	!LO:TX:i:rj:t=simile		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16BBB	.	p		16BB	.	p		32E 32A 32dLLL	.	8c^y 8d^y 8a^y		.	8c^y 8d^y 8a^y		.	.	.	.		.	8r	.	8r	.	8GJ'	.	.	8d	8c	.	.	.	16BBn	p	8dd	.	8aa	.	.	.	.	.	8cc	.	8aa	.
+.	.	.		.	.	.		32E 32A 32d	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16CC#JJ	16rCC	.		16C#JJ	16ryy	.		32E 32A 32d	.	.		.	.		.	.	.	[<16C#Jk		p	.	.	.	.	.	.	.	.	.	.	16r	.	[16BB-XJJ	.	.	.	.	.	16aJk)	.	.	.	.	.	.	.
+.	.	.		.	.	.		32E 32A 32dJJJ	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+=3	=3	=3		=3	=3	=3		=3	=3	=3		=3	=3		=3	=3	=3	=3		=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+!	!	!		!	!	!		!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TUP:a:num=4	!	!	!	!	!
+!	!	!		!	!	!		!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=8%3	!	!	!	!	!
+16DD#X	4rCC	.		16D#XLL	4rCC	.		32G 32B 32dLLL	.	8dL^y 8g^y 8b^y		.	8dL^y 8g^y 8b^y		.	8.GGL]	.	16C#KL]		.	4%3r	.	4%3r	.	8GL'	2.rA	.	8dL	8dL	.	4r	.	16BB-KL]	.	8ggL	.	8bbXL	.	8.bL	.	16%3ee	.	8ddL	.	8bbL	.
+.	.	.		.	.	.		32G 32B 32d	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16EE	.	.		16E	.	.		32G 32B 32d	.	.		.	.		.	.	.	8.E-XJ)		.	.	.	.	.	.	.	.	.	.	.	.	.	8AA-X	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.		.	.	.		32G 32B 32d	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16DD#	.	.		16D#	.	.		32G 32B 32d	.	8BJ^y 8d^y 8g^y		.	8BJ^y 8d^y 8g^y		.	.	.	.		.	.	.	.	.	8G'	.	.	8dJ	8BXJ	.	.	.	.	.	8ddJ	.	8ggJ	.	.	.	.	.	8bJ	.	8ggJ	.
+.	.	.		.	.	.		32G 32B 32d	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!		!	!	!		!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=8%3	!	!	!	!	!
+16CC#XJJ)	.	.		16C#X)JJ	.	.		32G 32B 32d	.	.		.	.		.	32FF#XJkk)	p ]	.		.	.	.	.	.	.	.	.	.	.	.	.	.	16FF#XJk)	.	.	.	.	.	16bJk	.	16%3dd	.	.	.	.	.
+.	.	.		.	.	.		32G 32B 32dJJJ	.	.		.	.		.	32r	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+*	*	*		*	*	*		*	*	*^		*	*^		*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+!	!	!LO:DY:a		!	!	!LO:DY:a		!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+(16GGG^LL	8GGG^^"	f		(16GG^LL	8GG^^	f		32G 32A 32c 32eLLL	.	4a^y	4.c^y 4.e^y	.	4a^y	4.c^y 4.e^y	.	([4GG^	f >	(8GGL>\		f	.	.	.	.	8G'	.	.	4.e 4.c	4.ryy	.	8GG^^	.	(16GGLL^	f	(4.eeX	.	4aa	.	(8.ddL	.	.	.	2cc	.	4aa	.
+.	.	.		.	.	.		32G 32A 32c 32e	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:DY:a		!	!	!LO:DY:a		!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16BBB	.	p		16BB	.	p		32G 32A 32c 32e	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	16BBnJ	p	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.		.	.	.		32G 32A 32c 32e	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!		!	!	!		!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=4%3	!	!	!	!	!
+16CC#	8rCC	.		16C#	8rCC	.		32G 32A 32c 32e	.	.	.	.	.	.	.	.	.	8C#XJ		p	.	.	.	.	8G'	.	.	.	.	.	8r	.	8BB-XJ	.	.	.	.	.	.	.	8%3cc	.	.	.	.	.
+.	.	.		.	.	.		32G 32A 32c 32e	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16DD#JJ	.	.		16D#JJ	.	.		32G 32A 32c 32e	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16bJk	.	.	.	.	.	.	.
+.	.	.		.	.	.		32G 32A 32c 32e	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16EELL	8.rCC	.		16ELL	8.rCC	.		32G 32A 32c 32e	.	8gL^yv	.	.	8gL^yv	.	.	8GGL]	.	8.E-L>\)		.	.	.	.	.	8G'	.	.	.	.	.	8.r	.	8AA-XL	.	.	.	8ggL	.	8.aL	.	.	.	.	.	8ggL	.
+.	.	.		.	.	.		32G 32A 32c 32e	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16DD#	.	.		16D#	.	.		32G 32A 32c 32e	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.		.	.	.		32G 32A 32c 32eJJJ	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16CC#)	.	.		16C#)	.	.		32G^ 32c^ 32eLLL^	.	(8eJ^u	8A^ 8c^	.	(8eJ^u	8A^ 8c^	.	32FF#XLL)	p ]	.		.	.	.	.	.	8GJ'	.	.	(8c^ 8A^	8ryy	.	.	.	16FF#XL)	.	8cc^)	.	(8eeXJ^	.	.	.	.	.	.	.	(8ee^J	.
+.	.	.		.	.	.		32G 32c 32e	.	.	.	.	.	.	.	32rJ	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:DY:a		!	!LO:N:vis=8	!LO:DY:a		!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:t= 	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+(16GGG^JJ	16GGG^^"	f		(16GG^JJ	[16GG^^	f		32G 32c 32e	.	.	.	.	.	.	.	([16GG^JJ	f >	[16GG^Jk		f	.	.	.	.	.	.	.	.	.	.	[16GG^^	fp	(16GGJJ^	f	.	.	.	.	16gJk^)	.	.	.	.	.	.	.
+.	.	.		.	.	.		32G 32c 32eJJJ	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+*v	*v	*		*	*	*		*	*	*v	*v	*	*v	*v	*	*	*	*		*	*	*	*	*	*	*	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*		*		*v	*v	*		*	*	*		*	*		*	*	*	*		*	*	*	*	*	*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+=4		=4		=4		=4		=4	=4	=4		=4	=4		=4	=4	=4	=4		=4	=4	=4	=4	=4	=4	=4	=4	=4		=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
+*M5/8		*		*M5/8		*		*M5/8	*	*M5/8		*	*M5/8		*	*M5/8	*	*M5/8		*	*M5/8	*	*M5/8	*	*M5/8	*	*	*M5/8		*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*	*M5/8	*
+*^		*		*^		*		*	*	*		*	*		*	*	*	*		*	*	*	*	*	*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+!	!	!LO:DY:a		!	!	!LO:DY:a		!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16BBB	16GGG"	p		16BBLL	16GG]	p		32G 32B 32dLLL	.	8GL^y' 8B^y' 8d^y')		.	8GL^y' 8B^y' 8d^y')		.	4GG_	.	16GGKL\]		.	4r	.	4r	.	8GL'	4r	.	8BXL		.	16GG]	.	16BBnKL	p	(8bXL'	.	8ddL')	.	4e	.	4.dd	.	(8b'L	.	8dd'L)	.
+.	.	.		.	.	.		32G 32B 32d	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16CC#X	16rCC	.		16C#X	16rCC	.		32G 32B 32d	.	.		.	.		.	.	.	(8C#X		p	.	.	.	.	.	.	.	.		.	16r	.	8BB-X	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.		.	.	.		32G 32B 32d	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16DD#X	8rCC	.		16D#X	8rCC	.		32G 32B 32d	.	8GJ^y' 8B^y' 8d^y'v		.	8GJ^y' 8B^y' 8d^y'v		.	.	.	.		.	.	.	.	.	8G'	.	.	8BJ		.	8r	.	.	.	8bJ')	.	8ddJ'	.	.	.	.	.	8b'J)	.	8dd'J	.
+.	.	.		.	.	.		32G 32B 32d	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16EE	.	.		16E	.	.		32G 32B 32d	.	.		.	.		.	.	.	[16E-XJk		.	.	.	.	.	.	.	.	.		.	.	.	[16AA-XJk	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.		.	.	.		32G 32B 32dJJJ	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16DD#	8rCC	.		16D#	8rCC	.		32G 32B 32dLLL	.	4G^y' 4B^y' 4d^y'u		.	4G^y' 4B^y' 4d^y'u		.	16GGLL]	.	8E-'L>]\)		.	4r	.	4r	.	8G'	4.r	.	4B)		.	8r	.	16AA-LL]	.	4b	.	4dd	.	4g	.	.	.	4b	.	4dd	.
+.	.	.		.	.	.		32G 32B 32d	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16CC#JJ)	.	.		16C#JJ)	.	.		32G 32B 32d	.	.		.	.		.	32FF#XL)	p ]	.		.	.	.	.	.	.	.	.	.		.	.	.	16FF#X)	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.		.	.	.		32G 32B 32d	.	.		.	.		.	32rJJ	.	.		.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:DY:a		!	!	!LO:DY:a		!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!		!	!	!LO:DY:t= 	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+(16GGG^LLi	8GGG^^"	f		(16GG^LLi	8GG^^	f		32G 32B 32d	.	.		.	.		.	([8GG^Ji	f >	(8GG^Ji		f	.	.	.	.	8G'	.	.	.		.	8GG	fp	(16GG	.	.	.	.	.	.	.	4ee	.	.	.	.	.
+.	.	.		.	.	.		32G 32B 32d	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:DY:a		!	!	!LO:DY:a		!	!	!		!	!		!	!	!	!		!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+16BBB	.	p		16BB	.	p		32G 32B 32d	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.		.	.	.	16BBnJJ	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.		.	.	.		32G 32B 32dJJJ	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16CC#	8rCC	.		16C#	8rCC	.		32G 32B 32dLLL	.	8g^y' 8b^y' 8dd^y'v		.	8g^y' 8b^y' 8dd^y'v		.	8GG_	]	[8C#/		p	8bX	.	8dd	.	8GJ'	.	.	8g		.	8r	.	8BB-X	.	[8bX	.	[8dd	.	[8a	.	.	.	[8gg	.	[8ddd	.
+.	.	.		.	.	.		32G 32B 32d	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+16DD#JJ	.	.		16D#JJ	.	.		32G 32B 32d	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.		.	.	.		32G 32B 32dJJJ	.	.		.	.		.	.	.	.		.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+*	*	*		*	*	*		*Xtremolo	*	*		*	*		*	*	*	*		*	*	*	*	*	*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*	*	*		*	*	*		*	*	*		*	*		*	*	*	*		*	*	*	*	*	*v	*v	*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*v	*v	*		*	*	*		*	*	*		*	*		*	*	*	*		*	*	*	*	*	*		*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*		*		*v	*v	*		*	*	*		*	*		*	*	*	*		*	*	*	*	*	*		*	*		*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+=		=		=		=		=	=	=		=	=		=	=	=	=		=	=	=	=	=	=		=	=		=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
+*-		*-		*-		*-		*-	*-	*-		*-	*-		*-	*-	*-	*-		*-	*-	*-	*-	*-	*-		*-	*-		*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [([(s1,s2)][(s3,s4)][(s5,s6)][(s7,s8)])][([(s9,s10)][(s11,s12)]s13,s14)][(s15,s16,s17,s18,s19)]
-!!!RDF**kern: i = editorial accidental
-!!!EED:Jason Lee
-!!!EEV:2021/11/16
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
 !!!RDF**kern: i = marked note, color="hotpink", text="extra("
 !!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!EED: Jason Lee
+!!!EEV: 2021/11/16
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/04/14
