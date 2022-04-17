@@ -6,18 +6,18 @@
 *staff3			*staff3	*staff2		*staff2	*staff1	*staff1	*staff1	*staff1
 *I"Piano			*I"Piano	*I"Piano		*I"Piano	*I"Voice	*I"Voice	*I"Voice	*I"Voice
 *I'Pno.			*	*		*	*I'V.	*	*	*
-!!pagebreak:original
 *clefF4			*	*clefG2		*	*clefG2	*	*	*
 *k[]			*	*k[]		*	*k[]	*	*	*
 *C:			*	*C:		*	*C:	*	*	*
 *M9/8			*	*M9/8		*	*M3/4	*	*	*
 =1			=1	=1		=1	=1	=1	=1	=1
+!!!ONB: Piano time signature states both 9/8 and 3/4
 *Xtuplet			*	*Xtuplet		*	*	*	*italic	*
 *			*	*^		*	*	*	*	*
-!			!	!LO:TX:t=P:problem: pitches should overlap	!LO:TX:t=P:problem:piano time signature 9/8;3/4	!LO:DY:t=sempre %s	!	!	!	!
+!			!	!LO:TX:t=P:problem: pitches should overlap	!	!LO:DY:t=sempre %s	!	!	!	!
 ((6.G 6.B-X			<	(12c 12d	[>12d [<12c	pp	(4b-X	Res-	Tran-	.
 .			.	6cc 6dd)	6c] 6d]	.	.	.	.	.
-6.F#X 6.A			.	([12c	[>12d [<12c	.	8a	-te	-quil	<
+6.F#X 6.A			.	(12c	[>12d [<12c	.	8a	-te	-quil	<
 .			.	6cc 6dd)	6c] 6d]	.	.	.	.	.
 .			.	.	.	.	8a	long	and	.
 6.Fn 6.A-X			.	(12c 12d	[>12d [<12c	[	8a-X	temps	calm	.
@@ -67,7 +67,7 @@
 .	.		.	.	.	.	8c	pali-	-ders	.
 12r	.		.	.	.	.	.	.	.	.
 *clefG2	*		*	*	*	*	*	*	*	*
-(<6.d	.		.	(12g	[12c [12g	.	4c)	-sir.	free.	.
+(<6.di	.		.	(12g	[12c [12g	.	4c)	-sir.	free.	.
 .	.		.	6cc 6ee)	6c] 6g]	.	.	.	.	.
 6.e	.		.	(12g	[12c [12g	.	4r	.	.	.
 .	.		.	6cc 6ee)	6c] 6g]	.	.	.	.	.
@@ -78,3 +78,8 @@
 !!!system-decoration: s1[({(s2,s3)})]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED: Gabriella Vici
+!!!EEV: 2021/12/08
+!!!EED2: Jason Lee
+!!!EEV2: 2022/04/16
