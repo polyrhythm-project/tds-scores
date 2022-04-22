@@ -3,17 +3,16 @@
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part3	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff3	*	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Violoncello	*	*I"Violin	*
+*staff4	*staff3	*staff3/4	*staff2	*staff2	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano	*I"Violoncello	*I"Violoncello	*I"Violin	*I"Violin
 *I'Pno.	*	*	*I'Vc.	*	*I'Vln.	*
-!!pagebreak:original
 *clefF4	*clefG2	*	*clefF4	*	*clefG2	*
 *k[f#c#]	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*
 *D:	*D:	*	*D:	*	*D:	*
 *M4/4	*M4/4	*	*M4/4	*	*M4/4	*
 *	*	*	*	*	*Xtuplet	*
-!	!	!	!	!	!LO:TX:t=[half]=108	!
-!	!LO:TX:t=[half]=108	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:a:i:t=[sotto voce]	!LO:DY:ed=brack
+=	=	=	=	=	=	=
+!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:a:i:t=[sotto voce]	!LO:DY:ed=brack
 8BB'L 8F#	8B'L 8d 8f#	ppp	(8F##X'L	ppp	12eeL	pp
 .	.	.	.	.	12ff#	.
 8BB'J 8F#	8B'J 8d 8f#	.	8F'J)	.	.	.
@@ -157,3 +156,7 @@
 =	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1,s2[({(s3,s4)})]
+!!!EED: Rafael Laurindo
+!!!EEV: 2022/01/04
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/04/22
