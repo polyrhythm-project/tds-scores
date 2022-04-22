@@ -3,17 +3,16 @@
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A
 *part3	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff3	*	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Violoncello	*	*I"Violin	*
+*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano	*I"Violoncello	*I"Violoncello	*	*I"Violin
 *I'Pno.	*	*	*I'Vc.	*	*I'Vln.	*
-!!pagebreak:original
 *clefF4	*clefG2	*	*clefC4	*	*clefG2	*
 *k[b-]	*k[b-]	*	*k[b-]	*	*k[b-]	*
 *F:	*F:	*	*F:	*	*F:	*
 *M4/4	*M4/4	*	*M4/4	*	*M4/4	*
 =1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!LO:DY:ed=brack	!LO:TX:t=[quarter]=126	!LO:DY:ed=brack
-!	!	!LO:DY:ed=brack	!	!LO:DY:t=poco menop %s	!	!LO:DY:t=%s un poco marcato
+!	!	!LO:DY:ed=brack	!	!LO:DY:t=poco meno %s	!	!LO:DY:t=%s un poco marcato
 ]4CC ]4GG	]4c ]4g	ppp	(4g~	p	]4G ]4d	ppp
 4CC 4GG	4c 4g	.	(8.gL	.	4G 4d	.
 .	.	.	16aJk))	.	.	.
@@ -29,8 +28,8 @@
 .	.	.	(8gL	.	.	.
 .	.	.	8fJ)	.	.	.
 =3	=3	=3	=3	=3	=3	=3
-.	.	.	(8qqe/L	.	.	.
-.	.	.	8qqf/J	.	.	.
+.	.	.	(16qqe/L	.	.	.
+.	.	.	16qqf/J	.	.	.
 2CC 2GG	2c 2g	.	8eL	.	2G 2d	.
 .	.	.	8d	.	.	.
 .	.	.	8e	.	.	.
@@ -43,6 +42,7 @@
 .	.	.	16gJJ)	.	.	.
 =4	=4	=4	=4	=4	=4	=4
 4CC 4GG	4c 4g	.	(8fL	.	4G 4d	.
+!	!	!	!LO:TUP:a	!	!	!
 .	.	.	24gL	.	.	.
 .	.	.	24f	.	.	.
 .	.	.	24eJJ	.	.	.
@@ -59,7 +59,6 @@
 .	.	.	8f	.	.	.
 [4CC [4GG	[4c [4g	.	8e	.	[4G [4f	.
 .	.	.	8fJ)	.	.	.
-!!linebreak:original
 =6	=6	=6	=6	=6	=6	=6
 *	*	*	*	*	*^	*
 4CC] 4GG]	4c] 4g]	.	2.g	.	4G] 4f]	4ryy	.
@@ -72,8 +71,8 @@
 .	.	.	8dJ)	.	.	.
 !!LO:REH:t=3
 =7	=7	=7	=7	=7	=7	=7
-.	.	.	(8qqe/L	.	.	.
-.	.	.	8qqf/J	.	.	.
+.	.	.	(16qqe/L	.	.	.
+.	.	.	16qqf/J	.	.	.
 !	!	!LO:DY:t=poco menop %s	!	!	!	!LO:DY:t=poco menop %s
 4CC 4GG	4c 4g	pp	8eL	.	4G 4d	pp
 .	.	.	8d)	.	.	.
@@ -88,6 +87,7 @@
 .	.	.	16gJJ)	.	.	.
 =8	=8	=8	=8	=8	=8	=8
 8CC 8GG	8c 8g	.	(8fL	.	8G 8d	.
+!	!	!	!LO:TUP:a	!	!	!
 4CC 4GG	4c 4g	.	24gL	.	4G 4d	.
 .	.	.	24f	.	.	.
 .	.	.	24eJJ)	.	.	.
@@ -106,7 +106,7 @@
 .	.	.	16aJk)	.	.	.
 8CCL] 8GG]	8cL] 8g]	.	(8b-L	.	8GL] 8e]	.
 8CCJ 8GG	8cJ 8g	.	8cc)	.	8GJ 8e	.
-4CC 4GG	4c 4g	[	(8dd'	.	4G 4e-X	[
+4CC 4GG	4c 4g	[[	(8dd'	.	4G 4e-X	[[
 .	.	.	8ff'J)	[	.	.
 =10	=10	=10	=10	=10	=10	=10
 4CC 4GG	4c 4g	>	(4.ee-X	.	4G 4d	.
@@ -119,3 +119,7 @@
 =	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1,s2[({(s3,s4)})]
+!!!EED: Rafael Laurindo
+!!!EEV: 2022/01/04
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/04/22
