@@ -1,10 +1,10 @@
 !!!COM: Olivier (Eugène Prosper Charles) Messiaen
 !!!OTL: [T786_Mes-w26p33m1-6]
 **kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*	*grp:B	*	*grp:A	*
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A
 *part2	*part2	*part1	*part1	*part1	*part1
-*staff3	*staff3	*staff2	*staff2	*staff1	*
-*I"PÉD.	*	*I"[Organ] MAN.	*	*	*
+*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"PÉD.	*I"PÉD.	*I"[Organ] MAN.	*I"[Organ] MAN.	*I"[Organ] MAN.	*I"[Organ] MAN.
 *I'Ped.	*	*I'Man.	*	*	*
 *clefF4	*	*clefF4	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*
@@ -24,7 +24,7 @@
 =	=	=	=	=	=
 4FFnX_ 4F#X_	.	8DDn')	.	2b-X_ 2ggnX_	.
 .	.	(<[8Bn^	.	.	.
-!	!	!LO:TUP:a	!	!	!
+!	!	!LO:TUP:br:a	!	!	!
 8FF_ 8F#_	.	24BLL]	.	.	.
 .	.	24En	.	.	.
 .	.	24CnJJ)	.	.	.
@@ -45,7 +45,7 @@
 *	*	*clefF4	*	*	*
 =	=	=	=	=	=
 !	!	!LO:TX:a:rj:t=Pos.	!	!	!
-.	.	(8qcn/	f	.	f
+.	.	(<8qcn/	f	.	f
 4EEnX_ 4G#X_	.	12E-X'L)	.	4b-X_ 4ggnX_	.
 .	.	24DDn'Jk	.	.	.
 .	.	8r	.	.	.
@@ -72,7 +72,7 @@
 .	.	[16gn~	.	.	.
 =	=	=	=	=	=
 4DD-X_ 4Fn_	.	8gn],	.	2ee-X_ 2cccnX_	.
-!	!	!LO:TUP:a	!	!	!
+!	!	!LO:TUP:br:a	!	!	!
 .	.	(24bn^KL	.	.	.
 .	.	12gg#XJ)	.	.	.
 16DD-KL] 16F]	.	4r	.	.	.
@@ -83,5 +83,9 @@
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)})]s3
 !!!RDF**kern: < = below
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
 !!!EED:Jason Lee
 !!!EEV:2021/01/12
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/04/27
