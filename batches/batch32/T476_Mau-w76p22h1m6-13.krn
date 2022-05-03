@@ -1,7 +1,7 @@
 !!!COM: Bohuslav (Jan) Martinů
 !!!OTL: [T476_Mau-w76p22h1m6-13]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B
 *part3	*part3	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
 *I"Piano	*I"Piano	*I"Piano	*I"Piano	*I"Violoncello	*I"Violoncello	*I"Flute	*I"Flute
@@ -47,6 +47,7 @@
 (16B-XLL	.	8r	.	.	.	.	.
 16dJJ	.	.	.	.	.	.	.
 =5	=5	=5	=5	=5	=5	=5	=5
+*	*	*grp:B	*	*grp:A	*	*	*
 8f')	.	8dd'L	.	8r	.	(4fff	f
 8r	.	(8fJ	f	16B-X'LL	mf	.	.
 .	.	.	.	16c'JJ	.	.	.
@@ -79,8 +80,13 @@
 .	.	.	.	16c'JJ	.	.	.
 8r	.	(16ee-XLL	.	16d'LL	.	(16gggLL	.
 .	.	16ccJ	.	16c'	.	16eee-XJ	.
-(16E-XLL	.	[8ddJ)	.	16B-'	.	[8fffJ)	.
-16GJJ)	.	.	.	16A'JJ	.	.	.
+(16E-XLLi	.	[8ddJ)	.	16B-'	.	[8fffJ)	.
+16GJJ	.	.	.	16A'JJ	.	.	.
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1,s2[({(s3,s4)})]
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED: Gabriella Vici
+!!!EEV: 2022/01/19
+!!!EED2: Jason Lee
+!!!EEV2: 2022/05/03
