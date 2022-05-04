@@ -15,10 +15,9 @@
 *	*	*	*	*tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *	*	*	*	*	*	*tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *	*	*	*	*	*	*	*	*tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[[quarter]=113]	!
-!	!	!	!	!	!	!	!	!LO:TX:t=[[quarter]=113]	!	!	!LO:DY:ed=brack	!	!	!	!	!	!	!	!	!LO:TX:a:B:t=à 2	!LO:DY:ed=brack
+!	!	!	!	!	!	!	!	!	!	!	!LO:DY:ed=brack	!	!	!	!	!	!	!	!	!LO:TX:a:B:t=à 2	!LO:DY:ed=brack
 !	!	!	!	!	!	!	!	!LO:TX:t=P:problem:Cross-Measure Beaming needs to be implemented.	!	!	!	!	!	!	!	!	!	!	!	!	!
-!	!	!	!	!LO:TX:t=P:problem:Cross-Measure Beaming needs to be implemented.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:t=P:problem:Cross-Measure Beaming and tremolo interaction	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4DD]	p	4DD^	p	16G^LL	p	(32B^LLL	p	16e^LL	p	4dd	f	nel	4DD^	8B 8c 8e	p	4%3r	.	8e^	p	4DD^	p
 .	.	.	.	.	.	32c	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	16G^	.	32B^	.	16e^	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -55,8 +54,8 @@
 .	.	.	.	16D	.	32B^	.	16f#X	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	32c	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	16C^Jk	.	16D	.	32B^	.	16f#X	.	.	.	.	16C^Jk	.	.	.	.	.	.	16C^Jk	.
-!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:Grace note denoting end of word breaks several parts of the example.	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	.	.	.	32c	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	.	.	8qdd)	.	.	.	.	.	.	.	.	.	.	.
 .	.	2D^	.	16E	.	32B^	.	16e	.	8.r	.	.	2D^	4e^>	.	4e^	.	.	.	/2D^	.
 .	.	.	.	.	.	32c	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	16E	.	32B^	.	16e	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -99,7 +98,8 @@
 .	.	.	.	16D	.	32B^	.	16f#	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	32c)JJJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69
-4%3r	.	8.AA^L	<	16E	<	(32B^LLL	<	16e	<	4ee	.	main	8.AA^L	4d^ 4dd	<	4d^ 4dd	<	4%3r	.	8.AA^L	<
+!	!	!	!	!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!	!	!	!	!	!	!
+4%3r	.	8.AA^L	.	16E	.	(32B^LLL	.	16e	<	4ee	.	main	8.AA^L	4d^ 4dd	<	4d^ 4dd	<	4%3r	.	8.AA^L	<
 .	.	.	.	.	.	32c	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	16E	.	32B^	.	16e	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	32c	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -135,3 +135,5 @@
 !!!RDF**kern: < = below
 !!!EED: Daniel Wright
 !!!EEV: 2022/1/27
+!!!EED2: Jason Lee
+!!!EEV2: 2022/05/04
