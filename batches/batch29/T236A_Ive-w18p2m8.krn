@@ -2,24 +2,27 @@
 !!!OTL: [T236A_Ive-w18p2m8]
 **kern	**kern	**dynam	**kern	**dynam
 *grp:A	*grp:B	*grp:A/B	*grp:B	*grp:B
-*part2	*part2	*	*part1	*
+*part2	*part2	*part2	*part1	*
 *staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Bugle [C]	*
-*I'Pno.	*	*	*I'C Tpt.	*
-!!pagebreak:original
+*I"Piano	*I"Piano	*	*I"Bugle in C	*
+*I'Pno.	*I'Pno. 	*	*I'Bugle	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
-*	*	*	*	*
 *M4/4	*M4/4	*	*M4/4	*
-=1	=1	=1	=1	=1
+=8	=8	=8	=8	=8
 *^	*	*	*	*
-!	!	!	!	!LO:TX:t=[quarter]=180	!
-!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
-2r	3AA	1cc#X 1dd#X 1dddn	f	]1cc	f
-.	3FF#X	.	.	.	.
-2Fn 2A#X	.	.	.	.	.
-.	3CC	.	.	.	.
+*grp:A	*grp:B	*	*	*	*
+!	!	!	!	!LO:TX:t=[[quarter]=180]	!
+!LO:TUP:b	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
+\3AA	2rA	1cc#X 1dd#X 1dddn	f	]1cc	f
+\3FF#X	.	.	.	.	.
+.	/2Fn 2A#X	.	.	.	.
+\3CC	.	.	.	.	.
 *v	*v	*	*	*	*
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: [(s1)][({(s2,s3)})]
+!!!EED: Rafael Laurindo
+!!!EEV: 2022/01/13
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/05/05
