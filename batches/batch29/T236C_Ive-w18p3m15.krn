@@ -4,7 +4,7 @@
 *grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A
 *part4	*part4	*part4	*part4	*part3	*	*part2	*	*part1	*part1
 *staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Piano	*	*I"Piano	*	*I"Bells	*	*I"Bugle in C	*	*I"Violin	*
+*I"Piano	*	*I"Piano	*	*I"Bells	*	*I"Bugle [in C]	*	*I"Violin	*
 *I'Pno.	*	*I'Pno.	*	*I'Tub. B.	*	*I'Bugle	*	*I'Vln.	*
 *clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
@@ -17,24 +17,24 @@
 !	!	!	!LO:TX:b:i:t=marcato sempre	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:b:i:t=marcato sempre	!LO:DY:ed=brack
 *grp:A	*grp:B	*	*	*	*	*	*	*	*	*	*	*
 !	!	!LO:DY:ed=brack	!	!	!	!	!	!	!	!	!LO:TUP:a	!
-\3FF#X	2rA	f<	1cc#X 1dd#X 1dddn	7cc#	7ddd'^^/	f <	5a-X	f	]4cc	f	7dd-X'^^	f<
-.	.	.	.	7ccn	7bb'^^/	.	.	.	.	.	7ccn'^^	.
+\3FF#X	2rA	f<	1cc#X 1dd#X 1dddn	7cc#N	7ddd'^^/	f <	5a-X	f	]4cc	f	7dd-X'^^	f<
+.	.	.	.	7ccnN	7bb'^^/	.	.	.	.	.	7ccn'^^	.
 .	.	.	.	.	.	.	5g-X	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	2ee	.	.	.
-.	.	.	.	7ddn	7aa'^^/	.	.	.	.	.	7ddn'^^	.
+.	.	.	.	7ddnN	7aa'^^/	.	.	.	.	.	7ddn'^^	.
 \3BB	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	5b-X	.	.	.	.	.
-.	.	[	.	7ee	7ff#X'^^/	[ ff	.	.	.	.	7ee'^^	ff [
+.	.	[	.	7eeN	7ff#X'^^/	[ ff	.	.	.	.	7ee'^^	ff [
 .	/[>2Fn [>2A#X	ff	.	.	.	.	.	.	.	.	.	.
-.	.	.	.	7a	7gg#X'^^/	.	.	.	.	.	7a'^^ 7ff#X	.
+.	.	.	.	7aN	7gg#X'^^/	.	.	.	.	.	7a'^^ 7ff#X	.
 .	.	.	.	.	.	.	5e-X	.	.	.	.	.
 \3FF#X	.	.	.	.	.	.	.	.	.	.	.	.
-.	.	.	.	7b	7aa#X'^^/	.	.	.	.	.	7b'^^	.
+.	.	.	.	7bN	7aa#X'^^/	.	.	.	.	.	7b'^^	.
 !	!	!	!	!	!	!	!	!	!LO:TUP:br	!	!	!
 .	.	.	.	.	.	.	.	.	12ccL	.	.	.
 .	.	.	.	.	.	.	5d-X	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	12ee	.	.	.
-.	.	.	.	7cc	7ggn'^^/	.	.	.	.	.	7cc'^^	.
+.	.	.	.	7ccN	7ggn'^^/	.	.	.	.	.	7cc'^^	.
 .	.	.	.	.	.	.	.	.	12gJ	.	.	.
 *v	*v	*	*	*	*	*	*	*	*	*	*	*
 *	*	*v	*v	*v	*	*	*	*	*	*	*
@@ -43,6 +43,7 @@
 !!!system-decoration: [(s1,s2,s3)][({(s4,s5)})]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!RDF**kern: N = cue size
 !!!EED: Rafael Laurindo
 !!!EEV: 2022/01/13
 !!!EED2: Daniel Wright
