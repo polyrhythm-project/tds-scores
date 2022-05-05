@@ -1,7 +1,7 @@
 !!!COM: Arthur Honegger
 !!!OTL: [T610_Hon-w43p9-10h6m1-h7m9]
 **kern	**dynam	**kern	**dynam	**kern	**kern	**kern	**kern	**dynam	**kern	**dynam	**kern	**kern
-*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A
 *part9	*part9	*part8	*part8	*part7	*part6	*part5	*part4	*part4	*part3	*part3	*part2	*part1
 *staff9	*staff9	*staff8	*staff8	*staff7	*staff6	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff1
 *I"Contrabass	*I"Contrabass	*I"Violoncello	*I"Violoncello	*I"Viola	*I"Violin II	*I"Violin I	*I"Trombone	*I"Trombone	*I"Trumpet [C]	*I"Trumpet [C]	*I"Oboe	*I"Flute
@@ -11,32 +11,31 @@
 *k[]	*	*k[]	*	*k[]	*k[]	*k[]	*k[]	*	*	*	*k[]	*k[]
 *	*	*	*	*	*	*	*	*	*	*	*	*
 *M3/8	*	*M3/8	*	*M3/8	*M3/8	*M3/8	*M3/8	*	*M3/8	*	*M3/8	*M3/8
+!!LO:REH:t=6
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *	*	*	*	*	*	*	*^	*	*	*	*	*
-!	!	!	!	!LO:TX:a:t=Pizz.	!LO:TX:a:t=Pizz.	!LO:TX:a:t=Pizz.	!LO:TX:a:t=I.	!	!	!LO:TX:a:t=[Sourdines]	!	!	!
+!	!	!	!	!LO:TX:a:t=Pizz.	!LO:TX:a:t=Pizz.	!LO:TX:a:t=Pizz.	!LO:TX:a:rj:t=I.	!	!	!LO:TX:a:t=[Sourdines]	!	!	!
 4DD#X	p	4DD#X	p	8r	8r	8r	[4.Bn))	4.r	p	[4.e- [4.a-X	p	8%3r	8%3r
 .	.	.	.	8g#XL	8r	8r	.	.	.	.	.	.	.
-!	!	!	!	!	!LO:TX:t=P:problem:cross-bar beaming (same throughout part)	!LO:TX:t=P:problem:cross-bar beaming (same throughout part)	!	!	!	!	!	!	!
 8r	.	8r	.	8d#XJ	8gg#XL	8ggg#XL	.	.	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
 8GG#XL	.	8G#XL	.	8r	8dd#XJ	8ddd#XJ	4.B_	4.r	.	4.e-_ 4.a-_	.	8%3r	8%3r
-!	!	!	!	!LO:TX:t=P:problem:cross-bar beaming throughout part	!	!	!	!	!	!	!	!	!
 8DD#XJ	.	8D#XJ	.	8G#XL	8r	8r	.	.	.	.	.	.	.
-8r	.	8r	.	8r	8g#XL	8gg#XL	.	.	.	.	.	.	.
+8r	.	8r	.	8r	8g#XL/	8gg#XL	.	.	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
 8GGG#X	.	8GG#XL	.	8d#XJ	8r	8r	8BL]	4.r	.	8e-L] 8a-]	.	8%3r	8%3r
 8r	.	8r	.	8r	8dd#XJ	8ddd#XJ	8rA	.	.	8r	.	.	.
-8r	.	8D#XJ	.	8gn	8r	8r	8BJ	.	.	(>16e-'>L 16a-X	.	.	.
+8r	.	8D#XJ	.	8g#	8r	8r	8BJ	.	.	(>16e-'>L 16a-X	.	.	.
 .	.	.	.	.	.	.	.	.	.	16e-'>/JJ 16a-/)	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
 !	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=I.
 8GG#X	.	8G#XL	.	8r	8r	8r	[4.B	4.r	.	[4.e- [4.a-X	.	8%3r	(4dd#X
 8r	.	8D#XJ	.	8g#XL	8r	8r	.	.	.	.	.	.	.
-8r	.	8r	.	8dnJ	8gg#XL	8ggg#XL	.	.	.	.	.	.	8b
+8r	.	8r	.	8d#J	8gg#XL	8ggg#XL	.	.	.	.	.	.	8b
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
 8%3r	.	8GG#XL	.	8r	8dd#XJ	8ddd#XJ	4.B_	4.r	.	4.e-_ 4.a-_	.	8%3r	4dd#X
 .	.	8r	.	8G#XL	8r	8r	.	.	.	.	.	.	.
-.	.	8D#XJ	.	8r	8g#XL	8gg#XL	.	.	.	.	.	.	8ee
+.	.	8D#XJ	.	8r	8g#XL/	8gg#XL	.	.	.	.	.	.	8ee
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
 8%3r	.	8r	.	8d#XJ	8r	8r	4.B_	4.r	.	4.e-_ 4.a-_	.	8%3r	4ff#X
 .	.	8GG#XL	.	8r	8dd#XJ	8ddd#XJ	.	.	.	.	.	.	.
@@ -66,12 +65,12 @@
 *	*	*	*	*	*	*	*v	*v	*	*	*	*	*
 =12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
 !	!	!	!	!	!	!	!LO:TX:b:t=II.	!	!	!	!	!
-4GGn	.	8G#XL	.	8r	8ddd#X	8ddd#X	[4.B	.	4.e- [4.a-X	.	4dd#X	8%3r
+4GG#	.	8G#XL	.	8r	8ddd#X	8ddd#X	[4.B	.	4.e- [4.a-X	.	4dd#X	8%3r
 .	.	8D#XJ	.	8g#XL	8r	8r	.	.	.	.	.	.
 8r	.	8r	.	8d#XJ	8gg#XL	8ggg#XL	.	.	.	.	8b	.
 =13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13
 8%3r	.	8GG#XL	.	8r	8ddd#XJ	8ddd#XJ	4.B_	.	4.e- 4.a-_	.	4dd#X	8%3r
-.	.	8r	.	8GnL	8r	8r	.	.	.	.	.	.
+.	.	8r	.	8G#L	8r	8r	.	.	.	.	.	.
 .	.	8D#XJ	.	8r	8gg#XL	8gg#XL	.	.	.	.	8ee	.
 =14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14
 8%3r	.	8r	.	8d#XJ	8r	8r	4.B_	.	4.e- 4.a-_	.	8ff#XL	8%3r
@@ -83,7 +82,7 @@
 .	.	8r	.	8c#X	8r	8r	8B'J	.	16e-L 16a-X	.	8ff#X	.
 .	.	.	.	.	.	.	.	.	16e-JJ 16a-	.	.	.
 =16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
-4FFFn	.	8F#XL	.	8r	8ccc#X	8ccc#X	[4.A	.	4.eX [4.g#X	.	4dd#X)	(8gg#XL
+4FFF#	.	8F#XL	.	8r	8ccc#X	8ccc#X	[4.A	.	4.enX [4.g#X	.	4dd#X)	(8gg#XL
 .	.	8C#XJ	.	8f#XL	8r	8r	.	.	.	.	.	8dd#X
 8r	.	8r	.	8c#XJ	8ff#XL	8fff#XL	.	.	.	.	8r	8bJ
 =17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
@@ -108,6 +107,9 @@
 =	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2)][(s3,s4)][(s5,s6,s7,s8,s9)]
-!!!YEM: Copyright © Natalie
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!EED: Gabriella Vici
+!!!EEV: 2022/01/26
+!!!EED2: Jason Lee
+!!!EEV2: 2022/05/04
