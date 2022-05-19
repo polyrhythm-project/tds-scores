@@ -4,14 +4,15 @@
 *grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*staff1/2
-*I"Piano	*I"Piano	*I"Piano
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
 *clefF4	*clefG2	*
 *k[b-e-a-d-g-c-]	*k[b-e-a-d-g-c-]	*
 *G-:	*G-:	*
 *M4/4	*M4/4	*
 =1	=1	=1
-!	!LO:TX:a:B:t=Très lent\nSans presser ni ralentir jusqu'à la fin	!
-!LO:TX:b:Bi:t=Sourdine durant toute la pièce	!	!
+!	!LO:TX:i:t=Sans presser ni ralentir jusqu'à la fin	!
+!LO:TX:b:i:t=Sourdine durant toute la pièce	!LO:TX:a:B:t=Très lent	!
 1r	4r	.
 .	8r	.
 !	!	!LO:DY
@@ -28,14 +29,14 @@
 .	8B-'>L_ [8b-)	.
 =3	=3	=3
 *	*^	*
-!	!LO:TX:b:Bi:t=un peu marqué	!	!
+!	!LO:TX:b:i:t=un peu marqué	!	!
 ([2EE- [2BB- [2F	8b-J]	(2B-_ [2f	.
 .	4b-~	.	.
 .	(8B-'^ 8b-	.	.
 8EE-L] 8BB-] 8F]	4b-')	8B-L] 8f]	.
 8CC- 8GG- 8D-	.	8G- 8d-	.
 8.DD- 8.AA- 8.E-	(8B-'^ 8b-	8.A- [8.e-	.
-.	[8b-'L)	.	.
+.	[/8b-'L)	.	.
 16AA-Jk 16E- 16B-	.	16c-Jk 16e-]	.
 =4	=4	=4	=4
 [2EE- [2BB- [2F	8b-J]	[2B- [2f	.
@@ -48,43 +49,44 @@
 16AA-Jk 16E- 16B-	.	16c-Jk 16e-	.
 =5	=5	=5	=5
 *^	*	*	*
+!	!	!	!LO:TX:t=P:problem:Beamed note still contains stem.	!
 2.ryy	1EE- 1BB- 1F)	1B- 1f)	8b-J]/	.
 .	.	.	4b-~>/	.
 .	.	.	(>[8B-'>^>/ 8b-/	.
 .	.	.	4B-'>]/ 4b-)/	.
 *clefG2	*	*	*	*
-4r>	.	.	(>[<8B-<'^ 8b-<	.
-.	.	.	8B-<'L_< [8b-<)	.
+(>[<8B-<'^ 8b-<	.	.	4ra	.
+8B-<'L_< [8b-<)	.	.	.	.
 *v	*v	*	*	*
 =6	=6	=6	=6
 !	!	!	!LO:DY:c:t=%s expressif
-(<8.d-L	(8.dd-L	8B-<J] 8b-<]	p
-.	.	4B-<~ 4b-<	.
-16e-Jk	16ee-Jk	.	.
-4d-	4dd-	.	.
-.	.	(>[<8B-<'^ 8b-<	.
-8f-XL	8ff-XL	4B-<'] 4b-<)	.
-8e-	8ee-	.	.
-8.cn	8.ccn	(>[<8B-<'^ 8b-<	.
-.	.	8B-<'L_< [8b-<)	.
-16e-Jk	16ee-Jk	.	.
+8B-<J] 8b-<]	(8.dd-L	(<8.d-L	p
+4B-<~ 4b-<	.	.	.
+.	16ee-Jk	16e-Jk	.
+.	4dd-	4d-	.
+(>[<8B-<'^ 8b-<	.	.	.
+4B-<'] 4b-<)	8ff-XL	8f-XL	.
+.	8ee-	8e-	.
+(>[<8B-<'^ 8b-<	8.ccn	8.cn	.
+8B-<'L_< [8b-<)	.	.	.
+.	16ee-Jk	16e-Jk	.
 =7	=7	=7	=7
 *^	*	*^	*
-2.ryy	4e-	4ee-\	8B-<J] 8b-<]	2f-	.
-.	.	.	4B-<~ 4b-<	.	.
+8B-<J] 8b-<]	4e-	4ee-\	2.ryy	2f-	.
+4B-<~ 4b-<	.	.	.	.	.
 .	2.d-)	2.dd-\)	.	.	.
-.	.	.	(>[<8B-<'^ 8b-<	.	.
-.	.	.	4B-<'] 4b-<)	2ryy	.
-4r	.	.	(>[<8B-'>^>/ 8b-	.	.
-.	.	.	8B-'>]/ [>8b-)	.	.
+(>[<8B-<'^ 8b-<	.	.	.	.	.
+4B-<'] 4b-<)	.	.	.	2ryy	.
+(>[<8B->'>^>/ 8b->	.	.	4ra<	.	.
+8B->'>]/ [>8b->)	.	.	.	.	.
 *v	*v	*	*	*	*
 *	*v	*v	*v	*
 *clefF4	*	*
 =	=	=
 *-	*-	*-
-!!!EED: Daniel Wright
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
+!!!EED: Daniel Wright
 !!!EEV: 2021/07/13
 !!!EED2: Gabriella Vici
 !!!EEV2: 2022/02/08
