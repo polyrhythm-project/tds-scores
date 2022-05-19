@@ -4,8 +4,8 @@
 *grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*staff1/2
-*I"Piano	*I"Piano	*I"Piano
-*I'Pno.	*	*
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
 *clefG2	*clefG2	*
 *k[f#c#g#]	*k[f#c#g#]	*
 *A:	*A:	*
@@ -13,11 +13,12 @@
 =47	=47	=47
 *^	*^	*
 !	!	!LO:TX:t=[[quarter]=144]	!	!
+!	!LO:TX:t=P:problem:  Dotted Note + 16ths in the same part need to be reversed, to allow for the collision avoidance with slurs.	!	!	!
 (<16c#LL	2.c#^	(4ccc#^	4r	p <
 16e	.	.	.	.
 16g#	.	.	.	.
 16cc#JJ)	.	.	.	.
-4r	.	4gg#)	(>16gg#LL	.
+4r	.	(4gg#)	16gg#LL	.
 .	.	.	16ee	.
 .	.	.	16cc#	.
 .	.	.	16eeJJ)	.
@@ -26,7 +27,7 @@
 16g#	.	.	.	.
 16cc#JJ)	.	.	.	.
 =48	=48	=48	=48	=48
-4r	2.B#X^	4gg#)	(>16gg#LL	.
+4r	2.B#X^	(4gg#)	16gg#LL	.
 .	.	.	16ee	.
 .	.	.	16cc#	.
 .	.	.	16eeJJ)	.
@@ -34,16 +35,17 @@
 (<16eLL	.	.	.	.
 16g#	.	.	.	.
 16cc#JJ)	.	.	.	.
-4r	.	4gg#)	(>16gg#LL	.
+4r	.	(4gg#)	16gg#LL	.
 .	.	.	16ee	.
 .	.	.	16cc#	.
 .	.	.	16eeJJ)	.
 =49	=49	=49	=49	=49
+!	!LO:TX:t=P:problem:  Dotted Note + 16ths in the same part need to be reversed, to allow for the collision avoidance with slurs.	!	!	!
 (<16BLL	2.Bn^	(4eee^	4r	.
 16e	.	.	.	.
 16g#	.	.	.	.
 16cc#JJ)	.	.	.	.
-4r	.	4ccc#)	(>16ccc#LL	.
+4r	.	(4ccc#)	16ccc#LL	.
 .	.	.	16gg#	.
 .	.	.	16ee	.
 .	.	.	16gg#JJ)	.
@@ -52,7 +54,7 @@
 16g#	.	.	.	.
 16cc#JJ)	.	.	.	.
 =50	=50	=50	=50	=50
-4r	2.A#X^	4ccc#)	(>16ccc#LL	.
+4r	2.A#X^	(4ccc#)	16ccc#LL	.
 .	.	.	16gg#	.
 .	.	.	16ee	.
 .	.	.	16gg#JJ)	.
@@ -60,7 +62,7 @@
 (<16eLL	.	.	.	.
 16g#	.	.	.	.
 16cc#JJ)	.	.	.	.
-4r	.	4eee)	(>16eeeLL	.
+4r	.	(4eee)	16eeeLL	.
 .	.	.	16ccc#	.
 .	.	.	16gg#	.
 .	.	.	16ccc#JJ)	[
