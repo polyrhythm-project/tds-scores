@@ -3,14 +3,15 @@
 **kern	**kern	**dynam	**kern	**dynam
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*staff2/3	*staff1	*staff1
-*I"Piano	*I"Piano	*I"Piano	*I"Violin	*I"Violin
-*I'Pno	*I'Pno	*	*I'Vln.	*I'Vln.
+*I"Piano	*I"Piano	*	*I"Violin	*
+*I'Pno	*I'Pno	*	*I'Vln.	*
 *clefF4	*clefF4	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
 *M2/4	*M2/4	*	*M2/4	*
+!!LO:REH:t=22
 =1	=1	=1	=1	=1
-!	!	!	!LO:TX:t=Poco sostenuto [quarter]=86	!
+!	!	!	!LO:TX:t=Poco sostenuto ([quarter]=86)	!
 2ryy	8r	f	2r	.
 .	(8FF#X^L 8AA^< 8Dn^< 8E#X^<	.	.	.
 .	8FFF<#X 8AAA< 8DD<n 8EE<#X)	.	.	.
@@ -75,10 +76,12 @@
 .	8FF# 8AA 8D 8E#	p	([4B	.
 .	8FF#J 8AA 8D 8E#	.	.	.
 =10	=10	=10	=10	=10
+!	!	!	!LO:TX:t=P:problem:glissando	!
 2ryy	8FFF#X<L^< 8AAA<^< 8DDn<^< 8EE#X<^<	.	4B]	.
 .	8FF#X 8AA 8Dn 8E#X	.	.	.
 .	8FFF#<^< 8AAA<^< 8DD<^< 8EE#<^<	.	8a#X^^)	f
 .	8FF#J 8AA 8D 8E#	.	8r	.
+!!LO:REH:t=23
 =11	=11	=11	=11	=11
 !	!	!	!LO:TX:t=Meno vivo ([quarter]=86)	!
 2ryy	8r	f	2r	.
