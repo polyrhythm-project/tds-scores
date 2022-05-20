@@ -12,7 +12,9 @@
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4		*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
 =179	=179	=179	=179	=179	=179	=179	=179	=179	=179	=179	=179	=179	=179	=179	=179	=179		=179	=179	=179	=179	=179	=179	=179	=179	=179	=179	=179	=179	=179
 *tremolo	*	*tremolo	*	*tremolo	*	*	*	*	*	*	*	*	*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!LO:TX:t=P:problem:cross-measure beaming still needs to be applied.	!LO:DY:ed=brack	!LO:TX:t=P:problem:cross-measure beaming	!LO:DY:ed=brack	!	!	!	!	!	!	!		!	!	!LO:DY:t=%s marc.	!LO:TX:a:i:t=marc.	!	!	!	!	!LO:DY:t=%s marc.	!	!	!LO:TX:t=[Allegro Molto ([quarter]=160)]	!
+!LO:TX:t=P:problem: Tremolo Positioning	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem: Tremolo Positioning	!	!	!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:t=P:problem: Tremolo Positioning	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!	!	!	!	!	!		!	!	!LO:DY:t=%s marc.	!LO:TX:a:i:t=marc.	!	!	!	!	!LO:DY:t=%s marc.	!	!	!LO:TX:t=[Allegro Molto ([quarter]=160)]	!
 32BBB-X^^<LLL	f	32FF^^<LLL	f	32D^^<LLL	f	(8ddL	f	(8dddL	f	[2FFTT	p	2r	.	2r	.	2r		.	4.BBB-X 4.FF	f	4.D 4.d	f	4.r	.	4.d	f	(8ddddL	p	2r	.
 32BBB-X^^	.	32FF^^	.	32D^^	.	.	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.
 32BBB-X^^	.	32FF^^	.	32D^^	.	.	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -48,7 +50,7 @@
 32DD^^	.	32DD^^ 32AA	.	32F^^	.	.	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.
 32DD^^JJJ	.	32DD^^ 32AAJJJ	.	32F^^JJJ	.	.	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.
 =181	=181	=181	=181	=181	=181	=181	=181	=181	=181	=181	=181	=181	=181	=181	=181	=181		=181	=181	=181	=181	=181	=181	=181	=181	=181	=181	=181	=181	=181
-!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem: Dynamic Text not displaying under trill	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!	!
 32DDLLL	.	32DD 32AALLL	.	32FLLL	.	(8ccL	.	(8cccL	.	2FF_TTT	<	2r	.	2r	.	2r		.	8DD] 8AA]	.	8F] 8f]	.	8F]	.	8f]	.	4r	.	2r	.
 32DD	.	32DD 32AA	.	32F	.	.	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.
 32DD	.	32DD 32AA	.	32F	.	.	.	.	.	.	.	.	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -111,9 +113,9 @@
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4		*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*^		*	*	*	*	*	*	*	*	*	*	*	*	*
 *	*	*	*	*	*	*tremolo	*	*tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-32DDLLL	.	32DD 32AALLL	.	32FLLL	.	32ffLLL	p <	32fffLLL	p <	2.FFTTT]	.	4DD]	.	4D] 4F]	.	4A]	4rC	.	4DD] 4AA]	.	8ffL	ff	(8ffL	ff	(8ffL	ff	(8ffffL	ff	8fffL	ff
+32DDLLL	.	32DD 32AALLL	.	32FLLL	.	32ffLLL	p	32fffLLL	p	2.FFTTT]	.	4DD]	.	4D] 4F]	.	4A]	4rC	.	4DD] 4AA]	.	8ffL	ff	(8ffL	ff	(8ffL	ff	(8ffffL	ff	8fffL	ff
 32DD	.	32DD 32AA	.	32F	.	32ff	.	32fff	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-32DD	.	32DD 32AA	.	32F	.	32ff	.	32fff	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+32DD	.	32DD 32AA	.	32F	.	32ff	<	32fff	<	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 32DD	.	32DD 32AA	.	32F	.	32ff	.	32fff	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 32DD	.	32DD 32AA	.	32F	.	32ff	.	32fff	.	.	.	.	.	.	.	.	.	.	.	.	8dd)	.	8dd)	.	8dd)	.	8dddd)	.	8ddd)	.
 32DD	.	32DD 32AA	.	32F	.	32ff	.	32fff	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
