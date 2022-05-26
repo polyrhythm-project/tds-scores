@@ -4,23 +4,24 @@
 *grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*staff1/2
-*I"Piano	*I"Piano	*I"Piano
-*I'Pno.	*	*
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
 *clefG2	*clefG2	*
 *k[]	*k[]	*
-*	*	*
 *M4/4	*M4/4	*
-=1	=1	=1
-!	!LO:TX:t=[quarter]=96	!LO:DY:ed=brack
+=20	=20	=20
+!	!LO:TX:t=[[quarter]=96]	!LO:DY:ed=brack
 8g-XLj]	(8ddL	p
 8f	8aJ	.
 8c	[4g#X	.
 8BJ)	.	.
 (8cL	8g#L<])	.
+!	!LO:TX:B:t=2	!
 8fJ	(>8a	.
+!	!LO:TX:B:t=5	!
 [4g-X	8dd	.
 .	8aJ	.
-=2	=2	=2
+=21	=21	=21
 8g-L])	8g#XL<)	.
 (8Bn	(8dd	.
 8c	8a	.
@@ -29,7 +30,7 @@
 (8B	8a	.
 8c	8g#)	.
 8fJ	(8ddJ	.
-=3	=3	=3
+=22	=22	=22
 8g-XL)	8aL<	.
 (8B	8g#X)	.
 8c	(8dd	.
@@ -37,6 +38,7 @@
 4.g-)	(>4g#	.
 .	8dd)	.
 8r	8r	.
+*clefF4	*	*
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
