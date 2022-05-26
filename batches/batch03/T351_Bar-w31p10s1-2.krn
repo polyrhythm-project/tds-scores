@@ -4,8 +4,8 @@
 *grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*staff1/2
-*I"Piano	*I"Piano	*I"Piano
-*I'Pno.	*	*
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
 *clefF4	*clefG2	*
 *k[b-e-a-]	*k[b-e-a-]	*
 *E-:	*E-:	*
@@ -21,7 +21,8 @@
 16F	.	.
 16GJJ	.	.
 =2	=2	=2
-4An	16fLL^^<	.
+!	!LO:TX:t=P:problem: Marcato should display below notes; data has been input correctly.	!
+4An	16f^^<LL	.
 .	16e-JJ	.
 .	4f	.
 16FLL	.	.
@@ -72,7 +73,6 @@
 .	16b-JJ	.
 .	4cc	.
 8G	.	.
-!LO:TX:t=P:problem:cross-bar beaming	!	!
 [8cL	16b-LL	.
 .	16a-JJ	.
 =10	=10	=10
