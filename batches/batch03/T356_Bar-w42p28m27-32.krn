@@ -4,33 +4,34 @@
 *grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part1	*part1
 *staff2	*staff2	*staff1	*staff1
-*I"Violin	*I"Violin	*I"Violin	*I"Violin
+*I"Violin	*	*I"Violin	*
 *I'Vln.	*	*I'Vln.	*
 *clefG2	*	*clefG2	*
 *k[b-]	*	*k[b-]	*
 *F:	*	*F:	*
 *M5/8	*	*M5/8	*
-=1	=1	=1	=1
-!	!LO:DY:ed=brack	!LO:TX:t=[[quarter]=125]	!LO:DY:ed=brack
-]8c	f	8fL	f
+=27	=27	=27	=27
+!	!LO:DY:ed=brack	!LO:TX:t=[[eighth]=250]	!LO:DY:ed=brack
+!LO:TX:t=P:problem: Cross-Measure Hanging Beam to be implemented.	!	!	!
+8c]	f	8fL	f
 4c#X	sf	8fJ	.
 .	.	4a	.
 [4d	sf	.	.
 .	.	(16ccLL	.
 .	.	16b-JJ)	.
-=2	=2	=2	=2
+=28	=28	=28	=28
 *M3/8	*	*M3/8	*
 8d]	.	8a	.
 4e-X	sff	8r	.
 .	.	8c	.
-=3	=3	=3	=3
+=29	=29	=29	=29
 *M5/8	*	*M5/8	*
 4.d	sf	8fL	.
 .	.	8fJ	.
 .	.	4a	.
 [4d-X	sf	.	.
 .	.	8f	.
-=4	=4	=4	=4
+=30	=30	=30	=30
 8d-]	.	4g	.
 4.c	sf	.	.
 .	.	(16aLL	.
@@ -38,21 +39,21 @@
 .	.	(16fLL	.
 .	.	16eJ)	.
 [8BnL	sf	8dJ	.
-=5	=5	=5	=5
+=31	=31	=31	=31
 8BJ]	.	8gL	.
 4B-X	sf	(16gL	.
 .	.	16fJJ)	.
 .	.	4e	.
 [4A	sf	.	.
 .	.	8d	.
-=6	=6	=6	=6
+=32	=32	=32	=32
 *M3/8	*	*M3/8	*
 8AL]	.	4d	.
 8fJ 8a	.	.	.
 8ryy	.	8ryy	.
 ==	==	==	==
 *-	*-	*-	*-
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {s1,s2}
 !!!EED: Rafael Laurindo
 !!!EEV: 2021/07/14
 !!!EED2: Gabriella Vici
