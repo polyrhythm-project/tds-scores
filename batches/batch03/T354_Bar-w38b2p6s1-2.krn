@@ -4,8 +4,8 @@
 *grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A
 *part2	*part2	*part2	*part1	*part1	*part1	*part1
 *staff3	*staff2	*staff2/3	*staff1	*staff1	*staff1	*staff1
-*I"Piano	*I"Piano	*I"Piano	*I"Soprano Solo	*I"Soprano Solo	*I"Soprano Solo	*I"Soprano Solo
-*I'Pno.	*	*	*I'S. Solo	*	*	*
+*I"Piano	*I"Piano	*	*I"Soprano Solo	*	*	*
+*I'Pno.	*I'Pno.	*	*I'S. Solo	*	*	*
 *clefG2	*clefF4	*	*clefG2	*	*	*
 *k[]	*k[]	*	*k[]	*	*	*
 *C:	*C:	*	*C:	*	*	*
@@ -36,23 +36,23 @@
 8d 8a	8r	.	.	.	.	.
 8d 8a	8r	.	(4dd	bu-	-ba-	.
 8dJ 8a	8c#'^ 8e-'^ 8g#'^ 8b-'^	.	.	.	.	.
-.	.	.	)8qcc/	-sul-	-rin,	.
-8dL 8a	8r	.	(4cc	.	.	.
+.	.	.	)8qcc/	.	.	.
+8dL 8a	8r	.	(4cc	-sul-	-rin,_	.
 8d 8a	8c#'^ 8e-'^ 8g#'^ 8b-'^	.	.	.	.	.
-.	.	.	)8qb/	-jon,	was	.
-8d 8a	4r	.	(4a	.	.	.
+.	.	.	)8qb/	.	.	.
+8d 8a	4r	.	(4a	-jon,_	was_	.
 8dJ 8a	.	.	.	.	.	.
 .	.	.	8qg#X/)	.	.	.
 =4	=4	=4	=4	=4	=4	=4
-.	.	.	(8qg#X/	ko-	soll	.
+.	.	.	(8qg#X/	.	.	.
 *	*^	*	*	*	*	*
-8dL 8a	8c#X'^ 8e-X'^ 8g#X'^ 8b-X'^	8ryy	.	16fLL	.	.	.
+8dL 8a	8c#X'^ 8e-X'^ 8g#X'^ 8b-X'^	8ryy	.	16fLL	ko-	soll	.
 .	.	.	.	16eJ)	.	.	.
-8d 8a	8r	8ryy	.	8dJ	-má-	denn	.
-8d 8a	8r	8ryy	.	4d	-masz-	dein	.
+8d 8a	8r	8ryy	.	8dJ	-má	denn	.
+8d 8a	8r	8ryy	.	4d	masz-	dein	.
 8dJ 8a	8c#'^ 8e-'^ 8g#'^ 8b-'^	8ryy	.	.	.	.	.
-.	.	.	.	(8qg#/	-szony,	Zorn,	.
-8dL 8a	8r	(16B-XLL	f	2a)	.	.	.
+.	.	.	.	(8qg#/	.	.	.
+8dL 8a	8r	(16B-XLL	f	2a)	-szony,	Zorn,	.
 .	.	16cnJ)	.	.	.	.	.
 8d 8a	8e-'^ 8g#'^ 8b-'^	8c#X'J	.	.	.	.	.
 8d 8a	4r	[4c#	sf	.	.	.	.
@@ -62,17 +62,17 @@
 8d 8a	8r	.	.	.	.	.	.
 8d 8a	8r	.	.	(4dd	az	schickt	.
 8dJ 8a	8e-'^ 8g#'^ 8b-'^	.	.	.	.	.	.
-.	.	.	.	8qcc/)	Is-	uns	.
-8dL 8a	8r	.	.	(4cc	.	.	.
+.	.	.	.	8qcc/)	.	.	.
+8dL 8a	8r	.	.	(4cc	Is-	uns	.
 8d 8a	8e-'^ 8g#'^ 8b-'^	.	.	.	.	.	.
-.	.	.	.	8qb/)	-ten	am	.
-8d 8a	4r	.	.	(4a	.	.	.
+.	.	.	.	8qb/)	.	.	.
+8d 8a	4r	.	.	(4a	-ten_	am_	.
 8dJ 8a	.	.	.	.	.	.	.
 .	.	.	.	8qg#X/L)	.	.	.
 =6	=6	=6	=6	=6	=6	=6	=6
-.	.	.	.	(8qg#X/	ro-	Fel-	.
+.	.	.	.	(8qg#X/	.	.	.
 *^	*	*	*	*	*	*	*
-8dL 8a	2ryy	8e-X'^ 8g#X'^ 8b-X'^	2c#]	.	16fLL	.	.	.
+8dL 8a	2ryy	8e-X'^ 8g#X'^ 8b-X'^	2c#]	.	16fLL	ro-	Fel-	.
 .	.	.	.	.	16eJ)	.	.	.
 8d 8a	.	8r	.	.	8dJ	-zsot	-de	.
 8d 8a	.	8r	.	.	4d	ad-	viel	.
@@ -80,6 +80,9 @@
 *clefF4	*	*	*	*	*	*	*	*
 8r	16FLL	8r	8dL 8a	.	2d	-jon;	Korn;	.
 .	16GJ	.	.	.	.	.	.	.
+!	!	!LO:TX:B:t=2	!	!	!	!	!	!
+!	!	!LO:TX:B:t=4	!	!	!	!	!	!
+!LO:TX:t=P:problem: Vertical Brace should be placed to the left of this dyad to show its grouping.	!	!	!	!	!	!	!	!
 8c#X' 8e-X	8G#X'J	8g#'^ 8b-'^	8d 8a	.	.	.	.	.
 !	!	!	!	!LO:DY:b	!	!	!	!
 4r	[4G#	4ryy	8d 8a	sf	.	.	.	.
