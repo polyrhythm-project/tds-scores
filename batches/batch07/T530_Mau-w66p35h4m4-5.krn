@@ -11,9 +11,10 @@
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*C:	*	*C:	*
 *M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*M6/4	*	*M6/4	*
-*	*	*	*	*	*	*	*	*	*	*	*	*8va	*	*8va	*	*	*	*	*	*	*8va	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 !!LO:TX:B:t=[Adagio]
+*	*	*	*	*	*	*	*	*	*	*	*	*8va	*	*8va	*	*	*	*	*	*	*8va	*
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem: Ornamental Tremolo should be rendered.	!	!	!	!	!	!
 !	!LO:DY:t=[ %s ]	!	!LO:DY:t=[ %s ]	!LO:TX:b:rj:i:t=div.	!LO:DY:t=[ %s ]	!	!LO:DY:t=[ %s ]	!LO:TX:b:rj:i:t=div.	!LO:DY:t=[ %s ]	!	!LO:DY:t=[ %s ]	!LO:TX:b:rj:i:t=div.	!LO:DY:t=[ %s ]	!LO:T:n=1:b	!LO:DY:t=[ %s ]	!LO:N:O=trem3	!LO:DY:t=[ %s ]	!	!	!LO:DY:t=poco %s	!	!LO:DY:t=[ %s ]
 8GGGL	f	8GGL	f	(8e-XL	f	(8bnL	f	(8aa-XL	f	(8ffL	f	(8dddL	f	1aaa] 1cccc#X]	f	1.GGO_	pp	6FFF 6FF\	6c 6en 6a 6cc	f	4eeee	ff
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -130,6 +131,7 @@
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1{(s2,s3)}s4[(s5,s6,s7,s8,s9,s10,s11,s12)]
+!!!RDF**kern: O = tremolo
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
 !!!EED: Jason Lee
