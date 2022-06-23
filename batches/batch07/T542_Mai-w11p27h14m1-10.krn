@@ -1,11 +1,11 @@
 !!!COM: Frank Martin
 !!!OTL: [T542_Mai-w11p27h14m1-10]
 **kern	**kern	**dynam	**kern	**dynam
-*grp:A	*grp:A	*	*grp:B	*
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Violoncello	*
-*I'Pno.	*	*	*I'Vc.	*
+*I"Piano	*I"Piano	*	*I"Violoncello	*
+*I'Pno.	*I'Pno.	*	*I'Vc.	*
 *ICklav	*ICklav	*	*ICstr	*
 *Ipiano	*Ipiano	*	*Icello	*
 *clefG2	*clefG2	*	*clefF4	*
@@ -13,6 +13,7 @@
 *C:	*C:	*	*C:	*
 *M4/4	*M4/4	*	*M4/4	*
 *met(c)	*met(c)	*	*met(c)	*
+!!LO:REH:t=14
 =1	=1	=1	=1	=1
 !!LO:TX:t=[Più mosso [half]=108]
 !	!	!LO:DY:t= meno %s	!	!
@@ -96,8 +97,6 @@
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
-!!!RDF**kern: i = marked note, color="hotpink", text="extra("
-!!!RDF**kern: j = marked note, color="magenta", text="extra)"
 !!!RDF**kern: N = hairpin accent
 !!!RDF**kern: > = above
 !!!EED: Claudio de Freitas
