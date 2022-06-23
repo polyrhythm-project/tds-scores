@@ -1,11 +1,11 @@
 !!!COM: Frank Martin
 !!!OTL: [T532_Mai-w5p29m31-34]
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*grp:A	*	*grp:B	*	*grp:A	*	*grp:B	*	*grp:A	*
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A
 *part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff6	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
-*I'Pno.	*	*	*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
+*I"Piano	*I"Piano	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
+*I'Pno.	*I'Pno.	*	*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
 *ICklav	*ICklav	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*
 *Ipiano	*Ipiano	*	*Icello	*	*Iviola	*	*Ivioln	*	*Ivioln	*
 *clefF4	*clefG2	*	*clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
@@ -86,8 +86,6 @@
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)][({(s5,s6)})]
 !!!RDF**kern: h = editorial accidental, bracket
-!!!RDF**kern: i = marked note, color="hotpink", text="extra("
-!!!RDF**kern: j = marked note, color="magenta", text="extra)"
 !!!EED: Claudio de Freitas
 !!!EED2: Jason Lee
 !!!EEV2: 2022/02/17
