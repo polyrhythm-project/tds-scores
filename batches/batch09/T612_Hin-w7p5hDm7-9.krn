@@ -7,8 +7,8 @@
 *grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Violoncello	*
-*I'Pno.	*	*	*I'Vc.	*
+*I"Piano	*I"Piano	*	*I"Violoncello	*
+*I'Pno.	*I'Pno	*	*I'Vc.	*
 *clefF4	*clefF4	*	*clefC4	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
@@ -18,25 +18,25 @@
 !	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
 *	*	*	*Xtuplet	*
 *	*	*	*lig	*
-!	!	!	!LO:TX:t=P:problem:triplet added as text	!
-16CCLL 16C	2ryy	ff	(36gnLL	ff
+!	!	!	!LO:TX:B:t=Mäßig schnelle Viertel. 	!
+/16CCLL 16C	2ryy	ff	(36gnLL	ff
 .	.	.	36g#X	.
 .	.	.	36a	.
 16BB-X> 16A-X> 16B-X>	.	.	.	.
 .	.	.	36g#	.
 .	.	.	36gn	.
 16GG 16AAn 16G	.	.	.	.
-.	.	.	36f#XJ)	.
-.	.	.	(36fnL	<
+.	.	.	36f#XJJ)	.
+.	.	.	(36fnLL	<
 16BB-> 16A-> 16B->JJ	.	.	.	.
 .	.	.	36f#X	.
 !	!	!	!LO:TX:a:i:t=3	!
 .	.	.	36g	.
-16FFLL 16GG 16F	.	<	36f#	.
+/16FFLL 16GG 16F	.	<	36f#	.
 .	.	.	36fn	.
-.	.	.	36eJ)	.
+.	.	.	36eJJ)	.
 16BB-> 16A-> 16B->	.	.	.	.
-.	.	.	(36d#XL	.
+.	.	.	(36d#XLL	.
 .	.	.	36e	.
 16DD 16EE 16D	.	.	.	.
 .	.	.	36f	.
@@ -48,52 +48,52 @@
 *	*	*	*clefF4	*
 =63	=63	=63	=63	=63
 *	*	*	*lig	*
-16BBBnLL 16BBn	2ryy	.	(36c#XLL	.
+/16BBBnLL 16BBn	2ryy	.	(36c#XLL	.
 .	.	.	36d	.
 .	.	.	36e-X	.
 16AAn> 16Gn> 16An>	.	.	.	.
 .	.	.	36d	.
 .	.	.	36c#	.
 16FF#X 16GG#X 16F#X	.	.	.	.
-.	.	.	36cnJ)	.
-.	.	.	(36BL	.
+.	.	.	36cnJJ)	.
+.	.	.	(36BLL	.
 16AA> 16G> 16A>JJ	.	.	.	.
 .	.	.	36c	.
 !	!	!	!LO:TX:a:i:t=3	!
 .	.	.	36d-X	.
-16EELL 16FF# 16E	.	.	36c	.
+/16EELL 16FF# 16E	.	.	36c	.
 .	.	.	36B	.
-.	.	.	36B-XJ)	.
+.	.	.	36B-XJJ)	.
 16AA> 16G> 16A>	.	.	.	.
-.	.	.	(36AL	.
+.	.	.	(36ALL	.
 .	.	.	36B-	.
 16CC#X 16DD#X 16C#X	.	.	.	.
 .	.	.	36c-X	.
 .	.	.	36B-	.
-16GG#> 16F#> 16Gn>JJ	.	.	.	.
+16GG#> 16F#> 16G>JJ	.	.	.	.
 .	.	.	36A	.
 .	.	.	36A-XJJ)	[[
 *	*	*	*Xlig	*
 =64	=64	=64	=64	=64
 *	*	*	*lig	*
-16BBB-XLL 16BB-X	2ryy	.	(36GLL	<
+/16BBB-XLL 16BB-X	2ryy	.	(36GLL	<
 .	.	.	36G#X	.
 .	.	.	36A	.
 16AA-X> 16G-X> 16A-X>	.	.	.	.
 .	.	.	36G#	.
 .	.	.	36Gn	.
 16FF 16GG 16F	.	.	.	.
-.	.	.	36FnJ)	.
-.	.	.	(36E#XL	.
+.	.	.	36FnJJ)	.
+.	.	.	(36E#XLL	.
 16AA-> 16G-> 16A->JJ	.	.	.	.
 .	.	.	36F	.
 !	!	!	!LO:TX:a:i:t=3	!
 .	.	.	36G	.
-16EE-XLL 16FF 16E-X	.	.	36F	.
+/16EE-XLL 16FF 16E-X	.	.	36F	.
 .	.	.	36E#	.
-.	.	.	36EnJ)	.
+.	.	.	36EnJJ)	.
 16AA-> 16G-> 16A->	.	.	.	.
-.	.	.	(36D#XL	.
+.	.	.	(36D#XLL	.
 .	.	.	36E	.
 16CC 16DDn 16C	.	.	.	.
 .	.	.	36F	.
@@ -124,7 +124,6 @@
 !!!excerpt-end-time: 1:54
 !!!EEV: 2020/01/27
 !!!ONB: Converted from MusicXML on 2020/01/27
-
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!EED2: Rafael Laurindo
