@@ -4,15 +4,18 @@
 *grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Viola d'Amore	*
-*I'Pno.	*	*	*I'Vla.	*
+*I"Piano	*I"Piano	*	*I"Viola d'Amore	*
+*I'Pno.	*I'Pno.	*	*I'Vla.	*
 *ICklav	*ICklav	*	*ICstr	*
 *Ipiano	*Ipiano	*	*Iviola	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
-*Xtuplet	*Xtuplet	*	*	*
+*M3/2	*M3/2	*	*M3/2	*
+*M4/4	*M4/4	*	*M4/4	*
 =1	=1	=1	=1	=1
+*Xtuplet	*Xtuplet	*	*	*
+!	!	!	!LO:TX:t=P:problem: Two Time Signatures should be displayed here, both 4/4 and 3/2	!
 !	!	!	!LO:TX:t=[[quarter]=120]	!
 !	!	!LO:DY:t=%s ([half] = [half-dot] vorher)	!LO:TX:a:t=([half] = [half-dot] vorher)	!
 (12AnL	(>12cc-XL	pp	(4cc#X~ 4ee	mf
