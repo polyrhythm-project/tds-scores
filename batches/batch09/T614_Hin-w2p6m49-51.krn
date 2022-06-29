@@ -1,19 +1,20 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T614_Hin-w2p6m49-51]
-**kern	**dynam	**kern		**dynam	**kern	**dynam
-*grp:A	*grp:A	*grp:B		*grp:B	*grp:A	*grp:A
-*part2	*	*part2		*part2	*part1	*
-*staff3	*	*staff2		*	*staff1	*
-*I"Piano	*	*		*	*I"Violoncello	*
-*I'Pno.	*	*		*	*I'Vc.	*
-*ICklav	*ICklav	*ICklav		*ICklav	*ICstr	*ICstr
-*Ipiano	*Ipiano	*Ipiano		*Ipiano	*Icello	*Icello
-*clefF4	*	*clefG2		*	*clefC4	*
-*k[b-e-]	*	*k[b-e-]		*	*k[b-e-]	*
-*B-:	*	*B-:		*	*B-:	*
-*M9/8	*	*M9/8		*	*M9/8	*
-=1	=1	=1		=1	=1	=1
-*	*	*^		*	*	*
+**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A
+*part2	*	*part2	*part2	*part1	*
+*staff3	*	*staff2	*	*staff1	*
+*I"Piano	*	*I"Piano	*	*I"Violoncello	*
+*I'Pno.	*	*I'Pno.	*	*I'Vc.	*
+*ICklav	*ICklav	*ICklav	*ICklav	*ICstr	*ICstr
+*Ipiano	*Ipiano	*Ipiano	*Ipiano	*Icello	*Icello
+*clefF4	*	*clefG2	*	*clefC4	*
+*k[b-e-]	*	*k[b-e-]	*	*k[b-e-]	*
+*B-:	*	*B-:	*	*B-:	*
+*M9/8	*	*M9/8	*	*M9/8	*
+*M3/4	*	*M3/4	*	*M3/4	*
+=1	=1	=1	=1	=1	=1
+*	*	*^	*	*	*
 !	!	!	!	!	!LO:TX:t=[quarter]/[quarter-dot]=77	!
 !	!LO:DY:ed=paren	!	!	!LO:DY:t= poco %s	!LO:TX:a:B:t=Mäßig schnell, immer drängend	!LO:DY:ed=brack
 !	!	!	!	!	!LO:TX:t=P:problem:time signature includes 3/4 beside 9/8	!
@@ -27,9 +28,9 @@
 8C	.	8fJ	8f	.	8c)	.
 8FFJ	.	8fL	8fJ	.	(8FJ	.
 *	*	*v	*v	*	*	*
-=2	=2	=2		=2	=2	=2
-*Xtuplet	*	*Xtuplet		*	*Xtuplet	*
-*	*	*^		*	*	*
+=2	=2	=2	=2	=2	=2
+*Xtuplet	*	*Xtuplet	*	*Xtuplet	*
+*	*	*^	*	*	*
 16%3E-	.	8FJ	8FL	.	16%3e-)	.
 .	.	8ffL	8ff	.	.	.
 8%3D	.	.	.	.	8%3d	.
@@ -42,22 +43,21 @@
 8E-	.	8fL	8f	.	8e-)	.
 8FFJ	.	8FJ	8FJ	.	(8FJ	.
 *	*	*v	*v	*	*	*
-=3	=3	=3		=3	=3	=3
-16%3G	.	8ffL		.	16%3g)	.
-.	.	8f		.	.	.
-8%3F	.	.		.	8%3f	.
-.	.	8fJ		.	.	.
-.	.	8FL		.	.	.
-.	.	8ff		.	.	.
-16%3FF	.	.		.	(16%3Fi	.
-.	.	8fJ		.	.	.
-[8%3A	.	8fL		.	[8%3a	.
-.	.	8F		.	.	.
-.	.	8ffJ		.	.	.
-=	=	=		=	=	=
-*-	*-	*-		*-	*-	*-
+=3	=3	=3	=3	=3	=3
+16%3G	.	/8ffL	.	16%3g)	.
+.	.	8f	.	.	.
+8%3F	.	.	.	8%3f	.
+.	.	8fJ	.	.	.
+.	.	8FL	.	.	.
+.	.	8ff	.	.	.
+16%3FF	.	.	.	(16%3Fi	.
+.	.	8fJ	.	.	.
+[8%3A	.	8fL	.	[8%3a	.
+.	.	8F	.	.	.
+.	.	8ffJ	.	.	.
+=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
-!!!Xfilter: slurcheck
 !!!RDF**kern: i = marked note, color="hotpink", text="extra("
 !!!EED2: Rafael Laurindo
 !!!EEV2: 2022/03/03
