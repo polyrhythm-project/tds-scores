@@ -4,21 +4,21 @@
 *grp:A	*grp:B	*grp:B	*grp:A	*grp:A
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Violin	*
-*I'Pno.	*	*	*I'Vln.	*
+*I"Piano	*I"Piano	*	*I"Violin	*
+*I'Pno.	*I'Pno.	*	*I'Vln.	*
 *ICklav	*ICklav	*	*ICstr	*
 *Ipiano	*Ipiano	*	*Ivioln	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[f#c#]	*k[f#c#]	*	*k[f#c#]	*
 *D:	*D:	*	*D:	*
 *M3/4	*M3/4	*	*M3/4	*
-*	*8va	*	*	*
-*	*Xtuplet	*	*	*
 !!LO:REH:t=C
 =1	=1	=1	=1	=1
+*	*8va	*	*	*
+*	*Xtuplet	*	*	*
 !	!	!	!LO:TX:t=[[quarter]=128]	!
-!	!	!LO:DY:ed=brack	!LO:TX:a:B:t=Wieder sehr fließend	!
-8DDD#Xi] 8DD#Xi]	12dddd#XLi]	ff >	4d#Xi]	pp
+!LO:T:n=2:a	!	!LO:DY:ed=brack	!LO:TX:a:B:t=Wieder sehr fließend	!
+8DDD#XZj]) 8DD#XZ]	12dddd#XLi]	ff >	4d#Xi]	pp
 .	12eee	.	.	.
 4DDD#X 4DD#X	.	.	.	.
 .	12ddd#XJ	.	.	.
@@ -89,8 +89,7 @@
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
-!!!RDF**kern: i = editorial accidental, brack
-!!!Xfilter: slurcheck
+!!!RDF**kern: Z = editorial accidental, brack
 !!!RDF**kern: j = marked note, color="magenta", text="extra)"
 !!!EED2: Rafael Laurindo
 !!!EEV2: 2022/03/03
