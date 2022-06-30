@@ -4,8 +4,8 @@
 *grp:A	*grp:B	*
 *part1	*part1	*part1
 *staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
 *ICklav	*ICklav	*
 *Ipiano	*Ipiano	*
 *clefF4	*clefG2	*
@@ -51,6 +51,7 @@
 =1	=1	=1
 !!!ONB: all subsequent  time signatures are inside parentheses
 *M5/16	*M5/16	*
+!	!LO:TX:t=P:problem: All subsequent  time signatures are inside parentheses	!
 16ALL	(16ccKL	.
 16G#X	8dd	.
 16A	.	.
@@ -118,7 +119,6 @@
 *	*clefF4	*
 =6	=6	=6
 *M11/16	*	*
-!LO:TX:t=P:problem:cross-bar beaming to be implemented	!	!
 16r	(16c#X^LL	p
 !LO:TX:a:B:t=(quasi 3/16)	!	!
 (8CCnL	16B#X	.
