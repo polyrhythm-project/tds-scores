@@ -12,14 +12,14 @@
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-*	*	*	*	*	*	*tremolo	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!LO:DY:ed=brack	!	!	!	!	!	!	!	!	!LO:TX:t=[[quarter]=144]	!
-4r	.	4r	.	(2D	p	16A 16cLL	pp	4r	.	2r	.	2r	.	2r	.
-.	.	.	.	.	.	16A 16c	.	.	.	.	.	.	.	.	.
-.	.	.	.	.	.	16B 16d	.	.	.	.	.	.	.	.	.
+*	*	*	*	*	*	*tremolo	*	*	*	*	*	*tremolo	*	*	*
+!	!	!	!	!	!LO:DY:ed=brack	!	!	!	!	!	!	!	!LO:DY:ed=brack	!LO:TX:t=[[quarter]=144]	!
+4r	.	4r	.	(2D	p	16A 16cLL	pp	4r	.	2r	.	16fLL	pp	2r	.
+.	.	.	.	.	.	16A 16c	.	.	.	.	.	16fJJ	.	.	.
+.	.	.	.	.	.	16B 16d	.	.	.	.	.	8r	.	.	.
 .	.	.	.	.	.	16B 16d	.	.	.	.	.	.	.	.	.
 !LO:TX:b:t=pizz.	!	!LO:TX:b:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!	!
-8BBB-X	pp	8BB-X	pp	.	.	16c 16e-X	.	8r	.	.	.	.	.	.	.
+8BBB-X	pp	8BB-X	pp	.	.	16c 16e-X	.	8r	.	.	.	4r	.	.	.
 .	.	.	.	.	.	16c 16e-XJJ	.	.	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*tremolo	*	*	*	*	*	*	*
 !	!	!	!	!	!	!	!	!	!LO:DY:ed=brack	!	!	!	!	!	!
@@ -49,8 +49,8 @@
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
 *	*	*	*	*	*	*	*	*	*	*	*	*tremolo	*	*	*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*tremolo	*
-!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
-4r	.	4r	.	(4.G	.	4r	.	2r	.	4r	.	16bLL	pp	16dddLL	pp
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:ed=brack
+4r	.	4r	.	(4.G	.	4r	.	2r	.	4r	.	16bLL	.	16dddLL	pp
 .	.	.	.	.	.	.	.	.	.	.	.	16b	.	16ddd	.
 .	.	.	.	.	.	.	.	.	.	.	.	16cc#X	.	16eee	.
 .	.	.	.	.	.	.	.	.	.	.	.	16cc#X	.	16eee	.
@@ -86,4 +86,4 @@
 !!!EED: Rafael Laurindo
 !!!EEV: 2021/08/27
 !!!EED2: Jason Lee
-!!!EEV@: 2022/02/23
+!!!EEV2: 2022/02/23
