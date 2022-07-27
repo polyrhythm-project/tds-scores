@@ -1,7 +1,7 @@
 !!!COM: Paul Hindemith
 !!!OTL: [T670_Hin-w99p33m265-268]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:B	*
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola II	*	*I"Viola I	*	*I"Violin	*	*I"Clarinet in Bb	*
@@ -11,7 +11,6 @@
 *Icello	*	*Iviola	*	*Iviola	*	*Ivioln	*	*Iclars	*
 *	*	*	*	*	*	*	*	*ITrd1c2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[b-e-]	*
-*	*	*	*	*	*	*	*	*	*
 *M2/2	*	*M2/2	*	*M2/2	*	*M2/2	*	*M2/2	*
 !!LO:REH:t=V
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1
@@ -27,8 +26,8 @@
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2
 8G#XL	.	8a)	.	8r	.	(8dddL	.	4f	.
 8A)	.	8r	.	(8dd	.	8aa	.	.	.
-8r	.	(8ddL	<	8aL	<	8gg#X	<	(8eXL	.
-(8dJ	<	8aJ	.	8g#XJ	.	8dd#XJ	.	8bXJ)	<
+8r	.	(8ddL	.	8aL	.	8gg#X	.	(8eXL	.
+(8dJ	<	8aJ	<	8g#XJ	<	8dd#XJ	<	8bXJ)	<
 8AL	.	8g#XL	.	8d#XL	.	8gg#L	.	2c	.
 8G#	.	8d#X	.	8g#	.	8aa)	.	.	.
 8D#X	.	8g#	.	8aJ)	.	8r	.	.	.
@@ -50,9 +49,9 @@
 8D#XL	.	8g#L	.	8aL)	.	8r	.	(8B-L	.
 8G#	.	8a)	.	8r	.	(8ddd	.	8d-X)	.
 8AJ)	.	8r	.	(8dd	.	8aaL	.	8f	.
-8r	.	(8ddJ	.	8aJ)	.	8gg#J)	.	8a-XJ	.
+8r	.	(8ddJ	.	8aJ	.	8gg#J	.	8a-XJ	.
 =	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: s1[(s2[(s3,s4)]s5)]
+!!!system-decoration: [s1][(s2,s3,s4,s5)]
 !!!EED2: Rafael Laurindo
 !!!EEV2: 2022/03/03
