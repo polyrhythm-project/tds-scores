@@ -6,7 +6,7 @@
 *I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Violin I	*	*I"Piano	*	*	*I"Choir	*	*	*I"Celesta	*	*
 *I'Cb.	*	*I'Vc.	*	*I'Vla.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*	*I'Vln. I	*	*I'Pno.	*	*	*I'Choir	*	*	*I'Cel.	*	*
 *clefF4	*	*clefF4	*	*clefC3	*	*clefC3	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefF4	*clefF4	*	*clefG2	*	*	*clefG2	*clefG2	*
-*Trd0c0	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*Trd0c0	*Trd0c0	*
+*ITrd7c12	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*ITrd-7c-12	*ITrd-7c-12	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*k[]	*	*k[]	*	*	*k[]	*k[]	*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*M2/4	*	*M2/4	*	*	*M2/4	*M2/4	*
@@ -18,60 +18,67 @@
 *	*	*	*	*tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *	*	*	*	*	*	*tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *	*	*	*	*	*	*	*	*tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=120	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=120	!
-!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:B:t=4	!	!	!	!	!	!	!	!	!LO:TX:a:B:t=4	!
-24ELL	pp	24ELL	pp	24FnLL	pp	24G#X 24B@24@LL	pp	24eLL	pp	16dddLL 16eee	pp	16aaa#XLL 16bbb	pp	2r	24EELL 24E	pp	12r	.	pp	8cccL	8ccccL	pp
-24E	.	24E	.	24Fn	.	24G#X 24B@24@	.	24e	.	.	.	.	.	.	24Fn 24G#X 24B 24e	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=à 2	!	!LO:TX:a:t=à 3	!	!LO:TX:a:t=3.	!	!LO:TX:a:t=1.2.	!	!LO:TX:a:t=à 4	!	!LO:TX:a:t=3.4.	!	!LO:TX:a:t= 1.2.	!	!	!LO:TUP:a	!LO:DY:rj	!	!	!	!	!	!
+!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+24EELL	pp	24ELL	pp	24FnLL	pp	24G#X 24B@24@LL	pp	24eLL	pp	16dddLL 16eee	pp	16aaa#XLL 16bbb	pp	2ryy	24EE<LL 24E<\	pp	12r	.	pp	8ccccL	8cccccL	pp
+24EE	.	24E	.	24Fn	.	24G#X 24B@24@	.	24e	.	.	.	.	.	.	24Fn 24G#X 24B 24e	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	16ddd 16eee	.	16aaa# 16bbb	.	.	.	.	.	.	.	.	.	.
-24BB	.	24BB	.	24D	.	24E 24G#X@24@	.	24B	.	.	.	.	.	.	24BBB 24BB	.	12e	Vio-	.	.	.	.
-24BB	.	24BB	.	24D	.	24E 24G#X@24@	.	24B	.	16ddd-X 16eee-X	.	16aaan 16ccccn	.	.	24D 24E 24G#X 24B	.	.	.	.	8ff#XJ	8fff#XJ	.
-24C#X	.	24C#X	.	24C#X	.	24Fn 24A#X@24@	.	24c#X	.	.	.	.	.	.	24CC#X 24C#X	.	12e	-let-	.	.	.	.
+24BBB	.	24BB	.	24D	.	24E 24G#X@24@	.	24B	.	.	.	.	.	.	24BBB< 24BB<	.	12e	Vio-	.	.	.	.
+24BBB	.	24BB	.	24D	.	24E 24G#X@24@	.	24B	.	16ddd-X 16eee-X	.	16aaan 16ccccn	.	.	24D 24E 24G#X 24B	.	.	.	.	8fff#XJ	8ffff#XJ	.
+24CC#X	.	24C#X	.	24C#X	.	24Fn 24A#X@24@	.	24c#X	.	.	.	.	.	.	24CC#<X 24C#<X	.	12e	-let-	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	16cccJJ 16dddn	.	16ggg#XJJ 16cccc#X	.	.	.	.	.	.	.	.	.	.
-24C#XJJ	.	24C#XJJ	.	24C#XJJ	.	24Fn 24A#X@24@JJ	.	24c#XJJ	.	.	.	.	.	.	24FnJJ 24A#X 24c#X	.	.	.	.	.	.	.
-24ELL	.	24ELL	.	24FLL	.	24G# 24B@24@LL	.	24eLL	.	16ddd-XLL 16eee-X	.	16aaa#XLL 16aaan	.	.	24EELL 24E	.	12e	-jau-	.	8eeL	8eeeL	.
-24E	.	24E	.	24F	.	24G# 24B@24@	.	24e	.	.	.	.	.	.	24F 24G# 24B 24e	.	.	.	.	.	.	.
+24CC#XJJ	.	24C#XJJ	.	24C#XJJ	.	24Fn 24A#X@24@JJ	.	24c#XJJ	.	.	.	.	.	.	24FnJJ 24A#X 24c#X	.	.	.	.	.	.	.
+!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!	!	!	!	!	!LO:TUP:a	!	!	!	!	!	!	!
+24EELL	.	24ELL	.	24FLL	.	24G# 24B@24@LL	.	24eLL	.	16ddd-XLL 16eee-X	.	16aaa#XLL 16aaan	.	.	24EE<LL 24E<\	.	12e	-jau-	.	8eeeL	8eeeeL	.
+24EE	.	24E	.	24F	.	24G# 24B@24@	.	24e	.	.	.	.	.	.	24F 24G# 24B 24e	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	16ddd- 16eee-	.	16aaa#X 16aaan	.	.	.	.	.	.	.	.	.	.
-24BB	.	24BB	.	24D	.	24E 24G#@24@	.	24B	.	.	.	.	.	.	24BBB 24BB	.	12r	.	.	.	.	.
-24BB	.	24BB	.	24D	.	24E 24G#@24@	.	24B	.	16ccc 16dddn	.	16ggg#X 16bbb	.	.	24D 24E 24G# 24B	.	.	.	.	8ffnJ	8fffnJ	.
-24C#	.	24C#	.	24C#	.	24F 24A#@24@	.	24c#	.	.	.	.	.	.	24CC# 24C#	.	12e	-ne,	.	.	.	.
+24BBB	.	24BB	.	24D	.	24E 24G#@24@	.	24B	.	.	.	.	.	.	24BBB< 24BB<	.	12r	.	.	.	.	.
+24BBB	.	24BB	.	24D	.	24E 24G#@24@	.	24B	.	16ccc 16dddn	.	16ggg#X 16bbb	.	.	24D 24E 24G# 24B	.	.	.	.	8fffJ	8ffffJ	.
+24CC#	.	24C#	.	24C#	.	24F 24A#@24@	.	24c#	.	.	.	.	.	.	24CC#< 24C#<	.	12e	-ne,	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	16bbJJ 16ccc#X	.	16gggnJJ 16ccccn	.	.	.	.	.	.	.	.	.	.
-24C#JJ	.	24C#JJ	.	24C#JJ	.	24F 24A#@24@JJ	.	24c#JJ	.	.	.	.	.	.	24FJJ 24A# 24c#	.	.	.	.	.	.	.
+24CC#JJ	.	24C#JJ	.	24C#JJ	.	24F 24A#@24@JJ	.	24c#JJ	.	.	.	.	.	.	24FJJ 24A# 24c#	.	.	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-24ELL	.	24ELL	.	24ELL	.	24An 24c#X@24@LL	.	24eLL	.	16cccnLL 16ddd	.	16ggg#XLL 16aaan	.	2r	24EELL 24E	.	12r	.	.	8bbL	8bbbL	.
-24E	.	24E	.	24E	.	24An 24c#X@24@	.	24e	.	.	.	.	.	.	24An 24c#X 24e	.	.	.	.	.	.	.
+!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!	!	!	!	!	!LO:TUP:a	!	!	!	!	!	!	!
+24EELL	.	24ELL	.	24ELL	.	24An 24c#X@24@LL	.	24eLL	.	16cccnLL 16ddd	.	16ggg#XLL 16aaan	.	2ryy	24EE<LL 24E<\	.	12r	.	.	8bbbL	8bbbbL	.
+24EE	.	24E	.	24E	.	24An 24c#X@24@	.	24e	.	.	.	.	.	.	24An 24c#X 24e	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	16ccc 16ddd	.	16ggg# 16aaa	.	.	.	.	.	.	.	.	.	.
-24A	.	24A	.	24A	.	24B-X 24d#X@24@	.	24a	.	.	.	.	.	.	24AA 24A	.	12e	vi-	.	.	.	.
-24A	.	24A	.	24A	.	24B-X 24d#X@24@	.	24a	.	16ccc-X 16ddd-X	.	16gggn 16aaa#X	.	.	24B-X 24d#X 24gn 24a	.	.	.	.	8dd#XJ	8ddd#XJ	.
-24F#X	.	24F#X	.	24Gn	.	24cn 24f#X@24@	.	24f#X	.	.	.	.	.	.	24FF#X 24F#X	.	12e	-si-	.	.	.	.
+24AA	.	24A	.	24A	.	24B-X 24d#X@24@	.	24a	.	.	.	.	.	.	24AA< 24A<	.	12e	vi-	.	.	.	.
+24AA	.	24A	.	24A	.	24B-X 24d#X@24@	.	24a	.	16ccc-X 16ddd-X	.	16gggn 16aaa#X	.	.	24B-X 24d#X 24gn 24a	.	.	.	.	8ddd#XJ	8dddd#XJ	.
+24FF#X	.	24F#X	.	24Gn	.	24cn 24f#X@24@	.	24f#X	.	.	.	.	.	.	24FF#<X 24F#<X	.	12e	-si-	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	16bb-XJJ 16cccn	.	16fff#XJJ 16bbb	.	.	.	.	.	.	.	.	.	.
-24F#XJJ	.	24F#XJJ	.	24GnJJ	.	24cn 24f#X@24@JJ	.	24f#XJJ	.	.	.	.	.	.	24GnJJ 24cn 24f#X	.	.	.	.	.	.	.
-24ELL	.	24ELL	.	24ALL	.	24c#X 24e@24@LL	.	24eLL	.	16ccc-XLL 16ddd-X	.	16ggg#XLL 16gggn	.	.	24EELL 24E	.	4e	-on,	.	8aanL	8aaanL	.
-24E	.	24E	.	24A	.	24c#X 24e@24@	.	24e	.	.	.	.	.	.	24A 24c#X 24e	.	.	.	.	.	.	.
+24FF#XJJ	.	24F#XJJ	.	24GnJJ	.	24cn 24f#X@24@JJ	.	24f#XJJ	.	.	.	.	.	.	24GnJJ 24cn 24f#X	.	.	.	.	.	.	.
+!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!	!	!	!	!	!LO:TUP:a	!	!	!	!	!	!	!
+24EELL	.	24ELL	.	24ALL	.	24c#X 24e@24@LL	.	24eLL	.	16ccc-XLL 16ddd-X	.	16ggg#XLL 16gggn	.	.	24EE<LL 24E<\	.	4e	-on,	.	8aaanL	8aaaanL	.
+24EE	.	24E	.	24A	.	24c#X 24e@24@	.	24e	.	.	.	.	.	.	24A 24c#X 24e	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	16ccc- 16ddd-	.	16ggg#X 16gggn	.	.	.	.	.	.	.	.	.	.
-24A	.	24A	.	24B-X	.	24d#X 24gn@24@	.	24a	.	.	.	.	.	.	24AA 24A	.	.	.	.	.	.	.
-24A	.	24A	.	24B-X	.	24d#X 24gn@24@	.	24a	.	16bb- 16cccn	.	16fff#X 16aaa-X	.	.	24B- 24d# 24g 24a	.	.	.	.	8bbJ	8bbbJ	.
-24F#	.	24F#	.	24F#X	.	24Gn 24cn@24@	.	24f#	.	.	.	.	.	.	24FF# 24F#	.	.	.	.	.	.	.
+24AA	.	24A	.	24B-X	.	24d#X 24gn@24@	.	24a	.	.	.	.	.	.	24AA< 24A<	.	.	.	.	.	.	.
+24AA	.	24A	.	24B-X	.	24d#X 24gn@24@	.	24a	.	16bb-X 16cccn	.	16fff#X 16aaa-X	.	.	24B- 24d# 24g 24a	.	.	.	.	8bbbJ	8bbbbJ	.
+24FF#	.	24F#	.	24F#X	.	24Gn 24cn@24@	.	24f#	.	.	.	.	.	.	24FF#< 24F#<	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	16aaJJ 16bbn	.	16fffnJJ 16bbb-X	.	.	.	.	.	.	.	.	.	.
-24F#JJ	.	24F#JJ	.	24F#XJJ	.	24Gn 24cn@24@JJ	.	24f#JJ	.	.	.	.	.	.	24GJJ 24cn 24f#	.	.	.	.	.	.	.
+24FF#JJ	.	24F#JJ	.	24F#XJJ	.	24Gn 24cn@24@JJ	.	24f#JJ	.	.	.	.	.	.	24GJJ 24cn 24f#	.	.	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
-24ELL	.	24ELL	.	24FnLL	.	24G#X 24Bn@24@LL	.	24eLL	.	16bb-XLL 16ccc	.	16fff#XLL 16gggn	.	2r	24EELL 24E	.	12r	.	.	8aa#XL	8aaa#XL	.
-24E	.	24E	.	24Fn	.	24G#X 24Bn@24@	.	24e	.	.	.	.	.	.	24Fn 24G#X 24Bn 24e	.	.	.	.	.	.	.
+!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!	!	!	!	!	!LO:TUP:b	!	!	!	!	!	!	!
+24EELL	.	24ELL	.	24FnLL	.	24G#X 24Bn@24@LL	.	24eLL	.	16bb-XLL 16ccc	.	16fff#XLL 16gggn	.	2ryy	24EE<LL 24E<\	.	12r	.	.	8aaa#XL	8aaaa#XL	.
+24EE	.	24E	.	24Fn	.	24G#X 24Bn@24@	.	24e	.	.	.	.	.	.	24Fn 24G#X 24Bn 24e	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	16bb- 16ccc	.	16fff# 16ggg	.	.	.	.	.	.	.	.	.	.
-24BB	.	24BB	.	24D	.	24E 24G#X@24@	.	24B	.	.	.	.	.	.	24BBBn 24BBn	.	12e	Voi-	.	.	.	.
-24BB	.	24BB	.	24D	.	24E 24G#X@24@	.	24B	.	16aa 16bbn	.	16fffn 16ggg#X	.	.	24Dn 24E 24G#X 24B	.	.	.	.	8eeJ	8eeeJ	.
-24C#X	.	24C#X	.	24C#X	.	24Fn 24A#X@24@	.	24c#X	.	.	.	.	.	.	24CC#X 24C#X	.	12e	-le	.	.	.	.
+24BBB	.	24BB	.	24D	.	24E 24G#X@24@	.	24B	.	.	.	.	.	.	24BBB< 24BB<	.	12e	Voi-	.	.	.	.
+24BBB	.	24BB	.	24D	.	24E 24G#X@24@	.	24B	.	16aa 16bbn	.	16fffn 16ggg#X	.	.	24Dn 24E 24G#X 24B	.	.	.	.	8eeeJ	8eeeeJ	.
+24CC#X	.	24C#X	.	24C#X	.	24Fn 24A#X@24@	.	24c#X	.	.	.	.	.	.	24CC#<X 24C#<X	.	12e	-le	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	16gg#XJJ 16aa#X	.	16eeeJJ 16aaa	.	.	.	.	.	.	.	.	.	.
-24C#XJJ	.	24C#XJJ	.	24C#XJJ	.	24Fn 24A#X@24@JJ	.	24c#XJJ	.	.	.	.	.	.	24FnJJ 24A#X 24c#X	.	.	.	.	.	.	.
-24ELL	.	24ELL	.	24FLL	.	24G# 24B@24@LL	.	24eLL	.	16aanLL 16bb	.	16fff#XLL 16fffn	.	.	24EELL 24E	.	4e,	blanc,	.	8bbL	8bbbL	.
-24E	.	24E	.	24F	.	24G# 24B@24@	.	24e	.	.	.	.	.	.	24F 24G# 24B 24e	.	.	.	.	.	.	.
+24CC#XJJ	.	24C#XJJ	.	24C#XJJ	.	24Fn 24A#X@24@JJ	.	24c#XJJ	.	.	.	.	.	.	24FnJJ 24A#X 24c#X	.	.	.	.	.	.	.
+!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!LO:TUP:num=3	!	!	!	!	!	!	!LO:TUP:a	!	!	!	!	!	!	!
+24EELL	.	24ELL	.	24FLL	.	24G# 24B@24@LL	.	24eLL	.	16aanLL 16bb	.	16fff#XLL 16fffn	.	.	24EE<LL 24E<\	.	4e,	blanc,	.	8bbbL	8bbbbL	.
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+24EE	.	24E	.	24F	.	24G# 24B@24@	.	24e	.	.	.	.	.	.	24F 24G# 24B 24e	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	16aa 16bb	.	16fff#X 16fffn	.	.	.	.	.	.	.	.	.	.
-24BB	.	24BB	.	24D	.	24E 24G#@24@	.	24B	.	.	.	.	.	.	24BBB 24BB	.	.	.	.	.	.	.
+24BBB	.	24BB	.	24D	.	24E 24G#@24@	.	24B	.	.	.	.	.	.	24BBB< 24BB<	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-24BB	.	24BB	.	24D	.	24E 24G#@24@	.	24B	.	16aa-X 16bb-X	.	16eee 16gggn	.	.	24D 24E 24G# 24B	.	.	.	.	8ffnJ	8fffnJ	.
-24C#	.	24C#	.	24C#	.	24F 24A#@24@	.	24c#	.	.	.	.	.	.	24CC# 24C#	.	.	.	.	.	.	.
+24BBB	.	24BB	.	24D	.	24E 24G#@24@	.	24B	.	16aa-X 16bb-X	.	16eee 16gggn	.	.	24D 24E 24G# 24B	.	.	.	.	8fffnJ	8ffffnJ	.
+24CC#	.	24C#	.	24C#	.	24F 24A#@24@	.	24c#	.	.	.	.	.	.	24CC#< 24C#<	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*X8va	*
 .	.	.	.	.	.	.	.	.	.	16ggnJJ 16aan	.	16ddd#XJJ 16aaa-X	.	.	.	.	.	.	.	.	.	.
-24C#JJ	.	24C#JJ	.	24C#JJ	.	24F 24A#@24@JJ	.	24c#JJ	.	.	.	.	.	.	24FJJ 24A# 24c#	.	.	.	.	.	.	.
+24CC#JJ	.	24C#JJ	.	24C#JJ	.	24F 24A#@24@JJ	.	24c#JJ	.	.	.	.	.	.	24FJJ 24A# 24c#	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*Xtremolo	*	*	*	*X8va	*	*	*	*	*	*	*	*	*	*
 *	*	*	*	*	*	*Xtremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *	*	*	*	*Xtremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -80,3 +87,4 @@
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)})]s3[({(s4,s5)})][(s6,s7,s8,s9,s10,s11,s12)]
+!!!RDF**kern: < = below
