@@ -124,9 +124,9 @@
 !	!	!	!	!LO:TX:a:i:t=sehr zart	!LO:DY:rj	!LO:TX:a:B:t=rit. – – –	!
 .	.	.	.	12dn~L	ppp <	.	pp ]
 *clefF4	*	*	*	*	*	*	*
-!LO:N:head=dia	!	!	!	!	!	!	!
 !LO:TX:t=P:problem:cue pitches not shown here	!	!	!	!	!	!	!
-(4EEno	pp >	8r	.	.	.	8r	.
+!LO:SIC:v:t=Cautionary parentetical clef pitch not included	!	!	!	!	!	!	!
+(4CCryy 4EEnro 4eyy	pp >	8r	.	.	.	8r	.
 .	.	.	.	12B-X~J	[ >	.	.
 .	.	4r	.	8an~	.	16r	.
 .	.	.	.	.	.	[8.f#X	pp <
@@ -151,31 +151,30 @@
 !LO:TX:b:t=am Steg	!	!	!	!	!	!	!
 2.ddntt	pp	4r	.	4r	.	4r	.
 *	*	*clefG2	*	*	*	*	*
-!	!	!LO:N:head=dia:n=2	!	!LO:N:head=dia:n=2	!	!LO:TX:a:t=am Griffbrett	!
-.	.	4eenoN 4aanN	ppp	4enoN 4anN	ppp	8r	.
+!	!	!	!	!LO:N:head=dia:n=2	!	!LO:TX:a:t=am Griffbrett	!
+.	.	4reenoN 4raanN 4eeeeyy	ppp	4renoN 4ranN 4eeeyy	ppp	8r	.
 .	.	.	.	.	.	[4.cc#X	pp <
 .	.	4r	]	4r	.	.	[[
 =9	=9	=9	=9	=9	=9	=9	=9
 !	!	!	!	!LO:TX:a:t=am Steg	!	!	!
-8.r	.	4r	.	32ccnL	pp >	8cc#]	>
-.	.	.	.	32ccn	.	.	.
-.	.	.	.	32ccn	.	.	.
-.	.	.	.	32ccn	.	.	.
-.	.	.	.	32ccn	.	8r	]
-.	.	.	.	32ccn	.	.	.
+8.r	.	4r	.	4ccnOOO	pp >	8cc#]	>
+.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.
+.	.	.	.	.	.	8r	]
+.	.	.	.	.	.	.	.
 !LO:TX:a:i:t=sehr zart	!	!	!	!	!	!	!
-(16a#X	ppp	.	.	32ccn	.	.	.
-.	.	.	.	32ccnJ	.	.	.
-!	!	!	!	!LO:TX:t=P:problem:tuplet tremolo not showing correctly	!	!	!
-!	!	!	!	!LO:TUP:a	!	!LO:TX:a:t=am Steg	!
-4bn)	>	4r	.	48ccL	.	4r	.
-.	.	.	.	48cc	.	.	.
-.	.	.	.	48cc	.	.	.
-.	.	.	.	48cc	.	.	.
-.	.	.	.	48cc	.	.	.
-.	.	.	.	48cc	.	.	.
-.	.	.	.	48cc	.	.	.
-.	.	.	.	48ccJ	.	.	.
+(16a#X	ppp	.	.	.	.	.	.
+.	.	.	.	.	.	.	.
+!	!	!	!	!LO:TUP:a:xbr	!	!LO:TX:a:t=am Steg	!
+4bn)	>	4r	.	6ccOOO	.	4r	.
+.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.
 *	*	*	*	*Xtremolo	*	*	*
 .	.	.	.	12r	]	.	.
 *	*	*clefC3	*	*	*	*	*
@@ -187,6 +186,7 @@
 !!!system-decoration: [(s1,s2,s3,s4)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!RDF**kern: O = tremolo
 !!!RDF**kern: N = hairpin accent
 !!!EED:Jason Lee
 !!!EEV:2021/12/06
