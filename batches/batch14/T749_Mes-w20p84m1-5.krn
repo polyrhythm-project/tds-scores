@@ -23,7 +23,6 @@
 *15ba	*	*	*	*	*
 16r	.	.	.	.	.
 !LO:TX:b:t=(Tam-tam; pédale rhythmique sur un rhythme non rétrogradable)	!LO:DY:a	!	!	!	!
-!LO:TX:t=P:problem:15ba lines are not rendering.	!	!	!	!	!
 [16AAAAn [16AAAA#X [16BBBB	ff	.	.	.	.
 *	*	*	*	*clefG2	*
 !	!	!	!	!LO:TX:t=P:problem:Cross-Staff Beaming is causing Slurs to not behave correctly.	!
@@ -52,7 +51,6 @@
 =3	=3	=3	=3	=3	=3
 *	*	*8ba	*	*	*
 *M2/4	*	*M2/4	*	*M2/4	*
-!	!	!LO:TX:t=P:problem:8ba line is not rendering.	!	!	!
 16AAAAnXKL] 16AAAA#X] 16BBBB]	.	2CCCn~ 2CCn	.	2r	.
 [8.AAAAnJ [8.AAAA#X [8.BBBB	.	.	.	.	.
 8AAAAnL] 8AAAA#X] 8BBBB]	.	.	.	.	.
@@ -60,10 +58,11 @@
 =4	=4	=4	=4	=4	=4
 *M21/16	*	*M21/16	*	*M21/16	*
 *	*	*	*	*8ba	*
+!	!	!	!	!LO:TX:t=P:problem: 8va sign is a duplicate and should be below the middle staff	!
 16AAAAnX] 16AAAA#X] 16BBBB]	.	8ryy	.	(8CCCn<^>L 8CC<n	.
-*X15ba	*	*X8ba	*	*X8ba	*
+*X15ba	*	*X8ba	*	*X8ba	*X8ba
 8r	.	.	.	.	.
-.	.	16ryy	.	\16CC#X~k 16C#X	.
+.	.	16ryy	.	\16C#X~k 16c#X	.
 8r	.	8ryy	.	\8AA#X~J 8A#X)	.
 .	.	.	.	.	.
 8.r	.	(<4DDn	<	4Dn	.
