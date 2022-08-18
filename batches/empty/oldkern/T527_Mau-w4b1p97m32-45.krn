@@ -4,6 +4,7 @@
 !!!example: 527
 !!!work: Mau-4
 **kern		**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern		**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A		*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:A		*grp:A	*	*grp:B	*	*grp:B	*	*grp:B	*	*grp:B	*	*grp:B	*
 *part12		*	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6		*part6	*part6	*part5	*	*part4	*	*part3	*part3	*part2	*part2	*part1	*part1
 *staff13		*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*staff7		*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello		*	*I"Viola	*	*I"Violin II 2. Div.	*	*I"Violin II 1. Div.	*	*I"Violin I 2. Div.	*	*I"Violin I 1. Div.	*	*I"Harp		*	*	*I"Timpani	*	*I"Bassoon I	*	*I"Clarinets in Bb I.II.	*	*I"Flute III.	*	*I"Flutes I.II.	*
@@ -13,25 +14,9 @@
 *k[]		*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]		*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:		*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:		*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*
 *M2/4		*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4		*M2/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
-!		!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!
-*Xtuplet		*	*	*	*	*	*	*	*	*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*
-!LO:TX:a:t=[pizz.]		!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!
-!		!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!
-*		*	*Xtuplet	*	*	*	*	*	*	*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*
-!		!	!LO:TX:a:t=[pizz.]	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!
-!		!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!
-*		*	*	*	*Xtuplet	*	*	*	*	*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*
-!		!	!	!	!LO:TX:a:t=[pizz.]	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!
-!		!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!
-*		*	*	*	*	*	*Xtuplet	*	*	*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*
-!		!	!	!	!	!	!LO:TX:a:t=[pizz.]	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!
-!		!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!
-*		*	*	*	*	*	*	*	*Xtuplet	*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*
-!		!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!	!
-!		!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=a 2	!
 !		!	!	!	!	!	!	!	!	!	!	!	!		!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:a:B:t=[Poco Meno]	!LO:DY:ed=brack
-*		*	*	*	*	*	*	*	*	*	*Xtuplet	*	*Xtuplet		*Xtuplet	*	*	*	*	*	*	*	*	*	*	*
-!		!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:a:t=pizz.	!	!	!	!		!LO:TX:a:B:t=[Poco Meno]	!	!	!	!	!	!	!	!	!	!	!
+*Xtuplet		*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet		*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*
+!LO:TX:a:t=[pizz.]		!LO:DY:ed=brack	!LO:TX:a:t=[pizz.]	!LO:DY:ed=brack	!LO:TX:a:t=[pizz.]	!LO:DY:ed=brack	!LO:TX:a:t=[pizz.]	!LO:DY:ed=brack	!LO:TX:a:t=pizz.	!	!	!	!		!LO:TX:a:B:t=[Poco Meno]	!	!	!	!	!	!	!	!	!	!	!
 16%3FF		mf	16%3fL	f	16%3fL	f	16%3r	f	16%3fff	f	4%3r	.	4%3r		4%3r	.	4r	pp	[2.G	pp	[2.g [2.gg	pp	[2.g	pp	[2.gg	pp
 16%3r		.	16%3fJ	.	16%3fJ	.	16%3cc	.	16%3r	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.
 .		.	.	.	.	.	.	.	.	.	.	.	.		.	.	8FFL	.	.	.	.	.	.	.	.	.
@@ -63,7 +48,6 @@
 .		.	.	.	.	.	.	.	.	.	.	.	.		.	.	4FF	.	(8DL	.	(8dL 8dd	.	(8dL	.	(8ddL	.
 16%3r		.	16%3B-XJ	.	16%3B-XJ	.	16%3bb-XJ	.	16%3ggJ	.	.	.	.		.	.	.	.	.	.	.	.	.	.	.	.
 .		.	.	.	.	.	.	.	.	.	.	.	.		.	.	.	.	8FJ	.	8fJ 8ff	.	8fJ	.	8ffJ	.
-!!pagebreak:original
 =4		=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4		=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
 *		*	*	*	*	*	*	*	*	*	*8va	*	*		*	*	*	*	*	*	*	*	*	*	*	*
 !		!	!	!	!	!	!	!	!	!	!LO:TX:a:t=pizz.	!	!		!	!	!	!	!	!	!	!	!	!	!	!
@@ -102,7 +86,6 @@
 8%3r		.	16%3e-X	.	16%3e-X	.	16%3ee-X	.	16%3ccc	.	16%3fff	.	.		.	.	8FFJ	.	.	.	.	.	.	.	.	.
 .		.	.	.	.	.	.	.	.	.	.	.	.		.	.	4FF	.	4r	.	4c#X 4cc#X	.	4c#X	.	4cc#X	.
 .		.	16%3r	.	16%3r	.	16%3r	.	16%3r	.	16%3r	.	.		.	.	.	.	.	.	.	.	.	.	.	.
-!!pagebreak:original
 =		=	=	=	=	=	=	=	=	=	=	=	=		=	=	=	=	=	=	=	=	=	=	=	=
 *		*	*Xtuplet	*	*	*	*	*	*	*	*	*	*		*	*	*	*	*	*	*	*	*	*	*	*
 *^		*	*	*	*	*	*	*	*	*	*	*	*^		*	*	*	*	*	*	*	*	*	*	*	*
@@ -132,7 +115,9 @@
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=120	!	!	!	!	!	!LO:TX:a:t=I.	!	!	!	!LO:TX:a:B:t=Poco allegro giusto	!
 !	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=arco	!	!	!	!LO:TX:a:B:t=Poco allegro giusto	!	!LO:TX:b:t=	!	!LO:TX:b:t=	!	!	!	!	!	!	!
-*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*	*	*	*	*M2/4	*	*M2/4	*	*M2/4	*
+*Xtuplet	*Xtuplet	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*M3/4	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*M3//4	*M3/4	*	*	*	*	*	*M2/4	*	*M2/4	*	*M2/4	*
+*grp:B	*grp:B	*	*grp:B	*	*grp:B	*	*grp:B	*	*grp:B	*	*grp:B	*	*grp:B	*grp:B	*grp:B	*	*	*	*	*	*grp:A	*	*grp:A	*	*grp:A	*
 6r	6r	.	3.B	mf	6r	.	3.b	mf	6r	.	3.b	mf	6r	6r	6r	f	2r	.	2r	.	4r	.	8f#XL	mf	8bL 8ff#X	mf
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8f#J	.	8bJ 8ff#	.
 !	!	!	!	!	!LO:TX:a:t=pizz.	!	!	!	!LO:TX:a:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
