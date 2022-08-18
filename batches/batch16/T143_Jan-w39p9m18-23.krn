@@ -5,7 +5,7 @@
 *part1	*part1	*part1
 *staff2	*staff1	*staff1/2
 *I"Piano	*I"Piano	*I"Piano
-*I'Pno.	*	*
+*I'Pno.	*I'Pno.	*
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
@@ -13,7 +13,7 @@
 =1	=1	=1
 !	!LO:TX:t=[[eighth]=58]	!LO:HP:t= accel. e cresc.
 !	!	!LO:DY:ed=brack
-24A-XLL	8d-X:L 8a-X: 8dd-X:	p <
+24A-XLL	/8d-X:L 8a-X: 8dd-X:	p <
 24G-X	.	.
 24D-XJJ	.	.
 24A-LL	8e-X: 8a-: 8ee-X:	.
@@ -33,7 +33,7 @@
 24G-	.	.
 24D-JJ	.	.
 =3	=3	=3
-16A-XLL	8d-X:L 8g-X: 8a-X: 8dd-X:	f
+16A-XLL	/8d-X:L 8g-X: 8a-X: 8dd-X:	f
 16G-X	.	.
 16D-X	8e-X: 8g-: 8a-: 8ee-X:	<
 16A-	.	.
@@ -61,6 +61,7 @@
 16F	.	.
 16E-	8E-X:J 8c-: 8e-X:	.
 16D-JJ	.	.
+!LO:TX:b:i:t=attaca	!	!
 =||	=||	=||
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
