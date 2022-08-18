@@ -1,12 +1,11 @@
-!!!COM: LeoÅ¡ [Leo Eugen] JanÃ¡Äek
+!!!COM: Leoš [Leo Eugen] Janáček
 !!!OTL: [T134_Jan-w26p35m58-67]
 **kern	**kern	**fing	**dynam
 *grp:A	*grp:B	*	*grp:A/B
 *part1	*part1	*	*part1
 *staff2	*staff1	*	*
-*I"Piano	*	*	*
-*I'Pno.	*	*	*
-!!pagebreak:original
+*I"Piano	*I"Piano	*	*
+*I'Pno.	*I'Pno.	*	*
 *clefF4	*clefG2	*	*
 *k[f#c#]	*k[f#c#]	*	*
 *D:	*D:	*	*
@@ -22,6 +21,7 @@
 16FFJJ	.	.	.
 =2	=2	=2	=2
 *^	*	*	*
+!	!	!LO:TX:t=P:problem: Horizontal Bracket needed to indicate chord grouping.	!	!
 4.E-X 4.A	16r	8.dL	.	.
 *	*ped	*	*	*
 .	16FFnLL	.	.	.
@@ -52,6 +52,7 @@
 .	16c# 16e	16f#X	2	.
 .	16FJJ	16gJJ)	1	.
 =6	=6	=6	=6	=6
+!	!	!LO:S:dot	!	!
 [4.d-X	16r	(8.eeL	3	.
 .	16B-XLL	.	.	.
 .	16g> 16b>-X	.	.	.
@@ -67,17 +68,20 @@
 .	16g> 16b>-	.	.	.
 .	16B-JJ	.	.	.
 =8	=8	=8	=8	=8
-!	!	!LO:TUP:r=4	!	!
+!	!	!	!	!
+*	*	*rscale:3	*	*
 4.d-]	16r	(>32%3ff#LL	.	.
 .	16B-XLL	.	.	.
-.	.	32%3ggJ	.	.
+.	.	32%3ggJJ	.	.
 .	16g> 16b>-X	.	.	.
-.	16e	32%3aaL	.	.
+.	16e	32%3aaLL	.	.
 .	16g> 16b>-	.	.	.
 .	.	32%3ff#JJ)	.	.
 .	[>16eJJ	.	.	.
+*	*	*rscale:1	*	*
 =9	=9	=9	=9	=9
 *	*	*^	*	*
+!	!	!LO:S:dot	!	!	!
 4.ryy	4.e]	(>16ggLL	16r	1	.
 .	.	16aa	16gLL	.	.
 .	.	16cccnJ	16b-XJJ 16dd-X	.	.
@@ -92,20 +96,22 @@
 =10	=10	=10	=10	=10
 *	*	*^	*	*
 *ped	*	*	*	*	*
+!	!LO:S:dot	!	!	!	!
 8%3r	4.ddd-X;)(TT	4g] 4b-X 4ee	8ryy	2	f <
 !	!	!	!LO:TX:b:t=m.s.	!	!
-.	.	.	8r;	.	.
-.	.	16qqcccn\LL	.	1	[
-.	.	)16qqddd-/	.	3	.
-.	.	16qqeee-X/	.	4	.
-.	.	16qqddd-\	.	.	.
-.	.	16qqbb-X\	.	.	.
-.	.	16qqgg\	.	1	.
-.	.	16qqeen\	.	2	.
-.	.	16qqdd-X\	.	1	.
-.	.	16qqccn\	.	2	.
-.	.	16qqb-\	.	3	.
-.	.	16qqen\JJ	.	5	.
+.	.	.	8r;<	.	.
+.	.	16qqcccnLL	.	1	[
+.	.	)16qqddd-	.	3	.
+.	.	16qqeee-X	.	4	.
+.	.	16qqddd-	.	.	.
+.	.	16qqbb-X	.	.	.
+.	.	16qqgg	.	1	.
+.	.	16qqeen	.	2	.
+!	!	!	!	!	!
+.	.	16qqdd-X	.	1	.
+.	.	16qqccn	.	2	.
+.	.	16qqb-	.	3	.
+.	.	16qqenJJ	.	5	.
 .	.	8ryy	8ryy	.	.
 *	*v	*v	*v	*	*
 =	=	=	=
