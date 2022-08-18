@@ -4,8 +4,8 @@
 *grp:A	*grp:A	*
 *part1	*part1	*part1
 *staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
 *clefF4	*clefG2	*
 *k[f#c#g#d#]	*k[f#c#g#d#]	*
 *E:	*E:	*
@@ -90,7 +90,7 @@
 !	!	!LO:T:a	!
 .	.	[10aa-X	.
 8c-XJ	.	.	.
-.	.	10aa-J_	.
+.	.	10aa-J_>	.
 =7	=7	=7	-7
 (8B-XL	2ff-N] 2aa-]\	2ryy	.
 8G-XJ	.	.	.
@@ -99,6 +99,8 @@
 =	=	=
 *-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
 !!!EED:Jason Lee
 !!!EEV:2021/10/05
 !!!EED2: Rafael Laurindo
