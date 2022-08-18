@@ -4,11 +4,12 @@
 *grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A
 *part1	*part1	*part1	*	*part1	*part1
 *staff3	*	*staff2	*	*staff1	*
-*I"	*	*I"Piano	*	*	*
-*I'	*	*I'Pno.	*	*	*
+*I"Piano	*	*I"Piano	*	*I"Piano	*
+*I'Pno.	*	*I'Pno.	*	*I'Pno.	*
 *clefF4	*	*clefF4	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*
+*M2/4	*	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1	=1
 !	!	!	!	!LO:TX:t=[eighth]=144	!
 !LO:T:n=2:a	!LO:DY:t=(sempre %s )	!LO:T:n=1:b	!LO:DY:ed=brack	!	!LO:DY:a
@@ -19,7 +20,7 @@
 [8AAAJ [8AA	.	.	.	.	.
 .	.	[16DnJk [16dn	f	.	.
 =2	=2	=2	=2	=2	=2
-8AAAL] 8AA]	.	2Dn_ 2dn_	.	16e-XKL] 16ee-X]	.
+8AAAL] 8AA]	.	2DnX_ 2dnX_	.	16e-XKL] 16ee-X]	.
 !	!	!	!	!	!LO:DY:a
 .	.	.	.	[8.d-X~J [8.dd-X	ff
 [8EEnJ [8En	.	.	.	.	.
@@ -48,7 +49,7 @@
 8AAA#X] 8AA#X]	.	16FKL] 16f]	.	8d] 8dd]	.
 .	.	8F#X'^J 8f#X	ff	.	.
 !	!LO:DY:t=(sempre %s )	!	!	!	!
-(8qCn/	fff	.	.	.	.
+(>8qCn/	fff	.	.	.	.
 !	!	!	!	!	!LO:DY:a
 4EEn 4En)	.	.	.	[4.en [4.een	mf
 .	.	16r	.	.	.
@@ -67,10 +68,14 @@
 .	.	[16B-X~Jk [16b-X	f	.	.
 !	!LO:DY:a	!	!	!	!
 16DD^LL 16D	ff	16B-LL] 16b-]	.	8b-X~ 8bb-X	f
+!	!	!	!	!LO:TX:t=┐	!
 16CC^JJ 16C	.	16Bn'^JJ 16bn	.	.	.
+!	!	!LO:TX:b:t=┘	!	!	!
 =	=	=	=	=	=
 *-	*-	*-	*-	*-	*-
 !!!system-decoration:{(s1,s2,s3)}
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
 !!!EED: Gabriella Vici
 !!!EEV: 2021/09/30
 !!!EED2: Jason Lee
