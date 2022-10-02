@@ -4,7 +4,7 @@
 !!!example: 455
 !!!work: Ber-15
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*	*grp:B	*	*	*grp:B	*	*	*grp:B	*	*	*grp:B	*	*grp:A	*	*grp:A	*	*grp:A	*
+*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*	*color:dodgerblue	*	*	*color:dodgerblue	*	*	*color:dodgerblue	*	*	*color:dodgerblue	*	*color:crimson	*	*color:crimson	*	*color:crimson	*
 *part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part8	*part7	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*
 *staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*staff9	*	*staff8	*staff8	*	*staff7	*staff7	*	*staff6	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Dr. Sch.	*	*	*I"Alwa	*	*	*I"Lulu	*	*	*I"Piano	*	*	*I"Clarinet in Bb 1.	*	*I"English Horn	*	*I"Oboe 1.	*	*I"Flute 1. 2.	*
@@ -18,7 +18,7 @@
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*tremolo	*
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[[quarter]=192]	!
 !	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!	!	!LO:TX:a:t=[Sprechgesang]	!	!LO:DY:ed=brack	!	!	!	!	!	!LO:DY:ed=brack	!LO:TX:a:t=(m. Ges.)	!LO:DY:ed=brack	!	!	!	!	!	!LO:DY:ed=brack
-4r'	p	8r	p	8A-X'L	p	4r	p	2r	.	.	6an	to-	p	2r	.	.	8.BB-X'^L	2ryy	mf >	6An~)	mp	4r	.	4r	.	4.ccn 4.ffnOOO	p
+4r'	p	8r	p	8A-X'L	p	4r	p	2r	.	.	6an	to-	p	2r	.	.	8.BB-X'^L	2ryy	mf >	6An~)j	mp	4r	.	4r	.	4.ccn 4.ffnOOO	p
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -113,3 +113,6 @@
 !!!excerpt-end-time: 20:28
 !!!EEV: 2020/01/27
 !!!ONB: Converted from MusicXML on 2020/01/27
+!!!Xfilter: slurcheck
+!!!Xfilter: colorgroups
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
