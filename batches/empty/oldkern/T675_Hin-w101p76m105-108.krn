@@ -4,7 +4,7 @@
 !!!example: 675
 !!!work: Hin-101
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*	*	*	*grp:C	*	*grp:B	*	*grp:B	*	*grp:B	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:B	*	*grp:B	*
+*color:crimson	*	*	*	*color:limegreen	*	*color:dodgerblue	*	*color:dodgerblue	*	*color:dodgerblue	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:crimson	*	*color:dodgerblue	*	*color:dodgerblue	*
 *part12	*	*part11	*	*part11	*part11	*part10	*	*part9	*	*part8	*	*part7	*	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
 *staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Organ	*	*	*	*I"Glockenspiel	*	*I"Timpani	*	*I"Tuba	*	*I"Trombone III	*	*I"Trombone II	*	*I"Trombone I	*	*I"Trumpet in C II	*	*I"Trumpet in C I	*	*I"Horn in F II	*	*I"Horn in F I	*
@@ -17,7 +17,7 @@
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[[quarter]=100]	!
 *Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*	*	*	*	*	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*	*	*	*
 !LO:TX:a:t=[con sord.]	!LO:DY:ed=brack	!	!	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:a:t=[con sord.]	!LO:DY:ed=brack	!LO:TX:a:t=[con sord.]	!LO:DY:ed=brack	!LO:TX:a:t=[con sord.]	!LO:DY:ed=brack	!LO:TX:a:t=[con sord.]	!LO:DY:ed=brack	!LO:TX:a:t=[con sord.]	!LO:DY:ed=brack:t=%s grazioso	!LO:TX:a:t=[con sord.]	!LO:DY:ed=brack:t=%s grazioso	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
-(6.B	p	4%3ryy	.	4ryy	.	4eee#X	pp	4C#X	p	4EE#X'	p	6C#X	pp	6G#X	pp	6r	pp	12c#X)	p	12g#XLi]	p	8D#XL	p	8d#XL	p
+(6.B	p	4%3ryy	.	4ryy	.	4eee#X	pp	4C#X	p	4EE#X'	p	6C#X	pp	6G#X	pp	6r	pp	12c#X)j	p	12g#XLi]	p	8D#XL	p	8d#XL	p
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	12r	.	(12f#X	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8C#XJ	.	8c#XJ	.
 .	.	.	.	.	.	.	.	.	.	.	.	12r	.	12r	.	12B	.	12r	.	12eXJ)	.	.	.	.	.
@@ -28,7 +28,7 @@
 .	.	.	.	14A#X<	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	12r	.	12r	.	12F#XJ	.	12g#XJ	.	12cc#XJ	.	.	.	.	.
 .	.	.	.	14c#X<	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-[6.E#X	.	.	.	.	.	.	.	4r	.	.	.	6AA#X	.	6C#	.	(12BL	.	(12f#XL	.	12bXL	.	[4G#X)	.	[4g#X)	.
+[6.E#X	.	.	.	.	.	.	.	4r	.	.	.	6AA#X	.	6C#	.	(12BL	.	(12f#XL	.	12bXL	.	[4G#X)j	.	[4g#X)j	.
 .	.	.	.	14A#X<	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	12A#X)	.	12bX)	.	12r	.	.	.	.	.
 .	.	.	.	14d#X	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -116,3 +116,6 @@
 !!!excerpt-end-time: 3:40
 !!!EEV: 2020/01/27
 !!!ONB: Converted from MusicXML on 2020/01/27
+!!!Xfilter: slurcheck
+!!!Xfilter: colorgroups
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
