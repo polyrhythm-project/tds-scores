@@ -4,6 +4,7 @@
 !!!example: 269
 !!!work: Ive-44
 **kern		**kern		**dynam	**kern	**text	**dynam
+*grp:A		*grp:A		*	*grp:B	*	*
 *part2		*part2		*part2	*part1	*	*part1
 *staff3		*staff2		*	*staff1	*	*
 *I"Piano		*		*	*I"Soprano Solo	*	*
@@ -113,6 +114,7 @@
 !LO:S:b		!	!	!	!	!	!
 N(2CC 2GG 2E\		4rb	2bb-X 2fff 2ddddn/	.	((2e	moun-	.
 !		!LO:S:b	!	!	!	!	!
+!		!LO:TX:b:i:t=l.h.	!	!	!	!	!
 .		(8a-XLN)	.	.	.	.	.
 .		8gJ)	.	.	.	.	.
 !LO:S:b		!	!	!	!	!	!
@@ -129,24 +131,27 @@ N(2EE-X 2BB-X 2G\		8rb	2ffn/ 2ccc# 2aaa	.	(4.f	ous,	.
 =4		=4		=4	=4	=4	=4
 *M		*M		*	*M	*	*
 *		*^		*	*	*	*
-2FF#X 2C#X 2A		4r	2ee 2bb 2ggg	.	4b	Where	.
-.		8dL	.	.	[4b	nev-	.
-.		8c#XJ	.	.	.	.	.
-2Cn 2G 2e-X		8aL	2b-X 2ff 2ddd-X	.	8b]	.	.
+!LO:S:b		!	!	!	!	!	!
+N(2FF#X 2C#X 2A		4rg	2ee 2bb 2ggg/	.	4b	Where	.
+!		!LO:S:b	!	!	!	!	!
+!		!LO:TX:b:i:t=l.h.	!	!	!	!	!
+.		(8dLN)	.	.	[4b	nev-	.
+.		8c#XJ)\	.	.	.	.	.
+2Cn 2G 2e-X		(8aL\	2b-X 2ff 2ddd-X/	.	8b]	.	.
 .		8e-X 8g	.	.	4g	er	.
 .		8d-X	.	.	.	.	.
-.		8e-XJ	.	.	8g	the	.
+.		8e-XJ)	.	.	8g	the	.
 !		!	!	!	!	!	!
-2FF# 2C#X 2A		4r	2een 2bb 2ggg#X	.	((2cc#X	sea-	.
-.		8ddL	.	.	.	.	.
+2FF#X 2C#X 2A#\		4rg	2een 2bb 2ggg#X/	.	((2cc#X	sea-	.
+.		8ddL\	.	.	.	.	.
 .		8cc#XJ	.	.	.	.	.
 .		.	.	.	16qb/LL	.	.
 .		.	.	.	16qa/JJ)	.	.
-2Cn 2G 2e-		16bnLL	2dd#X 2aa#X 2gggn	.	4.f)	wind	.
+2FFn 2Cn 2An\		16bn\L	2dd#X 2aa#X 2gggn/	.	4.f)	wind	.
 .		16b-X	.	.	.	.	.
 .		16a-X	.	.	.	.	.
-.		16g-XJJ	.	.	.	.	.
-.		8fL	.	.	.	.	.
+.		16g-X	.	.	.	.	.
+.		8f\	.	.	.	.	.
 .		8e-J	.	.	8g	may	.
 *		*v	*v	*	*	*	*
 =		=		=	=	=	=
