@@ -10,6 +10,7 @@
 *C:	*C:	*	*C:	*C:	*C:	*	*C:
 *M2/4	*M2/4	*	*M2/4	*M9/16	*M2/4	*	*M2/4
 =16	=16	=16	=16	=16	=16	=16	=16
+!	!	!	!	!	!	!	!LO:TX:t=P:problem: Bar lines and time signature changes don't appear
 !	!	!	!	!	!	!	!LO:TX:t=[quarter]=38
 !	!	!	!	!	!	!	!LO:TX:a:t=16
 !	!LO:TX:b:t=[f]	!	!LO:TX:b:t=[f]	!LO:TX:b:t=[f]	!LO:TX:b:t=[f]	!	!LO:TX:b:t=[f]
@@ -30,6 +31,7 @@
 .	.	.	.	20d#X	.	.	.
 .	.	.	.	[20c#XJJ	.	.	.
 =-	=-	=-	=-	=18	=-	=-	=-
+*	*	*	*	*M9/16	*	*	*
 .	.	.	.	(6.c#]	.	.	.
 .	.	.	[6G-X	.	.	.	.
 =18	=18	=18	=18	=-	=18	=18	=18
@@ -47,17 +49,17 @@
 .	.	.	[16AA#XJJ	.	.	.	.
 =19	=19	=19	=19	=-	=19	=19	=19
 !	!	!	!	!	!	!	!LO:TX:a:t=19
-*	*	*	*M6/16	*	*M6/16	*	*
-2CCCn^^_ 2FFF#X_	2CC#X^^_ 2BB_	f ] > ]	8AA#L]	8.A#X	4ff	f	4.r
+*	*	*	*M6/16	*	*M6/16	*	*M6/16
+!LO:N:vis=2	!LO:N:vis=2	!	!	!	!	!	!
+4.CCCn^^_ 4.FFF#X_	4.CC#X^^_ 4.BB_	f ] > ]	8AA#L]	8.A#X	4ff	f	4.r
 .	.	.	16AA-XL	.	.	.	.
 .	.	.	16GGn	8.C^^J 8.B	.	.	.
 .	.	.	16DD	.	[8an	.	.
 .	.	.	[16GG-XJJ	.	.	.	.
-.	.	.	.	.	.	.	.
-.	.	.	.	.	.	.	.
-*X8ba	*	*	*	*	*	*	*
-=	=	=	=	=	=	=	=
+=-	=-	=-	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)][({(s5,s6)})]
 !!!EED: Daniel Wright
 !!!EEV: 2022/04/07
+!!!EED2: Bryan Bell
+!!!EEV2: 2022/10/14
