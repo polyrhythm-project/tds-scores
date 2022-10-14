@@ -1,20 +1,19 @@
-!!!COM: Debussy, (Achille-)Claude
-!!!OTL: Suite Bergamasque (Bergamesque Suite) for Piano
-!!!OMV: No. 4: Passepied
-!!!example: 153
-!!!work: Deb-8
+!!!COM: (Achille-) Claude Debussy
+!!!OTL: [T153_Deb-w8p21m24-29]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*I"Piano
 *I'Pno.	*	*
 *clefF4	*clefG2	*
 *k[f#c#g#]	*k[f#c#g#]	*
 *A:	*A:	*
 *M4/4	*M4/4	*
-*MM121	*MM121	*
 =24	=24	=24
+*	*Xbrackettup	*
 *	*^	*
+!	!LO:TX:t=[[quarter]=170]	!	!
 8AAL	(6cc#~	2gn 2b	mf
 8E	.	.	.
 .	6cc#~	.	.
@@ -32,50 +31,50 @@
 8A	.	.	.
 8c#	4cc#	.	.
 8AJ	.	.	.
-8BBL	[2b)	[2d 2a	.
+8BBL	[<2d 2a [2b)	2ryy	.
 8F#	.	.	.
 8B	.	.	.
 8F#J	.	.	.
 =26	=26	=26	=26
 *	*	*^	*
-8EEL	(4b]	2d]	1gn	.
+8EEL<	(4b]	2d]	1gn	.
 8BB	.	.	.	.
 8E	4cc#	.	.	.
-8GnJ	.	.	.	.
-8EEL	2a)	(4d	.	.
+8GnJ<	.	.	.	.
+8EEL<	2a)	(4d	.	.
 8AA	.	.	.	.
 8G	.	4B)	.	.
-8AAJ	.	.	.	.
+8AAJ<	.	.	.	.
 *	*	*v	*v	*
 =27	=27	=27	=27
-!	!LO:TX:b:t=dim.	!	!
 8FF#L	1f# [1a	(6c#	.
 8C#	.	.	.
-.	.	6d	.
+!	!	!	!LO:HP:a
+.	.	6d	>
 8A	.	.	.
 .	.	6B	.
 8F#J	.	.	.
-8EEL	.	6c#	.
+8EEL<	.	6c#	.
 8AA	.	.	.
 .	.	6d	.
 8F#	.	.	.
 .	.	6e)	.
-8AAJ	.	.	.
+8AAJ<	.	.	.
 =28	=28	=28	=28
-8DDL	4a]	(6f#	.
+8DDL<	4a]	(6f#	.
 8AA	.	.	.
 .	.	6g#X	.
 8D	4ryy	.	.
-.	.	6e	.
-8F#J	.	.	.
-8AAL	2ryy	6f#	.
+.	.	6e>	.
+8F#J<	.	.	.
+8AAL	2ryy	6f#>	.
 8D	.	.	.
-.	.	6g#	.
+.	.	6g#>	.
 8F#	.	.	.
-.	.	6a)	.
+.	.	6a>)	.
 8AJ	.	.	.
 =29	=29	=29	=29
-8DL	1ryy	(6b	.
+8DL	1ryy	(>6b	.
 8A	.	.	.
 .	.	6cc#	.
 8d	.	.	.
@@ -85,28 +84,16 @@
 8F#	.	.	.
 .	.	6cc#	.
 8A	.	.	.
-.	.	6dd)	.
+.	.	6dd>)	.
 8dJ	.	.	.
 *	*v	*v	*
 =	=	=
 *-	*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1862/08/22-1918/03/25
-!!!CBL: St Germain-en-Laye, France
-!!!CDL: Paris, France
-!!!CNT: French
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT: 1902/01/11
-!!!MGN:
-!!!MLC: Paris, France
-!!!MPD: 1902
-!!!MPN: Viñes, Ricardo
-!!!ODT: 1920 (rev. 1968)
-!!!PDT: 1905
-!!!excerpt-start-measure: 24
-!!!excerpt-end-measure: 29
-!!!excerpt-start-time: 0:32
-!!!excerpt-end-time: 0:41
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!RDF**dynam: > = dim.
+!!!EED: Daniel Wright
+!!!EEV: 2021/07/06
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/02/08

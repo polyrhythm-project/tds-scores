@@ -1,20 +1,19 @@
-!!!COM: Hindemith, Paul
-!!!OTL: Sonata for Viola and Piano
-!!!OMV: IV: Finale, mit zwei Variationen: Leicht bewegt (Finale, with Two Variations: Lightly Animated)
-!!!example: 656
-!!!work: Hin-68
+!!!COM: Paul Hindemith
+!!!OTL: [T656_Hin-w68p44h62m1-4]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Viola	*
-*I'Pno.	*	*	*I'Vla.	*
+*I"Piano	*I"Piano	*	*I"Viola	*
+*I'Pno.	*I'Pno.	*	*I'Vla.	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
 *M4/4	*M4/4	*	*M4/4	*
-*MM240	*MM240	*	*MM240	*
+!!LO:REH:t=62
 =160	=160	=160	=160	=160
-4EE-X'	(8b-XL	pp	(2gg-X	p
+!	!	!	!LO:TX:t=[[half]=120]	!
+4EE-X'	(8b-XL)	pp	(2gg-X	p
 .	8g-X	.	.	.
 4GG-X'	8B-X	.	.	.
 .	8b-J	.	.	.
@@ -29,7 +28,7 @@
 8BBJ	8aJ	.	8b	.
 4C	8gL	.	4g)	.
 .	8f#X	.	.	.
-4En	8g	.	4gg')	.
+4E	8g	.	4gg')	.
 .	8aJ	.	.	.
 =162	=162	=162	=162	=162
 4E-X	8b-XL	.	4gg-X	.
@@ -46,27 +45,14 @@
 8AL	8g	.	.	.
 8BJ	8f#XJ	.	8b	.
 4c	4en)	.	4g)	.
-8cL	[8dL	.	(4a)	.
-8B-XJ	8dJ] 8e	.	.	.
+*	*^	*	*	*
+8cL	8dL	[4d	.	(4a	.
+8B-XJ	8eJ	.	.	.	.
+*	*v	*v	*	*	*
 =	=	=	=	=
 *-	*-	*-	*-	*-
-!!!system-decoration: s1{(s2,s3)}
-!!!CDT: 1895/11/16-1963/12/28
-!!!CBL: Hanau, Germany
-!!!CDL: Frankfurt, Germany
-!!!CNT: German
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1939/04/23
-!!!MGN:
-!!!MLC: New York, New York, United States of America
-!!!MPD: 1939
-!!!MPN: Hindemith, Paul; Sanromá, Jesús
-!!!ODT: 1939
-!!!PDT: 1940
-!!!excerpt-start-measure: 160
-!!!excerpt-end-measure: 163
-!!!excerpt-start-time: 5:16
-!!!excerpt-end-time: 5:20
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: s1[({(s2,s3)})]
+!!!EED: Claudio de Freitas
+!!!EEV: 2021/09/02
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/03/04

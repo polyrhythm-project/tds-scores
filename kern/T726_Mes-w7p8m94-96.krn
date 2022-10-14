@@ -3,70 +3,72 @@
 !!!OMV:
 !!!example: 726
 !!!work: Mes-7
-**kern	**kern	**dynam
-*part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
-*clefG2	*clefG2	*
-*k[]	*k[]	*
-*C:	*C:	*
-*M4/4	*M4/4	*
-*MM121	*MM121	*
-=94	=94	=94
-*^	*	*
+**kern		**kern	**dynam
+*grp:A		*grp:B	*
+*part1		*part1	*part1
+*staff2		*staff1	*
+*I"Piano		*	*
+*I'Pno.		*	*
+*clefG2		*clefG2	*
+*k[]		*k[]	*
+*C:		*C:	*
+*M4/4		*M4/4	*
+*MM121		*MM121	*
+=94		=94	=94
+*^		*	*
+!	!	!LO:TX:a:B:t=Un peu plus lent	!
 16dd#XLL	8eL 8a 8cc#X	8aL 8cc#X 8ff#X 8gg#X	pp
 16dd#	.	.	.
-16cc#X	8d#X 8gn 8cc#	8b-X 8ddn 8gg# 8aa#X	.
-16cc#XJJ	.	.	.
+16cc#X	8d#X 8gn 8cc	8b-X 8ddn 8gg#X 8aaX	.
+16cc#JJ	.	.	.
 16b-XLL	8cn 8e 8a	8dd 8ff#X 8ccc#X 8cccn	.
 16b-	.	.	.
-16cc#	8c#XJ 8f#X 8bn	8cc#XJ 8ffn 8bb-X 8cccn	.
-16cc#JJ	.	.	.
-16dd#LL	8eL 8a 8cc#	8ccnL 8ee 8aa# 8bb-X	.
+16cc	8c#XJ 8f#X 8b-X	8cc#XJ 8ffn 8bb-X 8cccn	.
+16ccJJ	.	.	.
+16dd#XLL	8eL 8a 8cc#	8ccnL 8ee 8aa 8bb-X	.
 16dd#	.	.	.
-16cc#X	8d# 8gn 8cc#	8an 8cc#X 8ff#X 8gg#	.
+16cc#X	8d#X 8gn 8cc	8a 8cc#X 8ff#X 8gg#X	.
 16cc#XJJ	.	.	.
-16b-XLL	8cn 8e 8a	8b- 8ddn 8gg# 8aa#	.
+16b-XLL	8cn 8e 8a	8b-X 8dd 8gg#X 8aa	.
 16b-	.	.	.
-16cc#X	8c#XJ 8f# 8bn	8ddJ 8ff#X 8ccc#X 8cccn	.
-16cc#JJ	.	.	.
+16ccX	8c#XJ 8f#X 8b-X	8ddJ 8ff#X 8ccc#X 8cccn	.
+16ccJJ	.	.	.
 =95	=95	=95	=95
 16dd#XLL	8eL 8a 8cc#X	8cc#XL 8ffn 8bb-X 8cccn	.
 16dd#	.	.	.
-16cc#X	8d#X 8gn 8cc#	8ccn 8ee 8aa#X 8bb-X	.
-16cc#XJJ	.	.	.
-16b-XLL	8cn 8e 8a	8an 8cc#X 8ff#X 8gg#X	.
-16b-	.	.	.
-16cc#	8c#XJ 8f#X 8bn	8b-XJ 8ddn 8gg# 8aa#	.
+16cc#X	8d#X 8gn 8cc	8ccn 8ee 8aaX 8bb-X	.
 16cc#JJ	.	.	.
-16dd#LL	8eL 8a 8cc#	8ddL 8ff#X 8ccc#X 8cccn	.
+16b-XLL	8cn 8e 8a	8a 8cc#X 8ff#X 8gg#X	.
+16b-	.	.	.
+16cc	8c#XJ 8f#X 8b-X	8b-XJ 8dd 8gg#X 8aa	.
+16ccJJ	.	.	.
+16dd#XLL	8eL 8a 8cc#	8ddnL 8ff#X 8ccc#X 8cccn	.
 16dd#	.	.	.
-16cc#X	8d# 8gn 8cc#	8cc#X 8ffn 8bb- 8cccn	.
+16cc#X	8d#X 8gn 8cc	8cc#X 8ffn 8bb-X 8cccn	.
 16cc#XJJ	.	.	.
-16b-XLL	8cn 8e 8a	8ccn 8ee 8aa# 8bb-X	.
+16b-XLL	8cn 8e 8a	8ccn 8ee 8aa 8bb-X	.
 16b-	.	.	.
-16cc#X	8c#XJ 8f# 8bn	8aJ 8cc#X 8ff#X 8gg#	.
-16cc#JJ	.	.	.
+16ccX	8c#XJ 8f#X 8b-X	8aJ 8cc#X 8ff#X 8gg#X	.
+16ccJJ	.	.	.
 *v	*v	*	*
-=96	=96	=96
-*M3/4	*M3/4	*
-*^	*	*
-16dd#XLL	8eL 8a 8cc#X	8b-XL 8ddn 8gg#X 8aa#X	.
+=96		=96	=96
+*M3/4		*M3/4	*
+*^		*	*
+16dd#XLL	8eL 8a 8cc#X	8b-XL 8ddn 8gg#X 8aa	.
 16dd#	.	.	.
-16cc#X	8d#XJ 8gn 8cc#	8ddJ 8ff#X 8ccc#X 8cccn	.
-16cc#XJJ	.	.	.
-16b-XLL	8cnL 8e 8a	8cc#XL 8ffn 8bb-X 8cccn	.
-16b-	.	.	.
-16cc#	8c#XJ 8f#X 8bn	8ccnJ 8ee 8aa# 8bb-X	.
+16cc#X	8d#X 8gn 8cc	8ddJ 8ff#X 8ccc#X 8cccn	.
 16cc#JJ	.	.	.
-16dd#LL	4e 4a 4cc#	4an 4cc#X 4ff#X 4gg#	.
+16b-XLL	8cn 8e 8a	8cc#XL 8ffn 8bb-X 8cccn	.
+16b-	.	.	.
+16cc	8c#XJ 8f#X 8b-X	8ccnJ 8ee 8aa 8bb-X	.
+16ccJJ	.	.	.
+16dd#XLL	4e 4a 4cc#	4a 4cc#X 4ff#X 4gg#X	.
 16dd#	.	.	.
 16dd#	.	.	.
 16dd#JJ	.	.	.
 *v	*v	*	*
-=	=	=
-*-	*-	*-
+=		=	=
+*-		*-	*-
 !!!system-decoration: {(s1,s2)}
 !!!CDT: 1908/12/10-1992/04/27
 !!!CBL: Avignon, France

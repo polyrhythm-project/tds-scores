@@ -1,81 +1,95 @@
 !!!COM: Martinů, Bohuslav (Jan)
-!!!OTL: String Quartet No. 5
-!!!OMV: III: Allegro vivo
-!!!example: 472
-!!!work: Mau-55
-**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern
-*part4	*part4	*part3	*part3	*part2	*part2	*part1
-*staff4	*	*staff3	*	*staff2	*	*staff1
-*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I
-*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I
-*clefF4	*	*clefG2	*	*clefG2	*	*clefG2
-*k[]	*	*k[]	*	*k[]	*	*k[]
-*C:	*	*C:	*	*C:	*	*C:
-*M9/8	*	*M9/8	*	*M9/8	*	*M9/8
-*MM121	*	*MM121	*	*MM121	*	*MM121
-=15	=15	=15	=15	=15	=15	=15
-.	.	.	.	.	.	(8qee/
-(8.B-X	.	(8.ff#X	.	8bnL	.	8gg'L)
-.	.	.	.	8b-X	.	8cc'
-8.c)	.	8.gg)	.	.	.	.
-.	.	.	.	8aJ 8ee	.	8b-X'J
-(8.B-	.	(8.ff#	.	8cc#XL	.	8a'L
-.	.	.	.	.	.	(8qb-X/
-.	.	.	.	8ccn	.	8aa')
-8.c)	.	8.gg)	.	.	.	.
-.	.	.	.	8bnJ	.	8ee'J
-(8.B-	.	((8.ff#	.	8b-XL	.	8gg'L
-.	.	.	.	8ee	.	8dd'
-8.c)	.	8.gg)	.	.	.	.
-.	.	.	.	16gL 16b-X	.	16ggL 16bb-X
-.	.	.	.	16gJJ 16b-X	.	16ggJJ 16bb-
-*clefG2	*	*	*	*	*	*
-=16	=16	=16	=16	=16	=16	=16
-(8.d-X	f	8ff#X'L)	f	8g'L 8b-X	.	8gg 8bb-X
-.	.	8ee'	.	(16ggL	f	8r
-8.e-X)	.	.	.	16aa	.	.
-.	.	8dd#X'J	.	16gg	.	8ddd#X'
-.	.	.	.	16aaJJ)	.	.
-(8.d-	.	8cc#X'L	.	(8.gg	.	8ccc#X'L
-.	.	8b#X'	.	.	.	8eee'
-8.e-)	.	.	.	8.aa)	.	.
-.	.	8ff#'J	.	.	.	8gg'J
-(8.d-	.	8ee'L	.	(8.gg	.	8bb-X'
-.	.	8dd#'	.	.	.	8r
-8.e-)	.	.	.	8.aa)	.	.
-.	.	8cc#'J	.	.	.	8ddd#X'
-=17	=17	=17	=17	=17	=17	=17
-(8.d-X	.	8b#X'L	.	(8.gg	.	8ccc#X'L
-.	.	8ff#X'	.	.	.	8eee'
-8.e-X)	.	.	.	8.aa)	.	.
-.	.	8ee'J	.	.	.	8gg'J
-(8.d-	.	8dd#X'L	.	(8.gg	.	8bb-X'
-.	.	8cc#X'	.	.	.	8r
-8.e-)	.	.	.	8.aa)	.	.
-.	.	8b#X'J	.	.	.	8gggn'
-(8.d-	.	8ff#'L	.	(8.gg	.	8bb-'L
-.	.	8ee'	.	.	.	8eee-X'
-8.e-)	.	.	.	8.aa)	.	.
-.	.	8dd#'J	.	.	.	8gg'J
-=	=	=	=	=	=	=
-*-	*-	*-	*-	*-	*-	*-
+!!!OTL: [T472_Mau-w55p27h26m5-6]
+**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A
+*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I
+*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
+*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*
+*k[]	*	*k[]	*	*k[]	*	*k[]	*
+*C:	*	*C:	*	*C:	*	*C:	*
+*M9/8	*	*M9/8	*	*M9/8	*	*M9/8	*
+=1	=1	=1	=1	=1	=1	=1	=1
+*tremolo	*	*	*	*	*	*	*
+!	!	!	!	!	!	!	!LO:DY:ed=brack
+(32d-XLLL	f	8ff#X'L	f	8g'L 8b-X	.	8ggL 8bb-X	f
+32e-X	.	.	.	.	.	.	.
+32d-X	.	.	.	.	.	.	.
+32e-X	.	.	.	.	.	.	.
+32d-X	.	8ee'	.	(16ggL	f	8r	.
+32e-X	.	.	.	.	.	.	.
+32d-X	.	.	.	16aa	.	.	.
+32e-X	.	.	.	.	.	.	.
+32d-X	.	8dd#X'J	.	16gg	.	8fff#X'J	.
+32e-X	.	.	.	.	.	.	.
+32d-X	.	.	.	16aaJJ)	.	.	.
+32e-XJJJ)	.	.	.	.	.	.	.
+*	*	*	*	*tremolo	*	*	*
+(32d-LLL	.	8cc#X'L	.	(32ggLLL	.	8ccc#X'L	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	.	.	32gg	.	.	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	8b#X'	.	32gg	.	8eee'	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	.	.	32gg	.	.	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	8ff#'J	.	32gg	.	8gg'J	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	.	.	32gg	.	.	.
+32e-JJJ)	.	.	.	32aa)JJJ	.	.	.
+(32d-LLL	.	8ee'L	.	(32ggLLL	.	8bb-X'L	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	.	.	32gg	.	.	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	8dd#'	.	32gg	.	8r'	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	.	.	32gg	.	.	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	8cc#'J	.	32gg	.	8fff#X'J	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	.	.	32gg	.	.	.
+32e-JJJ)	.	.	.	32aa)JJJ	.	.	.
+=2	=2	=2	=2	=2	=2	=2	=2
+(32d-XLLL	.	8b#X'L	.	(32ggLLL	.	8ccc#X'L	.
+32e-X	.	.	.	32aa	.	.	.
+32d-X	.	.	.	32gg	.	.	.
+32e-X	.	.	.	32aa	.	.	.
+32d-X	.	8ff#X'	.	32gg	.	8eee'	.
+32e-X	.	.	.	32aa	.	.	.
+32d-X	.	.	.	32gg	.	.	.
+32e-X	.	.	.	32aa	.	.	.
+32d-X	.	8ee'J	.	32gg	.	8gg'J	.
+32e-X	.	.	.	32aa	.	.	.
+32d-X	.	.	.	32gg	.	.	.
+32e-XJJJ)	.	.	.	32aa)JJJ	.	.	.
+(32d-LLL	.	8dd#X'L	.	(32ggLLL	.	8bb-X'L	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	.	.	32gg	.	.	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	8cc#X'	.	32gg	.	8r'	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	.	.	32gg	.	.	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	8b#X'J	.	32gg	.	8gggn'J	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	.	.	32gg	.	.	.
+32e-JJJ)	.	.	.	32aa)JJJ	.	.	.
+(32d-LLL	.	8ff#'L	.	(32ggLLL	.	8bb-'L	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	.	.	32gg	.	.	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	8ee'	.	32gg	.	8eee-X'	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	.	.	32gg	.	.	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	8dd#'J	.	32gg	.	8gg'J	.
+32e-	.	.	.	32aa	.	.	.
+32d-	.	.	.	32gg	.	.	.
+32e-JJJ)	.	.	.	32aa)JJJ	.	.	.
+*Xtremolo	*	*	*	*Xtremolo	*	*	*
+=	=	=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
-!!!CDT: 1890/12/08-1959/08/28
-!!!CBL: Polička, Bohemia
-!!!CDL: Liestal, Switzerland
-!!!CNT: Czech
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1938/08/08
-!!!MGN: Pro-Arte Quartett
-!!!MLC: Los Angeles, California, United States of America
-!!!MPD: 1938
-!!!MPN:
-!!!ODT: 1938
-!!!PDT: 1959
-!!!excerpt-start-measure: 15
-!!!excerpt-end-measure: 16
-!!!excerpt-start-time: 0:30
-!!!excerpt-end-time: 0:35
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!EED2: Rafael Laurindo
+!!!EEV2: 2022/04/23

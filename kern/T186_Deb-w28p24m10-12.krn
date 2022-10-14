@@ -1,60 +1,47 @@
-!!!COM: Debussy, (Achille-)Claude
-!!!OTL: Children's Corner (Coin des enfants), Small Suite for Solo Piano
-!!!OMV: VI: Golliwogg's Cake Walk
-!!!example: 186
-!!!work: Deb-28
-**kern	**kern	**dynam
-*part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
-*clefF4	*clefG2	*
-*k[b-e-a-]	*k[b-e-a-]	*
-*E-:	*E-:	*
-*M2/4	*M2/4	*
-*MM121	*MM121	*
-=10	=10	=10
-*	*^	*
-8EE-'L 8BB-	(16b-^KL	8r	mf p
-.	8a-)	.	.
-8F'J 8A-	.	8c-X 8e-	.
-.	16b-Jk	.	.
-8EE-'L 8BB-	8f'L	8r	.
-8F'J 8A-	8b-'J	8c- 8e-	.
-=11	=11	=11	=11
-8EE-'L 8BB-	(16a-^KL	8r	.
-.	8f)	.	.
-8F'J 8A-	.	8c-X	.
-.	16e-Jk	.	.
-8EE-'L 8BB-	8c-'L	8r	.
-8F'J 8A-	8e-'J	8c-	.
-*	*v	*v	*
-=12	=12	=12
-8EE-'L 8BB-	16B-^KL	.
-.	8B-	.
-8G'J 8A-	.	.
-.	16cnJk	<
-8EE-'L 8BB-	8B-L	.
-8G'J 8A-	8e-J 8b-	[ ???
-=	=	=
-*-	*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1862/08/22-1918/03/25
-!!!CBL: St Germain-en-Laye, France
-!!!CDL: Paris, France
-!!!CNT: French
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT: 1908/12/23
-!!!MGN:
-!!!MLC: Paris, France
-!!!MPD: 1908
-!!!MPN: Bauer, Harold
-!!!ODT: 1908
-!!!PDT: 1908
-!!!excerpt-start-measure: 10
-!!!excerpt-end-measure: 12
-!!!excerpt-start-time: 0:09
-!!!excerpt-end-time: 0:12
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!COM: (Achille-) Claude Debussy
+!!!OTL: [T186_Deb-w28p24m10-12]
+**kern	**dynam	**kern		**dynam
+*part1	*part1	*part1		*part1
+*staff2	*staff2	*staff1		*staff1
+*I"Piano	*	*		*
+*I'Pno.	*	*		*
+*clefF4	*	*clefG2		*
+*k[b-e-a-]	*	*k[b-e-a-]		*
+*E-:	*	*E-:		*
+*M2/4	*	*M2/4		*
+=1	=1	=1		=1
+*	*	*^		*
+*grp:A	*	*grp:B	*grp:A	*
+!!LO:TX:a:i:t=très net et très sec
+!!LO:TX:a:B:t=[Allegro giusto]
+!	!LO:DY:rj	!	!	!LO:DY:rj
+8EE-'L 8BB-\	p	(16b-^KL	8rc	mf
+.	.	8a-)	.	.
+8F'J 8A-	.	.	8c-X 8e-	.
+.	.	16b-Jk	.	.
+8EE-'L 8BB-\	.	8f'L	8rc	.
+8F'J 8A-	.	8b-'J	8c- 8e-	.
+=2	=2	=2	=2	=2
+8EE-'L 8BB-\	.	(16a-^KL	8rc	.
+.	.	8f)	.	.
+8F'J 8A-	.	.	8c-X	.
+.	.	16e-Jk	.	.
+8EE-'L 8BB-\	.	8c-'L	8r	.
+8F'J 8A-	.	8e-'J	8c-	.
+*	*	*v	*v	*
+=3	=3	=3		=3
+8EE-'L 8BB-\	.	(>16B-^>KL		.
+.	.	8B-'>)		.
+8F'J 8G	.	.		.
+.	.	16cnJk		<
+8EE-'L 8BB-\	.	(8B-L		.
+8F'J 8G	.	8e-'>:J 8b-:)		[ sff
+=	=	=		=
+*-	*-	*-		*-
+!!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: < = below
+!!!RDF**kern: > = above
+!!!EED:Jason Lee
+!!!EEV:2021/10/13
+!!!EED2: Rafael Laurindo
+!!!EEV2: 2022/03/27

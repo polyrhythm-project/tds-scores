@@ -1,86 +1,71 @@
 !!!COM: Martinů, Bohuslav (Jan)
-!!!OTL: String Quartet No. 6
-!!!OMV: II: Andante
-!!!example: 524
-!!!work: Mau-86
-**kern	**dynam	**kern	**kern	**dynam	**kern	**dynam
-*part4	*part4	*part3	*part2	*part2	*part1	*part1
-*staff4	*	*staff3	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*I"Violin II	*	*I"Violin I	*
-*I'Vc.	*	*I'Vla.	*I'Vln. II	*	*I'Vln. I	*
-*clefF4	*	*clefG2	*clefG2	*	*clefG2	*
-*k[]	*	*k[]	*k[]	*	*k[]	*
-*C:	*	*C:	*C:	*	*C:	*
-*M9/8	*	*M9/8	*M9/8	*	*M9/8	*
-*MM121	*	*MM121	*MM121	*	*MM121	*
-=15	=15	=15	=15	=15	=15	=15
-(8e-XL	f	(8ffL	(8aL	f	(8ccL	f
-8d')	.	8gg'J)	8g'J)	.	8bn')	.
-*clefG2	*	*	*	*	*	*
-[8g^J	.	8r	8r	.	[8gg^J	.
-*	*	*clefC3	*	*	*	*
-4g]	.	16.r	16.r	.	4gg]	.
-.	.	(32fKLL	(32ffKLL	.	.	.
-.	.	16.d	16.dd	.	.	.
-.	.	32Bk	32bk	.	.	.
-[8g	.	16.f	16.ff	.	16.ggLL	.
-.	.	32dJJk	32ddJJk	.	(32bJJk	.
-8gL]	.	16.BLL)	16.bLL)	.	8ddL)	.
-.	.	(32fk	(32ffk	.	.	.
-8.a	.	16.d	16.dd	.	(8.aa	<
-.	.	32Bk	32bk	.	.	.
-.	.	16.g	16.gg	.	.	.
-16a-XJk	.	.	.	.	16aa-XJk)	[
-.	.	32eJJk)	32eeJJk	.	.	.
-=16	=16	=16	=16	=16	=16	=16
-*M6/8	*	*M6/8	*M6/8	*	*M6/8	*
-4g	.	16.cLL	16.ccLL)	.	4gg	.
-.	.	(32gk	(32ggk	.	.	.
-.	.	16.e	16.ee	.	.	.
-.	.	32ck	32cck	.	.	.
-[8g#X	.	16.f	16.ff	.	[8gg#X	.
-.	.	32dJJk	32ddJJk	.	.	.
-16g#LL]	.	16.BLL)	16.bLL)	.	16gg#LL]	.
-(16aJ	.	.	.	.	(16aanJ	.
-.	.	(32fk	(32ffk	.	.	.
-8.b-X	.	16.d	16.dd	.	8.bb-X	<
-.	.	32B-Xk	32b-Xk	.	.	.
-.	.	16.e	16.ee	.	.	.
-16g#Jk)	.	.	.	.	16gg#Jk)	[[
-.	.	32c#XJJk	32cc#XJJk	.	.	.
-=17	=17	=17	=17	=17	=17	=17
-4fn	.	16.dLL)	16.ddLL)	.	4ffn	<
-.	.	(32dk	(32ddk	.	.	.
-.	.	16.B-X	16.b-X	.	.	.
-.	.	32Fk	32fk	.	.	.
-(8d	.	16.en	16.een	.	[8bb-X^	[
-.	.	32B-XJJk	32b-XJJk	.	.	.
-4b-X)	.	16.GLL)	16.gLL)	.	8bb-L]	.
-.	.	(32e-Xk	(32ee-Xk	.	.	.
-.	.	16.B-	16.b-	.	(8.ccc	.
-.	.	32Gk	32gk	.	.	.
-[8f	.	16.d	16.dd	.	.	.
-.	.	.	.	.	16bb-Jk)	.
-.	.	32AJJk)	32aJJk)	.	.	.
-=	=	=	=	=	=	=
-*-	*-	*-	*-	*-	*-	*-
+!!!OTL: [T524_Mau-w86p23m1h3m1-2]
+**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A
+*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
+*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
+*clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*
+*k[]	*	*k[]	*	*k[]	*	*k[]	*
+*C:	*	*C:	*	*C:	*	*C:	*
+*M9/8	*	*M9/8	*	*M9/8	*	*M9/8	*
+=1	=1	=1	=1	=1	=1	=1	=1
+!	!	!	!	!	!	!LO:TX:t=[Andante [eighth]=144]	!
+!	!	!	!LO:DY:ed=brack	!	!	!	!
+(8e-XL	f	8ff#XZL]	f	(8aL	f	(8ccL	f
+8d')	.	8gg'J)j	.	8g'J)	.	8bn')	.
+*clefG2	*	*	*	*	*	*	*
+[8g^J	.	8r	.	8r	.	[8gg^J	.
+*	*	*clefC3	*	*	*	*	*
+4g]	.	16.r	.	16.r	.	4gg]	.
+.	.	(32fL	.	(32ffL	.	.	.
+.	.	16.dL	.	16.ddL	.	.	.
+.	.	32BJ	.	32bJ	.	.	.
+[8g	.	16.fL	.	16.ffL	.	16.ggLL	.
+.	.	32dJJ	.	32ddJJ	.	(32bJJk	.
+8gL]	.	16.BLL)	.	16.bLL)	.	8ddL)	.
+.	.	(32fJ	.	(32ffkJ	.	.	.
+(8.a	.	16.dL	.	16.ddL	.	(8.aa	<
+.	.	32BJ	.	32bJ	.	.	.
+.	.	16.gL	.	16.ggL	.	.	.
+16a-XJk)	.	.	.	.	.	16aa-XJk)	[
+.	.	32eJJ	.	32eeJJ	.	.	.
+!!LO:REH:t=3
+=2	=2	=2	=2	=2	=2	=2	=2
+*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*
+4g	.	16.cLL)	.	16.ccLL)	.	4gg	.
+.	.	(32gJ	.	(32ggJ	.	.	.
+.	.	16.eL	.	16.eeL	.	.	.
+.	.	32cJ	.	32cckJ	.	.	.
+[8g#X	.	16.fL	.	16.ffL	.	[8gg#X	.
+.	.	32dJJ	.	32ddJJ	.	.	.
+16g#LL]	.	16.BLL)	.	16.bLL)	.	16gg#LL]	.
+(16aJ	.	.	.	.	.	(16aanyJ	.
+.	.	(32fJ	.	(32ffJ	.	.	.
+8.b-X	.	16.dL	.	16.ddL	.	8.bb-X	<
+.	.	32B-XJ	.	32b-XJ	.	.	.
+.	.	16.eL	.	16.eeL	.	.	.
+16g#Jk)	.	.	.	.	.	16gg#Jk)	[
+.	.	32c#XJJ	.	32cc#XJJ	.	.	.
+=3	=3	=3	=3	=3	=3	=3	=3
+4fn	.	16.dLL)\	.	16.ddLL)	.	4ffn	<
+.	.	(32dJ	.	(32ddJ	.	.	.
+.	.	16.B-XL	.	16.b-XL	.	.	.
+.	.	32FJ	.	32fJ	.	.	.
+(8d	.	16.enL	.	16.eenL	.	[8bb-X^	[
+.	.	32B-XJJ	.	32b-XJJ	.	.	.
+4b-X)	.	16.GLL)	.	16.gLL)	.	8bb-L]	.
+.	.	(32e-XJ\i	.	(32ee-XJi	.	.	.
+.	.	16.B-L	.	16.b-L	.	(8.ccc	.
+.	.	32GJ	.	32gJ	.	.	.
+(8fi	.	16.dL	.	16.ddL	.	.	.
+.	.	.	.	.	.	16bb-Jk)	.
+.	.	32AJJ	.	32b-JJ	.	.	.
+=	=	=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
-!!!CDT: 1890/12/08-1959/08/28
-!!!CBL: Polička, Bohemia
-!!!CDL: Liestal, Switzerland
-!!!CNT: Czech
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1947/05/01
-!!!MGN: Walden Quartet
-!!!MLC:
-!!!MPD: 1947
-!!!MPN:
-!!!ODT: 1946
-!!!PDT: 1950
-!!!excerpt-start-measure: 15
-!!!excerpt-end-measure: 17
-!!!excerpt-start-time: 0:48
-!!!excerpt-end-time: 0:57
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!RDF**kern: Z = editorial accidental, bracket
+!!!EED: Rafael Laurindo
+!!!EED2: Jason Lee
+!!!EEV2: 2022/02/16

@@ -1,147 +1,137 @@
-!!!COM: Bartók, Béla
-!!!OTL: Piano Sonata
-!!!OMV: III: Allegro molto
-!!!example: 336
-!!!work: Bar-30
-**kern	**kern	**dynam
-*part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
-*clefF4	*clefG2	*
-*k[]	*k[]	*
-*C:	*C:	*
-*M2/4	*M2/4	*
-*MM121	*MM121	*
-=205	=205	=205
-8FL 8G 8f 8g	8r	p
-8FJ 8G 8f-X 8g-X	(16aaLL	mf
-.	16ggJJ)	.
-8FL 8G 8fn 8g-	(16aaLL	.
-.	16gg)	.
-8FJ 8G 8f-X 8g-	(16aa	.
-.	16ggJJ)	.
-=206	=206	=206
-8FL 8G 8fn 8gn	(16ggLL	.
-.	16ff#X)	.
-8FJ 8G 8f-X 8g-X	(16gg	.
-.	16eeJJ)	.
-8FL 8G 8fn 8g-	4dd~	.
-8FJ 8G 8f-X 8g-	.	.
-=207	=207	=207
-8FL 8G 8fn 8gn	(16aaLL	.
-.	16bb)	.
-8FJ 8G 8f-X 8g-X	(16bb	.
-.	16aaJJ)	.
-8FL 8G 8fn 8g-	(16aaLL	.
-.	16gg)	.
-8FJ 8G 8f-X 8g-	(16gg	.
-.	16ff#XJJ)	.
-=208	=208	=208
-*^	*	*
-8FL 8G 8fn 8gn	4r	(16ggLL	.
+!!!COM: Béla Bartók
+!!!OTL: [T336_Bar-w30p25m205-221]
+**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B
+*part1	*part1	*part1	*part1
+*staff2	*staff2	*staff1	*staff1
+*I"Piano	*	*I"Piano	*
+*I'Pno.	*	*I'Pno.	*
+*clefF4	*	*clefG2	*
+*k[]	*	*k[]	*
+*C:	*	*C:	*
+*M2/4	*	*M2/4	*
+=205	=205	=205	=205
+!	!	!LO:TX:t=[Più mosso, [quarter]=194]	!
+8FL 8G 8f 8g	p	8r	.
+!	!	!	!LO:DY:a:rj
+8F 8G 8g-X 8a-X	.	(16aaLL	mf
+.	.	16ggJJ)	.
+8F 8G 8f 8gn	.	(16aaLL	.
+.	.	16ggJJ)	.
+8FJ 8G 8g-X 8a-	.	(16aaLL	.
+.	.	16ggJJ)	.
+=206	=206	=206	=206
+8FL 8G 8f 8g	.	(16ggLL	.
+.	.	16ff#XJJ)	.
+8F 8G 8g-X 8a-X	.	(16ggLL	.
 .	.	16eeJJ)	.
-8FJ 8G 8f-X 8g-X	.	4dd~	.
-8FL 8G	8r	.	.
-8G-XJ 8A-X	8F 8G	(16aLL	.
-.	.	16gJJ)	.
-=209	=209	=209	=209
-8FL 8Gn	8r	(16gLL	.
-.	.	16f#X)	.
-8G-XJ 8A-X	8F 8G	(16g	.
-.	.	16eJJ)	.
-8FL 8Gn	8r	4d~	.
-8G-XJ 8A-	8F 8G	.	.
-=210	=210	=210	=210
-8FL 8Gn	8r	(16bLL	.
-.	.	16a)	.
-8G-XJ 8A-X	8F 8G	(16a	.
-.	.	16gJJ)	.
-8FL 8Gn	8r	(16gLL	.
-.	.	16f#X)	.
-8G-XJ 8A-	8F 8G	(16g	.
-.	.	16eJJ)	.
-=211	=211	=211	=211
-8FL 8Gn	8r	4d~	.
-8G-XJ 8A-X	8F 8G	.	.
-*v	*v	*	*
-8FL 8Gn 8f 8g-X	16ggLL	f
-.	16eeJ	.
-8FJ 8G 8f-X 8g-	[8ddJ	.
-=212	=212	=212
-8FL 8G 8fn 8gn	8ddL]	.
-8FJ 8G 8f-X 8g-X	(16ggL	.
-.	16aaaJJ)	.
-8FL 8G 8fn 8g-	(16gggLL	.
-.	16eeJ)	.
-8FJ 8G 8f-X 8g-	[8ddJ	.
-=213	=213	=213
-8FL 8G 8fn 8gn	8ddL]	.
-8FJ 8G 8f-X 8g-X	(16ccL	<
-.	16ddJJ)	.
-8FL 8G 8fn 8g-	(16ddLL	.
-.	16cc)	.
-8FJ 8G 8f-X 8g-	(16cc	.
-.	16b-XJJ)	.
-=214	=214	=214
-8FL 8G	4fn 4g	[
-8d#XJ 8f-X	.	.
-8FnL 8G	[4f [4g	.
-8d#J 8f-	.	.
-=215	=215	=215
-8FL 8G	8fn] 8g]	.
-8d#XJ 8f-X	4.f 4.g	.
-8FnL 8G	.	.
-8d#J 8f-	.	.
-=216	=216	=216
-8FL 8G	4.f 4.g	.
-8d#XJ 8f-X	.	.
-8FnL 8G	.	.
-8d#J 8f-	8f 8g	.
-=217	=217	=217
-8FL 8G 8fn 8g	4f#X 4a-X 4ff#X 4aa-X	ff
-8FJ 8G 8f 8g	.	.
-8FL 8G 8f 8g	8ggn` 8aa- 8ggg 8aaa	.
-8FJ 8G 8f 8g	8r	.
-=218	=218	=218
-8FL 8G	8r	mf
-8d#XJ 8f-X	8f 8g	.
-8FnL 8G	8r	.
-8d#J 8f-	8f 8g	.
-=219	=219	=219
-8FL 8G 8fn 8g	(4.f#X 4.a-X 4.ff#X 4.aa-X	f
-8FJ 8G 8f 8g	.	.
-8E^^L 8F 8e 8f	.	.
-8EJ 8F 8e 8f	8ggn`) 8aa- 8ggg 8aaa	.
-=220	=220	=220
-8EL 8F 8e 8f	8r	<
-8EJ 8F 8e 8f	8f#X 8a-X 8ff#X 8aa-X	.
-8EL 8F 8e 8f	4ggn~ 4aa- 4ggg 4aaa	.
-8D^^J 8E 8d 8e	.	.
-=221	=221	=221
-8DL 8E 8d 8e	8r	.
-8DJ 8E 8d 8e	4f#X 4a-X 4ff#X 4aa-X	.
-8C^^L 8D 8c 8d	.	.
-8CJ 8D 8c 8d	8ggn~ 8aa- 8ggg 8aaa	.
-=	=	=
-*-	*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1881/03/25-1945/09/26
-!!!CBL: Sînnicolau Mare (Nagyszentmiklós), Romania (Hungary)
-!!!CDL: New York, United States
-!!!CNT: Hungarian
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT: 1926/12/08
-!!!MGN:
-!!!MLC: Budapest, Hungary
-!!!MPD: 1926
-!!!MPN: Bartók, Béla
-!!!ODT: 1926
-!!!PDT: 1927
-!!!excerpt-start-measure: 205
-!!!excerpt-end-measure: 221
-!!!excerpt-start-time: 2:26
-!!!excerpt-end-time: 2:40
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+8F 8G 8f 8gn	.	4dd~	.
+8FJ 8G 8g-X 8a-	.	.	.
+=207	=207	=207	=207
+8FL 8G 8f 8g	.	(16aaLL	.
+.	.	16bbJJ)	.
+8F 8G 8g-X 8a-X	.	(16bbLL	.
+.	.	16aaJJ)	.
+8F 8G 8f 8gn	.	(16aaLL	.
+.	.	16ggJJ)	.
+8FJ 8G 8g-X 8a-	.	(16ggLL	.
+.	.	16ff#XJJ)	.
+=208	=208	=208	=208
+*^	*	*	*
+8FL 8G 8f 8g	4ryy	.	(16ggLL	.
+.	.	.	16eeJJ)	.
+8FJ 8G 8g-X 8a-X	.	.	4dd~	.
+8r	8FL 8G	.	.	.
+!LO:TX:t=P:problem: a bracket should be present here to group the two dyads of the LH	!	!	!	!LO:DY:a
+!!!ONB: a bracket should be present here to group the two dyads of the LH
+8G-X 8A-X	8FJ 8G	.	(16aLL	f
+.	.	.	16gJJ)	.
+=209	=209	=209	=209	=209
+8r	8FL 8G	.	(16gLL	.
+.	.	.	16f#XJJ)	.
+8G-X 8A-X	8FJ 8G	.	(16gLL	.
+.	.	.	16eJJ)	.
+8r	8FL 8G	.	4d~	.
+8G-X 8A-X	8FJ 8G	.	.	.
+!!linebreak:original
+=210	=210	=210	=210	=210
+8r	8FL 8G	.	(16bLL	.
+.	.	.	16aJJ)	.
+8G-X 8A-X	8FJ 8G	.	(16aLL	.
+.	.	.	16gJJ)	.
+8r	8FL 8G	.	(16gLL	.
+.	.	.	16f#XJJ)	.
+8G-X 8A-X	8FJ 8G	.	(16gLL	.
+.	.	.	16eJJ)	.
+=211	=211	=211	=211	=211
+8r	8FL 8G	.	4d~	.
+8G-X 8A-X	8FJ 8G	.	.	.
+!	!	!	!	!LO:DY:a
+\8FL 8Gn 8f 8g	4ryy	mf	(16ggLL	f
+.	.	.	16eeJJ)	.
+8FJ 8G 8g-X 8a-X	.	.	[8ddL	.
+*v	*v	*	*	*
+=212	=212	=212	=212
+8FL 8G 8f 8g	.	8ddJ]	.
+8F 8G 8g-X 8a-X	.	(16ggLL	.
+.	.	16aaaJJ)	.
+8F 8G 8f 8gn	.	(16gggLL	.
+.	.	16eeJJ)	.
+8FJ 8G 8g-X 8a-	.	[8ddL	.
+=213	=213	=213	=213
+8FL 8G 8f 8g	.	8ddJ]	.
+8F 8G 8g-X 8a-X	.	(16ccLL	<
+.	.	16ddJJ)	.
+8F 8G 8f 8gn	.	(16ddLL	.
+.	.	16ccJJ)	.
+8FJ 8G 8g-X 8a-	.	(16ccLL	.
+.	.	16b-XJJ)	.
+=214	=214	=214	=214
+8FL 8G	.	4fn 4g	[
+8f#X 8a-X	.	.	.
+8F 8G	.	[4f [4g	.
+8f#J 8a-	.	.	.
+!!linebreak:original
+=215	=215	=215	=215
+8FL 8G	.	8f] 8g]	.
+8f#X 8a-X	.	4.f 4.g	.
+8F 8G	.	.	.
+8f#J 8a-	.	.	.
+=216	=216	=216	=216
+8FL 8G	.	4.f 4.g	.
+8f#X 8a-X	.	.	.
+8F 8G	.	.	.
+8f#J 8a-	.	8f 8g	.
+=217	=217	=217	=217
+8FL 8G 8fn 8g	.	(4f#X 4a-X 4ff#X 4aa-X	ff
+8F 8G 8f 8g	.	.	.
+8F 8G 8f 8g	.	8gg` 8aa 8ggg 8aaa)	.
+8FJ 8G 8f 8g	.	8r	.
+=218	=218	=218	=218
+8FL 8G	.	8r	mf
+8f#X 8a-X	.	8fL 8g	.
+8F 8G	.	8r	.
+8f#J 8a-	.	8fJ 8g	.
+=219	=219	=219	=219
+8FL 8G 8fn 8g	.	(4.f#X 4.a-X 4.ff#X 4.aa-X	f
+8FJ 8G 8f 8g	.	.	.
+8E^^L 8F 8e 8f	.	.	.
+8E 8F 8e 8f	.	8gg` 8aa 8ggg 8aaa)	.
+!!LO:REH:t=220
+=220	=220	=220	=220
+8E 8F 8e 8f	.	8r	.
+8E 8F 8e 8f	.	8f#X 8a-X 8ff#X 8aa-X	<
+8EJ 8F 8e 8f	.	4gg~ 4aa 4ggg 4aaa	.
+8D^^L 8E 8d 8e	.	.	.
+=221	=221	=221	=221
+8D 8E 8d 8e	.	8r	.
+8DJ 8E 8d 8e	.	4f#X 4a-X 4ff#X 4aa-X	.
+8C^^L 8D 8c 8d	.	.	.
+8CJ 8D 8c 8d	.	8gg 8aa 8ggg 8aaa	[[
+=	=	=	=
+*-	*-	*-	*-
+!!!system-decoration: [({(s1,s2)})]
+!!!EED: Daniel Wright
+!!!EEV: 2021/07/22
+!!!EED2: Jason Lee
+!!!EEV2: 2022/01/28

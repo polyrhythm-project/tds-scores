@@ -1,26 +1,26 @@
-!!!COM: Ravel, (Joseph) Maurice
-!!!OTL: Piano Concerto in G Major
-!!!OMV: II: Adagio assai
-!!!example: 277
-!!!work: Rav-36
+!!!COM: (Joseph) Maurice Ravel
+!!!OTL: [T277_Rav-w36p49m1-13]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*I"Piano
 *I'Pno.	*	*
 *clefF4	*clefG2	*
 *k[f#c#g#d#]	*k[f#c#g#d#]	*
 *E:	*E:	*
 *M3/4	*M3/4	*
-*MM121	*MM121	*
 =1	=1	=1
-8EEL	2.r	p
+!!LO:TX:t=Adagio assai. [eighth]=76
+*ped	*	*
+8EEL	4%3r	p
 8G#J 8e	.	.
 8G#L 8e	.	.
 8EEJ	.	.
 8G#L 8e	.	.
 8G#J 8e	.	.
 =2	=2	=2
+!	!LO:TX:b:i:t=espressivo	!
 8EEL	(4g#	.
 8G#J 8e	.	.
 8G#L 8e	2a	.
@@ -35,19 +35,19 @@
 8G#L 8c#	4e	.
 8G#J 8c#	.	.
 =4	=4	=4
-8GG#L	4b	.
+8GG#L	[4b	.
 8BJ 8d#	.	.
-8BL 8d#	8bL	.
+8BL 8d#	8bL<]	.
 8GG#J	16aL	.
 .	16bJJ	.
-8BL 8d#	8cc#L	.
-8BJ 8d#	16bL	.
-.	[16bJJ	.
+8BL 8d#	16cc#LL	.
+.	[16bJ	.
+8BJ 8d#	8bJ_	.
 =5	=5	=5
 8GG#L	2b_	.
 8BJ 8d#	.	.
 8BL 8d#	.	.
-8GG#J	.	.
+8G#J	.	.
 8BL 8d#	8bL])	.
 8BJ 8d#	([8bJ	.
 =6	=6	=6
@@ -75,8 +75,8 @@
 8AL 8c#	8f#L])	.
 8AJ 8c#	([8f#J	.
 =9	=9	=9
-8D#L	8f#L]	<
-8AJ 8c#	8g#J	.
+8D#L	8f#L]	.
+8AJ 8c#	8g#J	<
 8AL 8c#	8bL	.
 8D#J	8g#J	.
 8G#L 8c#	8f#L	.
@@ -95,43 +95,31 @@
 .	16e	.
 8AAJ	16f#	.
 .	16aJJ)	.
-8EL 8B	([4cc#	>
+8EL 8B	([4cc#i	> ]
 8EJ 8B	.	.
 =12	=12	=12
-8GG#L	4cc#]	] p
+8GG#L	4cc#]	p
 8C#J 8A	.	.
 8D#L 8B	4a	.
 8FF#J	.	.
 8EL 8c#	4g#	.
 8EJ 8c#	.	.
 =13	=13	=13
-8EEL	[2f#	.
+8EEL\	[2f#	.
 8AJ 8d#	.	.
 8AL 8c#	.	.
 8EJ	.	.
 8AL 8B	16f#LL]	.
 .	16g#	.
 8AJ 8B	16f#	.
-.	16g#JJ)	.
+.	16g#JJ	.
 =	=	=
 *-	*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1875/03/07-1937/12/28
-!!!CBL: Ciboure, France
-!!!CDL: Paris, France
-!!!CNT: French
-!!!AGN: Orchestral; Concerto
-!!!MCN: Ravel, Maurice
-!!!MDT: 1932/01/14
-!!!MGN: Orchestre Lamoureux
-!!!MLC: Paris, France
-!!!MPD: 1932
-!!!MPN: Long, Marguerite
-!!!ODT: 1931
-!!!PDT: 1932
-!!!excerpt-start-measure: 1
-!!!excerpt-end-measure: 13
-!!!excerpt-start-time: 0:00
-!!!excerpt-end-time: 1:00
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED:Jason Lee
+!!!EEV:2021/10/26
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/17

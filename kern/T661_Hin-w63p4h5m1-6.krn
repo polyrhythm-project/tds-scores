@@ -1,43 +1,42 @@
-!!!COM: Hindemith, Paul
-!!!OTL: Sonata for Oboe and Piano
-!!!OMV: I: Munter (Blithely)
-!!!example: 661
-!!!work: Hin-63
+!!!COM: Paul Hindemith
+!!!OTL: [T661_Hin-w63p4h5m1-6]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Oboe	*
-*I'Pno.	*	*	*I'Ob.	*
+*I"Piano	*I"Piano	*	*I"Oboe	*
+*I'Pno.	*I'Pno.	*	*I'Ob.	*
 *clefG2	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
 *M2/4	*M2/4	*	*M2/4	*
-*MM121	*MM121	*	*MM121	*
-*	*8va	*	*	*
+!!LO:REH:t=5
 =66	=66	=66	=66	=66
-8e'L	(16eeeLL	mf	4ff#X~	f
+*	*8va	*	*	*
+!	!	!	!LO:TX:t=[[quarter]=120]	!
+8e'L	(16eeeLL	mf	4ff#X~)j	f
 .	16aaa	.	.	.
-8b'J	16ddd	.	.	.
+8b'	16ddd	.	.	.
 .	16eeeJJ	.	.	.
-8cc#X'L	16aaaLL	.	8b'L	.
+8cc#X'	16aaaLL	.	8b'L	.
 .	16ddd	.	.	.
 8d'J	16eee	.	8ee'J	.
 .	16aaaJJ	.	.	.
 =67	=67	=67	=67	=67
 8a'L	16eeeLL	.	4ff#X~	.
 .	16fff#X	.	.	.
-8b'J	16bbb	.	.	.
+8b'	16bbb	.	.	.
 .	16eeeJJ	.	.	.
-8cn'L	16fff#LL	.	8b'L	.
+8cn'	16fff#LL	.	8b'L	.
 .	16bbb	.	.	.
 8g'J	16eee	.	8ee'J	.
 .	16fff#JJ	.	.	.
 =68	=68	=68	=68	=68
 8a'L	16bbbLL	.	4ff#X~	.
 .	16ddd	.	.	.
-8B'J	16eee	.	.	.
+8B'	16eee	.	.	.
 .	16aaaJJ	.	.	.
-8f#X'L	16dddLL	.	8b'L	.
+8f#X'	16dddLL	.	8b'L	.
 .	16eee	.	.	.
 8c'J	16aaa	.	8ee'J	.
 .	16dddJJ	.	.	.
@@ -51,43 +50,28 @@
 .	16dddJJ)	.	.	.
 =70	=70	=70	=70	=70
 *M2/4	*M2/4	*	*M2/4	*
-8eL	(16eeeLL	.	4ff#X~	.
+8eL	(16eeeLLi	.	4ff#X~	.
 .	16aaa	.	.	.
-8bJ	16ddd	.	.	.
+8b	16ddd	.	.	.
 .	16eeeJJ	.	.	.
-8cc#XL	16aaaLL	.	8b'L	.
+8cc#X	16aaaLL	.	8b'L	.
 .	16ddd	.	.	.
 8dJ	16eee	.	8ee'J	.
 .	16aaaJJ	.	.	.
 =71	=71	=71	=71	=71
+8aL	16eeeLL	.	4ff#X~	.
+.	16fff#X	.	.	.
+8b	16bbb	.	.	.
+.	16eeeJJ	.	.	.
+8cn	16fff#LL	.	8b'L	.
+.	16bbb	.	.	.
+8gJ	16eee	.	8ee'J	.
+.	16fff#JJ	.	.	.
 *	*X8va	*	*	*
-8aL	16eeLL	.	4ff#X~	.
-.	16ff#X	.	.	.
-8bJ	16bb	.	.	.
-.	16eeJJ	.	.	.
-8cnL	16ff#LL	.	8b'L	.
-.	16bb	.	.	.
-8gJ	16ee	.	8ee'J	.
-.	16ff#JJ)	.	.	.
 =	=	=	=	=
 *-	*-	*-	*-	*-
-!!!system-decoration: s1{(s2,s3)}
-!!!CDT: 1895/11/16-1963/12/28
-!!!CBL: Hanau, Germany
-!!!CDL: Frankfurt, Germany
-!!!CNT: German
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1938/07/20
-!!!MGN:
-!!!MLC: London, United Kingdom
-!!!MPD: 1938
-!!!MPN: Cohen, Harriet; Goossens, Leon
-!!!ODT: 1938
-!!!PDT: 1939
-!!!excerpt-start-measure: 66
-!!!excerpt-end-measure: 71
-!!!excerpt-start-time: 1:12
-!!!excerpt-end-time: 1:17
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: s1[({(s2,s3)})]
+!!!EED: Claudio de Freitas
+!!!EEV: 2021/09/02
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/03/04

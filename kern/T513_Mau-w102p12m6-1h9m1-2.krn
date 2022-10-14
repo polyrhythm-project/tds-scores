@@ -1,100 +1,94 @@
 !!!COM: Martinů, Bohuslav (Jan)
-!!!OTL: Symphony No. 6 "Fantaisies symphoniques" (Symphonic Fantasies)
-!!!OMV: I: Lento - Allegro
-!!!example: 513
-!!!work: Mau-102
+!!!OTL: [T513_Mau-w102p12m6-1h9m1-2]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A
 *part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Horn in F	*	*I"Oboe	*	*I"Flute	*
-*I'Cb.	*	*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*	*I'Hn.	*	*I'Ob.	*	*I'Fl.	*
-*clefF4	*	*clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*
-*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*	*	*k[]	*	*k[]	*
-*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*	*	*C:	*	*C:	*
+*staff8	*staff8	*staff7	*staff7	*staff6	*staff6	*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Contrabass	*I"Contrabass	*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I	*I"Horn in F	*I"Horn in F	*I"Oboe	*I"Oboe	*I"Flute	*I"Flute
+*I'Cb.	*	*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*	*I'Hn. I + II	*	*I'Ob. I + II	*	*I'Fl. I + II	*
+*clefF4	*	*clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*
+*ITrd7c12	*	*	*	*	*	*	*	*	*	*ITrd4c7	*	*	*	*	*
+*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[b-]	*	*k[]	*	*k[]	*
+*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*F:	*	*C:	*	*C:	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
-*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*
 *	*	*	*	*	*	*	*	*8va	*	*	*	*	*	*	*
-=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70
-4.FF	f	4.F	f	4.B 4.g	f	4.f 4.aa	f	4.fff	f	1r	.	1r	.	1r	.
-(8EE-X	.	(8E-X	.	[8B [8g	.	[8f [8aa	.	[8fff	.	.	.	.	.	.	.
-4GG-X)	.	4G-X)	.	4B] 4g]	.	4f] 4aa]	.	4fff]	.	.	.	.	.	.	.
-[4FF	.	[4F	.	4B~ 4g	.	4f~ 4aa	.	4fff~	.	.	.	.	.	.	.
-=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71
-2FF]	.	2F]	.	(8c-X 8a	.	(8g 8bb-X	.	(8ggg	.	1r	.	1r	.	1r	.
-.	.	.	.	4d) 4b	.	4a) 4ccc	.	4aaa)	.	.	.	.	.	.	.
-.	.	.	.	4B~ 4g	.	4f~ 4aa	.	4fff~	.	.	.	.	.	.	.
+=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
+!	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=144	!	!	!	!	!	!LO:TX:a:B:t=Poco Meno	!
+!	!	!	!	!	!LO:DY:b:i:t=%s espress.	!	!LO:DY:b:i:t=%s espress.	!LO:TX:a:B:t=Poco Meno	!LO:DY:b:i:t=%s espress.	!	!	!	!	!LO:TX:a:t=[quarter]=144	!
+4.FF	f	4.F	f	4.a 4.ff	f	4.f 4.aa/	f	4.fff)j	f	1r	.	1r	.	1r	.
+(8EE-X	.	(8E-X	.	[8a [8ff	.	[8f [8aa/	.	[8fff	.	.	.	.	.	.	.
+4GG-X)	.	4G-X)	.	4a] 4ff]	.	4f] 4aa]/	.	4fff]	.	.	.	.	.	.	.
+[4FF	.	[4F	.	4a~ 4ff	.	4f~ 4aa/	.	4fff~	.	.	.	.	.	.	.
+=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
+2FF]	.	2F]	.	((8b-X 8gg	.	(8g (8bb-X	.	(8ggg	.	1r	.	1r	.	1r	.
+.	.	.	.	4cc 4aa))	.	4a) 4ccc)	.	4aaa)	.	.	.	.	.	.	.
+.	.	.	.	4a~ 4ff	.	4f~ 4aa/	.	4fff~	.	.	.	.	.	.	.
+*grp:B	*	*grp:B	*	*	*	*	*	*	*	*	*	*	*	*	*
 4DD~	.	4D~	.	.	.	.	.	.	.	.	.	.	.	.	.
-.	.	.	.	4G~ 4e	.	4d~ 4ff	.	4ddd~	.	.	.	.	.	.	.
-(4CC	.	(4C	.	.	.	.	.	.	.	.	.	.	.	.	.
-.	.	.	.	8F' 8d	.	8c' 8ee	.	8ccc'	.	.	.	.	.	.	.
-=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72
-4FF)	.	4F)	.	1r	.	(8d 8ff	.	(8ddd	.	1r	.	1r	.	1r	.
-.	.	.	.	.	.	4f) 4aa	.	4fff)	.	.	.	.	.	.	.
+.	.	.	.	4f~ 4dd	.	4d~ 4ff	.	4ddd~	.	.	.	.	.	.	.
+(<4CC	.	(4C	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.	.	8e' 8cc	.	8c' 8ee	.	8ccc'	.	.	.	.	.	.	.
+=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+4FF)	.	4F)	.	((8f 8dd	.	(8d (8ff	.	(8ddd	.	1r	.	1r	.	1r	.
+.	.	.	.	4a 4ff))	.	4f/) 4aa/)	.	4fff)	.	.	.	.	.	.	.
 (8EE-X	.	(8E-X	.	.	.	.	.	.	.	.	.	.	.	.	.
-4GG-X)	.	4G-X)	.	.	.	[8f^ [8aa	.	[8fff^	.	.	.	.	.	.	.
-.	.	.	.	.	.	4.f] 4.aa]	.	4.fff]	.	.	.	.	.	.	.
+4GG-X)	.	4G-X)	.	[8a^ [8ff	.	[8f [8aa^>/	.	[8fff^	.	.	.	.	.	.	.
+.	.	.	.	4.a] 4.ff]	.	4.f] 4.aa]/	.	4.fff]	.	.	.	.	.	.	.
 [8FF	.	[8F	.	.	.	.	.	.	.	.	.	.	.	.	.
 4FF_	.	4F_	.	.	.	.	.	.	.	.	.	.	.	.	.
-.	.	.	.	.	.	[8f [8aa	.	[8fff	.	.	.	.	.	.	.
-=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73
-2FF_	.	2F_	.	1r	.	8fL] 8aa]	.	8fffL]	.	1r	.	1r	.	1r	.
-.	.	.	.	.	.	(8gJ 8bb-X	.	(8gggJ	.	.	.	.	.	.	.
-.	.	.	.	.	.	4a) 4ccc	.	4aaa)	.	.	.	.	.	.	.
-4.FF]	.	4.F]	.	.	.	4.f 4.aa	.	4.fff	.	.	.	.	.	.	.
-[8CC	.	[8CC	.	.	.	8c 8ee	.	8ccc	.	.	.	.	.	.	.
-*	*	*	*	*clefG2	*	*	*	*	*	*	*	*	*	*	*
-=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74
-8CC]	.	8CCL]	.	(8f 8dd	.	(8d 8ff	.	(8ddd	.	[1d	mf	1r	.	1r	.
-4.DD	.	(8DDJ	.	4f) 4a	.	4ff) 4aa	.	4fff)	.	.	.	.	.	.	.
-.	.	4D)	.	.	.	.	.	.	.	.	.	.	.	.	.
+.	.	.	.	[8a [8ff	.	[8f [8aa/	.	[8fff	.	.	.	.	.	.	.
+=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
+2FF_	.	2F_	.	8aL] 8ff]	.	8fL] 8aa]	.	8fffL]	.	1r	.	1r	.	1r	.
+.	.	.	.	((8b-XJ 8gg	.	(8gJ (8bb-X	.	(8gggJ	.	.	.	.	.	.	.
+.	.	.	.	4cc 4aa))	.	4a) 4ccc)	.	4aaa)	.	.	.	.	.	.	.
+4.FF]	.	4.F]	.	4.a 4.ff	.	4.f 4.aa/	.	4.fff	.	.	.	.	.	.	.
+[8CC	.	[8CC	.	8e 8cc	.	8c 8ee	.	8ccc	.	.	.	.	.	.	.
+=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
+!	!	!	!	!	!	!	!	!	!	!LO:TX:a:rj:t=a2	!	!	!	!	!
+8CC]	.	8CCL]	.	[8f (>8dd	.	((8d 8ff	.	(8ddd	.	[1d	mf	1r	.	1r	.
+4.DD	.	(8DDJ	.	4f] 4a)	.	4ff 4aa))	.	4fff)	.	.	.	.	.	.	.
+.	.	4D)/	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	4c~ 4cc	.	4ee~ 4ccc	.	4eee~	.	.	.	.	.	.	.
 (8EE	.	(8E	.	.	.	.	.	.	.	.	.	.	.	.	.
-4AA)	.	4A)	.	(8A 8a	.	(8cc 8aa	.	(8ccc	.	.	.	.	.	.	.
-.	.	.	.	4B-X) 4g	.	4dd) 4bb-X	.	4ddd)	.	.	.	.	.	.	.
+4AA)	.	4A)	.	(8A 8a	.	((8cc 8aa	.	(8ccc	.	.	.	.	.	.	.
+.	.	.	.	4B-X 4g)	.	4dd 4bb-X))	.	4ddd)	.	.	.	.	.	.	.
 (8GG	.	(8G	.	.	.	.	.	.	.	.	.	.	.	.	.
-=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75
+=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
 4BB-X)	.	4B-X)	.	4d~ 4a	.	4ff~ 4aa	.	4fff~	.	1d]	.	1r	.	2r	.
 (8AA	.	(8A	.	4c~ 4cc	.	4ee~ 4ccc	.	4eee~	.	.	.	.	.	.	.
 4C)	.	4c)	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	(8A 8a	.	(8cc 8aa	.	(8ccc	.	.	.	.	.	4r	.
-(8BB-	.	(8B-	.	4B-X) 4g	.	4dd) 4bb-X	.	4ddd)	.	.	.	.	.	.	.
+(8BB-	.	(8B-	.	4B-X 4g)	.	4dd 4bb-X)	.	4ddd)	.	.	.	.	.	.	.
 [4D)	.	[4d)	.	.	.	.	.	.	.	.	.	.	.	8r	.
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:rj:a:t=a2	!
 .	.	.	.	([8d [8a	.	([8dd [8ff	.	([8ddd	.	.	.	.	.	([8dd	f
-=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76
+!!LO:REH:t=9
+=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7
 1D]	.	8d]	.	8d] 8a]	.	8dd] 8ff]	.	8ddd]	.	[1d	.	[1dd [1ddd	f	8dd]	.
 *	*	*clefG2	*	*	*	*	*	*	*	*	*	*	*	*	*
-.	.	4d~ 4f	.	4f) 4a	.	4ff) 4aa	.	4fff)	.	.	.	.	.	4ff)	.
+*	*	*grp:A	*	*	*	*	*	*	*	*	*	*	*	*	*
+!	!	!LO:TX:a:t=div.	!	!	!	!	!	!	!	!	!	!	!	!	!
+.	.	4d~ 4f	.	4f 4a)	.	4ff 4aa)	.	4fff)	.	.	.	.	.	4ff)	.
 .	.	(8c 8e	.	(8g 8b-X	.	(8gg 8bb-X	.	(8ggg	.	.	.	.	.	(8gg	.
-.	.	4B-X) 4d	.	4d 4a	.	4aa 4ccc	.	4aaa	.	.	.	.	.	4aa	.
-.	.	4d~ 4f	.	8gL) 8b-	.	8ggL) 8bb-	.	8gggL)	.	.	.	.	.	8ggL)	.
-.	.	.	.	[8aJ [8cc	.	[8ffJ [8aa	.	[8fffJ	.	.	.	.	.	([8ffJ	.
-=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77
+.	.	4B-X 4d)	.	4d 4a	.	4aa 4ccc	.	4aaa	.	.	.	.	.	4aa	.
+.	.	4d~ 4f	.	8gL 8b-)	.	8ggL 8bb-)	.	8gggL)	.	.	.	.	.	8ggL)	.
+.	.	.	.	([8aJ [8cc	.	([8ffJ [8aa	.	([8fffJ	.	.	.	.	.	([8ffJ	.
+=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
+1DD	.	(8c 8e	.	8a] 8cc/]	.	8ff] 8aa]	.	8fff]	.	2.d]	.	2.dd] 2.ddd]	.	8ff]	.
+.	.	4B-X 4d)	.	4f 4a)	.	4dd 4ff)	.	4ddd)	.	.	.	.	.	4dd)	.
+.	.	[8c^ [8e	.	[8g^ [8b-X	.	[8aa^ [8ccc	.	[8aaa^	.	.	.	.	.	[8aa^	.
+.	.	8cL] 8e]	.	8gL] 8b-]	.	8aaL] 8ccc]	.	8aaaL]	.	.	.	.	.	8aaL]	.
+.	.	(8dJ 8f	.	((8aJ 8cc	.	((8ggJ 8bb-X	.	(8gggJ	.	.	.	.	.	(8ggJ	.
+.	.	4c#X 4f#X)	.	4a#X 4cc#X))/	.	4ff#X 4bb-))	.	4fff#X)	.	([4c#Xi	.	[4cc#X [4ccc#X	.	4ff#X)	.
 *	*	*	*	*	*	*	*	*X8va	*	*	*	*	*	*	*
-1DD	.	(8c 8e	.	8a] 8cc]	.	8ff] 8aa]	.	8ff]	.	2.d]	.	2.dd] 2.ddd]	.	8ff]	.
-.	.	4B-X) 4d	.	4f 4a	.	4dd 4ff	.	4dd	.	.	.	.	.	4dd)	.
-.	.	[8c^ [8e	.	[8g^ [8b-X	.	[8aa^ [8ccc	.	[8aa^	.	.	.	.	.	[8aa^	.
-.	.	8cL] 8e]	.	8gL] 8b-]	.	8aaL] 8ccc]	.	8aaL]	.	.	.	.	.	8aaL]	.
-.	.	(8dJ 8f	.	(8aJ 8cc	.	(8ggJ 8bb-X	.	(8ggJ	.	.	.	.	.	(8ggJ	.
-.	.	4c#X) 4f#X	.	4a#X) 4cc#X	.	4ff#X) 4bb-	.	4ff#X)	.	[4c#X	.	[4cc#X [4ccc#X	.	4ff#X)	.
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2)]s3[(s4,s5,s6,s7,s8)]
-!!!CDT: 1890/12/08-1959/08/28
-!!!CBL: Polička, Bohemia
-!!!CDL: Liestal, Switzerland
-!!!CNT: Czech
-!!!AGN: Orchestral; Symphonic
-!!!MCN: Münch, Charles
-!!!MDT: 1955/01/07
-!!!MGN: Boston Symphony Orchestra
-!!!MLC: Boston, Massachusetts, United States of America
-!!!MPD: 1955
-!!!MPN:
-!!!ODT: 1953
-!!!PDT: 1957
-!!!excerpt-start-measure: 70
-!!!excerpt-end-measure: 77
-!!!excerpt-start-time: 3:14
-!!!excerpt-end-time: 3:35
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: [(s1,s2)][(s3)][(s4,s5,s6,s7,s8)]
+!!!RDF**kern: < = below
+!!!RDF**kern: > = above
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!EED:Jason Lee
+!!!EEV:2021/11/18
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/25

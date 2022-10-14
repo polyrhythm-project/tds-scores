@@ -1,61 +1,56 @@
-!!!COM: Ives, Charles
-!!!OTL: String Quartet No. 1
-!!!OMV: II: Prelude: Allegro
-!!!example: 234
-!!!work: Ive-4
-**kern	**kern	**kern	**kern
-*part4	*part3	*part2	*part1
-*staff4	*staff3	*staff2	*staff1
-*I"Violoncello	*I"Viola	*I"Violin II	*I"Violin I
-*I'Vc.	*I'Vla.	*I'Vln. II	*I'Vln. I
-*clefF4	*clefC3	*clefG2	*clefG2
-*k[f#]	*k[f#]	*k[f#]	*k[f#]
-*G:	*G:	*G:	*G:
-*M4/4	*M4/4	*M4/4	*M4/4
-*MM121	*MM121	*MM121	*MM121
-=173	=173	=173	=173
-6FF#	6A 6e	6a' 6ff#	6cc' 6aa
-6C	6c 6e	6g' 6ee	6cc' 6gg
-[6FFn	[6Fn [6c	[6a [6ffn	[6cc [6aa
-6FF	6F 6c	6a 6ff	6cc 6aa
-[3BB-X 3Fn	[3B-X [3d	[3fn [3ff	[3dd [3bb-X
-=174	=174	=174	=174
-6BB-	6B- 6d	6f 6ff	6dd 6bb-
-6Fn	6Fn 6c	6fn 6ffn	6cc 6aa
-[6BB	[6B-X [6d	6f 6ff	[6dd [6bb-X
-6BB	6B- 6d	6f 6ff	6dd 6bb-
-[3F	[3Fn [3fn	[3a [3aa	[3cc [3ccc
-=175	=175	=175	=175
-6F	6F 6f	6a 6aa	6cc 6ccc
-[3BB-X [3Fn	[3B-X [3fn	[3b-X [3bb-X	[3dd [3ddd
-6BB- 6F	6B- 6f	6b-X 6bb-X	6dd' 6ddd
-6F	6Fn 6f	6a' 6aa	6cc' 6ccc
-6BB- 6F	6Fn 6f	6bn' 6bbn	6dd' 6ddd
-=176	=176	=176	=176
-4Fn	4Fn 4fn	4a' 4aa	4cc' 4ccc
-4BB-X 4F	4F 4f	4b' 4bb	4dd' 4ddd
-6EE-X 6BB-X	6G 6e-X	6ee 6bb	6gg 6eee-X
-6AA-X 6E-X	6A-X 6e-	6cc 6aa-X	6ee-X 6ccc
-6BBn 6F#X	6Bn 6d#X	6bn 6ff#X	6dd#X 6bbn
-=	=	=	=
-*-	*-	*-	*-
+!!!COM: Charles Ives
+!!!OTL: [T234_Ive-w4p16m173-176]
+**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A
+*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Violin I	*I"Violin I
+*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*
+*clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
+*k[f#]	*	*k[f#]	*	*k[f#]	*	*k[f#]	*
+*G:	*	*G:	*	*G:	*	*G:	*
+*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
+*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*
+=1	=1	=1	=1	=1	=1	=1	=1
+!!LO:TX:B:t=[Più mosso]
+!	!	!LO:TX:b:i:t=marc. sempre	!	!LO:TX:b:i:t=marc. sempre	!	!LO:TX:b:i:t=marc. sempre	!
+!	!	!LO:T:n=2:a	!	!LO:T:n=1:b	!	!LO:T:n=1:b	!
+!LO:TUP:a	!LO:DY:t=[ %s ]	!LO:TUP:a	!LO:DY:t=[ %s ]	!LO:TUP:a	!LO:DY:t=[ %s ]	!LO:TUP:a	!LO:DY:t=[ %s ]
+6FFni]	f	6Fni] 6c]	ff	6a'] 6ffni]	ff	6cc'] 6aa]	ff
+6C	.	6c 6e	.	6g' 6ee	.	6cc' 6gg	.
+[6FF	.	6F 6c	.	[6a [6ff	.	[6cc [6aa	.
+!LO:TUP:a	!	!LO:TUP:a	!	!LO:TUP:a	!	!LO:TUP:a	!
+6FF]	.	6F 6c	.	6a] 6ff]	.	6cc] 6aa]	.
+[3BB-X 3Fn/	.	[3B-X [3d	.	[3fn [3ff	.	[3dd [3bb-X	.
+=2	=2	=2	=2	=2	=2	=2	=2
+!LO:TUP:a	!	!LO:TUP:a	!	!LO:TUP:a	!	!LO:TUP:a	!
+6BB-]	.	6B-] 6d]	.	6f] 6ff]	.	6dd] 6bb-]	.
+6Fn	.	6Fn 6c	.	6fn 6ffn	.	6cc 6aa	.
+[6BB-y	.	[6B-X [6d	.	[6f [6ff	.	[6dd [6bb-X	.
+!LO:TUP:a	!	!LO:TUP:a	!	!LO:TUP:a	!	!LO:TUP:a	!
+6BB-]	.	6B-] 6d]	.	6f] 6ff]	.	6dd] 6bb-]	.
+[3F	.	[3Fn [3fn\	.	[3a [3aa	.	[3cc [3ccc	.
+=3	=3	=3	=3	=3	=3	=3	=3
+!LO:TUP:a	!	!LO:TUP:a	!	!LO:TUP:a	!	!LO:TUP:a	!
+6F]	.	6F] 6f]\	.	6a] 6aa]	.	6cc] 6ccc]	.
+[3BB-X [3Fn	.	[3B-X [3fn	.	[3b-X [3bb-X	.	[3dd [3ddd	.
+!LO:TUP:a	!	!LO:TUP:a	!	!LO:TUP:a	!	!LO:TUP:a	!
+6BB-] 6F]	.	6B-] 6f]	.	6b-] 6bb-]	.	6dd'] 6ddd]	.
+6F	.	6Fn 6f\	.	6a' 6aa	.	6cc' 6ccc	.
+6BB- 6F	.	6F 6f\	.	6b-' 6bb-	.	6dd' 6ddd	.
+=4	=4	=4	=4	=4	=4	=4	=4
+!LO:TUP:a	!	!LO:TUP:a	!	!LO:TUP:a	!	!LO:TUP:a	!
+!	!	!	!	!	!	!LO:TX:t=P:problem:nested tuplet	!
+5Fn	.	5Fn 5fn\	.	5a' 5aa	.	5cc' 5ccc	.
+5BB-X 5F/	.	5F 5f\	.	5b-X' 5bb-X	.	5dd' 5ddd	.
+5EE-X 5BB-X	.	5G 5e-X	.	5ee-X 5bb-	.	5gg 5eee-X	.
+5AA-X 5E-X	.	5A-X 5e-/	.	5cc 5aa-X	.	5ee-X 5ccc	.
+5BBn 5F#X/	.	5Bn 5d#X	.	5bn 5ff#X	.	5dd#X 5bbn	.
+=	=	=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
-!!!CDT: 1874/10/20-1954/05/19
-!!!CBL: Danbury, United States
-!!!CDL: New York, United States
-!!!CNT: American
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1957/04/24
-!!!MGN: Kohon String Quartet
-!!!MLC: New York, New York, United States of America
-!!!MPD: 1957
-!!!MPN: Bellam, Paul; Kay, Richard; Kohon, Harold; Kunicki, Raymond
-!!!ODT: 1909
-!!!PDT: 1961
-!!!excerpt-start-measure: 173
-!!!excerpt-end-measure: 176
-!!!excerpt-start-time: 5:04
-!!!excerpt-end-time: 5:11
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!RDF**kern: i = editorial accidental, bracket
+!!!EED:Jason Lee
+!!!EEV:2022/01/17
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/04/27

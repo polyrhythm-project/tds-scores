@@ -1,110 +1,95 @@
-!!!COM: Stravinsky, Igor (Fyodorovich)
-!!!OTL: Serenade in A for Piano
-!!!OMV: III: Rondoletto
-!!!example: 382
-!!!work: Str-24
-**kern	**kern
-*part1	*part1
-*staff2	*staff1
-*I"Piano	*
-*I'Pno.	*
-*clefF4	*clefG2
-*k[]	*k[]
-*C:	*C:
-*M2/4	*M2/4
-*MM121	*MM121
-=42	=42
-16c#XLL	(8ff#XL 8aa
-16D	.
-16B	8bJ
-16C#XJJ	.
-16ALL	8.ff#L 8.aa
-16BB	.
-16B	.
-16AAJJ	16bJk)
-=43	=43
-16ALL	(16ff#XLL 16aa
-16GG#X	16bJ
-16A	8ff#J) 8aa
-16AAJJ	.
-16C#XLL	(16eeLL 16gg#X
-16E	16aJ
-16A	8eeJ) 8gg#
-16c#XJJ	.
-=44	=44
-16FLL	(8ee-XL 8ggn
-16B-X	.
-*clefG2	*
-16e-X	16dd'Jk) 16bb-X
-16GJJ	16r
-16cLL	8r
-16f	.
-16A-X	8dd-X' 8gg
-16d-XJJ	.
-=45	=45
-16gLL	8cc'L 8ee-X
-16B-X	.
-16e-X	8a-X'J 8cc
-16a-XJJ	.
-16A-XLL	4b-XT 4dd-X
-16d-X	.
-16g	.
-16GJJ	.
-=46	=46
-16cLL	(8aL 8cc
-16f	.
-16A-X	16a-X'Jk) 16ff
-16d-XJJ	16r
-16gLL	8r
-16B-X	.
-16e-X	8f' 8b-X
-16a-XJJ	.
-=47	=47
-16cLL	(8dd-XL 8ff 8aa-X
-16f	.
-16b-X	16cc'Jk) 16ddd-X
-16B-XJJ	16r
-16e-XLL	8r
-16a-X	.
-16A-X	8ee-X 8gg 8bb-X
-16d-XJJ	.
-=48	=48
-16gLL	(8ccL 8ee-X
-16B-X	.
-16e-X	8aa-XJ) 8ccc
-16a-XJJ	.
-16A-XLL	(8b-XL 8dd-X
-16d-X	.
-16g	8ggJ) 8bb-X
-16GJJ	.
-=49	=49
-16cLL	(8aL 8cc
-16f	.
-16A	16ffJk) 16aa
-16cJJ	16r
-16fLL	8r
-16B-X	.
-16d	8bn 8ddn
-16fJJ	.
-=	=
-*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1882/06/17-1971/04/06
-!!!CBL: Lomonosov (Oranienbaum), Russia
-!!!CDL: New York, United States
-!!!CNT: Russian, French, American
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT: 1925/11/24
-!!!MGN:
-!!!MLC: Frankfurt, Germany
-!!!MPD: 1925
-!!!MPN: Stravinsky, Igor
-!!!ODT: 1925
-!!!PDT: 1926
-!!!excerpt-start-measure: 42
-!!!excerpt-end-measure: 49
-!!!excerpt-start-time: 0:50
-!!!excerpt-end-time: 1:00
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!COM: Igor (Fyodorovich) Stravinsky
+!!!OTL: [T382_Str-24/12/42-49]
+**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
+*part1	*part1	*part1	*part1	*part1	*part1
+*staff3	*	*staff2	*	*staff1	*
+*I"Piano	*	*I"Piano	*	*I"Piano	*
+*I'Pno.	*	*I'Pno.	*	*I'Pno.	*
+*clefF4	*	*clefG2	*	*clefG2	*
+*k[]	*	*k[]	*	*k[]	*
+*C:	*	*C:	*	*C:	*
+*M2/4	*	*M2/4	*	*M2/4	*
+=42	=42	=42	=42	=42	=42
+!	!	!	!	!LO:TX:t=[[quarter]=100]	!
+!	!LO:DY:ed=brack	!	!	!	!LO:DY:ed=brack
+16c#XLL	p	2ryy	.	(8ff#XL 8aa	p
+16D	.	.	.	.	.
+16B	.	.	.	8bJ	.
+16C#XJJ	.	.	.	.	.
+16ALL	.	.	.	8.ff#L 8.aa	.
+16BB	.	.	.	.	.
+16B	.	.	.	.	.
+16AAJJ	.	.	.	16bJk)	.
+=43	=43	=43	=43	=43	=43
+16ALL	.	2ryy	.	(16ff#XLL 16aa	.
+16GG#X	.	.	.	16bJ	.
+16A	.	.	.	8ff#J 8aa)	.
+16AAJJ	.	.	.	.	.
+16C#XLL	.	.	.	(16eeLL 16gg#X	.
+16E	.	.	.	16aJ	.
+16A	.	.	.	8eeJ 8gg#)	.
+16c#XJJ	.	.	.	.	.
+=44	=44	=44	=44	=44	=44
+!	!	!LO:TX:t=P:problem: Middle Staff disappears when it is moved to a subsequent system, as it is an empty staff.	!	!	!
+16FLL	.	2ryy	.	(8ee-XL 8ggn	.
+16B-	.	.	.	.	.
+16e-X>	.	.	.	16dd'Jk 16bb-X)	.
+16GJJ	.	.	.	16r	.
+/16c>LL	.	.	.	8r	.
+16f>	.	.	.	.	.
+16A-	.	.	.	8dd-X' 8gg	.
+16d->XJJ	.	.	.	.	.
+=45	=45	=45	=45	=45	=45
+/16g>LL	.	2ryy	.	8cc'L 8ee-X	.
+16B-	.	.	.	.	.
+16e->X	.	.	.	8a-X'J 8cc	.
+16a->XJJ	.	.	.	.	.
+/16A-LL	.	.	.	4b-X 4dd-XT	.
+16d->X	.	.	.	.	.
+16g>	.	.	.	.	.
+16GJJ	.	.	.	.	.
+!!linebreak:original
+=46	=46	=46	=46	=46	=46
+/16cLL	.	2ryy	.	(8aL 8cc	.
+16f>	.	.	.	.	.
+16A-	.	.	.	16a-X'Jk 16ff)	.
+16d->XJJ	.	.	.	16r	.
+/16g>LL	.	.	.	8r	.
+16B-	.	.	.	.	.
+16e->X	.	.	.	8f' 8b-X	.
+16a->XJJ	.	.	.	.	.
+=47	=47	=47	=47	=47	=47
+16c>LL	.	2ryy	.	(8dd-XL 8ff 8aa-X	.
+16f>	.	.	.	.	.
+16b->X	.	.	.	16cc'Jk 16ddd-X)	.
+16B->JJ	.	.	.	16r	.
+/16e->XLL	.	.	.	8r	.
+16a->X	.	.	.	.	.
+16A-	.	.	.	8ee-X 8gg 8bb-X	.
+16d->XJJ	.	.	.	.	.
+=48	=48	=48	=48	=48	=48
+/16g>LL	.	2ryy	.	(8ccL 8ee-X	.
+16B-	.	.	.	.	.
+16e->X	.	.	.	8aa-XJ 8ccc)	.
+16a->XJJ	.	.	.	.	.
+/16A-LL	.	.	.	(8b-XL 8dd-X	.
+16d->X	.	.	.	.	.
+16g>	.	.	.	8ggJ 8bb-X)	.
+16GJJ	.	.	.	.	.
+=49	=49	=49	=49	=49	=49
+/16c>LL	.	2ryy	.	(8aL 8cc	.
+16f>	.	.	.	.	.
+16A	.	.	.	16ffJk 16aa)	.
+16c>JJ	.	.	.	16r	.
+/16f>LL	.	.	.	8r	.
+16B-	.	.	.	.	.
+16d>	.	.	.	8bn 8dd	.
+16f>JJ	.	.	.	.	.
+=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-
+!!!system-decoration: [({(s1,s2,s3)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Daniel Wright
+!!!EEV: 2022/02/10

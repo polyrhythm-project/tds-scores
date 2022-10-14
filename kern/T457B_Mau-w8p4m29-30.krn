@@ -1,49 +1,38 @@
 !!!COM: Martinů, Bohuslav (Jan)
-!!!OTL: Scherzo for Piano, H. 138b
-!!!OMV:
-!!!example: 457B
-!!!work: Mau-8
+!!!OTL: [T457B_Mau-w8p4m29-30]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*I"Piano
 *I'Pno.	*	*
 *clefF4	*clefG2	*
 *k[f#c#g#d#]	*k[f#c#g#d#]	*
 *E:	*E:	*
 *M3/8	*M3/8	*
-*MM121	*MM121	*
-=29	=29	=29
-8AAA-X^L 8AA-X	8ffn 8fffn	.
-8Fn 8cn 8fn	16r	.
-.	16ee-XLL 16eee-X	.
-8BBB-X^J 8BB-X	16een 16eeen	.
+=1	=1	=1
+!	!LO:TX:t=[eighth]=160	!LO:DY:t=%s risoluto
+!LO:TX:b:t=[P]	!	!LO:DY:ed=brack
+8AAA-X^L 8AA-X	8ffnL 8fffn	ff
+!LO:TX:b:t=[x]	!	!
+8FnJ 8cn 8fn	16r	.
+.	16ee-XL 16eee-X	.
+!LO:TX:b:t=[P]	!	!
+8BBB-X^L 8BB-X	16een 16eeen	.
 .	16ffJJ 16fff	.
-=30	=30	=30
-8FnL 8B-X 8d-X	8gg-X 8ggg-X	.
-8BBB-X^ 8BB-X	16r	.
-.	16ffnLL 16fffn	.
-8E-XJ 8B- 8e-X	16gg- 16ggg-	< [
-.	16ggnJJ 16gggn	.
+=2	=2	=2
+!LO:TX:b:t=[x]	!	!
+8FnJ 8B-X 8d-X	8gg-XL 8ggg-X	.
+!LO:TX:b:t=[P]	!	!
+8GGG-X^L 8GG-X	16r	.
+.	16ffnL 16fffn	.
+!LO:TX:b:t=[x]	!	!
+8E-XJ 8B- 8e-X	16gg- 16ggg-	<
+.	16ggnJJ 16gggn	.[
 =	=	=
 *-	*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1890/12/08-1959/08/28
-!!!CBL: Polička, Bohemia
-!!!CDL: Liestal, Switzerland
-!!!CNT: Czech
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT:
-!!!MGN:
-!!!MLC:
-!!!MPD: unknown
-!!!MPN: unknown
-!!!ODT: 1924
-!!!PDT: 1976
-!!!excerpt-start-measure: 29
-!!!excerpt-end-measure: 30
-!!!excerpt-start-time: 0:28
-!!!excerpt-end-time: 0:30
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: [({(s1,s2)})]
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/11/19
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/17

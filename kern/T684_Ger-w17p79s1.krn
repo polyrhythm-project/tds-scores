@@ -1,75 +1,64 @@
-!!!COM: Gershwin, George
-!!!OTL: Shall We Dance, Excerpt Arranged for Voice and Piano
-!!!OMV: Let's Call the Whole Thing Off
-!!!example: 684
-!!!work: Ger-17
-**kern	**kern	**dynam
-*part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
-*clefG2	*clefG2	*
-*k[f#c#]	*k[f#c#]	*
-*D:	*D:	*
-*M4/4	*M4/4	*
-*MM121	*MM121	*
-=1	=1	=1
-*^	*	*
-(8aL	1d 1f#	(4aa	mf
-8b	.	.	.
-8a	.	8ddL	.
-8bJ	.	[8eeJ	.
-8aL	.	8ee])	.
-8b	.	4ee	.
-8a	.	.	.
-8bJ)	.	(8dd	.
-=2	=2	=2	=2
-(8gL	1d 1e	4bb	.
-8a	.	.	.
-8g	.	8eeL	.
-8aJ	.	[8ff#J	.
-8gL	.	2ff#])	.
-8a	.	.	.
-8g	.	.	.
-8aJ)	.	.	.
-*clefF4	*	*	*
-=3	=3	=3	=3
-(8dL	1D 1F#	(4dd	.
-8e	.	.	.
-8d	.	8aL	.
-8eJ	.	[8bJ	.
-8dL	.	8b])	.
-8e	.	4b	.
-8d	.	.	.
-8eJ)	.	(8a	.
-=4	=4	=4	=4
-*	*	*^	*
-!	!	!LO:TX:b:t=poco rit.	!	!
-(2G	(2E	2b	(4d	>
-.	.	.	4c#	.
-4G#X	2AA)	2e#X)	4B#X	.
-4Gn)	.	.	4c#)	.
-*v	*v	*	*	*
-*	*v	*v	*
-=	=	=
-*-	*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1898/09/26-1937/07/11
-!!!CBL: Brooklyn, United States
-!!!CDL: Hollywood, United States
-!!!CNT: American
-!!!AGN: Vocal; Solo
-!!!MCN:
-!!!MDT: 1937/05/01
-!!!MGN:
-!!!MLC: Hollywood, California, United States of America
-!!!MPD: 1937
-!!!MPN: Astaire, Adele; Astaire, Fred
-!!!ODT: 1937
-!!!PDT: unknown
-!!!excerpt-start-measure: 1
-!!!excerpt-end-measure: 4
-!!!excerpt-start-time: 0:00
-!!!excerpt-end-time: 0:11
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!COM: George Gershwin
+!!!OTL: [T684_Ger-w17p79s1]
+**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B
+*part1	*	*part1	*part1
+*staff2	*	*staff1	*
+*I"Piano	*	*	*
+*I'Pno.	*	*	*
+*clefF4	*	*clefG2	*
+*k[f#c#]	*	*k[f#c#]	*
+*D:	*	*D:	*
+*M2/2	*	*M2/2	*
+*met(c|)	*	*met(c|)	*
+=1	=1	=1	=1
+*^	*	*	*
+*clefG2	*	*	*	*
+!	!	!	!LO:TX:t=[[half]=60]	!
+!	!	!	!LO:TX:a:B:t=Allegretto	!
+(8aL	1d 1f#	.	(4aa	mf
+8b	.	.	.	.
+8a	.	.	8ddL	.
+8bJ	.	.	[8eeJ	.
+8aL	.	.	8ee])	.
+8b	.	.	4ee	.
+8a	.	.	.	.
+8bJ)	.	.	(8dd	.
+=2	=2	=2	=2	=2
+(8gL	1d 1e	.	4bb	.
+8a	.	.	.	.
+8g	.	.	8eeL	.
+8aJ	.	.	[8ff#J	.
+8gL	.	.	2ff#])	.
+8a	.	.	.	.
+8g	.	.	.	.
+8aJ)	.	.	.	.
+*clefF4	*	*	*	*
+=3	=3	=3	=3	=3
+(8dL	1F# 1A	.	(4dd	.
+8e	.	.	.	.
+8d	.	.	8aL	.
+8eJ	.	.	[>8bJ	.
+8dL	.	.	8b])	.
+8e	.	.	4b	.
+8d	.	.	.	.
+8eJ)	.	.	(>8a	.
+=4	=4	=4	=4	=4
+*	*	*	*^	*
+*	*	*	*grp:A	*grp:A	*grp:A
+!	!	!	!LO:TX:b:i:t=poco rit.	!	!
+(2G	(2E	.	2b	(4d	>
+.	.	.	.	4c#	.
+4G#X	2AA)	.	2e#X)	4B#X	.
+4Gn)	.	.	.	4c#)	]
+*v	*v	*	*	*	*
+*	*	*v	*v	*
+=	=	=	=
+*-	*-	*-	*-
+!!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Daniel Wright
+!!!EEV: 2021/09/07
+!!!EED2: Rafael Laurindo
+!!!EEV2: 2022/03/04

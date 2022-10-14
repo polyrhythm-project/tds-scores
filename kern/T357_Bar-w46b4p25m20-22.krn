@@ -1,63 +1,51 @@
-!!!COM: Bartók, Béla
-!!!OTL: Mikrokosmos (Microcosmos) for Piano
-!!!OMV: 109: From the Island of Bali
-!!!example: 357
-!!!work: Bar-46
-**kern	**kern
-*part1	*part1
-*staff2	*staff1
-*I"Piano	*
-*I'Pno.	*
-*clefG2	*clefG2
-*k[]	*k[]
-*	*
-*M4/4	*M4/4
-*MM121	*MM121
-=20	=20
-(8gL	(8ddL
-8f	8aJ
-8c	[4g#X
-8BJ)	.
-(8cL	8g#L])
-8fJ	(8a
-[4g-X	8dd
-.	8aJ
-=21	=21
-8g-L])	8g#XL)
-(8Bn	(8dd
-8c	8a
-8fJ	8g#J)
-8g-XL)	(8ddL
-(8B	8a
-8c	8g#)
-8fJ	(8ddJ
-=22	=22
-8g-XL)	8aL
-(8B	8g#X)
-8c	(8dd
-8fJ	8aJ)
-4.g-)	(4g#
-.	8dd)
-8r	8r
-=	=
-*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1881/03/25-1945/09/26
-!!!CBL: Sînnicolau Mare (Nagyszentmiklós), Romania (Hungary)
-!!!CDL: New York, United States
-!!!CNT: Hungarian
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT:
-!!!MGN:
-!!!MLC:
-!!!MPD: unknown
-!!!MPN: unknown
-!!!ODT: 1926 (rev. 1939)
-!!!PDT: 1940
-!!!excerpt-start-measure: 20
-!!!excerpt-end-measure: 22
-!!!excerpt-start-time: 0:53
-!!!excerpt-end-time: 1:00
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!COM: Béla Bartók
+!!!OTL: [T357_Bar-w46b4p25m20-22]
+**kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
+*part1	*part1	*part1
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
+*clefG2	*clefG2	*
+*k[]	*k[]	*
+*M4/4	*M4/4	*
+=20	=20	=20
+!	!LO:TX:t=[[quarter]=96]	!LO:DY:ed=brack
+8g-XLj]	(8ddL	p
+8f	8aJ	.
+8c	[4g#X	.
+8BJ)	.	.
+(8cL	8g#L<])	.
+!	!LO:TX:B:t=2	!
+8fJ	(>8a	.
+!	!LO:TX:B:t=5	!
+[4g-X	8dd	.
+.	8aJ	.
+=21	=21	=21
+8g-L])	8g#XL<)	.
+(8Bn	(8dd	.
+8c	8a	.
+8fJ	8g#J)	.
+8g-XL)	(8ddL	.
+(8B	8a	.
+8c	8g#)	.
+8fJ	(8ddJ	.
+=22	=22	=22
+8g-XL)	8aL<	.
+(8B	8g#X)	.
+8c	(8dd	.
+8fJ	8aJ)	.
+4.g-)	(>4g#	.
+.	8dd)	.
+8r	8r	.
+*clefF4	*	*
+=	=	=
+*-	*-	*-
+!!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!RDF**kern: j = editorial accidental, bracket
+!!!EED: Rafael Laurindo
+!!!EEV2: 2021/07/15
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/02/09

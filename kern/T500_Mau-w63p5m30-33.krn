@@ -1,81 +1,66 @@
-!!!COM: Martinů, Bohuslav (Jan)
-!!!OTL: Fantazie a toccata (Fantasy and Toccata) for Piano
-!!!OMV: I: Fantaisie (Fancy)
-!!!example: 500
-!!!work: Mau-63
-**kern	**kern	**dynam
-*part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
-*clefF4	*clefG2	*
-*k[]	*k[]	*
-*C:	*C:	*
-*M3/8	*M3/8	*
-*MM121	*MM121	*
-=30	=30	=30
-(24DnLL	16cc-XKL 16dd-X 16ff	f
-24DD	.	.
-.	8ff~ 8ccc-X 8ddd-X 8fff	.
-24AAJ	.	.
-32DLL	.	.
-32C#X	.	.
-32D	8cc-~ 8dd- 8ff	.
-32FJJ	.	.
-8AJ)	.	.
-.	(16d-XJk 16f	.
-=31	=31	=31
-(32BBBLLL	8cL 8e	.
-32FF#X	.	.
-32BB	.	.
-32C#XJJ	.	.
-32D#XLL	8d-X) 8f	.
-32F#X	.	>
-32B	.	.
-32c#XJJ	.	.
-8dnJ)	(8ff~J 8ccc-X 8ddd-X 8fff	]
-=32	=32	=32
-!	!LO:TX:b:i:t=meno f	!
-32r	8cc-XL) 8dd-X 8ff	.
-(32AAALLL	.	.
-32EE	.	.
-32AAJJ	.	.
-32C#XLL	16d-Xk 16f	.
-32E	.	>
-32G	8c-X 8e-X	.
-32AJJ	.	.
-8BJ)	.	]
-.	[16d-Jk [16f	.
-=33	=33	=33
-8GG:L 8D: 8B-X:	16d-KL] 16f]	.
-.	(8dd-X 8ff	.
-(32GGLL	.	.
-32C	.	.
-32A-X	8d-X 8f	.
-32CJJ)	.	.
-(32EELL	.	.
-32BB	.	.
-32G#X	16c-XJk) 16e-X	.
-32BBJJJ)	.	.
-=	=	=
-*-	*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1890/12/08-1959/08/28
-!!!CBL: Polička, Bohemia
-!!!CDL: Liestal, Switzerland
-!!!CNT: Czech
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT: 1943/02/02
-!!!MGN:
-!!!MLC: New York, New York, United States of America
-!!!MPD: 1943
-!!!MPN: Firkušny, Rudolf
-!!!ODT: 1940
-!!!PDT: 1951
-!!!excerpt-start-measure: 30
-!!!excerpt-end-measure: 33
-!!!excerpt-start-time: 1:36
-!!!excerpt-end-time: 1:45
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!COM: Bohuslav (Jan) Martinů
+!!!OTL: [T500_Mau-63/5/30-33]
+**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B
+*part1	*part1	*part1	*part1
+*staff2	*staff2	*staff1	*staff1
+*I"Piano	*	*	*
+*I'Pno.	*	*	*
+*clefF4	*	*clefG2	*
+*k[]	*	*k[]	*
+*C:	*	*C:	*
+*M3/8	*	*M3/8	*
+=30	=30	=30	=30
+!	!	!LO:TX:t=[[eighth]=102]	!
+(24DnLL)	.	16cc-XKL 16dd-X 16ff)	f
+24DD	.	.	.
+.	.	8ff~ 8ccc-X 8ddd-X 8fff	.
+24AAJJ	.	.	.
+32DLLL	.	.	.
+32C#X	.	.	.
+32D	.	8cc-~ 8dd- 8ff	.
+32FJJ	.	.	.
+8AJ)	.	.	.
+.	.	(16d-XJk 16f	.
+=31	=31	=31	=31
+(32BBBLLL	.	8cL 8e	.
+32FF#X	.	.	.
+32BB	.	.	.
+32C#XJJ	.	.	.
+32D#XLL	.	8d-X 8f)	.
+32F#X	>	.	.
+32B	.	.	.
+32c#XJJ	.	.	.
+8dnJ)	]]	(8ff~J 8ccc-X 8ddd-X 8fff	.
+=32	=32	=32	=32
+!	!	!	!LO:DY:t=meno %s
+32r	.	8cc-XL 8dd-X 8ff)	f
+(32AAALLL	.	.	.
+32EE	.	.	.
+32AAJJ	.	.	.
+32C#XLL	.	16d-Xk 16f	.
+32E	>	.	.
+32G	.	(8c-X 8e-X	.
+32AJJ	.	.	.
+8BJ)	]]	.	.
+.	.	[16d-Jk [16f	.
+=3	=33	=33	=33
+8GG: 8D: 8B-X:	.	16d-KL] 16f])	.
+.	.	(>8dd-X 8ff	.
+(/32GGLLL	.	.	.
+32C	.	.	.
+32A-X	.	8d-X 8f	.
+32C)JJJ	.	.	.
+(32EELLL	.	.	.
+32BB	.	.	.
+32G#X	.	16c-XJk 16e-X	.
+32BB)JJJ	.	.	.
+=||	=||	=||	=||
+*-	*-	*-	*-
+!!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/08/11
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/02/16

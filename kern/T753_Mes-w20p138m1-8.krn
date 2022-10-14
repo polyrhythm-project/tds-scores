@@ -1,88 +1,74 @@
-!!!COM: Messiaen, Olivier (Eugène Prosper Charles)
-!!!OTL: Vingt Regards sur l'Enfant-Jésus (Twenty Gazes on the Christ Child) for Piano
-!!!OMV: XVIII: Regard de l'onction terrible (Contemplation of the Awesome Anointing)
-!!!example: 753
-!!!work: Mes-20
+!!!COM: Olivier (Eugène Prosper Charles) Messiaen
+!!!OTL: [T753_Mes-20/138/1-8]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
 *M2/4	*M2/4	*
-*MM121	*MM121	*
-*8ba	*8va	*
 =1	=1	=1
+*8ba	*8va	*
+!	!LO:TX:t=Modéré ([quarter]=80)	!
 [2AAAA [2DDD#X [2GGG#X	16bbb-XLL 16eeee 16aaaa	p
 .	16aaa 16dddd#X 16gggg#X	.
 .	16aaa-X 16ddddn 16ggggn	.
-.	16gggnJJ 16cccc#X 16ffff#X	.
+.	16gggJJ 16cccc#X 16ffff#X	.
 .	16ggg-XLL 16ccccn 16ffffn	.
 .	16fff 16bbb- 16eeee	.
-.	16eee 16bbb-X 16eeee-X	.
+.	16eeen 16bbb-X 16eeee-X	.
 .	16eee-XJJ 16aaa- 16dddd	.
 =2	=2	=2
-!	!LO:TX:b:t=cresc.	!
-2AAAA] 2DDD#] 2GGG#]	16dddLL 16ggg#X 16cccc#X	.
+2AAAA] 2DDD#X] 2GGG#X]	16dddLL 16ggg#X 16cccc#X	<
 .	16ddd-X 16gggn 16ccccn	.
 .	16ccc 16fff#X 16bbb	.
-.	16bbnJJ 16fff# 16bbb-X	.
+.	16bbnJJ 16fffn 16bbb-X	.
 .	16bb-XLL 16eee 16aaa	.
 .	16aan 16eee-X 16aaa-X	.
 .	16aa-X 16dddn 16ggg	.
 .	16ggJJ 16ccc#X 16fff#X	.
 *	*X8va	*
 =3	=3	=3
+!LO:TX:a:t=(Valeurs progressivement accélérées)	!	!
+!	!LO:TX:a:t=(Valeurs progressivement ralenties)	!
 [2BBBB-X [2EEE [2AAA	16gg-XKL 16cccn 16fffn	.
 .	8ff 8bbn 8eee	.
-.	[16eenJk [16aa-X [16ddd-X	.
-.	8eeL] 8aa-] 8ddd-]	.
-.	[8ee-XJ [8aa- [8ddd-	.
+.	[16eenJk [16bb-X [16eee-X	.
+.	8eeL] 8bb-] 8eee-]	.
+.	[8ee-XJ [8aa [8ddd	.
+!!linebreak:original
 =4	=4	=4
-4BBBB-_ 4EEE_ 4AAA_	8ee-] 8aa-] 8ddd-]	.
+4BBBB-X_ 4EEE_ 4AAA_	8ee-X] 8aa] 8ddd]	.
 .	[4dd [4gg#X [4ccc#X	.
 8.BBBB-L] 8.EEE] 8.AAA]	.	.
 .	16ddLL] 16gg#] 16ccc#]	.
 [16BBBBnJk [16FFF [16BBB-X	[16dd-XJJ [16ggn [16cccn	.
 =5	=5	=5
-2BBBBn_ 2FFF_ 2BBB-_	4dd-_ 4gg_ 4ccc_	.
+2BBBBnX_ 2FFF_ 2BBB-X_	4dd-X_ 4gg_ 4ccc_	.
 .	16dd-KL] 16gg] 16ccc]	.
 .	[8.ccJ [8.ff#X [8.bbn	.
 =6	=6	=6
-4BBBBn_ 4FFF_ 4BBB-_	4cc] 4ff#] 4bbn]	.
-16BBBBnKL] 16FFF] 16BBB-]	[4b [4ffn [4bb-X	.
-[8.BBBBnJ [8.FFF#X [8.BBBn	.	.
+4BBBBnX_ 4FFF_ 4BBB-X_	4cc] 4ff#X] 4bb]	.
+16BBBBKL] 16FFF] 16BBB-]	[4bn [4ffn [4bb-X	.
+[8.CCCJ [8.FFF#X [8.BBBn	.	.
 =7	=7	=7
-2BBBBn_ 2FFF#_ 2BBBn_	4b] 4ffn] 4bb-]	.
-!	!LO:TX:b:t=cresc. sempre	!
-.	[4b-X [4ee [4aa	.
+2CCC_ 2FFF#X_ 2BBB_	4bnX] 4ff] 4bb-X]	.
+!	!	!LO:DY:t=%s sempre
+.	[4b-X [4ee [4aa	<
 =8	=8	=8
+!	!LO:TX:i:b:t=sempre	!
+8CCC] 8FFF#X] 8BBB]	4b-X_ 4ee_ 4aa_	.
+[4.DDD-X [4.GGG [4.CC	.	.
 *X8ba	*	*
-8BBBn] 8FF#] 8BBn]	4b-_ 4ee_ 4aa_	.
-[4.DD-X [4.GG [4.C	.	.
 .	16b-KL] 16ee] 16aa]	.
-.	[8.aJ [8.ee-X [8.aa-X	.
-=	=	=
+.	[8.anJ [8.ee-X [8.aa-X	.
+=||	=||	=||
 *-	*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1908/12/10-1992/04/27
-!!!CBL: Avignon, France
-!!!CDL: Paris, France
-!!!CNT: French
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT: 1945/03/26
-!!!MGN:
-!!!MLC: Paris, France
-!!!MPD: 1945
-!!!MPN: Loriod, Yvonne
-!!!ODT: 1944
-!!!PDT: 1947
-!!!excerpt-start-measure: 1
-!!!excerpt-end-measure: 8
-!!!excerpt-start-time: 0:00
-!!!excerpt-end-time: 0:14
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: [({(s1,s2)})]
+!!!EED: Gabriella Vici
+!!!EEV: 2021/09/28
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/03/18

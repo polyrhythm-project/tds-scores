@@ -1,96 +1,80 @@
-!!!COM: Bartók, Béla
-!!!OTL: Scherzo for Piano and Orchestra
-!!!OMV: II: Scherzo allegro
-!!!example: 325
-!!!work: Bar-2
+!!!COM: Béla Bartók
+!!!OTL: [T325_Bar-w2p48m340-345]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**dynam	**kern	**dynam
-*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part2	*part1	*part1
+*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*grp:A	*	*grp:B	*
+*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part2	*part1	*
 *staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*staff2	*	*staff1	*
 *I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*	*I"Piano	*	*	*I"Clarinet in Bb	*
 *I'Cb.	*	*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Vln. I	*	*I'Pno.	*	*	*I'Cl.	*
 *clefF4	*	*clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*clefF4	*clefF4	*	*clefG2	*
-*ITrd0c0	*	*	*	*	*	*	*	*	*	*	*	*	*ITrd1c2	*
+*ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICklav	*ICklav	*	*ICww	*
+*Icbass	*	*Icello	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*Ipiano	*Ipiano	*	*Iclars	*
+*ITrd7c12	*	*	*	*	*	*	*	*	*	*	*	*	*ITrd1c2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*k[]	*	*k[b-e-]	*
-*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*M6/8	*	*M6/8	*
-*MM114	*	*MM114	*	*MM114	*	*MM114	*	*MM114	*	*MM114	*MM114	*	*MM114	*
-=236	=236	=236	=236	=236	=236	=236	=236	=236	=236	=236	=236	=236	=236	=236
-!LO:TX:a:t=pizz.	!	!LO:TX:a:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!
-4.A	pp	4.AA	pp	16%3r	.	16%3r	.	16%3r	.	4.EE~ 4.AA	4.E~ 4.A	p	8eeXL	pp
+*	*	*	*	*	*	*	*	*	*	*Xtuplet	*	*	*	*
+*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*M2/4	*	*M6/8	*
+=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
+*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*Xtuplet	*	*	*Xtuplet	*	*	*
+!LO:TX:a:t=pizz.	!	!LO:TX:a:t=pizz.	!	!	!	!	!	!	!	!	!	!LO:DY:t=%s poco marcato	!LO:TX:t=a tempo [half-dot] = [half] = 76	!LO:DY:t=%s sempre stacc.
+8%3AAA	pp	8%3AA	pp	16%3r~	.	16%3r~	.	16%3r~	.	8%3AAA~ 8%3EE 8%3AA	8%3E~ 8%3A	p	8eeXL	pp
 .	.	.	.	.	.	.	.	.	.	.	.	.	8cc	.
 !	!	!	!	!LO:TX:a:t=pizz.	!	!LO:TX:a:t=pizz.	!	!LO:TX:a:t=pizz.	!	!	!	!	!	!
-.	.	.	.	16%3E	pp	16%3c	pp	16%3e	pp	.	.	.	.	.
+.	.	.	.	16%3EL	pp	16%3cL	pp	16%3eL	pp	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8ddJ	.
-4.E	.	4.EE	.	16%3r	.	16%3r	.	16%3r	.	4.BBB~ 4.EE 4.BB	4.E~ 4.B	.	8bXL	.
+8%3EEE	.	8%3EE	.	16%3r	.	16%3r	.	16%3r~	.	8%3BBB~ 8%3EE 8%3BB	8%3E~ 8%3B	.	8bXL	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8cc	.
-.	.	.	.	16%3E	.	16%3B	.	16%3e	.	.	.	.	.	.
-.	.	.	.	.	.	.	.	.	.	.	.	.	8gJ	.
-=237	=237	=237	=237	=237	=237	=237	=237	=237	=237	=237	=237	=237	=237	=237
-4.A	.	4.AA	.	16%3r	.	16%3r	.	16%3r	.	4.CC~ 4.EE 4.C	4.E~ 4.c	.	8eXL	.
-.	.	.	.	.	.	.	.	.	.	.	.	.	8e	.
-.	.	.	.	16%3E	.	16%3A	.	16%3e	.	.	.	.	.	.
-.	.	.	.	.	.	.	.	.	.	.	.	.	8eJ	.
-4.B	.	4.BB	.	16%3r	.	16%3r	.	16%3r	.	4.BBB~ 4.EE 4.BB	4.E~ 4.B	.	8eL	.
-.	.	.	.	.	.	.	.	.	.	.	.	.	8f#X	.
-.	.	.	.	16%3E	.	16%3G#X	.	16%3e	.	.	.	.	.	.
+.	.	.	.	16%3EJ	.	16%3BJ	.	16%3eJ	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8g#XJ	.
-=238	=238	=238	=238	=238	=238	=238	=238	=238	=238	=238	=238	=238	=238	=238
-4.c	.	4.C	.	16%3r	.	16%3r	.	16%3r	.	16%3AAAL 16%3EE 16%3AA	16%3EL 16%3A	.	8aL	.
+=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
+8%3AAA	.	8%3AA	.	16%3r~	.	16%3r~	.	16%3r~	.	8%3CC~ 8%3EE 8%3C	8%3E~ 8%3c	.	8eXL	.
+.	.	.	.	.	.	.	.	.	.	.	.	.	8e	.
+.	.	.	.	16%3EL	.	16%3AL	.	16%3eL	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	.	.	.	.	.	8eJ	.
+8%3BBB	.	8%3BB	.	16%3r~	.	16%3r	.	16%3r~	.	8%3BBB~ 8%3EE 8%3BB	8%3E~ 8%3B	.	8eL	.
+.	.	.	.	.	.	.	.	.	.	.	.	.	8f#X	.
+.	.	.	.	16%3EJ	.	16%3G#XJ	.	16%3eJ	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	.	.	.	.	.	8g#XJ	.
+=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+8%3CC	.	8%3C	.	16%3r~	.	16%3r~	.	16%3r~	.	16%3AAAL 16%3EE 16%3AA	16%3EL 16%3A	.	8aL	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8bX	.
-.	.	.	.	16%3E	.	16%3A	.	16%3e	.	16%3GGG#XJ 16%3EE 16%3GG#X	16%3EJ 16%3G#X	.	.	.
+.	.	.	.	16%3EL	.	16%3AL	.	16%3eL	.	16%3GGG#XJ 16%3EE 16%3GG#X	16%3EJ 16%3G#X	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8ccJ	.
-4.E	.	4.EE	.	16%3r	.	16%3r	.	16%3r	.	4.AAA~ 4.EE 4.AA	4.E~ 4.A	.	8ddL	.
+8%3EEE	.	8%3EE	.	16%3r~	.	16%3r~	.	16%3r~	.	8%3AAA~ 8%3EE 8%3AA	8%3E~ 8%3A	.	8ddL	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8eeX	.
-.	.	.	.	16%3E	.	16%3A	.	16%3e	.	.	.	.	.	.
+.	.	.	.	16%3EJ	.	16%3AJ	.	16%3eJ	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8ff#XJ	.
-=239	=239	=239	=239	=239	=239	=239	=239	=239	=239	=239	=239	=239	=239	=239
-4.c#X	.	4.C#X	.	16%3r	.	16%3r	.	16%3r	.	16%3BBB-XL 16%3EE 16%3BB-X	16%3EL 16%3B-X	.	8ffL	.
+=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
+8%3CC#X	.	8%3C#X	.	16%3r~	.	16%3r~	.	16%3r~	.	16%3BBB-XL 16%3EE 16%3BB-X	16%3EL 16%3B-X	.	8ffnL	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8aa	.
-.	.	.	.	16%3E	.	16%3Gn	.	16%3An	.	16%3AAAJ 16%3EE 16%3AA	16%3EJ 16%3A	.	.	.
+.	.	.	.	16%3EL	.	16%3GnL	.	16%3AnL	.	16%3AAAJ 16%3EE 16%3AA	16%3EJ 16%3A	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8gg#XJ	.
-4.E	.	4.EE	.	16%3r	.	16%3r	.	16%3r	.	4.BBB-~ 4.EE 4.BB-	4.E~ 4.B-	.	8bb-L	.
+8%3EEE	.	8%3EE	.	16%3r~	.	16%3r~	.	16%3r~	.	8%3BBB-~ 8%3EE 8%3BB-	8%3E~ 8%3B-	.	8bb-L	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8aa	.
-.	.	.	.	16%3E	.	16%3G	.	16%3B-X	.	.	.	.	.	.
+.	.	.	.	16%3EJ	.	16%3GJ	.	16%3B-XJ	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8ffJ	.
-=240	=240	=240	=240	=240	=240	=240	=240	=240	=240	=240	=240	=240	=240	=240
-4.e	.	4.E	.	16%3r	.	16%3r	.	16%3r	.	16%3BBBnL 16%3BBn	16%3EL 16%3F#X 16%3Bn	.	8eeXL	.
+=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
+8%3EE	.	8%3E	.	16%3r~	.	16%3r~	.	16%3r~	.	16%3BBBnL 16%3BBn	16%3EL 16%3F#X 16%3Bn	.	8eeXL	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8bX	.
-.	.	.	.	16%3F#X	.	16%3A	.	16%3A#X	.	16%3AA#XJ	16%3A#XJ	.	.	.
+.	.	.	.	16%3F#XL	.	16%3AnL	.	16%3A#XL	.	16%3AA#XJ	16%3A#XJ	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8ccJ	.
-4.E	.	4.EE	.	16%3r	.	16%3r	.	16%3r	.	4.BB~	4.D#X~ 4.F# 4.B	.	8cc#XL	.
+8%3EEE	.	8%3EE	.	16%3r~	.	16%3r~	.	16%3r~	.	8%3BB~	8%3D#X~ 8%3F# 8%3B	.	8cc#XL	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8dd	.
-.	.	.	.	16%3F#	.	16%3A	.	16%3Bn	.	.	.	.	.	.
+.	.	.	.	16%3F#J	.	16%3AJ	.	16%3BnJ	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8dd#XJ	.
-=241	=241	=241	=241	=241	=241	=241	=241	=241	=241	=241	=241	=241	=241	=241
+=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
 *	*	*	*	*	*	*	*	*	*	*8ba	*	*	*	*
-4.e	.	4.E	.	16%3r	.	16%3r	.	16%3r	.	16%3EEL	16%3G#XL 16%3B 16%3e	.	8eeXL	.
-.	.	.	.	.	.	.	.	.	.	.	.	.	8b-	.
-.	.	.	.	16%3E	.	16%3G#X	.	16%3B	.	16%3EEEJ	16%3EJ	.	.	.
+8%3EE	.	8%3E	.	16%3r~	.	16%3r~	.	16%3r~	.	16%3EEL	16%3G#XL 16%3B 16%3e	.	8eeXL	.
+.	.	.	.	.	.	.	.	.	.	.	.	.	8b-X	.
+.	.	.	.	16%3EL	.	16%3G#XL	.	16%3BL	.	16%3EEEJ	16%3EJ	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8bXJ	.
-4.E	.	4.EE	.	16%3r	.	16%3r	.	16%3r	.	4.EE~	4.e~	.	8ccL	.
+8%3EEE	.	8%3EE	.	16%3r~	.	16%3r~	.	16%3r~	.	8%3EE~	8%3e~	.	8ccL	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	8cc#X	.
-.	.	.	.	16%3G#X	.	16%3B	.	16%3e	.	.	.	.	.	.
-.	.	.	.	.	.	.	.	.	.	.	.	.	8ddJ	.
-*	*	*	*	*	*	*	*	*	*	*X8ba	*	*	*	*
+.	.	.	.	16%3G#XJ	.	16%3BJ	.	16%3eJ	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	.	.	.	.	.	8ddnJ	.
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: s1{(s2,s3)}[(s4,s5,s6,s7,s8)]
-!!!CDT: 1881/03/25-1945/09/26
-!!!CBL: Sînnicolau Mare (Nagyszentmiklós), Romania (Hungary)
-!!!CDL: New York, United States
-!!!CNT: Hungarian
-!!!AGN: Orchestral; Concerto
-!!!MCN: Lehel, György
-!!!MDT: 1961/09/28
-!!!MGN: Orchestra of Hungarian Radio
-!!!MLC: Budapest, Hungary
-!!!MPD: 1961
-!!!MPN: Tusa, E.
-!!!ODT: 1904
-!!!PDT: 1961
-!!!excerpt-start-measure: 236
-!!!excerpt-end-measure: 241
-!!!excerpt-start-time: 5:30
-!!!excerpt-end-time: 5:36
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: [(s1)][({(s2,s3)})][([(s4,s5)]s6,s7,s8)]
+!!!EED: Claudio de Freitas
+!!!EEV: 2021/10/01
+!!!EED2: Jason Lee
+!!!EEV2: 2022/03/14

@@ -1,75 +1,78 @@
-!!!COM: Bartók, Béla
-!!!OTL: Sonata No. 2 for Violin and Piano
-!!!OMV: I: Molto moderato
-!!!example: 349
-!!!work: Bar-27
+!!!COM: Béla Bartók
+!!!OTL: [T349_Bar-w27p5h5m1-5]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
-*staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Violin	*
-*I'Pno.	*	*	*I'Vln.	*
+*staff3	*staff2	*staff1/2	*staff1	*staff1
+*I"Piano	*I"Piano	*	*I"Violin	*
+*I'Pno.	*I'Pno.	*	*I'Vln.	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
-*M2/4	*M2/4	*	*M2/4	*
-*MM121	*MM121	*	*MM121	*
-8%3AA#X	8%3A#X 8%3a#X	pp	(10.BnL	pp
-.	.	.	10.c#X	.
-.	.	.	10.d	.
-8%3GG#X	8%3G#X 8%3g#X	.	.	.
-.	.	.	10.e	.
-.	.	.	10.gJ	.
+*M5/8	*M5/8	*	*M5/8	*
+!!LO:REH:t=5
 =34	=34	=34	=34	=34
-8%3FF#X	8%3F#X 8%3f#X	.	10.aL	.
-.	.	.	10.b	.
-.	.	.	10.g	.
-[8%3GG#X	[8%3G#X [8%3g#X	.	.	.
-.	.	.	10.e-X	.
-.	.	.	10.cJ)	.
+!	!	!	!LO:TX:t=Poco più andante ([eighth]=108)	!LO:DY:t=%s dolce
+!LO:TUP:b:xbr	!LO:TUP:xbr	!	!	!
+!LO:TX:t=P:problem: tuplet number should be 4 throughout	!	!	!	!
+!	!LO:TX:a:t=P:problem: tuplet number should be 4 throughout	!	!	!
+!LO:N:vis=32%5	!LO:N:vis=32%5	!	!	!
+(16%5AA#X	(>16%5F#X 16%5f#X	pp	(8BnL	pp
+.	.	.	8c#X	.
+.	.	.	8d	.
+!LO:N:vis=32%5	!LO:N:vis=32%5	!	!	!
+16%5GG#X	16%5G#X 16%5g#X	.	.	.
+.	.	.	8e	.
+.	.	.	8gJ	.
 =35	=35	=35	=35	=35
-8%3GG#]	8%3G#] 8%3g#]	.	(10.AL	<
-.	.	.	10.B	.
-.	.	.	10.c#X	.
-[8%3EE [8%3E	[8%3e	.	.	.
-.	.	.	10.d#X	.
-.	.	.	10.A#XJ)	[
+!LO:TUP:b:xbr	!LO:TUP:xbr	!	!	!
+!LO:N:vis=32%5	!LO:N:vis=32%5	!	!	!
+16%5FF#X	16%5F#X 16%5f#X	.	8aL	.
+.	.	.	8b	.
+.	.	.	8g	.
+!LO:N:vis=32%5	!LO:N:vis=32%5	!	!	!
+[16%5GG#X	[16%5G#X [16%5g#X	.	.	.
+.	.	.	8e-X	.
+.	.	.	8cnJ)	.
 =36	=36	=36	=36	=36
-64%3EELLL] 64%3E]	64%3eLLL]	.	(10.BL	.
-[64%3GG#XJJ [64%3G#X	[64%3g#XJJ	.	.	.
-16%3.GG#J] 16%3.G#]	16%3.g#J]	.	.	.
-.	.	.	10.cn	.
-.	.	.	10.An	<
-[8%3DD [8%3D	[8%3d	.	.	.
-.	.	.	10.d#X	.
-.	.	.	10.A#XJ)	[[
+!LO:TUP:b:xbr	!LO:TUP:xbr	!	!	!
+!LO:N:vis=32%5	!LO:N:vis=32%5	!	!	!
+16%5GG#]	16%5G#] 16%5g#]	.	(8AL	.
+.	.	.	8B	<
+.	.	.	8c#X	.
+!LO:N:vis=32%5	!LO:N:vis=32%5	!	!	!
+[16%5EE [16%5E	[16%5e	.	.	.
+.	.	.	8d#X	.
+.	.	.	8A#XJ)	[
 =37	=37	=37	=37	=37
-64%3DDLLL] 64%3D]	64%3dLLL]	.	(10.g#XL	.
-[64%3GGnJJ [64%3Gn	[64%3gnJJ	.	.	.
-16%3.GGJ] 16%3.G]	16%3.gJ]	.	.	.
-.	.	.	10.d#X	.
-.	.	.	10.b	<
-[8%3CCn [8%3Cn	[8%3cn	pp	.	.
-.	.	.	10.cc#X	.
-.	.	.	10.f#XJ)	[
+!LO:TUP:b:xbr	!LO:TUP:xbr	!	!	!
+!LO:N:vis=256%5	!LO:N:vis=256%5	!	!	!
+128%5EEKKL] 128%5E])	128%5eKKL])	.	(8BL	.
+(32%5..GG#XJ 32%5..G#X	(>32%5..g#XJ	.	.	.
+.	.	.	8cn	.
+.	.	.	8An	<
+!LO:N:vis=32%5	!LO:N:vis=32%5	!	!	!
+[16%5DD [16%5D	[16%5d	.	.	.
+.	.	.	8d#X	.
+.	.	.	8A#XJ)	[
+=38	=38	=38	=38	=38
+!LO:TUP:b:xbr	!LO:TUP:xbr	!	!	!
+!LO:N:vis=256%5	!LO:N:vis=256%5	!	!	!
+128%5DDKKL] 128%5D])	128%5dKKL])	.	(8g#XL	.
+(32%5..GGnJ 32%5..Gn	(>32%5..gnJ	.	.	.
+.	.	.	8d#X	.
+.	.	.	8b	.
+!LO:N:vis=32%5	!LO:N:vis=32%5	!LO:HP:t=poco a poco cresc.	!	!
+[16%5CCn [16%5Cn	[16%5cn	<	.	.
+!	!	!	!	!LO:HP:t=poco a poco cresc.
+.	.	.	8cc#X	<
+.	.	.	8f#XJ)	.
 =	=	=	=	=
 *-	*-	*-	*-	*-
-!!!system-decoration: s1{(s2,s3)}
-!!!CDT: 1881/03/25-1945/09/26
-!!!CBL: Sînnicolau Mare (Nagyszentmiklós), Romania (Hungary)
-!!!CDL: New York, United States
-!!!CNT: Hungarian
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1923/05/07
-!!!MGN:
-!!!MLC: London, United Kingdom
-!!!MPD: 1923
-!!!MPN: Arányi, Jelly; Bartók, Béla
-!!!ODT: 1922
-!!!PDT: 1923
-!!!excerpt-start-measure: 34
-!!!excerpt-end-measure: 38
-!!!excerpt-start-time: 2:32
-!!!excerpt-end-time: 2:48
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/07/14
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/02/09

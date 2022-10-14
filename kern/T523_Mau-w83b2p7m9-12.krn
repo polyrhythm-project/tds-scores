@@ -1,72 +1,56 @@
 !!!COM: Martinů, Bohuslav (Jan)
-!!!OTL: Etudes and Polkas, Sixteen Pieces for Piano
-!!!OMV: Book II, No. 2: Polka in F
-!!!example: 523
-!!!work: Mau-83
-**kern	**kern
-*part1	*part1
-*staff2	*staff1
-*I"Piano	*
-*I'Pno.	*
-*clefF4	*clefG2
-*k[]	*k[]
-*C:	*C:
-*M2/4	*M2/4
-*MM121	*MM121
-=9	=9
-(16CLL	(16gLL 16cc
-16G	16e
-16c	16g 16cc
-16CJJ	16eJJ
-16GLL	16gLL 16cc
-16B	16f
-16C	16g 16cc
-16GJJ)	16eJJ)
-=10	=10
-(16dLL	(16fLL 16b
-16C	16e
-16G	16a 16dd
-16BJJ	16fJJ
-16CLL	16gLL 16cc
-16G	16e
-16c	16g 16cc
-16CJJ)	16eJJ)
-=11	=11
-(16GLL	(16gLL 16cc
-16c	16e
-16C	16g 16cc
-16GJJ	16eJJ
-16BLL	16gLL 16dd
-16C	16f
-16G	16g 16cc
-16cJJ)	16eJJ)
-=12	=12
-(16CLL	(16fLL 16b
-16G	16e
-16B	16g 16dd
-16CJJ	16fJJ
-16GLL	16gLL 16cc
-16cJ)	16eJ)
-8C'J 8G 8c	8g'J 8ee 8gg
-=	=
-*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1890/12/08-1959/08/28
-!!!CBL: Polička, Bohemia
-!!!CDL: Liestal, Switzerland
-!!!CNT: Czech
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT: 1946/01/18
-!!!MGN:
-!!!MLC: New York, New York, United States of America
-!!!MPD: 1946
-!!!MPN: Firkušny, Rudolf
-!!!ODT: 1945
-!!!PDT: 1946
-!!!excerpt-start-measure: 9
-!!!excerpt-end-measure: 12
-!!!excerpt-start-time: 0:10
-!!!excerpt-end-time: 0:14
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!OTL: [T523_Mau-w83b2p7m9-12]
+**kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
+*part1	*part1	*part1
+*staff2	*staff1	*
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
+*clefF4	*clefG2	*
+*k[]	*k[]	*
+*C:	*C:	*
+*M2/4	*M2/4	*
+=1	=1	=1
+!	!LO:TX:t=[Poco Allegro [quarter]=112]	!LO:DY:ed=brack
+(16CLL	16gLL 16cc	mf
+16G	16e	.
+16c	16g 16cc	.
+16CJJ	16eJJ	.
+16GLL	16gLL 16dd	.
+16B	16f	.
+16C	16g 16cc	.
+16GJJ)	16eJJ)j	.
+=2	=2	=2
+(16dLL	(16fLL 16b	.
+16C	16e	.
+16G	16a 16dd	.
+16BJJ	16fJJ	.
+16CLL	16gLL 16cc	.
+16G	16e	.
+16c	16g 16cc	.
+16CJJ)	16eJJ)	.
+!!linebreak:original
+=3	=3	=3
+(16GLL	(16gLL 16cc	.
+16c	16e	.
+16C	16g 16cc	.
+16GJJ	16eJJ	.
+16BLL	16gLL 16dd	.
+16C	16f	.
+16G	16g 16cc	.
+16cJJ)	16eJJ)	.
+=4	=4	=4
+(16CLL	(16fLL 16b	.
+16G	16e	.
+16B	16g 16dd	.
+16CJJ	16fJJ	.
+16GLL	16gLL 16cc	.
+16cJ)	16eJ)	.
+!	!	!LO:DY:t=poco %s
+8C'J 8G 8c	8g'J 8ee 8gg	f
+=	=	=
+*-	*-	*-
+!!!system-decoration: [({(s1,s2)})]
+!!!EED: Rafael Laurindo
+!!!EED2: Jason Lee
+!!!EEV2: 2022/02/16

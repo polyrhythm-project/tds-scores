@@ -1,65 +1,70 @@
 !!!COM: Bartók, Béla
-!!!OTL: Piano Concerto No. 2
+!!!OTL: [T355_Bar-w40p34m229-231]
 !!!OMV: I: Allegro
 !!!example: 355
 !!!work: Bar-40
-**kern	**kern
-*part1	*part1
-*staff2	*staff1
-*I"Piano	*
-*I'Pno.	*
-*clefF4	*clefG2
-*k[]	*k[]
-*C:	*C:
-*M3/4	*M3/4
-*MM121	*MM121
-=229	=229
-8BB#X'L 8D#X	16ee#XLL 16gg#X
-.	16ff#X 16aa#X
-*clefG2	*
-16e#XL 16g#X	16gg# 16bb
-16f#XJJ 16a#X	16cc##XJJ 16ee#
-8g#'L 8b	16dd#XLL 16ff#
-.	16ee# 16gg#
-*clefF4	*
-16E#XL 16G#X	16ff# 16aa#
-16F#XJJ 16A#X	16gg#JJ 16bb
-8G#'L 8Bn	16eenLL 16ggn
-.	16ff# 16aan
-8EE#XJ 8GG#X	16gg 16bb-X
-.	16aa-XJJ 16ccc
-*clefG2	*
-=230	=230
-16gLL 16b-X	16bb-XLL 16ddd-X
-16a-XJ 16cc	16ee 16gg
-8b-'J 8dd-X	16ff#X 16aa
-.	16ggJJ 16bb-
-*clefF4	*
-16GLL 16B-X	16aa-XLL 16ccc
-16A-XJ 16c	16bb- 16ddd-
-8B-'J 8d-X	16ff# 16aan
-.	16gg#XJJ 16bbn
-8GG'L 8BB-X	16aaLL 16ccc
-.	16bb-X 16dddn
-*clefG2	*
-16anL 16cc	16ccc 16eee-X
-16bnJJ 16dd#X	16ff#JJ 16aa
-=231	=231
-8cc'L 8ee-X	16gg#XLL 16bbn
-.	16aa 16ccc
-16AL 16c	16bb-X 16ddd
-16B-XJJ 16d	16cccJJ 16eee-X
-8c'L 8e-X	16ggnLL 16bb#X
-.	16aa 16ccc#X
-16aL 16cc#X	16bb# 16ddd#X
-16bJJ 16dd#X	16ccc#JJ 16eee#X
-16cc#LL 16een	8ddd#'L 8fff#X
-16dd#XJ 16ff#X	.
-8ee#X'J 8gg#X	16ggL 16bb#
-.	16aaJJ 16ccc#
-=	=
-*-	*-
+**kern	**kern	**dynam
+*grp:A	*grp:B	*
+*part1	*part1	*part1
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
+*clefF4	*clefG2	*
+*k[]	*k[]	*
+*C:	*C:	*
+*M3/4	*M3/4	*
+*MM121	*MM121	*
+=229	=229	=229
+!	!LO:TX:t=Mosso [[quarter]=120]	!
+8BB#X' 8D#X	16ee#XLL 16gg#X	p
+.	16ff#X 16aa#X	<
+*clefG2	*	*
+16e#X 16g#XL	16gg# 16bb	.
+16f#X 16a#X	16cc##XJJ 16ee#	.
+8g#' 8bJ	16dd#XLL 16ff#	.
+.	16ee# 16gg#	.
+*clefF4	*	*
+16E#X 16G#XL	16ff# 16aa#	.
+16F#X 16A#X	16gg#JJ 16bb	.
+8G#' 8BnJ	16eenLL 16ggn	.
+.	16ff# 16aan	.
+8EE#X' 8GG#X	16gg 16bb-X	.
+.	16aa-XJJ 16ccc	.
+*clefG2	*	*
+!!LO:REH:t=230
+=230	=230	=230
+16gLL 16b-X	16bb-XLL 16ddd-X	.
+16a-XJ 16cc	16ee 16gg	.
+8b-'J 8dd-X	16ff#X 16aa	.
+.	16ggJJ 16bb-	.
+*clefF4	*	*
+16GLL 16B-X	16aa-XLL 16ccc	.
+16A-XJ 16c	16bb- 16ddd-	.
+8B-'J 8d-X	16ff# 16aan	.
+.	16gg#XJJ 16bbn	.
+8GG' 8BB-X	16aaLL 16ccc	.
+.	16bb-X 16dddn	.
+*clefG2	*	*
+16an 16ccLL	16ccc 16eee-X	.
+16bn 16dd#XJ	16ff#JJ 16aa	.
+=231	=231	=231
+8cc' 8ee-XJ	16gg#XLL 16bbn	.
+.	16aa 16ccc	.
+16A 16cLL	16bb-X 16ddd	.
+16B-X 16dJ	16cccJJ 16eee-X	.
+8c' 8e-XJ	16ggnLL 16bb#X	.
+.	16aa 16ccc#X	.
+16a 16cc#XLL	16bb# 16ddd#X	.
+16bJJ 16dd#X	16ccc#JJ 16eee#X	.
+16cc#LL 16een	8ddd#'L 8fff#X	.
+16dd#XJ 16ff#X	.	.
+8ee#X'J 8gg#X	16ggL 16bb#	.
+.	16aaJJ 16ccc#	.
+=	=	=
+*-	*-	*-
 !!!system-decoration: {(s1,s2)}
+!!!EED: Daniel Wright
+!!!EEV: 2022/08/19
 !!!CDT: 1881/03/25-1945/09/26
 !!!CBL: Sînnicolau Mare (Nagyszentmiklós), Romania (Hungary)
 !!!CDL: New York, United States

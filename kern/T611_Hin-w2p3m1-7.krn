@@ -1,120 +1,109 @@
-!!!COM: Hindemith, Paul
-!!!OTL: Drei Stücke (Three Pieces) in B-flat Major for Violincello and Piano, Op. 8, No. 2: "Phantasiesrück"
-!!!OMV: No. 2: Phantasiestück (Fantasy Piece)
-!!!example: 611
-!!!work: Hin-2
+!!!COM: Paul Hindemith
+!!!OTL: [T611_Hin-w2p3m1-7]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Violoncello	*
-*I'Pno.	*	*	*I'Vc.	*
+*I"Piano	*I"Piano	*	*I"Violoncello	*
+*I'Pno.	*I'Pno.	*	*I'Vc.	*
+*ICklav	*ICklav	*ICklav	*ICstr	*ICstr
+*Ipiano	*Ipiano	*Ipiano	*Icello	*Icello
 *clefF4	*clefF4	*	*clefF4	*
 *k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*
 *B:	*B:	*	*B:	*
 *M9/8	*M9/8	*	*M9/8	*
-*MM121	*MM121	*	*MM121	*
+*3/4	*3/4	*	*3/4	*
 =1	=1	=1	=1	=1
-8r	8%9r	.	([4.D#	mf
+*	*	*	*Xtuplet	*
+!	!	!	!LO:TX:t=[quarter-dot]/[quarter]=50	!
+!	!	!	!LO:TX:a:B:t=Mäßig langsam	!
+!	!	!	!LO:TX:t=P:problem=time signature includes 3/4 beside 9/8	!
+8r	8%9r	.	(8%3.D#	mf
 ((8BBL	.	p	.	.
 8FF#J	.	.	.	.
-8BBBL)	.	.	16%3D#L]	.
+8BBBL)	.	.	.	.
 (8BB	.	.	.	.
-.	.	.	16%3EJ	.
+.	.	.	16%3E	.
 8FF#J	.	.	.	.
-8BBBL)	.	.	4.F#	.
+8AAA#L)	.	.	[8%3F#	.
 (8BB	.	.	.	.
 8FF#J	.	.	.	.
 =2	=2	=2	=2	=2
-4.BBB))	8r	.	8F#L)	.
-.	8BL	p	8D#	.
+*Xtuplet	*Xtuplet	*	*	*
+!	!LO:TX:b:i:t=sempre legato	!	!	!
+8%3GGG#))	8r	.	8F#L])	.
+.	8BL	.	8D#	.
 .	8G#J	.	8EJ	.
-4.GG#	8BBL	.	(4.F#	.
+8%3GG#	8BBL	.	(8%3F#	.
 .	8B	.	.	.
 .	8G#J	.	.	.
-4.FF#	8BBL	.	4.B)	.
+8%3FF#	8BBL	.	8%3B)	.
 .	8B	.	.	.
 .	8G#J	.	.	.
 =3	=3	=3	=3	=3
-2.EE	8BBL	.	(4.B	.
+4%3EE	8BBL	.	(8%3B	.
 .	8B	.	.	.
 .	8G#J	.	.	.
-.	8BBL	<	[4.A#	<
+.	8BBL	<	8%3.A#	<
 .	8B	.	.	.
 .	8F#J	.	.	.
-4.DD#	8BBL	.	16%3A#L]	.
+8%3DD#	8BBL	.	.	.
 .	8B	.	.	.
-.	.	.	16%3G#J)	.
+.	.	.	16%3G#)	.
 .	8EJ	.	.	.
 =4	=4	=4	=4	=4
-2.CC#	8BBL	.	(4.e	.
+4%3CC#	8BBL	.	(8%3e	.
 .	8D#	.	.	.
 .	8C#J	.	.	.
 .	8F#L	.	16%3d#L	.
 .	8E	.	.	.
-.	.	.	16%3c#J	.
+.	.	.	16%3c#J	[
 .	8BJ	[	.	.
-4.FF#	8A#L	.	16%3f#L	[
+8%3FF#	8A#L	.	16%3f#L	.
 .	8G#	.	.	.
 .	.	.	16%3c##XJ)	.
-.	8G#XJ	.	.	.
+.	8GnJ	.	.	.
 =5	=5	=5	=5	=5
-[4.BB	8F#L	.	(16%3d#L	>
+8%3.BB	8F#L	.	(16%3d#L	>
 .	8c# 8e	.	.	.
-.	.	.	16%3F#J)	.
-.	8BJ 8d#	.	.	.
+.	.	.	16%3F#J)	]
+.	8BJ 8d#	<	.	.
 *	*clefG2	*	*	*
-!	!LO:TX:b:t=cresc.	!	!	!
-16%3BBL]	8eL 8g#	.	4.r	]
+.	8eL 8g#	.	8%3r	.
 .	8d# 8f#	.	.	.
-16%3AA#J	.	.	.	.
+16%3AA#	.	.	.	.
 .	8a#J 8cc#	.	.	.
-16%3GG#L	8eL 8g#	.	4.r	.
+16%3GG#L	8eL 8g#	.	8%3r	.
 .	8b 8dd#	.	.	.
 16%3FF#J	.	.	.	.
 .	8f#J 8a#	.	.	.
 =6	=6	=6	=6	=6
-8EEL	[4.g# [4.ee [4.gg#	mf	([4.G#	.
+8EEL	[4.g# [4.ee [4.gg#	mf	(8%3.G#	.
 8BB	.	.	.	.
 8EJ	.	.	.	.
-8G#L	8g#L] 8ee] 8gg#]	.	16%3G#L]	.
+8G#L	8g#L] 8ee] 8gg#]	.	.	.
 8F#	8an 8aan	.	.	.
-.	.	.	16%3A#XJ)	.
+.	.	.	16%3A#i)	.
 8EJ	8g#J 8gg#	.	.	.
-4D#	8f#L 8ff#	.	[4.B#X	.
+4D#	8f#L 8ff#	.	[8%3B#X	.
 .	8e 8ee	.	.	.
 8GG#	8d#J 8dd#	.	.	.
 =7	=7	=7	=7	=7
+*	*Xtuplet	*	*	*
 8CC#L	16%3c#L 16%3cc#	.	8B#L]	.
-8E#X	.	.	8A#~	.
+8E#X	.	.	(8A#~	.
 .	16%3ccc#J	.	.	.
-8d#J	.	.	8G#~J	.
-!	!LO:TX:b:t=cresc.	!	!	!
-8c#L	[4.aa#X	.	(4.e#X	.
+8d#J	.	.	8G#~J)	.
+8c#L	[4.aa#X	<	(8%3e#X	<
 *clefG2	*	*	*	*
 8e#X	.	.	.	.
 8a#J	.	.	.	.
-8g#L	8aa#XL]	.	4.c#)	.
+8g#L	8aa#L]	.	8%3c#)	.
 8c#	8gg#	.	.	.
 8G#J	8ee#XJ	.	.	.
 =	=	=	=	=
 *-	*-	*-	*-	*-
-!!!system-decoration: s1{(s2,s3)}
-!!!CDT: 1895/11/16-1963/12/28
-!!!CBL: Hanau, Germany
-!!!CDL: Frankfurt, Germany
-!!!CNT: German
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1917/03/12
-!!!MGN:
-!!!MLC: Frankfurt, Germany
-!!!MPD: 1917
-!!!MPN: Frank, Maurits; Renner, Willy
-!!!ODT: 1917
-!!!PDT: 1976
-!!!excerpt-start-measure: 1
-!!!excerpt-end-measure: 7
-!!!excerpt-start-time: 0:00
-!!!excerpt-end-time: 0:25
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: i = editorial accidental, paren
+!!!EED2: Rafael Laurindo
+!!!EEV2: 2022/02/18

@@ -1,67 +1,46 @@
 !!!COM: Martinů, Bohuslav (Jan)
-!!!OTL: Etudes and Polkas, Sixteen Pieces for Piano
-!!!OMV: Book III, No. 4: Polka in A
-!!!example: 477
-!!!work: Mau-83
-**kern	**kern
-*part1	*part1
-*staff2	*staff1
-*I"Piano	*
-*I'Pno.	*
-*clefF4	*clefG2
-*k[]	*k[]
-*C:	*C:
-*M2/4	*M2/4
-*MM121	*MM121
-=44	=44
-(4A 4c#X 4e	8a'L
-.	8a'J
-4F#X) 4d 4e	8b'L
-.	(8ddJ
-=45	=45
-(4A 4c#X 4e	8cc#X'L)
-.	8cc#'J
-4F#X~) 4d 4e	8ddL
-.	(8ff#XJ
-=46	=46
-8A 8c#X 8e	8ee')
-4A~ 4cn 4fn	4ffn~ 4aa
-(8G 8B-X 8e	(8gg 8bb-X
-=47	=47
-4A~) 4c 4f	4ff) 4aa
-4A~ 4c 4f	4dd~ 4ff
-=48	=48
-4G~ 4c#X 4e	(8ee 8gg
-.	4dd) 4ff
-4A~ 4d 4f	.
-.	[8ff [8aa
-=49	=49
-4A~ 4cn 4f	8ffL] 8aa]
-.	(8ggJ 8bb-X
-4G~ 4B-X 4e	4ff) 4aa
-=50	=50
-4A~ 4c 4f	4dd~ 4ff
-4A~ 4d 4f	(8eeL 8gg
-.	[8ddJ) [8ff
-=	=
-*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1890/12/08-1959/08/28
-!!!CBL: Polička, Bohemia
-!!!CDL: Liestal, Switzerland
-!!!CNT: Czech
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT: 1946/01/18
-!!!MGN:
-!!!MLC: New York, New York, United States of America
-!!!MPD: 1946
-!!!MPN: Firkušny, Rudolf
-!!!ODT: 1945
-!!!PDT: 1946
-!!!excerpt-start-measure: 44
-!!!excerpt-end-measure: 48
-!!!excerpt-start-time: 0:49
-!!!excerpt-end-time: 0:53
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!OTL: [T477_Mau-w83b3p12m44-48i]
+**kern	**kern	**dynam
+*grp:A	*grp:B	*
+*part1	*part1	*part1
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*I"Piano
+*I'Pno.	*	*
+*clefF4	*clefG2	*
+*k[]	*k[]	*
+*C:	*C:	*
+*M2/4	*M2/4	*
+=1	=1	=1
+!!!ONB: Note that based on a decision made 2022/04/22, this example has been extended up to the downbeat of m. 49. The Suter ID is to remain m.44-48i.
+!	!	!LO:DY:t=[poco %s ]
+4A~ 4c 4f)j	4ff 4aa)j	f
+4A~ 4d 4f	4dd~ 4ff	.
+=2	=2	=2
+4G~ 4c#X 4e	(8ee 8gg	.
+.	4dd 4ff)	.
+4A~ 4d 4f	.	.
+.	[8ff [8aa	.
+=3	=3	=3
+4A~ 4c 4f	8ffL] 8aa]	.
+.	(8ggJ 8bb-X	.
+4G~ 4B-X 4e	4ff 4aa)	.
+=4	=4	=4
+4A~ 4c 4f	4dd~ 4ff	.
+4A~ 4d 4f	(8eeL 8gg	.
+.	[8ddJ [8ff	.
+=5	=5	=5
+4G~ 4B-X 4e	8dd] 8ff])	>
+.	4cc#X~ 4ee~	.
+[4A [4c#X [4e	.	.
+.	(8a	]
+=	=	=
+8A] 8c#] 8e]	8cc#' 8aa')	.
+=	=	=
+*-	*-	*-
+!!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!RDF**kern: j = marked note, color="magenta", text="extra)"
+!!!EED:Jason Lee
+!!!EEV:2021/11/02
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/04/28

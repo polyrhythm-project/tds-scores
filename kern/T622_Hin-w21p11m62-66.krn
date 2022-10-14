@@ -1,52 +1,24 @@
-!!!COM: Hindemith, Paul
-!!!OTL: Kleine Sonate (Small Sonata) Op. 25, No. 2 for Viola d'amore and Piano
-!!!OMV: III: Sehr lebhaft (Very Lively)
-!!!example: 622
-!!!work: Hin-21
+!!!COM: Paul Hindemith
+!!!OTL: [T622_Hin-w21p11m62-66]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Viola d'Amore	*
-*I'Pno.	*	*	*I'Vln. 1	*
-*clefG2	*clefG2	*	*clefG2	*
+*I"Piano	*I"Piano	*	*I"Viola d'Amore	*
+*I'Pno.	*I'Pno.	*	*I'Vla.	*
+*ICklav	*ICklav	*	*ICstr	*
+*Ipiano	*Ipiano	*	*Iviola	*
+*clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
+*M3/2	*M3/2	*	*M3/2	*
 *M4/4	*M4/4	*	*M4/4	*
-*MM121	*MM121	*	*MM121	*
-=62	=62	=62	=62	=62
-4c#X 4g 4b	(4ffn 4aan	>	(12aaL	.
-.	.	.	12gg#X	.
-.	.	.	12dd	.
-4cn 4g-X 4b-X	8eeL 8gg#X	.	12ggnJ	.
-.	.	.	12ff#XL	.
-.	8ffJ 8aa	.	.	.
-.	.	.	12dd	.
-2B 2f 2a	4ggn 4bb	.	12ccc	.
-.	.	.	12bbJ	.
-.	.	.	12ddL	.
-.	4dd 4ff#X	.	12bb-X	.
-.	.	.	12aa	.
-.	.	.	12ddJ)	.
-=63	=63	=63	=63	=63
-4d 4f#X	4cc#X 4ee#X	.	(12aaL	.
-.	.	.	12gg#X	.
-.	.	.	12dd	.
-4e 4g#X	8ddL 8ff#X	.	12ggnJ	.
-.	.	.	12ff#XL	.
-.	8eenJ 8gg#X	.	.	.
-.	.	.	12dd	.
-!	!LO:TX:b:t=?	!	!	!
-2f#X 2a#X	2b#X 2dd#X)	]	12ccc	.
-.	.	.	12bbnJ	.
-.	.	.	12ddL	.
-.	.	.	12bb-X	.
-.	.	.	12aa	.
-.	.	.	12ddJ)	.
-=64	=64	=64	=64	=64
-*clefF4	*	*	*	*
-!	!	!	!LO:TX:a:t=(h=h. vorher)	!
-12AnL	(12cc-XL	pp	(4cc#X~ 4ee	mf
-!	!LO:TX:b:t=(h.=h vorher)	!	!	!
+=1	=1	=1	=1	=1
+*Xtuplet	*Xtuplet	*	*	*
+!	!	!	!LO:TX:t=P:problem: Two Time Signatures should be displayed here, both 4/4 and 3/2	!
+!	!	!	!LO:TX:t=[[quarter]=120]	!
+!	!	!LO:DY:t=%s ([half] = [half-dot] vorher)	!LO:TX:a:t=([half] = [half-dot] vorher)	!
+(12AnL	(>12cc-XL	pp	(4cc#X~ 4ee	mf
 12cn	12b-X	.	.	.
 12d	12f	.	.	.
 12e-XJ	12g-XJ	.	4cc#~ 4ee)	.
@@ -58,7 +30,7 @@
 12B	12gn	.	4ff#~ 4aa)	.
 12c#X	12e	.	.	.
 12dJ	12fJ	.	.	.
-=65	=65	=65	=65	=65
+=2	=2	=2	=2	=2
 12G#XL	12aL	.	(4bb	<
 12B	12g	.	.	.
 12c#X	12e	.	.	.
@@ -72,9 +44,10 @@
 12A-	12g-	.	.	.
 12B-	12d	.	.	.
 .	.	.	8ddd)	.
-12cJ	12e-J)	.	.	.
-=66	=66	=66	=66	=66
-12AnL	(12cc-XL	.	(4aa	.
+12cJ)	12e-J)	.	.	.
+!!linebreak:original
+=3	=3	=3	=3	=3
+(12AnL	(>12cc-XL	.	(4aa	.
 12cn	12b-X	.	.	.
 12d	12f	.	.	.
 12e-XJ	12g-XJ	.	8gg#XL	.
@@ -86,9 +59,9 @@
 12G#XL	12anL	.	.	.
 12B	12gn	.	.	.
 12c#X	12e	.	.	.
-.	.	.	8ccc)	[
-12dJ	12fJ	[	.	.
-=67	=67	=67	=67	=67
+.	.	.	8ccc)	.
+12dJ	12fJ	[[	.	[[
+=4	=4	=4	=4	=4
 12G#XL	12aL	mf <	(4gg	f <
 12B	12g	.	.	.
 12c#X	12e	.	.	.
@@ -98,11 +71,11 @@
 12B-X	12d	.	4cc#X	.
 12cnJ	12e-XJ	.	.	.
 12DL	12a-L	.	.	.
-12A-	12g-	.	4dd)	[
+12A-	12g-	.	4dd)	.
 12B-	12d	.	.	.
-12cJ	12e-J)	[	.	.
-=68	=68	=68	=68	=68
-12AnL	(12cc-XL	>	(8ffL	>
+12cJ)	12e-J)	[	.	[[
+=5	=5	=5	=5	=5
+(12AnL	(>12cc-XL	>	(8ffL	>
 12cn	12b-X	.	.	.
 .	.	.	8ee	.
 12d	12f	.	.	.
@@ -116,26 +89,12 @@
 12B	12gn	.	.	.
 12c#X	12e	.	.	.
 .	.	.	8bb)	]
-12dJ	12fJ)	]	.	.
+12dJ)	12fJ)	]	.	.
 =	=	=	=	=
 *-	*-	*-	*-	*-
 !!!system-decoration: s1[({(s2,s3)})]
-!!!CDT: 1895/11/16-1963/12/28
-!!!CBL: Hanau, Germany
-!!!CDL: Frankfurt, Germany
-!!!CNT: German
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1922/06/01
-!!!MGN:
-!!!MLC: Heidelberg, Germany
-!!!MPD: 1922
-!!!MPN: Hidemith, Paul; Lübbecke-Job, Emma
-!!!ODT: 1922
-!!!PDT: 1929
-!!!excerpt-start-measure: 62
-!!!excerpt-end-measure: 66
-!!!excerpt-start-time: 1:50
-!!!excerpt-end-time: 2:00
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!RDF**kern: > = above
+!!!EED: Claudio de Freitas
+!!!EEV: 2021/08/26
+!!!EED2: Jason Lee
+!!!EEV2: 2022/02/22

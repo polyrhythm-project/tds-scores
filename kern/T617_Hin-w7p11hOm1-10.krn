@@ -1,56 +1,61 @@
-!!!COM: Hindemith, Paul
-!!!OTL: Sonata for Violincello and Piano Op. 11, No. 3
-!!!OMV: I: Mäßig schnelle Viertel, Mit Kraft (Moderatly Fast Quarters, with Power)
-!!!example: 617
-!!!work: Hin-7
+!!!COM: Paul Hindemith
+!!!OTL: [T617_Hin-w7p11hOm1-10]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Violoncello	*
-*I'Pno.	*	*	*I'Vc.	*
-*clefF4	*clefG2	*	*clefF4	*
+*I"Piano	*I"Piano	*	*I"Violoncello	*
+*I'Pno.	*I'Pno.	*	*I'Vc.	*
+*ICklav	*ICklav	*	*ICstr	*
+*Ipiano	*Ipiano	*	*Icello	*
+*clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
 *M4/4	*M4/4	*	*M4/4	*
-*MM121	*MM121	*	*MM121	*
-=226	=226	=226	=226	=226
-4FF#X^ 4C 4E	4f^ 4a	.	(2.D	.
+!!LO:REH:t=O
+=1	=1	=1	=1	=1
+!	!	!	!LO:TX:t=[[quarter]=185]	!
+!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
+4FF#X^> 4C 4E	4fn^> 4a	ff	(2.b]	ff
 *clefG2	*	*	*	*
 (8fnL	(8aaL	.	.	.
 8bJ	8gg#XJ	.	.	.
 8ccL	8dd#XL	.	.	.
 8f	8aa	.	.	.
-8b	8gg#	.	4D-X)	.
+!	!	!	!LO:TX:a:B:t=Allmählich behruhigen	!
+8b	8gg#	.	4b-X)	.
 8ccJ	8dd#J	.	.	.
-=227	=227	=227	=227	=227
-8fL	8aaL	.	(2FF	.
+=2	=2	=2	=2	=2
+8fL	8aaL	.	(2d	.
 8b	8gg#X	.	.	.
-8cc	8dd#X	.	.	.
+!	!	!LO:HP:t= sempre %s	!	!LO:HP:t= sempre %s
+8cc	8dd#X	>	.	>
 8fJ	8aaJ	.	.	.
-8bL	8gg#L	.	2EE#X)	.
+!	!	!	!	!
+8bL	8gg#L	.	2c#X)	.
 8cc	8dd#	.	.	.
 8f	8aa	.	.	.
 8bJ	8gg#J	.	.	.
-=228	=228	=228	=228	=228
+=3	=3	=3	=3	=3
 8ccL)	8dd#XL)	.	4r	.
 (8e	(8bb-X	.	.	.
-8a#X	8aa	.	(2FF	.
+8a#X	8aa	.	(2d	.
 8bnJ	8eeJ	.	.	.
 8eL	8bb-L	.	.	.
 8a#	8aa	.	.	.
-8b	8ee	.	4GGn)	.
+8b	8ee	.	4en)	.
 8eJ	8bb-J	.	.	.
-=229	=229	=229	=229	=229
-8a#XL	8aaL	.	(4BB-X	.
+=4	=4	=4	=4	=4
+8a#XL	8aaL	.	(4g-X	.
 8b)	8ee)	.	.	.
-(8f	(8aa	.	4AA	.
+(8f	(8aa	.	4f	.
 8bJ	8gg#XJ	.	.	.
-8ccL	8dd#XL	.	4GG-X	.
+8ccL	8dd#XL	.	4e-X	.
 8f	8aa	.	.	.
-8b	8gg#	.	4D-X)	.
+8b	8gg#	.	4b-X)	.
 8ccJ	8dd#J	.	.	.
-=230	=230	=230	=230	=230
-8fL	8aaL	.	[1Cn	.
+=5	=5	=5	=5	=5
+8fL	8aaL	.	[1an	.
 8b	8gg#X	.	.	.
 8cc)	8dd#X)	.	.	.
 (8d-XJ	(8bbJ	.	.	.
@@ -58,36 +63,36 @@
 8a-X	8ffn	.	.	.
 8d-	8ccc-X	.	.	.
 8gJ	8bb-J	.	.	.
-=231	=231	=231	=231	=231
-8a-XL	8ffL	.	4C]	.
+=6	=6	=6	=6	=6
+8a-XL	8ffL	.	4a]	.
 8d-X	8ccc-X	.	.	.
-8g	8bb-X	.	(4GG	.
+8g	8bb-X	.	(4e	.
 8a-J	8ffJ	.	.	.
-8d-L	8ccc-L	.	4AA#X	.
+8d-L	8ccc-L	.	4f#X	.
 8g	8bb-	.	.	.
-8a-	8ff	.	4BB)	.
+8a-	8ff	.	4g)	.
 8d-J	8ccc-J	.	.	.
-=232	=232	=232	=232	=232
-8gL	8bb-XL	.	(2BB	.
+=7	=7	=7	=7	=7
+8gL	8bb-XL	.	(2g	.
 8a-X)	8ff)	.	.	.
 (8f	(8aa	.	.	.
 8bnJ	8gg#XJ	.	.	.
-8ccL	8dd#XL	.	[2AA#X	.
+8ccL	8dd#XL	.	[2f#X	.
 8f	8aa	.	.	.
-8bn	8gg#	.	.	.
+8b	8gg#	.	.	.
 8ccJ)	8dd#J)	.	.	.
-=233	=233	=233	=233	=233
-(8e-XL	(8ggnL	mf	4AA#])	.
+=8	=8	=8	=8	=8
+(8e-XL	(8ggnL	.	4f#])	.
 8a	8ff#X	.	.	.
-8b-X	8cc#X	.	(4c#X	mf
-!	!LO:TX:b:t=dim.	!	!	!
+*	*	*	*clefF4	*
+!	!	!LO:DY:t= %s dim.	!	!LO:DY:t= %s dim.
+8b-X	8cc#X	mf	(4c#X	mf
 8e-J	8ggJ	.	.	.
-!	!	!	!LO:TX:b:t=dim.	!
 8aL	8ff#L	.	4d#X	.
 8b-)	8cc#)	.	.	.
 (8d-X	(8ffn	.	4e)	.
 8gJ	8eeJ	.	.	.
-=234	=234	=234	=234	=234
+=9	=9	=9	=9	=9
 8a-XL	8bL	.	(2e	.
 8d-X	8ff	.	.	.
 8g	8ee	.	.	.
@@ -96,34 +101,21 @@
 8f	8dd	.	.	.
 8g-X	8a	.	.	.
 8c-J	8ee-J	.	.	.
-=235	=235	=235	=235	=235
+=10	=10	=10	=10	=10
 8fL	8ddL	.	4d#])	.
 8g-X)	8a)	.	.	.
 (8An	(8dd-X	.	(4B-X	.
 8d#XJ	8ccJ	.	.	.
 8enL	8gL	.	4c	.
-8A	8dd-	.	.	.
+8An	8dd-	.	.	.
 8d#	8cc	.	4d-X)	.
-8enJ)	8gJ)	.	.	.
+8eJ)	8gJ)	.	.	.
 =	=	=	=	=
 *-	*-	*-	*-	*-
-!!!system-decoration: s1{(s2,s3)}
-!!!CDT: 1895/11/16-1963/12/28
-!!!CBL: Hanau, Germany
-!!!CDL: Frankfurt, Germany
-!!!CNT: German
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1919/10/27
-!!!MGN:
-!!!MLC: Frankfurt, Germany
-!!!MPD: 1919
-!!!MPN: Frankfurt, Maurits; Lübbecke-Job, Emma
-!!!ODT: 1919 (rev. 1921)
-!!!PDT: 1922
-!!!excerpt-start-measure: 226
-!!!excerpt-end-measure: 235
-!!!excerpt-start-time: 5:49
-!!!excerpt-end-time: 6:02
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**dynam: > = dim.
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!RDF**kern: i = editorial accidental, brack
+!!!EED2: Rafael Laurindo
+!!!EEV2: 2022/03/03

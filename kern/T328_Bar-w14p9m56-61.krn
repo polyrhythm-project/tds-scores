@@ -1,82 +1,118 @@
-!!!COM: Bartók, Béla
-!!!OTL: Román népi táncok (Romanian Folk Dances) for Piano
-!!!OMV: VI: Aprózó, Mărunțel (Fast Dance)
-!!!example: 328
-!!!work: Bar-14
+!!!COM: Béla Bartók
+!!!OTL: [T328_Bar-w14p9m56-61]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
 *staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
 *clefG2	*clefG2	*
 *k[f#]	*k[f#]	*
 *G:	*G:	*
 *M2/4	*M2/4	*
-*MM121	*MM121	*
 =56	=56	=56
+*modped	*	*
+!	!LO:TX:t=[[quarter]=144]	!LO:DY:ed=brack
+!	!	!LO:DY:t=piu %s
+!LO:TX:t=P:problem: pedal brackets missing from under the grand staff, pedal markings have been added to show peddling.	!	!
+!LO:TX:B:b:t=2	!	!
+8a'L	16aaLL	f
+.	16ggJ	.
+*Xped	*	*
+!LO:TX:B:b:t=1	!	!
+8cc#X'J	8aa'J)	.
+*clefF4	*	*
 *	*^	*
-8aL	16aaLL	4r	.
-.	16ggJ	.	.
-8cc#X'J	8aaJ	.	.
-*clefF4	*	*	*
-4E 4G 4d	(4ffn	(16ccLL	sf
+*ped	*	*	*
+!LO:TX:B:b:t=1	!LO:TX:B:t=5	!LO:TX:B:b:t=3	!
+!LO:TX:B:b:t=3	!	!	!
+!LO:TX:B:b:t=5	!	!	!
+4E~ 4G 4d	(4ffn	(16ccnLL	sf
+!	!	!LO:TX:B:b:t=2	!
 .	.	16b-X	.
+!	!	!LO:TX:B:b:t=1	!
 .	.	16a	.
+!	!	!LO:TX:B:b:t=3	!
 .	.	16b-JJ	.
+*Xped	*	*	*
 =57	=57	=57	=57
+*ped	*	*	*
+!LO:TX:B:b:t=1	!	!LO:TX:B:b:t=2	!
 8c#X'L	8ee)	16aLL	.
+!	!	!LO:TX:B:b:t=1	!
 .	.	16gJ	.
-8AAJ	8r	8aJ)	.
-4E~ 4G 4d	(4ffn	(16ccLL	sf
+*Xped	*	*	*
+!LO:TX:B:b:t=5	!	!LO:TX:B:b:t=2	!
+8AA'J	8r	8a'J)	.
+*ped	*	*	*
+!LO:TX:B:b:t=1	!	!	!
+!LO:TX:B:b:t=3	!	!	!
+!LO:TX:B:b:t=5	!	!LO:TX:B:b:t=3	!
+4E~ 4G 4d	(4ffn	(16ccnLL	sf
+!	!	!LO:TX:B:b:t=2	!
 .	.	16b-X	.
+!	!	!LO:TX:B:b:t=1	!
 .	.	16a	.
+!	!	!LO:TX:B:b:t=3	!
 .	.	16b-JJ	.
+*Xped	*	*	*
 =58	=58	=58	=58
+*ped	*	*	*
+!LO:TX:B:b:t=1	!	!LO:TX:B:b:t=2	!
 8c#X'L	8ee)	16aLL	.
 .	.	16gJ	.
-8AAJ	8r	8aJ)	.
-4E~ 4G 4d	(4ffn	(16ccLL	sf
+*Xped	*	*	*
+8AA'J	8r	8a'J)	.
+*ped	*	*	*
+!	!	!LO:TX:B:b:t=1	!
+4E~ 4d	(4ffn	(16ccnLL	sf
+!	!	!LO:TX:B:b:t=3	!
 .	.	16b-X	.
+!	!	!LO:TX:B:b:t=2	!
 .	.	16a	.
-.	.	16b-JJ	.
+!	!	!LO:TX:B:b:t=1	!
+.	.	16gJJ	.
+*Xped	*	*	*
 *	*v	*v	*
 =59	=59	=59
-8AA'L	8a'L) 8ee	.
-8E'J	(16aL) 16ee	.
+*ped	*	*
+!	!LO:TX:B:a:t=2	!
+!LO:TX:B:b:t=5	!LO:TX:B:a:t=5	!
+\8AA'L	8a'<L) 8ee)<	.
+!	!LO:TX:B:a:t=2	!
+!LO:TX:B:b:t=2	!LO:TX:B:a:t=5	!
+8E'	(<16aL 16ee	.
+!	!LO:TX:B:a:t=1	!
 .	16gJJ	.
-8c#X'L	8a'L) 8ee	.
-8E'J	(16aL 16ee	.
+!	!LO:TX:B:a:t=2	!
+!LO:TX:B:b:t=1	!LO:TX:B:a:t=5	!
+8c#X'J	8a'<L 8ee)<	.
+!LO:TX:B:b:t=5	!	!
+8E'L	(<16aL 16ee	.
 .	16gJJ	.
 =60	=60	=60
-8A'L	8a'L) 8ee	.
-8e'J	(16aL 16ee	.
+!LO:TX:B:b:t=2	!	!
+8A'	8a'<L 8ee)<	.
+!LO:TX:B:b:t=1	!	!
+8e'J	(<16aL 16ee	.
 .	16gJJ	.
-8AA'L	16aLL 16ee	.
+!LO:TX:B:b:t=5	!	!
+8AA'L	16aLL< 16ee	.
 .	16g	.
-8E'J	16a 16ee	.
-.	16gJJ)	.
+!LO:TX:B:b:t=2	!	!
+/8E'J	16a 16ee	.
+.	16gJJ)<	.
 =61	=61	=61
+!LO:TX:B:b:t=1	!	!
 4c#X~	2a; 2ee	.
 4AAA~;	.	.
-=	=	=
+*Xped	*	*
+==	==	==
 *-	*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1881/03/25-1945/09/26
-!!!CBL: Sînnicolau Mare (Nagyszentmiklós), Romania (Hungary)
-!!!CDL: New York, United States
-!!!CNT: Hungarian
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT: 1920/01/16
-!!!MGN:
-!!!MLC: Kolozsvár, Hungary
-!!!MPD: 1920
-!!!MPN: Hevesi, Piroska
-!!!ODT: 1915
-!!!PDT: 1918
-!!!excerpt-start-measure: 56
-!!!excerpt-end-measure: 61
-!!!excerpt-start-time: 0:46
-!!!excerpt-end-time: 0:55
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Kelsey Lussier
+!!!EEV: 2021/07/22
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/02/03

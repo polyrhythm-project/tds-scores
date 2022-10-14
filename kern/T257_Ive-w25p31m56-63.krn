@@ -1,107 +1,97 @@
-!!!COM: Ives, Charles
-!!!OTL: Sonata No. 1 for Violin and Piano
-!!!OMV: IV: Allegro - Presto - Slow
-!!!example: 257
-!!!work: Ive-25
+!!!COM: Charles Ives
+!!!OTL: [T257_Ive-w25p31m56-63]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*I"Piano
+*I'Piano	*I'Piano	*
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
 *M2/4	*M2/4	*
-*MM121	*MM121	*
-=56	=56	=56
-4A	8AL	.
-.	16d'L	.
-.	16f'JJ	.
-4D#X	16D#XKL	.
+=1	=1	=1
+!	!LO:TX:B:t=[Allegro]	!LO:DY:rj:ed=brack
+4A	(8A<L	p
+.	16d'>	.
+.	16f'>J)	.
+4D#X	(16D#X<L	.
 .	8e	.
-.	16g'Jk 16b	.
-=57	=57	=57
+.	16g'Jk 16b)	.
 *^	*	*
-(8AAL	4AA	[2ff	f
+=2	=2	=2	=2
+!	!	!	!LO:DY:a
+(<8AAL	4AA	[>2ff/	f
 16DL	.	.	.
 16B-XJJ)	.	.	.
 16GGKL	4GG	.	.
-(8E^	.	.	.
+(<8E^	.	.	.
 16B-Jk)	.	.	.
-=58	=58	=58	=58
+=3	=3	=3	=3
 *	*	*^	*
 16AALL	8.AAL	2ff]	16ffKL	.
-(16D	.	.	[8.cc#XJ	.
+(16D	.	.	[>8.cc#XJ	.
 16B-X')	.	.	.	.
 16GGJJ	[16GGJk	.	.	.
-(16GGKL	4GG]	.	8cc#L]	.
+(<16GGKL]	4GG	.	8cc#L]	.
 8E	.	.	.	.
 .	.	.	8dd#XJ	.
 16B-Jk)	.	.	.	.
-=59	=59	=59	=59	=59
-16AALL	8.AAL	(8bL	4b-X	mf
-(16D	.	.	.	.
-16B-X')	.	8ddnJ)	.	.
+=4	=4	=4	=4	=4
+!	!	!	!	!LO:DY:a
+16AALL	8.AAL	(8b-XL	4b-	mf
+16D	.	.	.	.
+16B-X	.	8ddJ)	.	.
 16GGJJ	[16GGJk	.	.	.
-(8EL	16GG]	(8.ddL	4b-	.
+(8EL	16GG]	(8.ddL	4b-^	.
 .	16ryy	.	.	.
 8B-XJ)	8ryy	.	.	.
 .	.	16ffJk)	.	.
 *	*	*v	*v	*
-=60	=60	=60	=60
-(8AAL	4AA	(4b-X^ 4dd	.
+!!linebreak:original
+=5	=5	=5	=5
+(8AAL	4AA	(>4b-X^> 4dd/	.
 16DL	.	.	.
 16B-XJJ)	.	.	.
-16GGKL	4GG	8g'L) 8b-	.
-(8E^	.	.	.
-.	.	(8g^J 8b- 8dd	.
+16GGKL	4GG	8g' 8b-)	.
+(<8E^	.	.	.
+.	.	(>[8g^> 8b- 8dd/	.
 16B-Jk)	.	.	.
-=61	=61	=61	=61
+=6	=6	=6	=6
 *	*	*^	*
-(16AALL	4AA	8gL) 8b-X 8ff	8ryy	.
+(<16AALL	4AA	8g 8b-XZ 8ff)'	8g]	.
 16DJ	.	.	.	.
-8B-XJ)	.	(8.ff^	4dd	.
+8B-XJ)	.	(8.ff^L	4dd	.
 16GGKL	4GG	.	.	.
-(8E^	.	16aak)	.	.
-.	.	[8dd^J [8ff	8r	.
+(<8E^	.	16aaJk)'	.	.
+.	.	[8dd^> [8ff/	8ryy	.
 16B-'Jk)	.	.	.	.
 *	*	*v	*v	*
-=62	=62	=62	=62
-(16AALL	8.AAL	8dd] 8ff]	.
+=7	=7	=7	=7
+(16AALL	8.AAL	8dd] 8ff]/	.
 16D	.	.	.
-16B-X')	.	4b-X 4dd	.
+16B-X')	.	4b-X 4dd/	.
 16GGJJ	[16GGJk	.	.
-(8EL	16GG]	.	.
+(<8EnL^	16GG]	.	.
 .	16ryy	.	.
-8B-XJ)	8ryy	8ryy	.
-=63	=63	=63	=63
-(8AAL	4AA	(4.ffn 4.ddd 4.fff#X	.
+8B-XJ)'>	8ryy	8ryy	.
+=8	=8	=8	=8
+(8AAL	4AA	(4.ffn 4.ddd 4.fff#Xi	.
 16DL	.	.	.
-16B-XJJ)	.	.	.
+16B-X'JJ)>	.	.	.
 16GGKL	4GG	.	.
-(8E^	.	.	.
-.	.	[8gg#X) [8eee [8ggg	.
-16B-Jk)	.	.	.
+(<8E^	.	.	.
+.	.	[8gg#X [8eee [8gggn	.
+16B-Jk)'	.	.	.
 *v	*v	*	*
 =	=	=
 *-	*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1874/10/20-1954/05/19
-!!!CBL: Danbury, United States
-!!!CDL: New York, United States
-!!!CNT: American
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT: 1949/02/17
-!!!MGN:
-!!!MLC: New York, New York, United States of America
-!!!MPD: 1949
-!!!MPN: Masselos, William
-!!!ODT: 1921
-!!!PDT: 1954
-!!!excerpt-start-measure: 56
-!!!excerpt-end-measure: 63
-!!!excerpt-start-time: 1:23
-!!!excerpt-end-time: 1:28
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: Z = editorial accidental, bracket
+!!!RDF**kern: < = below
+!!!RDF**kern: > = above
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED: Jason Lee
+!!!EEV: 2022/03/09
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/16

@@ -1,9 +1,7 @@
-!!!COM: Martinů, Bohuslav (Jan)
-!!!OTL: Piano Quintet No. 1
-!!!OMV: II: Andante, poco moderato
-!!!example: 497
-!!!work: Mau-39
+!!!COM: Bohuslav (Jan) Martinů
+!!!OTL: [T497_Mau-39/11/1-6]
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
 *part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff6	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Piano	*	*	*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
@@ -12,67 +10,62 @@
 *k[]	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*
 *M2/4	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
-*MM121	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
+!	!LO:TX:t=Andante (Poco moderato) [quarter]=72	!	!	!	!	!	!	!	!LO:TX:t=Andante (Poco moderato) [quarter]=72	!
 2r	2r	.	8r	.	8r	.	8r	.	8r	.
+!	!	!	!	!LO:DY:t=%s dolce	!	!LO:DY:t=%s dolce	!	!LO:DY:t=%s dolce	!	!LO:DY:t=%s dolce
 .	.	.	(8BB-X	p	(8B-X	p	(8d	p	(8f	p
 .	.	.	8CL	.	8e-XL	.	8cL	.	8b-XL	.
 .	.	.	8DJ)	.	8dJ)	.	8fJ)	.	8aJ)	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
 *M3/4	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
-8r	2.r	.	(8E-XL	.	(8gL	.	(8e-XL	.	(8gL	.
-8EE-X' 8E-X	.	pp	8DJ	.	8dJ	.	8fJ	.	8b-XJ	.
-8FF' 8F	.	.	8CL	.	8e-XL	.	8cL	.	8fL	.
-8r	.	.	8BB-XJ	.	8B-XJ	.	8dJ	.	8gJ	.
-8r	.	.	8AAL	.	8cL	.	8AL	.	8dL	.
-8GG' 8G	.	.	8GGJ)	.	8GJ)	.	8B-XJ)	.	8e-XJ)	.
-=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
-8AA' 8A	2.r	.	(8AAL	.	(8cL	.	(8AL	.	4.f	.
-8r	.	.	8BB-XJ	.	8B-XJ	.	8dJ	.	.	.
-8r	.	.	8CL	<	8e-XL	.	8cL	.	.	.
-8BB-X' 8B-X	.	.	8BB-J	.	8B-J	.	8dJ	<	(8f	<
-8C' 8c	.	.	8AAL	.	8cL	.	8AL	.	4cc)	[[
-8r	.	.	8BB-J)	[[	8B-J)	.	8dJ)	[[	.	.
+8r	4%3r	pp	(8E-XL	.	(8gL	.	(>8e-XL	.	(8gL	.
+*^	*	*	*	*	*	*	*	*	*	*
+8E-X'	8EE-X	.	.	8DJ	.	8dJ	.	8fJ	.	8b-XJ	.
+8F'	8FF	.	.	8CL	.	8e-XL	.	8cL	.	8fL	.
+*v	*v	*	*	*	*	*	*	*	*	*	*
+8r'	.	.	8BB-XJ	.	8B-XJ	.	8dJ	.	8gJ	.
+8r'	.	.	8AAL	.	8cL	.	8AL	.	8dL	.
+*^	*	*	*	*	*	*	*	*	*	*
+8G'	8GG	.	.	8GGJ)	.	8GJ)	.	8B-XJ)	.	8e-XJ)	.
+=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+8A'	8AA	4%3r	.	(8AAL	.	(8cL	.	(>8AL	.	4.f	.
+*v	*v	*	*	*	*	*	*	*	*	*	*
+8r	.	.	8BB-XJ	<	8B-XJ	<	8dJ	.	.	.
+8r	.	.	8CL	.	/8e-XL	.	8cL	.	.	.
+*^	*	*	*	*	*	*	*	*	*	*
+8B-X'	8BB-X	.	.	8BB-J	.	8B-J	.	8dJ	<	(8f	<
+8c'	8C	.	.	8AAL	.	8cL	.	8AL	.	4cc)	[[
+*v	*v	*	*	*	*	*	*	*	*	*	*
+8r'	.	.	8BB-J)	[	8B-J)	[	8dJ)	[	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-8r	8r	.	(8CL	.	(8enL	.	(8cL	.	(8b-XL	<
-8D'	8d'	.	8BB-XJ	<	8B-XJ	.	8dJ	.	8aJ	.
-8E-X'	8e-X'	.	8CL	.	8eL	.	8cL	.	8ddL	[
-8r	8r	.	8DJ	.	8dJ	.	8fJ	>	8b-J	>
-8r	8r	.	8EnL	.	8gL)	.	8enL	.	8aL	.
-8F'	8f'	.	8DJ)	[[	8dJ	.	8fJ)	]]	8gJ)	]
+8r'	8r'	.	(8CL	.	(8enL	.	(>8cL	.	(>8b-XL	<
+8D'	8d	.	8BB-XJ	<	8B-XJ	<	8dJ	.	8aJ	.
+8E-X'	8e-X	.	8CL	.	8eL	.	8cL	.	8ddL	[
+8r'	8r'	.	8DJ	.	8dJ	.	8fJ	>	8b-J	>
+8r'	8r'	.	8EnL	.	8gL)	.	8enL	.	8aL	.
+8F'	8f	.	8DJ)	[	8dJ	[	8fJ)	]	8gJ)	]
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
 *M2/4	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
-8G'	8g'	<	(8EnL	.	(8gL	.	(8enL	.	(8ccL	.
+8G'	8g	<	(8EnL	.	(8gL	.	(>8enL	.	/(>8ccL	.
 8r	8r	.	8DJ	<	8fJ	.	8fJ	.	8aJ	.
-8r	8r	.	8EL	.	8gL	.	8eL	.	8gL	.
-8A'	8a'	.	8FJ	.	8fJ	.	8aJ	<	8fJ	.
+8r	8r	.	8EL	.	8gL	<	8eL	<	8gL	.
+8A'	8a	[	8FJ	.	8fJ	.	8aJ	.	8fJ	.
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
 *M3/4	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
-8B-X'	8b-X'	[	4.G)	[	4.b-X)	.	4.g)	.	8dL	<
-8r	8r	.	.	.	.	.	.	.	8enJ)	.
+8B-X'	/8b-X	.	4.G)	[[	4.b-X)	[[	4.g)	.	8dL	<
+8r	8r	.	.	.	.	.	.	[	8enJ)	.
 4r	4r	.	.	.	.	.	.	.	8eL	.
-.	.	.	(8F	.	(8a	.	(8f	[	(8fJ	[
+!	!	!	!	!LO:DY:t=poco %s	!	!LO:DY:t=poco %s	!	!LO:DY:t=poco %s	!	!LO:DY:t=poco %s
+.	.	.	(8F	mf	(8a	mf	(>8f	mf	(>8fJ	mf [
 8r	8r	.	8GL	.	8gL	.	8b-XL	.	8ffL	.
-8AA' 8A	8c' 8a 8cc	.	8AJ)	mf	8ccJ)	.	8aJ)	mf	8ee-XJ)	mf
-=	=	=	=	=	=	=	=	=	=	=
+8AA' 8A	8c 8a 8cc	p	8AJ	.	8ccJ	.	8aJ	.	8ee-XJ)	.
+=||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2,s3,s4)]{(s5,s6)}
-!!!CDT: 1890/12/08-1959/08/28
-!!!CBL: Polička, Bohemia
-!!!CDL: Liestal, Switzerland
-!!!CNT: Czech
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1934/03/09
-!!!MGN: Quatuor Inding
-!!!MLC: Paris, France
-!!!MPD: 1934
-!!!MPN: Harsányi, T.
-!!!ODT: 1933
-!!!PDT: 1933
-!!!excerpt-start-measure: 1
-!!!excerpt-end-measure: 6
-!!!excerpt-start-time: 0:00
-!!!excerpt-end-time: 0:16
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: s1,s2,s3,s4[({(s5,s6)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/08/05
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/02/16

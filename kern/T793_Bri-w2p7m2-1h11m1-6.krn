@@ -1,63 +1,100 @@
 !!!COM: Britten, (Edward) Benjamin
-!!!OTL: Phantasy for Oboe, Violin, Viola and Violincello
-!!!OMV:
-!!!example: 793
-!!!work: Bri-2
+!!!OTL: [T793_Bri-w2p7m2-1h11m1-6]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Oboe	*
-*I'Vc.	*	*I'Vla.	*	*I'Vln. II	*	*I'Ob.	*
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*I"Violoncello	*I"Violoncello	*I"Viola	*I"Viola	*I"Violin II	*I"Violin II	*I"Oboe	*I"Oboe
+*I'Vc.	*I'Vc.	*I'Vla.	*I'Vla.	*I'Vln. II	*I'Vln. II	*I'Ob.	*I'Ob.
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*
-*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
-*MM121	*	*MM121	*	*MM121	*	*MM121	*
-=130	=130	=130	=130	=130	=130	=130	=130
-8d'L	f	8e'L	<	4e'	.	6ff#X'	.
-8B'	.	8f#X'J	.	.	.	.	.
+*M2/2	*	*M2/2	*	*M2/2	*	*M2/2	*
+*met(c|)	*	*met(c|)	*	*met(c|)	*	*met(c|)	*
+=1	=1	=1	=1	=1	=1	=1	=1
+!	!	!	!	!	!	!LO:TX:t=[half]=138	!
+!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
+8d'L	f	8e'L	f	8e'L	f	8b)	f
+8B'	.	8d'	.	8f#X'	.	8r	.
+8A'	.	8e'J	.	8a'	.	4r	.
+8F#X'J	.	8r	.	8b'J	.	.	.
+!	!	!LO:TX:a:t=pizz.	!	!	!	!LO:TUP:a	!
+8E'	.	4E 4B 4g 4dd	.	8dd'	.	(10cc#XL	.
+.	.	.	.	.	.	10dd	<
+8r	.	.	.	8r	.	.	.
+.	.	.	.	.	.	10ee	.
+!LO:TX:a:t=pizz.	!	!	!	!LO:TX:a:t=pizz.	!	!	!
+/4GG+ 4D+ 4A+	.	4r	.	4a+ 4ee+	.	.	.
+.	.	.	.	.	.	10ff#X	.
+.	.	.	.	.	.	10gg#XJ	[
+=2	=2	=2	=2	=2	=2	=2	=2
+!	!	!LO:TX:a:t=arco	!	!	!	!	!
+!LO:TX:a:t=arco	!LO:DY:t=più %s	!	!LO:DY:t=più %s	!LO:TX:a:t=arco	!LO:DY:t=più %s	!	!
+8d'L	f	8e'L	f	8e'L	f	8aa)	.
+8B'	.	8d'	.	8f#X'	<	8r	.
+8A'	.	8e'	.	8a'	.	4r	.
+8F#'XJ	.	8d'J	.	8b'J	.	.	.
+!	!	!	!	!	!	!	!LO:DY:t=piú %s
+.	.	.	.	.	.	(<8qgg#X/	f
+8E'L	.	8B'L 8g	.	8dd'L	[ >	4bb')	.
+8F#'	.	8d'	.	8b'	.	.	.
+8A'	.	8e'	.	8a'	.	4aa'	.
+8B'J	.	8d'J	.	8f#'J	]	.	.
+!!LO:REH:t=11
+=3	=3	=3	=3	=3	=3	=3	=3
+!	!	!	!	!	!	!LO:TUP:a	!
+8d'L	.	8e'L	<	8e'	.	6ff#X'	.
+8B'	.	8f#X'	.	8r	.	.	.
 .	.	.	.	.	.	6ee'	.
-8A'	.	8a'	[	4r	.	.	.
+8A'	.	8a'J	[	4r	.	.	.
 .	.	.	.	.	.	6dd'	.
 8F#X'J	.	8r	.	.	.	.	.
-8E	.	4E 4B 4g 4dd	sf	(10bL	f	4cc-X^	.
+!	!	!LO:TX:a:t=pizz.	!	!LO:TUP:a	!	!	!
+8E	.	4E 4B 4g 4dd	sf	(10bvL	f <	4cc#X^	.
 .	.	.	.	10cc#X	.	.	.
 8r	.	.	.	.	.	.	.
-.	.	.	.	10dd	<	.	.
-4GG 4D 4A	.	4r	.	.	.	[4b~	.
+.	.	.	.	10dd	.	.	.
+!LO:TX:a:t=pizz.	!	!	!	!	!	!	!
+4GG+ 4D+ 4A+/	.	4r	.	.	.	[4b~	.
 .	.	.	.	10ee	.	.	.
-.	.	.	.	10ff#XJ	[[	.	.
-=131	=131	=131	=131	=131	=131	=131	=131
+.	.	.	.	10ff#XJ	[	.	.
+=4	=4	=4	=4	=4	=4	=4	=4
+!LO:TX:a:t=arco	!	!LO:TX:a:t=arco	!	!	!	!	!
 8d'L	f	8e'L	f	8gg#X)	>	8b]	.
 8B'	.	8d'	.	8r	]	8r	.
 8A'	.	8e'	.	4r	.	4r	.
 8F#X'J	.	8d'J	.	.	.	.	.
-.	.	.	.	(8qff#X/	sf	.	.
-8E'L	.	8B'L 8g	.	[2aa)	.	(10cc#XL	.
+.	.	.	.	(<8qff#X/	sf	.	.
+!	!	!	!	!	!	!LO:TUP:a	!
+8E'L	.	8B'L 8g	.	[2aau)	.	(10cc#XL	<
 .	.	.	.	.	.	10dd	.
 8F#'	.	8d'	.	.	.	.	.
-.	.	.	.	.	.	10ee	<
+.	.	.	.	.	.	10ee	.
 8A'	.	8e'	.	.	.	.	.
 .	.	.	.	.	.	10ff#X	.
 8B'J	.	8d'J	.	.	.	.	.
-.	.	.	.	.	.	10gg#XJ	[[
-=132	=132	=132	=132	=132	=132	=132	=132
+.	.	.	.	.	.	10gg#XJ	[
+!!linebreak:original
+=5	=5	=5	=5	=5	=5	=5	=5
 8d'L	.	8e	.	2aa_	>	8aa)	.
 8B'	.	8r	.	.	.	8r	.
 8A'	.	4r	.	.	.	4r	.
 8F#X'J	.	.	.	.	.	.	.
 .	.	.	.	.	.	(8qgg#X/	ff
-8E'	.	(10f#XL	f	8aa]	]	4bb')	.
+!	!	!LO:TUP:a	!	!	!	!	!
+8E'	.	(10f#XvL	f	8aa]	]	4bb'^)	.
 .	.	10g#X	.	.	.	.	.
 8r	.	.	.	8r	.	.	.
 .	.	10a	<	.	.	.	.
-4GG 4D 4A	sf	.	.	4r	.	4aa'	.
+!LO:TX:a:t=pizz.	!	!	!	!	!	!	!
+4GG+ 4D+ 4A+/	sf	.	.	4r	.	4aa'	.
 .	.	10b	.	.	.	.	.
-.	.	10cc#XJ	[[	.	.	.	.
-=133	=133	=133	=133	=133	=133	=133	=133
-8d'L	f	8dd#X)	>	(10bL	f	6ff#X'	.
+.	.	10cc#XJ	[	.	.	.	.
+=6	=6	=6	=6	=6	=6	=6	=6
+!LO:TX:a:t=arco	!	!	!	!LO:TUP:a	!	!LO:TUP:a	!
+8d'L	f	8dd^)	.	(10bvL	.	6ff#X'	.
 .	.	.	.	10cc#X	.	.	.
-8B'	.	8r	]	.	.	.	.
+8B'	.	8r	.	.	.	.	.
 .	.	.	.	.	.	6ee'	.
 .	.	.	.	10dd	<	.	.
 8A'	.	4r	.	.	.	.	.
@@ -65,54 +102,44 @@
 .	.	.	.	.	.	6dd'	.
 8F#X'J	.	.	.	.	.	.	.
 .	.	.	.	10ff#XJ	.	.	.
-.	.	(8qcc#X/	sf	.	.	.	.
-8E'L	.	[2ee)	.	8gg#X)	[ >	4cc-X^	.
-8F#'J	.	.	.	8r	]	.	.
-8A'	.	.	.	4r	.	[4b~	>]
-8r	.	.	.	.	.	.	.
-=134	=134	=134	=134	=134	=134	=134	=134
-.	.	.	.	(8qff#X/	sf >	.	.
-(8F#XL	< f	8ee]	.	[2aa)	.	8b]	.
+.	.	(<8qcc#X/u	sf	.	.	.	.
+8E'L	.	[2ee)	.	8gg#X^)	[	4cc#X'^	.
+8F#'	.	.	.	8r	.	.	.
+8A'J	.	.	.	4r	.	[4b~	>
+8r'	.	.	.	.	.	.	.
+=7	=7	=7	=7	=7	=7	=7	=7
+.	.	.	.	(<8qff#X/	sf >	.	.
+(8F#XvL	<	8ee]	.	[2aau)	.	8b]	]
 8G#X	.	8r	.	.	.	8r	.
 8A	.	4r	.	.	.	4r	.
 8BJ	.	.	.	.	.	.	.
-.	.	.	.	.	.	(8qg#X/	f
-8c#X)	[ >	(8C#XL	< f	8aa]	]	4b')	.
-8r	]	8D	.	8r	.	.	.
+.	.	.	.	.	.	(<8qg#X/	f
+8c#X^)	[	(8C#XvL	f <	8aa]	]	4b'^)	.
+8r	.	8D	.	8r	.	.	.
+!	!	!LO:TX:a:t=(sul C)	!	!	!	!	!
 4r	.	8E	.	4r	.	4a'	.
 .	.	8F#XJ	.	.	.	.	.
-=135	=135	=135	=135	=135	=135	=135	=135
+=8	=8	=8	=8	=8	=8	=8	=8
 (8qB/	sf	.	.	.	.	.	.
-4.d)	.	8G#X)	[ >	(8AL	< f	6f#X'	.
-.	.	8r	]	8B	.	.	.
+4.d)	.	8G#X^)	[	(8AvL	f <	6f#X'	.
+.	.	8r	.	8B	.	.	.
 .	.	.	.	.	.	6e'	.
 .	.	4r	.	8c#X	.	.	.
 .	.	.	.	.	.	6d'	.
 8r	.	.	.	8dJ	.	.	.
 .	.	(8qF#X/	sf	.	.	.	.
-(8BBL)	< [	4.A)	.	8e)	[ >	4c#X'^	.
-8C#X	.	.	.	8r	]	.	.
+(8BBvLi	.	4.A)	.	8e)	[ >	4c#X'^	.
+8C#X	<	.	.	8r	]	.	.
 8D	.	.	.	4r	.	[4B~	.
-8EJ	.	8r	.	.	.	.	.
+8EJ	[	8r	.	.	.	.	.
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: s1[(s2,s3,s4)]
-!!!CDT: 1913/11/22-1976/12/04
-!!!CBL: Lowestoft, England
-!!!CDL: Aldeburgh, England
-!!!CNT: English
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1933/08/06
-!!!MGN: International String Quartet
-!!!MLC: London, United Kingdom
-!!!MPD: 1933
-!!!MPN: Bray, Eric; Goossens, Leon; Mangeot, André; Shinebourne, Jack
-!!!ODT: 1932
-!!!PDT: 1935
-!!!excerpt-start-measure: 130
-!!!excerpt-end-measure: 137
-!!!excerpt-start-time: 4:47
-!!!excerpt-end-time: 4:57
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!RDF**kern: + = l.h. pizz.
+!!!system-decoration: [(s1,s2,s3,s4)]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED: Gabriella Vici
+!!!EEV: 2021/10/04
+!!!EED2: Jason Lee
+!!!EEV2: 2022/03/07

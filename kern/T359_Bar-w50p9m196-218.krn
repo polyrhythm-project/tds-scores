@@ -1,9 +1,10 @@
 !!!COM: Bartók, Béla
-!!!OTL: String Quartet No. 6
+!!!OTL: [T359_Bar-w50p9m196-218]
 !!!OMV: Movement 1
 !!!example: 359
 !!!work: Bar-50
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
@@ -11,123 +12,135 @@
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *	*	*	*	*	*	*	*
-*M6/8	*	*M6/8	*	*M6/8	*	*M6/8	*
+*M6/8	*	*M2/4	*	*M6/8	*	*M6/8	*
 *MM210	*	*MM210	*	*MM210	*	*MM210	*
 =196	=196	=196	=196	=196	=196	=196	=196
-4C#X	.	16%3A#XL	.	(8f#XL	.	2.r	.
+*	*	*Xtuplet	*	*	*	*	*
+!	!LO:DY:ed=brack	!LO:TX:t=[pizz.]	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:t=[[quarter-dot]=140]	!
+4C#X	p	16%3A#XL	p	8f#XZL]	mf	2.r	.
 .	.	.	.	8b	.	.	.
-.	.	16%3eJ	.	.	.	.	.
+.	.	16%3e	.	.	.	.	.
 8r	.	.	.	8a#XJ	<	.	.
-4EE	.	16%3a#XL	.	8b#XL	.	.	.
+4EE	.	16%3a#X	.	8b#XL	.	.	.
 .	.	.	.	8cc#X	.	.	.
 .	.	16%3GnJ	.	.	.	.	.
 8r	.	.	.	8dd#XJ)	[[	.	.
 =197	=197	=197	=197	=197	=197	=197	=197
-4r	.	16%3F#XL	.	8dd#X	sf	2.r	.
+4r	.	16%3F#XL	.	8ddnX	sf	2.r	.
 .	.	.	.	8r	.	.	.
-.	.	16%3e#XJ	.	.	.	.	.
+.	.	16%3e#X	.	.	.	.	.
 8r	.	.	.	8r	.	.	.
-([4.FF#X	mf	16%3a#XL	.	4.r	.	.	.
+([4.FF#X	mf	16%3a#X	.	4.r	.	.	.
 .	.	16%3enJ	.	.	.	.	.
 =198	=198	=198	=198	=198	=198	=198	=198
 8FF#L]	.	16%3F#XL	.	2.r	.	2.r	.
 8BB	.	.	.	.	.	.	.
-.	.	16%3dnJ	.	.	.	.	.
+.	.	16%3dn	.	.	.	.	.
 8AA#XJ	.	.	.	.	.	.	.
-8BB#XL	.	16%3a#XL	.	.	.	.	.
+8BB#XL	.	16%3a#X	.	.	.	.	.
 8C#X	.	.	.	.	.	.	.
 .	.	16%3c#XJ	.	.	.	.	.
 8D#XJ)	.	.	.	.	.	.	.
 =199	=199	=199	=199	=199	=199	=199	=199
 (8DnL	.	16%3F#XL	.	2.r	.	2.r	.
 8E	.	.	.	.	.	.	.
-.	.	16%3B#XJ	.	.	.	.	.
+.	.	16%3B#X	.	.	.	.	.
 8D#XJ	.	.	.	.	.	.	.
-8E#XL	.	16%3a#XL	.	.	.	.	.
+8E#XL	.	16%3a#X	.	.	.	.	.
 8F#X	.	.	.	.	.	.	.
 .	.	16%3dnJ	.	.	.	.	.
 8G#XJ	.	.	.	.	.	.	.
 =200	=200	=200	=200	=200	=200	=200	=200
 8F##XL	.	16%3a#XL	.	2.r	.	2.r	.
 8An	.	.	.	.	.	.	.
-.	.	16%3e#XJ	.	.	.	.	.
+.	.	16%3e#X	.	.	.	.	.
 8G#XJ	<	.	.	.	.	.	.
-8BL	.	16%3GnL	.	.	.	.	.
+8BL	.	16%3Gn	.	.	.	.	.
 8cn	.	.	.	.	.	.	.
 .	.	16%3enJ	.	.	.	.	.
 8dJ)	.	.	.	.	.	.	.
+!!LO:REH:t=201
 =201	=201	=201	=201	=201	=201	=201	=201
-(8.d#X'L	.	16%3F#XL	.	4.B#X	< p	2.e#X 2.a#X	< p > ]]
-8.c#X'J)	.	16%3e#XJ	.	.	.	.	.
-([4.e^^	[	16%3a#XL	.	4.c#X	[ >	.	.
-.	.	16%3c#XJ	.	.	.	.	.
+(8.d#X'L	.	16%3F#XL	.	4.B#XOOO	< p	2.e#XOOO 2.a#X	p
+8.c#X'J)	.	16%3e#X	.	.	.	.	<
+([4.e^^	[	16%3a#X	.	4.c#XOOO	[ >	.	[[
+.	.	16%3c#XJ	.	.	.	.	>
 =202	=202	=202	=202	=202	=202	=202	=202
-8eL]	.	16%3g#XL	.	8c#X	.	8f#X 8a#X	.
+8eL]	>	16%3g#XL	.	8c#X	.	8f#X 8a#X	.
 8dn	.	.	.	8r	]	8r	]
-.	.	16%3F#XJ	.	.	.	.	.
+.	.	16%3F#X	.	.	.	.	.
 8c#XJ	.	.	.	8r	.	8r	.
-8cnL	.	16%3enL	.	4.r	.	4.r	.
+8cnL	.	16%3en	.	4r	.	4r	.
 8d#X	.	.	.	.	.	.	.
 .	.	16%3anJ	.	.	.	.	.
-8BJ)	.	.	.	.	.	.	.
+8BJ)	.	.	.	8r	.	8r	.
 =203	=203	=203	=203	=203	=203	=203	=203
 (8cnL	.	16%3F#XL	.	2.r	.	2.r	.
 8B-X	.	.	.	.	.	.	.
-.	.	16%3c#XJ	.	.	.	.	.
+.	.	16%3c#X	.	.	.	.	.
 8AJ	.	.	.	.	.	.	.
-8G#XL	.	16%3a#XL	.	.	.	.	.
+8G#XL	.	16%3a#X	.	.	.	.	.
 8Bn	.	.	.	.	.	.	.
 .	.	16%3eJ	.	.	.	.	.
 8GnJ	.	.	.	.	.	.	.
 =204	=204	=204	=204	=204	=204	=204	=204
 8F#XL	.	16%3anL	.	2.r	.	2.r	.
 8G#X	.	.	.	.	.	.	.
-.	.	16%3d#XJ	.	.	.	.	.
+.	.	16%3d#X	.	.	.	.	.
 8AJ)	.	.	.	.	.	.	.
-(8EL	.	16%3c#XL	.	.	.	.	.
+(/8EL	.	16%3c#X	.	.	.	.	.
 8D#X	.	.	.	.	.	.	.
 .	.	16%3gnJ	.	.	.	.	.
 8C#XJ	.	.	.	.	.	.	.
 =205	=205	=205	=205	=205	=205	=205	=205
-16%3Cn'L	.	16%3f#XL	.	2.r	.	4.r	.
-16%3AA-X'J)	.	16%3B#XJ	.	.	.	.	.
-16%3r	.	16%3e#XL	.	.	.	([4.b	mf
+*M2/4	*	*	*	*	*	*	*
+*Xtuplet	*	*	*	*	*	*	*
+*grp:B	*grp:B	*	*	*	*	*	*
+16%3Cn'L	.	16%3f#XL	.	2.r	.	4r	.
+16%3AA-X'J)	.	16%3B#X	.	.	.	.	.
+.	.	.	.	.	.	8r	.
+!	!	!	!	!	!	!LO:TX:t=P:problem: Polymeter causing rests to misalign	!
+16%3r	.	16%3e#X	.	.	.	([4.b	mf
+!LO:TX:t=pizz.	!	!	!	!	!	!	!
 16%3AA-X	p	16%3d#XJ	.	.	.	.	.
 =206	=206	=206	=206	=206	=206	=206	=206
-16%3FL	.	4.dn	.	2.r	.	4.b_	.
-16%3A-XJ	.	.	.	.	.	.	.
-16%3BB-XL	.	4.r	.	.	.	8bL]	.
+16%3FL	.	8%3dn	.	2.r	.	4.b_	.
+16%3A-X	.	.	.	.	.	.	.
+16%3BB-XJ	.	8%3r	.	.	.	8bL]	.
 .	.	.	.	.	.	8dd#X	.
-16%3fJ	.	.	.	.	.	.	.
+16%3fL	.	.	.	.	.	.	.
 .	.	.	.	.	.	8ddnJ	.
 =207	=207	=207	=207	=207	=207	=207	=207
-16%3A-XL	.	2.r	.	2.r	.	8cc#XL	.
+*	*	*tuplet	*	*	*	*	*
+16%3A-X	.	2.r	.	2.r	.	8cc#XL	.
 .	.	.	.	.	.	8ee#X	.
 16%3BB-XJ	.	.	.	.	.	.	.
 .	.	.	.	.	.	8ff#XJ)	.
 16%3dL	.	.	.	.	.	(8ff##XL	.
 .	.	.	.	.	.	8aa#X	<
-16%3FJ	.	.	.	.	.	.	.
+16%3F	.	.	.	.	.	.	.
 .	.	.	.	.	.	8gg#XJ	.
 =208	=208	=208	=208	=208	=208	=208	=208
-16%3BB-XL	.	2.r	.	2.r	.	8aanL	.
+16%3BB-XJ	.	2.r	.	2.r	.	8aanL	.
 .	.	.	.	.	.	8bb	.
-16%3cJ	.	.	.	.	.	.	.
-.	.	.	.	.	.	8cccJ)	.
-16%3EL	.	.	.	.	.	8ccc#X	[ sf
+16%3cL	.	.	.	.	.	.	.
+.	.	.	.	.	.	8cccJ)	[ sf
+16%3E	.	.	.	.	.	8ccc#X	.
 .	.	.	.	.	.	8r	.
 16%3BB-J	.	.	.	.	.	.	.
 .	.	.	.	.	.	8r	.
+!!LO:REH:t=209
 =209	=209	=209	=209	=209	=209	=209	=209
 16%3dL	.	2.r	.	4r	.	([4.B-X^	p
-16%3A-XJ	.	.	.	.	.	.	.
+16%3A-X	.	.	.	.	.	.	.
 .	.	.	.	8r	.	.	.
-16%3BB-XL	.	.	.	([4.B-X^	p	8B-L]	.
+!	!	!	!	!LO:TX:t=P:problem: Polymeter causing rests to misalign	!	!	!
+16%3BB-XJ	.	.	.	([4.B-X^	p	8B-L]	.
 .	.	.	.	.	.	8e	.
-16%3fJ	.	.	.	.	.	.	.
+16%3fL	.	.	.	.	.	.	.
 .	.	.	.	.	.	8e-XJ	.
 =210	=210	=210	=210	=210	=210	=210	=210
-16%3A-XL	.	2.r	.	4.B-_	.	8dL	.
+16%3A-X	.	2.r	.	4.B-_	.	8dL	.
 .	.	.	.	.	.	8f	.
 16%3BB-XJ	.	.	.	.	.	.	.
 .	.	.	.	.	.	8f#XJ	.
@@ -138,14 +151,14 @@
 =211	=211	=211	=211	=211	=211	=211	=211
 16%3dL	.	2.r	.	8b-X)	.	(8b-XL	.
 .	.	.	.	8r	.	8dd-X	.
-16%3FJ	.	.	.	.	.	.	.
+16%3F	.	.	.	.	.	.	.
 .	.	.	.	8r	.	8ddnJ	.
-16%3C-XL	.	.	.	(8aL	.	8ee-XL	.
+16%3C-XJ	.	.	.	(8aL	.	8ee-XL	.
 .	.	.	.	8e-X	.	8ffn	.
-16%3e-XJ	.	.	.	.	.	.	.
+16%3e-XL	.	.	.	.	.	.	.
 .	.	.	.	8fJ)	.	8ggJ	.
 =212	=212	=212	=212	=212	=212	=212	=212
-16%3A-XL	.	2.r	.	[2.B-X	.	8gg-XL	<
+16%3A-X	.	2.r	.	[2.B-X	.	8gg-XL	<
 .	.	.	.	.	.	8aan	.
 16%3DJ	.	.	.	.	.	.	.
 .	.	.	.	.	.	8bb-XJ	.
@@ -154,58 +167,72 @@
 16%3GGJ	.	.	.	.	.	.	.
 .	.	.	.	.	.	8eee-XJ)	.
 =213	=213	=213	=213	=213	=213	=213	=213
-16%3FF#XL	.	4r	.	4.B-]	.	([2.dddn	[[
-16%3BJ	.	.	.	.	.	.	.
+*	*	*M6/8	*	*	*	*	*
+*	*	*grp:A	*	*	*	*	*
+16%3FF#X	.	4r	.	4.B-Z]	.	([2.dddn	[[
+16%3BL	.	.	.	.	.	.	.
 .	.	8r	.	.	.	.	.
-16%3D#XL	.	([4.A^	mf	[4.Bn	.	.	.
+!	!	!LO:TX:t=P:problem: Polymeter causing rests to misalign	!	!	!	!	!
+!	!	!LO:TX:t=arco	!	!	!	!	!
+16%3D#X	.	([4.A^	mf	[4.Bn	.	.	.
 16%3FF#J	.	.	.	.	.	.	.
 =214	=214	=214	=214	=214	=214	=214	=214
 16%3BL	.	4.A_	>	2.B_	.	8dddL]	.
 .	.	.	.	.	.	8ccc#X	>
-16%3D#XJ	.	.	.	.	.	.	.
+16%3D#X	.	.	.	.	.	.	.
 .	.	.	.	.	.	8bbJ	.
-16%3FF#XL	.	8AL]	.	.	.	8aa#XL	.
-.	.	8d	] p	.	.	8cccn	.
-16%3BJ	.	.	.	.	.	.	.
+16%3FF#XJ	.	8AL]	]	.	.	8aa#XL	.
+.	.	8d	p	.	.	8cccn	.
+16%3BL	.	.	.	.	.	.	.
 .	.	8c#XJ	.	.	.	8aanJ)	.
 =215	=215	=215	=215	=215	=215	=215	=215
-16%3F#XL	.	8cnL	.	2.B_	.	(8gg#XL	.
+16%3F#X	.	8cnL	.	2.B_	.	(8gg#XL	.
 .	.	8e	.	.	.	8ggn	.
 16%3BBJ	.	.	.	.	.	.	.
 .	.	8fJ)	.	.	.	8ffnJ	.
 16%3AL	.	(8gL	.	.	.	8eeL	.
 .	.	8f#X	.	.	.	8ff#X	.
-16%3BBJ	.	.	.	.	.	.	.
+16%3BB	.	.	.	.	.	.	.
 .	.	8aJ	.	.	.	8dd#XJ)	.
 =216	=216	=216	=216	=216	=216	=216	=216
-16%3FF#XL	.	8g#XL	.	2.B]	.	(8ffnL	.
+16%3FF#XJ	.	8g#XL	.	2.B]	.	(8ffnL	.
 .	.	8b	.	.	.	8ddn	.
-16%3BBJ	.	.	.	.	.	.	.
+\16%3BBL	.	.	.	.	.	.	.
 .	.	8a#XJ)	.	.	.	8cc#XJ	.
-16%3AL	.	(8ccnL	<	.	.	8ccnL	.
+16%3A	.	(8ccnL	<	.	.	8ccnL	.
 .	.	8bn	.	.	.	8dd#X	.
 16%3FF#J	.	.	.	.	.	.	.
 .	.	8cc#XJ)	.	.	.	8bJ)	]]
 *	*	*clefG2	*	*	*	*	*
+!!LO:REH:t=217
 =217	=217	=217	=217	=217	=217	=217	=217
 16%3GGL	.	8ddL	.	8c	.	[2.b-X	.
 .	.	8ee	.	8r	.	.	.
-16%3CJ	.	.	.	.	.	.	.
+16%3C	.	.	.	.	.	.	.
 .	.	8ffJ	.	8r	.	.	.
-16%3B-XL	.	([4.gg-X	[[	4.r	.	.	.
+16%3B-X	.	([4.gg-X	[	4r	.	.	.
 16%3D-XJ	.	.	.	.	.	.	.
+.	.	.	.	8r	.	.	.
 =218	=218	=218	=218	=218	=218	=218	=218
-16%3GGL	.	8gg-L]	.	([4.e^	mf	2.b-_	.
+16%3GGL	.	8gg-L]	.	(>[4.e^	mf	2.b-_	.
 .	.	8ff	.	.	.	.	.
 16%3CJ	.	.	.	.	.	.	.
-.	.	8ee-XJ)	.	.	.	.	.
+.	.	8ee-XJ	.	.	.	.	.
+!LO:TX:t=P:problem:Cross-Measure Hanging Beam	!	!	!	!	!	!	!
 16%3B-XL	.	8ddL	.	8eL]	.	.	.
-.	.	8ee-X	.	8b-X	.	.	.
-16%3FJ	.	.	.	.	.	.	.
-.	.	8dd-XJ	.	8aJ)	.	.	.
+.	.	8eenX	.	8b-X	.	.	.
+16%3F	.	.	.	.	.	.	.
+.	.	8dd-XJ)	.	8aJ	.	.	.
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!RDF**dynam: > = dim.
+!!!RDF**kern: O = tremolo
+!!!RDF**kern: Z = editorial accidental, parentheses
+!!!EED: Daniel Wright
+!!!EEV: 2022/08/19
 !!!CDT: 1881/03/25-1945/09/26
 !!!CBL: Sînnicolau Mare (Nagyszentmiklós), Romania (Hungary)
 !!!CDL: New York, United States

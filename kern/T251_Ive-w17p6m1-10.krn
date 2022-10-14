@@ -1,107 +1,94 @@
-!!!COM: Ives, Charles
-!!!OTL: Trio for Piano, Violin and Violincello
-!!!OMV: II: TSIAJ: Presto
-!!!example: 251
-!!!work: Ive-17
+!!!COM: Charles Ives
+!!!OTL: [T251_Ive-w17p6m1-10]
 **kern	**kern	**dynam	**kern	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B
 *part3	*part3	*part3	*part2	*part1	*part1
-*staff4	*staff3	*	*staff2	*staff1	*
-*I"Piano	*	*	*I"Violoncello	*I"Violin	*
+*staff4	*staff3	*staff3/4	*staff2	*staff1	*staff1
+*I"Piano	*I"Piano	*I"Piano	*I"Violoncello	*I"Violin	*I"Violin
 *I'Pno.	*	*	*I'Vc.	*I'Vln.	*
 *clefF4	*clefG2	*	*clefF4	*clefG2	*
 *k[]	*k[]	*	*k[]	*k[]	*
 *C:	*C:	*	*C:	*C:	*
 *M6/8	*M6/8	*	*M6/8	*M6/8	*
-*MM121	*MM121	*	*MM121	*MM121	*
 =1	=1	=1	=1	=1	=1
-2.r	2.r	.	8GG^L 8D	8a^L 8aa	ff
+!	!LO:TX:a:B:t=Presto	!	!	!LO:TX:a:B:t=Presto	!
+4%3r	4%3r	.	8GG^L 8D	8a^L 8aa	ff
 .	.	.	8GG^ 8D#X	8a^ 8aa-X	.
-.	.	.	8GG^J 8E	8a^J 8gg	.
-.	.	.	8GG^L 8F	8a^L 8gg-X	.
+.	.	.	8GG^ 8E	8a^ 8gg	.
+.	.	.	8GG^ 8F	8a^ 8gg-X	.
 .	.	.	8GG^ 8F#X	8a^ 8ff	.
 .	.	.	8GG^J 8G	8a^J 8ee	.
 =2	=2	=2	=2	=2	=2
-2.r	2.r	.	8GG^L 8A-X	8aL 8ff	.
+4%3r	4%3r	.	8GG^L> 8A-X	8aL 8ff	.
 .	.	.	8GG^ 8G	8a 8ff#X	.
-.	.	.	8GGJ 8G-X	8aJ 8ggn	.
-.	.	.	8GGL 8Fn	8aL 8gg#X	.
+.	.	.	8GG 8G-X	8a 8gg	.
+.	.	.	8GG 8F	8a 8gg#X	.
 .	.	.	8GG 8E	8a 8aa	.
 .	.	.	8GGJ 8E-X	8aJ 8bb-X	.
 =3	=3	=3	=3	=3	=3
 8FF#X 8D	8a#X 8bb	ff	8r	8r	.
 8r	8r	.	8GGL 8E-X	8aL 8bb-X	.
-8r	8r	.	8GGJ 8En	8aJ 8aa	.
-4.r	4.r	.	8GGL 8F	8aL 8aa-X	.
-.	.	.	8GG 8F#X	8a 8ggn	.
+8r	8r	.	8GG 8En	8a 8aa	.
+4.r	4.r	.	8GG 8F	8a 8aa-X	.
+.	.	.	8GG 8F#X	8a 8gg	.
 .	.	.	8GGJ 8G	8aJ 8gg-X	.
 =4	=4	=4	=4	=4	=4
-8r	8r	.	8GGL 8A-X	8aL 8ff	.
+8r	8r	.	8GG/L 8A-X/	8aL 8ff	.
 8r	8r	.	8GGJ 8G	8aJ 8ee	.
 8GG#X 8A	8a#X 8dd#X	.	8r	8r	.
 4.r	4.r	.	8GGL 8D#X	8d'L 8dd	.
 .	.	.	8GG 8E	8d' 8dd-X	.
-.	.	.	8GGJ 8Fn	8d'J 8cc	.
+.	.	.	8GGJ 8F	8d'J 8cc	.
+!!LO:REH:t=5
 =5	=5	=5	=5	=5	=5
-8GG#XL 8G#X	8c#XL 8b	.	8r	8r	.
-8AAJ 8A	8cnJ 8b-X	.	8r	8r	.
+8GG#XL 8F#X	8c#XL 8b	.	8r	8r	.
+8AAJ 8G	8cnJ 8b-X	.	8r	8r	.
 8r	8r	.	8GG 8F#X	8d 8b	.
 8r	8r	.	8GG 8G	8d 8b-X	.
-8AAL 8A	8dnL 8b-X	.	8r	8r	.
-8AAJ 8G#	8cJ 8cc	.	8r	8r	.
+8AAL 8A	8d-XL 8bn	.	8r	8r	.
+8AAJ 8G	8cJ 8cc	.	8r	8r	.
 =6	=6	=6	=6	=6	=6
-4r	8r	.	8r	8d 8cc#X	.
+4r.	8r	.	8r	8d 8cc#X	.
 .	8e-X 8dd	.	8r	8r	.
-8r	8r	.	8CC 8D	8r	.
+.	8r	.	8CC 8D	8r	.
 8EE-XL 8D	8r	.	4.r	4.r	.
 8C 8B	8r	.	.	.	.
 8GG^J 8E-X	8B-X 8d 8g	.	.	.	.
 =7	=7	=7	=7	=7	=7
-8AA-XL 8Fn	8AL 8d 8f#X	.	4r	4r	.
+8AA-XL 8Fn	8AL 8d 8f#X	.	4.r	4.r	.
 8GG^ 8E-X	8B-X^ 8d 8g	.	.	.	.
-8AA-J 8Fn	8AJ 8d 8f#	.	8r	8r	.
+8AA-J 8F	8AJ 8d 8f#	.	.	.	.
 8GGL 8E-	8B-L 8d 8g	.	8r	8r	.
 8AA-^J 8F	8A^J 8d 8f#	.	8r	8r	.
 8r	8r	.	8Cn 8B	8c#X 8e	.
 =8	=8	=8	=8	=8	=8
 8AA-XL 8Fn	8AL 8d 8f#X	.	4.r	4.r	.
 8GG^ 8E-X	8B-X^ 8d 8g	.	.	.	.
-8AA-J 8Fn	8AJ 8d 8f#	.	.	.	.
-8r	8r	.	8C 8B	8c#X 8e	.
+8AA-J 8F	8AJ 8d 8f#	.	.	.	.
+8r	8r	.	8C 8B	8c#X^ 8e	.
 8GGL 8E-	8B-L 8d 8g	.	8r	8r	.
 8AA-^J 8F	8A^J 8d 8f#	.	8r	8r	.
 =9	=9	=9	=9	=9	=9
 8GG 8E-X	8B-X 8d 8g	.	8r	8r	.
-8r	8r	.	8C 8B	8c#X 8e	.
+8r^	8r	.	8C 8B	8c#X 8e	.
 8AA-X 8Fn	8A 8d 8f#X	.	8r	8r	.
 8r	8r	.	8C 8B	8c# 8e	.
-8AA-L 8Fn	8AL 8d 8f#	.	8r	8r	.
-8AA-^J 8E-	8B-J 8d 8g	.	8r	8r	.
+8AA-L 8F	8AL 8d 8f#	.	8r	8r	.
+8AA-J 8E-	8B-J 8d 8g	.	8r	8r	.
+!!LO:REH:t=10
 =10	=10	=10	=10	=10	=10
 8AA-X 8Fn	8A 8d 8f#X	.	8r	8r	.
 8r	8r	.	8C 8B	8c#X 8e	.
 8r	8r	.	8r	8r	.
-8AA-^ 8E-X	8B-X 8d 8g	.	8r	8r	.
+8GG 8E-X	8B-X 8d 8g	.	8r	8r	.
 8r	8r	.	8C 8B	8c# 8e	.
-8AA- 8Fn	8A 8d 8f#	.	8r	8r	.
+8AA- 8F	8A 8d 8f#	.	8r	8r	.
 =	=	=	=	=	=
 *-	*-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2)]{(s3,s4)}
-!!!CDT: 1874/10/20-1954/05/19
-!!!CBL: Danbury, United States
-!!!CDL: New York, United States
-!!!CNT: American
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1948/05/24
-!!!MGN: Baldwin-Wallace College Faculty Trio
-!!!MLC: Berea, Ohio, United States of America
-!!!MPD: 1948
-!!!MPN: Pierce, Esther; Poinar, George; Wolaver, John
-!!!ODT: 1910 (rev. 1915)
-!!!PDT: 1955
-!!!excerpt-start-measure: 1
-!!!excerpt-end-measure: 10
-!!!excerpt-start-time: 0:00
-!!!excerpt-end-time: 0:09
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: s1,s2[({(s3,s4)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED:Jason Lee
+!!!EEV:2021/10/26
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/03/10

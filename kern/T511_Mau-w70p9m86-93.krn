@@ -1,9 +1,7 @@
 !!!COM: Martinů, Bohuslav (Jan)
-!!!OTL: Variations on a Theme by Rossini for Violincello and Piano
-!!!OMV:
-!!!example: 511
-!!!work: Mau-70
+!!!OTL: [T511_Mau-w70p9m86-93]
 **kern	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
 *I"Piano	*	*	*I"Violoncello	*
@@ -12,84 +10,81 @@
 *k[]	*k[]	*	*k[]	*
 *C:	*C:	*	*C:	*
 *M4/4	*M4/4	*	*M4/4	*
-*MM121	*MM121	*	*MM121	*
-=86	=86	=86	=86	=86
-(2FFF 2FF 2F 2A	1r	pp	8f	.
-.	.	.	(4e-X	p
+*met(c)	*met(c)	*	*met(c)	*
+=1	=1	=1	=1	=1
+*	*	*	*	*
+!!LO:TX:a:B:t=Andante
+!!LO:TX:a:B:t=Var. III
+!	!	!	!	!LO:DY:t=%s dolce
+(2FFFn 2FFn	(2Fn< 2A<	pp	8f]	p
+.	.	.	(4e-X	.
 .	.	.	4f)	.
-4.GGG-X 4.GG-X 4.G-X 4.B-X	.	.	.	.
+4.GGG-X 4.GG-X	4.G-<X 4.B-<X	.	.	.
 .	.	.	(4e-	.
-[8GGGn [8GGn [8Gn [8Bn	.	.	8f	.
-=87	=87	=87	=87	=87
-8GGG] 8GG] 8G] 8B]	1r	.	4e-X	.
-4.GGG-X 4.GG-X 4.G-X 4.B-X	.	.	.	.
+[8GGGn [8GGn	[8Gn< [8Bn<	.	8f	.
+=2	=2	=2	=2	=2
+8GGG] 8GG]	8Gn<] 8B<]	.	4e-X	.
+4.GGG-X 4.GG-X	4.G-<X 4.B-X<	.	.	.
 .	.	.	4f)	.
-4FFF 4FF 4F 4A	.	.	(4e-	.
-4EEE 4EE 4E 4G#X	.	.	8fL	.
+4FFF 4FF	4F< 4A<	.	(4e-	.
+4EEE 4EE	4E< 4G#X<	.	8fL	.
 .	.	.	[8dJ	.
-=88	=88	=88	=88	=88
-4.EEE-X 4.EE-X 4.E-X 4.Gn	1r	<	8d])	.
+=3	=3	=3	=3	=3
+4.EEE-X 4.EE-X	4.E-X< 4.Gn<	.	8d])	.
 .	.	.	(4f	.
-[8EEEn [8EEn [8En [8G#X	.	.	4d)	.
-8EEE] 8EE] 8E] 8G#]	.	.	.	.
-[4.FFF) [4.FF [4.F [4.A	.	[[	(8en	<
+[8EEEn [8EEn	[8En< [8G#X<	<	4d)	.
+8EEE] 8EE]	8En<] 8G#<]	.	.	.
+[4.FFF [4.FF)	[4.F< [4.A<)	.	(8en	<
 .	.	.	4A	.
-=89	=89	=89	=89	=89
-8FFF] 8FF] 8F] 8A]	1r	p	8a)	[ mf
-4.AA-X 4.E-X 4.A-X 4.c	.	.	(4a-X	.
+=4	=4	=4	=4	=4
+8FFF] 8FF]	8F<] 8A<]	[ p	8a)	mf [
+(4.AA-X 4.E-X	(4.A-X< 4.c<	.	(4a-X	.
 .	.	.	[8g	.
-2EE-X 2BB-X 2E-X 2B-X	.	.	4g])	.
+2EE-X 2BB-X	2E-X< 2B-X<	.	4g])	.
 .	.	.	(4g-X	.
-=90	=90	=90	=90	=90
-2.BBB-X 2.FF 2.BB-X 2.F 2.B-X	2.d-X	.	4f)	.
+!!linebreak:original
+=5	=5	=5	=5	=5
+2.BBB-X 2.FF 2.BB-X)	2.d-X 2.F< 2.B-X<)	.	4f)	.
 *	*	*	*clefF4	*
 .	.	.	4B-X~	.
-.	.	.	(8An	.
+.	.	.	(8A	.
 .	.	.	4B-)	.
-[4EEE-X [4EE-X	[4G [4e-X [4g	<	.	.
+!LO:T:b	!	!	!	!
+[4EEE-X [4EE-X	[4G< [4e-X [4g	<	.	.
 .	.	.	([8E-X	<
-=91	=91	=91	=91	=91
-2EEE-] 2EE-]	2G] 2e-] 2g]	.	8E-]	.
-.	.	.	4D)	[
+=6	=6	=6	=6	=6
+2EEE-] 2EE-]	2G<] 2e-] 2g]	.	8E-]	.
+.	.	[	4D)	[
 .	.	.	(8GG	.
-2CCC 2CC	2G 2c 2en 2g	[ mf	4.C)	.
+!	!	!LO:DY:rj	!	!
+2CCC 2CC	2G< 2c 2en 2g	mf	4.C)	.
 .	.	.	[8c	.
-=92	=92	=92	=92	=92
-2CC 2C	2G 2e 2g	p	8cL]	.
+=7	=7	=7	=7	=7
+2CC 2C	2G< 2e 2g	p	8cL]	.
 .	.	.	(8B-XJ	>
 .	.	.	[4d-X	.
-4CC#X 4C#X	4G#X 4e 4g#X	.	8d-])	]
+4CC#X 4C#X\	4G#X< 4e 4g#X	.	8d-])	]
 .	.	.	4c~	.
-[4CCn [4Cn	[4Gn [4e [4gn	.	.	.
+!LO:T:b	!LO:T:a	!	!	!
+[4CCn [4Cn	[4Gn< [4e [4gn	.	.	.
 .	.	.	(8B-	.
-=93	=93	=93	=93	=93
-8CC] 8C]	8G] 8e] 8g]	.	4d-X	<
-(4.CC#X 4.C#X	(4.G#X 4.e 4.g#X	.	.	.
+=8	=8	=8	=8	=8
+8CC] 8C]	8G<] 8e] 8g]	.	4d-X	<
+(4.CC#X 4.C#X\i	(4.G#X< 4.e 4.g#Xi	.	.	.
 *	*	*	*clefG2	*
 .	.	.	[4b-X)	[
-4FFF#X 4FF#X	4F#X 4c#X 4f#X	.	8b-]	.
-.	.	.	4a	.
-[4DDD) [4DD	[4A) [4d [4fn	.	.	.
-.	.	.	8d-X	.
+4FFF#X 4FF#X\	4F#X< 4c#X 4f#X	<	8b-]	.
+.	.	.	4a~	.
+!	!LO:T:a	!	!	!
+[4DDD [4DD	[4A< [4d [4fn	.	.	.
+.	.	[	(8d-i	.
+*	*	*	*clefF4	*
 =	=	=	=	=
 *-	*-	*-	*-	*-
-!!!system-decoration: s1{(s2,s3)}
-!!!CDT: 1890/12/08-1959/08/28
-!!!CBL: Polička, Bohemia
-!!!CDL: Liestal, Switzerland
-!!!CNT: Czech
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1943/05/01
-!!!MGN:
-!!!MLC: New York, New York, United States of America
-!!!MPD: 1943
-!!!MPN: Piatigorsky, Gregor
-!!!ODT: 1942
-!!!PDT: 1949
-!!!excerpt-start-measure: 86
-!!!excerpt-end-measure: 93
-!!!excerpt-start-time: 3:37
-!!!excerpt-end-time: 4:13
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: s1[({(s2,s3)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED: Rafael Laurindo
+!!!EED2: Jason Lee
+!!!EEV2: 2022/02/09

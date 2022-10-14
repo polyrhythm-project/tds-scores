@@ -1,96 +1,81 @@
 !!!COM: Martinů, Bohuslav (Jan)
-!!!OTL: Sonata for Viola and Piano
-!!!OMV: I: Poco andante
-!!!example: 504
-!!!work: Mau-107
-**kern	**kern	**dynam	**kern	**dynam
-*part2	*part2	*part2	*part1	*part1
-*staff3	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Viola	*
-*I'Pno.	*	*	*I'Vla.	*
-*clefF4	*clefG2	*	*clefG2	*
-*k[]	*k[]	*	*k[]	*
-*C:	*C:	*	*C:	*
-*M3/4	*M3/4	*	*M3/4	*
-*MM121	*MM121	*	*MM121	*
-=35	=35	=35	=35	=35
-8r	4f~	.	(8b-X	.
-8FF'	.	.	4a	>
-8r	4d~	.	.	.
-8FFF'	.	.	4g	.
-8GG'	8c'L	.	.	.
-8r	[8fJ	.	8f~)	]
-=36	=36	=36	=36	=36
-8r	8f]	.	(4g~	.
-8BB-X'	4B-X 4d	<	.	.
-8BBB-X'	.	.	2f)	.
-4.FFF [4.FF	4A 4c	.	.	.
-.	[8F	.	.	.
-=37	=37	=37	=37	=37
-8FF]	8F]	[ p	(8a	.
-8r	4B-X 4d	.	4cc)	<
-8BB-X'	.	.	.	.
-8r	4A 4c	.	(4cc	.
-8BBB-X'L	.	.	.	.
-8C'J	8F'	<	8dd	[
-=38	=38	=38	=38	=38
-*M4/4	*M4/4	*	*M4/4	*
-8r	4B-X 4d	[	8cc)	mp
-8BB-X'	.	.	(4ff	.
-8r	4A 4c	.	.	.
-8BBB-X'	.	.	4dd	.
-8C'	8F'	>	.	.
-8r	4B- 4d	]	4cc)	.
-8BB-'	.	.	.	.
-8r	[8A [8c	.	([8a	.
-=39	=39	=39	=39	=39
-*M3/4	*M3/4	*	*M3/4	*
-8FF'	8AL] 8c]	.	8aL]	.
-8r	8F'J	.	8gJ)	.
-2FF 2F	4B-X 4d 4f	.	(4b-X	.
-.	4A 4c 4f	.	[4a	.
-=40	=40	=40	=40	=40
-*M2/4	*M2/4	*	*M2/4	*
-[2FFF [2FF	8F'	.	2a])	.
-.	4B-X 4d 4f	<	.	.
-.	[8A [8c [8f	.	.	.
-=41	=41	=41	=41	=41
-8FFF] 8FF]	8AL] 8c] 8f]	.	4cc	mf
-8r	(8cJ	[ mp	.	.
-8r	4G 4c 4e-X	.	4g	.
-8CC 8C	.	.	.	.
-=42	=42	=42	=42	=42
-*M3/8	*M3/8	*	*M3/8	*
-8r	4G) 4B-X 4d	.	(4b-X	.
-8AAA'L	.	.	.	.
-8AA'J	(8G	.	8dd)	<
-=43	=43	=43	=43	=43
-*M6/8	*M6/8	*	*M6/8	*
-8r	4c 4e-X	.	4.cc	.
-8CC' 8C	.	.	.	.
-8r	[8B-X [8d	<	.	.
-8AAA'L	8B-L]) 8d]	.	(4b-X	[
-8AA'J	(8G	[	.	.
-8r	8cJ) 8e-	.	8g)	f
-=	=	=	=	=
-*-	*-	*-	*-	*-
-!!!system-decoration: s1{(s2,s3)}
-!!!CDT: 1890/12/08-1959/08/28
-!!!CBL: Polička, Bohemia
-!!!CDL: Liestal, Switzerland
-!!!CNT: Czech
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1956/03/12
-!!!MGN:
-!!!MLC: New York, New York, United States of America
-!!!MPD: 1956
-!!!MPN: Balsam, A.; Fuchs, L.
-!!!ODT: 1955
-!!!PDT: 1958
-!!!excerpt-start-measure: 35
-!!!excerpt-end-measure: 43
-!!!excerpt-start-time: 1:45
-!!!excerpt-end-time: 2:05
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!OTL: [T504_Mau-w107p2-3m35-43]
+**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B
+*part2	*	*part2	*part2	*part1	*part1
+*staff3	*	*staff2	*	*staff1	*
+*I"Piano	*	*I"Piano	*	*I"Viola	*
+*I'Pno.	*	*I'Pno.	*	*I'Vla.	*
+*clefF4	*	*clefG2	*	*clefG2	*
+*k[]	*	*k[]	*	*k[]	*
+*C:	*	*C:	*	*C:	*
+*M3/4	*	*M3/4	*	*M3/4	*
+=35	=35	=35	=35	=35	=35
+!	!	!	!	!LO:TX:t=[[quarter]=88]	!
+!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
+8r	.	4f~	pp	(8b-X	mp
+8FF'	.	.	.	4a	.
+8r	.	4d~	.	.	>
+8FFF'	.	.	.	4g	.
+8GG'	.	8c'L	.	.	.
+8r	.	[8fJ	.	8f~)	]
+=36	=36	=36	=36	=36	=36
+8r	.	8f]	.	(4g~v	.
+8BB-X'	.	(4B-X 4d	<	.	.
+8BBB-X'	.	.	.	2f)	.
+4.FFF [4.FF	.	4A 4c)	.	.	.
+.	.	[8F	[	.	.
+=37	=37	=37	=37	=37	=37
+8FF]	.	8F]	p	(8au	.
+8r	.	(4B-X 4d	.	4cc)	<
+8BB-X'	.	.	.	.	.
+8r	.	4A 4c)	.	(4ccv	.
+8BBB-X'L	.	.	.	.	.
+8C'J	.	8F'	< [	8dd	[
+=38	=38	=38	=38	=38	=38
+*M4/4	*	*M4/4	*	*M4/4	*
+8r	.	(4B-X 4d	.	8cc)	mp
+8BB-X'	.	.	.	(4ffu	.
+8r	.	4A 4c)	.	.	.
+8BBB-X'	.	.	.	[8dd	.
+8C'	.	8F'	>	8dd]	.
+8r'	.	(4B- 4d	]	4cc)	.
+8BB-'	.	.	.	.	.
+8r	.	[8A [8c	.	([8a	.
+!!linebreak:original
+=39	=39	=39	=39	=39	=39
+*M3/4	*	*M3/4	*	*M3/4	*
+8FF'	.	8AL] 8c])	.	8aL]	.
+8r	.	8F'J	.	8g~J)	.
+2FF 2F	.	4B-X 4d 4f	.	(4b-Xu	.
+.	.	4A 4c 4f	.	[4a	.
+=40	=40	=40	=40	=40	=40
+*M2/4	*	*M2/4	*	*M2/4	*
+[2FFF [2FF	.	8F'	.	2a])	.
+.	.	4B-X 4d 4f	<	.	.
+.	.	[8A [8c [8f	.	.	.
+=41	=41	=41	=41	=41	=41
+8FFF] 8FF]	.	8AL] 8c] 8f]	.	4ccv	mf
+8r	.	(8cJ	mp [	.	.
+8r	.	4G 4c 4e-X	.	4g~u	.
+8CC 8C	.	.	.	.	.
+=42	=42	=42	=42	=42	=42
+*M3/8	*	*M3/8	*	*M3/8	*
+8r	.	4G 4B-X 4d)	.	(4b-X	.
+8AAA'L	.	.	.	.	.
+8AA'J	.	(8G	.	8dd)	<
+=43	=43	=43	=43	=43	=43
+*M6/8	*	*M6/8	*	*M6/8	*
+8r'	.	4c 4e-X	.	4.ccu	.
+8CC' 8C	.	.	.	.	.
+8r'	.	[8B-X [8d	<	.	.
+8AAA'L	.	8B-L] 8d])	.	(4b-Xv	[
+8AA'J	.	(8G	[	.	.
+8r	.	8cJ 8e-	.	8g~)	f
+=	=	=	=	=	=
+*-	*-	*-	*-	*-	*-
+!!!system-decoration: s1[({(s2,s3)})]
+!!!EED: Daniel Wright
+!!!EEV: 2021/08/13
+!!!EED2: Rafael Laurindo
+!!!EEV2: 2022/02/06

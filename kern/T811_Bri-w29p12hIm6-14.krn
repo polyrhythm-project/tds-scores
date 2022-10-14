@@ -1,9 +1,7 @@
 !!!COM: Britten, (Edward) Benjamin
-!!!OTL: String Quartet No. 2 in C, op. 36
-!!!OMV: I: Allegro calmo senza rigore
-!!!example: 811
-!!!work: Bri-29
+!!!OTL: [T811_Bri-w29p12hIm6-14]
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola	*	*I"Violin II	*	*I"Violin I	*
@@ -12,94 +10,84 @@
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
-*MM121	*	*MM121	*	*MM121	*	*MM121	*
-=179	=179	=179	=179	=179	=179	=179	=179
-2CC#X	.	4r	.	4r	.	(4gg#X	.
-.	.	4C#X`	.	4c#X`	.	4ff	.
-(6BBB#X	.	8BB#X`L	.	8B#X`L	.	4eeeo)	.
-.	.	8C#`	.	8c#`	.	.	.
+=1	=1	=1	=1	=1	=1	=1	=1
+!	!LO:DY:t=[sempre %s ]	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!LO:TX:t=[half]=80	!LO:DY:t=[ %s sempre e legato ]
+2CC#X)	ppp	4r	pp	4r	pp	(4gg#X	ppp
+.	.	4C#`>X	.	4c#`>X	.	4ffH	.
+(6BBB#X	.	8BB#`>XL	.	8B#`>XL	.	4eeeor)h 4eeeeyy	.
+.	.	8C#`>	.	8c#`>	.	.	.
 6CC#X	.	.	.	.	.	.	.
-.	.	8D#X`	.	8d#X`	.	4ccc	.
+.	.	8D#`>X	.	8d#`>X	.	(4ccc	.
 6DD#X	.	.	.	.	.	.	.
-.	.	8C#`J	.	8c#`J	.	.	.
-=180	=180	=180	=180	=180	=180	=180	=180
-[1CC#X	.	2r	.	2r	.	4a	.
+.	.	8C#`>J	.	8c#`>J	.	.	.
+=2	=2	=2	=2	=2	=2	=2	=2
+[1CC#X	.	2r	.	2r	.	4a)	.
 .	.	.	.	.	.	(4gg#X	.
-.	.	4r	.	4r	.	4ff	.
-.	.	4C#X`	.	4c#X`	.	4eeeo)	.
-=181	=181	=181	=181	=181	=181	=181	=181
-4CC#])	.	4C#X`	<	4c#X`	<	(4ccc	.
-(4DD#X	<	8D#X`L	.	8d#X`L	.	4a)	.
-.	.	8E`J	.	8e`J	.	.	.
-6EE	.	8E`L	.	8e`L	.	(4bb-X	<
-.	.	8F#X`	.	8f#X`	.	.	.
+.	.	4r	.	4r	.	4ffH	.
+.	.	4C#`>X	.	4c#`>X	.	4eeeor)h 4eeeeyy	.
+=3	=3	=3	=3	=3	=3	=3	=3
+4CC#])	.	4C#`>X	<	4c#`>X	<	(4ccc	.
+(4DD#X	<	8D#`>XL	.	8d#`>XL	.	4a)	.
+.	.	8E`>J	.	8e`>J	.	.	.
+6EE	.	8E`>L	.	8e`>L	.	(4bb-X	<
+.	.	8F#`>X	.	8f#`>X	.	.	.
 6FF#X	.	.	.	.	.	.	.
-.	.	8G`	.	8g`	.	4b-X	[[
-6GG	[[	.	.	.	.	.	.
-.	.	8F#`J	[[	8f#`J	[[	.	.
-=182	=182	=182	=182	=182	=182	=182	=182
-!LO:TX:b:i:t=poco a poco piu f	!	!LO:TX:b:i:t=poco a poco piu f	!	!LO:TX:b:i:t=poco a poco piu f	!	!LO:TX:b:i:t=poco a poco piu f	!
-2.FF#X)	.	4F#X`	.	4f#X`	.	4aao)	.
+.	.	8G`>	.	8g`>	.	4b-XH	.
+6GG	[	.	.	.	.	.	.
+.	.	8F#`>J	[	8f#`>J	[	.	[[
+=4	=4	=4	=4	=4	=4	=4	=4
+!LO:TX:b:i:t=poco a poco più sonoro	!	!	!LO:DY:t=poco a poco più %s	!	!LO:DY:t=poco a poco più %s	!	!LO:DY:t=poco a poco più %s
+2.FF#X)	.	4F#`>X	f	4f#`>X	f	4aaor)h 4aaayy	f
 .	.	4r	.	4r	.	(4ff	.
 .	.	4r	.	4r	.	4d)	.
-(4EE#X	.	8E#X`L	.	8e#X`L	.	(4cc#X	.
-.	.	8F#`J	.	8f#`J	.	.	.
-=183	=183	=183	=183	=183	=183	=183	=183
-6FF#X	.	8G#X`L	.	8g#X`L	.	4b-X	.
-.	.	8F#X`J	.	8f#X`J	.	.	.
+(4EE#X	.	8E#X`>L	.	8e#X`>L	.	(4cc#X	.
+.	.	8F#`>J	.	8f#`>J	.	.	.
+=5	=5	=5	=5	=5	=5	=5	=5
+6FF#X	.	8G#`>^>XL	.	8g#`>^>XL	.	4b-XH	.
+.	.	8F#`>XJ	.	8f#`>XJ	.	.	.
 6GG#X	.	.	.	.	.	.	.
-.	.	4r	.	4r	.	4aao)	.
+.	.	4r	.	4r	.	4aaor)h 4aaayy	.
 6FF#)	.	.	.	.	.	.	.
-(6EE#X	.	8E#X`L	.	8e#X`L	.	(4ff	.
-.	.	8F#`J	.	8f#`J	.	.	.
+(6EE#X	.	8E#`>^>XL	.	8e#`>^>XL	.	(4ff	.
+.	.	8F#`>J	.	8f#`>J	.	.	.
 6FF#	.	.	.	.	.	.	.
 .	.	4r	.	4r	.	4d)	.
 6GG#	.	.	.	.	.	.	.
-=184	=184	=184	=184	=184	=184	=184	=184
-2.FF#X)	.	8G#X`L	.	8g#X`L	.	(4cc#X	.
-.	.	8F#X`J	.	8f#X`J	.	.	.
-.	.	4r	.	4r	.	4b-X	.
-.	.	4r	.	4r	.	4aao)	.
-([4FF#	.	4F#`	.	4f#`	.	(4ff	.
-=185	=185	=185	=185	=185	=185	=185	=185
-4FF#]	.	4F#X`	.	4f#X`	.	4d)	.
-8EE#XL	.	8E#X`L	.	8e#X`L	.	(4cc#X	.
-8FF#XJ	.	8F#`J	.	8f#`J	.	.	.
-8GG#XL	.	8G#X`L	.	8g#X`L	.	4b-X	.
-[8FF#J	.	[8F#`J	.	[8f#`J	.	.	.
-4FF#])	.	4F#`]	.	4f#`]	.	4aao)	.
-=186	=186	=186	=186	=186	=186	=186	=186
-(4EE#X	.	4E#X`	.	4e#X`	.	(4ff	.
-8FF#XL	<	8F#X`L	<	8f#X`L	<	4d	.
-8GG#XJ	.	8G#X`J	.	8g#X`J	.	.	.
-8AAL	.	8A`L	.	8a`L	.	4ee-X)	<
-8BB	.	8B`	.	8b`	.	.	.
-8C	.	8c`	.	8cc`	.	([4e-X	[[
-8BBJ)	[[	8B`J	[[	8b`J	[[	.	.
-=187	=187	=187	=187	=187	=187	=187	=187
-2.BB	mf	4B^	mf	4b^	mf	4e-]) 4dd	mf
-.	.	4r	.	4r	.	(4e-X 4b-X	.
+!!linebreak:original
+=6	=6	=6	=6	=6	=6	=6	=6
+2.FF#X)	.	8G#`>^>XL	.	8g#`>^>XL	.	(4cc#X	.
+.	.	8F#`>XJ	.	8f#`>XJ	.	.	.
+.	.	4r	.	4r	.	4b-XH	.
+.	.	4r	.	4r	.	4aaor)h 4aaayy	.
+([4FF#	.	4F#`>	.	4f#`>	.	(4ff	.
+=7	=7	=7	=7	=7	=7	=7	=7
+4FF#]	.	4F#`>X	.	4f#`>X	.	4d)	.
+8EE#XL	.	8E#`>XL	.	8e#`>XL	.	(4cc#X	.
+8FF#XJ	.	8F#`>J	.	8f#`>J	.	.	.
+8GG#XL	.	8G#`>XL	.	8g#`>XL	.	4b-XH	.
+[8FF#J	.	8F#`>J	.	8f#`>J	.	.	.
+4FF#])	.	4F#`>	.	4f#`>	.	4aaor)h 4aaayy	.
+=8	=8	=8	=8	=8	=8	=8	=8
+(4EE#X	.	8E#`>XL	.	8e#`>XL	.	(4ff	.
+.	.	8F#`>J	.	8f#`>J	.	.	.
+8FF#XL	<	8F#`>XL	<	8f#`>XL	<	4d	.
+8GG#XJ	.	8G#`>XJ	.	8g#`>XJ	.	.	.
+8AAL	.	8A`>L	.	8aL`>	.	4ee-X)	<
+8BB	.	8B`>J	.	8bJ`>	.	.	.
+8C	.	8c`>L	.	8ccL`>	.	(>[4e-X	.
+8BBJ)	[	8B`>J	[	8bJ`>	[	.	[
+=9	=9	=9	=9	=9	=9	=9	=9
+2.BB	mf	4B^	mf	4b^	mf	4e-] 4dd)	mf
+.	.	4r	.	4r	.	(>4e-X 4b-X	.
 .	.	4r	.	4r	.	4G)	.
-[4BB	.	4B`	.	4b`	.	[4G [4f#X	.
+[4BB	.	4B`>	.	4b`	.	(4iG (>4f#Xi	.
 =	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
-!!!CDT: 1913/11/22-1976/12/04
-!!!CBL: Lowestoft, England
-!!!CDL: Aldeburgh, England
-!!!CNT: English
-!!!AGN: Instrumental; Chamber
-!!!MCN:
-!!!MDT: 1945/11/21
-!!!MGN: Zorian String Quartet
-!!!MLC: London, United Kingdom
-!!!MPD: 1945
-!!!MPN: Copperwheat, Winifre; Lavers, Marjorie; Semino, Norina; Zorian, Olive
-!!!ODT: 1945
-!!!PDT: 1946
-!!!excerpt-start-measure: 179
-!!!excerpt-end-measure: 187
-!!!excerpt-start-time: 4:27
-!!!excerpt-end-time: 4:39
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED: Gabriella Vici
+!!!EEV: 2021/10/04
+!!!EED2: Jason Lee
+!!!EEV2: 2022/03/09

@@ -1,21 +1,18 @@
-!!!COM: Bartók, Béla
-!!!OTL: Kilenc kis zongoradarab, i/1–4 Négy párbeszéd (Nine Little Piano Pieces, i/1–4: Four Dialogues)
-!!!OMV: IV: Allegro vivace
-!!!example: 351
-!!!work: Bar-31
+!!!COM: Béla Bartók
+!!!OTL: [T351_Bar-w31p10s1-2]
 **kern	**kern	**dynam
+*grp:A	*grp:B	*grp:B
 *part1	*part1	*part1
-*staff2	*staff1	*
-*I"Piano	*	*
-*I'Pno.	*	*
+*staff2	*staff1	*staff1/2
+*I"Piano	*I"Piano	*
+*I'Pno.	*I'Pno.	*
 *clefF4	*clefG2	*
 *k[b-e-a-]	*k[b-e-a-]	*
 *E-:	*E-:	*
 *M2/4	*M2/4	*
-*MM121	*MM121	*
 =1	=1	=1
+!	!LO:TX:t=Allegro vivace, [quarter]=152	!LO:DY:t=%s non legato
 4r	16e-LL	f
-!	!LO:TX:a:B:t=Allegro vivace,	!
 .	16f	.
 .	16g	.
 .	16fJJ	.
@@ -24,7 +21,8 @@
 16F	.	.
 16GJJ	.	.
 =2	=2	=2
-4An	16f^^LL	.
+!	!LO:TX:t=P:problem: Marcato should display below notes; data has been input correctly.	!
+4An	16f^^<LL	.
 .	16e-JJ	.
 .	4f	.
 16FLL	.	.
@@ -33,13 +31,13 @@
 .	16dJJ	.
 =3	=3	=3
 *M3/8	*M3/8	*
-8A-L]	4e-^^	.
+8A-L]	4e-^^<	.
 16G-XL	.	.
 16FJ	.	.
 [8F-XJ	8B-	.
 =4	=4	=4
 *M2/4	*M2/4	*
-8F-L]	16c^^LL	.
+8F-L]	16cLL^^<	.
 .	16dJJ	.
 16G-XL	4e-	.
 16A-JJ	.	.
@@ -48,14 +46,14 @@
 .	16cJJ	.
 =5	=5	=5
 *M3/8	*M3/8	*
-8AL]	4d^^	.
+8AL]	4d^^<	.
 16A-XL	.	.
 16F#XJ	.	.
-[8GnJ	8B-	.
+[8GJ	8B-	.
 =6	=6	=6
-8GnL]	16c^^LL	.
+8G]	16cLL^^<	.
 .	16dJ	.
-8.G-X	8e-	.
+8.G-XL	8e-	.
 .	16dL	.
 16F-XJk	16cJJ	.
 =7	=7	=7
@@ -74,33 +72,20 @@
 4dn	16cc^^LL	.
 .	16b-JJ	.
 .	4cc	.
-8GL	.	.
-[8cJ	16b-LL	.
+8G	.	.
+[8cL	16b-LL	.
 .	16a-JJ	.
 =10	=10	=10
 *M3/8	*M3/8	*
-8c]	4b-^^	.
+8cJ]	4b-^^	.
 [4c-X	.	.
 .	8e-	.
 =	=	=
 *-	*-	*-
-!!!system-decoration: {(s1,s2)}
-!!!CDT: 1881/03/25-1945/09/26
-!!!CBL: Sînnicolau Mare (Nagyszentmiklós), Romania (Hungary)
-!!!CDL: New York, United States
-!!!CNT: Hungarian
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT: 1926/12/08
-!!!MGN:
-!!!MLC: Budapest, Hungary
-!!!MPD: 1926
-!!!MPN: Bartók, Béla
-!!!ODT: 1926
-!!!PDT: 1927
-!!!excerpt-start-measure: 1
-!!!excerpt-end-measure: 10
-!!!excerpt-start-time: 0:00
-!!!excerpt-end-time: 0:08
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: [({(s1,s2)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!EED: Rafael Laurindo
+!!!EEV: 2021/07/14
+!!!EED2: Gabriella Vici
+!!!EEV2: 2022/02/09

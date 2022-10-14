@@ -1,9 +1,7 @@
-!!!COM: Debussy, (Achille-)Claude
-!!!OTL: En blanc et noir (In White and Black) for Two Pianos
-!!!OMV: I: Avec emportement (With Anger)
-!!!example: 164
-!!!work: Deb-44
+!!!COM: (Achille-) Claude Debussy
+!!!OTL: [T164_Deb-w44p2m19-20]
 **kern	**kern	**dynam	**kern	**kern	**dynam
+*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:B
 *part2	*part2	*part2	*part1	*part1	*part1
 *staff4	*staff3	*	*staff2	*staff1	*
 *I"Piano	*	*	*I"Piano	*	*
@@ -12,10 +10,11 @@
 *k[]	*k[]	*	*k[]	*k[]	*
 *C:	*C:	*	*C:	*C:	*
 *M3/4	*M3/4	*	*M3/4	*M3/4	*
-*MM198	*MM198	*	*MM198	*MM198	*
 =19	=19	=19	=19	=19	=19
 *^	*	*	*	*	*
-2D 2A 2c	4GG	2f^ 2g 2cc 2gg	f	(8GL	(12gL	f
+*	*	*	*	*	*Xtuplet	*
+!	!LO:T:b	!	!	!	!LO:TX:t=[[half-dot]=66]	!
+2D 2A 2c	4GG]	2f^ 2g 2cc 2gg	f	(8GL	\(12gL	f
 .	.	.	.	.	12a	.
 .	.	.	.	8AJ	.	.
 .	.	.	.	.	12bJ	.
@@ -43,23 +42,8 @@
 *v	*v	*	*	*	*	*
 =	=	=	=	=	=
 *-	*-	*-	*-	*-	*-
-!!!system-decoration: {(s1,s2)}{(s3,s4)}
-!!!CDT: 1862/08/22-1918/03/25
-!!!CBL: St Germain-en-Laye, France
-!!!CDL: Paris, France
-!!!CNT: French
-!!!AGN: Instrumental; Keyboard
-!!!MCN:
-!!!MDT: 1916/01/22
-!!!MGN:
-!!!MLC: Paris, France
-!!!MPD: 1916
-!!!MPN: Rummel, Thérèse; Rummel, Walter
-!!!ODT: 1915
-!!!PDT: 1915
-!!!excerpt-start-measure: 19
-!!!excerpt-end-measure: 20
-!!!excerpt-start-time: 0:16
-!!!excerpt-end-time: 0:18
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+!!!system-decoration: [({(s1,s2)})][({(s3,s4)})]
+!!!EED: Daniel Wright
+!!!EEV: 2021/10/8
+!!!EED2: Rafael Laurindo
+!!!EEV2: 2022/03/26

@@ -1,104 +1,96 @@
-!!!COM: Falla (y Matheu), Manuel de
-!!!OTL: Concerto for Harpsichord, Flute, Oboe, Clarinet, Violin and Violincello
-!!!OMV: I: Allegro
-!!!example: 321
-!!!work: Fal-10
-**kern	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff6	*staff5	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Harpsichord	*	*I"Violoncello	*	*I"Violin I	*	*I"Oboe	*	*I"Flute	*
-*I'Pno.	*	*I'Vc.	*	*I'Vln. I	*	*I'Ob.	*	*I'Fl.	*
-*clefF4	*clefG2	*clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*
-*k[f#c#]	*k[f#c#]	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*
-*D:	*D:	*D:	*	*D:	*	*D:	*	*D:	*
-*M2/4	*M2/4	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
-*MM121	*MM121	*MM121	*	*MM121	*	*MM121	*	*MM121	*
-=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
-*	*^	*	*	*	*	*	*	*	*
-12dL	16ff#LL	8ff#L	4r	.	4r	.	2r	.	2r	.
-.	16a	.	.	.	.	.	.	.	.	.
-12A	.	.	.	.	.	.	.	.	.	.
-.	16ee	8eeJ	.	.	.	.	.	.	.	.
+!!!COM: Manuel de Falla (y Matheu)
+!!!OTL: [T321_Fal-w10p2h2m4-h3m1]
+**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
+*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B
+*part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff6	*staff5	*	*staff4	*	*staff3	*	*staff2	*staff2	*staff1	*staff1
+*I"Harpsichord	*I"Harpsichord	*	*I"Violoncello	*	*I"Violin	*	*I"Oboe	*	*I"Flute	*
+*I'Hpsd.	*I'Hpsd.	*	*I'Vc.	*	*I'Vln.	*	*I'Ob.	*	*I'Fl.	*
+*clefF4	*clefG2	*	*clefF4	*	*clefG2	*	*clefG2	*	*clefG2	*
+*k[f#c#]	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*
+*D:	*D:	*	*D:	*	*D:	*	*D:	*	*D:	*
+*M2/4	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
+=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
+*Xtuplet	*	*	*	*	*	*	*	*	*	*
+*	*^	*	*	*	*	*	*	*	*	*
+!	!LO:TX:t=[[quarter]=120]	!	!LO:DY:ed=brack	!	!	!	!	!	!	!LO:TX:t=[[quarter]=120]	!
+!	!	!	!LO:DY:t=%s marcato	!	!	!	!	!	!	!	!
+12dL	8ff#L	16ff#LL	f	4r	.	4r	.	2r	.	2r	.
+.	.	16a	.	.	.	.	.	.	.	.	.
+12A	.	.	.	.	.	.	.	.	.	.	.
+.	8eeJ	16ee	.	.	.	.	.	.	.	.	.
+12DJ	.	.	.	.	.	.	.	.	.	.	.
+.	.	16gJJ	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!	!	!
+12AL	4gg	16ggLL	.	16AA^ 16D 16A	f	16e-X^ 16b-X 16ggn	f	.	.	.	.
+.	.	16a	.	16r	.	16r	.	.	.	.	.
+12D	.	.	.	.	.	.	.	.	.	.	.
+.	.	16dd	.	8r	.	8r	.	.	.	.	.
+12AAJ	.	.	.	.	.	.	.	.	.	.	.
+.	.	16gJJ	.	.	.	.	.	.	.	.	.
+=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=2
+12dL	4ff#	16ff#LL	.	8r	.	8r	.	2r	.	2r	.
+.	.	16a	.	.	.	.	.	.	.	.	.
+12A	.	.	.	.	.	.	.	.	.	.	.
+.	.	16dd	.	16AA^ 16D 16A	sffz	16e-X^ 16b-X 16gg-X	sffz	.	.	.	.
+12DJ	.	.	.	.	.	.	.	.	.	.	.
+.	.	16gJJ	.	16r	.	16r	.	.	.	.	.
+12AL	4gg	16ggLL	.	4r	.	4r	.	.	.	.	.
+.	.	16a	.	.	.	.	.	.	.	.	.
+12D	.	.	.	.	.	.	.	.	.	.	.
+.	.	16dd	.	.	.	.	.	.	.	.	.
+12AAJ	.	.	.	.	.	.	.	.	.	.	.
+.	.	16gJJ	.	.	.	.	.	.	.	.	.
+*	*v	*v	*	*	*	*	*	*	*	*	*
+=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18
+!	!	!	!LO:TX:b:i:t=ben marc.	!	!LO:TX:b:i:t=ben marc.	!	!	!	!	!
+12dL	16r	.	8GG^ 8D 8d	.	/8d^ 8ccn 8bbn	.	2r	.	2r	.
+.	16bLL	.	.	.	.	.	.	.	.	.
+12G	.	.	.	.	.	.	.	.	.	.
+.	16ffn	.	8r	.	8r	.	.	.	.	.
 12DJ	.	.	.	.	.	.	.	.	.	.
-.	16gJJ	.	.	.	.	.	.	.	.	.
-12AL	16ggLL	4gg	16AA^ 16D 16A	.	16e-X^ 16b-X 16ggn	.	.	.	.	.
-.	16a	.	16r	.	16r	.	.	.	.	.
+.	16bbJJ	.	.	.	.	.	.	.	.	.
+12GL\	\16aLL	.	8DvL 8d	.	8ccvL 8aa	.	.	.	.	.
+.	16ff	.	.	.	.	.	.	.	.	.
 12D	.	.	.	.	.	.	.	.	.	.
-.	16dd	.	8r	.	8r	.	.	.	.	.
-12AAJ	.	.	.	.	.	.	.	.	.	.
-.	16gJJ	.	.	.	.	.	.	.	.	.
-=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
-12dL	16ff#LL	4ff#	8r	.	8r	.	2r	.	2r	.
-.	16a	.	.	.	.	.	.	.	.	.
-12A	.	.	.	.	.	.	.	.	.	.
-.	16dd	.	16AA^ 16D 16A	sffz	16e-X^ 16b-X 16gg-X	sffz	.	.	.	.
+.	16aaJJ	.	8GG^uJ 8D	.	8d^uJ 8cc 8bb/	.	.	.	.	.
+12GGJ	.	.	.	.	.	.	.	.	.	.
+.	16bLL	.	.	.	.	.	.	.	.	.
+=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19
+12dL	16ffn	.	4r	.	4r	.	2r	.	2r	.
+.	16bbJJ	.	.	.	.	.	.	.	.	.
+12G	.	.	.	.	.	.	.	.	.	.
+.	\16aLL	.	.	.	.	.	.	.	.	.
 12DJ	.	.	.	.	.	.	.	.	.	.
-.	16gJJ	.	16r	.	16r	.	.	.	.	.
-12AL	16ggLL	4gg	4r	.	4r	.	.	.	.	.
-.	16a	.	.	.	.	.	.	.	.	.
+.	16ff	.	.	.	.	.	.	.	.	.
+12GL\	16aaJJ	.	8DvL 8d	.	8ccnvL 8aa	.	.	.	.	.
+.	16bLL	.	.	.	.	.	.	.	.	.
 12D	.	.	.	.	.	.	.	.	.	.
-.	16dd	.	.	.	.	.	.	.	.	.
-12AAJ	.	.	.	.	.	.	.	.	.	.
-.	16gJJ	.	.	.	.	.	.	.	.	.
-*	*v	*v	*	*	*	*	*	*	*	*
-=18	=18	=18	=18	=18	=18	=18	=18	=18	=18
-12dL	16r	8GG^ 8D 8d	.	8d^ 8ccn 8bbn	.	2r	.	2r	.
-.	16bLL	.	.	.	.	.	.	.	.
-12G	.	.	.	.	.	.	.	.	.
-.	16ffn	8r	.	8r	.	.	.	.	.
-12DJ	.	.	.	.	.	.	.	.	.
-.	16bbJJ	.	.	.	.	.	.	.	.
-12GL	16aLL	8DL 8d	.	8ccL 8aa	.	.	.	.	.
-.	16ff	.	.	.	.	.	.	.	.
-12D	.	.	.	.	.	.	.	.	.
-.	16aa	8GG^J 8D	.	8d^J 8cc 8bb	.	.	.	.	.
-12GGJ	.	.	.	.	.	.	.	.	.
-.	16bJJ	.	.	.	.	.	.	.	.
-=19	=19	=19	=19	=19	=19	=19	=19	=19	=19
-12dL	16ffnLL	4r	.	4r	.	2r	.	2r	.
-.	16bb	.	.	.	.	.	.	.	.
-12G	.	.	.	.	.	.	.	.	.
-.	16a	.	.	.	.	.	.	.	.
-12DJ	.	.	.	.	.	.	.	.	.
-.	16ffJJ	.	.	.	.	.	.	.	.
-12GL	16aaLL	8DL 8d	.	8ccnL 8aa	.	.	.	.	.
-.	16b	.	.	.	.	.	.	.	.
-12D	.	.	.	.	.	.	.	.	.
-.	16ff	8GG^J 8D	.	8d^J 8cc 8bb	.	.	.	.	.
-12GGJ	.	.	.	.	.	.	.	.	.
-.	16bbJJ	.	.	.	.	.	.	.	.
-=20	=20	=20	=20	=20	=20	=20	=20	=20	=20
-12dL	16aLL	8DL 8d	.	8ccnL 8aa	.	4r	.	4r	.
-.	16ffn	.	.	.	.	.	.	.	.
-12G	.	.	.	.	.	.	.	.	.
-.	16aa	8GG^J 8D	.	8d^J 8cc 8bb	.	.	.	.	.
-12DJ	.	.	.	.	.	.	.	.	.
-.	16bJJ	.	.	.	.	.	.	.	.
-(16qG/LL	.	.	.	.	.	.	.	.	.
-16qD/JJ	.	.	.	.	.	.	.	.	.
-4GG^)	16ff^LL	8r	.	8r	.	8cc#X'L	ff	8cc#X'L	ff
-.	16a	.	.	.	.	.	.	.	.
-.	16fn	8F#^ 8d	.	8a^ 8ff#	.	8dd#X'J	.	8dd#X'J	.
-.	16BJJ	.	.	.	.	.	.	.	.
-=	=	=	=	=	=	=	=	=	=
-*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2)][(s3,s4)]{(s5,s6)}
-!!!CDT: 1876/11/23-1946/11/14
-!!!CBL: Cádiz, Spain
-!!!CDL: Alta Gracia, Argentina
-!!!CNT: Spanish
-!!!AGN: Instrumental; Chamber
-!!!MCN: Falla, Manuel de
-!!!MDT: 1926/11/05
-!!!MGN: unknown
-!!!MLC: Barcelona, Spain
-!!!MPD: 1926
-!!!MPN: Landowska, Wanda
-!!!ODT: 1926
-!!!PDT: 1928
-!!!excerpt-start-measure: 16
-!!!excerpt-end-measure: 20
-!!!excerpt-start-time: 0:18
-!!!excerpt-end-time: 0:23
-!!!EEV: 2020/01/27
-!!!ONB: Converted from MusicXML on 2020/01/27
+.	16ff	.	8GGuJ 8D	.	8d^uJ 8cc 8bb/	.	.	.	.	.
+12GGJ	.	.	.	.	.	.	.	.	.	.
+.	16bbJJ	.	.	.	.	.	.	.	.	.
+!!LO:REH:t=3
+=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20
+12dL	16aLL	.	8DvL 8d	.	8ccnvL 8aa	.	4r	.	4r	.
+.	16ffn	.	.	.	.	.	.	.	.	.
+12G	.	.	.	.	.	.	.	.	.	.
+.	16aa	.	8GG^uJ 8D	.	8d^uJ 8cc 8bb/	.	.	.	.	.
+12DJ	.	.	.	.	.	.	.	.	.	.
+.	16bJJ	.	.	.	.	.	.	.	.	.
+(<16qqG/LL	.	.	.	.	.	.	.	.	.	.
+16qqD/JJ	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:DY:t=%s marc.	!	!LO:DY:t=%s marc.
+4GG^)	16ff^>LL	.	8r	.	8r	.	8cc#i'L	ff	8ccc#i'L	ff
+.	16a	.	.	.	.	.	.	.	.	.
+.	16fn	.	8Dv 8d	.	8ccv 8aa	.	8dd#X'J	.	8ddd#X'J	.
+.	16BJJ	.	.	.	.	.	.	.	.	.
+=||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||
+*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
+!!!system-decoration: [(s1,s2)][(s3,s4)][({(s5,s6)})]
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!RDF**kern: i = editorial accidental, paren
+!!!EED: Kelsey Lussier
+!!!EEV: 2021/08/11
+!!!EED2: Daniel Wright
+!!!EEV2: 2022/01/28
