@@ -10,13 +10,14 @@
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
+*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*
 =1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:a:t=pizz.	!	!	!	!	!	!LO:TX:t=Allegro [quarter]=120	!
-4CC: 4AA-X: 4E: 4An:	pp	4r	.	1r	[	1r	.
+!LO:TX:a:rj:t=pizz.	!	!	!	!	!	!LO:TX:t=Allegro [quarter]=120	!
+4CC: 4AA-X: 4E-: 4An:	pp	4r	.	1r	[	1r	.
 !	!	!LO:TX:a:t=col legno poco marcato	!	!	!	!	!
 4r	.	8F'L 8B-X	pp	.	.	.	.
 .	.	8F'J 8B-	.	.	.	.	.
-4CC: 4AA-: 4E: 4A:	.	8r'	.	.	.	.	.
+4CC: 4AA-: 4E-: 4A:	.	8r'	.	.	.	.	.
 .	.	8E' 8A	.	.	.	.	.
 4r	.	8r'	.	.	.	.	.
 .	.	8E' 8A	.	.	.	.	.
@@ -59,7 +60,7 @@
 .	.	.	.	64B	.	.	.
 .	.	.	.	(64c#XtJJJJ)	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3
-4CC: 4AA-X: 4En: 4An:	.	4r	.	64BLLLL)	.	4r	.
+4CC: 4AA-X: 4E-: 4An:	.	4r	.	64BLLLL)	.	4r	.
 .	.	.	.	64c#X	.	.	.
 .	.	.	.	64B	.	.	.
 .	.	.	.	64c#X	.	.	.
@@ -91,7 +92,7 @@
 .	.	.	.	64c#X	.	.	.
 .	.	.	.	64B	.	.	.
 .	.	.	.	64c#X	.	.	.
-4CC: 4AA-: 4E: 4A:	.	8r'	.	64B	.	16c'LL	.
+4CC: 4AA-: 4E-: 4A:	.	8r'	.	64B	.	16c'LL	.
 .	.	.	.	64c#X	.	.	.
 .	.	.	.	64B	.	.	.
 .	.	.	.	64c#X	.	.	.
@@ -211,7 +212,7 @@
 .	.	.	.	64f#X	.	.	.
 .	.	.	.	64e	.	.	.
 .	.	.	.	64f#X	.	.	.
-.	.	.	.	64e	.	[16e^J	p [
+.	.	.	.	64e	.	[16e^>J	p [
 .	.	.	.	64f#X	.	.	.
 .	.	.	.	64e	.	.	.
 .	.	.	.	64f#X	.	.	.
@@ -264,7 +265,7 @@
 .	.	.	.	64g#X	.	.	.
 .	.	.	.	64f#X	.	.	.
 .	.	.	.	64g#X	.	.	.
-.	.	.	.	64f#X	.	16bn	.
+.	.	.	.	64f#X	.	16b-	.
 .	.	.	.	64g#X	.	.	.
 .	.	.	.	64f#X	.	.	.
 .	.	.	.	64g#X	.	.	.
@@ -273,7 +274,7 @@
 .	.	.	.	64f#X	.	.	.
 .	.	.	.	64g#X)JJJJ	.	.	.
 !	!	!	!	!	!LO:DY:t=poco %s	!	!
-4r	[	8F'L 8B-X	[	(64b-XLLLL	mf [	16bnLL	.
+4r	[	8F'L 8B-X	[	(64b-XLLLL	mf [	16bnLL/	.
 .	.	.	.	64ccn	.	.	.
 .	.	.	.	64b-X	.	.	.
 .	.	.	.	64ccn	.	.	.
@@ -298,7 +299,7 @@
 .	.	.	.	64ccn	.	.	.
 .	.	.	.	64b-X	.	.	.
 .	.	.	.	64ccn	.	.	.
-.	.	8E' 8A	mf	64b-X	.	16aLL	.
+.	.	8E' 8A	mf	64b-X	.	16aLL/	.
 .	.	.	.	64ccn	.	.	.
 .	.	.	.	64b-X	.	.	.
 .	.	.	.	64ccn	.	.	.
@@ -328,11 +329,12 @@
 4CC: 4AA-X: 4E-X: 4An:	.	4r	.	4b-XT)	.	16cc#XLL	<
 .	.	.	.	.	.	16eeJ	.
 .	.	.	.	.	.	8aa'J	[
-4r	>	8F'L 8B-X	.	(4a-XTT	>	16bb^LL	.
+!	!	!	!	!LO:TR:acc=-	!	!	!
+4r	>	8F'L 8B-X	>	(4a-XTT	>	16bb^LL	.
 .	.	.	.	.	.	16bb'	.
-.	.	8F'J 8B-	>	.	.	16bb'	.
+.	.	8F'J 8B-	.	.	.	16bb'	.
 .	.	.	.	.	.	16a'JJ	>
-4CC: 4GG: 4F#X:	.	8r'	.	4gnt	.	8bn'L	.
+4CC: 4GG: 4F#X:	.	8r'	.	4gt	.	8bn'L	.
 .	.	8E' 8A	]	.	.	16cc#X'^L	.
 .	.	.	.	.	.	16cc#'JJ	.
 4r	]	8r'	.	4fT)	]	16cc#'LL	.
@@ -345,23 +347,23 @@
 .	.	.	.	.	.	16A-XJJ	.
 4r	.	8F'L 8B-X	p	4cT	.	16d-LL	.
 .	.	.	.	.	.	16A-	.
-.	.	8F'J 8B-	.	.	.	16c	]
+.	.	8F'J 8B-	>	.	.	16c	]
 .	.	.	.	.	.	16GJJ	.
-4CC: 4GG: 4F#X:	>	8r'	.	4B-XT	>	4B-X~^	pp
+4CC: 4GG: 4F#X:	>	8r'	.	4B-XT	>	4BnX~>^>	pp
 .	.	8E' 8A	.	.	.	.	.
 .	.	.	.	.	.	(8qd-X/	.
 4r	]	8r'	.	4A-XT)	]	8c'L)	.
-.	.	8E' 8A	.	.	.	[8B-^J	.
+.	.	8E' 8A	]	.	.	[8B^J	.
 =9	=9	=9	=9	=9	=9	=9	=9
 *	*	*	*	*tremolo	*	*	*
-4CC: 4AA-X: 4E-X: 4An:	pp	4r	.	(64d-XLLLL	pp	8B-L]	.
+4CC: 4AA-X: 4E-X: 4An:	pp	4r	.	(64d-XLLLL	pp	8BL]	.
 .	.	.	.	64e	.	.	.
 .	.	.	.	64d-X	.	.	.
 .	.	.	.	64e	.	.	.
 .	.	.	.	64d-X	.	.	.
 .	.	.	.	64e	.	.	.
 .	.	.	.	64d-X	.	.	.
-.	.	.	.	.	.	(8qdn/	.
+.	.	.	.	.	.	(>8qd-/	.
 .	.	.	.	64e	.	.	.
 .	.	.	.	64d-X	.	8cJ	.
 .	.	.	.	64e	.	.	.
@@ -404,7 +406,7 @@
 .	.	.	.	64e	.	.	.
 .	.	.	.	64d-X	.	.	.
 .	.	.	.	64e	.	.	.
-4r	.	8r'	.	64d-X	.	(8d^L	]
+4r	.	8r'	.	64d-X	.	(8d^Li	]
 .	.	.	.	64e	.	.	.
 .	.	.	.	64d-X	.	.	.
 .	.	.	.	64e	.	.	.
@@ -419,12 +421,15 @@
 .	.	.	.	64d-X	.	.	.
 .	.	.	.	64e	.	.	.
 .	.	.	.	64d-X	.	.	.
-.	.	.	.	(64e)JJJJ	.	.	]
+.	.	.	.	(64e)JJJJi	.	.	]
 *	*	*	*	*Xtremolo	*	*	*
-=||	=||	=||	=||	=||	=||	=||	=||
+=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!EED: Daniel Wright
 !!!EEV: 2022/02/11
+!!!RDF**kern: i = marked note, color="hotpink", text="extra("
+!!!EED2: Jason Lee
+!!!EEV2: 2022/10/22
