@@ -1,4104 +1,4144 @@
-<?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<!DOCTYPE score-partwise PUBLIC '-//Recordare//DTD MusicXML 3.0 Partwise//EN' 'http://www.musicxml.org/dtds/partwise.dtd'>
-<score-partwise version='3.0'>
-	<movement-title>290_Rav-17/3/lignes 2 et 3</movement-title>
-	<identification>
-		<creator type='composer'>Ravel</creator>
-		<encoding>
-			<software>Sibelius 19.1</software>
-			<software>Dolet 6.6 for Sibelius</software>
-			<encoding-date>2019-03-12</encoding-date>
-			<supports element='accidental' type='yes'/>
-			<supports element='transpose' type='no'/>
-			<supports attribute='new-page' element='print' type='yes' value='yes'/>
-			<supports attribute='new-system' element='print' type='yes' value='yes'/>
-		</encoding>
-	</identification>
-	<defaults>
-		<scaling>
-			<millimeters>5.5</millimeters>
-			<tenths>40</tenths>
-		</scaling>
-		<page-layout>
-			<page-height>2032</page-height>
-			<page-width>1570</page-width>
-			<page-margins type='odd'>
-				<left-margin>109.0909</left-margin>
-				<right-margin>109.0909</right-margin>
-				<top-margin>109.0909</top-margin>
-				<bottom-margin>109.0909</bottom-margin>
-			</page-margins>
-			<page-margins type='even'>
-				<left-margin>109.0909</left-margin>
-				<right-margin>109.0909</right-margin>
-				<top-margin>109.0909</top-margin>
-				<bottom-margin>109.0909</bottom-margin>
-			</page-margins>
-		</page-layout>
-		<system-layout>
-			<system-margins>
-				<left-margin>68.4375</left-margin>
-				<right-margin>0</right-margin>
-			</system-margins>
-			<system-distance>55</system-distance>
-			<top-system-distance>92.8125</top-system-distance>
-		</system-layout>
-		<staff-layout>
-			<staff-distance>55</staff-distance>
-		</staff-layout>
-		<?DoletSibelius StaffJustificationPercentage=65?>
-		<appearance>
-			<line-width type='beam'>4.0625</line-width>
-			<line-width type='heavy barline'>5</line-width>
-			<line-width type='leger'>1.5625</line-width>
-			<line-width type='light barline'>1.5625</line-width>
-			<line-width type='slur middle'>1.5625</line-width>
-			<line-width type='slur tip'>0.625</line-width>
-			<line-width type='staff'>0.9375</line-width>
-			<line-width type='stem'>0.9375</line-width>
-			<line-width type='tie middle'>1.5625</line-width>
-			<line-width type='tie tip'>0.625</line-width>
-			<note-size type='grace'>60</note-size>
-			<note-size type='cue'>75</note-size>
-		</appearance>
-		<music-font font-family='Opus Std,music'/>
-		<word-font font-family='Times New Roman'/>
-	</defaults>
-	<part-list>
-		<score-part id='P1'>
-			<part-name>Piano</part-name>
-			<part-abbreviation>Pno.</part-abbreviation>
-			<score-instrument id='P1-I1'>
-				<instrument-name>Piano</instrument-name>
-				<instrument-abbreviation>Pno.</instrument-abbreviation>
-				<instrument-sound>keyboard.piano.grand</instrument-sound>
-			</score-instrument>
-			<midi-instrument id='P1-I1'>
-				<volume>79</volume>
-				<pan>-18</pan>
-			</midi-instrument>
-		</score-part>
-	</part-list>
-<!--=========================================================-->
-	<part id='P1'>
-		<measure number='1'>
-			<print>
-				<system-layout>
-					<system-margins>
-						<left-margin>82.8125</left-margin>
-						<right-margin>0</right-margin>
-					</system-margins>
-					<top-system-distance>277.1875</top-system-distance>
-				</system-layout>
-				<staff-layout>
-					<?DoletSibelius JustifyAllStaves=false?>
-					<?DoletSibelius ExtraSpacesAbove=3?>
-				</staff-layout>
-			</print>
-			<attributes>
-				<divisions>768</divisions>
-				<key>
-					<fifths>7</fifths>
-					<mode>major</mode>
-				</key>
-				<time>
-					<beats>4</beats>
-					<beat-type>4</beat-type>
-				</time>
-				<staves>2</staves>
-				<clef number='1'>
-					<sign>G</sign>
-					<line>2</line>
-				</clef>
-				<clef number='2'>
-					<sign>F</sign>
-					<line>4</line>
-				</clef>
-			</attributes>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-				<notations>
-					<slur type='start' number='1'/>
-				</notations>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<accidental>natural</accidental>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<backup>
-				<duration>3072</duration>
-			</backup>
-			<note>
-				<pitch>
-					<step>F</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>768</duration>
-				<voice>5</voice>
-				<type>quarter</type>
-				<stem>down</stem>
-				<staff>2</staff>
-				<notations>
-					<slur type='start' number='2'/>
-				</notations>
-			</note>
-			<note>
-				<pitch>
-					<step>D</step>
-					<octave>3</octave>
-				</pitch>
-				<duration>1152</duration>
-				<voice>5</voice>
-				<type>quarter</type>
-				<dot/>
-				<accidental>natural</accidental>
-				<stem>down</stem>
-				<staff>2</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>B</step>
-					<alter>1</alter>
-					<octave>2</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>up</stem>
-				<staff>2</staff>
-				<beam number='1'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>D</step>
-					<octave>3</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>up</stem>
-				<staff>2</staff>
-				<beam number='1'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>up</stem>
-				<staff>2</staff>
-				<beam number='1'>end</beam>
-			</note>
-		</measure>
-<!--=========================================================-->
-		<measure number='2'>
-			<print new-system='yes'/>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<accidental>natural</accidental>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<backup>
-				<duration>3072</duration>
-			</backup>
-			<note>
-				<pitch>
-					<step>F</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>768</duration>
-				<voice>5</voice>
-				<type>quarter</type>
-				<stem>down</stem>
-				<staff>2</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>D</step>
-					<octave>3</octave>
-				</pitch>
-				<duration>1152</duration>
-				<voice>5</voice>
-				<type>quarter</type>
-				<dot/>
-				<accidental>natural</accidental>
-				<stem>down</stem>
-				<staff>2</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>B</step>
-					<alter>1</alter>
-					<octave>2</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>up</stem>
-				<staff>2</staff>
-				<beam number='1'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>D</step>
-					<octave>3</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>up</stem>
-				<staff>2</staff>
-				<beam number='1'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>up</stem>
-				<staff>2</staff>
-				<beam number='1'>end</beam>
-			</note>
-		</measure>
-<!--=========================================================-->
-		<measure number='3'>
-			<print new-system='yes'/>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<accidental>natural</accidental>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<accidental>sharp</accidental>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-				<notations>
-					<slur type='stop' number='1'/>
-				</notations>
-			</note>
-			<backup>
-				<duration>3072</duration>
-			</backup>
-			<note>
-				<pitch>
-					<step>F</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>down</stem>
-				<staff>2</staff>
-				<beam number='1'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>down</stem>
-				<staff>2</staff>
-				<beam number='1'>continue</beam>
-				<notations>
-					<slur type='stop' number='2'/>
-				</notations>
-			</note>
-			<note>
-				<pitch>
-					<step>B</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>down</stem>
-				<staff>2</staff>
-				<beam number='1'>continue</beam>
-				<notations>
-					<slur type='start' number='1'/>
-				</notations>
-			</note>
-			<note>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>down</stem>
-				<staff>2</staff>
-				<beam number='1'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>D</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>768</duration>
-				<voice>5</voice>
-				<type>quarter</type>
-				<accidental>sharp</accidental>
-				<stem>down</stem>
-				<staff>2</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>up</stem>
-				<staff>2</staff>
-				<beam number='1'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>B</step>
-					<alter>1</alter>
-					<octave>2</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>up</stem>
-				<staff>2</staff>
-				<beam number='1'>end</beam>
-			</note>
-		</measure>
-<!--=========================================================-->
-		<measure number='4'>
-			<print new-system='yes'/>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<accidental>double-sharp</accidental>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<accidental>sharp</accidental>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>2</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<accidental>sharp</accidental>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>begin</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>begin</beam>
-				<beam number='3'>begin</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>continue</beam>
-				<beam number='2'>continue</beam>
-				<beam number='3'>continue</beam>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>E</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<chord/>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-			</note>
-			<note>
-				<pitch>
-					<step>A</step>
-					<alter>1</alter>
-					<octave>5</octave>
-				</pitch>
-				<duration>96</duration>
-				<voice>1</voice>
-				<type>32nd</type>
-				<stem>down</stem>
-				<staff>1</staff>
-				<beam number='1'>end</beam>
-				<beam number='2'>end</beam>
-				<beam number='3'>end</beam>
-			</note>
-			<backup>
-				<duration>3072</duration>
-			</backup>
-			<note>
-				<pitch>
-					<step>D</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>1536</duration>
-				<tie type='start'/>
-				<voice>5</voice>
-				<type>half</type>
-				<stem>down</stem>
-				<staff>2</staff>
-				<notations>
-					<tied type='start'/>
-					<slur type='stop' number='1'/>
-				</notations>
-			</note>
-			<note>
-				<pitch>
-					<step>D</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>384</duration>
-				<tie type='stop'/>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>up</stem>
-				<staff>2</staff>
-				<beam number='1'>begin</beam>
-				<notations>
-					<tied type='stop'/>
-					<slur type='start' number='1'/>
-				</notations>
-			</note>
-			<note>
-				<pitch>
-					<step>G</step>
-					<alter>1</alter>
-					<octave>2</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>up</stem>
-				<staff>2</staff>
-				<beam number='1'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>C</step>
-					<alter>1</alter>
-					<octave>3</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>up</stem>
-				<staff>2</staff>
-				<beam number='1'>continue</beam>
-			</note>
-			<note>
-				<pitch>
-					<step>B</step>
-					<alter>1</alter>
-					<octave>2</octave>
-				</pitch>
-				<duration>384</duration>
-				<voice>5</voice>
-				<type>eighth</type>
-				<stem>up</stem>
-				<staff>2</staff>
-				<beam number='1'>end</beam>
-				<notations>
-					<slur type='stop' number='1'/>
-				</notations>
-			</note>
-			<barline location='right'>
-				<bar-style>light-heavy</bar-style>
-			</barline>
-		</measure>
-	</part>
-<!--=========================================================-->
+<?xml version="1.0" encoding='UTF-8' standalone='no' ?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.0">
+ <work>
+  <work-title>[T290_Rav-w17p3s2-3]</work-title>
+ </work>
+ <identification>
+  <creator type="composer">(Joseph) Maurice Ravel</creator>
+  <encoding>
+   <encoding-date>2020-11-25</encoding-date>
+   <encoder>cdf75</encoder>
+   <software>Sibelius 20.9.0</software>
+   <software>Direct export, not from Dolet</software>
+   <encoding-description>Sibelius / MusicXML 3.0</encoding-description>
+   <supports element="print" type="yes" value="yes" attribute="new-system" />
+   <supports element="print" type="yes" value="yes" attribute="new-page" />
+   <supports element="accidental" type="yes" />
+   <supports element="beam" type="yes" />
+   <supports element="stem" type="yes" />
+  </encoding>
+ </identification>
+ <defaults>
+  <scaling>
+   <millimeters>279.4</millimeters>
+   <tenths>2031</tenths>
+  </scaling>
+  <page-layout>
+   <page-height>1570</page-height>
+   <page-width>2031</page-width>
+   <page-margins type="both">
+    <left-margin>92</left-margin>
+    <right-margin>92</right-margin>
+    <top-margin>92</top-margin>
+    <bottom-margin>92</bottom-margin>
+   </page-margins>
+  </page-layout>
+  <system-layout>
+   <system-margins>
+    <left-margin>68</left-margin>
+    <right-margin>0</right-margin>
+   </system-margins>
+   <system-distance>95</system-distance>
+  </system-layout>
+  <appearance>
+   <line-width type="stem">0.9375</line-width>
+   <line-width type="beam">4.0625</line-width>
+   <line-width type="staff">0.9375</line-width>
+   <line-width type="light barline">1.5625</line-width>
+   <line-width type="heavy barline">5</line-width>
+   <line-width type="leger">1.5625</line-width>
+   <line-width type="ending">1.5625</line-width>
+   <line-width type="wedge">1.25</line-width>
+   <line-width type="enclosure">0.9375</line-width>
+   <line-width type="tuplet bracket">1.25</line-width>
+   <line-width type="bracket">5</line-width>
+   <line-width type="dashes">1.5625</line-width>
+   <line-width type="extend">0.9375</line-width>
+   <line-width type="octave shift">1.5625</line-width>
+   <line-width type="pedal">1.5625</line-width>
+   <line-width type="slur middle">0.9375</line-width>
+   <line-width type="slur tip">0.625</line-width>
+   <line-width type="tie middle">0.9375</line-width>
+   <line-width type="tie tip">0.625</line-width>
+   <note-size type="cue">75</note-size>
+   <note-size type="grace">60</note-size>
+  </appearance>
+  <music-font font-family="Opus Std" font-size="15.5906" />
+  <word-font font-family="Didot" font-size="9.3787" />
+  <lyric-font font-family="Didot" font-size="9.0133" />
+  <lyric-language xml:lang="en" />
+ </defaults>
+ <credit page="1">
+  <credit-words default-x="1015" default-y="155" font-family="Didot" font-style="normal" font-size="17.2958" font-weight="normal" justify="center" valign="middle">[T290_Rav-w17p3s2-3]</credit-words>
+ </credit>
+ <credit page="1">
+  <credit-words default-x="1939" default-y="84" font-family="Didot" font-style="normal" font-size="8.6479" font-weight="normal" justify="right" valign="middle">(Joseph) Maurice Ravel</credit-words>
+ </credit>
+ <part-list>
+  <part-group type="start" number="1">
+   <group-symbol>brace</group-symbol>
+  </part-group>
+  <score-part id="P1">
+   <identification>
+    <miscellaneous>
+     <miscellaneous-field name="show-rhythms">false</miscellaneous-field>
+    </miscellaneous>
+   </identification>
+   <part-name>Piano</part-name>
+   <part-name-display>
+    <display-text>Piano</display-text>
+   </part-name-display>
+   <part-abbreviation>Pno.</part-abbreviation>
+   <part-abbreviation-display>
+    <display-text>Pno.</display-text>
+   </part-abbreviation-display>
+   <score-instrument id="P1-I1">
+    <instrument-name>Piano (2)</instrument-name>
+    <instrument-sound>keyboard.piano.grand</instrument-sound>
+    <solo />
+    <virtual-instrument>
+     <virtual-library>Sibelius 7 Sounds</virtual-library>
+     <virtual-name>Concert Grand Piano</virtual-name>
+    </virtual-instrument>
+   </score-instrument>
+  </score-part>
+  <part-group type="stop" number="1" />
+ </part-list>
+ <part id="P1">
+  <!--============== Part: P1, Measure: 3 ==============-->
+  <measure number="3" width="958">
+   <print new-page="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>83</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <top-system-distance>352</top-system-distance>
+    </system-layout>
+    <staff-layout number="2">
+     <staff-distance>115</staff-distance>
+    </staff-layout>
+   </print>
+   <attributes>
+    <divisions>256</divisions>
+    <key color="#000000">
+     <fifths>7</fifths>
+     <mode>major</mode>
+    </key>
+    <time color="#000000">
+     <beats>4</beats>
+     <beat-type>4</beat-type>
+    </time>
+    <staves>2</staves>
+    <clef number="1" color="#000000">
+     <sign>G</sign>
+     <line>2</line>
+    </clef>
+    <clef number="2" color="#000000">
+     <sign>G</sign>
+     <line>2</line>
+    </clef>
+    <staff-details number="1" print-object="yes" />
+    <staff-details number="2" print-object="yes" />
+   </attributes>
+   <direction>
+    <direction-type>
+     <words default-x="162" default-y="-79" justify="left" valign="middle" font-family="Opus Text Std" font-style="normal" font-size="9.3787" font-weight="normal">[ppp]</words>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <metronome default-y="51" color="#000000" font-family="Opus Text Std" font-style="normal" font-size="9.3787" font-weight="normal">
+      <beat-unit>quarter</beat-unit>
+      <per-minute>59</per-minute>
+     </metronome>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <note color="#000000" default-x="168" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+    <notations>
+     <slur color="#000000" type="start" orientation="over" />
+    </notations>
+   </note>
+   <note color="#000000" default-x="168">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="168">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="197" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <accidental>natural</accidental>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="221" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="221">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="221">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="246" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="246">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="246">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="270" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="295" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="295">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="295">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="320" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="320">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="320">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="344" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="369" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="369">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="369">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="393" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="418" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="418">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="418">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="442" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="442">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="442">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="467" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="492" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="492">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="492">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="516" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="516">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="516">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="541" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="565" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="565">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="565">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="590" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="615" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="615">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="615">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="639" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="639">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="639">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="664" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="688" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="688">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="688">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="713" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="713">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="713">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="737" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="762" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="762">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="762">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="786" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="811" default-y="-59">
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="811">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="835" default-y="-59">
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="835">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="860" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="885" default-y="-59">
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="885">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="909" default-y="-59">
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="909">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="934" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <backup>
+    <duration>1024</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <words default-x="162" default-y="-112" justify="left" valign="middle" font-family="Opus Text Std" font-style="normal" font-size="9.3787" font-weight="normal">[ppp]</words>
+    </direction-type>
+    <voice>2</voice>
+    <staff>2</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <words default-x="162" default-y="-82" justify="left" valign="middle" font-family="Didot" font-style="italic" font-size="9.3787" font-weight="bold">très doux et très expressif</words>
+    </direction-type>
+    <voice>2</voice>
+    <staff>2</staff>
+   </direction>
+   <note color="#000000" default-x="168" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note color="#000000" default-x="369" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>quarter</type>
+    <dot />
+    <accidental>natural</accidental>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note color="#000000" default-x="664" default-y="-57">
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="762" default-y="-57">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">continue</beam>
+   </note>
+   <note color="#000000" default-x="860" default-y="-57">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 4 ==============-->
+  <measure number="4" width="805">
+   <attributes />
+   <note color="#000000" default-x="15" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="15">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="15">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="43" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <accidental>natural</accidental>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="68" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="68">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="68">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="92" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="92">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="92">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="117" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="141" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="141">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="141">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="166" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="166">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="166">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="190" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="215" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="215">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="215">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="240" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="264" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="264">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="264">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="289" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="289">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="289">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="313" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="338" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="338">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="338">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="363" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="363">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="363">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="387" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="412" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="412">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="412">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="436" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="461" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="461">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="461">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="485" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="485">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="485">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="510" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="535" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="535">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="535">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="559" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="559">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="559">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="584" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="608" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="608">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="608">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="633" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="657" default-y="-59">
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="657">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="682" default-y="-59">
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="682">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="706" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="731" default-y="-59">
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="731">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="756" default-y="-59">
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="756">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="780" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <backup>
+    <duration>1024</duration>
+   </backup>
+   <note color="#000000" default-x="15" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note color="#000000" default-x="215" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>quarter</type>
+    <dot />
+    <accidental>natural</accidental>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note color="#000000" default-x="510" default-y="-57">
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="608" default-y="-57">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">continue</beam>
+   </note>
+   <note color="#000000" default-x="706" default-y="-57">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 5 ==============-->
+  <measure number="5" width="954">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>68</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <system-distance>235</system-distance>
+    </system-layout>
+    <staff-layout number="2">
+     <staff-distance>115</staff-distance>
+    </staff-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+    <staff-details number="2" print-object="yes" />
+   </attributes>
+   <note color="#000000" default-x="150" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="150">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="150">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="178" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <accidental>natural</accidental>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="203" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="203">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="203">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="228" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="228">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="228">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="252" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="277" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="277">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="277">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="302" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="302">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="302">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="327" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="352" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="352">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="376" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="401" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="426" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="451" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="476" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="476">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="500" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="500">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="525" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="550" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="550">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="550">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="575" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="600" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="625" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="625">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="625">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="650" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="674" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="674">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="674">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="699" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="699">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="699">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="724" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="749" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="749">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="749">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="780" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <accidental>sharp</accidental>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="805" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="830" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="830">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="830">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="854" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="879" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="879">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="879">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="904" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="904">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="904">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="929" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+    <notations>
+     <slur color="#000000" type="stop" orientation="over" />
+    </notations>
+   </note>
+   <backup>
+    <duration>1024</duration>
+   </backup>
+   <note color="#000000" default-x="150" default-y="-49">
+    <pitch>
+     <step>D</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="252" default-y="-49">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note color="#000000" default-x="352" default-y="-39">
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="451" default-y="-39">
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+   </note>
+   <note color="#000000" default-x="550" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>quarter</type>
+    <accidental cautionary="yes">sharp</accidental>
+    <stem>down</stem>
+    <staff>2</staff>
+   </note>
+   <note color="#000000" default-x="749" default-y="-57">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+   </note>
+   <note color="#000000" default-x="854" default-y="-57">
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 6 ==============-->
+  <measure number="6" width="824">
+   <attributes />
+   <note color="#000000" default-x="16" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>2</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <accidental>double-sharp</accidental>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+    <notations>
+     <slur color="#000000" type="start" orientation="over" />
+    </notations>
+   </note>
+   <note color="#000000" default-x="16">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="16">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="47" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="72" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="97" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="97">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="97">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="121" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="146" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="146">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="146">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="171" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="171">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="171">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="196" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="221" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="221">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="221">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="245" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="270" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="295" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="295">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="295">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="320" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="345" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="345">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="345">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="370" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="370">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="370">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="395" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="419" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="419">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="419">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="444" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="469" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="494" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="494">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="494">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="519" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="543" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="543">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="543">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="568" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="568">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="568">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="593" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="625" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <accidental>sharp</accidental>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="625">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="625">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="650" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="675" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="700" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+   </note>
+   <note color="#000000" default-x="700">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="700">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="725" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">begin</beam>
+    <beam number="3">begin</beam>
+   </note>
+   <note color="#000000" default-x="750" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="750">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="750">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="774" default-y="-59">
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <beam number="2">continue</beam>
+    <beam number="3">continue</beam>
+   </note>
+   <note color="#000000" default-x="774">
+    <chord />
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="774">
+    <chord />
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <type>32nd</type>
+    <staff>1</staff>
+   </note>
+   <note color="#000000" default-x="799" default-y="-59">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>32</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>32nd</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <beam number="2">end</beam>
+    <beam number="3">end</beam>
+    <notations>
+     <slur color="#000000" type="stop" orientation="over" />
+    </notations>
+   </note>
+   <backup>
+    <duration>1024</duration>
+   </backup>
+   <note color="#000000" default-x="16" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>512</duration>
+    <tie type="start" />
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <tied type="start" orientation="over" />
+    </notations>
+   </note>
+   <note color="#000000" default-x="419" default-y="-67">
+    <pitch>
+     <step>B</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <tie type="stop" />
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tied type="stop" orientation="over" />
+    </notations>
+   </note>
+   <note color="#000000" default-x="519" default-y="-67">
+    <pitch>
+     <step>E</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">continue</beam>
+   </note>
+   <note color="#000000" default-x="625" default-y="-67">
+    <pitch>
+     <step>A</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">continue</beam>
+   </note>
+   <note color="#000000" default-x="725" default-y="-67">
+    <pitch>
+     <step>G</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>2</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+   </note>
+  </measure>
+ </part>
 </score-partwise>
