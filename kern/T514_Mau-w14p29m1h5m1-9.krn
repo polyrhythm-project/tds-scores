@@ -4,7 +4,7 @@
 !!!example: 514
 !!!work: Mau-14
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:B	*grp:A	*grp:A	*grp:B	*grp:B
+*grp:A	*grp:A	*grp:A	*grp:A	*grp:B	*grp:A	*grp:B	*grp:A	*grp:A	*grp:B	*grp:A	*grp:A	*grp:A	*grp:B
 *part6	*part6	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff7	*staff7	*staff6	*staff6	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Piano	*	*I"Piano	*	*I"Violoncello	*	*I"Violin	*	*I"Trumpet in Bb	*	*I"Basson	*	*I"Clarinet in Bb	*
@@ -14,6 +14,7 @@
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
+*met(c|)	*	*met(c|)	*	*met(c|)	*	*met(c|)	*	*met(c|)	*	*met(c|)	*	*met(c|)	*
 *MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*
 =49	=49	=49	=49	=49	=49	=49	=49	=49	=49	=49	=49	=49	=49
 !!LO:TX:t=[Tempo di charleston [half]=109]
@@ -22,10 +23,10 @@
 .	.	.	>	.	.	8BJ	.	.	.	.	.	.	.
 4GG 4D	.	4B' 4d 4e	.	.	.	8BL	.	[4g	.	.	.	[4g	.
 .	.	.	.	.	.	8eJ	.	.	.	.	.	.	.
-4GG 4D	.	4B' 4d 4e	.	(8bL]	.	8BL	.	8g'L]	.	.	.	8g'L]	.
-.	.	.	.	8gJ	.	8BJ	.	8g'J	.	.	.	8g'J	.
+4GG 4D	.	4B' 4d 4e	.	8bL]	.	8BL	.	8g'L]	.	.	.	8g'L]	.
+.	.	.	.	(8gJ	.	8BJ	.	8g'J	.	.	.	8g'J	.
 4GGG 4GG	.	4B'^> 4d 4e 4g	]	8dL	<	8eL	.	/(8a#X^L	.	.	.	(8a#X^L	.
-.	.	.	.	8c#XJ	[	8BJ	.	8b'J)	.	.	.	8b'J)	.
+.	.	.	.	8c#XJ	[[	8BJ	.	8b'J)	.	.	.	8b'J)	.
 !!LO:REH:t=5
 =50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50
 4GG 4D	.	4B' 4d 4e	.	8eL)	>	8BL	.	8g'L	.	1r	.	8g'L	.
@@ -37,7 +38,7 @@
 4GG 4D	.	4B' 4d 4e	.	[4d	.	8BL	.	8g'	.	.	.	8g'	.
 .	.	.	.	.	.	8eJ	.	8r	.	.	.	8r	.
 =51	=51	=51	=51	=51	=51	=51	=51	=51	=51	=51	=51	=51	=51
-4EE 4BB 4E	.	4d^> 4e 4g#X 4b	mf <	4d']	mf	(8fnL	mf	4b	mf	1r	.	[2b	mf
+4EE 4BB 4E	.	4d^> 4e 4g#X 4b	mf <	4d]	mf	(8fnL	mf	4b	mf	1r	.	[2b	mf
 .	.	.	.	.	.	8eJ)	.	.	.	.	.	.	.
 8r	.	8r	.	[2.e	.	8eL	.	\8eL	.	.	.	.	.
 [8EE 8BB [8E	.	[8d^> 8e 8g# [8b	.	.	.	(8fJ	.	[8bJ	.	.	.	.	.
@@ -54,9 +55,9 @@
 !	!	!	!	!	!	!	!	!LO:TUP:a	!	!	!	!LO:TUP:a	!
 4EE'] 4BB 4E]	.	4d'] 4e 4g# 4b]	.	.	.	(8fL	.	6ee	.	.	.	6ee)	.
 .	.	.	.	.	.	8eJ)	.	.	.	.	.	.	.
-.	.	.	.	.	.	.	.	6cc#X	.	.	.	6cc#X	.
+.	.	.	.	.	.	.	.	6cc#X~	.	.	.	6cc#X~	.
 4r	.	4r	.	(4F#X	<	8eL	.	.	.	.	.	.	.
-.	.	.	.	.	.	.	.	6cc	[[	.	.	6cc	[[
+.	.	.	.	.	.	.	.	6cc~	[[	.	.	6cc~	[[
 .	.	.	.	.	.	8dJ	.	.	.	.	.	.	.
 =53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53
 /8AA' 8E 8A	.	8c#X'^>L 8g 8a	.	4G	.	8cL	.	8b'^L	.	1r	.	8b'^L	.
@@ -79,6 +80,8 @@
 (<8EE-X'>^> 8E-X	.	(8e-X^>	sf	.	.	8AJ	.	8r	.	.	.	.	.
 =55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55
 !	!	!LO:TX:b:i:t=meno	!	!	!	!	!	!	!	!	!	!	!
+!	!	!LO:S:n=1:note	!	!	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem:cross-staff slur attaching to the wrong note	!	!	!	!	!	!	!	!	!	!	!
 \4DD 4D)	.	4F#X< 4c 4d)	.	2A]	.	(8eL	.	/4a'	.	1r	.	[2a	.
 .	.	.	.	.	.	8dJ)	.	.	.	.	.	.	.
 8r	.	8r	.	.	.	8dL	.	8d'L	.	.	.	.	.
@@ -96,9 +99,9 @@
 4DD'] 4AA 4D]	.	4c'] 4d 4f# 4a]	.	4D#X	.	(8eL	.	6dd]	.	.	.	6dd]	.
 .	.	.	.	.	.	8dJ)	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	6b~	.	.	.	6bnX~	.
-4r	.	4r	.	4E)	[[	8dL	.	.	.	.	.	.	.
+4r	.	4r	.	4E)	.	8dL	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	6b-~	.	.	.	6b-~	.
-.	.	.	.	.	.	8eJ	.	.	.	.	.	.	.
+.	.	.	.	.	[[	8eJ	.	.	.	.	.	.	.
 =57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57
 \8FFFL 8FF	.	8A<^> 8e-X 8gL	f	(4Fn	f	(8f#XL	f	8a'^L	f	(1FF	f	8a'^L	f
 8FFFJ 8FF	.	8A< 8e- 8gJ	.	.	.	8gJ)	.	8g'J	.	.	.	8g'J	.
@@ -124,6 +127,8 @@
 !!!RDF**kern: < = below
 !!!EED: Daniel Wright
 !!!EEV: 2022/09/02
+!!!EED2: Jason Lee
+!!!EEV2: 2022/10/22
 !!!CDT: 1890/12/08-1959/08/28
 !!!CBL: Polička, Bohemia
 !!!CDL: Liestal, Switzerland

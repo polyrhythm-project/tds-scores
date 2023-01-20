@@ -4,7 +4,7 @@
 !!!example: 172
 !!!work: Deb-23
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*	*	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A
+*grp:A	*grp:A	*grp:B	*grp:B	*grp:B	*grp:B	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A	*grp:A
 *part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff3	*	*staff1	*
 *I"Contrabass	*	*I"Violoncello	*	*I"Viola	*	*I"Harp II	*	*I"Harp I	*	*I"Timbales	*
@@ -14,28 +14,26 @@
 *k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*	*
 *D:	*	*D:	*	*D:	*	*D:	*	*D:	*	*	*
 *M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*	*M6/4	*
-*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*	*MM121	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *^	*	*	*	*	*	*	*	*	*	*	*
-*grp:B	*grp:A	*	*	*	*	*	*	*	*	*	*	*
-!!LO:TX:t=Très lent ([quarter]=116]
+!!LO:TX:a:B:t=Très lent (116=[quarter])
 !	!LO:TX:t=Div.	!	!	!	!	!	!	!	!	!	!	!
-!	!LO:TX:b:t=arco	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:TX:b:rj:t=arco	!	!	!	!	!	!	!	!	!	!	!
 1.rA	[1.BBB	pp	1.r	.	1.r	.	1.r	.	1.r	.	1.BBtt	ppp
-!LO:TX:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:rj:t=pizz.	!	!	!	!	!	!	!	!	!	!	!	!
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-!	!	!LO:DY:a	!LO:TX:t=Sourdines	!	!LO:TX:t=Sourdines	!	!	!	!	!	!	!
-4BBB'	1.BBB_	pp	1.r	.	1.r	.	2.FF#~ 2.F#	.	4r	.	1.BBtt	.
-!	!	!	!	!	!	!	!	!LO:DY:a	!	!LO:DY:a	!	!
-4rA	.	.	.	.	.	.	.	pp	2FF# 2F#	pp	.	.
+!	!	!LO:DY:a	!LO:TX:t=Sourdines	!	!LO:TX:t=Sourdines	!	!	!LO:DY:a	!	!	!	!
+4BBB'	1.BBB_	pp	1.r	.	1.r	.	2.FF#~ 2.F#	pp	4r	.	1.BBtt	.
+!	!	!	!	!	!	!	!	!	!	!LO:DY:a	!	!
+4rA	.	.	.	.	.	.	.	.	2FF# 2F#	pp	.	.
 4rA	.	.	.	.	.	.	.	.	.	.	.	.
 4BBB'	.	.	.	.	.	.	2.GG#X~ 2.G#X	.	4r	.	.	.
 4rA	.	.	.	.	.	.	.	.	2GG#X 2G#X	.	.	.
 4rA	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!LO:TX:t=Div.	!	!	!	!	!	!	!	!	!
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
-4BBB'	1.BBB_	.	16FF#KL 16F#	pp	2.r	.	2.FF#~ 2.F#	.	4r	.	1.BBtt	.
-.	.	.	[8.GG#XJ [8.G#X	.	.	.	.	.	.	.	.	.
+4BBB'	1.BBB_	.	(16FF#KL 16F#	pp	2.r	.	2.FF#~ 2.F#	.	4r	.	1.BBtt	.
+.	.	.	[8.GG#XJ) [8.G#X	.	.	.	.	.	.	.	.	.
 4rA	.	.	4GG#] 4G#]	.	.	.	.	.	2FF# 2F#	.	.	.
 4rA	.	.	[4GG#~ [4G#	.	.	.	.	.	.	.	.	.
 4BBB'	.	.	4GG#] 4G#]	.	4r	.	2.GG#X~ 2.G#X	.	4r	.	.	.
@@ -43,27 +41,29 @@
 !	!	!	!	!	!LO:TX:t=Div.	!	!	!	!	!	!	!
 4rA	.	.	.	.	([4C# [4c#	pp	.	.	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-4BBB'	1.BBB_	.	16FF#KL 16F#	.	2C#] 2c#]	.	2.FF#~ 2.F#	.	4r	.	1.BBtt	.
-.	.	.	[8.GG#XJ [8.G#X	.	.	.	.	.	.	.	.	.
+4BBB'	1.BBB_	.	(16FF#KL 16F#	.	2C#] 2c#]	.	2.FF#~ 2.F#	.	4r	.	1.BBtt	.
+.	.	.	[8.GG#XJ) [8.G#X	.	.	.	.	.	.	.	.	.
 4rA	.	.	2GG#] 2G#]	.	.	.	.	.	2FF# 2F#	.	.	.
 4rA	.	.	.	.	[4F# [4f#	.	.	.	.	.	.	.
 4BBB'	.	.	2GG# 2G#	.	4F#] 4f#]	.	2.GG#X~ 2.G#X	.	4r	.	.	.
 4rA	.	.	.	.	/2G#X 2g#X	.	.	.	2GG#X 2G#X	.	.	.
 4rA	.	.	4GG# 4G#	.	.	.	.	.	.	.	.	.
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
-4BBB'	1.BBB]	.	16FF#KL 16F#	.	2B 2b	.	2.FF#~ 2.F#	.	4r	.	1.BBtt	.
-.	.	.	[8.GG#XJ [8.G#X	.	.	.	.	.	.	.	.	.
+4BBB'	1.BBB]	.	(16FF#KL 16F#	.	2B 2b	.	2.FF#~ 2.F#	.	4r	.	1.BBtt	.
+.	.	.	[8.GG#XJ) [8.G#X	.	.	.	.	.	.	.	.	.
 4rA	.	.	2GG#] 2G#]	.	.	.	.	.	2FF# 2F#	.	.	.
 4rA	.	.	.	.	[4c# [4cc#	.	.	.	.	.	.	.
 4BBB'	.	.	2GG# 2G#	.	4c#] 4cc#]	.	2.GG#X~ 2.G#X	.	4r	.	.	.
 4rA	.	.	.	.	2f#) 2ff#	.	.	.	2GG#X 2G#X	.	.	.
 4rA	.	.	4GG# 4G#	.	.	.	.	.	.	.	.	.
 *v	*v	*	*	*	*	*	*	*	*	*	*	*
-=	=	=	=	=	=	=	=	=	=	=	=
+=||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: s1{(s2,s3)}{(s4,s5)}[(s6,s7,s8)]
+!!!system-decoration: [s1]{(s2,s3)}{(s4,s5)}[(s6,s7,s8)]
 !!!EED: Daniel Wright
 !!!EEV: 2022/09/15
+!!!EED2: Jason Lee
+!!!EEV2: 2022/10/26
 !!!CDT: 1862/08/22-1918/03/25
 !!!CBL: St Germain-en-Laye, France
 !!!CDL: Paris, France

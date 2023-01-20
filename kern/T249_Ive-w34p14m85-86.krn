@@ -7,24 +7,23 @@
 *grp:A	*grp:A	*	*grp:B	*	*grp:A	*	*grp:A	*	*grp:A	*
 *part5	*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
 *staff6	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"Piano	*	*	*I"Drum	*	*I"Trumpet in Bb	*	*I"Bassoon	*	*I"Clarinet in Bb	*
-*I'Pno.	*	*	*I'Drum	*	*I'Tpt.	*	*I'Bsn.	*	*I'Cl.	*
+*I"Piano	*	*	*I"Percussion	*	*I"Trumpet in Bb	*	*I"Bassoon	*	*I"Clarinet in Bb	*
+*I'Pno.	*	*	*I'Perc.	*	*I'Tpt.	*	*I'Bsn.	*	*I'Cl.	*
 *clefF4	*clefG2	*	*clefX	*	*clefG2	*	*clefF4	*	*clefG2	*
 *	*	*	*	*	*ITrd1c2	*	*	*	*ITrd1c2	*
 *k[]	*k[]	*	*k[]	*	*k[b-e-]	*	*k[]	*	*k[b-e-]	*
 *	*	*	*C:	*	*	*	*	*	*	*
 *M4/4	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!LO:TX:t=[quarter]=150	!	!	!	!	!	!	!	!LO:TX:t=[quarter]=150	!
+!!LO:TX:t=[Allegro molto (or as fast as possible)]
 !	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack
-1ryy	(16BBBB-X<^^LL\	ff	8r	pp	[4f#X	f	[4Bn	f	[4cc#X	ff
+1ryy	(<16BBBB-X<^^<LL\	ff	8r	pp	[4f#X	f	[4Bn	f	[4cc#X	ff
 .	16BBBn<	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!	!	!
-.	16C<	.	8Ra/L	.	.	.	.	.	.	.
+.	16C<	.	8RaL/	.	.	.	.	.	.	.
 .	16c#X<	.	.	.	.	.	.	.	.	.
 .	16d)	.	8r	.	16f#]	.	16B]	.	16cc#]	.
 .	(16dd#X^^	.	.	.	[4f	.	[4B-X	.	[4cc	.
-.	16eee	.	8Ra/J	.	.	.	.	.	.	.
+.	16eee	.	8RaJ	.	.	.	.	.	.	.
 .	16ffff	.	.	.	.	.	.	.	.	.
 .	16eee	.	8r	.	.	.	.	.	.	.
 .	16dd#X)	.	.	.	16f]	.	16B-]	.	16cc]	.
@@ -33,7 +32,7 @@
 .	16Cn<^^	.	8r	.	.	.	.	.	.	.
 .	16BBBn<	.	.	.	.	.	.	.	.	.
 .	16BBBB-X<)	.	8Ra/J	.	16b-]	.	16e-]	.	16ff]	.
-.	(16BBBn<^^JJ	.	.	.	[16c	.	[16F	.	[16g	.
+.	(16BBBn<^^<JJ	.	.	.	[16c	.	[16F	.	[16g	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
 *M7/8	*M7/8	*	*M7/8	*	*M7/8	*	*M7/8	*	*M7/8	*
 8%7ryy	16C<LL\	.	8r	.	4c]	.	4F]	.	4g]	.
@@ -52,7 +51,7 @@
 .	16FFF#<XJJ 16GGG#X< 16BBB#X< 16CC#X<)	.	.	.	.	.	.	.	.	.
 =	=	=	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2)][(s3)]s4[({(s5,s6)})]
+!!!system-decoration: [(s1,s2)][(s3)]<s4>[({(s5,s6)})]
 !!!RDF**kern: < = below
 !!!RDF**kern: N = cue size
 !!!CDT: 1874/10/20-1954/05/19
@@ -74,3 +73,5 @@
 !!!excerpt-end-time: 2:14
 !!!EEV: 2020/01/27
 !!!ONB: Converted from MusicXML on 2020/01/27
+!!!EED2: Jason Lee
+!!!EEV2: 2022/12/15
