@@ -2,18 +2,21 @@
 !!!OMV: III: From Hanover Square North, at the End of a Tragic Day, the Voice of the People Again Arose
 !!!example: 265
 !!!work: Ive-40
+!!!OMD: Andante maestoso (about [quarter] = 42-45 [of 3/4])
 **kern	**dynam	**kern	**kern	**dynam	**kern	**kern
 *clefF4	*	*clefG2	*clefF4	*	*clefF4	*clefF4
-*Trd0c0	*	*	*	*	*	*
+*I"Db.	*	*I"Vns.\n&Va.	*I"Piano	*	*I"Harp	*I"Chimes
+*Trd7c12	*	*	*	*	*	*
 *k[]	*	*k[]	*k[]	*	*k[]	*k[]
 *C:	*	*C:	*C:	*	*C:	*C:
 *M3/4	*	*M3/4	*M3/4	*	*M3/4	*M3/4
 *MM121	*	*MM121	*MM121	*	*MM121	*MM121
+!!LO:REH:t=K
 =102	=102	=102	=102	=102	=102	=102
 !	!	!	!	!	!	!LO:TX:t=P:problem:Polyrhythms do not align
 *	*	*	*	*	*^	*^
 *	*	*	*	*	*	*^	*	*
-!	!	!LO:TX:a:B:t=3Andante maestoso (about q=42–45 [of   ])                                                                                        4	!	!	!	!	!	!LO:TX:a:B:t=3Andante maestoso (about q=42–45 [of   ])                                                                                        4	!
+!LO:TUP:r=2.	!	!	!	!	!	!	!	!	!
 12C^^L	f	(32ALLL	4C 4c	.	4c#Xi	4D: 4F#X: 4B:	2ryy	16%3r	2F
 .	.	32B-X	.	.	.	.	.	.	.
 .	.	32c#X	.	.	.	.	.	.	.
@@ -46,6 +49,7 @@
 .	.	32dJJJ)	.	.	.	.	.	.	.
 =103	=103	=103	=103	=103	=103	=103	=103	=103	=103
 *	*	*	*	*	*	*	*^	*	*
+!LO:TUP:r=2.	!	!LO:TUP:r=2.:num=5	!	!	!	!	!	!	!	!
 40%3FF^^L	.	(80%3f#X^^LL	4C#] 4c#]	.	4c#]	4ryy	4D:\] 4A:]	2Fn/	16%3B]	2C
 .	.	80%3A	.	.	.	.	.	.	.	.
 40%3C	.	80%3B-X	.	.	.	.	.	.	.	.
@@ -87,7 +91,7 @@
 44%3DJ	.	.	.	.	.	.	.	.
 .	.	80%3c#XLL	.	.	.	.	.	.
 .	.	80%3d)	.	.	.	.	.	.
-44%3FF^^L	.	.	.	.	.	.	.	.
+44%3FF^^<L	.	.	.	.	.	.	.	.
 .	.	(80%3f#X^^	.	.	.	.	.	.
 44%3C	.	.	.	.	.	.	.	.
 .	.	80%3AJJ	.	.	.	.	.	.
@@ -104,13 +108,15 @@
 .	.	.	[8C#^^ [8c#	sf	[8c#^^J	.	.	.	.
 .	.	80%3B-X	.	.	.	.	.	.	.
 .	.	80%3c#X	.	.	.	.	.	.	.
-44%3FF^^	.	.	.	.	.	.	.	.	.
+44%3FF^^<L	.	.	.	.	.	.	.	.	.
 .	.	80%3dJJ)	.	.	.	.	.	.	.
 *	*	*	*	*	*v	*v	*v	*	*
 *	*	*	*	*	*	*v	*v
 =	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: s1,s2,s3,s4,s5
+!!!RDF**kern: < = below
+!!!RDF**kern: > = above
 !!!RDF**kern: i = editorial accidental
 !!!CDT: 1874/10/20-1954/05/19
 !!!CBL: Danbury, United States
