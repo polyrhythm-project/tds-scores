@@ -1,7 +1,6 @@
 !!!COM: Charles Ives
 !!!OTL: [T257_Ive-w25p31m56-63]
 **kern	**kern	**dynam
-*grp:A	*grp:A	*
 *part1	*part1	*
 *staff2	*staff1	*staff1/2
 *I"Piano	*I"Piano	*
@@ -12,7 +11,8 @@
 *M2/4	*M2/4	*
 =1	=1	=1
 !	!LO:TX:B:t=[Allegro]	!LO:DY:rj:ed=brack
-4A	(8A<L	p
+*grp:A	*grp:A	*grp:B
+4AnZ	(8A<L	p
 .	16d'>	.
 .	16f'>J)	.
 4D#X	(16D#X<L	.
@@ -20,7 +20,7 @@
 .	16g'Jk 16b)	.
 *^	*	*
 =2	=2	=2	=2
-*	*	*grp:B	*
+*grp:A	*grp:A	*grp:B	*grp:B
 !	!	!	!LO:DY:a
 (<8AAL	4AA	[>2ff/	f
 16DL	.	.	.
@@ -29,6 +29,7 @@
 (<8E^	.	.	.
 16B-Jk)	.	.	.
 =3	=3	=3	=3
+*grp:A	*grp:B	*grp:B	*grp:B
 *	*	*^	*
 16AALL	8.AAL	2ff]	16ffKL	.
 (16D	.	.	[>8.cc#XJ	.
@@ -40,6 +41,7 @@
 16B-Jk)	.	.	.	.
 =4	=4	=4	=4	=4
 !	!	!	!	!LO:DY:a
+*	*	*grp:B	*grp:A	*
 16AALL	8.AAL	(8b-XL	4b-	mf
 16D	.	.	.	.
 16B-X	.	8ddJ)	.	.
@@ -51,6 +53,7 @@
 *	*	*v	*v	*
 !!linebreak:original
 =5	=5	=5	=5
+*grp:A	*grp:A	*grp:B	*grp:A
 (8AAL	4AA	(>4b-X^> 4dd/	.
 16DL	.	.	.
 16B-XJJ)	.	.	.
@@ -69,6 +72,7 @@
 16B-'Jk)	.	.	.	.
 *	*	*v	*v	*
 =7	=7	=7	=7
+*gp:A	*grp:B	*grp:B	*grp:B
 (16AALL	8.AAL	8dd] 8ff]/	.
 16D	.	.	.
 16B-X')	.	4b-X 4dd/	.
@@ -77,6 +81,7 @@
 .	16ryy	.	.
 8B-XJ)'>	8ryy	8ryy	.
 =8	=8	=8	=8
+*grp:A	*grp:A	*grp:B	*grp:A
 (8AAL	4AA	(4.ffn 4.ddd 4.fff#Xi	.
 16DL	.	.	.
 16B-X'JJ)>	.	.	.
