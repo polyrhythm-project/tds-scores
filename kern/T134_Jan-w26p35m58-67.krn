@@ -1,27 +1,27 @@
 !!!COM: Leoš [Leo Eugen] Janáček
 !!!OTL: [T134_Jan-w26p35m58-67]
-**kern		**kern	**fing	**dynam
-*grp:A		*grp:B	*	*grp:A/B
-*part1		*part1	*	*
-*staff2		*staff1	*	*
-*Ipiano		*Ipiano	*	*
-*I"Piano		*I"Piano	*	*
-*I'Pno.		*I'Pno.	*	*
-*clefF4		*clefG2	*	*
-*k[f#c#]		*k[f#c#]	*	*
-*D:		*D:	*	*
-*M3/8		*M3/8	*	*
-=1		=1	=1	=1
-!		!LO:TX:t=[[eighth-dot]=69]	!	!
-!		!	!	!LO:DY:ed=brack
-16r		8.gL	.	pp
-16FFn\LL		.	.	.
-16Cn 16Fn 16A		.	.	.
-16FF		8.e-XJ	.	.
-16C 16F 16A		.	.	.
-16FFJJ		.	.	.
-=2		=2	=2	=2
-*^		*	*	*
+**kern	**kern	**fing	**dynam
+*grp:A	*grp:B	*	*grp:A/B
+*part1	*part1	*	*
+*staff2	*staff1	*	*
+*Ipiano	*Ipiano	*	*
+*I"Piano	*I"Piano	*	*
+*I'Pno.	*I'Pno.	*	*
+*clefF4	*clefG2	*	*
+*k[f#c#]	*k[f#c#]	*	*
+*D:	*D:	*	*
+*M3/8	*M3/8	*	*
+=1	=1	=1	=1
+!	!LO:TX:t=[[eighth-dot]=69]	!	!
+!	!	!	!LO:DY:ed=brack
+16r	8.gL	.	pp
+16FFn\LL	.	.	.
+16Cn 16Fn 16A	.	.	.
+16FF	8.e-XJ	.	.
+16C 16F 16A	.	.	.
+16FFJJ	.	.	.
+=2	=2	=2	=2
+*^	*	*	*
 !	!	!LO:TX:t=P:problem: Vertical Bracket needed to indicate chord grouping.	!	!
 4.E-X 4.A	16r	8.dL	.	.
 *	*ped	*	*	*
@@ -69,53 +69,59 @@
 .	16g> 16b>-	.	.	.
 .	16B-JJ	.	.	.
 =8	=8	=8	=8	=8
-!	!	!LO:N:vis=8	!	!
+!	!	!	!	!
+*	*	*rscale:3	*	*
 4.d-]	16r	(>32%3ff#LL	.	.
 .	16B-XLL	.	.	.
-!	!	!LO:N:vis=8	!	!
 .	.	32%3ggJJ	.	.
 .	16g> 16b>-X	.	.	.
-!	!	!LO:N:vis=8	!	!
 .	16e	32%3aaLL	.	.
 .	16g> 16b>-	.	.	.
-!	!	!LO:N:vis=8	!	!
 .	.	32%3ff#JJ)	.	.
 .	[>16eJJ	.	.	.
+*	*	*rscale:1	*	*
 =9	=9	=9	=9	=9
-!	!	!LO:S:dot	!	!
-16rb>	4.e]	(>16ggLL	1	.
-16g>LL	.	16aa	.	.
-16b-X>JJ 16dd-X>	.	16cccnJJ	.	.
-!	!	!LO:N:vis=16	!	!
-16g>LL	.	64%3bb-XLL	.	.
-!	!	!LO:N:vis=16	!	!
-.	.	64%3aa	1	.
-16b-> 16dd->	.	.	.	.
-!	!	!LO:N:vis=16	!	!
-.	.	64%3bb-	.	.
-[16g>JJ	.	.	.	.
-!	!	!LO:N:vis=16	!	!
-.	.	64%3cccJJ	1	.
-*v	*v	*	*	*
-=10		=10	=10	=10
-*ped		*	*	*
-!		!LO:S:dot	!	!
-4g>] 4b-X> 4ee>		4.ddd-X;)(TT	2	f
-8r>;<		.	.	.
-4.ryy		88%3cccnLL/	.	.
-.		)88%3ddd-	1	.
-.		88%3eee-X	3	.
-.		88%3ddd-	4	<
-.		88%3bb-X	.	.
-.		88%3gg	.	.
-.		88%3een	1	.
-!		!LO:TX:b:t=m.s.	!	!
-.		88%3dd-X	2	.
-.		88%3ccn	1	.
-.		88%3b-	2	.
-.		88%3enJJ	3	[
-=		=	=	=
-*-		*-	*-	*-
+*	*	*^	*	*
+!	!	!LO:S:dot	!	!	!
+4.ryy	4.e]	(>16ggLL	16r	1	.
+.	.	16aa	16gLL	.	.
+.	.	16cccnJJ	16b-XJJ 16dd-X	.	.
+*	*	*Xtuplet	*	*	*
+!	!	!LO:N:vis=16	!	!	!
+.	.	64%3bb-XLL	16gLL	.	.
+!	!	!LO:N:vis=16	!	!	!
+.	.	64%3aa	.	1	.
+!	!	!LO:TX:a:B:t=4	!	!	!
+.	.	.	16b- 16dd-	.	.
+!	!	!LO:N:vis=16	!	!	!
+.	.	64%3bb-	.	.	.
+.	.	.	[16gJJ	.	.
+!	!	!LO:N:vis=16	!	!	!
+.	.	64%3cccJJ	.	1	.
+*v	*v	*	*	*	*
+=10	=10	=10	=10	=10
+*	*	*^	*	*
+*ped	*	*	*	*	*
+!	!LO:S:dot	!	!	!	!
+8%3r	4.ddd-X;)(TT	4g] 4b-X 4ee	8ryy	2	f <
+!	!	!	!LO:TX:b:t=m.s.	!	!
+.	.	.	8r;<	.	.
+.	.	16qqcccnLL	.	1	[
+.	.	)16qqddd-	.	3	.
+.	.	16qqeee-X	.	4	.
+.	.	16qqddd-	.	.	.
+.	.	16qqbb-X	.	.	.
+.	.	16qqgg	.	1	.
+.	.	16qqeen	.	2	.
+!	!	!LO:TX:a:B:t=11	!	!	!
+.	.	16qqdd-X	.	1	.
+.	.	16qqccn	.	2	.
+.	.	16qqb-	.	3	.
+.	.	16qqenJJ	.	5	.
+.	.	8ryy	8ryy	.	.
+*	*v	*v	*v	*	*
+=	=	=	=
+*-	*-	*-	*-
 !!!system-decoration: [({(s1,s2)})]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
