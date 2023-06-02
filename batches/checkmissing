@@ -1,0 +1,33 @@
+#!/usr/bin/perl
+
+
+use strict;
+
+my @dirs = @ARGV;
+
+
+print "# MusicXML files missing kern conversions:\n";
+foreach my $dir (@dirs) {
+	print "# PROCESSING directory $dir\n";
+	my @xmlfiles = glob("$dir/*.musicxml");
+	my @kernfiles = glob("$dir/*.krn");
+	my %xmlbase;
+	foreach my $file (@xmlfiles) {
+		my $tfile = $file;
+		$tfile =~ s/.*\///;
+		$tfile =~ s/\.musicxml//;
+		$xmlbase{$tfile} = 1;
+	}
+	foreach my $file (@kernfiles) {
+		my $tfile = $file;
+		$tfile =~ s/.*\///;
+		$tfile =~ s/\.krn//;
+		if (!$xmlbase{$tfile}) {
+			print "\tMISSING HUMDRUM FILE $dir/$tfile.krn\n";
+		} else {
+			print "$xmlbase{$tfile}\t\tFOUND $dir/$tfile.krn\n";
+		}
+	}
+}
+
+
