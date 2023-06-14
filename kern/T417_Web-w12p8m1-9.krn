@@ -8,7 +8,7 @@
 !!!OPR: Sechs Bagatellen (Six Bagatellen) for String Quartet, op. 9
 !!!filename: T417_Web-w12p8m1-9.krn
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*grp:A	*	*grp:B	*	*grp:B	*	*grp:B	*
+*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*
 *part4	*	*part3	*	*part2	*	*part1	*
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*
@@ -38,6 +38,7 @@
 !	!	!	!	!	!	!LO:TX:a:t=pizz.	!
 .	[ > ]	.	.	.	.	8Gn~	.
 *clefC4	*	*	*	*	*	*	*
+*grp:B	*	*grp:A	*	*grp:A	*	*grp:A	*
 !	!	!LO:TX:b:t=am Steg	!	!LO:TX:a:t=am Steg	!	!	!
 12r	.	8ee-X~	pp <	8an`>~	pp <	8r	.
 !LO:N:head=dia:n=2	!	!	!	!	!	!LO:TX:a:t=arco	!
@@ -47,12 +48,14 @@
 12r	]	.	.	.	.	.	.
 4r	]	4enTT	pp > ]	4r	.	4r	.
 =3	=3	=3	=3	=3	=3	=3	=3
+*grp:B	*	*grp:B	*	*grp:B	*	*grp:B	*
 !	!	!LO:TX:b:t=am Steg	!	!	!	!LO:TX:a:B:t=tempo	!
 !	!	!	!	!	!	!LO:TUP:a	!
 12r	.	12r	.	12r	.	12r	.
 !LO:N:head=dia:n=2	!	!	!	!LO:N:head=dia:n=2	!	!LO:N:head=dia:n=2	!
 12Bn`~o 12en	pp <	12b-X~`	pp <	12fn~ 12b-X	pp <	12ccn~`o 12ffn	pp <
 12r	[	12r	[	12r	[	12r	[
+*grp:B	*	*grp:A	*	*grp:A	*	*grp:A	*
 12r	.	8r	.	4ff#XTT	pp <	8r	.
 !LO:N:head=dia:n=2	!	!	!	!	!	!	!
 6bn^o 6een	p <	.	.	.	.	.	.
@@ -60,15 +63,17 @@
 !	!	!LO:N:head=dia	!	!	!	!	!
 .	.	8cn`o	p	.	.	8aan'	pp
 *clefF4	*	*	*	*	*	*	*
+*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*
 !	!	!	!	!	!	!LO:TX:a:t=arco	!
 .	[	.	.	.	.	.	.
 8r	.	4r	.	4r	[	4G#X	p < [
 (8qCC#X/ 8qAAn	p <	.	.	.	.	.	.
-[8dno)	.	.	.	.	.	.	.
+[8dno)L	.	.	.	.	.	.	.
 !!linebreak:original
 *	*	*clefG2	*	*	*	*	*
 =4	=4	=4	=4	=4	=4	=4	=4
 *	*	*	*	*tremolo	*	*	*
+*grp:B	*	*grp:A	*	*grp:A	*	*grp:A	*
 !LO:TUP:a	!	!	!	!LO:N:head=dia:n=2	!	!LO:TX:a:t=pizz.	!
 !	!	!	!	!	!	!LO:TX:a:B:t=rit. – – –	!
 12dL]	[	8r	.	32ee-X 32aa-XoLLL	p <	8r	.
@@ -80,6 +85,7 @@
 !LO:N:head=dia:n=2	!	!	!	!	!	!	!
 12FFn`~oJ 12BB-X	p	.	.	.	.	.	.
 !	!	!	!	!	!	!LO:TUP:a	!
+*grp:A	*	*grp:A	*	*grp:A	*	*grp:B	*
 8.r	.	8bb-X	[	16r	.	12r	.
 .	.	.	.	8an`>~	ppp	.	.
 !	!	!	!	!	!	!LO:TX:a:t=arco	!
@@ -88,12 +94,14 @@
 .	.	.	.	.	.	12r	[
 !LO:TX:a:t=pizz.	!	!	!	!	!	!	!
 16FF#X'	pp	.	.	16r	.	.	.
+*grp:A	*	*grp:A	*	*grp:B	*	*grp:A	*
 4r	.	8gn)	.	12r	.	8r	.
 .	.	.	]	6cn	pp <	.	.
 !	!	!	!	!	!	!LO:TX:a:B:t=tempo	!
 !	!	!	!	!	!	!LO:N:head=dia:n=2	!
 .	.	8r	.	.	[[	[8ffn [8bb-Xo	p <
 =5	=5	=5	=5	=5	=5	=5	=5
+*grp:A	*	*grp:A	*	*grp:A	*	*grp:B	*
 !	!	!	!	!LO:N:head=dia:n=2	!	!LO:TUP:a	!
 4r	.	8r	.	4cc#X 4ff#Xo	f <	12ffL] 12bb-o]	[ f
 .	.	.	.	.	.	12rdd	.
@@ -115,6 +123,7 @@
 .	.	32e-X 32a-X	.	32ggn 32fff#X	.	.	.
 .	.	32e-X 32a-X	.	32ggn 32fff#X	.	.	.
 .	.	32e-X 32a-X	.	32ggn 32fff#X	.	.	.
+*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*
 .	.	32e-X 32a-X	.	32ggn 32fff#X	.	16r	.
 .	.	32e-X 32a-X	.	32ggn 32fff#X	.	.	.
 .	.	32e-X 32a-X	.	32ggn 32fff#X	.	16Bn~LL	f
@@ -128,14 +137,15 @@
 !	!	!	!	!	!	!LO:TX:a:t=rit.	!
 !	!	!	!	!	!	!LO:TX:a:i:t=(lang)	!
 4r;	.	4r;	.	4r;	.	4.ccc;]	>
+*grp:A	*	*grp:A	*	*grp:B	*	*grp:A	*
 !	!	!LO:N:head=dia:n=2	!	!LO:TX:a:t=pizz.	!	!	!
-8r	.	8C#X`>~o 8F#X	ppp	12r	.	.	.
+8r	.	8C#X`>~o 8F#Xr 8cc#yy	ppp	12r	.	.	.
 !	!	!	!	!LO:TX:a:i:t=sehr zart	!LO:DY:rj	!LO:TX:a:B:t=rit. – – –	!
 .	.	.	.	12dn~L	ppp <	.	pp ]
 *clefF4	*	*	*	*	*	*	*
 !LO:TX:t=P:problem:cue pitches not shown here	!	!	!	!	!	!	!
 !LO:SIC:v:t=Cautionary parentetical clef pitch not included	!	!	!	!	!	!	!
-(4CCryy 4EEnro 4eyy	pp >	8r	.	.	.	8r	.
+(4AAr 4EEnro 4eyy	pp >	8r	.	.	.	8r	.
 .	.	.	.	12B-X~J	[ >	.	.
 .	.	4r	.	8an~	.	16r	.
 .	.	.	.	.	.	[8.f#X	pp <
@@ -157,6 +167,7 @@
 .	.	8A-X`>~N	pp	.	> ]]	.	.
 *clefC4	*	*	*	*	*	*	*
 =8	=8	=8	=8	=8	=8	=8	=8
+*grp:A	*	*grp:A	*	*grp:A	*	*grp:A	*
 !LO:TX:b:t=am Steg	!	!	!	!	!	!	!
 2.ddntt	pp	4r	.	4r	.	4r	.
 *	*	*clefG2	*	*	*	*	*
