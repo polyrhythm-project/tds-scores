@@ -47,7 +47,8 @@
 .	.	8cc#~>J 8ee	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2
 *^	*	*	*	*	*	*	*
-*	*ped	*	*	*	*ped	*	*grp:B	*
+*grp:A	*grp:A	*grp:A	*grp:A	*	*grp:B	*	*grp:B	*
+*	*ped	*	*	*	*ped	*	*	*
 8r	1e^)	1ee^ 1eee)	8r~	.	4CCC#X 4GGGn	.	8ggg#XL 8cccc#X 8ggggn	.
 !	!	!	!	!	!LO:TX:b:t=1	!	!	!
 !	!	!	!	!	!LO:TX:b:t=4	!	!	!
@@ -60,7 +61,6 @@
 8a'< 8cc#J	.	.	8ee'>J 8aa 8ccc#	<	.	.	.	.
 .	.	.	.	.	.	.	[16ggg#XJk [16cccc#X [16ggggn	.
 *	*	*	*	*	*ped	*	*	*
-*	*	*	*	*	*grp:B	*	*	*
 8b-'<L 8dd#	.	.	8gg'>L 8bb- 8ddd#	.	8AAAAnL 8EEE-X	.	16ggg#KL] 16cccc#] 16gggg]	.
 !	!	!	!	!	!LO:TX:b:t=1	!	!	!
 !	!	!	!	!	!LO:TX:b:t=5	!	!	!
@@ -83,6 +83,7 @@
 =3	=3	=3	=3	=3	=3	=3	=3
 (4e^ 4a 4cc#	(4ee^ 4eee	8eeL	ff	16AAAAKL] 16EEE-X]	.	8.fff#XL 8.bbb 8.ffffn	.
 *	*	*	*	*ped	*	*	*
+*	*	*	*	*ped	*	*	*
 .	.	.	.	8CCC#X 8GGGn	.	.	.
 .	.	8aa~>J 8ccc#	.	.	.	.	.
 .	.	.	.	[16FFFnJk [16BBB	.	[16eeenJk [16aaa [16eeee-X	.
@@ -95,7 +96,6 @@
 4e^ 4a 4cc#	4ee^ 4eee	8eeL	.	8.CCC#L 8.GGG	.	16fff#KL] 16bbbn] 16ffff]	.
 .	.	.	.	.	.	8.eeeJ 8.aaa 8.eeee-	.
 .	.	8aa~>J 8ccc#	.	.	.	.	.
-*	*	*	*	*ped	*	*grp:A	*
 .	.	.	.	[16FFFJk [16BBB	.	.	.
 4Bn^ 4e 4g#X	4ddn^ 4dddn	8ddL	.	8FFFL] 8BBB]	.	4ggg# 4cccc# 4gggg	.
 *	*	*	*	*ped	*	*	*
@@ -103,13 +103,13 @@
 .	.	.	.	[16CCC#JJ [16GGG	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4
 *^	*	*	*	*	*	*	*
+*grp:A	*grp:A	*grp:A	*grp:A	*	*grp:A	*	*grp:A	*
 *	*ped	*	*	*	*	*	*	*
 8r	1dn^)	1ddn^ 1dddn)	8r~	p	16CCC#XKL] 16GGGnX]	.	2fff#X 2bbb 2ffffn	.
 *	*	*	*	*	*ped	*	*	*
 .	.	.	.	.	8.FFFnJ 8.BBB	.	.	.
 8fn'<L 8a	.	.	8ffn'>L 8aa	.	.	.	.	.
 *	*	*	*	*	*ped	*	*	*
-*	*	*	*	*	*grp:A	*	*	*
 !	!	!	!	!	!	!	!LO:TX:t=┐	!
 8e'< 8g#X 8b	.	.	8ee'> 8gg#X 8bb	.	4AAAA 4EEE-X	.	.	.
 8f'<J 8a	.	.	8ff'>J 8aa	<	.	.	.	.
@@ -141,6 +141,9 @@
 !!!EED: Jason Lee
 !!!EEV: 2021/09/28
 !!!EED2: Daniel Wright
+!!!EEV2: 2022/03/10
+!!!EED3: Bryan Bell
+!!!EEV3: 2023/06/16
 !!!Suter_Work_ID: Mes-18
 !!!Suter_Example_Number: 741
 !!!Suter_Example_ID: Mes-18/78/1-5 début
@@ -173,4 +176,3 @@
 !!!Birth_Date: 10-Dec-1908
 !!!Audio_Example_Quarter_Note_Tempo:
 !!!Audio_Example_Duration:
-!!!EEV2: 2022/03/10
