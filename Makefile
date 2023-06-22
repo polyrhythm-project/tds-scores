@@ -49,3 +49,8 @@ utf8:
 	(cd musicxml && ../$(RDSBIN)/utf16toutf8 *.xml)
 
 
+tempo:
+	$(RDSBIN)/insertTempoRecords kern/*.krn
+
+
+
