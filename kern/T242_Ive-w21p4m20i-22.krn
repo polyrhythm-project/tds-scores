@@ -22,7 +22,6 @@
 *C:	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*
 !!LO:TX:omd:tempo:a:t=[Largo risoluto]\n{[sixteenth]=184; [sixteenth]=192; [sixteenth]=184}
 *M2/4	*M2/4	*M2/4	*M6/16	*	*M6/16	*M6/16	*M2/4	*M2/4	*M2/4	*M2/4
-*	*	*	*	*	*	*	*	*	*	*
 !LO:T:n=1:b	!LO:T:n=1:b	!	!	!	!	!	!	!	!	!
 !LO:T:n=2:a	!LO:T:n=2:a	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!LO:DY:ed=brack	!	!
 *8ba	*	*	*	*	*	*	*	*	*	*
@@ -32,9 +31,6 @@
 *bar	*bar	*	*	*	*	*	*	*	*	*
 2CCCnX_ 2FFF#X_	2CC#X^^_ 2BB_	f >	16G	.	16CLL] 16B]	.	.	.	.	.
 .	.	.	(16BBJJ	.	16cJJ	.	.	.	.	.
-*	*	*	*	*	*	*	*	*	*	*
-*	*	*	*	*	*	*	*	*	*	*
-*	*	*	*	*	*	*	*	*	*	*
 !!LO:REH:t=21
 *	*	*	*M5/4	*	*M5/4	*M5/4	*M6/4	*M6/4	*M6/4	*M6/4
 *	*	*	*bar	*	*bar	*	*bar	*	*bar	*
@@ -58,7 +54,6 @@
 !	!	!	!	!	!	!	!LO:N:vis=20%3	!	!	!
 .	.	.	.	.	.	.	20%3d	.	.	.
 *	*	*	*	*	*	*	*Xlig	*	*	*
-*	*	*	*	*	*	*	*	*	*	*
 .	.	.	8CC^^:J [8GG: [8D#X:	.	[8C^^J [8B	.	.	.	.	.
 *	*	*	*	*	*	*	*lig	*	*	*
 !	!	!	!	!	!	!	!LO:N:vis=20%3	!	!	!
@@ -68,7 +63,6 @@
 !	!	!	!	!	!	!	!LO:N:vis=20%3	!	!	!
 .	.	.	.	.	.	.	20%3B-X	.	.	.
 .	.	.	[16CC^^:Jk [16GG: [16D#:	.	[16C^^Jk [16B	.	.	.	.	.
-*	*	*	*	*	*	*	*	*	*	*
 !	!	!	!	!	!	!	!LO:TX:a:B:t=5	!	!	!
 .	.	.	4CC] 4GG] 4D#]	.	4C] 4B]	.	.	.	2aa#	.
 !	!	!	!	!	!	!	!LO:N:vis=20%3	!	!	!
@@ -135,7 +129,8 @@
 !!!Example_End_Timestamp: 1:36
 !!!Example_End_Measure: 22
 !!!Example_Dataset: T
-!!!Editorial_Comments: No notated tempo. Example Start Notated Beat and Example Start Notated Beat Rate {sixteenth;sixteenth;sixteenth=184;192;184} calculated based on recording (https://open.spotify.com/track/1YxUcnLyCooIXNvLw5tkoD?si=m49OTPoRSBm-2rtzxZOnmw); tempo for audio synthesis {quarter=43} was calculated using a Digital Audio Workstation (DAW). Note that these bars do not all end at the same time, and do not align as notated on the page; this calculation was made based on the bar numbers written in the score, measuring up until the the barline marking measure 23; sixteenth-beats have been designated since other notated beats would require the division of beats to calculate the time; Ives confirms in a footnote that the sixteenth note \"remains constant in each part throughout\" (even though calculations for each line resulted in different totals: Violins I and II total 46 sixteenth notes in the excerpt, the Viola and Cello total 48, and the Piano, 44). Example Start Tempo Expression [Largo risoluto] based on most recent notated tempo expression (SWFU, m. 1). Full Unit Total Measures (24) excludes first time ending; if counting the smallest bars (piano part) and exclude the first time ending, Full Unit Total Measures is 29; unclear hoNote that these bars do not all end at the same time. I have made this calculation based on the bar numbers written in the score, measuring up until the the barline marking measure 23; the old total of 49 was reached in previous validation.
+!!!Editorial_Comments: No notated tempo. Example Start Notated Beat and Example Start Notated Beat Rate {sixteenth;sixteenth;sixteenth=184;192;184} calculated based on recording (https://open.spotify.com/track/1YxUcnLyCooIXNvLw5tkoD?si=m49OTPoRSBm-2rtzxZOnmw); tempo for audio synthesis {quarter=43} was calculated using a Digital Audio Workstation (DAW). Note that these bars do not all end at the same time, and do not align as notated on the page; this calculation was made based on the bar numbers written in the score, measuring up until the the barline marking measure 23; sixteenth-beats have been designated since other notated beats would require the division of beats to calculate the time; Ives confirms in a footnote that the sixteenth note \"remains constant in each part throughout\" (even though calculations for each line resulted in different totals: Violins I and II total 46 sixteenth notes in the excerpt, the Viola and Cello total 48, and the Piano, 44). Example Start Tempo Expression [Largo risoluto]
+ based on most recent notated tempo expression (SWFU, m. 1). Full Unit Total Measures (24) excludes first time ending; if counting the smallest bars (piano part) and exclude the first time ending, Full Unit Total Measures is 29; unclear hoNote that these bars do not all end at the same time. I have made this calculation based on the bar numbers written in the score, measuring up until the the barline marking measure 23; the old total of 49 was reached in previous validation.
 !!!Death_Place: New York,United States
 !!!Death_Date: 19-May-1954
 !!!Changing_Tsig: yes
