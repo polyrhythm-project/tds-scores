@@ -1,5 +1,6 @@
 
 
+KERN_TDS = kern
 RDSBIN = ../rds-scores/bin
 
 check: check-sibelius check-musicxml check-pdf check-kern
@@ -51,6 +52,16 @@ utf8:
 
 tempo:
 	$(RDSBIN)/insertTempoRecords kern/*.krn
+
+
+meta: metadata
+refs: metadata
+ref: metadata
+reference: metadata
+references: metadata
+reference-records: metadata
+metadata:
+	$(RDSBIN)/polymeta $(KERN_TDS)/*.krn
 
 
 
