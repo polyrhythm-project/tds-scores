@@ -20,9 +20,11 @@
 *clefG2	*	*clefG2	*	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*
-!!LO:TX:omd:tempo:a:t=Tempo I [Rasch]\n[quarter]=112
+!!LO:TX:omd:tempo:a:t=[quarter]=112\n
+!!LO:TX:omd:tempo:a:t=Tempo I [Rasch]
 *M4/4	*	*M4/4	*	*M4/4	*
 =6	=6	=6	=6	=6	=6
+
 !LO:TUP:num=3	!	!LO:TX:a:i:t=leicht	!	!	!
 12B-X'L 12d-X 12an	pp	(10eenL	p <	4f#X)	p
 12r'	.	.	.	.	.
@@ -66,7 +68,7 @@
 .	.	.	.	16a'	.
 [12EEE-X~	.	.	.	.	.
 .	.	.	.	16f'JJ	.
-!	!	!	!	!LO:TX:vgrp=1:t=Langsamer ([quarter]=72)	!
+!	!	!	!	!LO:TX:vgrp=1:t=Langsamer ([quarter]=72)\n	!
 8EEE-~] 8F#X 8Bn	.	8dn~ 8b-X 8ccc#])	pp ]	12r	.
 !	!	!	!	!LO:TX:a:t=arco	!
 .	.	.	.	(12dddnL	p >
@@ -130,3 +132,5 @@
 !!!Audio_Example_Quarter_Note_Tempo:
 !!!Audio_Example_Duration:
 !!!EEV: 2021/07/23
+!!!EED-tempo: Ève Poudrier
+!!!EEV: 2024/04/08
